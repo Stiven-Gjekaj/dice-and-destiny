@@ -50,4 +50,4 @@ Then run `./build.sh`.
 - Cover: full color with 3 mm bleed; spine width assumes ~0.057 mm per page. Check your printer's spine calculator and change `MM_PER_PAGE` in `cover.py` if needed.
 - A white box on the back cover is reserved for a barcode.
 
-See [NOTICE.md](NOTICE.md) for licensing.
+See [NOTICE.md](../NOTICE.md) for licensing.
