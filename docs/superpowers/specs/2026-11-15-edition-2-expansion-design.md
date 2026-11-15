@@ -199,6 +199,7 @@ systems workstream starts after the human approves Marks and Bonds.
 2. Classes and subclasses: 4 new classes, and the new subclasses. The
    session first gives the human 6 to 8 class concepts. The human chooses
    4. (Decision of the agent.)
+   The human chose: Captain, Shaper, Spiritbinder, and Apothecary.
 3. Optional systems: the 8 systems.
 4. Bestiary: monsters and NPCs.
 5. Treasure and GM tools: magic items, traps, tables, pantheons, downtime.
