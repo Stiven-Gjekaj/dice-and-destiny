@@ -39,6 +39,11 @@ class M:
         self.__dict__.update(locals()); del self.__dict__["self"]
         self.sc = [int(x) for x in abil.split()]
 
+    def ref(self):
+        """Give the name in lower case for use after "the". Remove a first "The " so that it does not show two times."""
+        name = self.name.lower()
+        return name[4:] if name.startswith("the ") else name
+
     def stats(self):
         tac, thp, pb = TARGET[self.cr]
         ac = self.ac or tac
@@ -111,7 +116,7 @@ class M:
         body += '<div class="mon-sec">Actions</div>'
         if self.multi > 1:
             names = sorted({a[0] for a in self.attacks})
-            body += f"<p><b><i>Multiattack.</i></b> The {html.escape(self.name.lower())} makes {['', 'one', 'two', 'three', 'four', 'five'][self.multi]} attacks{', using ' + ' or '.join(names) + ' in any combination' if len(names) > 1 else ''}.</p>"
+            body += f"<p><b><i>Multiattack.</i></b> The {html.escape(self.ref())} makes {['', 'one', 'two', 'three', 'four', 'five'][self.multi]} attacks{', using ' + ' or '.join(names) + ' in any combination' if len(names) > 1 else ''}.</p>"
         body += "".join(self.attack_line(a) for a in self.attacks)
         body += "".join(f"<p><b><i>{html.escape(n)}.</i></b> {self.fmt(t)}</p>" for n, t in self.actions)
         if self.bonus:
@@ -120,7 +125,7 @@ class M:
             body += '<div class="mon-sec">Reactions</div>' + "".join(f"<p><b><i>{html.escape(n)}.</i></b> {self.fmt(t)}</p>" for n, t in self.react)
         if self.leg:
             body += ('<div class="mon-sec">Legendary Actions</div>'
-                     f"<p class='small'><i>Legendary Action Uses: 3. Immediately after another creature's turn, the {html.escape(self.name.lower())} can expend a use to take one of the following actions. It regains all expended uses at the start of each of its turns.</i></p>"
+                     f"<p class='small'><i>Legendary Action Uses: 3. Immediately after another creature's turn, the {html.escape(self.ref())} can expend a use to take one of the following actions. It regains all expended uses at the start of each of its turns.</i></p>"
                      + "".join(f"<p><b><i>{html.escape(n)}.</i></b> {self.fmt(t)}</p>" for n, t in self.leg))
         desc = f'<p class="mon-desc"><i>{html.escape(self.desc)}</i></p>' if self.desc else ""
         return (f'<div class="monster"><h4 class="mon-name">{html.escape(self.name)}</h4>'
