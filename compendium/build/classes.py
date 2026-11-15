@@ -27,7 +27,7 @@ INFO = {
     tag="A primal warrior who channels rage into raw, unstoppable force.",
     role="Front-line tank &amp; damage", diff="Easy",
     play="Run at the biggest threat, Rage, and hit hard. You have the most HP in the game and resist physical damage while raging, so you're meant to be in the thick of it. Reckless Attack gives you advantage, at the cost of enemies getting advantage on you.",
-    build="Strength 15, Constitution 14, Dexterity 13. Greataxe. Background: Soldier. Take Great Weapon Fighting… no wait. Barbarians don't get Fighting Styles; just swing.",
+    build="Strength 15, Constitution 14, Dexterity 13. Greataxe. Background: Soldier. Barbarians get no Fighting Style. Rage and Reckless Attack do the work.",
     feats={
         "Rage": "Bonus action, no heavy armor. Lasts until end of your next turn and is extended by attacking or forcing a save (up to 10 minutes). While raging: resistance to Bludgeoning/Piercing/Slashing, +Rage Damage on Strength attacks, advantage on Strength checks and saves, no spellcasting or concentration.",
         "Unarmored Defense": "No armor: AC = 10 + Dex mod + Con mod (shield allowed).",
