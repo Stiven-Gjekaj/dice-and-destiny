@@ -180,6 +180,7 @@ REGISTRY = {
     "monsters": lambda m: [e.name for e in m.MON],
     "items": lambda m: [e[0] for e in m.ITEMS],
     "downtime": lambda m: [],
+    "classes": lambda m: [e["name"] for e in m.CLASSES],
 }
 
 
