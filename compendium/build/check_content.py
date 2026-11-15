@@ -46,8 +46,14 @@ PAGE_LIMIT = 700
 
 EM_DASH = chr(0x2014)
 TRADEMARKS = ("D&D", "D&amp;D", "Dungeons & Dragons", "Dungeons &amp; Dragons")
-AREA_WORDS = re.compile(r"\b(Cone|Sphere|Cube|Line|Cylinder|Emanation|each creature)\b", re.I)
-DAMAGE = re.compile(r"(\d+d\d+(?:\s*\+\s*\d+)?)\s+(?:\w+\s+)?damage", re.I)
+AREA_WORDS = re.compile(r"\b(Cone|Sphere|Cube|Line|Cylinder|Emanation|each creature|each target|wall|radius|up to \w+ (?:creatures|targets))\b", re.I)
+# Up to three words between the dice and "damage", for example "Fire or Cold damage".
+DAMAGE = re.compile(r"(\d+d\d+(?:\s*[+-]\s*\d+)?)\s+(?:[\w,]+\s+){0,3}?damage", re.I)
+SENTENCE = re.compile(r"(?<=[.!?])\s+")
+FEAT_TYPES = {"Origin", "General", "Fighting Style", "Epic Boon"}
+RARITIES = {"Common", "Uncommon", "Rare", "Very Rare", "Legendary", "Artifact"}
+SRD_CLASSES = {"barbarian", "bard", "cleric", "druid", "fighter", "monk", "paladin", "ranger",
+               "rogue", "sorcerer", "warlock", "wizard"}
 
 
 def duplicates(category, names):
@@ -60,13 +66,51 @@ def duplicates(category, names):
     return errors
 
 
+def _banned_pattern(b):
+    # Also match the plural forms, for example "beholders" and "slaadi".
+    return re.compile(rf"(?<![\w-]){re.escape(b)}(?:s|es|i)?(?![\w-])", re.I)
+
+
+def _straight(text):
+    return text.replace(chr(0x2019), "'").replace(chr(0x2018), "'")
+
+
 def forbidden(category, names, banned):
     errors = []
     for n in names:
         for b in banned:
-            if re.search(rf"(?<![\w-]){re.escape(b)}(?![\w-])", n, re.I):
+            if _banned_pattern(b).search(_straight(n)):
                 errors.append(f"{category}: '{n}' uses the name '{b}', which is not permitted")
     return errors
+
+
+def unknown_values(category, values, allowed):
+    """A value that the book does not know makes the book drop the entry."""
+    return [f"{category}: '{v}' is not one of {sorted(allowed)}" for v in values if v not in allowed]
+
+
+def bad_source(root, banned):
+    """Check the text of every Python file under root, also in folders that no check knows."""
+    import os
+    errors = []
+    for folder, dirs, files in os.walk(root):
+        dirs[:] = [d for d in dirs if d != "__pycache__"]
+        for f in sorted(files):
+            if f.endswith(".py"):
+                path = os.path.join(folder, f)
+                text = _straight(open(path, encoding="utf-8").read())
+                errors += bad_text(path, text)
+                errors += [f"{path}: uses the name '{b}', which is not permitted"
+                           for b in sorted(banned) if _banned_pattern(b).search(text)]
+    return errors
+
+
+def unregistered_packages(content_dir, registered):
+    import os
+    found = sorted(d for d in os.listdir(content_dir)
+                   if os.path.isfile(os.path.join(content_dir, d, "__init__.py")))
+    return [f"content: the package '{d}' is not registered in check_content.REGISTRY"
+            for d in found if d not in registered]
 
 
 def bad_text(where, text):
@@ -91,9 +135,14 @@ def monster_out_of_band(m):
     return errors
 
 
+def is_area(text):
+    return bool(AREA_WORDS.search(text))
+
+
 def spell_damage_too_high(name, level, text, area):
     cap = avg(SPELL_CAP[level][1 if area else 0]) * SPELL_MARGIN
-    found = [avg(d.replace(" ", "")) for d in DAMAGE.findall(text)]
+    # Damage in one sentence is added up ("2d10 Fire damage and 2d10 Cold damage").
+    found = [sum(avg(d.replace(" ", "")) for d in DAMAGE.findall(s)) for s in SENTENCE.split(text)]
     if found and max(found) > cap:
         return [f"spells: {name} (level {level}) deals {max(found)} average damage, above {cap:g}"]
     return []
@@ -119,45 +168,51 @@ def _strings(obj):
             yield from _strings(v)
 
 
-def check_all_content():
-    import content.backgrounds
-    import content.downtime
-    import content.feats
-    import content.items
-    import content.monsters
-    import content.species
-    import content.spells
-    import content.subclasses
+# Each content package and how to read the names of its entries.
+# A session that adds a package adds one line here. The check stops on a
+# package that is not in this list.
+REGISTRY = {
+    "subclasses": lambda m: [s[0] for subs in m.SUBS.values() for s in subs],
+    "species": lambda m: [e[0] for e in m.SPECIES],
+    "backgrounds": lambda m: [e[0] for e in m.BACKGROUNDS],
+    "feats": lambda m: [e[0] for e in m.FEATS],
+    "spells": lambda m: [e[0] for e in m.SPELLS],
+    "monsters": lambda m: [e.name for e in m.MON],
+    "items": lambda m: [e[0] for e in m.ITEMS],
+    "downtime": lambda m: [],
+}
 
-    names = {
-        "subclasses": [s[0] for subs in content.subclasses.SUBS.values() for s in subs],
-        "species": [e[0] for e in content.species.SPECIES],
-        "backgrounds": [e[0] for e in content.backgrounds.BACKGROUNDS],
-        "feats": [e[0] for e in content.feats.FEATS],
-        "spells": [e[0] for e in content.spells.SPELLS],
-        "monsters": [m.name for m in content.monsters.MON],
-        "items": [e[0] for e in content.items.ITEMS],
-    }
-    errors = []
-    for category, ns in names.items():
+
+def check_all_content():
+    import importlib
+    import os
+
+    root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "content")
+    errors = unregistered_packages(root, set(REGISTRY))
+    errors += bad_source(root, BANNED)
+    mods = {c: importlib.import_module(f"content.{c}") for c in REGISTRY}
+    for category, names in REGISTRY.items():
+        ns = names(mods[category])
         errors += duplicates(category, ns)
         errors += forbidden(category, ns, BANNED)
-    entries = {
-        "subclasses": content.subclasses.SUBS, "species": content.species.SPECIES,
-        "backgrounds": content.backgrounds.BACKGROUNDS, "feats": content.feats.FEATS,
-        "spells": content.spells.SPELLS, "monsters": content.monsters.MON,
-        "items": content.items.ITEMS, "downtime": content.downtime.STRONGHOLDS,
-    }
-    for category, data in entries.items():
-        for s in _strings(data):
-            errors += bad_text(category, s)
-    for m in content.monsters.MON:
+
+    # The source check above does not see escapes such as "\\u2014". Check the loaded values too.
+    for category, mod in mods.items():
+        for value in [v for k, v in vars(mod).items() if k.isupper()]:
+            for text in _strings(value):
+                errors += bad_text(category, text)
+
+    new_classes = set(getattr(mods.get("classes"), "CLASS_KEYS", []))
+    errors += unknown_values("subclasses", list(mods["subclasses"].SUBS), SRD_CLASSES | new_classes)
+    errors += unknown_values("feats", [e[1] for e in mods["feats"].FEATS], FEAT_TYPES)
+    errors += unknown_values("items", [e[2] for e in mods["items"].ITEMS], RARITIES)
+    for m in mods["monsters"].MON:
         errors += monster_out_of_band(m)
-    for s in content.spells.SPELLS:
-        name, level, desc = s[0], s[1], s[10]
+    for sp in mods["spells"].SPELLS:
+        name, level, desc = sp[0], sp[1], sp[10]
         if name in SPELL_EXCEPTIONS:
             continue
-        errors += spell_damage_too_high(name, level, desc, bool(AREA_WORDS.search(desc)))
+        errors += spell_damage_too_high(name, level, desc, is_area(desc))
     return errors
 
 

@@ -65,9 +65,60 @@ def test_too_many_pages(tmp_path):
     assert too_many_pages(str(pdf), limit=2) == []
 
 
+# ---- Fixes from the review of the foundation ----
+from check_content import (bad_source, unknown_values, unregistered_packages)
+from monster_engine import avg
+
 
 def test_avg_counts_flat_bonus():
-    from monster_engine import avg
     assert avg("1d8+3") == 7
     assert avg("2d6-1") == 6
     assert avg("2d6") == 7
+
+
+def test_spell_damage_with_two_words_before_damage_is_checked():
+    assert len(spell_damage_too_high("T", 1, "takes 8d10 Fire or Cold damage", False)) == 1
+
+
+def test_spell_damage_in_one_sentence_is_added_up():
+    text = "The target takes 2d10 Fire damage and 2d10 Cold damage."
+    assert len(spell_damage_too_high("T", 1, text, False)) == 1
+    two = "The target takes 2d10 Fire damage. Next turn, it takes 2d10 Cold damage."
+    assert spell_damage_too_high("T", 1, two, False) == []
+
+
+def test_area_words_include_wall_radius_and_several_targets():
+    from check_content import is_area
+    assert is_area("You create a wall of fire")
+    assert is_area("in a 20-foot radius")
+    assert is_area("up to three creatures you can see")
+    assert not is_area("one creature you can see")
+
+
+def test_forbidden_catches_plurals_and_curly_apostrophes():
+    banned = {"beholder", "mind flayer", "slaad", "baldur's gate"}
+    assert len(forbidden("m", ["Beholders"], banned)) == 1
+    assert len(forbidden("m", ["Mind Flayers"], banned)) == 1
+    assert len(forbidden("m", ["Slaadi"], banned)) == 1
+    assert len(forbidden("m", ["Baldur’s Gate"], banned)) == 1
+
+
+def test_unknown_values_reports_keys_that_the_book_drops():
+    assert len(unknown_values("subclasses", ["bard", "Bard", "warden"], {"bard"})) == 2
+    assert unknown_values("feats", ["General"], {"General"}) == []
+
+
+def test_bad_source_checks_every_file_in_a_new_folder(tmp_path):
+    (tmp_path / "npcs").mkdir()
+    (tmp_path / "npcs" / "a.py").write_text("X = ['a D&D guard " + chr(0x2014) + " tall']\n")
+    (tmp_path / "npcs" / "b.py").write_text("X = ['a beholder friend']\n")
+    errors = bad_source(str(tmp_path), {"beholder"})
+    assert len(errors) == 3
+
+
+def test_unregistered_packages_are_reported(tmp_path):
+    for name in ("monsters", "npcs"):
+        (tmp_path / name).mkdir()
+        (tmp_path / name / "__init__.py").write_text("")
+    (tmp_path / "__pycache__").mkdir()
+    assert unregistered_packages(str(tmp_path), {"monsters"}) == ["content: the package 'npcs' is not registered in check_content.REGISTRY"]
