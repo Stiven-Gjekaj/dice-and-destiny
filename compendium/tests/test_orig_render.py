@@ -19,3 +19,14 @@ def test_feature_text_escapes_the_label():
 
 def test_feature_text_keeps_single_brackets():
     assert feature_text("[a] and [[b]") == "[a] and [[b]"
+
+
+def test_subclass_order_adds_new_classes_that_have_subclasses():
+    from orig_render import ORDER, subclass_order
+    subs = {"barbarian": [], "captain": [("A", "", [])]}
+    assert subclass_order(subs, ["captain", "shaper"]) == ORDER + ["captain"]
+
+
+def test_subclass_order_is_the_srd_order_without_new_classes():
+    from orig_render import ORDER, subclass_order
+    assert subclass_order({"bard": []}, []) == ORDER

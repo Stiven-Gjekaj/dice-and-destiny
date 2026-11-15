@@ -30,9 +30,15 @@ def sub_names(c):
     return [s[0] for s in SUBS[c]]
 
 
+def subclass_order(subs, new_keys):
+    """The SRD classes, then each new class that has subclasses, in the order of new_keys."""
+    return ORDER + [k for k in new_keys if k in subs and k not in ORDER]
+
+
 def subclasses_html():
+    from content.classes import CLASS_KEYS
     out = []
-    for c in ORDER:
+    for c in subclass_order(SUBS, CLASS_KEYS):
         out.append(f'<h2>{c.capitalize()} Subclasses</h2><div class="cols2 compendium">')
         for name, tag, feats in SUBS[c]:
             out.append(f'<div class="entry"><h4 class="sp-name">{E(name)}</h4><div class="sp-meta"><i>{c.capitalize()} subclass · {E(tag)}</i></div>')
