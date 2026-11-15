@@ -45,6 +45,7 @@ body {{ margin: 0; width: {tw}mm; height: {th}mm; position: relative; overflow: 
 .front .inner {{ position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 0 26mm; }}
 .kicker {{ font-family: Inter, sans-serif; letter-spacing: .32em; font-size: 9pt; color: #c99a3e; text-transform: uppercase; margin-bottom: 10mm; }}
 h1 {{ font-family: "GFS Baskerville", Caladea, serif; font-weight: normal; font-size: 44pt; line-height: 1.02; margin: 0; color: #f6e7c8; }}
+.compat {{ font-family: Inter, sans-serif; letter-spacing: .12em; font-size: 8pt; color: #c99a3e; text-transform: uppercase; margin-top: 8mm; }}
 .subt {{ font-style: italic; font-size: 13pt; color: #e2cfa8; margin-top: 10mm; }}
 .icons {{ display: flex; gap: 5mm; justify-content: center; margin-top: 12mm; }}
 .cb {{ width: 11mm; height: 11mm; border-radius: 50%; border: 1pt solid #c99a3e; display: inline-flex; align-items: center; justify-content: center; }}
@@ -68,12 +69,13 @@ h1 {{ font-family: "GFS Baskerville", Caladea, serif; font-weight: normal; font-
   <div class="small">Includes material from the System Reference Document 5.2 by Wizards of the Coast LLC, licensed under CC-BY-4.0. Not affiliated with or endorsed by Wizards of the Coast.</div>
   <div class="barcode"></div>
 </div></div>
-<div class="panel spine"><div class="st">{b["title"]}<span>◆</span>5E 2024</div></div>
+<div class="panel spine"><div class="st">Dice &amp; Destiny<span>◆</span>{b["title"]}</div></div>
 <div class="panel front"><div class="frame"></div><div class="inner">
-  <div class="kicker">Fifth Edition · 2024 Rules</div>
+  <div class="kicker">Dice &amp; Destiny</div>
   <h1>{b["t1"]}<br>{b["t2"]}</h1>
   <div style="margin-top:12mm">{big_d20(230)}</div>
   <div class="subt">{b["sub"]}</div>
+  <div class="compat">A rules-compatible guide for fifth edition (2024)</div>
   <div class="icons">{ic}</div>
 </div><div class="foot">Unofficial Reference · {pages} pages</div></div>
 </body></html>''', spine, tw, th

@@ -6,8 +6,8 @@ export PYTHONPATH="$PWD/build:$PWD/content${PYTHONPATH:+:$PYTHONPATH}"
 python3 build/build.py player gm
 python3 build/cover.py player gm
 mkdir -p dist
-cp player.pdf "dist/Player's Compendium - Interior (A4, B&W).pdf"
-cp gm.pdf "dist/Game Master's Compendium - Interior (A4, B&W).pdf"
-cp player_cover.pdf "dist/Player's Compendium - Cover (color, with bleed).pdf"
-cp gm_cover.pdf "dist/Game Master's Compendium - Cover (color, with bleed).pdf"
+cp player.pdf "dist/Dice & Destiny - Player's Compendium - Interior (A4, B&W).pdf"
+cp gm.pdf "dist/Dice & Destiny - Game Master's Compendium - Interior (A4, B&W).pdf"
+cp player_cover.pdf "dist/Dice & Destiny - Player's Compendium - Cover (color, with bleed).pdf"
+cp gm_cover.pdf "dist/Dice & Destiny - Game Master's Compendium - Cover (color, with bleed).pdf"
 echo "Done. PDFs are in dist/"

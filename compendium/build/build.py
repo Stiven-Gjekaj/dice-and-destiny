@@ -96,12 +96,13 @@ def _dark_text(svg):
 def front(name):
     f = FRONT[name]
     return f'''<section class="titlepage">
-<div class="kicker">Fifth Edition · 2024 Rules · Unofficial Reference</div>
+<div class="kicker">Dice &amp; Destiny</div>
 <h1>{f["title"]}</h1><div class="rule"></div>
 <div>{_dark_text(gray(big_d20(150, "#111")))}</div>
-<div class="sub" style="margin-top:8mm">{f["sub"]}</div></section>
+<div class="sub" style="margin-top:8mm">{f["sub"]}</div>
+<div class="compat">A rules-compatible guide for fifth edition (2024)</div></section>
 <section class="credits">
-<p><b>{f["title"].replace("<br>", " ")}</b></p>
+<p><b>Dice &amp; Destiny: {f["title"].replace("<br>", " ")}</b></p>
 <p>An unofficial, fan-made reference compiled for personal use at the table. Not affiliated with, endorsed, sponsored, or approved by Wizards of the Coast. Dungeons &amp; Dragons is a trademark of Wizards of the Coast LLC.</p>
 <p>This work includes material from the System Reference Document 5.2 ("SRD 5.2") by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.</p>
 <p>Explanatory chapters, examples, tips, icons and layout are original to this book, as is everything in the Expanded Options and Expanded Bestiary &amp; Treasure parts (subclasses, backgrounds, species, feats, spells, monsters, magic items and strongholds); that original content is not part of the SRD 5.2. Subclasses, backgrounds and other options mentioned by name but not included in the SRD 5.2 are referenced only; see the official Player's Handbook and Dungeon Master's Guide for their rules. The encounter-building and improvised-damage tables follow the 2024 Dungeon Master's Guide. The "Lazy GM" prep checklist is by Michael E. Shea (Sly Flourish).</p>
