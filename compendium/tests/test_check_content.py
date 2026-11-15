@@ -50,9 +50,9 @@ def test_spell_damage_above_curve_fails():
 
 
 def test_spell_damage_uses_area_curve_for_area_spells():
-    # 3d6 (10) is above the level 1 area cap 2d6 (7) times 1.25, but not above the single-target cap.
-    assert len(spell_damage_too_high("T", 1, "takes 3d6 Fire damage", True)) == 1
-    assert spell_damage_too_high("T", 1, "takes 3d6 Fire damage", False) == []
+    # 4d6 (14) is above the level 1 area cap 10 times 1.25, but not above the single-target cap 14 times 1.25.
+    assert len(spell_damage_too_high("T", 1, "takes 4d6 Fire damage", True)) == 1
+    assert spell_damage_too_high("T", 1, "takes 4d6 Fire damage", False) == []
 
 
 def test_too_many_pages(tmp_path):
@@ -122,3 +122,21 @@ def test_unregistered_packages_are_reported(tmp_path):
         (tmp_path / name / "__init__.py").write_text("")
     (tmp_path / "__pycache__").mkdir()
     assert unregistered_packages(str(tmp_path), {"monsters"}) == ["content: the package 'npcs' is not registered in check_content.REGISTRY"]
+
+
+def test_level_9_single_target_curve_matches_power_word_kill():
+    # Power Word Kill ends a creature with 100 Hit Points or fewer, so the level 9 curve is 99.
+    assert spell_damage_too_high("T", 9, "takes 20d10 Force damage", False) == []
+    assert len(spell_damage_too_high("T", 9, "takes 30d10 Force damage", False)) == 1
+
+
+def test_every_srd_spell_passes_the_curve():
+    # The curve must not be stricter than the free rules that the books print.
+    import json
+    import os
+    from check_content import is_area
+    path = os.path.join(os.path.dirname(__file__), "..", "data", "all_spells.json")
+    failures = []
+    for s in json.load(open(path)):
+        failures += spell_damage_too_high(s["name"], s["level"], s["desc"], is_area(s["desc"]))
+    assert failures == []

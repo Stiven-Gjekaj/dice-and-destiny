@@ -25,11 +25,14 @@ BANNED = {
     "elder brain", "star spawn", "hook horror", "hookhorror",
 }
 
-# Spell damage curve: level to (single target, area). A spell may go 25% above it.
+# Spell damage curve: level to (single target, area), in average damage.
+# Each value is the highest damage of an SRD 5.2 spell of that level and kind,
+# or a higher value from a level below (a higher level never has a lower cap).
+# Level 9 single target is 99, near Power Word Kill (100 Hit Points).
+# A spell may go 25% above the curve. A test checks that every SRD spell passes.
 SPELL_CAP = {
-    0: ("1d10", "1d6"), 1: ("2d10", "2d6"), 2: ("3d10", "4d6"), 3: ("5d10", "6d6"),
-    4: ("6d10", "7d6"), 5: ("8d10", "8d6"), 6: ("10d10", "11d6"), 7: ("11d10", "12d6"),
-    8: ("12d10", "13d6"), 9: ("15d10", "14d6"),
+    0: (6, 4), 1: (14, 10), 2: (16, 14), 3: (27, 28), 4: (36, 37),
+    5: (49, 37), 6: (75, 75), 7: (75, 75), 8: (75, 75), 9: (99, 140),
 }
 SPELL_MARGIN = 1.25
 
@@ -38,10 +41,6 @@ AC_ABOVE_TARGET = 4
 AC_FLOOR = 5
 # The current monsters use HP multipliers from 1.0 to 1.1. The range adds a margin of 0.1.
 HP_MULT = (0.9, 1.2)
-
-# These spells go above the curve. They were in the books before this check.
-# The human decides if they change. Until then, the check skips them.
-SPELL_EXCEPTIONS = {"Storm Lance", "Sunder the Veil", "Tidal Collapse", "Unmaking"}
 
 PAGE_LIMIT = 700
 
@@ -141,7 +140,7 @@ def is_area(text):
 
 
 def spell_damage_too_high(name, level, text, area):
-    cap = avg(SPELL_CAP[level][1 if area else 0]) * SPELL_MARGIN
+    cap = SPELL_CAP[level][1 if area else 0] * SPELL_MARGIN
     # Damage in one sentence is added up ("2d10 Fire damage and 2d10 Cold damage").
     found = [sum(avg(d.replace(" ", "")) for d in DAMAGE.findall(s)) for s in SENTENCE.split(text)]
     if found and max(found) > cap:
@@ -211,8 +210,6 @@ def check_all_content():
         errors += monster_out_of_band(m)
     for sp in mods["spells"].SPELLS:
         name, level, desc = sp[0], sp[1], sp[10]
-        if name in SPELL_EXCEPTIONS:
-            continue
         errors += spell_damage_too_high(name, level, desc, is_area(desc))
     return errors
 
