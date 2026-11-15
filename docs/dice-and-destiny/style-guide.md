@@ -139,20 +139,21 @@ The target table (from `monster_engine.py`):
 
 The highest damage of a spell must not be more than 25% above this curve.
 The build checks it. "Area" means the text has a Cone, Sphere, Cube, Line,
-Cylinder, Emanation, or "each creature".
+Cylinder, Emanation, wall, radius, "each creature", "each target", or "up to
+N creatures". Damage in one sentence is added up. The values are average
+damage. Each value is the damage of the strongest SRD spell of that level
+and kind, so every SRD spell passes the check.
 
-| Level | Single target | Area |
-|---|---|---|
-| Cantrip | 1d10 | 1d6 |
-| 1 | 2d10 | 2d6 |
-| 2 | 3d10 | 4d6 |
-| 3 | 5d10 | 6d6 |
-| 4 | 6d10 | 7d6 |
-| 5 | 8d10 | 8d6 |
-| 6 | 10d10 | 11d6 |
-| 7 | 11d10 | 12d6 |
-| 8 | 12d10 | 13d6 |
-| 9 | 15d10 | 14d6 |
+| Level | Single target | Area | SRD spell at the limit |
+|---|---|---|---|
+| Cantrip | 6 | 4 | Poison Spray, Produce Flame |
+| 1 | 14 | 10 | Guiding Bolt, Burning Hands |
+| 2 | 16 | 14 | Acid Arrow, Shatter |
+| 3 | 27 | 28 | Fireball |
+| 4 | 36 | 37 | Blight, Vitriolic Sphere |
+| 5 | 49 | 37 | Contagion |
+| 6 to 8 | 75 | 75 | Disintegrate |
+| 9 | 99 | 140 | Power Word Kill, Meteor Swarm |
 
 A spell that does not deal damage must have an effect that is equal to an
 SRD spell of the same level. Name that SRD spell in the batch summary.
