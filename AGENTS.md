@@ -36,7 +36,8 @@ They also apply to a change that you start without a request.
 ### Text that is exempt
 
 Some text is for players and readers, not for the people who keep the
-repository. The rules in this section do not apply to that text.
+repository. That text does not have to be in STE. The rules against the
+em-dash and the emoji still apply to it.
 
 - The book text in `compendium/books/`.
 - The text strings in `compendium/content/`. These are the names and the
@@ -46,6 +47,10 @@ repository. The rules in this section do not apply to that text.
 
 All other text stays in STE. This includes the code, the comments, the
 documentation, the commit messages, and the notes for the DM.
+
+Do not use an em-dash anywhere in this repository. This includes the book
+text, the read-aloud text, and the PDFs. The build changes each em-dash in
+the SRD text, and the release workflow stops if a PDF has one.
 
 ## Commits
 
