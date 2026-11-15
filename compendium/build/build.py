@@ -145,6 +145,7 @@ def expand(name):
         "{{O_SPELLS}}": lambda: orig.spells_html(), "{{O_BEST_IDX}}": lambda: orig.bestiary_index_html(),
         "{{O_BEST}}": lambda: orig.bestiary_html(), "{{O_ITEMS_IDX}}": lambda: orig.items_index_html(),
         "{{O_ITEMS}}": lambda: orig.items_html(), "{{O_STRONG}}": lambda: orig.strongholds_html(),
+        "{{O_CLASSES}}": lambda: __import__("render_classes").classes_html(),
     }
     for k, f in reps.items():
         if k in s:
