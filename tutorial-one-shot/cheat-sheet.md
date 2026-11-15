@@ -6,6 +6,17 @@ Print one copy for each player. Everything here is in the 2024 rules.
 
 You tell the DM what your character does. The DM tells you if you must roll.
 
+## Distance
+
+This game uses no feet and no squares. It uses three words:
+
+- **Close:** next to a creature. You need this for a melee attack.
+- **Near:** in the same room. One move takes you there.
+- **Far:** at the other end of a big hall, or out of the room. A Dash takes
+  you there.
+
+You can shoot or cast a spell at any creature that you can see.
+
 ## The d20 test
 
 1. Roll a d20 (the big die with 20 sides).
@@ -39,8 +50,8 @@ roll. You can have only one at a time.
 
 On your turn, you can do each of these one time, in any order:
 
-- **Move:** up to your speed. You can split the move, before and after your
-  action.
+- **Move:** go to one place near you. For example, go close to an enemy, or
+  go behind cover. You can move before or after your action.
 - **Action:** one main thing. See the list below.
 - **Bonus action:** only if a feature or spell says "bonus action."
 - **Talk:** a short sentence or a shout.
@@ -56,7 +67,7 @@ spell or an opportunity attack.
 |--------|--------------|
 | Attack | Attack with a weapon. |
 | Magic | Cast a spell or use a magic item. |
-| Dash | Move your speed again. |
+| Dash | Move one more time. Use it to get far. |
 | Disengage | Your move does not let enemies make opportunity attacks this turn. |
 | Dodge | Attacks against you have disadvantage until your next turn. |
 | Help | Give an ally advantage on their next check or attack. |
@@ -69,7 +80,7 @@ spell or an opportunity attack.
 
 ### Opportunity attack
 
-When an enemy that you can see leaves your reach, you can use your reaction to
+When an enemy that is close to you moves away, you can use your reaction to
 make one melee attack against it.
 
 ## Attacks and damage
