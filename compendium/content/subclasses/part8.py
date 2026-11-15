@@ -1,0 +1,28 @@
+# Original subclasses, part 8: the subclasses of the Captain
+# Format: class -> list of (name, tagline, [(level, feature, text), ...])
+# In a feature text, [[label]] shows the label in bold.
+SUBS = {}
+
+SUBS["captain"] = [
+("Standard-Bearer", "Captains who carry the colors into the thick of the fight, where everyone can see them.", [
+ (3, "Plant the Standard", "As a Bonus Action, you can plant your standard (a banner, a spear with a pennant, or a similar item) in your space or an unoccupied space within 5 feet of you. It lasts for 1 minute, until you plant it again, or until you are more than 60 feet from it. While it stands, you and your allies within 10 feet of it add 1 to their AC, and when you give an Order to an ally within 10 feet of it, add your Intelligence modifier to the roll of the Command Die. You can plant your standard a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."),
+ (3, "Colors Bearer", "While you hold your standard in one hand, you can still use a Shield or a One-Handed weapon in the other, and the standard counts as a Simple weapon (a Spear) that you can use with your Weapon Mastery."),
+ (7, "Rally to Me", "When you plant your standard, each ally of your choice who can see it can take a Reaction to move up to half its Speed toward it without provoking Opportunity Attacks."),
+ (11, "Unfallen Colors", "The area of your planted standard increases to 20 feet. You and your allies in the area have Advantage on Death Saving Throws, and when an ally in the area drops to 0 Hit Points, you can spend one Command Die (no action required) to let it regain Hit Points equal to one roll of your Command Die + your Intelligence modifier."),
+ (15, "Last Banner Standing", "While your standard is planted, enemies within its area have Disadvantage on saving throws against the Frightened condition, and once on each of your turns, you can give an Order to an ally in the area without spending a Command Die. You can use this free Order a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."),
+]),
+("Quartermaster", "Captains who know that wars are won by food, rope, and the right potion at the right time.", [
+ (3, "Well Supplied", "You gain proficiency with two of these: Cook's Utensils, the Herbalism Kit, or Tinker's Tools. When you finish a Long Rest, you can prepare a number of field supplies equal to your Intelligence modifier (minimum of one). Each one lasts until your next Long Rest. A creature can take a Bonus Action to use one, or you can hand one to an ally within 5 feet as part of an Order. A supply restores Hit Points equal to one roll of your Command Die + your Intelligence modifier, and it ends the Poisoned condition on the creature."),
+ (3, "Pass It Here", "You can take the Utilize action or drink a potion as a Bonus Action. When you give an Order, you can also give the ally a potion or a field supply if it is within 5 feet of you; the ally can drink it as part of the Reaction of the Order, or right away if the Order uses no Reaction."),
+ (7, "Forced March", "You and up to six companions who travel with you can travel at a fast pace without the penalty to Wisdom (Perception) checks, and you need half the normal rations and water. When you finish a Short Rest, you can prepare one new field supply, up to your normal number."),
+ (11, "Emergency Stores", "Your field supplies restore twice the normal number of Hit Points. When an ally within 30 feet of you drops to 0 Hit Points, you can take a Reaction to throw it a field supply; it uses the supply immediately."),
+ (15, "Everything We Need", "Once per Long Rest, when you finish a Short Rest, you and a number of allies who rested with you up to your Intelligence modifier (minimum of one) each regain one use of a feature that recharges on a Long Rest and that has a limited number of uses. This can't restore a spell slot or a use of a feature that restores spell slots, such as Arcane Recovery."),
+]),
+("Spymaster", "Captains who win the battle before it starts, because they already know the enemy's plan.", [
+ (3, "Network", "You gain proficiency in two of these skills: Deception, Insight, Investigation, or Stealth. In a settlement, you can spend 1 hour and 10 GP to learn one useful rumor or fact about a person, place, or group, as the GM decides."),
+ (3, "Countermand", "You learn a new Order that you give to an enemy instead of an ally. [[Belay That!]] Choose a creature you can see within 30 feet of you. It makes a Wisdom saving throw against your Order save DC. On a failed save, it can't take Reactions until the start of your next turn, and it subtracts one roll of your Command Die from the next attack roll it makes before then."),
+ (7, "Read Their Plans", "As a Bonus Action, you can study a creature you can see within 60 feet of you. The GM tells you its highest and its lowest saving throw modifier, and whether it has Immunity or Resistance to any damage type. Once you study a creature, you can't study it again until you finish a Short or Long Rest."),
+ (11, "Sleeper Agent", "When an enemy you can see within 30 feet of you fails a saving throw against your Belay That!, an ally of your choice within 30 feet of it can take a Reaction to make one weapon attack against it."),
+ (15, "Seen It Coming", "When you roll Initiative, you can choose a number of creatures up to your Intelligence modifier (minimum of one) that you can see. Each chosen enemy makes a Wisdom saving throw against your Order save DC. On a failed save, it rolls its Initiative again and uses the lower roll. Each chosen ally has Advantage on its first attack roll in the combat."),
+]),
+]
