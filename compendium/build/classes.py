@@ -487,7 +487,7 @@ def render_class(c):
     out.append(f'</dl><p class="small muted">{info["other"]} <b>Original subclasses in this book (Chapter 24):</b> {", ".join(orig_render.sub_names(c))}.</p>')
     out.append(ideas_block(c))
     import compendium as comp
-    out.append(f'<h2>{icon("scroll",16)}{name}: Full Rules Text</h2><p class="small muted">The complete official wording of every {name} feature, for settling rules questions at the table.</p>')
+    out.append(f'<h2>{icon("scroll",16)}{name}: Full Rules Text</h2><p class="small muted">The complete SRD 5.2 wording of every {name} feature, for settling rules questions at the table.</p>')
     out.append(f'<div class="cols2 compendium fulltext">{comp.class_full_text(c)}</div>')
     sub = comp.subclass_full_text(c)
     if sub:

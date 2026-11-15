@@ -403,14 +403,25 @@ RULE_ORDER = ["Rhythm of Play", "The Six Abilities", "D20 Tests", "Proficiency",
               "Exploration", "Combat", "Damage and Healing", "Create Your Character", "Multiclassing"]
 
 
+# The SRD text names the trademark in some sentences. These replacements remove the name.
+NEUTRAL = [("pillars of D&D play", "pillars of play"), ("sit down to play D&D)", "sit down to play)"),
+           ("seasoned D&D players", "seasoned players")]
+
+
+def neutral(text):
+    for a, b in NEUTRAL:
+        text = text.replace(a, b)
+    return text
+
+
 def rules_html(names=RULE_ORDER):
     rs = {r["name"]: r for r in load("all_rulesets.json")}
     out = []
     for n in names:
         r = rs[n]
-        out.append(f'<h2>{esc(n)}</h2>{md(r.get("desc", ""))}')
+        out.append(f'<h2>{esc(n)}</h2>{md(neutral(r.get("desc", "")))}')
         for x in sorted(r["rules"], key=lambda x: x.get("index") or 0):
-            out.append(f'<h3>{esc(x["name"])}</h3>{md(x["desc"])}')
+            out.append(f'<h3>{esc(x["name"])}</h3>{md(neutral(x["desc"]))}')
     return "\n".join(out)
 
 

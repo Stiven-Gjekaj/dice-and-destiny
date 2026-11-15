@@ -18,7 +18,7 @@ BOOKS = {
  "player": dict(title="The Player's Compendium", t1="The Player's", t2="Compendium",
    sub="Build a hero. Learn the rules. Master your class.",
    back="From your first roll to level 20 — every rule a player needs.",
-   bullets=["A friendly guide to dice, abilities, combat, magic and leveling up", "All twelve classes with level tables, plain-English feature guides and the complete official rules text",
+   bullets=["A friendly guide to dice, abilities, combat, magic and leveling up", "All twelve classes with level tables, plain-English feature guides and the complete SRD 5.2 rules text",
             "Every species, background and feat of the 2024 System Reference Document", "All 339 spells with full descriptions, plus spell lists for every class",
             "Expanded options: 36 original subclasses, new species, backgrounds, feats and 47 new spells",
             "Equipment, the complete rules reference, conditions, a glossary and a blank character sheet"],
@@ -65,7 +65,7 @@ h1 {{ font-family: "GFS Baskerville", Caladea, serif; font-weight: normal; font-
 </style></head><body>
 <div class="panel back"><div class="frame"></div><div class="inner">
   <h2>{b["back"]}</h2><ul>{bl}</ul><div class="rule"></div>
-  <p style="font-style:italic;color:#e2cfa8;font-size:10pt">Fifth Edition · 2024 Rules · Unofficial reference for players and Game Masters.</p>
+  <p style="font-style:italic;color:#e2cfa8;font-size:10pt">Compatible with the fifth edition (2024) rules. For players and Game Masters.</p>
   <div class="small">Includes material from the System Reference Document 5.2 by Wizards of the Coast LLC, licensed under CC-BY-4.0. Not affiliated with or endorsed by Wizards of the Coast.</div>
   <div class="barcode"></div>
 </div></div>
@@ -77,7 +77,7 @@ h1 {{ font-family: "GFS Baskerville", Caladea, serif; font-weight: normal; font-
   <div class="subt">{b["sub"]}</div>
   <div class="compat">A rules-compatible guide for fifth edition (2024)</div>
   <div class="icons">{ic}</div>
-</div><div class="foot">Unofficial Reference · {pages} pages</div></div>
+</div><div class="foot">Dice &amp; Destiny · {pages} pages</div></div>
 </body></html>''', spine, tw, th
 
 
