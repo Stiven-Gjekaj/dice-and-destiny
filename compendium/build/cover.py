@@ -66,7 +66,7 @@ h1 {{ font-family: "GFS Baskerville", Caladea, serif; font-weight: normal; font-
 <div class="panel back"><div class="frame"></div><div class="inner">
   <h2>{b["back"]}</h2><ul>{bl}</ul><div class="rule"></div>
   <p style="font-style:italic;color:#e2cfa8;font-size:10pt">Compatible with the fifth edition (2024) rules. For players and Game Masters.</p>
-  <div class="small">Includes material from the System Reference Document 5.2 by Wizards of the Coast LLC, licensed under CC-BY-4.0. Not affiliated with or endorsed by Wizards of the Coast.</div>
+  <div class="small">Includes material from the System Reference Document 5.2 by Wizards of the Coast LLC, licensed under CC-BY-4.0. Not affiliated with or endorsed by Wizards of the Coast. Original content © 2026 Stiven Gjekaj, licensed under CC BY-NC-SA 4.0.</div>
   <div class="barcode"></div>
 </div></div>
 <div class="panel spine"><div class="st">Dice &amp; Destiny<span>◆</span>{b["title"]}</div></div>

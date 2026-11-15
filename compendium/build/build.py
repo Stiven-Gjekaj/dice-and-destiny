@@ -103,8 +103,9 @@ def front(name):
 <div class="compat">A rules-compatible guide for fifth edition (2024)</div></section>
 <section class="credits">
 <p><b>Dice &amp; Destiny: {f["title"].replace("<br>", " ")}</b></p>
+<p>Copyright © 2026 Stiven Gjekaj. The original text and content of this book are licensed under CC BY-NC-SA 4.0 (creativecommons.org/licenses/by-nc-sa/4.0). You can share and adapt them for non-commercial use if you give credit and share your changes under the same license.</p>
 <p>An independent work. Not affiliated with, endorsed, sponsored, or approved by Wizards of the Coast. Dungeons &amp; Dragons is a trademark of Wizards of the Coast LLC.</p>
-<p>This work includes material from the System Reference Document 5.2 ("SRD 5.2") by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.</p>
+<p>This work includes material from the System Reference Document 5.2 ("SRD 5.2") by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode. The SRD 5.2 text in this book is changed: it is reorganized and laid out again, and some sentences no longer name the trademark.</p>
 <p>Explanatory chapters, examples, tips, icons and layout are original to this book, as is everything in the Expanded Options and Expanded Bestiary &amp; Treasure parts (subclasses, backgrounds, species, feats, spells, monsters, magic items and strongholds); that original content is not part of the SRD 5.2. Subclasses, backgrounds and other options mentioned by name but not included in the SRD 5.2 are referenced only; see the Player's Handbook and Dungeon Master's Guide for their rules. The encounter-building and improvised-damage tables follow the 2024 Dungeon Master's Guide. The "Lazy GM" prep checklist is by Michael E. Shea (Sly Flourish).</p>
 <p>Printed in black and white on A4 paper.</p>
 </section>'''
