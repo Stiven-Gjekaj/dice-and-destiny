@@ -6,6 +6,7 @@ import content.feats
 import content.species
 import content.spells
 from content.subclasses import SUBS
+import content.downtime
 import content.items
 from content.monsters import MON
 from monster_engine import crs, XP
@@ -138,7 +139,7 @@ def items_html():
 
 
 def strongholds_html():
-    return content.items.part3.STRONGHOLDS
+    return content.downtime.STRONGHOLDS
 
 
 if __name__ == "__main__":
