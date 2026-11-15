@@ -403,3 +403,51 @@ takes 2 fire damage. Use it one time only.
 gold coins of the old kingdom and one shield in good condition. A character
 who searches the racks (Wisdom (Perception), DC 10) finds 10 arrows and 2
 javelins.
+
+---
+
+## Scene 5: A short rest (10 minutes)
+
+**Goal:** Teach the Short Rest and Hit Point Dice. Give the players time to
+talk to each other as their characters.
+
+Wick tells the characters to rest before they go into the chapel.
+
+> Wick hops on the edge of the well. "The steward always said: never fight a
+> big dog when you are tired. Actually, the steward said: never fight a big
+> dog. But you have to. So rest first."
+
+> **Teach: the Short Rest.** "A Short Rest takes one hour. During the rest,
+> you can spend Hit Point Dice to heal. Look at your sheet. Roll the die and
+> add your Constitution modifier. You get that many HP back. You have only a
+> few Hit Point Dice. You get them back on a Long Rest, after a full night of
+> sleep."
+
+Go around the table. Remind each player what comes back:
+
+| Character | What comes back on a Short Rest |
+|-----------|---------------------------------|
+| The Shield | 1 use of Second Wind |
+| The Light | Nothing at level 1. Spell slots need a Long Rest. |
+| The Spark | 1 spell slot (Arcane Recovery) |
+| The Shadow | Nothing special |
+| The Storm | 1 use of Rage |
+
+All characters can drink from the well. It is cold and clean.
+
+### The campfire talk (optional)
+
+If you have time, give the players one question to talk about as their
+characters. Do not ask for a roll. Choose one:
+
+- "Wick asks: what is the first thing that you want to eat when you get
+  out?"
+- "Who in this group did you trust the least before the sleep? Why?"
+- "Each of you hears a sound from the chapel. It sounds like a voice that you
+  know. Whose voice is it?"
+
+> **Teach: the game is not only fights.** "In D&D, you can talk as your
+> character, also when nothing happens. This is often the best part."
+
+**To save time:** Skip the questions. Say "An hour passes," let the players
+roll Hit Point Dice, and go on.
