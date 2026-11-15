@@ -208,3 +208,94 @@ light.
 > **Teach: light and darkvision.** "Wick gives bright light for 20 feet. Some
 > of you have darkvision on your sheet. You see in the dark, but only in grey.
 > The others need Wick to see."
+
+---
+
+## Scene 3: The Stair of Teeth (15 minutes)
+
+**Goal:** Teach Perception, saving throws, damage, and hit points.
+
+> A long stair goes down into the dark. The steps are old, and some are
+> broken. In the walls on both sides are thin dark slots, one above each
+> step. The air smells of dust and old metal.
+>
+> Wick whispers: "The Stair of Teeth. The steward built it to stop thieves.
+> I do not remember the safe way. Sorry. Three hundred years."
+
+### The trap
+
+On the eighth step, a pressure plate fires blades out of the slots.
+
+- **Find it:** A character who looks at the stair can make a Wisdom
+  (Perception) check, DC 12. On a success, the character sees that one step
+  is a different color. A character who studies the slots can make an
+  Intelligence (Investigation) check, DC 12, to see how the trap works.
+- **Passive Perception:** If no player asks to look, check the passive
+  Perception of each character. It is on the sheet. A score of 14 or more
+  notices the step. Of the pregens, only the Shadow has this.
+
+> **Teach: passive Perception.** "Your sheet has a number called passive
+> Perception. I use it when you do not ask to look. It is what your character
+> notices without trying."
+
+- **Avoid it:** When the characters know about the step, they step over it.
+  No roll. Tell the players: "Good thinking saves you a roll."
+- **Disarm it:** The Shadow can jam the plate with thieves' tools.
+  Dexterity (Sleight of Hand) check, DC 10. On a failure, the trap fires.
+
+### If the trap fires
+
+> A click. Then a sound like a hundred knives out of a hundred sheaths.
+> Blades swing out of the walls.
+
+Each character on the stair makes a Dexterity saving throw, DC 12.
+
+> **Teach: the saving throw.** "This is a saving throw. It is not something
+> that you try to do. It is something that happens to you, and you try to
+> resist it. Roll a d20 and add your Dexterity save. It is on your sheet,
+> under Dexterity."
+
+- **Fail:** 3 (1d6) slashing damage.
+- **Success:** No damage. The character ducks just in time.
+
+> **Teach: damage and hit points.** "Roll a d6. That is the damage. Take it
+> away from your HP. HP are hit points. They show how much more you can take.
+> At 0, you fall down."
+
+Make the trap low risk. A character at 1 HP after the trap is a problem for
+Scene 4. If a character has very low HP, let Wick say: "Oh dear. You look
+terrible. There is a well in the armory. Drink." The water heals 1d4 HP one
+time.
+
+### The Bell Gate (optional)
+
+Cut this part if you are short on time. Then the gate at the bottom is open.
+
+> At the bottom of the stair is an iron gate. It is closed. Next to it hang
+> three small bells. The first bell has a black circle on it. The second has
+> a star. The third has a sun.
+>
+> Above the gate is a painting, faded and old. It shows the sky over the
+> keep. On the left side of the painting, the sky is black. In the middle,
+> stars come out. On the right side, the sun comes up.
+
+**Solution:** Ring the bells in the order of the painting: the black circle,
+then the star, then the sun. This also matches the motto in Scene 1: "We
+sleep so that the dawn can wake."
+
+**Hints:**
+
+- Intelligence (History), DC 10: The character remembers that the Dawnwatch
+  marched at night and arrived at dawn.
+- Intelligence (Investigation), DC 10: The rope of the black circle bell is
+  the most worn.
+- Wick: "I think it is the order of the sky? Or the order of my favorite
+  colors? No, that is gold, then gold, then gold."
+
+**Wrong order:** Ash falls from the ceiling. Each character near the gate
+makes a Constitution saving throw, DC 10. On a fail, the character coughs
+and has disadvantage on the next ability check. This shows that different
+saving throws use different abilities.
+
+**Right order:** The gate swings open with a long, sad sound. Wick sings a
+short song of victory. It is bad.
