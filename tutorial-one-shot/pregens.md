@@ -382,3 +382,93 @@ a dark hooded cloak, a backpack, and a crowbar.
 - **HP:** +7 (new maximum 17). Hit Point Dice: 2d8.
 - **Cunning Action:** On each of your turns, you can Dash, Disengage, or Hide
   as a bonus action.
+
+---
+
+## 5. The Storm
+
+**Name:** ______________ (suggestions: Oska, Thrund, Vala)
+
+Goliath Barbarian 1. Background: Farmer.
+
+You were the muscle of the Dawnwatch. Before that, you worked on a farm in the
+mountains. You did not want to sleep for a long time. Battle makes you angry,
+and anger makes you strong.
+
+**Before question:** "You did not want to go into the crystal. Why did you
+agree at the end?"
+
+### Your best moves
+
+- **Rage** (bonus action, 2 uses): you deal +2 damage with Strength attacks,
+  and you take half damage from weapons and claws.
+- **Attack** with your greataxe: roll d20 + 5. On a hit, deal 1d12 + 3
+  (1d12 + 5 when you rage).
+- **Cleave:** when you hit with the greataxe, you can make one more attack
+  against a different enemy next to you.
+
+### Numbers
+
+| AC | HP | Speed | Initiative | Passive Perception |
+|----|----|-------|------------|--------------------|
+| 13 | 16 | 35 ft | +1 | 13 |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|-----|-----|-----|-----|-----|-----|
+| 17 (+3) | 13 (+1) | 15 (+2) | 8 (-1) | 12 (+1) | 10 (+0) |
+| Save +5 | Save +1 | Save +4 | Save -1 | Save +1 | Save +0 |
+
+**Skills:** Animal Handling +3, Athletics +5, Nature +1, Perception +3.
+
+**Hit Point Dice:** 1d12.
+
+### Attacks
+
+| Weapon | Attack | Damage | Notes |
+|--------|--------|--------|-------|
+| Greataxe | +5 | 1d12 + 3 slashing | Two hands. Mastery: Cleave |
+| Handaxe (2) | +5 | 1d6 + 3 slashing | Thrown 20/60 ft. Mastery: Vex |
+
+### Features
+
+- **Rage:** As a bonus action, you start to rage. You have 2 uses. You get 1
+  use back on a Short Rest, and all uses on a Long Rest. While you rage:
+  - You deal +2 damage with attacks that use Strength.
+  - You have resistance to bludgeoning, piercing, and slashing damage. You
+    take half damage from those types.
+  - You have advantage on Strength checks and Strength saving throws.
+  - You cannot cast spells or concentrate.
+  - The rage lasts until the end of your next turn. It continues if you
+    attack an enemy, force an enemy to make a saving throw, or use a bonus
+    action to continue it. It lasts 10 minutes at most.
+- **Unarmored Defense:** When you do not wear armor, your AC is 10 + your
+  Dexterity modifier + your Constitution modifier.
+- **Weapon Mastery:**
+  - *Cleave (greataxe):* When you hit a creature, you can make one more
+    attack roll against a second creature within 5 feet of the first one and
+    within your reach. On a hit, it takes the weapon damage without your
+    ability modifier. You can do this one time on each of your turns.
+  - *Vex (handaxe):* When you hit and deal damage, you have advantage on your
+    next attack roll against that creature before the end of your next turn.
+- **Tough:** Your hit point maximum includes +2 for each level. This is
+  already in your HP.
+- **Stone's Endurance (Goliath):** When you take damage, you can use your
+  reaction to roll 1d12 + 2. You reduce the damage by that number. You have 2
+  uses. You get them back on a Long Rest.
+- **Powerful Build (Goliath):** You have advantage on checks to end the
+  grappled condition. You count as one size larger when you carry heavy
+  things.
+
+### Equipment
+
+Greataxe, 2 handaxes, carpenter's tools, a sickle, a backpack, a bedroll, and
+a wool cloak.
+
+### At level 2
+
+- **HP:** +11 (new maximum 27). Hit Point Dice: 2d12.
+- **Reckless Attack:** On your turn, you can attack with advantage on
+  Strength attacks. Until your next turn, attack rolls against you also have
+  advantage.
+- **Danger Sense:** You have advantage on Dexterity saving throws, if you are
+  not incapacitated.
