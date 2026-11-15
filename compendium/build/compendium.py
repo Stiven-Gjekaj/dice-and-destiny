@@ -87,7 +87,7 @@ def spell_html(s):
         ct += f", {esc(s['reaction_condition'])}"
     if s["ritual"]:
         ct += " or Ritual"
-    dur = s["duration"].capitalize() if s["duration"] else "—"
+    dur = s["duration"].capitalize() if s["duration"] else "–"
     if s["concentration"]:
         dur = "Concentration, up to " + s["duration"]
     classes = ", ".join(x["name"] for x in s["classes"])
@@ -98,7 +98,7 @@ def spell_html(s):
     return (f'<div class="spell"><h4 class="sp-name">{esc(s["name"])}</h4>'
             f'<div class="sp-meta"><i>{spell_line(s)} ({classes})</i></div>'
             f'<div class="sp-stats"><b>Casting Time:</b> {ct}<br><b>Range:</b> {esc(s["range_text"])}<br>'
-            f'<b>Components:</b> {", ".join(comps) or "—"}<br><b>Duration:</b> {esc(dur)}</div>'
+            f'<b>Components:</b> {", ".join(comps) or "–"}<br><b>Duration:</b> {esc(dur)}</div>'
             f'<div class="sp-desc">{md(s["desc"])}{hl}</div></div>')
 
 
@@ -327,8 +327,8 @@ def money(c):
     try:
         v = float(c)
     except Exception:
-        return "—"
-    if v == 0: return "—"
+        return "–"
+    if v == 0: return "–"
     if v >= 1: return f"{v:,.0f} GP" if v == int(v) else f"{v:g} GP"
     if v * 10 >= 1 and abs(v * 10 - round(v * 10)) < 1e-9: return f"{v * 10:g} SP"
     return f"{v * 100:g} CP"
@@ -338,8 +338,8 @@ def weight(i):
     try:
         w = float(i["weight"])
     except Exception:
-        return "—"
-    return "—" if w == 0 else f"{w:g} lb."
+        return "–"
+    return "–" if w == 0 else f"{w:g} lb."
 
 
 def equipment_html(cats, with_desc=True, title=None):
@@ -412,6 +412,7 @@ def neutral(text):
     for a, b in NEUTRAL:
         text = text.replace(a, b)
     return text
+
 
 
 def rules_html(names=RULE_ORDER):

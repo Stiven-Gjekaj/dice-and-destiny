@@ -32,7 +32,7 @@ def avg(expr, bonus=0):
 
 
 class M:
-    def __init__(self, name, size, typ, align, cr, abil, ac=None, speed="30 ft.", senses="", lang="—", res="",
+    def __init__(self, name, size, typ, align, cr, abil, ac=None, speed="30 ft.", senses="", lang="–", res="",
                  skills="", saves="", traits=(), attacks=(), multi=1, actions=(), bonus=(), react=(), leg=(),
                  hp=1.0, desc=""):
         self.__dict__.update(locals()); del self.__dict__["self"]

@@ -1,4 +1,4 @@
-# Original subclasses — part 3: Rogue, Sorcerer, Warlock, Wizard
+# Original subclasses, part 3: Rogue, Sorcerer, Warlock, Wizard
 SUBS = {}
 
 SUBS["rogue"] = [
@@ -26,22 +26,22 @@ SUBS["rogue"] = [
 ]
 
 SUBS["sorcerer"] = [
-("Starborn Sorcery", "Your power fell from the sky — the light of a dying star lives in you.", [
- (3, "Starlit Spells", "Always prepared — level 3: Guiding Bolt, Faerie Fire, Moonbeam, See Invisibility; level 5: Daylight, Fly; level 7: Guardian of Faith, Dimension Door; level 9: Wall of Force, Scrying."),
+("Starborn Sorcery", "Your power fell from the sky. The light of a dying star lives in you.", [
+ (3, "Starlit Spells", "Always prepared. Level 3: Guiding Bolt, Faerie Fire, Moonbeam, See Invisibility; level 5: Daylight, Fly; level 7: Guardian of Faith, Dimension Door; level 9: Wall of Force, Scrying."),
  (3, "Twinkling Aura", "While Innate Sorcery is active, you shed Bright Light in a 10-foot radius and the first creature you hit with a spell each turn takes extra Radiant damage equal to your Charisma modifier."),
  (6, "Constellations", "After each Long Rest choose one: The Archer (+2 to spell attack rolls), The Shield (+1 AC and Advantage on Concentration saves), or The Lantern (allies within 10 feet have Advantage on saving throws against Frightened and Blinded)."),
  (14, "Supernova", "As a Magic action you spend 6 Sorcery Points: each creature of your choice within 30 feet makes a Constitution save, taking 8d10 Radiant damage and having the Blinded condition until the end of its next turn on a failure, or half damage on a success."),
  (18, "Falling Star", "Once per Long Rest, you can cast Meteor Swarm without a spell slot, its damage fully Radiant."),
 ]),
 ("Frostblood Sorcery", "Winter in your veins: your magic freezes everything it touches.", [
- (3, "Cold Heart", "You have Resistance to Cold damage, and you are unaffected by extreme cold. Always prepared — level 3: Ray of Frost, Hold Person; level 5: Sleet Storm; level 7: Ice Storm; level 9: Cone of Cold."),
+ (3, "Cold Heart", "You have Resistance to Cold damage, and you are unaffected by extreme cold. Always prepared. Level 3: Ray of Frost, Hold Person; level 5: Sleet Storm; level 7: Ice Storm; level 9: Cone of Cold."),
  (3, "Rime Spells", "When you deal Cold damage to a creature with a spell, its Speed is reduced by 10 feet until the start of your next turn."),
  (6, "Glacier Skin", "As a Reaction when you take damage, spend 2 Sorcery Points to gain Temporary Hit Points equal to 2d8 + your Sorcerer level."),
  (14, "Shatterpoint", "When a creature whose Speed you've reduced takes Cold damage from you, it takes an extra 2d8 Cold damage. If this reduces it to 0 Hit Points, it shatters into ice."),
  (18, "Avatar of Winter", "For 1 minute (once per Long Rest), you have Immunity to Cold damage, your Cold damage ignores Resistance and Immunity, and enemies within 15 feet of you have their Speed halved."),
 ]),
-("Bloodsong Sorcery", "Magic carried in your heartbeat — and paid for in blood.", [
- (3, "Vital Font", "As a Bonus Action you can lose Hit Points equal to 1d6 per Sorcery Point to regain that many Sorcery Points (maximum equal to your Proficiency Bonus per Long Rest). These Hit Points can't be reduced in any way. Always prepared — level 3: False Life, Ray of Sickness, Hold Person; level 5: Vampiric Touch; level 7: Blight; level 9: Contagion."),
+("Bloodsong Sorcery", "Magic carried in your heartbeat, and paid for in blood.", [
+ (3, "Vital Font", "As a Bonus Action you can lose Hit Points equal to 1d6 per Sorcery Point to regain that many Sorcery Points (maximum equal to your Proficiency Bonus per Long Rest). These Hit Points can't be reduced in any way. Always prepared. Level 3: False Life, Ray of Sickness, Hold Person; level 5: Vampiric Touch; level 7: Blight; level 9: Contagion."),
  (3, "Crimson Spells", "When a creature fails a saving throw against one of your spells, it also takes Necrotic damage equal to your Charisma modifier."),
  (6, "Hemocraft", "When you deal Necrotic damage with a spell, you can regain Hit Points equal to half the damage dealt, once per turn."),
  (14, "Sanguine Shield", "When you're hit by an attack, spend 3 Sorcery Points as a Reaction to gain +5 AC against it and all attacks until the start of your next turn."),
@@ -51,7 +51,7 @@ SUBS["sorcerer"] = [
 
 SUBS["warlock"] = [
 ("The Drowned King", "Your patron is a dead monarch who rules the bottom of the sea.", [
- (3, "Drowned King Spells", "Always prepared — level 3: Fog Cloud, Hold Person, Create or Destroy Water; level 5: Water Breathing, Sleet Storm; level 7: Control Water, Black Tentacles; level 9: Cone of Cold, Insect Plague."),
+ (3, "Drowned King Spells", "Always prepared. Level 3: Fog Cloud, Hold Person, Create or Destroy Water; level 5: Water Breathing, Sleet Storm; level 7: Control Water, Black Tentacles; level 9: Cone of Cold, Insect Plague."),
  (3, "Tidebound", "You gain a Swim Speed equal to your Speed and can breathe water."),
  (3, "Drowning Grasp", "Once per turn when you hit a creature with a spell attack, you can force it to make a Strength save or be pulled 10 feet toward you and have its Speed reduced to 0 until the start of your next turn."),
  (6, "Brine Ward", "You have Resistance to Cold damage, and when a creature within 10 feet hits you, you can take a Reaction to drench it: it has Disadvantage on its next attack roll."),
@@ -59,7 +59,7 @@ SUBS["warlock"] = [
  (14, "Call of the Deep", "Once per Long Rest as a Magic action, each creature of your choice within 30 feet makes a Charisma save or is dragged to a drowning dream until the end of your next turn: it is Incapacitated and takes 10d6 Cold damage (half and not Incapacitated on a success)."),
 ]),
 ("The Hungry Library", "A sentient archive that trades forbidden knowledge for more knowledge.", [
- (3, "Library Spells", "Always prepared — level 3: Identify, Comprehend Languages, Detect Thoughts; level 5: Tongues, Clairvoyance; level 7: Arcane Eye, Locate Creature; level 9: Legend Lore, Scrying."),
+ (3, "Library Spells", "Always prepared. Level 3: Identify, Comprehend Languages, Detect Thoughts; level 5: Tongues, Clairvoyance; level 7: Arcane Eye, Locate Creature; level 9: Legend Lore, Scrying."),
  (3, "Marginalia", "You gain Expertise in two of Arcana, History, Nature and Religion."),
  (3, "Borrowed Words", "After each Long Rest choose one cantrip from any class's spell list. You know it until your next Long Rest; it counts as a Warlock spell for you."),
  (6, "Overdue Notice", "When a creature you can see casts a spell, you can take a Reaction to learn its name and level. Once per Long Rest, you can also cast that spell once within the next minute using a Pact Magic slot, if its level is no higher than your slot level."),
@@ -67,7 +67,7 @@ SUBS["warlock"] = [
  (14, "Restricted Section", "Once per Long Rest you can cast any spell of level 6 or lower from any class's list without a spell slot."),
 ]),
 ("The Wild Gambler", "A patron of luck, risk and impossible odds.", [
- (3, "Gambler Spells", "Always prepared — level 3: Bane, Bless, Blur; level 5: Bestow Curse, Haste; level 7: Freedom of Movement, Confusion; level 9: Mislead, Dream."),
+ (3, "Gambler Spells", "Always prepared. Level 3: Bane, Bless, Blur; level 5: Bestow Curse, Haste; level 7: Freedom of Movement, Confusion; level 9: Mislead, Dream."),
  (3, "Loaded Dice", "After each Long Rest roll three d20s and record the results. Once per turn, you can replace an attack roll, ability check or saving throw made by you or a creature you can see with one of these results; you must do so before the roll. Unused results vanish on your next Long Rest."),
  (6, "Double or Nothing", "When you cast a spell with a Pact Magic slot, you can roll a d6. On a 4 or higher, you regain the slot. On a 1, you take Psychic damage equal to twice the slot's level × 5. Once per Short Rest."),
  (10, "Stack the Deck", "You roll four d20s for Loaded Dice instead of three."),
@@ -90,7 +90,7 @@ SUBS["wizard"] = [
  (10, "Iron Frame", "Your servant becomes Large, gains Resistance to Bludgeoning, Piercing and Slashing damage, and its Slam deals 2d8 + PB."),
  (14, "Grand Golem", "Once per Long Rest your servant can become Huge for 1 minute: its reach becomes 15 feet, it makes two Slams per turn, and each Slam can knock the target Prone (Strength save against your spell save DC)."),
 ]),
-("Mnemonist", "Wizards who study memory — their own and everyone else's.", [
+("Mnemonist", "Wizards who study memory: their own and everyone else's.", [
  (3, "Memory Palace", "You can prepare two additional Wizard spells. You have perfect recall of anything you've seen or heard in the last month."),
  (3, "Steal Memory", "As a Magic action, a creature you touch makes an Intelligence save or forgets the last 10 minutes; you learn what it forgot. Once per Long Rest, or by expending a level 2+ spell slot."),
  (6, "Forgotten Face", "As a Bonus Action you can make a creature you can see forget your presence until the end of its next turn (Intelligence save negates): you're Invisible to it."),

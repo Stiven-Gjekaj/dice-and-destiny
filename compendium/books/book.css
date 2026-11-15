@@ -27,7 +27,7 @@
 .blankpage { page: blank; break-before: page; height: 10mm; }
 .blankpage + * { break-before: page; }
 
-/* title page (interior — no heavy ink) */
+/* title page (interior: no heavy ink) */
 .titlepage { page: front; height: 255mm; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; break-after: page; }
 .titlepage .kicker { font-family: "Inter", sans-serif; letter-spacing: .3em; font-size: 9pt; color: #555; text-transform: uppercase; margin-bottom: 8mm; }
 .titlepage h1 { font-family: "GFS Baskerville", "Caladea", serif; font-weight: normal; font-size: 40pt; line-height: 1.05; margin: 0 0 6mm; color: #111; }

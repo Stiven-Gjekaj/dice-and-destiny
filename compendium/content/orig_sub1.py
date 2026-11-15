@@ -1,4 +1,4 @@
-# Original subclasses — part 1: Barbarian, Bard, Cleric, Druid
+# Original subclasses, part 1: Barbarian, Bard, Cleric, Druid
 # Format: class -> list of (name, tagline, [(level, feature, text), ...])
 SUBS = {}
 
@@ -49,21 +49,21 @@ SUBS["bard"] = [
 
 SUBS["cleric"] = [
 ("Hearth Domain", "Gods of home, shelter and the shared table.", [
- (3, "Hearth Domain Spells", "Always prepared — level 3: Heroism, Sanctuary, Aid, Calm Emotions; level 5: Create Food and Water, Protection from Energy; level 7: Guardian of Faith, Aura of Life; level 9: Hallow, Greater Restoration."),
+ (3, "Hearth Domain Spells", "Always prepared. Level 3: Heroism, Sanctuary, Aid, Calm Emotions; level 5: Create Food and Water, Protection from Energy; level 7: Guardian of Faith, Aura of Life; level 9: Hallow, Greater Restoration."),
  (3, "Warm Welcome", "As a Magic action you expend a use of Channel Divinity to fill a 30-foot Emanation with comforting warmth for 1 minute. Allies in it when you use this feature gain Temporary Hit Points equal to 1d6 + your Cleric level, and allies in it have Advantage on saving throws against the Frightened condition."),
  (3, "Blessed Meal", "During a Short Rest, you can prepare a simple meal. Each creature that eats it regains an extra 1d4 Hit Points for each Hit Die it spends during that rest."),
  (6, "Shield the Flock", "When an ally within 30 feet of you takes damage, you can take a Reaction to reduce the damage by 1d8 + your Wisdom modifier. You can use this feature a number of times equal to your Wisdom modifier (minimum once), regaining all uses when you finish a Long Rest."),
  (17, "Eternal Hearth", "Allies in your Warm Welcome emanation also have Resistance to all damage, and when you use Warm Welcome you regain one expended spell slot of level 5 or lower."),
 ]),
 ("Tide Domain", "Deities of the sea, the moon's pull and the patience of water.", [
- (3, "Tide Domain Spells", "Always prepared — level 3: Fog Cloud, Create or Destroy Water, Gust of Wind, Hold Person; level 5: Water Breathing, Sleet Storm; level 7: Control Water, Freedom of Movement; level 9: Cone of Cold, Commune with Nature."),
+ (3, "Tide Domain Spells", "Always prepared. Level 3: Fog Cloud, Create or Destroy Water, Gust of Wind, Hold Person; level 5: Water Breathing, Sleet Storm; level 7: Control Water, Freedom of Movement; level 9: Cone of Cold, Commune with Nature."),
  (3, "Undertow", "As a Magic action you expend a use of Channel Divinity. Each creature of your choice in a 15-foot Cone makes a Strength saving throw. On a failure, a creature takes Cold damage equal to 2d8 + your Cleric level, is pulled up to 10 feet toward you and has the Prone condition. On a success, it takes half damage only."),
  (3, "Saltborn", "You gain a Swim Speed equal to your Speed and can breathe water."),
  (6, "Ebb and Flow", "When you restore Hit Points to a creature with a spell, you can also move that creature up to 10 feet (no opportunity attacks) or push one hostile creature within 5 feet of it up to 10 feet away."),
  (17, "Tidal Avatar", "As a Bonus Action you become a churning column of water for 1 minute (once per Long Rest, or by expending a level 5+ spell slot). You gain a Fly Speed of 30 feet, Resistance to Bludgeoning, Piercing and Slashing damage, and each enemy that starts its turn within 10 feet of you takes 2d8 Cold damage."),
 ]),
 ("Ash Domain", "Gods of the pyre, of endings that make way for beginnings.", [
- (3, "Ash Domain Spells", "Always prepared — level 3: Burning Hands, False Life, Gentle Repose, Scorching Ray; level 5: Revivify, Speak with Dead; level 7: Death Ward, Fire Shield; level 9: Flame Strike, Raise Dead."),
+ (3, "Ash Domain Spells", "Always prepared. Level 3: Burning Hands, False Life, Gentle Repose, Scorching Ray; level 5: Revivify, Speak with Dead; level 7: Death Ward, Fire Shield; level 9: Flame Strike, Raise Dead."),
  (3, "Rekindle", "As a Magic action you expend a use of Channel Divinity and touch a creature that has 0 Hit Points. It regains Hit Points equal to 2d8 + your Cleric level and can stand up without spending movement."),
  (3, "Pyre's Mercy", "When a creature within 30 feet of you drops to 0 Hit Points, you can take a Reaction to deal Fire damage equal to your Wisdom modifier + your Proficiency Bonus to one hostile creature within 5 feet of it."),
  (6, "Ashen Veil", "When you cast a spell with a spell slot that deals Fire damage or restores Hit Points, you can wreathe yourself in drifting ash until the start of your next turn: attack rolls against you have Disadvantage."),
@@ -86,7 +86,7 @@ SUBS["druid"] = [
  (10, "Rootbind", "When a creature within 30 feet of you fails a saving throw against one of your spells, roots grip it: its Speed becomes 0 until the end of its next turn."),
  (14, "Verdant Rebirth", "If you drop to 0 Hit Points while Thornhide is active, you instead drop to 1 Hit Point and gain Temporary Hit Points equal to five times your Druid level. Once you use this feature, you can't do so again until you finish a Long Rest."),
 ]),
-("Circle of Bones", "Druids of the carrion cycle — scavengers, rot and return.", [
+("Circle of Bones", "Druids of the carrion cycle: scavengers, rot and return.", [
  (3, "Grave Shape", "When you use Wild Shape, you can make your beast form skeletal. While in it, you have Resistance to Necrotic and Poison damage and your attacks can deal Necrotic damage instead of their normal type."),
  (3, "Carrion Speech", "You can cast Speak with Dead without a spell slot, targeting only beasts, once per Long Rest. You always have Speak with Dead prepared."),
  (6, "Return to the Soil", "When a creature within 30 feet of you dies, you or an ally within 30 feet of it gains Temporary Hit Points equal to your Wisdom modifier + your Druid level (once per turn)."),

@@ -26,8 +26,8 @@ INFO = {
 "barbarian": dict(
     tag="A primal warrior who channels rage into raw, unstoppable force.",
     role="Front-line tank &amp; damage", diff="Easy",
-    play="Run at the biggest threat, Rage, and hit hard. You have the most HP in the game and resist physical damage while raging, so you're meant to be in the thick of it. Reckless Attack gives you advantage — at the cost of enemies getting advantage on you.",
-    build="Strength 15, Constitution 14, Dexterity 13. Greataxe. Background: Soldier. Take Great Weapon Fighting… no wait — Barbarians don't get Fighting Styles; just swing.",
+    play="Run at the biggest threat, Rage, and hit hard. You have the most HP in the game and resist physical damage while raging, so you're meant to be in the thick of it. Reckless Attack gives you advantage, at the cost of enemies getting advantage on you.",
+    build="Strength 15, Constitution 14, Dexterity 13. Greataxe. Background: Soldier. Take Great Weapon Fighting… no wait. Barbarians don't get Fighting Styles; just swing.",
     feats={
         "Rage": "Bonus action, no heavy armor. Lasts until end of your next turn and is extended by attacking or forcing a save (up to 10 minutes). While raging: resistance to Bludgeoning/Piercing/Slashing, +Rage Damage on Strength attacks, advantage on Strength checks and saves, no spellcasting or concentration.",
         "Unarmored Defense": "No armor: AC = 10 + Dex mod + Con mod (shield allowed).",
@@ -82,7 +82,7 @@ INFO = {
 "cleric": dict(
     tag="A divine champion who channels the power of a god to heal, protect and smite.",
     role="Healer, support, sturdy caster", diff="Medium",
-    play="You're the party's best healer and a strong spellcaster in medium or heavy armor. Don't spend every turn healing — a well-timed Bless or Spirit Guardians prevents more damage than healing restores. Healing Word lets you pick up downed allies as a bonus action.",
+    play="You're the party's best healer and a strong spellcaster in medium or heavy armor. Don't spend every turn healing; a well-timed Bless or Spirit Guardians prevents more damage than healing restores. Healing Word lets you pick up downed allies as a bonus action.",
     build="Wisdom 15, Constitution 14, Strength 13. Mace, shield, chain shirt. Divine Order: Protector. Spells: Bless, Healing Word, Guiding Bolt, Sacred Flame.",
     feats={
         "Spellcasting": "Full caster using Wisdom. Prepare spells from the Cleric list after each long rest. Use a holy symbol as a focus.",
@@ -107,7 +107,7 @@ INFO = {
 "druid": dict(
     tag="A priest of nature who commands the elements and takes the shape of beasts.",
     role="Controller, utility, shapeshifter", diff="Hard",
-    play="You're a full caster with nature magic: entangling roots, summoned storms, healing. Wild Shape lets you become an animal for scouting or combat. Strong but complex — lots of options to learn. Druids traditionally won't wear metal armor.",
+    play="You're a full caster with nature magic: entangling roots, summoned storms, healing. Wild Shape lets you become an animal for scouting or combat. Strong but complex, with lots of options to learn. Druids traditionally won't wear metal armor.",
     build="Wisdom 15, Constitution 14, Dexterity 13. Shield, leather armor. Spells: Produce Flame, Entangle, Healing Word, Faerie Fire.",
     feats={
         "Spellcasting": "Full caster using Wisdom. Prepare spells from the Druid list each long rest. Use a druidic focus.",
@@ -133,8 +133,8 @@ INFO = {
 ),
 "fighter": dict(
     tag="A master of weapons and armor, at home in any battle.",
-    role="Versatile damage &amp; defense", diff="Easy — best first class",
-    play="You get the most attacks in the game, heavy armor, and simple, reliable features. Pick a weapon style (big two-hander, sword and shield, or bow) and focus on positioning. Action Surge is your 'big moment' button — save it for when it matters.",
+    role="Versatile damage &amp; defense", diff="Easy: best first class",
+    play="You get the most attacks in the game, heavy armor, and simple, reliable features. Pick a weapon style (big two-hander, sword and shield, or bow) and focus on positioning. Action Surge is your 'big moment' button. Save it for when it matters.",
     build="Strength 15, Constitution 14, Dexterity 13. Greatsword or longsword + shield, chain mail. Fighting Style: Defense or Great Weapon Fighting.",
     feats={
         "Fighting Style": "Gain a Fighting Style feat (Defense, Great Weapon Fighting, Archery, Dueling, etc.). Can swap it on level up.",
@@ -165,7 +165,7 @@ INFO = {
 "monk": dict(
     tag="A martial artist who channels inner focus into lightning-fast strikes.",
     role="Mobile skirmisher", diff="Medium",
-    play="You're fast and hit many times per turn with fists or light weapons. Spend Focus Points on Flurry of Blows (extra strikes), Patient Defense (dodge) or Step of the Wind (dash/disengage). Stunning Strike can lock down a dangerous enemy. No armor — your AC comes from Dex and Wis.",
+    play="You're fast and hit many times per turn with fists or light weapons. Spend Focus Points on Flurry of Blows (extra strikes), Patient Defense (dodge) or Step of the Wind (dash/disengage). Stunning Strike can lock down a dangerous enemy. No armor: your AC comes from Dex and Wis.",
     build="Dexterity 15, Wisdom 14, Constitution 13. Spear or shortsword plus unarmed strikes.",
     feats={
         "Martial Arts": "Use Dex for unarmed strikes and Monk weapons; damage uses your Martial Arts die. Bonus action: make an unarmed strike. Grapple/shove can use Dex.",
@@ -200,7 +200,7 @@ INFO = {
 "paladin": dict(
     tag="A holy knight bound by a sacred oath, wielding divine power alongside steel.",
     role="Tank, burst damage, support aura", diff="Easy–Medium",
-    play="Heavy armor, a big weapon, and Divine Smite to turn a hit into a devastating blow. Lay On Hands heals in a pinch. From level 6 your aura adds your Charisma to allies' saves — stay close to the party. Your oath gives roleplay direction.",
+    play="Heavy armor, a big weapon, and Divine Smite to turn a hit into a devastating blow. Lay On Hands heals in a pinch. From level 6 your aura adds your Charisma to allies' saves, so stay close to the party. Your oath gives roleplay direction.",
     build="Strength 15, Charisma 14, Constitution 13. Longsword + shield, chain mail. Spells: Bless, Cure Wounds, Shield of Faith.",
     feats={
         "Lay On Hands": "Healing pool of 5 × Paladin level HP per long rest. Bonus action: touch to heal, or spend 5 points to cure Poisoned.",
@@ -231,7 +231,7 @@ INFO = {
 "ranger": dict(
     tag="A wilderness hunter blending weapon skill with nature magic.",
     role="Ranged damage, scout, tracker", diff="Medium",
-    play="Most rangers shoot with a longbow from range, marking their target with Hunter's Mark for extra damage each hit. You're also the party's explorer — tracking, surviving, scouting ahead. Medium armor and some healing/utility spells round you out.",
+    play="Most rangers shoot with a longbow from range, marking their target with Hunter's Mark for extra damage each hit. You're also the party's explorer: tracking, surviving, scouting ahead. Medium armor and some healing/utility spells round you out.",
     build="Dexterity 15, Wisdom 14, Constitution 13. Longbow + shortswords, studded leather. Fighting Style: Archery.",
     feats={
         "Spellcasting": "Half caster using Wisdom. Prepare spells from the Ranger list each long rest.",
@@ -262,11 +262,11 @@ INFO = {
 "rogue": dict(
     tag="A cunning expert in stealth, skills and precise, deadly strikes.",
     role="Single-target damage, skills, scout", diff="Easy–Medium",
-    play="You attack once per turn but make it count: Sneak Attack adds big damage when you have advantage or an ally is next to the target. Cunning Action lets you Dash, Disengage or Hide as a bonus action — hit and vanish. You're the best at locks, traps and sneaking.",
+    play="You attack once per turn but make it count: Sneak Attack adds big damage when you have advantage or an ally is next to the target. Cunning Action lets you Dash, Disengage or Hide as a bonus action. Hit and vanish. You're the best at locks, traps and sneaking.",
     build="Dexterity 15, Constitution 14, Wisdom 13 (or Intelligence). Rapier or shortbow, leather armor, thieves' tools.",
     feats={
         "Expertise": "Double proficiency on two skills (two more at level 6).",
-        "Sneak Attack": "Once per turn, +Sneak Attack dice on a hit with a Finesse or ranged weapon if you have advantage — or an ally is within 5 ft of the target and you don't have disadvantage.",
+        "Sneak Attack": "Once per turn, +Sneak Attack dice on a hit with a Finesse or ranged weapon if you have advantage, or if an ally is within 5 ft of the target and you don't have disadvantage.",
         "Thieves' Cant": "Secret criminal language plus one other language.",
         "Weapon Mastery": "Use the mastery property of two weapon types.",
         "Cunning Action": "Bonus action: Dash, Disengage or Hide.",
@@ -293,9 +293,9 @@ INFO = {
     other="Other subclasses in the Player's Handbook: Arcane Trickster, Assassin, Soulknife.",
 ),
 "sorcerer": dict(
-    tag="A caster whose magic is innate — born of a bloodline, a cosmic event or raw power.",
+    tag="A caster whose magic is innate, born of a bloodline, a cosmic event or raw power.",
     role="Blaster, flexible caster", diff="Medium",
-    play="You know fewer spells than a wizard but bend them with Metamagic: twin a spell onto two targets, cast quietly, or quicken a spell to a bonus action. Innate Sorcery gives a burst of power. Fragile (d6 HP) — stay back and let the front line protect you.",
+    play="You know fewer spells than a wizard but bend them with Metamagic: twin a spell onto two targets, cast quietly, or quicken a spell to a bonus action. Innate Sorcery gives a burst of power. Fragile (d6 HP), so stay back and let the front line protect you.",
     build="Charisma 15, Constitution 14, Dexterity 13. Spells: Fire Bolt, Shocking Grasp, Magic Missile, Shield.",
     feats={
         "Spellcasting": "Full caster using Charisma. Prepared spells grow with level; swap one when you level up.",
@@ -319,7 +319,7 @@ INFO = {
 "warlock": dict(
     tag="A seeker of forbidden knowledge who made a pact with a powerful otherworldly patron.",
     role="Ranged damage, utility, face", diff="Medium",
-    play="You have very few spell slots — but they're always cast at your highest level and recharge on a short rest. Your bread and butter is the Eldritch Blast cantrip, boosted by invocations like Agonizing Blast. Your patron is a gift for roleplay and story hooks.",
+    play="You have very few spell slots, but they're always cast at your highest level and recharge on a short rest. Your bread and butter is the Eldritch Blast cantrip, boosted by invocations like Agonizing Blast. Your patron is a gift for roleplay and story hooks.",
     build="Charisma 15, Constitution 14, Dexterity 13. Leather armor. Eldritch Blast + Agonizing Blast invocation, Hex, Hellish Rebuke.",
     feats={
         "Eldritch Invocations": "Learn magical secrets (more as you level): Agonizing Blast (add Cha to a cantrip's damage), Armor of Shadows, Devil's Sight, Pact of the Blade/Chain/Tome, and many more.",
@@ -366,7 +366,7 @@ INFO = {
 }
 
 # Fix one leftover thinking-out-loud line
-INFO["barbarian"]["build"] = "Strength 15, Constitution 14, Dexterity 13. Greataxe plus handaxes to throw. Background: Soldier. Barbarians get no Fighting Style — Rage and Reckless Attack do the work."
+INFO["barbarian"]["build"] = "Strength 15, Constitution 14, Dexterity 13. Greataxe plus handaxes to throw. Background: Soldier. Barbarians get no Fighting Style. Rage and Reckless Attack do the work."
 
 
 def core_traits(d):
@@ -385,7 +385,7 @@ def columns(d):
     for f in d["features"]:
         if f["feature_type"] == "CLASS_TABLE_DATA" and f["data_for_class_table"]:
             t = {x["level"]: re.sub(r"^D(\d)", r"d\1", x["column_value"]) for x in f["data_for_class_table"]}
-            cols.append((f["name"], [t.get(l, "—") for l in range(1, 21)]))
+            cols.append((f["name"], [t.get(l, "–") for l in range(1, 21)]))
     pref = ["Rages", "Rage Damage", "Bardic Die", "Second Wind", "Martial Arts", "Focus Points",
             "Sneak Attack", "Channel Divinity", "Favored Enemy", "Sorcery Points", "Eldritch Invocations",
             "Spell Slots", "Slot Level", "Cantrips", "Prepared Spells", "Weapon Mastery"]
@@ -451,7 +451,7 @@ def render_class(c):
     head = "".join(f'<th class="c">{html.escape(n)}</th>' for n, _ in cols)
     out.append(f'<table class="compact"><caption>{name} Features by Level</caption><thead><tr><th class="c">Lvl</th><th class="c">Prof.</th><th>Features</th>{head}</tr></thead><tbody>')
     for l in range(1, 21):
-        feats = ", ".join(lv[l]) or "—"
+        feats = ", ".join(lv[l]) or "–"
         cells = "".join(f'<td class="c">{v[l-1]}</td>' for _, v in cols)
         out.append(f'<tr><td class="c">{l}</td><td class="c">{prof(l)}</td><td>{feats}</td>{cells}</tr>')
     out.append('</tbody></table>')
@@ -462,7 +462,7 @@ def render_class(c):
     for l in range(1, 21):
         for n in lv[l]:
             if n == "Epic Boon":
-                out.append('<div class="avoid"><dt><span class="lv">19</span>Epic Boon</dt><dd>Gain an Epic Boon feat — a near-legendary power.</dd></div>')
+                out.append('<div class="avoid"><dt><span class="lv">19</span>Epic Boon</dt><dd>Gain an Epic Boon feat, a near-legendary power.</dd></div>')
                 continue
             if n in seen or n == "Subclass feature":
                 continue
@@ -528,27 +528,27 @@ def cards():
 
 IDEAS = {
 "barbarian": (["A gladiator who won their freedom and never stopped fighting", "Last survivor of a mountain clan, carrying their ancestors' axe", "A gentle giant who rages only to protect children", "A dockworker whose temper got them exiled", "A berserker trying to learn control from a monk", "A tribal champion sent to prove themselves in the cities"],
-  ["Rage on your first turn of a fight — it's a bonus action, so you still attack.", "Use Reckless Attack against enemies that hit weakly; skip it against big hitters.", "Stand between enemies and squishy casters. Your job is to be the target."]),
+  ["Rage on your first turn of a fight. It's a bonus action, so you still attack.", "Use Reckless Attack against enemies that hit weakly; skip it against big hitters.", "Stand between enemies and squishy casters. Your job is to be the target."]),
 "bard": (["A tavern singer who's secretly a spy", "A disgraced court poet chasing one last great story", "A traveling storyteller collecting legends of a lost hero", "A street performer who talks their way out of everything", "A historian who believes songs are real magic", "A musician bound to a cursed instrument"],
-  ["Give Bardic Inspiration before big rolls, not after failures.", "Keep Healing Word ready to pick up downed allies from range.", "Do the talking in social scenes — you have the skills for it."]),
+  ["Give Bardic Inspiration before big rolls, not after failures.", "Keep Healing Word ready to pick up downed allies from range.", "Do the talking in social scenes. You have the skills for it."]),
 "cleric": (["A temple healer sent out to fight a spreading plague", "A battle chaplain who lost faith and found it again", "An acolyte who received a vision no one believes", "A wandering priest of a forgotten god", "A former thief redeemed by divine grace", "A grave-keeper sworn to put the restless dead to sleep"],
   ["Cast Bless or Spirit Guardians early; prevention beats healing.", "Use Healing Word (bonus action) on unconscious allies, then still act.", "In heavy armor with a shield, you can hold the front line too."]),
 "druid": (["A hermit who speaks more with wolves than people", "A city-born druid who finds nature in gardens and rooftops", "A guardian of a sacred grove that was burned", "A herbalist whose remedies hide real magic", "A shapeshifter who isn't sure which form is the real one", "A storm-caller from a coastal village"],
-  ["Wild Shape into a spider or cat to scout ahead.", "Entangle and Faerie Fire change whole fights — control first, damage second.", "Your concentration spell is precious; stay out of melee to protect it."]),
-"fighter": (["A veteran of a war that ended too soon", "A disgraced knight seeking redemption", "A mercenary who fights for the highest bidder — for now", "A town guard who saw something they shouldn't have", "A duelist chasing the title of greatest blade alive", "A farmer's child who picked up a fallen soldier's sword"],
+  ["Wild Shape into a spider or cat to scout ahead.", "Entangle and Faerie Fire change whole fights. Control first, damage second.", "Your concentration spell is precious; stay out of melee to protect it."]),
+"fighter": (["A veteran of a war that ended too soon", "A disgraced knight seeking redemption", "A mercenary who fights for the highest bidder, for now", "A town guard who saw something they shouldn't have", "A duelist chasing the title of greatest blade alive", "A farmer's child who picked up a fallen soldier's sword"],
   ["Save Action Surge for the turn that ends a fight, or saves a friend.", "Use Second Wind whenever you're hurt and have a free bonus action.", "Pick weapon masteries that fit your role: Sap or Push to protect, Graze or Cleave to deal damage."]),
 "monk": (["A temple orphan sent into the world to learn", "A former assassin seeking peace through discipline", "A street fighter self-taught from stolen scrolls", "The last student of a destroyed monastery", "A wandering healer who fights only when it's needed", "A pilgrim walking to every shrine in the land"],
   ["Use your speed to reach enemy casters and archers in the back line.", "Stunning Strike the scariest enemy, then let the party pile on.", "Patient Defense when surrounded; Step of the Wind to escape."]),
 "paladin": (["A knight sworn to protect a fallen kingdom's heir", "A crusader questioning the order that trained them", "A village defender whose oath came in a dream", "A vengeful warrior hunting the cult that killed their family", "A royal guard who follows the oath over the crown", "A reformed bandit bound to atone for every life taken"],
-  ["Save Divine Smite for crits — the extra dice double too.", "Lay On Hands can revive a downed ally with just 1 HP from the pool.", "Stay near allies after level 6: your aura boosts everyone's saves."]),
+  ["Save Divine Smite for crits. The extra dice double too.", "Lay On Hands can revive a downed ally with just 1 HP from the pool.", "Stay near allies after level 6: your aura boosts everyone's saves."]),
 "ranger": (["A monster hunter paid by frightened villages", "A border scout who knows every forest path", "A tracker searching for a missing sibling", "A poacher turned protector of the wild", "A guide who leads caravans through deadly wastes", "A hermit archer drawn out by a threat to their woods"],
   ["Cast Hunter's Mark on the first big target; move it when that target drops.", "Stay at range, use cover, and make enemies come to you.", "Lead the party when exploring: tracking, navigation, ambush detection."]),
 "rogue": (["A pickpocket with a heart of gold", "A noble's spy who knows too many secrets", "A treasure hunter obsessed with ancient ruins", "A con artist running from their last mark", "An assassin who refused one contract", "A guild burglar framed for a theft they didn't do"],
-  ["Stay next to an ally's target to get Sneak Attack without advantage.", "Attack, then Cunning Action (Hide or Disengage) to stay safe.", "Scout ahead, check for traps, and pick the locks — that's your spotlight."]),
+  ["Stay next to an ally's target to get Sneak Attack without advantage.", "Attack, then Cunning Action (Hide or Disengage) to stay safe.", "Scout ahead, check for traps, and pick the locks. That's your spotlight."]),
 "sorcerer": (["A noble whose dragon ancestry suddenly awoke", "A survivor of a magical disaster that changed them", "A child of a storm, born during a lightning strike", "A sorcerer hiding powers that terrify their family", "A wild talent who can't always control the magic", "A heir to a bloodline sought by a dark cult"],
-  ["Twinned or Quickened spells are your biggest Metamagic power spikes.", "Keep Shield and a defensive option prepared — you're fragile.", "Turn on Innate Sorcery for big turns: higher DC and spell attack advantage."]),
+  ["Twinned or Quickened spells are your biggest Metamagic power spikes.", "Keep Shield and a defensive option prepared. You're fragile.", "Turn on Innate Sorcery for big turns: higher DC and spell attack advantage."]),
 "warlock": (["A scholar who read the wrong book", "A desperate soul who bargained to save someone they love", "A fey-touched wanderer who owes a debt to a faerie queen", "A cultist trying to escape their patron", "A gambler who made a deal they don't fully understand", "A noble's child promised to a devil before birth"],
-  ["Eldritch Blast + Agonizing Blast is your reliable every-turn attack.", "Your slots return on short rests — ask the party for them.", "Pick invocations that solve problems: Devil's Sight, Mask of Many Faces."]),
+  ["Eldritch Blast + Agonizing Blast is your reliable every-turn attack.", "Your slots return on short rests, so ask the party for them.", "Pick invocations that solve problems: Devil's Sight, Mask of Many Faces."]),
 "wizard": (["An academy dropout chasing forbidden research", "A librarian who stumbled on a spellbook", "A court mage exiled for a failed prophecy", "An apprentice whose master vanished", "A scholar of dead languages and older magic", "A tinkerer who treats spells like engineering"],
   ["Always keep Shield prepared; it saves your life constantly.", "Control spells (Sleep, Web, Hypnotic Pattern) often beat damage spells.", "Copy every spell scroll you find into your spellbook."]),
 }

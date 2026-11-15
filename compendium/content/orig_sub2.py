@@ -1,9 +1,9 @@
-# Original subclasses — part 2: Fighter, Monk, Paladin, Ranger
+# Original subclasses, part 2: Fighter, Monk, Paladin, Ranger
 SUBS = {}
 
 SUBS["fighter"] = [
 ("Emberblade", "Warriors who conjure blades of fire from a bonded hilt and weave flame into swordplay.", [
- (3, "Spellcasting", "You learn to cast spells from the Wizard list, using Intelligence as your spellcasting ability and your weapon or an obsidian hilt as a Spellcasting Focus. Cantrips: 2 at level 3, 3 at level 10. Prepared spells by Fighter level — 3: 3, 4–6: 4, 7: 5, 8: 6, 9: 6, 10: 7, 11–12: 8, 13: 9, 14–15: 10, 16: 11, 19: 12, 20: 13. Spell slots by Fighter level — 3: two 1st; 4–6: three 1st; 7–9: four 1st, two 2nd; 10–12: four 1st, three 2nd; 13–15: +two 3rd; 16–18: +three 3rd; 19–20: +one 4th. Whenever you finish a Long Rest you can replace one prepared spell."),
+ (3, "Spellcasting", "You learn to cast spells from the Wizard list, using Intelligence as your spellcasting ability and your weapon or an obsidian hilt as a Spellcasting Focus. Cantrips: 2 at level 3, 3 at level 10. Prepared spells by Fighter level (level: spells): 3: 3, 4–6: 4, 7: 5, 8: 6, 9: 6, 10: 7, 11–12: 8, 13: 9, 14–15: 10, 16: 11, 19: 12, 20: 13. Spell slots by Fighter level (level: slots): 3: two 1st; 4–6: three 1st; 7–9: four 1st, two 2nd; 10–12: four 1st, three 2nd; 13–15: +two 3rd; 16–18: +three 3rd; 19–20: +one 4th. Whenever you finish a Long Rest you can replace one prepared spell."),
  (3, "Obsidian Hilt", "You bond with a weapon hilt over a 1-hour ritual during a Short or Long Rest. As a Bonus Action, flame erupts from it as a blade: it counts as a longsword you're proficient with that deals Fire damage instead of Slashing and sheds Bright Light in a 10-foot radius. You can't be disarmed of the hilt unless you're Incapacitated, and you can call it to your hand from up to 1 mile as a Bonus Action."),
  (7, "Kindled Guard", "When a creature within 5 feet of you hits you with an attack, you can take a Reaction to deal Fire damage to it equal to 1d8 + your Intelligence modifier. You also have Resistance to Fire damage."),
  (10, "Flame Lash", "When you take the Attack action, you can lengthen your flame blade: until the end of the turn your attacks with it have a reach of 15 feet. You can use this feature a number of times equal to your Intelligence modifier (minimum once), regaining all uses on a Long Rest."),
@@ -54,7 +54,7 @@ SUBS["monk"] = [
 
 SUBS["paladin"] = [
 ("Oath of the Lantern", "Paladins sworn to guide the lost and light the dark places.", [
- (3, "Lantern Oath Spells", "Always prepared — level 3: Faerie Fire, Guiding Bolt; level 5: See Invisibility, Find Traps; level 9: Daylight, Beacon of Hope; level 13: Guardian of Faith, Locate Creature; level 17: Commune, Flame Strike."),
+ (3, "Lantern Oath Spells", "Always prepared. Level 3: Faerie Fire, Guiding Bolt; level 5: See Invisibility, Find Traps; level 9: Daylight, Beacon of Hope; level 13: Guardian of Faith, Locate Creature; level 17: Commune, Flame Strike."),
  (3, "Beacon", "As a Magic action you expend a use of Channel Divinity to make your holy symbol blaze for 1 minute: Bright Light in a 30-foot radius. Hostile creatures in the light can't benefit from the Invisible condition or hide, and allies in it have Advantage on saving throws against the Frightened condition."),
  (3, "Wayfinder", "You and companions traveling with you can't become lost except by magical means."),
  (7, "Aura of the Way", "You and allies in your Aura of Protection gain +10 feet of Speed and Advantage on saving throws against being Charmed."),
@@ -62,7 +62,7 @@ SUBS["paladin"] = [
  (20, "Dawnbringer", "As a Bonus Action you become a pillar of dawn for 10 minutes (once per Long Rest, or by expending a level 5 spell slot): your aura sheds Bright Light 60 feet, enemies in your aura take 10 Radiant damage at the start of their turns, and allies in it regain 10 Hit Points at the start of theirs if they have at least 1 Hit Point."),
 ]),
 ("Oath of the Unbroken Chain", "Paladins who hold the wicked to account for every promise broken.", [
- (3, "Unbroken Chain Spells", "Always prepared — level 3: Command, Hunter's Mark; level 5: Hold Person, Zone of Truth; level 9: Bestow Curse, Counterspell; level 13: Banishment, Compulsion; level 17: Geas, Hold Monster."),
+ (3, "Unbroken Chain Spells", "Always prepared. Level 3: Command, Hunter's Mark; level 5: Hold Person, Zone of Truth; level 9: Bestow Curse, Counterspell; level 13: Banishment, Compulsion; level 17: Geas, Hold Monster."),
  (3, "Bind Oath", "As a Magic action you expend a use of Channel Divinity and choose a creature within 30 feet. It makes a Wisdom save or is spiritually chained to you for 1 minute: it can't willingly move more than 30 feet away from you and has Disadvantage on attack rolls against creatures other than you."),
  (3, "Truthsense", "You always know if you hear a lie, though not what the truth is."),
  (7, "Aura of Accountability", "When an enemy in your Aura of Protection hits one of your allies, the enemy takes Radiant damage equal to your Charisma modifier."),
@@ -70,7 +70,7 @@ SUBS["paladin"] = [
  (20, "Judge Absolute", "For 1 minute (once per Long Rest, or a level 5 spell slot), your weapon attacks against creatures under Bind Oath score Critical Hits on 18–20, and such creatures can't regain Hit Points."),
 ]),
 ("Oath of the Shield-Sibling", "Paladins who vow that no companion will fall while they stand.", [
- (3, "Shield-Sibling Spells", "Always prepared — level 3: Shield of Faith, Sanctuary; level 5: Aid, Warding Bond; level 9: Protection from Energy, Revivify; level 13: Death Ward, Aura of Life; level 17: Mass Cure Wounds, Greater Restoration."),
+ (3, "Shield-Sibling Spells", "Always prepared. Level 3: Shield of Faith, Sanctuary; level 5: Aid, Warding Bond; level 9: Protection from Energy, Revivify; level 13: Death Ward, Aura of Life; level 17: Mass Cure Wounds, Greater Restoration."),
  (3, "Take the Blow", "As a Bonus Action you expend a use of Channel Divinity. For 1 minute, when an ally within 10 feet of you is hit by an attack, you can take a Reaction to become the target instead; you gain Resistance to that attack's damage."),
  (3, "Sibling's Vow", "When you use Lay On Hands on another creature, you also gain Temporary Hit Points equal to the amount restored."),
  (7, "Aura of Shared Burden", "When an ally in your aura takes damage, you can choose to take half of it instead (no action required). Damage you take this way can't be reduced."),
@@ -81,7 +81,7 @@ SUBS["paladin"] = [
 
 SUBS["ranger"] = [
 ("Spirit Tracker", "Rangers who hunt the restless dead and things from beyond.", [
- (3, "Spirit Tracker Spells", "Always prepared — level 3: Protection from Evil and Good; level 5: See Invisibility; level 9: Speak with Dead; level 13: Banishment; level 17: Dispel Evil and Good."),
+ (3, "Spirit Tracker Spells", "Always prepared. Level 3: Protection from Evil and Good; level 5: See Invisibility; level 9: Speak with Dead; level 13: Banishment; level 17: Dispel Evil and Good."),
  (3, "Haunt Sense", "As a Bonus Action you sense the location of any Undead, Fiend or Celestial within 60 feet for 1 minute. Your Hunter's Mark deals Radiant damage instead of Force when you choose."),
  (3, "Spectral Arrows", "Your weapon attacks can hit creatures on the Ethereal Plane and ignore Resistance to nonmagical damage."),
  (7, "Veil Step", "As a Bonus Action you step partly into the Ethereal Plane until the start of your next turn: you can move through creatures and objects as difficult terrain and attacks against you have Disadvantage. Uses equal to your Wisdom modifier per Long Rest."),

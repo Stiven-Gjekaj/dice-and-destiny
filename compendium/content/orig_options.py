@@ -3,7 +3,7 @@
 # name, abilities, skills, tool, origin feat, equipment, flavor
 BACKGROUNDS = [
 ("Bellringer", "Strength, Wisdom, Charisma", "Athletics, Performance", "One musical instrument (bells or drum)", "Sharp Ears",
- "Rope (50 ft), hand bell, Traveler's Clothes, 14 GP", "You rang the hours for a town or temple — and heard every secret whispered beneath the tower."),
+ "Rope (50 ft), hand bell, Traveler's Clothes, 14 GP", "You rang the hours for a town or temple, and heard every secret whispered beneath the tower."),
 ("Bonesetter", "Strength, Dexterity, Wisdom", "Medicine, Insight", "Herbalism Kit", "Field Medic",
  "Herbalism Kit, splints and bandages, Healer's Kit, Traveler's Clothes, 12 GP", "You mended the broken bodies of laborers, soldiers and brawlers with no time for prayer."),
 ("Cartographer", "Dexterity, Intelligence, Wisdom", "Survival, History", "Cartographer's Tools", "Wilderness Born",
