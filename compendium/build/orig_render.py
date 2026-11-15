@@ -1,7 +1,8 @@
 """Render original (non-SRD) content into HTML for the compendiums."""
 import html, re
 from collections import defaultdict
-import orig_options, orig_spells
+import orig_options
+import content.spells
 from content.subclasses import SUBS
 import content.items
 from content.monsters import MON
@@ -62,7 +63,7 @@ def feats_html():
 
 
 def spells_html():
-    sp = sorted(orig_spells.SPELLS, key=lambda s: s[0])
+    sp = sorted(content.spells.SPELLS, key=lambda s: s[0])
     by = defaultdict(lambda: defaultdict(list))
     for s in sp:
         for c in s[3]:
