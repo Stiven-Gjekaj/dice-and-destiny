@@ -2,6 +2,7 @@
 # Rebuild both books and their covers. Requires Google Chrome (or Chromium as google-chrome) and poppler-utils (pdftotext).
 set -e
 cd "$(dirname "$0")"
+export PYTHONPATH="$PWD/content${PYTHONPATH:+:$PYTHONPATH}"
 python3 build.py player gm
 python3 cover.py player gm
 mkdir -p dist
