@@ -63,3 +63,11 @@ def test_too_many_pages(tmp_path):
     w.write(str(pdf))
     assert len(too_many_pages(str(pdf), limit=1)) == 1
     assert too_many_pages(str(pdf), limit=2) == []
+
+
+
+def test_avg_counts_flat_bonus():
+    from monster_engine import avg
+    assert avg("1d8+3") == 7
+    assert avg("2d6-1") == 6
+    assert avg("2d6") == 7

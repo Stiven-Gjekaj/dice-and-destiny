@@ -27,7 +27,8 @@ def avg(expr, bonus=0):
     tot, parts = 0, re.findall(r"(\d+)d(\d+)", expr)
     for n, d in parts:
         tot += int(n) * (int(d) + 1) / 2
-    flat = sum(int(x) for x in re.findall(r"(?<![d\d])([+-]\d+)", expr))
+    # Remove the dice first, so that a bonus such as "+3" after "1d8" is counted.
+    flat = sum(int(x.replace(" ", "")) for x in re.findall(r"[+-]\s*\d+", re.sub(r"\d+d\d+", "", expr)))
     return int(tot + flat + bonus)
 
 
