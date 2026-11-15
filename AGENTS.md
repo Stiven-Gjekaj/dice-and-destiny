@@ -33,6 +33,20 @@ They also apply to a change that you start without a request.
 - Do not use an em-dash.
 - Do not use an emoji.
 
+### Text that is exempt
+
+Some text is for players and readers, not for the people who keep the
+repository. The rules in this section do not apply to that text.
+
+- The book text in `compendium/books/`.
+- The text strings in `compendium/content/`. These are the names and the
+  descriptions of the original monsters, items, subclasses, spells, and
+  other options.
+- The read-aloud text in `campaigns/` and `adventures/`.
+
+All other text stays in STE. This includes the code, the comments, the
+documentation, the commit messages, and the notes for the DM.
+
 ## Commits
 
 - Each commit has one change only.
