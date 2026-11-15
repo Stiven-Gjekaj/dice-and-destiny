@@ -133,3 +133,78 @@ When all characters are out:
 >
 > Then a small voice comes from a dark corner. "Oh! Oh, oh, oh. It worked. It
 > actually worked."
+
+---
+
+## Scene 2: Wick (10 minutes)
+
+**Goal:** Teach skills and social checks. Let the players talk to an NPC.
+
+> In a niche in the wall sits a brass lantern. A small orange flame burns
+> inside it. The flame has two black eyes and a mouth. The lantern looks at
+> you and clears its throat, which is strange, because it has no throat.
+>
+> "Sleepers of the Dawnwatch! I am Wick, Keeper of the Light, Guardian of the
+> Hall, and Official Waker. I waited for you for three hundred years, four
+> months, and two days. I counted. There was not much else to do."
+
+Play Wick as proud, dramatic, and lonely. See the Wick statblock for more
+personality notes.
+
+### What Wick knows
+
+Let the players ask questions. Wick tells them these things, but slowly, with
+a lot of drama:
+
+- The Unlit King is back. Wick felt it this morning. "The Dawnfire in the
+  chapel went out. That only happens if he wakes."
+- The keep is old and partly broken. Small demons came in during the last
+  years. "Ash mites. Like rats, but worse. They bite. They squeak. Rude."
+- The way out goes down the Stair of Teeth, through the old armory, and
+  through the Chapel of Dawn. The Dawn Door is at the end of the chapel. It
+  opens to the surface.
+- Something big now sleeps in the chapel. Wick does not want to talk about
+  it.
+
+### The secret
+
+Wick hides two facts:
+
+1. Wick is very scared of the thing in the chapel.
+2. Wick does not know how long ago the last human visited the keep. "Some
+   time ago" is the answer. The true answer is two hundred years.
+
+> **Teach: skills.** When a player asks Wick a question and you think that
+> Wick hides something, say: "You can make a Wisdom (Insight) check to see if
+> Wick tells the truth. Insight is a skill. Look for Insight on your sheet.
+> If you have a big number there, your character is good at it."
+
+| Check | DC | Result |
+|-------|----|--------|
+| Wisdom (Insight) | 12 | Wick is scared. The flame gets small each time someone says "chapel." |
+| Charisma (Persuasion) | 10 | Wick tells the truth: "It is a big dog. Made of ash. It breathes fire. I hate it." |
+| Charisma (Intimidation) | 10 | Same, but Wick sulks for the rest of the scene. |
+| Intelligence (History) | 10 | The character remembers Wick. The steward made Wick on the last night. The steward said, "Do not let them oversleep." |
+
+> **Teach: roleplay comes first.** If a player is kind to Wick with good
+> words, give a success with no roll. Say: "That was so good that you do not
+> need to roll." This shows the players that good roleplay matters.
+
+### The gifts
+
+Before the characters leave, Wick says:
+
+> "Wait! The steward left this for you." Wick nods at a small wooden box on
+> the shelf. "I could not open it. I have no hands. It was a long three
+> hundred years."
+
+In the box is one **potion of healing** (red liquid, a glass bottle). A
+character can drink it or give it to a creature within 5 feet as a bonus
+action. That creature regains 2d4 + 2 HP.
+
+Wick asks to come with the characters. One character carries Wick. Wick gives
+light.
+
+> **Teach: light and darkvision.** "Wick gives bright light for 20 feet. Some
+> of you have darkvision on your sheet. You see in the dark, but only in grey.
+> The others need Wick to see."
