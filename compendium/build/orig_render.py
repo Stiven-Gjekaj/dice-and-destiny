@@ -3,14 +3,14 @@ import html, re
 from collections import defaultdict
 import orig_options, orig_spells
 from content.subclasses import SUBS
-import orig_items1, orig_items2, orig_items3
+import content.items
 from content.monsters import MON
 from monster_engine import crs, XP
 
 E = html.escape
 ORDER = "barbarian bard cleric druid fighter monk paladin ranger rogue sorcerer warlock wizard".split()
 MONSTERS = sorted(MON, key=lambda m: m.name)
-ITEMS = sorted(orig_items1.ITEMS + orig_items2.ITEMS + orig_items3.ITEMS, key=lambda i: i[0])
+ITEMS = sorted(content.items.ITEMS, key=lambda i: i[0])
 TAG = '<span class="orig">Original</span>'
 
 
@@ -135,7 +135,7 @@ def items_html():
 
 
 def strongholds_html():
-    return orig_items3.STRONGHOLDS
+    return content.items.part3.STRONGHOLDS
 
 
 if __name__ == "__main__":
