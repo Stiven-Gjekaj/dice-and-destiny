@@ -198,3 +198,103 @@ calligrapher's supplies, and a book of prayers.
     1d8 + 3 HP, or makes a Constitution saving throw (DC 13) and takes 1d8
     radiant damage (half on a success).
   - *Turn Undead:* Undead near you can flee from you.
+
+---
+
+## 3. The Spark
+
+**Name:** ______________ (suggestions: Ilyra, Faen, Soren)
+
+Elf Wizard 1. Background: Sage.
+
+You were the mage of the Dawnwatch, and the youngest member ever. You know
+much about magic and old stories. You have low HP, so stay behind your
+friends.
+
+**Before question:** "On your first day in the Dawnwatch, you showed off a
+spell. What happened?"
+
+### Your best moves
+
+- **Fire Bolt** (action, no slot): make a spell attack (d20 + 5) against one
+  enemy within 120 feet. On a hit, deal 1d10 fire damage.
+- **Magic Missile** (action, uses a slot): three darts hit automatically. Each
+  dart deals 1d4 + 1 force damage. You can send all darts at one enemy, or
+  split them.
+- **Shield** (reaction, uses a slot): when an attack hits you, you get +5 AC
+  until the start of your next turn. This can make the attack miss.
+
+### Numbers
+
+| AC | HP | Speed | Initiative | Passive Perception |
+|----|----|-------|------------|--------------------|
+| 11 (14 with Mage Armor) | 8 | 30 ft | +1 | 13 |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|-----|-----|-----|-----|-----|-----|
+| 8 (-1) | 13 (+1) | 15 (+2) | 17 (+3) | 12 (+1) | 10 (+0) |
+| Save -1 | Save +1 | Save +2 | Save +5 | Save +3 | Save +0 |
+
+**Skills:** Arcana +5, History +5, Insight +3, Investigation +5,
+Perception +3.
+
+**Hit Point Dice:** 1d6.
+
+**Darkvision:** 60 feet.
+
+### Attacks
+
+| Weapon | Attack | Damage | Notes |
+|--------|--------|--------|-------|
+| Dagger | +3 | 1d4 + 1 piercing | Thrown 20/60 ft |
+| Fire Bolt (cantrip) | +5 | 1d10 fire | Range 120 ft |
+| Ray of Frost (cantrip) | +5 | 1d8 cold | Range 60 ft. The target's speed goes down by 10 feet |
+
+### Spellcasting
+
+- **Spell save DC:** 13. **Spell attack:** +5.
+- **Spell slots (level 1):** 2. You get all slots back on a Long Rest.
+- **Cantrips (no slot):** Fire Bolt, Ray of Frost, Light, Mage Hand, Minor
+  Illusion, Prestidigitation.
+- **Prepared level 1 spells (each cast uses one slot):**
+  - *Magic Missile:* action, range 120 feet. Three darts, each 1d4 + 1 force
+    damage. They always hit.
+  - *Shield:* reaction when an attack hits you. +5 AC until the start of your
+    next turn.
+  - *Burning Hands:* action, 15-foot cone. Each creature in the cone makes a
+    Dexterity saving throw (DC 13). It takes 3d6 fire damage on a fail, or
+    half on a success.
+  - *Sleep:* action, range 60 feet, concentration. Each creature of your
+    choice in a 5-foot-radius sphere makes a Wisdom saving throw (DC 13). On
+    a fail, it is incapacitated until the end of its next turn. Then it makes
+    the save again. On a second fail, it falls unconscious for up to 1
+    minute, until it takes damage or someone shakes it awake.
+- **Free spell (Magic Initiate):** You can cast *Mage Armor* one time without
+  a slot. You get this back on a Long Rest. *Mage Armor:* your AC becomes 14
+  for 8 hours. Cast it at the start of the adventure.
+- **Spellbook:** Magic Missile, Shield, Burning Hands, Sleep, Detect Magic,
+  Find Familiar.
+
+### Features
+
+- **Arcane Recovery:** When you finish a Short Rest, you get back one level 1
+  spell slot. You can do this one time per day.
+- **Ritual Adept:** You can cast a spell with the Ritual tag from your
+  spellbook. It takes 10 minutes more, and it does not use a slot.
+- **Fey Ancestry (Elf):** You have advantage on saving throws against the
+  charmed condition.
+- **Keen Senses (Elf):** You are proficient in Perception.
+- **Trance (Elf):** You do not sleep. You finish a Long Rest in 4 hours.
+
+### Equipment
+
+Dagger, quarterstaff, spellbook, arcane focus (a crystal wand), a backpack,
+a bottle of ink, a quill, and calligrapher's supplies.
+
+### At level 2
+
+- **HP:** +6 (new maximum 14). Hit Point Dice: 2d6.
+- **Spell slots:** 3. You prepare 1 more level 1 spell (for example, *Detect
+  Magic* or *Find Familiar*).
+- **Scholar:** Choose Arcana, History, or Investigation. You add double your
+  proficiency bonus to that skill.
