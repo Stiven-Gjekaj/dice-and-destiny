@@ -1,53 +1,85 @@
-# The Compendiums — my own edition of 5e (2024 rules)
+# The Dice & Destiny compendiums
 
-Two print-ready paperback books, generated from code:
+This folder holds the source of the two Dice & Destiny books and the code
+that builds them:
 
-- **The Player's Compendium** — learning to play, all 12 classes (guides + full rules text), species, backgrounds, feats, equipment, all 339 SRD spells, the full rules reference, plus original subclasses, species, backgrounds, feats and spells.
-- **The Game Master's Compendium** — running the game, the full SRD bestiary and magic items, plus 166 original monsters, 250 original magic items, a stronghold system, and GM cheat sheets and templates.
+- *Dice & Destiny: The Player's Compendium*
+- *Dice & Destiny: The Game Master's Compendium*
 
-Finished PDFs are in [`dist/`](dist/): A4 black & white interiors and full-color wraparound covers with 3 mm bleed.
+The build makes four print-ready PDFs: an A4 black and white interior and a
+full color wraparound cover with 3 mm bleed for each book.
+
+You do not have to build the books to read them. Each push to `main` that
+changes this folder makes a preview release with the PDFs. See
+[Releases](https://github.com/Stiven-Gjekaj/DnD/releases).
 
 ## Build
 
-Requirements: Python 3.10+, Google Chrome (headless, used to render HTML to PDF), and `poppler-utils` (`pdftotext`, used to find page numbers for the table of contents).
+You need these tools:
+
+- Python 3.10 or later.
+- Google Chrome. The build uses headless Chrome to make each PDF.
+- `poppler-utils`. The build uses `pdftotext` to find the page numbers for
+  the table of contents.
+- The fonts Caladea, Liberation Serif, and Inter. On Ubuntu, install
+  `fonts-crosextra-caladea`, `fonts-liberation`, and `fonts-inter`.
+  Other fonts change the page breaks.
+
+Then run these commands:
 
 ```bash
-pip install -r requirements.txt
-./build.sh
+pip install -r compendium/requirements.txt
+compendium/build.sh
 ```
 
-The build renders each book several times: it fills in real page numbers in the contents and inserts blank pages so every Part starts on a right-hand page. Expect a few minutes.
+You can run `build.sh` from any folder. The PDFs go into `compendium/dist/`.
+Git ignores this folder.
 
-## Project layout
+The build makes each book more than one time. It puts the real page numbers
+in the table of contents. It adds blank pages so that each Part starts on a
+right-hand page. The full build takes some minutes.
 
-| Path | What it is |
+## Folders
+
+| Path | Contents |
 |---|---|
-| `player.src.html`, `gm.src.html` | Hand-written chapters with `{{PLACEHOLDERS}}` for generated sections |
-| `build.py` | Expands placeholders, adds chapter headings/icons, builds the contents, renders PDFs |
-| `classes.py` | Class chapters: guides, level tables, feature summaries + full SRD text |
-| `compendium.py` | SRD sections: spells, bestiary, magic items, equipment, feats, species, backgrounds, rules |
-| `orig_*.py` | **Original content** — edit these to change or add your own material |
-| `monster_engine.py` | Turns compact monster specs into balanced stat blocks (AC/HP/attack/DC by CR) |
-| `orig_render.py` | Renders the original content |
-| `cover.py` | Generates wraparound covers (spine width from page count) |
-| `icons.py` | Hand-drawn SVG icons |
-| `style.css`, `book.css` | Base design + black & white paperback overrides (A4, mirrored margins) |
-| `data/` | SRD 5.2 data (JSON) and `fetch.py` to re-download it |
-| `overflow.py` | Optional checker for text overflowing its boxes |
+| `books/` | The chapters that a human writes (`player.src.html`, `gm.src.html`) and the styles (`style.css`, `book.css`). A `{{PLACEHOLDER}}` marks a section that the build makes. |
+| `content/` | The original content: `orig_mon*.py` (monsters), `orig_items*.py` (magic items), `orig_sub*.py` (subclasses), `orig_spells.py` (spells), and `orig_options.py` (backgrounds, species, feats). The strongholds are in `orig_items3.py`. |
+| `build/` | The build code. `build.py` fills the placeholders, adds the chapter headings, makes the table of contents, and makes the PDFs. `cover.py` makes the covers. `classes.py` and `compendium.py` make the SRD sections. `orig_render.py` makes the original content sections. `monster_engine.py` calculates the monster statistics. `icons.py` holds the icons. |
+| `data/` | The SRD 5.2 data in JSON, and `fetch.py`, which downloads the data again. |
+| `build.sh` | Builds both books and both covers, and copies the PDFs into `dist/`. |
 
-## Adding your own content
+## Add your own content
 
-- **Monster:** add an `M(...)` entry to any `orig_mon*.py`. Give it a size, type, CR and ability scores; AC, HP, attack bonuses, damage averages and save DCs are calculated for you. Use `{dc:con}`, `{atk:str}` and `{2d6}` in text.
-- **Magic item:** add a tuple to `orig_items*.py`: `(name, category, rarity, attunement, text)`.
-- **Subclass:** add to the class list in `orig_sub*.py`: `(name, tagline, [(level, feature, text), ...])`.
-- **Spell / feat / background / species:** see `orig_spells.py` and `orig_options.py`.
+Edit the files in `content/`. Then run `build.sh`.
 
-Then run `./build.sh`.
+- **Monster:** add an `M(...)` entry to an `orig_mon*.py` file. Give the
+  size, the type, the CR, and the ability scores. The engine calculates the
+  AC, the hit points, the attack bonuses, the average damage, and the save
+  DCs. In the text, use `{dc:con}`, `{atk:str}`, and `{2d6}`.
+- **Magic item:** add a tuple to an `orig_items*.py` file:
+  `(name, category, rarity, attunement, text)`.
+- **Subclass:** add an entry to the class list in an `orig_sub*.py` file:
+  `(name, tagline, [(level, feature, text), ...])`.
+- **Spell, feat, background, or species:** see `orig_spells.py` and
+  `orig_options.py`.
 
-## Printing
+To change a chapter, edit `books/player.src.html` or `books/gm.src.html`.
 
-- Interior: A4, black & white. Mirrored margins (22 mm inside / 14 mm outside).
-- Cover: full color with 3 mm bleed; spine width assumes ~0.057 mm per page. Check your printer's spine calculator and change `MM_PER_PAGE` in `cover.py` if needed.
-- A white box on the back cover is reserved for a barcode.
+## Print
 
-See [NOTICE.md](../NOTICE.md) for licensing.
+- Interior: A4, black and white, with mirrored margins (22 mm inside and
+  14 mm outside).
+- Cover: full color with 3 mm bleed. The spine width uses 0.0572 mm for each
+  page. Use the spine calculator of your printer, and change `MM_PER_PAGE` in
+  `build/cover.py` if necessary.
+- The back cover has a white box for a barcode.
+
+## Check the layout
+
+`build/overflow.py` finds text that goes out of its box. It needs
+`playwright`. `requirements.txt` installs it, but the build does not use it.
+
+## License
+
+See [`NOTICE.md`](../NOTICE.md).
