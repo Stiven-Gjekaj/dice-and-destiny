@@ -82,3 +82,41 @@ chapel and guards the way to the surface.
   creatures that still fight.
 - It fights to the death. It is a servant of the Unlit King, and it fears him
   more than it fears death.
+
+## Wick, the lantern
+
+*Tiny construct. Ally. Wick does not attack.*
+
+Wick is a brass lantern with a talking flame. The steward of the keep made
+Wick 300 years ago. Wick had one task: wake the Dawnwatch when the Unlit King
+returns. Wick was alone for all that time, and Wick talks a lot.
+
+| AC | HP | Speed | Initiative |
+|----|----|-------|------------|
+| 15 | 4 | 0 ft (a character carries Wick), or fly 10 ft (hover) | +0 |
+
+**Senses:** passive Perception 12.
+
+**Traits**
+
+- **Lantern.** Wick sheds bright light in a 20-foot radius and dim light for
+  20 feet more.
+- **Rules Spirit.** Wick knows the "rules of the Dawnwatch." Use Wick to
+  explain a rule in the world. See the teaching notes in the session.
+- **Not a Target.** Enemies do not attack Wick. If an attack hits Wick by
+  accident, Wick goes dark for one round and complains loudly.
+
+**Actions**
+
+- **Help (solo or two players only).** Wick distracts one enemy within 5
+  feet. The next attack roll of an ally against that enemy has advantage.
+  This also teaches the Help action.
+- **Light Burst (one time only).** Wick flares bright. Each Ash Mite within
+  10 feet takes 2 fire damage. Use this to save a party in trouble.
+
+**Personality**
+
+- Proud, dramatic, and a bit scared of the dark.
+- Counts everything. "Three hundred years, four months, and two days."
+- Calls the characters "Sleepers" until they tell Wick their names.
+- Sings a bad song when nervous.
