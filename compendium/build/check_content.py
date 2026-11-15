@@ -22,6 +22,7 @@ BANNED = {
     "forgotten realms", "faerun", "faer" + chr(0xFB) + "n", "eberron", "ravenloft", "greyhawk",
     "waterdeep", "baldur's gate", "strahd", "vecna", "mordenkainen", "bigby",
     "tasha", "melf", "tenser", "otiluke", "drizzt",
+    "elder brain", "star spawn", "hook horror", "hookhorror",
 }
 
 # Spell damage curve: level to (single target, area). A spell may go 25% above it.
