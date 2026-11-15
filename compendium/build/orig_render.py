@@ -1,7 +1,9 @@
 """Render original (non-SRD) content into HTML for the compendiums."""
 import html, re
 from collections import defaultdict
-import orig_options
+import content.backgrounds
+import content.feats
+import content.species
 import content.spells
 from content.subclasses import SUBS
 import content.items
@@ -34,7 +36,7 @@ def subclasses_html():
 
 def backgrounds_html():
     out = ['<div class="grid2">']
-    for n, ab, sk, tool, feat, eq, flav in orig_options.BACKGROUNDS:
+    for n, ab, sk, tool, feat, eq, flav in content.backgrounds.BACKGROUNDS:
         out.append(f'<div class="box"><h4>{E(n)}</h4><p><i>{E(flav)}</i></p><p><b>Ability Scores:</b> {E(ab)}<br><b>Feat:</b> {E(feat)}<br>'
                    f'<b>Skill Proficiencies:</b> {E(sk)}<br><b>Tool Proficiency:</b> {E(tool)}<br><b>Equipment:</b> Choose A or B: (A) {E(eq)}; or (B) 50 GP</p></div>')
     out.append("</div>")
@@ -43,7 +45,7 @@ def backgrounds_html():
 
 def species_html():
     out = []
-    for n, size, speed, desc, traits in orig_options.SPECIES:
+    for n, size, speed, desc, traits in content.species.SPECIES:
         out.append(f'<div class="species"><h3>{E(n)}</h3><p><i>{E(desc)}</i></p><p><b>Size:</b> {E(size)} · <b>Speed:</b> {E(speed)}</p><div class="cols2 compendium">')
         for tn, tt in traits:
             out.append(f'<div class="entry"><p><b><i>{E(tn)}.</i></b> {E(tt)}</p></div>')
@@ -55,7 +57,7 @@ def feats_html():
     out = []
     for t in ["Origin", "General", "Fighting Style", "Epic Boon"]:
         out.append(f'<h3>{t} Feats</h3><div class="cols2 compendium">')
-        for n, ty, pre, tx in [f for f in orig_options.FEATS if f[1] == t]:
+        for n, ty, pre, tx in [f for f in content.feats.FEATS if f[1] == t]:
             p = f" (Prerequisite: {E(pre)})" if pre else ""
             out.append(f'<div class="entry"><h4 class="sp-name">{E(n)}</h4><div class="sp-meta"><i>{t} Feat{p}</i></div><p>{E(tx)}</p></div>')
         out.append("</div>")
