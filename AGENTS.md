@@ -69,6 +69,14 @@ It holds the full feature.
 
     feat: integrate the full parser feature
 
+## Branches
+
+- Push your commits to `main` only.
+- Do not create a different branch on the remote.
+- Reason: the human keeps all work on one branch.
+  A different remote branch is one more thing that the human must examine
+  and remove.
+
 ## How to work
 
 - Run the code.
