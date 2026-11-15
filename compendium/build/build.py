@@ -154,6 +154,7 @@ def expand(name):
     s = chapter_heads(s)
     s = class_marks(s)
     s = box_icons(s)
+    s = comp.no_em_dash(s)
     TOC.sort(key=lambda t: s.index(t[2]))
     return s
 

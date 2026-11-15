@@ -414,6 +414,21 @@ def neutral(text):
     return text
 
 
+# The SRD text uses em-dashes. The books do not use them.
+# An em-dash alone in a table cell means "none": use an en-dash.
+# An em-dash in a sentence becomes a comma.
+EMPTY_CELL = re.compile(r">\s*\u2014\s*<")
+IN_TEXT = re.compile(r"\s*\u2014\s*")
+TIDY = [(", ,", ","), (", .", "."), (",.", "."), (", ;", ";"), (", :", ":"), ("(, ", "("), (", )", ")")]
+
+
+def no_em_dash(html):
+    html = EMPTY_CELL.sub(">\u2013<", html)
+    html = IN_TEXT.sub(", ", html)
+    for a, b in TIDY:
+        html = html.replace(a, b)
+    return html
+
 
 def rules_html(names=RULE_ORDER):
     rs = {r["name"]: r for r in load("all_rulesets.json")}
