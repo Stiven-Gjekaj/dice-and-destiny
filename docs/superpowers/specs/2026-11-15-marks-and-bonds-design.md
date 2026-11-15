@@ -1,7 +1,8 @@
 # Design: Marks and Bonds
 
 Date: 2026-11-15.
-Status: approved by the human. The systems session builds from it.
+Status: draft. All questions have answers. The human must approve the full
+design before the systems session starts.
 
 Parent design: [Edition 2 expansion](2026-11-15-edition-2-expansion-design.md).
 
