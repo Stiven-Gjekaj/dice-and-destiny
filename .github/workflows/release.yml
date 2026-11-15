@@ -81,9 +81,11 @@ jobs:
             cp "compendium/dist/Dice & Destiny - ${title} - Cover (color, with bleed).pdf" "release/dice-and-destiny-${slug}-cover.pdf"
             echo "release/dice-and-destiny-${slug}-interior.pdf#Dice & Destiny: The ${title}, interior (A4, black and white)" >> assets.txt
             echo "release/dice-and-destiny-${slug}-cover.pdf#Dice & Destiny: The ${title}, cover (color, with bleed)" >> assets.txt
+            cp "compendium/dist/Dice & Destiny - ${title} - Hardcover Cover (Lulu casewrap).pdf" "release/dice-and-destiny-${slug}-cover-hardcover.pdf"
+            echo "release/dice-and-destiny-${slug}-cover-hardcover.pdf#Dice & Destiny: The ${title}, hardcover cover (Lulu A4 casewrap)" >> assets.txt
           done
           cat assets.txt
-          test "$(wc -l < assets.txt)" -eq 4
+          test "$(wc -l < assets.txt)" -eq 6
 
       - name: Publish a preview release
         if: github.ref == 'refs/heads/main'
