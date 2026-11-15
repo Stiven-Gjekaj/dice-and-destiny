@@ -4,7 +4,7 @@ from collections import defaultdict, OrderedDict
 import markdown as mdlib
 
 import os
-D = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+D = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
 load = lambda n: json.load(open(f"{D}/{n}"))
 
 

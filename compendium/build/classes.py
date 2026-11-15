@@ -4,7 +4,7 @@ Descriptions are short summaries written for this binder."""
 import json, re, html
 
 import os
-DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
 ORDER = "barbarian bard cleric druid fighter monk paladin ranger rogue sorcerer warlock wizard".split()
 
 SUB_LEVELS = {
