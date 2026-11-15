@@ -1,0 +1,79 @@
+# Build the Dice & Destiny books and publish the PDFs as a GitHub release.
+# A push to main makes a preview pre-release. A tag edition-N makes a full release.
+name: Release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "compendium/**"
+      - ".github/workflows/release.yml"
+    tags:
+      - "edition-*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    env:
+      GH_TOKEN: ${{ github.token }}
+      KEEP_PREVIEWS: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # These fonts give the same page breaks as the baseline build.
+      # Do not add fonts-gfs-baskerville: the baseline uses Caladea in its place.
+      - name: Install the build tools and the fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils fonts-crosextra-caladea fonts-liberation fonts-inter
+          pip install "markdown>=3.5" "pypdf>=4.0"
+          google-chrome --version
+
+      - name: Build the books
+        run: compendium/build.sh
+
+      - name: Show the page counts
+        run: |
+          for f in compendium/dist/*.pdf; do
+            echo "$(pdfinfo "$f" | awk '/^Pages/{print $2}') pages: $f"
+          done
+
+      - name: Publish a preview release
+        if: github.ref == 'refs/heads/main'
+        run: |
+          day=$(date -u +%Y.%m.%d)
+          tag="preview-${day}-${GITHUB_SHA::7}"
+          gh release create "$tag" compendium/dist/*.pdf \
+            --target "$GITHUB_SHA" --prerelease \
+            --title "Dice & Destiny preview ${day} (${GITHUB_SHA::7})" \
+            --notes "Preview build of commit ${GITHUB_SHA}. This is not an edition."
+
+      - name: Delete the old previews
+        if: github.ref == 'refs/heads/main'
+        run: |
+          gh release list --limit 200 --json tagName,createdAt \
+            --jq '[.[] | select(.tagName | startswith("preview-"))] | sort_by(.createdAt) | reverse | .[env.KEEP_PREVIEWS | tonumber:] | .[].tagName' |
+          while read -r tag; do
+            gh release delete "$tag" --yes --cleanup-tag
+          done
+
+      - name: Publish an edition release
+        if: startsWith(github.ref, 'refs/tags/edition-')
+        run: |
+          n="${GITHUB_REF_NAME#edition-}"
+          gh release create "$GITHUB_REF_NAME" compendium/dist/*.pdf \
+            --verify-tag --latest \
+            --title "Dice & Destiny: Edition ${n}" \
+            --notes "Edition ${n} of Dice & Destiny."
