@@ -581,3 +581,115 @@ When the Dawnfire burns:
 
 The black stone is a hook. It is a shard of the Unlit King's power. He knows
 that the Dawnwatch is awake. Let the players keep it.
+
+---
+
+## Scene 7: The Dawn Door (10 minutes)
+
+**Goal:** Give the "After" moment. Give rewards. Teach the level up.
+
+> The white door is heavy. You push together. Slowly, it opens.
+>
+> Light. Real light. For a moment you see nothing. Then your eyes clear.
+>
+> You stand on a hill, at the top of a ruin. The keep was once a great
+> fortress. Now it is a few broken walls with trees growing through them.
+> Below the hill, where the capital city stood, there is a forest. Far away
+> is a small village that you do not know. Smoke comes from its chimneys.
+>
+> Wick looks at the trees for a long time. "Ah," says Wick. "So it was
+> longer than I thought."
+
+### The After moment
+
+Go around the table one more time. Use the answers from Scene 1. Ask each
+player one question. Choose the one that matches the "Before" answer:
+
+- "You made a promise to someone. That person is gone for three hundred
+  years. What do you do with that promise now?"
+- "You still have the thing that you stole. Who did it belong to, and is it
+  worth something now?"
+- "Your god sent you a sign before the sleep. Look at the sky now. Do you
+  see the sign again?"
+- "You showed off a spell on your first day. Nobody alive remembers it. How
+  does that feel?"
+- "You did not want to sleep. Now you are awake, and everything is gone. Was
+  it worth it?"
+
+> **Teach: the story belongs to the players.** "Your answers become the
+> story. A DM uses what you say to build the next adventure."
+
+Give Heroic Inspiration again for the best answer, if the player does not
+have it.
+
+### The cliffhanger
+
+> Then the light changes. In the north, the sky goes dark, as if night comes
+> in the middle of the day. A black cloud rolls over the far mountains. In
+> the cloud, you see a shape. It is very tall, with a crown of black fire. It
+> does not move. It looks at you.
+>
+> The black stone in your pocket hums. A voice speaks in your head, deep and
+> slow: "Sleepers. I also slept. And now we are both awake."
+>
+> The cloud is gone. The sun shines again. Wick's flame is very small.
+>
+> "Well," says Wick. "That was the Unlit King. I think he knows."
+
+### Rewards
+
+- **The Dawnwatch Sigil:** Each character finds a silver brooch with a sun on
+  it, in the pocket of their old uniform. It is a common magic item. While a
+  character wears it, they always know which way is east. One time per Long
+  Rest, when the character makes a death saving throw, the character can
+  treat a roll of 9 or lower as a 10.
+- **Old coins:** The 15 gold coins from the armory are three hundred years
+  old. A collector in the village pays 50 gold pieces for them.
+- **Wick:** Wick goes with the party. Wick is a friend, a light, and a guide.
+
+> **Teach: experience and levels.** "When characters survive danger, they
+> get experience points, or XP. With enough XP, they go up a level. You go to
+> level 2 now."
+
+### Level up
+
+Each character goes to level 2. The "At level 2" section on each sheet tells
+the player what changes. Teach it in this order:
+
+1. **More HP.** Add the number on the sheet. This is the average of the Hit
+   Point Die plus the Constitution modifier. A player can also roll the Hit
+   Point Die instead, but the fixed number is safer.
+2. **One more Hit Point Die.**
+3. **New features.** Read them together.
+4. **More spell slots** for the Light and the Spark.
+
+If the session ends here, the level up is the reward. If you play more
+sessions, the characters start the next adventure at level 2.
+
+### End of the session
+
+> The village is far away. It is a long walk down the hill. Behind you, the
+> keep is quiet. In front of you is a world that you do not know, and a king
+> in the north who knows your names.
+>
+> The Dawnwatch is awake.
+
+Ask the players three short questions:
+
+1. "What was the most fun moment?"
+2. "Which rule was hard to understand?"
+3. "Do you want to play again?"
+
+## What next
+
+If the players want more, here are hooks for a second session:
+
+- **The village:** The people in the village speak a strange new form of the
+  old language. They have a legend about "the Sleepers under the hill." Some
+  think it is a children's story. One old woman knows that it is true.
+- **The black stone:** It hums louder at night. It points north, like a
+  compass.
+- **The other keeps:** Wick remembers that the kingdom built more than one
+  hall of sleepers. Are there other Dawnwatch groups? Are they awake?
+- **The "Before" answers:** Use the answers from Scene 1. The promise, the
+  stolen thing, and the sign from the god can each become a quest.
