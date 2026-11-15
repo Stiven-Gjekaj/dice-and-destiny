@@ -51,12 +51,29 @@ jobs:
             echo "$(pdfinfo "$f" | awk '/^Pages/{print $2}') pages: $f"
           done
 
+      # GitHub changes special characters in the names of release files.
+      # Give each file a plain name, and keep the full title as its label.
+      - name: Name the release files
+        run: |
+          mkdir -p release
+          : > assets.txt
+          for book in "Player's Compendium:players-compendium" "Game Master's Compendium:game-masters-compendium"; do
+            title="${book%%:*}"; slug="${book##*:}"
+            cp "compendium/dist/Dice & Destiny - ${title} - Interior (A4, B&W).pdf" "release/dice-and-destiny-${slug}-interior.pdf"
+            cp "compendium/dist/Dice & Destiny - ${title} - Cover (color, with bleed).pdf" "release/dice-and-destiny-${slug}-cover.pdf"
+            echo "release/dice-and-destiny-${slug}-interior.pdf#Dice & Destiny: The ${title}, interior (A4, black and white)" >> assets.txt
+            echo "release/dice-and-destiny-${slug}-cover.pdf#Dice & Destiny: The ${title}, cover (color, with bleed)" >> assets.txt
+          done
+          cat assets.txt
+          test "$(wc -l < assets.txt)" -eq 4
+
       - name: Publish a preview release
         if: github.ref == 'refs/heads/main'
         run: |
           day=$(date -u +%Y.%m.%d)
           tag="preview-${day}-${GITHUB_SHA::7}"
-          gh release create "$tag" compendium/dist/*.pdf \
+          mapfile -t assets < assets.txt
+          gh release create "$tag" "${assets[@]}" \
             --target "$GITHUB_SHA" --prerelease \
             --title "Dice & Destiny preview ${day} (${GITHUB_SHA::7})" \
             --notes "Preview build of commit ${GITHUB_SHA}. This is not an edition."
@@ -74,7 +91,8 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/edition-')
         run: |
           n="${GITHUB_REF_NAME#edition-}"
-          gh release create "$GITHUB_REF_NAME" compendium/dist/*.pdf \
+          mapfile -t assets < assets.txt
+          gh release create "$GITHUB_REF_NAME" "${assets[@]}" \
             --verify-tag --latest \
             --title "Dice & Destiny: Edition ${n}" \
             --notes "Edition ${n} of Dice & Destiny."
