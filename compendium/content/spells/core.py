@@ -94,7 +94,7 @@ SPELLS = [
  "With a level 5+ slot, the duration is 24 hours and doesn't require Concentration."),
 # ---------- level 4
 ("Storm Lance", 4, "Evocation", [S, W, D], "Action", "Self (120-foot line)", "V, S", "Instantaneous", False, False,
- "A 120-foot-long, 5-foot-wide line of lightning. Each creature in it makes a Dexterity save, taking 8d8 Lightning damage on a failure, or half on a success. Metal armor gives Disadvantage on the save.",
+ "A 120-foot-long, 5-foot-wide line of lightning. Each creature in it makes a Dexterity save, taking 7d8 Lightning damage on a failure, or half on a success. Metal armor gives Disadvantage on the save.",
  "The damage increases by 1d8 per slot level above 4."),
 ("Sanctum of Stone", 4, "Abjuration", [C, D, W], "Action", "60 feet", "V, S, M (granite dust)", "8 hours", False, True,
  "A dome of stone 20 feet across rises; it has AC 17 and 60 Hit Points per 5-foot section. You can designate creatures that pass through it freely.",
@@ -116,7 +116,7 @@ SPELLS = [
  "Two Large tree spirits rise (AC 15, 60 HP, Speed 20 ft). They act on your turn; each makes a slam (your spell attack, 3d8 Bludgeoning, reach 10 ft) and can grapple on a hit.",
  "Add one guardian per two slot levels above 5."),
 ("Sunder the Veil", 5, "Abjuration", [C, P, W], "Action", "120 feet", "V, S", "Instantaneous", False, False,
- "Each creature of your choice in a 30-foot sphere that is a Fiend, Undead, Fey or Celestial makes a Charisma save, taking 8d10 Radiant damage and being banished to its home plane for 1 minute on a failure (half damage only on a success).",
+ "Each creature of your choice in a 30-foot sphere that is a Fiend, Undead, Fey or Celestial makes a Charisma save, taking 6d10 Radiant damage and being banished to its home plane until the end of your next turn on a failure (half damage only on a success).",
  None),
 # ---------- level 6
 ("Siege of Thorns", 6, "Conjuration", [D, R], "Action", "120 feet", "V, S", "10 minutes", True, False,
@@ -130,7 +130,7 @@ SPELLS = [
  None),
 # ---------- level 7
 ("Tidal Collapse", 7, "Evocation", [D, S, W], "Action", "300 feet", "V, S", "Instantaneous", False, False,
- "A 40-foot-radius column of seawater crashes down. Each creature there makes a Strength save, taking 10d10 Bludgeoning damage and being knocked Prone on a failure, or half on a success. Fires in the area go out.",
+ "A 40-foot-radius column of seawater crashes down. Each creature there makes a Strength save, taking 9d10 Bludgeoning damage and being knocked Prone on a failure, or half on a success. Fires in the area go out.",
  None),
 ("Hall of Doors", 7, "Conjuration", [W, B, K], "1 minute", "Self", "V, S, M (a key worth 500 GP)", "1 hour", False, False,
  "You open a hallway of doors to places you have visited. You and up to eight creatures can step through one door to arrive within 100 feet of any of those locations on the same plane.",
