@@ -3,6 +3,7 @@
 set -e
 cd "$(dirname "$0")"
 export PYTHONPATH="$PWD:$PWD/build${PYTHONPATH:+:$PYTHONPATH}"
+python3 -m pytest -q
 python3 build/check_content.py content
 python3 build/build.py player gm
 python3 build/check_content.py pages player.pdf gm.pdf
