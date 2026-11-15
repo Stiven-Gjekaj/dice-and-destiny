@@ -82,7 +82,20 @@ files that are already in the folder.
 | `spells/` | `SPELLS` | `(name, level, school, classes, time, range, components, duration, concentration, ritual, description, higher levels)` |
 | `monsters/` | `MON` | `M(name, size, type, alignment, CR, "Str Dex Con Int Wis Cha", ...)`. See `build/monster_engine.py`. |
 | `items/` | `ITEMS` | `(name, category, rarity, attunement, text)` |
-| `downtime/` | `STRONGHOLDS` | HTML for the GM book |
+| `downtime/` | `STRONGHOLDS`, `DOWNTIME` | `STRONGHOLDS` is HTML for the GM book. `DOWNTIME` is a list of downtime activities (new format). |
+
+The build only shows values that it knows. A subclass under a class key
+that is not a class, a feat type other than Origin, General, Fighting Style,
+or Epic Boon, or an item rarity other than Common, Uncommon, Rare, Very Rare,
+Legendary, or Artifact disappears from the book. The content check stops on
+each of these. A new class adds its key to `CLASS_KEYS` in
+`content/classes/__init__.py`.
+
+A new content folder must have one line in `REGISTRY` in
+`compendium/build/check_content.py`. The line tells the check how to read
+the names of the entries. The check stops on a folder that is not in
+`REGISTRY`. The check also reads the text of every file in every folder for
+em-dashes, the trademark, and banned names.
 
 A new category (classes, NPCs, traps, tables, pantheons, systems, downtime
 activities) needs a format. The workstream session proposes the format in
@@ -192,15 +205,16 @@ same level.
 The optional systems can make characters stronger. They do not cost a feat
 or a class feature. Each system chapter in the GM's book tells the GM how to
 make encounters harder when the system is on (for example, "use monsters of
-1 CR more" or "add one monster for each 4 characters"). Each system has a
-limit: no system adds more than one extra use of a resource each short rest
-at level 1, and its power grows with the proficiency bonus.
+1 CR more" or "add one monster for each 4 characters"). A resource that a
+system gives grows with the proficiency bonus. For example, Techniques give
+points equal to the proficiency bonus, and they return on a short rest (the
+design says this).
 
 ## 7. How a batch is made
 
 1. A batch has entries from one category only, and at most 40 entries.
-2. Run `compendium/build.sh`. The content checks, the tests, and the page
-   check must pass.
+2. Run `compendium/build.sh`. It runs the tests, the content checks, the
+   build, and the page check. All must pass.
 3. Read the new pages in the PDF. Look for text that goes out of a box, bad
    breaks, and errors in the numbers.
 4. Send the batch to the orchestrator session. Give the file names, the
@@ -208,5 +222,11 @@ at level 1, and its power grows with the proficiency bonus.
    each with the SRD entry that it is equal to.
 5. The orchestrator examines the batch against this guide. When the batch
    is correct, the orchestrator tells the session to commit and push.
-6. Commit one batch in one commit, on `main`, with the human as the writer.
-   Example subject: `feat: add 30 swamp and coast monsters`.
+6. Commit on `main`, with the human as the writer. A batch of entries is one
+   commit, for example `feat: add 30 swamp and coast monsters`. A batch that
+   also brings a new format is more than one commit, because each commit has
+   one change only (`AGENTS.md`): first the renderer and its test, then the
+   placeholder and the chapter in the book, then the entries.
+7. If the push fails because `main` has new commits, fetch and rebase. Then
+   run `compendium/build.sh` again before you push. If the rebase had a
+   conflict in a line of another session, tell the orchestrator.
