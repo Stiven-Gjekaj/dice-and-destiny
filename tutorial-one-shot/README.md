@@ -85,3 +85,11 @@ pod.
 - **No character dies in this tutorial.** The first lesson of D&D must not end
   with a lost character. Scene 6 has a rule for this, the Dawnwatch Oath. Do
   not tell the players about it before Scene 6.
+
+## Files
+
+- [Session 1: The Last Watch](sessions/01-the-last-watch/README.md): the
+  full adventure, scene by scene.
+- [Pregenerated characters](pregens.md): five level 1 characters.
+- [Statblocks](statblocks.md): the Ash Mite, the Ash Hound, and Wick.
+- [Player cheat sheet](cheat-sheet.md): print one copy for each player.
