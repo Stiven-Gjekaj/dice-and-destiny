@@ -13,4 +13,6 @@ cp player.pdf "dist/Dice & Destiny - Player's Compendium - Interior (A4, B&W).pd
 cp gm.pdf "dist/Dice & Destiny - Game Master's Compendium - Interior (A4, B&W).pdf"
 cp player_cover.pdf "dist/Dice & Destiny - Player's Compendium - Cover (color, with bleed).pdf"
 cp gm_cover.pdf "dist/Dice & Destiny - Game Master's Compendium - Cover (color, with bleed).pdf"
+cp player_cover_hardcover.pdf "dist/Dice & Destiny - Player's Compendium - Hardcover Cover (Lulu casewrap).pdf"
+cp gm_cover_hardcover.pdf "dist/Dice & Destiny - Game Master's Compendium - Hardcover Cover (Lulu casewrap).pdf"
 echo "Done. PDFs are in dist/"
