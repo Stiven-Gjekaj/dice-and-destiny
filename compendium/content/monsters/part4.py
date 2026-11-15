@@ -205,7 +205,7 @@ M("Archon of Judgement", "L", "Celestial", "Lawful Good", 16, "24 16 22 18 22 22
   attacks=[("Burning Sword", "m", "4d8", "Slashing", "plus {4d8} Radiant damage", "10 ft.")], multi=3,
   actions=[("Verdict (Recharge 5–6)", "One creature within 120 feet makes a {dc:wis} Wisdom save. On a failure, if it is evil it takes {12d10} Radiant damage; otherwise it is Stunned until the end of its next turn.")],
   leg=[("Strike", "The archon makes one Burning Sword attack."), ("Shield the Righteous", "One ally within 60 feet gains {4d10} Temporary Hit Points.")]),
-M("Elder Brain Tyrant", "L", "Aberration", "Lawful Evil", 18, "14 10 20 24 20 22", ac=18, saves="Int, Wis, Cha", senses="Blindsight 120 ft.", speed="0 ft., fly 20 ft. (hover)", res=R(Immunities="Psychic; Charmed, Frightened"), lang="telepathy 5 miles",
+M("Thought Tyrant", "L", "Aberration", "Lawful Evil", 18, "14 10 20 24 20 22", ac=18, saves="Int, Wis, Cha", senses="Blindsight 120 ft.", speed="0 ft., fly 20 ft. (hover)", res=R(Immunities="Psychic; Charmed, Frightened"), lang="telepathy 5 miles",
   traits=[("Legendary Resistance (3/Day)", "If the tyrant fails a saving throw, it can choose to succeed instead.")],
   attacks=[("Psychic Lance", "s:int", "6d10", "Psychic", "", "150 ft.")], multi=3,
   actions=[("Mind Storm (Recharge 5–6)", "Each creature of its choice within 120 feet makes a {dc:int} Intelligence save, taking {10d10} Psychic damage and being Stunned until the end of its next turn on a failure, half damage only on a success.")],
