@@ -298,3 +298,87 @@ a bottle of ink, a quill, and calligrapher's supplies.
   Magic* or *Find Familiar*).
 - **Scholar:** Choose Arcana, History, or Investigation. You add double your
   proficiency bonus to that skill.
+
+---
+
+## 4. The Shadow
+
+**Name:** ______________ (suggestions: Nim, Tansy, Corrin)
+
+Halfling Rogue 1. Background: Criminal.
+
+You were the scout of the Dawnwatch. Before that, you were a thief. The
+captain gave you a second chance. You find traps, open locks, and hit hard
+when an enemy does not see you.
+
+**Before question:** "You stole one last thing on the night before the long
+sleep. What was it?" (DM: it is still in your pocket.)
+
+### Your best moves
+
+- **Attack** with your shortsword (d20 + 5, damage 1d6 + 3) or your shortbow
+  (d20 + 5, damage 1d6 + 3, range 80 feet).
+- **Sneak Attack:** one time on each of your turns, add 1d6 damage if you have
+  advantage, or if an ally stands next to the target.
+- **Skills:** you are the best at Stealth (+7) and Perception (+5). Ask the DM
+  if you can search for traps.
+
+### Numbers
+
+| AC | HP | Speed | Initiative | Passive Perception |
+|----|----|-------|------------|--------------------|
+| 14 | 10 | 30 ft | +5 | 15 |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|-----|-----|-----|-----|-----|-----|
+| 8 (-1) | 17 (+3) | 14 (+2) | 12 (+1) | 13 (+1) | 10 (+0) |
+| Save -1 | Save +5 | Save +2 | Save +3 | Save +1 | Save +0 |
+
+**Skills:** Acrobatics +5, Investigation +3, Perception +5 (expertise),
+Persuasion +2, Sleight of Hand +5, Stealth +7 (expertise).
+
+**Hit Point Dice:** 1d8.
+
+### Attacks
+
+| Weapon | Attack | Damage | Notes |
+|--------|--------|--------|-------|
+| Shortsword | +5 | 1d6 + 3 piercing | Mastery: Vex |
+| Shortbow | +5 | 1d6 + 3 piercing | Range 80/320 ft. Mastery: Vex |
+| Dagger (2) | +5 | 1d4 + 3 piercing | Thrown 20/60 ft |
+
+### Features
+
+- **Sneak Attack:** One time on each of your turns, you deal 1d6 more damage
+  when you hit with a finesse or ranged weapon, if one of these is true:
+  - You have advantage on the attack roll.
+  - An ally is within 5 feet of the target, and you do not have
+    disadvantage.
+- **Expertise:** You add double your proficiency bonus to Stealth and
+  Perception. This is already in your skills.
+- **Weapon Mastery (Vex):** When you hit and deal damage, you have advantage
+  on your next attack roll against that creature before the end of your next
+  turn. This gives you Sneak Attack on the next attack, too.
+- **Thieves' Cant:** You know the secret language of thieves.
+- **Alert:** You add your proficiency bonus to initiative. When you roll
+  initiative, you can swap your result with a willing ally.
+- **Luck (Halfling):** When you roll a 1 on a d20 for an attack roll, an
+  ability check, or a saving throw, you roll the die again. You must use the
+  new roll.
+- **Brave (Halfling):** You have advantage on saving throws against the
+  frightened condition.
+- **Halfling Nimbleness:** You can move through the space of a creature that
+  is larger than you.
+- **Naturally Stealthy:** You can try to hide behind a creature that is
+  larger than you.
+
+### Equipment
+
+Leather armor, shortsword, shortbow and 20 arrows, 2 daggers, thieves' tools,
+a dark hooded cloak, a backpack, and a crowbar.
+
+### At level 2
+
+- **HP:** +7 (new maximum 17). Hit Point Dice: 2d8.
+- **Cunning Action:** On each of your turns, you can Dash, Disengage, or Hide
+  as a bonus action.
