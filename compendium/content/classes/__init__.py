@@ -8,6 +8,8 @@ A class entry is a dict with these keys:
   columns: a list of (heading, [20 values, one for each level])
   features: a list of (level, name, text). In the text, [[label]] shows the label in bold.
   guide: a dict with "play" and "build" text
+  lists (optional): a list of (title, [(name, text), ...]). Each list shows as
+    its own block after the features, for example the options of a feature.
 
 The subclasses of a class go in content/subclasses under the key of the class.
 """

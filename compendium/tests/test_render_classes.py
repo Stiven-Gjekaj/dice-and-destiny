@@ -59,3 +59,14 @@ def test_class_html_needs_a_known_icon():
 def test_class_html_starts_a_new_page_only_when_asked():
     assert 'class="class-banner newpage"' in class_html(make_class())
     assert 'class="class-banner"' in class_html(make_class(), newpage=False)
+
+
+def test_class_html_shows_each_list_after_the_features():
+    out = class_html(make_class(lists=[("Tricks & Traps", [("Snare", "Catch [[it:]] fast."), ("Pit", "Dig.")])]))
+    assert out.index("Class Features") < out.index("<h3>Tricks &amp; Traps</h3>")
+    assert "<dt>Snare</dt><dd>Catch <b>it:</b> fast.</dd>" in out
+    assert "<dt>Pit</dt>" in out
+
+
+def test_class_html_without_lists_has_no_list_block():
+    assert "<h3>" not in class_html(make_class()).split("Class Features")[1]

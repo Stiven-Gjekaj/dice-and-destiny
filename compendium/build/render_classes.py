@@ -56,6 +56,11 @@ def class_html(c, subs=(), newpage=True):
     for lv, name, text in c["features"]:
         out.append(f'<div class="avoid"><dt><span class="lv">{lv}</span>{E(name)}</dt><dd>{feature_text(text)}</dd></div>')
     out.append('</dl>')
+    for title, entries in c.get("lists", []):
+        out.append(f'<h3>{E(title)}</h3><dl class="feat cols2">')
+        for name, text in entries:
+            out.append(f'<div class="avoid"><dt>{E(name)}</dt><dd>{feature_text(text)}</dd></div>')
+        out.append('</dl>')
     if subs:
         out.append(f'<p class="small muted"><b>Subclasses in this book (Chapter 24):</b> {E(", ".join(subs))}.</p>')
     return "\n".join(out)
