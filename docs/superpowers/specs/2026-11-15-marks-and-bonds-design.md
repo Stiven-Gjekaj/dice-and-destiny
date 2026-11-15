@@ -1,8 +1,7 @@
 # Design: Marks and Bonds
 
 Date: 2026-11-15.
-Status: draft. The human answered each question in this design. The human
-must approve the full design before the systems session starts.
+Status: approved by the human. The systems session builds from it.
 
 Parent design: [Edition 2 expansion](2026-11-15-edition-2-expansion-design.md).
 
@@ -121,10 +120,17 @@ system is on. The style guide gives the general rule.
 - **Visibility.** Each Mark entry has a default (Taints hidden, Blessings
   and Curses open). The GM can change it.
 
-## Open questions for the human
+## Answers of the human (after the builder check)
 
-1. How a partner stops a hidden Taint.
-2. If giving in is permanent.
+1. **A partner can stop a hidden Taint.** When a hidden Taint would grow,
+   the GM describes a sign that the table can see (for example "a flicker of
+   green in Saimon's eyes"). The bonded partner can spend the bond to stop
+   it without knowing what the sign means. The Taint stays secret. At the
+   crisis at 5, the GM reveals the Mark to its player.
+2. **Giving in can be undone.** After a character gives in, the character
+   keeps the full power and the steering of the GM. The way to end the Mark
+   stays open, at a higher price that the Mark names. To break free still
+   leaves a scar. A character is never lost unless the player chooses it.
 
 ## Left to the systems session
 
