@@ -1,0 +1,297 @@
+@page {
+  size: A4;
+  margin: 16mm 14mm 18mm 24mm; /* wide left margin for binder holes */
+  @bottom-center {
+    content: counter(page);
+    font-family: "Inter", sans-serif;
+    font-size: 8pt;
+    color: #8a7a6a;
+  }
+  @bottom-right {
+    content: string(chapter);
+    font-family: "Inter", sans-serif;
+    font-size: 7.5pt;
+    color: #8a7a6a;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+}
+@page cover {
+  margin: 0;
+  @bottom-center { content: none; }
+  @bottom-right { content: none; }
+}
+
+:root {
+  --ink: #2a211b;
+  --red: #8c1c13;
+  --gold: #b8892d;
+  --paper: #fbf7ef;
+  --soft: #f3ebdc;
+  --line: #d9c9ac;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  font-family: "Bitstream Charter", "Caladea", serif;
+  font-size: 9.6pt;
+  line-height: 1.42;
+  color: var(--ink);
+  margin: 0;
+}
+
+/* ---------- cover ---------- */
+.cover {
+  page: cover;
+  height: 297mm;
+  width: 210mm;
+  background: radial-gradient(ellipse at 50% 35%, #3a1612 0%, #1b0b09 70%);
+  color: #f3e6cc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30mm 28mm;
+  break-after: page;
+  position: relative;
+}
+.cover .frame {
+  position: absolute; inset: 12mm;
+  border: 1.2pt solid var(--gold);
+  outline: 0.4pt solid var(--gold);
+  outline-offset: -4mm;
+}
+.cover .kicker {
+  font-family: "Inter", sans-serif; letter-spacing: 0.35em; font-size: 9pt;
+  color: var(--gold); text-transform: uppercase; margin-bottom: 10mm;
+}
+.cover h1 {
+  font-family: "GFS Baskerville", "Caladea", serif;
+  font-size: 46pt; line-height: 1.02; margin: 0 0 6mm; color: #f6e7c8;
+  font-weight: normal;
+}
+.cover .sub { font-size: 13pt; font-style: italic; color: #e2cfa8; max-width: 120mm; }
+.cover .d20 { font-size: 64pt; color: var(--gold); margin: 12mm 0 8mm; line-height: 1; }
+.cover .foot {
+  position: absolute; bottom: 22mm; left: 0; right: 0;
+  font-family: "Inter", sans-serif; font-size: 8pt; color: #b9a27a; letter-spacing: 0.08em;
+}
+
+/* ---------- headings ---------- */
+h1, h2, h3, h4 { font-family: "Caladea", "GFS Baskerville", serif; color: var(--red); }
+h1.chapter {
+  string-set: chapter content();
+  font-size: 21pt; margin: 0; padding: 0;
+  border: none;
+  font-weight: bold;
+  line-height: 1.05;
+}
+.chapter-intro { font-style: italic; color: #5c4a3c; margin: 0 0 5mm; font-size: 10.2pt; }
+h2 {
+  font-size: 14.5pt; margin: 6mm 0 2mm; padding-bottom: 1mm;
+  border-bottom: 0.6pt solid var(--line);
+  break-after: avoid;
+}
+h3 { font-size: 11.5pt; margin: 4mm 0 1.5mm; break-after: avoid; }
+h4 { font-size: 10pt; margin: 3mm 0 1mm; color: var(--ink); break-after: avoid; }
+p { margin: 0 0 2.2mm; }
+ul, ol { margin: 0 0 2.5mm; padding-left: 5mm; }
+li { margin-bottom: 0.8mm; }
+b, strong { color: #1e1611; }
+.small { font-size: 8.4pt; }
+.muted { color: #6d5c4e; }
+
+/* ---------- boxes ---------- */
+.box {
+  background: var(--soft);
+  border-left: 3pt solid var(--gold);
+  padding: 2.6mm 3.4mm;
+  margin: 3mm 0;
+  break-inside: avoid;
+}
+.box.red { border-left-color: var(--red); background: #f6e6e0; }
+.box.dark { background: #2b1b16; color: #f1e3c7; border-left-color: var(--gold); }
+.box.dark b, .box.dark strong { color: #fff3da; }
+.box h4 { margin-top: 0; color: var(--red); }
+.box.dark h4 { color: var(--gold); }
+.box p:last-child, .box ul:last-child { margin-bottom: 0; }
+
+.example {
+  border: 0.8pt dashed var(--gold);
+  padding: 2.4mm 3.4mm;
+  margin: 3mm 0;
+  break-inside: avoid;
+  background: #fffdf8;
+}
+.example::before {
+  content: "EXAMPLE";
+  display: block;
+  font-family: "Inter", sans-serif; font-size: 7pt; letter-spacing: 0.2em;
+  color: var(--gold); font-weight: 700; margin-bottom: 1mm;
+}
+
+/* ---------- tables ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2mm 0 3.5mm;
+  font-family: "Inter", sans-serif;
+  font-size: 7.9pt;
+  line-height: 1.32;
+  break-inside: auto;
+}
+thead { display: table-header-group; }
+tr { break-inside: avoid; }
+th {
+  background: var(--red); color: #fff6e6; text-align: left;
+  padding: 1.3mm 1.8mm; font-weight: 600;
+}
+td { padding: 1.1mm 1.8mm; border-bottom: 0.4pt solid var(--line); vertical-align: top; }
+tbody tr:nth-child(even) td { background: #f8f1e4; }
+td.c, th.c { text-align: center; }
+table.compact { font-size: 7.4pt; }
+table.compact td { padding: 0.7mm 1.5mm; }
+caption {
+  caption-side: top; text-align: left; font-family: "Caladea", serif;
+  font-weight: bold; color: var(--red); font-size: 9.6pt; padding-bottom: 1mm;
+}
+
+/* ---------- layout helpers ---------- */
+.cols2 { column-count: 2; column-gap: 6mm; }
+.cols2 > * { break-inside: avoid; }
+.cols3 { column-count: 3; column-gap: 5mm; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 3mm; }
+.pb { break-before: page; }
+.avoid { break-inside: avoid; }
+
+/* ---------- contents ---------- */
+.toc { list-style: none; padding: 0; font-size: 10.5pt; }
+.toc li { display: flex; border-bottom: 0.4pt dotted var(--line); padding: 1.4mm 0; }
+.toc li span { flex: 1; }
+.toc li span.n { flex: 0 0 10mm; font-family: "Inter", sans-serif; color: var(--gold); font-weight: 600; }
+
+/* ---------- class pages ---------- */
+.class-head {
+  display: grid; grid-template-columns: 1fr 58mm; gap: 5mm; margin-bottom: 3mm;
+}
+.traits {
+  background: #2b1b16; color: #f1e3c7; padding: 3mm; font-family: "Inter", sans-serif;
+  font-size: 7.6pt; line-height: 1.38;
+}
+.traits div { margin-bottom: 1.2mm; }
+.traits b { color: var(--gold); display: block; font-size: 6.8pt; letter-spacing: 0.08em; text-transform: uppercase; }
+.tag {
+  display: inline-block; font-family: "Inter", sans-serif; font-size: 7pt; font-weight: 600;
+  padding: 0.5mm 2mm; border-radius: 2mm; background: var(--soft); color: var(--red);
+  margin-right: 1mm; border: 0.4pt solid var(--line);
+}
+dl.feat { margin: 0; }
+dl.feat dt { font-weight: bold; color: var(--red); break-after: avoid; margin-top: 1.4mm; }
+dl.feat dt .lv { font-family: "Inter", sans-serif; font-size: 7pt; color: #fff; background: var(--gold); padding: 0.2mm 1.4mm; border-radius: 1mm; margin-right: 1.4mm; }
+dl.feat dd { margin: 0 0 0.6mm 0; }
+
+/* ---------- character sheet ---------- */
+.sheet { border: 1.2pt solid var(--ink); padding: 3mm; break-inside: avoid; }
+.sheet-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr; gap: 2mm; margin-bottom: 2.5mm; }
+.stat {
+  border: 0.8pt solid var(--ink); text-align: center; padding: 1.2mm 1mm;
+  font-family: "Inter", sans-serif; background: #fffdf8;
+}
+.stat .k { font-size: 6.5pt; letter-spacing: 0.08em; text-transform: uppercase; color: #6d5c4e; }
+.stat .v { font-size: 15pt; font-weight: 700; line-height: 1.1; }
+.stat .m { font-size: 7.5pt; color: var(--red); font-weight: 600; }
+.abil { display: grid; grid-template-columns: repeat(6, 1fr); gap: 2mm; margin-bottom: 2.5mm; }
+.note { font-family: "Caladea", serif; font-style: italic; color: var(--red); font-size: 8.3pt; }
+
+/* fill-in templates */
+.blank td { height: 7mm; }
+.lines div { border-bottom: 0.5pt solid var(--line); height: 7mm; }
+
+/* ---------- chapter heads with icons ---------- */
+.ch-head {
+  display: flex; align-items: center; gap: 3.5mm;
+  margin: 9mm 0 1mm; break-after: avoid; break-inside: avoid;
+}
+.ch-head.newpage, .newpage { break-before: page; }
+.ch-head.newpage { margin-top: 0; }
+.ch-badge {
+  flex: 0 0 13mm; height: 13mm; border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #b8322a, #5e110c);
+  border: 1.2pt solid var(--gold); color: #f6e2b8;
+  display: flex; align-items: center; justify-content: center;
+}
+.ch-num { font-family: "Inter", sans-serif; font-size: 7pt; letter-spacing: .2em; color: var(--gold); font-weight: 700; text-transform: uppercase; }
+svg.divider { width: 100%; display: block; margin: 1mm 0 3mm; }
+h2 { display: flex; align-items: center; gap: 2mm; }
+h2 .ic, h4 .ic { flex: none; color: var(--gold); }
+h4 { display: flex; align-items: center; gap: 1.6mm; }
+.box h4 .ic { color: var(--red); }
+.box.dark h4 .ic { color: var(--gold); }
+p, li { orphans: 2; widows: 2; }
+
+/* class page crest */
+.crest {
+  float: right; width: 26mm; height: 26mm; margin: -16mm 0 2mm 4mm;
+  border-radius: 50%; border: 1.4pt solid var(--gold);
+  background: radial-gradient(circle at 35% 30%, #3d1914, #160806);
+  color: var(--gold); display: flex; align-items: center; justify-content: center;
+}
+.class-banner {
+  background: linear-gradient(90deg, #2b1b16, #5e110c);
+  color: #f6e2b8; padding: 3.5mm 5mm; margin: 0 0 3mm; position: relative;
+  border-bottom: 1.4pt solid var(--gold); break-after: avoid;
+}
+.class-banner h1.chapter { color: #f6e2b8; font-size: 24pt; }
+.class-banner .tagline { font-style: italic; color: #e2cfa8; font-size: 10pt; margin-top: 1mm; max-width: 125mm; }
+.class-banner .crest { position: absolute; right: 5mm; top: 50%; transform: translateY(-50%); margin: 0; float: none; width: 20mm; height: 20mm; }
+
+/* overview cards */
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5mm; }
+.card {
+  border: 0.8pt solid var(--line); background: #fffdf8; padding: 2.4mm 2.6mm;
+  break-inside: avoid; position: relative;
+}
+.card .top { display: flex; align-items: center; gap: 2mm; margin-bottom: 1mm; }
+.card .top .ch-badge { flex: 0 0 9mm; height: 9mm; border-width: .8pt; }
+.card h3 { margin: 0; font-size: 11pt; }
+.card .meta { font-family: "Inter", sans-serif; font-size: 6.8pt; color: #6d5c4e; }
+.card p { font-size: 8.2pt; margin: 0; }
+
+/* stat blocks for abilities */
+.abil-card { display: grid; grid-template-columns: 15mm 1fr; gap: 3mm; border-bottom: .5pt solid var(--line); padding: 2mm 0; break-inside: avoid; }
+.abil-card .ab {
+  background: var(--red); color: #fff6e6; text-align: center; font-family: "Caladea", serif;
+  font-weight: bold; font-size: 13pt; padding-top: 2.5mm; border: 1pt solid var(--gold); height: 15mm;
+}
+.abil-card .ab small { display: block; font-family: "Inter", sans-serif; font-size: 5.6pt; letter-spacing: .1em; font-weight: 600; color: #f1d9a9; }
+.abil-card p { margin: 0 0 .8mm; }
+.ch-head, svg.divider, .chapter-intro, h2, h3 { break-after: avoid; page-break-after: avoid; }
+.keep { break-inside: avoid; }
+
+.class-banner h1.classname { string-set: chapter content(); font-family: "Caladea", serif; color: #f6e2b8; font-size: 25pt; margin: 0; line-height: 1.05; }
+.class-banner .ch-num { color: var(--gold); }
+dl.feat.cols2 > div { break-inside: avoid; }
+
+.class-banner { margin-top: 7mm; }
+.class-banner.newpage { margin-top: 0; }
+.class-banner { break-inside: avoid; }
+
+caption .ic { vertical-align: -2px; color: var(--gold); }
+.blank.tight td { height: 5.2mm; padding: 0 1.5mm; }
+dl.feat dd { font-size: 8.7pt; line-height: 1.36; }
+dl.feat dt { margin-top: 1.1mm; font-size: 9.2pt; }
+.class-head p { font-size: 9.2pt; }
+
+.gloss p { font-size: 7.6pt; line-height: 1.28; margin: 0 0 0.8mm; break-inside: avoid; }
+
+td, th, .stat, .traits div, .card p { overflow-wrap: break-word; word-break: normal; hyphens: auto; }
+table { table-layout: auto; }
+.stat .m { overflow-wrap: break-word; }
+
+/* keep small labels inside their boxes */
+.stat .k { font-size: 5.9pt; letter-spacing: 0.02em; white-space: nowrap; overflow-wrap: normal; }
+.abil-card { grid-template-columns: 21mm 1fr; }
+.abil-card .ab small { font-size: 5.3pt; letter-spacing: 0.02em; white-space: nowrap; }

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+/player.html
+/gm.html
+/player_cover.html
+/gm_cover.html
+/player.pdf
+/gm.pdf
+/player_cover.pdf
+/gm_cover.pdf
+prev/

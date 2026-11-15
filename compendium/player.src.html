@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Player's Binder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+{{FRONT}}
+{{TOC}}
+
+{{PART:I|Learning to Play|Everything a new player needs: the dice, the abilities, building a character, combat, magic and leveling up.}}
+<!-- 1 -->
+<h1 class="chapter">1 · Welcome to the Table</h1>
+<p class="chapter-intro">Dungeons &amp; Dragons is a game of collaborative storytelling. You play one hero; the Game Master (GM) plays the world and everyone else in it. There's no winning or losing — just a story you tell together, with dice deciding the uncertain moments.</p>
+
+<div class="grid2">
+<div>
+<h2 data-i="hourglass">How Play Works</h2>
+<ol>
+  <li>The GM <b>describes</b> what your character sees and hears.</li>
+  <li>You <b>say what your character does</b>, in your own words. "I climb the tower." "I ask the innkeeper about the missing girl."</li>
+  <li>If the outcome is uncertain, the GM asks you to <b>roll</b>.</li>
+  <li>The GM <b>describes what happens</b>. Repeat.</li>
+</ol>
+<p>You can try <b>anything</b> your character could plausibly do. You don't need to find a button for it — just describe it.</p>
+</div>
+<div>
+<h2 data-i="people">Being a Good Player</h2>
+<ul>
+  <li><b>Describe, don't request.</b> Say "I search the desk for hidden drawers," not "Can I roll Investigation?"</li>
+  <li><b>Share the spotlight.</b> Ask other players what their characters do.</li>
+  <li><b>Know your sheet.</b> Learn your own character's abilities — it keeps the game fast.</li>
+  <li><b>Plan on others' turns</b> so you're ready when it's yours.</li>
+  <li><b>Play a character, not a calculator.</b> Bad decisions made in character are often the best stories.</li>
+</ul>
+</div>
+</div>
+
+<h2 data-i="dice">Your Dice</h2>
+<p>D&amp;D uses seven dice. "<b>2d6</b>" means roll two six-sided dice and add them. "<b>1d8 + 3</b>" means roll one eight-sided die and add 3.</p>
+<table>
+  <thead><tr><th class="c">Die</th><th>Sides</th><th>Used for</th></tr></thead>
+  <tbody>
+    <tr><td class="c"><b>d4</b></td><td>Pyramid</td><td>Daggers, Magic Missile, Bless, Healing Word</td></tr>
+    <tr><td class="c"><b>d6</b></td><td>Cube</td><td>Shortswords, Fireball, Sneak Attack, Burning Hands</td></tr>
+    <tr><td class="c"><b>d8</b></td><td>Eight</td><td>Rapiers, longbows, healing spells</td></tr>
+    <tr><td class="c"><b>d10</b></td><td>Ten (0–9)</td><td>Longswords (two-handed), Fire Bolt, Fighter Hit Dice</td></tr>
+    <tr><td class="c"><b>d%</b></td><td>Ten (00–90)</td><td>Roll with a d10 for 1–100 (00 + 0 = 100). Random tables.</td></tr>
+    <tr><td class="c"><b>d12</b></td><td>Twelve</td><td>Greataxes, Barbarian Hit Dice</td></tr>
+    <tr><td class="c"><b>d20</b></td><td>Twenty</td><td><b>The core die:</b> attacks, ability checks, saving throws, initiative</td></tr>
+  </tbody>
+</table>
+<div class="box"><h4>Dice tips</h4><p>Keep one complete set of your own, plus an extra d20 for advantage. Different colours help: roll two d20s of different colours and call which one counts before rolling, or use a red d6 for fire damage. Dice that fall off the table are usually rerolled.</p></div>
+
+<!-- 2 -->
+<h1 class="chapter">2 · The Six Abilities</h1>
+<p class="chapter-intro">Every character has six ability scores. Nearly every roll in the game uses one of them.</p>
+
+<div class="abil-card"><div class="ab">STR<small>STRENGTH</small></div><div>
+<p><b>Physical power.</b> Melee weapon attacks and damage, Athletics (climbing, jumping, swimming, grappling), carrying capacity. Saves against being pushed, pinned or restrained.</p>
+<p class="small muted"><b>Matters most for:</b> Barbarian, Fighter, Paladin · <b>High:</b> kicks down doors · <b>Low:</b> struggles with a heavy pack</p></div></div>
+
+<div class="abil-card"><div class="ab">DEX<small>DEXTERITY</small></div><div>
+<p><b>Agility, reflexes, precision.</b> Ranged attacks, Finesse weapons, AC in light or no armor, initiative, Acrobatics, Sleight of Hand, Stealth. Saves against explosions and traps.</p>
+<p class="small muted"><b>Matters most for:</b> Rogue, Ranger, Monk — and useful for everyone · <b>High:</b> cat-like · <b>Low:</b> trips over their own feet</p></div></div>
+
+<div class="abil-card"><div class="ab">CON<small>CONSTITUTION</small></div><div>
+<p><b>Health and endurance.</b> Adds to your Hit Points every level. Keeps spells going when you're hit (concentration). Saves against poison, disease and exhaustion. No skills.</p>
+<p class="small muted"><b>Matters for:</b> everyone · <b>High:</b> drinks everyone under the table · <b>Low:</b> winded after stairs</p></div></div>
+
+<div class="abil-card"><div class="ab">INT<small>INTELLIGENCE</small></div><div>
+<p><b>Memory, logic, learning.</b> Arcana, History, Investigation, Nature, Religion. Spellcasting ability for Wizards (and Emberblade Fighters).</p>
+<p class="small muted"><b>Matters most for:</b> Wizard · <b>High:</b> scholar · <b>Low:</b> blunt and practical</p></div></div>
+
+<div class="abil-card"><div class="ab">WIS<small>WISDOM</small></div><div>
+<p><b>Awareness, intuition, willpower.</b> Perception (the most-rolled skill), Insight, Medicine, Survival, Animal Handling. Saves against fear, charm and mind control. Spellcasting for Clerics, Druids, Rangers; AC for Monks.</p>
+<p class="small muted"><b>Matters most for:</b> Cleric, Druid, Monk, Ranger · <b>High:</b> sees through everyone · <b>Low:</b> gullible, distracted</p></div></div>
+
+<div class="abil-card"><div class="ab">CHA<small>CHARISMA</small></div><div>
+<p><b>Force of personality.</b> Persuasion, Deception, Intimidation, Performance. Spellcasting for Bards, Sorcerers, Warlocks, Paladins. Saves against banishment and possession.</p>
+<p class="small muted"><b>Matters most for:</b> Bard, Paladin, Sorcerer, Warlock · <b>High:</b> commands a room · <b>Low:</b> awkward — presence, not looks</p></div></div>
+
+<div class="grid2" style="margin-top:3mm">
+<div>
+<h3>Score → Modifier</h3>
+<p>You never roll with the score itself — only its <b>modifier</b>: subtract 10, divide by 2, round down.</p>
+<table class="compact">
+  <thead><tr><th class="c">Score</th><th class="c">Mod</th><th class="c">Score</th><th class="c">Mod</th></tr></thead>
+  <tbody>
+    <tr><td class="c">1</td><td class="c">−5</td><td class="c">12–13</td><td class="c">+1</td></tr>
+    <tr><td class="c">2–3</td><td class="c">−4</td><td class="c">14–15</td><td class="c">+2</td></tr>
+    <tr><td class="c">4–5</td><td class="c">−3</td><td class="c">16–17</td><td class="c">+3</td></tr>
+    <tr><td class="c">6–7</td><td class="c">−2</td><td class="c">18–19</td><td class="c">+4</td></tr>
+    <tr><td class="c">8–9</td><td class="c">−1</td><td class="c">20–21</td><td class="c">+5</td></tr>
+    <tr><td class="c">10–11</td><td class="c">+0</td><td class="c">30</td><td class="c">+10</td></tr>
+  </tbody>
+</table>
+<p class="small muted">Player characters max out at 20 (25 with a few level-20 features).</p>
+</div>
+<div>
+<h3>Numbers Built From Abilities</h3>
+<table class="compact">
+  <tbody>
+    <tr><td><b>Armor Class</b></td><td>Armor + Dex (light/medium armor)</td></tr>
+    <tr><td><b>Hit Points</b></td><td>Class Hit Die + Con each level</td></tr>
+    <tr><td><b>Initiative</b></td><td>d20 + Dex</td></tr>
+    <tr><td><b>Passive Perception</b></td><td>10 + Perception bonus</td></tr>
+    <tr><td><b>Melee attack</b></td><td>d20 + Str + proficiency</td></tr>
+    <tr><td><b>Ranged attack</b></td><td>d20 + Dex + proficiency</td></tr>
+    <tr><td><b>Spell attack</b></td><td>d20 + casting ability + prof.</td></tr>
+    <tr><td><b>Spell save DC</b></td><td>8 + casting ability + prof.</td></tr>
+    <tr><td><b>Carrying</b></td><td>Strength × 15 lb</td></tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+<!-- 3 -->
+<h1 class="chapter">3 · Skills, Proficiency &amp; Rolling</h1>
+<p class="chapter-intro">One mechanic runs the whole game: the d20 Test.</p>
+
+<div class="box dark"><h4>The d20 Test</h4>
+<p style="font-size:11pt; text-align:center"><b>d20 + ability modifier + proficiency bonus (if trained) — meet or beat the target</b></p></div>
+
+<table>
+  <thead><tr><th>Roll</th><th>When</th><th>Target</th></tr></thead>
+  <tbody>
+    <tr><td><b>Ability check</b></td><td>You try something uncertain: climbing, sneaking, persuading</td><td>A Difficulty Class (DC) set by the GM: 10 easy, 15 medium, 20 hard</td></tr>
+    <tr><td><b>Attack roll</b></td><td>You attack with a weapon or attack spell</td><td>The target's Armor Class (AC)</td></tr>
+    <tr><td><b>Saving throw</b></td><td>You resist a spell, trap, poison or effect</td><td>The DC of the effect</td></tr>
+  </tbody>
+</table>
+
+<div class="grid2">
+<div>
+<h2 data-i="sheet">The 18 Skills</h2>
+<table class="compact">
+  <thead><tr><th>Skill</th><th>Ability</th><th>Used to…</th></tr></thead>
+  <tbody>
+    <tr><td>Acrobatics</td><td>Dex</td><td>Balance, tumble, escape</td></tr>
+    <tr><td>Animal Handling</td><td>Wis</td><td>Calm or control animals</td></tr>
+    <tr><td>Arcana</td><td>Int</td><td>Know magic and planes</td></tr>
+    <tr><td>Athletics</td><td>Str</td><td>Climb, jump, swim, grapple</td></tr>
+    <tr><td>Deception</td><td>Cha</td><td>Lie convincingly</td></tr>
+    <tr><td>History</td><td>Int</td><td>Recall past events, lore</td></tr>
+    <tr><td>Insight</td><td>Wis</td><td>Read intentions, spot lies</td></tr>
+    <tr><td>Intimidation</td><td>Cha</td><td>Threaten, coerce</td></tr>
+    <tr><td>Investigation</td><td>Int</td><td>Search, deduce clues</td></tr>
+    <tr><td>Medicine</td><td>Wis</td><td>Stabilize, diagnose</td></tr>
+    <tr><td>Nature</td><td>Int</td><td>Know plants, beasts, weather</td></tr>
+    <tr><td>Perception</td><td>Wis</td><td>Notice things</td></tr>
+    <tr><td>Performance</td><td>Cha</td><td>Entertain an audience</td></tr>
+    <tr><td>Persuasion</td><td>Cha</td><td>Convince honestly</td></tr>
+    <tr><td>Religion</td><td>Int</td><td>Know gods, rites, undead</td></tr>
+    <tr><td>Sleight of Hand</td><td>Dex</td><td>Pick pockets, palm objects</td></tr>
+    <tr><td>Stealth</td><td>Dex</td><td>Sneak, hide</td></tr>
+    <tr><td>Survival</td><td>Wis</td><td>Track, forage, navigate</td></tr>
+  </tbody>
+</table>
+</div>
+<div>
+<h2 data-i="up">Proficiency Bonus</h2>
+<p>When you're <b>trained</b> (proficient) in a skill, weapon, tool or saving throw, add your proficiency bonus. It grows with your <b>total character level</b>:</p>
+<table class="compact">
+  <thead><tr><th>Levels</th><th class="c">1–4</th><th class="c">5–8</th><th class="c">9–12</th><th class="c">13–16</th><th class="c">17–20</th></tr></thead>
+  <tbody><tr><td>Bonus</td><td class="c">+2</td><td class="c">+3</td><td class="c">+4</td><td class="c">+5</td><td class="c">+6</td></tr></tbody>
+</table>
+<p><b>Expertise</b> (Rogues, Bards, Rangers…) doubles your proficiency bonus for that skill.</p>
+
+<h2 data-i="scales">Advantage &amp; Disadvantage</h2>
+<ul>
+  <li><b>Advantage:</b> roll 2d20, keep the <b>higher</b>.</li>
+  <li><b>Disadvantage:</b> roll 2d20, keep the <b>lower</b>.</li>
+  <li>They don't stack, and one of each cancels out.</li>
+  <li>Get advantage by: an ally Helping you, attacking a Prone foe in melee, being unseen, clever ideas.</li>
+</ul>
+
+<h2 data-i="star">Natural 20 &amp; Natural 1</h2>
+<p>On an <b>attack roll</b>, a natural 20 always hits and is a Critical Hit (roll damage dice twice); a natural 1 always misses. On checks and saves, a 20 or 1 is just the number — though many GMs make them dramatic.</p>
+
+<h2 data-i="star">Heroic Inspiration</h2>
+<p>The GM awards it for great play. Spend it to <b>reroll any one die</b>. You can only hold one at a time. Humans gain it after every long rest.</p>
+</div>
+</div>
+
+<!-- 4 -->
+<h1 class="chapter">4 · Creating a Character</h1>
+<p class="chapter-intro">Five steps. Your GM can help — and for a first session, a pre-made character is perfectly fine.</p>
+
+<div class="grid2">
+<div class="box"><h4 data-i="flag">1 · Choose a Class</h4><p>Your class is what you do: fight, cast spells, sneak, heal. It's the biggest choice. See Chapter 12 for all twelve. First-timers: <b>Fighter</b>, <b>Barbarian</b>, <b>Rogue</b> or <b>Cleric</b>.</p></div>
+<div class="box"><h4 data-i="book">2 · Choose a Background</h4><p>Your life before adventuring. Gives <b>ability score increases</b>, <b>two skills</b>, a <b>tool</b>, an <b>Origin feat</b> and starting gear.</p></div>
+<div class="box"><h4 data-i="people">3 · Choose a Species</h4><p>Human, Elf, Dwarf and more. Gives traits like darkvision, resistances, or extra speed. Also choose two languages beyond Common.</p></div>
+<div class="box"><h4 data-i="dice">4 · Determine Ability Scores</h4><p>Generate six numbers, assign them, then add your background's increases (+2/+1, or +1/+1/+1).</p></div>
+</div>
+<div class="box"><h4 data-i="quill">5 · Fill In the Details</h4><p>Calculate HP, AC, attacks and skills. Choose an alignment (optional) and give your hero a name, personality, a goal, a bond and a flaw. The roleplay details matter as much as the numbers.</p></div>
+
+<h2 data-i="dice">Generating Ability Scores</h2>
+<div class="grid3">
+  <div class="box"><h4>Standard Array</h4><p>Assign <b>15, 14, 13, 12, 10, 8</b>. Fast and fair — recommended for new players.</p></div>
+  <div class="box"><h4>Point Buy</h4><p>27 points. Scores cost: 8 = 0, 9 = 1, 10 = 2, 11 = 3, 12 = 4, 13 = 5, 14 = 7, 15 = 9.</p></div>
+  <div class="box"><h4>Roll</h4><p>Roll <b>4d6, drop the lowest</b> die, six times. Assign as you like. Exciting, but swingy.</p></div>
+</div>
+<p><b>Tip:</b> put your highest score in your class's primary ability, the next in Constitution or Dexterity. Use your lowest score to inspire a character flaw.</p>
+
+<h2 data-i="people">Species</h2>
+<table class="compact">
+  <thead><tr><th style="width:15%">Species</th><th class="c">Speed</th><th>Signature traits</th></tr></thead>
+  <tbody>
+    <tr><td><b>Dragonborn</b></td><td class="c">30</td><td>Breath weapon, resistance to your dragon's damage type, darkvision; draconic flight at level 5</td></tr>
+    <tr><td><b>Dwarf</b></td><td class="c">30</td><td>Darkvision 120 ft, poison resistance, +1 HP per level, sense stone through tremorsense</td></tr>
+    <tr><td><b>Elf</b></td><td class="c">30</td><td>Darkvision, advantage vs. Charmed, trance (4-hour rest), Perception/Insight/Survival skill, lineage spells (Drow, High, Wood)</td></tr>
+    <tr><td><b>Gnome</b></td><td class="c">30</td><td>Darkvision, advantage on Int/Wis/Cha saves, lineage magic (Forest or Rock)</td></tr>
+    <tr><td><b>Goliath</b></td><td class="c">35</td><td>Giant ancestry power (fire, frost, stone…), grow Large at level 5, carry more</td></tr>
+    <tr><td><b>Halfling</b></td><td class="c">30</td><td>Reroll natural 1s (Luck), advantage vs. Frightened, move through larger creatures, hide behind them</td></tr>
+    <tr><td><b>Human</b></td><td class="c">30</td><td>Heroic Inspiration every long rest, an extra skill, an extra Origin feat</td></tr>
+    <tr><td><b>Orc</b></td><td class="c">30</td><td>Darkvision 120 ft, bonus-action Dash with temp HP, drop to 1 HP instead of 0 once per rest</td></tr>
+    <tr><td><b>Tiefling</b></td><td class="c">30</td><td>Darkvision, fiendish legacy (resistance + spells: Abyssal, Chthonic or Infernal), Thaumaturgy</td></tr>
+  </tbody>
+</table>
+<p class="small muted">The Player's Handbook adds Aasimar; other books add many more.</p>
+
+<h2 data-i="book">Backgrounds</h2>
+<table class="compact">
+  <thead><tr><th>Background</th><th>Ability options</th><th>Skills</th><th>Origin feat</th></tr></thead>
+  <tbody>
+    <tr><td><b>Acolyte</b></td><td>Int, Wis, Cha</td><td>Insight, Religion</td><td>Magic Initiate (Cleric)</td></tr>
+    <tr><td><b>Criminal</b></td><td>Dex, Con, Int</td><td>Sleight of Hand, Stealth</td><td>Alert</td></tr>
+    <tr><td><b>Sage</b></td><td>Con, Int, Wis</td><td>Arcana, History</td><td>Magic Initiate (Wizard)</td></tr>
+    <tr><td><b>Soldier</b></td><td>Str, Dex, Con</td><td>Athletics, Intimidation</td><td>Savage Attacker</td></tr>
+  </tbody>
+</table>
+<p class="small muted">The Player's Handbook has 16 backgrounds, adding Artisan, Charlatan, Entertainer, Farmer, Guard, Guide, Hermit, Merchant, Noble, Sailor, Scribe and Wayfarer. Your GM may also let you design your own.</p>
+
+<div class="grid2">
+<div>
+<h2 data-i="scales">Alignment</h2>
+<p>An optional two-word summary of your moral outlook: <b>Lawful / Neutral / Chaotic</b> (order vs. freedom) plus <b>Good / Neutral / Evil</b> (others vs. self). Treat it as a starting point, not a cage.</p>
+</div>
+<div>
+<h2 data-i="quill">Personality</h2>
+<p>Write one line each: a <b>trait</b> (how you act), an <b>ideal</b> (what you believe), a <b>bond</b> (who or what you care about), and a <b>flaw</b> (what trips you up). Give your GM a secret from your past — it may come back.</p>
+</div>
+</div>
+
+
+<h2 data-i="quill">Worked Example: Building Nilah</h2>
+<table class="compact">
+  <thead><tr><th style="width:18%">Step</th><th>Choice</th><th>What it gives her</th></tr></thead>
+  <tbody>
+    <tr><td><b>1 · Class</b></td><td>Fighter</td><td>d10 Hit Die, heavy armor, all weapons, Str &amp; Con saves, two skills: Perception, Survival</td></tr>
+    <tr><td><b>2 · Background</b></td><td>Soldier (a war veteran)</td><td>+2 Strength, +1 Constitution; Athletics, Intimidation; Savage Attacker feat</td></tr>
+    <tr><td><b>3 · Species</b></td><td>Human</td><td>Heroic Inspiration each long rest; extra skill (Insight); extra Origin feat (Hardy)</td></tr>
+    <tr><td><b>4 · Abilities</b></td><td>Standard array</td><td>Str 15+2 = 17 · Con 14+1 = 15 · Int 13 · Wis 12 · Dex 10 · Cha 8. At level 4 she takes +1 Str and +1 Int → Str 18, Int 14</td></tr>
+    <tr><td><b>5 · Details</b></td><td>Level 1 numbers</td><td>HP 10 + Con 2 + Hardy 1 = 13 · AC 16 (chain mail) · longsword +5 to hit, 1d10+3</td></tr>
+  </tbody>
+</table>
+<div class="grid2">
+  <div class="box"><h4 data-i="quill">Personality</h4><p><b>Trait:</b> soft-spoken and kind, but closes off when anyone gets too close. <b>Ideal:</b> those with strength must protect those without. <b>Bond:</b> a creased photo of her and Icarus, always in her pocket. <b>Flaw:</b> believes every loss is her fault.</p></div>
+  <div class="box"><h4 data-i="star">Make it yours</h4><p>The mechanics are a frame; the story is yours. Nilah's fire blade is just a longsword with fire damage — reflavoring the look of any weapon, spell or feature is always allowed if the numbers stay the same.</p></div>
+</div>
+
+<!-- 5 -->
+<h1 class="chapter newpage">5 · Reading a Character Sheet</h1>
+<p class="chapter-intro">An example hero, annotated. Nilah is a level 5 Human Fighter (Emberblade, an original subclass in Chapter 24): a wandering swordswoman who conjures a blade of fire from an obsidian hilt.</p>
+
+<div class="sheet">
+  <div class="sheet-top">
+    <div class="stat" style="text-align:left; padding-left:3mm"><div class="k">Name · Class · Level</div><div class="v" style="font-family:Caladea,serif">Nilah</div><div class="m">Human Fighter 5 · Emberblade · Soldier</div></div>
+    <div class="stat"><div class="k">Armor Class</div><div class="v">16</div><div class="m">Chain mail</div></div>
+    <div class="stat"><div class="k">Hit Points</div><div class="v">49</div><div class="m">Hit Dice 5d10</div></div>
+    <div class="stat"><div class="k">Speed</div><div class="v">30</div><div class="m">ft</div></div>
+    <div class="stat"><div class="k">Proficiency</div><div class="v">+3</div><div class="m">Initiative +0</div></div>
+  </div>
+  <div class="abil">
+    <div class="stat"><div class="k">Strength</div><div class="v">+4</div><div class="m">18 · Save +7</div></div>
+    <div class="stat"><div class="k">Dexterity</div><div class="v">+0</div><div class="m">10</div></div>
+    <div class="stat"><div class="k">Constitution</div><div class="v">+2</div><div class="m">15 · Save +5</div></div>
+    <div class="stat"><div class="k">Intelligence</div><div class="v">+2</div><div class="m">14</div></div>
+    <div class="stat"><div class="k">Wisdom</div><div class="v">+1</div><div class="m">12</div></div>
+    <div class="stat"><div class="k">Charisma</div><div class="v">−1</div><div class="m">8</div></div>
+  </div>
+  <div class="grid3" style="gap:3mm">
+    <div>
+      <table class="compact"><caption>Skills (trained)</caption><tbody>
+        <tr><td>Athletics</td><td class="c">+7</td></tr><tr><td>Perception</td><td class="c">+4</td></tr>
+        <tr><td>Insight</td><td class="c">+4</td></tr><tr><td>Survival</td><td class="c">+4</td></tr>
+        <tr><td>Intimidation</td><td class="c">+2</td></tr><tr><td><b>Passive Perception</b></td><td class="c"><b>14</b></td></tr>
+      </tbody></table>
+    </div>
+    <div>
+      <table class="compact"><caption>Attacks</caption><thead><tr><th>Attack</th><th class="c">Hit</th><th>Damage</th></tr></thead><tbody>
+        <tr><td>Flame Blade (longsword)</td><td class="c">+7</td><td>1d10+4 fire</td></tr>
+        <tr><td>Fire Bolt (cantrip)</td><td class="c">+5</td><td>2d10 fire, 120 ft</td></tr>
+      </tbody></table>
+      <p class="small"><b>Spell save DC 13</b> · Spell attack +5<br><b>Slots:</b> 1st ○○○</p>
+    </div>
+    <div>
+      <table class="compact"><caption>Features</caption><tbody>
+        <tr><td>Extra Attack · Action Surge ○ · Second Wind ○○○ · Weapon Mastery (Sap) · Great Weapon Fighting · Obsidian Hilt · Hardy · Savage Attacker</td></tr>
+        <tr><td><b>Spells:</b> Fire Bolt, Prestidigitation, Shield, Burning Hands, Chromatic Orb, Protection from Evil and Good</td></tr>
+      </tbody></table>
+    </div>
+  </div>
+</div>
+
+<h2 data-i="eye">How to Read It</h2>
+<div class="cols2">
+<div class="example" style="margin-top:0"><p><b>Ability modifiers</b> are the big numbers. Strength 18 gives <b>+4</b> — that's what Nilah adds to Strength rolls. The small number (18) only matters for a few rules.</p></div>
+<div class="example"><p><b>Saving throws:</b> Fighters are trained in Strength and Constitution saves, so those add proficiency: Str +4 + 3 = <b>+7</b>.</p></div>
+<div class="example"><p><b>Skills:</b> Athletics = Str +4 + proficiency +3 = <b>+7</b>. Intimidation uses Charisma: −1 + 3 = <b>+2</b>.</p></div>
+<div class="example"><p><b>Attack bonus:</b> Str +4 + proficiency +3 = <b>+7</b> to hit. Damage: weapon die (1d10 two-handed) + Str <b>+4</b>. She reflavors the longsword as fire — reflavoring is normal and encouraged.</p></div>
+<div class="example"><p><b>Hit Points:</b> d10 per Fighter level. Level 1: 10 + Con 2 = 12. Levels 2–5: 6 + 2 each = 32. Hardy feat: +5. Total <b>49</b>.</p></div>
+<div class="example"><p><b>Spellcasting:</b> Emberblades use Intelligence. DC = 8 + Int 2 + prof 3 = <b>13</b>. Spell attack = Int 2 + prof 3 = <b>+5</b>.</p></div>
+</div>
+<div class="box"><h4>Sample turn</h4><p>A corrupted beast charges a child. Nilah moves 30 ft and takes the Attack action: two swings, each <b>d20 + 7</b> vs. its AC, each hit dealing <b>1d10 + 4</b> fire. It's still up — she uses <b>Action Surge</b> for two more swings. On the beast's turn it rolls 17 against her AC 16 — she uses her reaction to cast <b>Shield</b> (+5 AC), turning it into a miss.</p></div>
+
+<!-- 6 -->
+<h1 class="chapter">6 · Your Turn in Combat</h1>
+<p class="chapter-intro">Combat runs in rounds of about six seconds. Everyone gets one turn per round, in initiative order.</p>
+
+<div class="grid2">
+<div>
+<h2 data-i="flag">Initiative</h2>
+<p>When a fight starts, everyone rolls <b>d20 + Dex modifier</b>. Highest goes first; the order stays the same all fight. If you're ambushed, you roll with disadvantage.</p>
+<h2 data-i="hourglass">On Your Turn You Get</h2>
+<table class="compact">
+  <tbody>
+    <tr><td><b>Movement</b></td><td>Up to your Speed. Split it before and after your action.</td></tr>
+    <tr><td><b>One action</b></td><td>See the list.</td></tr>
+    <tr><td><b>One bonus action</b></td><td>Only if a feature or spell gives you one.</td></tr>
+    <tr><td><b>One reaction</b></td><td>Per round, even on others' turns (opportunity attack, Shield).</td></tr>
+    <tr><td><b>Free</b></td><td>Draw a weapon, open a door, say a few words.</td></tr>
+  </tbody>
+</table>
+</div>
+<div>
+<h2 data-i="swords">Actions</h2>
+<table class="compact">
+  <tbody>
+    <tr><td><b>Attack</b></td><td>Weapon or unarmed strike (grapple, shove)</td></tr>
+    <tr><td><b>Magic</b></td><td>Cast a spell, use a magic item</td></tr>
+    <tr><td><b>Dash</b></td><td>Move your Speed again</td></tr>
+    <tr><td><b>Disengage</b></td><td>No opportunity attacks this turn</td></tr>
+    <tr><td><b>Dodge</b></td><td>Attacks vs. you at disadvantage</td></tr>
+    <tr><td><b>Help</b></td><td>Give an ally advantage</td></tr>
+    <tr><td><b>Hide</b></td><td>Stealth DC 15 when unseen</td></tr>
+    <tr><td><b>Influence</b></td><td>Persuade, intimidate, deceive</td></tr>
+    <tr><td><b>Ready</b></td><td>Act later on a trigger</td></tr>
+    <tr><td><b>Search / Study</b></td><td>Wis / Int check</td></tr>
+    <tr><td><b>Utilize</b></td><td>Use an object</td></tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+<h2 data-i="swords">Making an Attack</h2>
+<div class="grid2">
+<div>
+<ol>
+  <li><b>Roll to hit:</b> d20 + attack bonus. Meet or beat the target's AC = hit.</li>
+  <li><b>Roll damage:</b> weapon or spell dice + ability modifier.</li>
+  <li><b>Crit on a natural 20:</b> roll all damage dice twice, add the modifier once.</li>
+  <li><b>Natural 1:</b> always misses.</li>
+</ol>
+<p><b>Attack spells</b> (Fire Bolt) roll to hit like weapons. <b>Saving-throw spells</b> (Burning Hands) make the <i>target</i> roll against your spell save DC instead — often half damage on a success.</p>
+</div>
+<div class="example" style="margin-top:0"><p>Nilah attacks a wolf (AC 13). She rolls 8 + 7 = <b>15</b> → hit. Damage: rolls 6 on the d10, + 4 = <b>10 fire</b>. With Extra Attack she swings again. If she'd rolled a natural 20: 2d10 + 4.</p></div>
+</div>
+
+<div class="grid2">
+<div>
+<h3>Opportunity Attacks</h3>
+<p>If you move out of an enemy's reach, it can use its reaction to attack you once. Avoid it with Disengage.</p>
+<h3>Cover</h3>
+<p>Half cover (low wall): <b>+2 AC</b>. Three-quarters (arrow slit): <b>+5 AC</b>. Total: can't be targeted.</p>
+</div>
+<div>
+<h3>Common Conditions</h3>
+<table class="compact"><tbody>
+  <tr><td><b>Prone</b></td><td>Melee vs. you: advantage. Standing costs half your Speed.</td></tr>
+  <tr><td><b>Grappled</b></td><td>Speed 0. Escape with Athletics/Acrobatics.</td></tr>
+  <tr><td><b>Frightened</b></td><td>Disadvantage while you can see the source.</td></tr>
+  <tr><td><b>Poisoned</b></td><td>Disadvantage on attacks and checks.</td></tr>
+  <tr><td><b>Restrained</b></td><td>Speed 0, attacks vs. you have advantage.</td></tr>
+</tbody></table>
+<p class="small muted">The GM's Binder has the full condition list.</p>
+</div>
+</div>
+
+<!-- 7 -->
+<h1 class="chapter">7 · Hit Points, Healing &amp; Rest</h1>
+
+<div class="grid2">
+<div>
+<h2 data-i="heart">Hit Points</h2>
+<p>HP is stamina and luck as much as wounds. When damage hits, subtract it from your current HP. Healing can't take you above your maximum. <b>Temporary HP</b> is a buffer lost first; it doesn't stack.</p>
+<h2 data-i="skull">Dropping to 0 HP</h2>
+<p>You fall <b>Unconscious</b>. At the start of each of your turns, make a <b>death saving throw</b> — a plain d20:</p>
+<ul>
+  <li><b>10+</b> = success. <b>3 successes</b> = stable.</li>
+  <li><b>9 or lower</b> = failure. <b>3 failures</b> = death.</li>
+  <li><b>Natural 20:</b> wake up with 1 HP. <b>Natural 1:</b> two failures.</li>
+  <li>Taking damage at 0 HP = a failure (a crit = two).</li>
+  <li><b>Any healing</b> wakes you up.</li>
+</ul>
+<p>If leftover damage after reaching 0 equals your max HP, you die instantly.</p>
+</div>
+<div>
+<h2 data-i="hourglass">Resting</h2>
+<div class="box"><h4>Short Rest · 1 hour</h4><p>Spend <b>Hit Dice</b>: roll each, add your Con modifier, heal that much. Some features recharge.</p></div>
+<div class="box"><h4>Long Rest · 8 hours</h4><p>Regain all HP, all spent Hit Dice, all spell slots and most features. Lose one level of Exhaustion. Once per 24 hours.</p></div>
+<h2 data-i="dice">Hit Dice</h2>
+<p>You have <b>one Hit Die per level</b>. The size depends on class: <b>d6</b> Sorcerer, Wizard · <b>d8</b> Bard, Cleric, Druid, Monk, Rogue, Warlock · <b>d10</b> Fighter, Paladin, Ranger · <b>d12</b> Barbarian.</p>
+<div class="example"><p>Nilah is at 20/49 HP. On a short rest she spends 2 Hit Dice: rolls 7 and 4, +2 each = 15. She's at 35, with 3 Hit Dice left until her next long rest.</p></div>
+<h3>Potions of Healing</h3>
+<p>Healing 2d4+2 · Greater 4d4+4 · Superior 8d4+8 · Supreme 10d4+20. Drinking one is a bonus action.</p>
+</div>
+</div>
+
+<!-- 8 -->
+<h1 class="chapter">8 · Spellcasting</h1>
+<p class="chapter-intro">Eight classes cast spells. The rules are the same for all of them — only the spell lists and the ability they use differ.</p>
+
+<div class="grid2">
+<div>
+<h2 data-i="spark">The Basics</h2>
+<ul>
+  <li><b>Cantrips</b> are level-0 spells you can cast at will, forever. They get stronger at levels 5, 11 and 17.</li>
+  <li><b>Spell slots</b> are your fuel. Casting a 1st-level spell spends a 1st-level slot. Slots return on a long rest (Warlocks: short rest).</li>
+  <li><b>Prepared spells:</b> the list of spells you can currently cast. Most casters change it after a long rest.</li>
+  <li><b>Upcasting:</b> cast a spell with a higher slot for more power (e.g., +1d6 per level).</li>
+  <li><b>Rituals:</b> some spells can be cast without a slot by taking 10 extra minutes.</li>
+</ul>
+<h2 data-i="eye">Concentration</h2>
+<p>Many lasting spells need concentration. You can concentrate on <b>only one</b> at a time. When you take damage, make a <b>Con save, DC 10 or half the damage</b> (whichever is higher, max 30) or the spell ends.</p>
+</div>
+<div>
+<h2 data-i="scroll">Casting Details</h2>
+<ul>
+  <li><b>Casting time:</b> usually an action; some are a bonus action or reaction.</li>
+  <li><b>Range:</b> self, touch, or a distance.</li>
+  <li><b>Components:</b> V (speak), S (gesture), M (material — a focus usually covers it, unless it has a gold cost).</li>
+  <li><b>Duration:</b> instant, a set time, or until dispelled.</li>
+  <li><b>Attack or save?</b> The spell says. Attack: d20 + spell attack vs. AC. Save: the target rolls vs. your spell save DC.</li>
+</ul>
+<div class="example"><p><b>Burning Hands</b> (1st level): a 15-ft cone of flame. Every creature in it makes a Dex save vs. your DC. Fail: 3d6 fire. Success: half. Cast with a 2nd-level slot: 4d6. It also lights flammable objects nobody is holding.</p></div>
+</div>
+</div>
+
+<h2 data-i="book">Spell Slots by Level</h2>
+<div class="grid2">
+<table class="compact">
+  <caption>Full casters — Bard, Cleric, Druid, Sorcerer, Wizard</caption>
+  <thead><tr><th class="c">Lvl</th><th class="c">1st</th><th class="c">2nd</th><th class="c">3rd</th><th class="c">4th</th><th class="c">5th</th><th class="c">6th</th><th class="c">7th</th><th class="c">8th</th><th class="c">9th</th></tr></thead>
+  <tbody>
+    <tr><td class="c">1</td><td class="c">2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td class="c">2</td><td class="c">3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td class="c">3</td><td class="c">4</td><td class="c">2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td class="c">4</td><td class="c">4</td><td class="c">3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td class="c">5</td><td class="c">4</td><td class="c">3</td><td class="c">2</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td class="c">6</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td class="c">7</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td class="c">1</td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td class="c">8</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td class="c">2</td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td class="c">9</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td class="c">3</td><td class="c">1</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td class="c">10</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td class="c">3</td><td class="c">2</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td class="c">11–12</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td class="c">3</td><td class="c">2</td><td class="c">1</td><td></td><td></td><td></td></tr>
+    <tr><td class="c">13–14</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td class="c">3</td><td class="c">2</td><td class="c">1</td><td class="c">1</td><td></td><td></td></tr>
+    <tr><td class="c">15–16</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td class="c">3</td><td class="c">2</td><td class="c">1</td><td class="c">1</td><td class="c">1</td><td></td></tr>
+    <tr><td class="c">17</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td class="c">3</td><td class="c">2</td><td class="c">1</td><td class="c">1</td><td class="c">1</td><td class="c">1</td></tr>
+    <tr><td class="c">18</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td class="c">3</td><td class="c">3</td><td class="c">1</td><td class="c">1</td><td class="c">1</td><td class="c">1</td></tr>
+    <tr><td class="c">19</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td class="c">3</td><td class="c">3</td><td class="c">2</td><td class="c">1</td><td class="c">1</td><td class="c">1</td></tr>
+    <tr><td class="c">20</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td class="c">3</td><td class="c">3</td><td class="c">2</td><td class="c">2</td><td class="c">1</td><td class="c">1</td></tr>
+  </tbody>
+</table>
+<div>
+<table class="compact">
+  <caption>Half casters — Paladin, Ranger</caption>
+  <thead><tr><th class="c">Lvl</th><th class="c">1st</th><th class="c">2nd</th><th class="c">3rd</th><th class="c">4th</th><th class="c">5th</th></tr></thead>
+  <tbody>
+    <tr><td class="c">1–2</td><td class="c">2</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td class="c">3–4</td><td class="c">3</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td class="c">5–6</td><td class="c">4</td><td class="c">2</td><td></td><td></td><td></td></tr>
+    <tr><td class="c">7–8</td><td class="c">4</td><td class="c">3</td><td></td><td></td><td></td></tr>
+    <tr><td class="c">9–10</td><td class="c">4</td><td class="c">3</td><td class="c">2</td><td></td><td></td></tr>
+    <tr><td class="c">11–12</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td></td><td></td></tr>
+    <tr><td class="c">13–14</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td class="c">1</td><td></td></tr>
+    <tr><td class="c">15–16</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td class="c">2</td><td></td></tr>
+    <tr><td class="c">17–18</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td class="c">3</td><td class="c">1</td></tr>
+    <tr><td class="c">19–20</td><td class="c">4</td><td class="c">3</td><td class="c">3</td><td class="c">3</td><td class="c">2</td></tr>
+  </tbody>
+</table>
+<div class="box"><h4>Warlocks are different</h4><p>Warlocks have only 1–4 slots, but they're always cast at the Warlock's highest slot level (up to 5th) and recharge on a <b>short</b> rest. See the Warlock table in Chapter 12.</p></div>
+<div class="box"><h4>Spellcasting ability</h4><p><b>Int:</b> Wizard, Emberblade Fighter · <b>Wis:</b> Cleric, Druid, Ranger · <b>Cha:</b> Bard, Paladin, Sorcerer, Warlock</p></div>
+</div>
+</div>
+
+<h2 data-i="star">Popular First Spells</h2>
+<table class="compact">
+  <thead><tr><th>Spell</th><th>Level</th><th>Classes</th><th>What it does</th></tr></thead>
+  <tbody>
+    <tr><td><b>Fire Bolt</b></td><td>Cantrip</td><td>Sorcerer, Wizard</td><td>Ranged spell attack, 1d10 fire, 120 ft</td></tr>
+    <tr><td><b>Eldritch Blast</b></td><td>Cantrip</td><td>Warlock</td><td>Ranged spell attack, 1d10 force; more beams at higher levels</td></tr>
+    <tr><td><b>Sacred Flame</b></td><td>Cantrip</td><td>Cleric</td><td>Dex save or 1d8 radiant; ignores cover</td></tr>
+    <tr><td><b>Vicious Mockery</b></td><td>Cantrip</td><td>Bard</td><td>Wis save or psychic damage and disadvantage on its next attack</td></tr>
+    <tr><td><b>Mage Hand</b></td><td>Cantrip</td><td>Many</td><td>Spectral hand that manipulates objects at range</td></tr>
+    <tr><td><b>Bless</b></td><td>1st</td><td>Cleric, Paladin</td><td>Three allies add 1d4 to attacks and saves (concentration)</td></tr>
+    <tr><td><b>Healing Word</b></td><td>1st</td><td>Bard, Cleric, Druid</td><td>Bonus action, 60 ft: heal 2d4 + mod. Best way to revive a downed ally</td></tr>
+    <tr><td><b>Cure Wounds</b></td><td>1st</td><td>Many</td><td>Touch: heal 2d8 + mod</td></tr>
+    <tr><td><b>Shield</b></td><td>1st</td><td>Sorcerer, Wizard</td><td>Reaction: +5 AC until your next turn</td></tr>
+    <tr><td><b>Magic Missile</b></td><td>1st</td><td>Sorcerer, Wizard</td><td>Three darts, 1d4+1 force each, never miss</td></tr>
+    <tr><td><b>Sleep</b></td><td>1st</td><td>Bard, Sorcerer, Wizard</td><td>Creatures in an area make Wis saves or fall asleep</td></tr>
+    <tr><td><b>Hunter's Mark</b></td><td>1st</td><td>Ranger</td><td>Bonus action: +1d6 damage on each hit vs. the target</td></tr>
+    <tr><td><b>Fireball</b></td><td>3rd</td><td>Sorcerer, Wizard</td><td>20-ft radius, Dex save, 8d6 fire</td></tr>
+  </tbody>
+</table>
+
+<!-- 9 -->
+<h1 class="chapter">9 · Weapons &amp; Armor</h1>
+
+<h2 data-i="swords">Weapons</h2>
+<p>Your class says which categories you're trained with. <b>Mastery</b> properties are special effects available to Fighters, Barbarians, Paladins, Rangers and Rogues (and anyone with the Weapon Master feat).</p>
+<div class="grid2">
+<table class="compact">
+  <caption>Simple Weapons</caption>
+  <thead><tr><th>Weapon</th><th>Damage</th><th>Properties</th><th>Mastery</th></tr></thead>
+  <tbody>
+    <tr><td>Club</td><td>1d4 B</td><td>Light</td><td>Slow</td></tr>
+    <tr><td>Dagger</td><td>1d4 P</td><td>Finesse, Light, Thrown 20/60</td><td>Nick</td></tr>
+    <tr><td>Greatclub</td><td>1d8 B</td><td>Two-Handed</td><td>Push</td></tr>
+    <tr><td>Handaxe</td><td>1d6 S</td><td>Light, Thrown 20/60</td><td>Vex</td></tr>
+    <tr><td>Javelin</td><td>1d6 P</td><td>Thrown 30/120</td><td>Slow</td></tr>
+    <tr><td>Light Hammer</td><td>1d4 B</td><td>Light, Thrown 20/60</td><td>Nick</td></tr>
+    <tr><td>Mace</td><td>1d6 B</td><td>—</td><td>Sap</td></tr>
+    <tr><td>Quarterstaff</td><td>1d6 B</td><td>Versatile (1d8)</td><td>Topple</td></tr>
+    <tr><td>Sickle</td><td>1d4 S</td><td>Light</td><td>Nick</td></tr>
+    <tr><td>Spear</td><td>1d6 P</td><td>Thrown 20/60, Versatile (1d8)</td><td>Sap</td></tr>
+    <tr><td>Dart</td><td>1d4 P</td><td>Finesse, Thrown 20/60</td><td>Vex</td></tr>
+    <tr><td>Light Crossbow</td><td>1d8 P</td><td>Ammo 80/320, Loading, Two-Handed</td><td>Slow</td></tr>
+    <tr><td>Shortbow</td><td>1d6 P</td><td>Ammo 80/320, Two-Handed</td><td>Vex</td></tr>
+    <tr><td>Sling</td><td>1d4 B</td><td>Ammo 30/120</td><td>Slow</td></tr>
+  </tbody>
+</table>
+<table class="compact">
+  <caption>Martial Weapons</caption>
+  <thead><tr><th>Weapon</th><th>Damage</th><th>Properties</th><th>Mastery</th></tr></thead>
+  <tbody>
+    <tr><td>Battleaxe</td><td>1d8 S</td><td>Versatile (1d10)</td><td>Topple</td></tr>
+    <tr><td>Flail</td><td>1d8 B</td><td>—</td><td>Sap</td></tr>
+    <tr><td>Glaive</td><td>1d10 S</td><td>Heavy, Reach, Two-Handed</td><td>Graze</td></tr>
+    <tr><td>Greataxe</td><td>1d12 S</td><td>Heavy, Two-Handed</td><td>Cleave</td></tr>
+    <tr><td>Greatsword</td><td>2d6 S</td><td>Heavy, Two-Handed</td><td>Graze</td></tr>
+    <tr><td>Halberd</td><td>1d10 S</td><td>Heavy, Reach, Two-Handed</td><td>Cleave</td></tr>
+    <tr><td>Longsword</td><td>1d8 S</td><td>Versatile (1d10)</td><td>Sap</td></tr>
+    <tr><td>Maul</td><td>2d6 B</td><td>Heavy, Two-Handed</td><td>Topple</td></tr>
+    <tr><td>Morningstar</td><td>1d8 P</td><td>—</td><td>Sap</td></tr>
+    <tr><td>Pike</td><td>1d10 P</td><td>Heavy, Reach, Two-Handed</td><td>Push</td></tr>
+    <tr><td>Rapier</td><td>1d8 P</td><td>Finesse</td><td>Vex</td></tr>
+    <tr><td>Scimitar</td><td>1d6 S</td><td>Finesse, Light</td><td>Nick</td></tr>
+    <tr><td>Shortsword</td><td>1d6 P</td><td>Finesse, Light</td><td>Vex</td></tr>
+    <tr><td>Trident</td><td>1d8 P</td><td>Thrown 20/60, Versatile (1d10)</td><td>Topple</td></tr>
+    <tr><td>Warhammer</td><td>1d8 B</td><td>Versatile (1d10)</td><td>Push</td></tr>
+    <tr><td>War Pick</td><td>1d8 P</td><td>Versatile (1d10)</td><td>Sap</td></tr>
+    <tr><td>Whip</td><td>1d4 S</td><td>Finesse, Reach</td><td>Slow</td></tr>
+    <tr><td>Hand Crossbow</td><td>1d6 P</td><td>Ammo 30/120, Light, Loading</td><td>Vex</td></tr>
+    <tr><td>Heavy Crossbow</td><td>1d10 P</td><td>Ammo 100/400, Heavy, Loading, 2H</td><td>Push</td></tr>
+    <tr><td>Longbow</td><td>1d8 P</td><td>Ammo 150/600, Heavy, Two-Handed</td><td>Slow</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="grid2">
+<div>
+<h3>Weapon Properties</h3>
+<table class="compact"><tbody>
+  <tr><td><b>Finesse</b></td><td>Use Str or Dex for attack and damage</td></tr>
+  <tr><td><b>Light</b></td><td>Attack with a second Light weapon as a bonus action (no ability mod to its damage)</td></tr>
+  <tr><td><b>Heavy</b></td><td>Disadvantage if your Str (melee) or Dex (ranged) is below 13</td></tr>
+  <tr><td><b>Reach</b></td><td>Attack targets 10 ft away</td></tr>
+  <tr><td><b>Thrown</b></td><td>Throw it; normal/long range</td></tr>
+  <tr><td><b>Two-Handed</b></td><td>Needs both hands</td></tr>
+  <tr><td><b>Versatile</b></td><td>Bigger die when used two-handed</td></tr>
+  <tr><td><b>Loading</b></td><td>Only one shot per action/bonus action/reaction</td></tr>
+</tbody></table>
+</div>
+<div>
+<h3>Mastery Properties</h3>
+<table class="compact"><tbody>
+  <tr><td><b>Cleave</b></td><td>On a hit, attack a second creature next to the first (once per turn)</td></tr>
+  <tr><td><b>Graze</b></td><td>On a miss, deal damage equal to your ability modifier</td></tr>
+  <tr><td><b>Nick</b></td><td>Make the extra Light-weapon attack as part of the Attack action</td></tr>
+  <tr><td><b>Push</b></td><td>Push the target 10 ft away</td></tr>
+  <tr><td><b>Sap</b></td><td>Target has disadvantage on its next attack</td></tr>
+  <tr><td><b>Slow</b></td><td>Target's Speed −10 ft until your next turn</td></tr>
+  <tr><td><b>Topple</b></td><td>Target makes a Con save or falls Prone</td></tr>
+  <tr><td><b>Vex</b></td><td>Advantage on your next attack against that target</td></tr>
+</tbody></table>
+</div>
+</div>
+
+<h2 data-i="shield">Armor</h2>
+<div class="grid2">
+<table class="compact">
+  <thead><tr><th>Armor</th><th>AC</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td colspan="3"><b>Light</b> — add full Dex</td></tr>
+    <tr><td>Padded</td><td>11 + Dex</td><td>Stealth disadvantage</td></tr>
+    <tr><td>Leather</td><td>11 + Dex</td><td>—</td></tr>
+    <tr><td>Studded Leather</td><td>12 + Dex</td><td>—</td></tr>
+    <tr><td colspan="3"><b>Medium</b> — add Dex, max +2</td></tr>
+    <tr><td>Hide</td><td>12 + Dex (2)</td><td>—</td></tr>
+    <tr><td>Chain Shirt</td><td>13 + Dex (2)</td><td>—</td></tr>
+    <tr><td>Scale Mail</td><td>14 + Dex (2)</td><td>Stealth disadvantage</td></tr>
+    <tr><td>Breastplate</td><td>14 + Dex (2)</td><td>—</td></tr>
+    <tr><td>Half Plate</td><td>15 + Dex (2)</td><td>Stealth disadvantage</td></tr>
+  </tbody>
+</table>
+<div>
+<table class="compact">
+  <thead><tr><th>Armor</th><th>AC</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td colspan="3"><b>Heavy</b> — no Dex</td></tr>
+    <tr><td>Ring Mail</td><td>14</td><td>Stealth disadvantage</td></tr>
+    <tr><td>Chain Mail</td><td>16</td><td>Str 13, Stealth disadvantage</td></tr>
+    <tr><td>Splint</td><td>17</td><td>Str 15, Stealth disadvantage</td></tr>
+    <tr><td>Plate</td><td>18</td><td>Str 15, Stealth disadvantage</td></tr>
+    <tr><td colspan="3"><b>Shield</b></td></tr>
+    <tr><td>Shield</td><td>+2</td><td>One hand</td></tr>
+  </tbody>
+</table>
+<p class="small">Below the Strength requirement, heavy armor slows you by 10 ft. Wearing armor you're not trained in gives disadvantage on Str/Dex rolls and stops spellcasting.</p>
+</div>
+</div>
+
+<!-- 10 -->
+<h1 class="chapter">10 · Leveling Up &amp; Feats</h1>
+
+<div class="grid2">
+<div>
+<h2 data-i="up">Level-Up Checklist</h2>
+<p>When your GM says you level up, open your class table (Chapter 12) and:</p>
+<ol>
+  <li><b>Hit Points:</b> roll your Hit Die (or take the fixed number) + Con modifier. Add to your max.</li>
+  <li><b>Hit Dice:</b> you gain one more.</li>
+  <li><b>Proficiency bonus:</b> check if it increased (levels 5, 9, 13, 17).</li>
+  <li><b>New features:</b> read every feature listed for your new level.</li>
+  <li><b>Level 3:</b> choose your subclass.</li>
+  <li><b>Levels 4, 8, 12, 16:</b> Ability Score Improvement or a feat. (Fighters and Rogues get extra.)</li>
+  <li><b>Spellcasters:</b> update spell slots, cantrips and prepared spells.</li>
+  <li><b>Update numbers</b> that depend on what changed: attack bonus, save DC, skills.</li>
+  <li><b>Tell your GM</b> about anything big.</li>
+</ol>
+<div class="box"><h4>Multiclassing</h4><p>With GM permission, you can take a level in a second class instead (needs 13 in the primary ability of both classes). Powerful, but complicated — wait until you know the game.</p></div>
+</div>
+<div>
+<h2 data-i="star">Feats</h2>
+<p>Feats are special talents that make your character unique.</p>
+<h3>Origin Feats (level 1, from background)</h3>
+<table class="compact"><tbody>
+  <tr><td><b>Alert</b></td><td>Add proficiency to initiative; swap initiative with an ally</td></tr>
+  <tr><td><b>Magic Initiate</b></td><td>Two cantrips + one level 1 spell from a list</td></tr>
+  <tr><td><b>Savage Attacker</b></td><td>Once per turn roll weapon damage twice, keep higher</td></tr>
+  <tr><td><b>Skilled</b></td><td>Three skill or tool proficiencies</td></tr>
+  <tr><td><b>Hardy</b> <i>(original)</i></td><td>+1 max HP per level; reroll 1s on Hit Dice</td></tr>
+  <tr><td><b>Field Medic</b> <i>(original)</i></td><td>Heal with a Healer's Kit</td></tr>
+  <tr><td><b>Sharp Ears</b> <i>(original)</i></td><td>Hear everything; hard to surprise</td></tr>
+  <tr><td><b>Steady Nerves</b> <i>(original)</i></td><td>Resist fear; shake off conditions at initiative</td></tr>
+</tbody></table>
+<h3>Popular General Feats (level 4+)</h3>
+<p class="small">Most also give +1 to an ability score. Full text in Chapter 15 (official) and Chapter 26 (original).</p>
+<table class="compact"><tbody>
+  <tr><td><b>Ability Score Improvement</b></td><td>+2 to one score or +1 to two</td></tr>
+  <tr><td><b>Grappler</b></td><td>Better grapples and attacks against grappled foes</td></tr>
+  <tr><td><b>Brute Force</b> <i>(original)</i></td><td>Extra damage die with Heavy weapons; bigger shoves</td></tr>
+  <tr><td><b>Deadeye</b> <i>(original)</i></td><td>Ignore half cover; trade advantage for damage</td></tr>
+  <tr><td><b>Battle Mage</b> <i>(original)</i></td><td>Cast with weapon in hand; cantrip in place of an attack</td></tr>
+  <tr><td><b>Iron Will</b> <i>(original)</i></td><td>Resist charm; reroll a failed mental save</td></tr>
+  <tr><td><b>Fleet of Foot</b> <i>(original)</i></td><td>+10 ft Speed; Dash ignores difficult terrain</td></tr>
+  <tr><td><b>Commander</b> <i>(original)</i></td><td>Let an ally act with its Reaction</td></tr>
+</tbody></table>
+<h3>Fighting Styles</h3>
+<p class="small"><b>Archery</b> +2 ranged attacks · <b>Defense</b> +1 AC in armor · <b>Great Weapon Fighting</b> treat 1–2 on damage dice as 3 · <b>Two-Weapon Fighting</b> add modifier to off-hand damage · Original styles (Chapter 26): <b>Bulwark</b>, <b>Skirmisher</b>, <b>Reaping</b>, <b>Sentry</b>, <b>One-Handed</b>, <b>Hunter's</b></p>
+<h3>Epic Boons (level 19)</h3>
+<p class="small">Near-legendary powers: Combat Prowess, Dimensional Travel, Fate, Irresistible Offense, Spell Recall, the Night Spirit, Truesight and more.</p>
+</div>
+</div>
+
+<!-- 11 -->
+<h1 class="chapter">11 · Glossary</h1>
+<div class="cols3 gloss">
+<p><b>Ability check</b> — d20 + ability modifier (+ proficiency) vs. a DC.</p>
+<p><b>Action</b> — the main thing you do on your turn.</p>
+<p><b>Advantage / Disadvantage</b> — roll 2d20, keep higher / lower.</p>
+<p><b>AC (Armor Class)</b> — how hard you are to hit.</p>
+<p><b>Attunement</b> — bonding with a powerful magic item; max three.</p>
+<p><b>Bloodied</b> — at half HP or less.</p>
+<p><b>Bonus action</b> — an extra quick action, only if a feature grants one.</p>
+<p><b>Cantrip</b> — a spell you can cast at will.</p>
+<p><b>Concentration</b> — maintaining one ongoing spell; can break when hit.</p>
+<p><b>Condition</b> — a status effect like Prone or Frightened.</p>
+<p><b>CR (Challenge Rating)</b> — how dangerous a monster is.</p>
+<p><b>Critical Hit</b> — a natural 20 on an attack; double damage dice.</p>
+<p><b>d20 Test</b> — any ability check, attack roll or saving throw.</p>
+<p><b>DC (Difficulty Class)</b> — the number to meet or beat.</p>
+<p><b>Darkvision</b> — see in darkness as if dim light.</p>
+<p><b>Difficult terrain</b> — each foot of movement costs 2.</p>
+<p><b>Expertise</b> — double proficiency on a skill.</p>
+<p><b>Feat</b> — a special talent.</p>
+<p><b>Finesse</b> — weapon that can use Dex instead of Str.</p>
+<p><b>Focus</b> — an item (wand, holy symbol) used in place of spell materials.</p>
+<p><b>Heroic Inspiration</b> — reroll any one die.</p>
+<p><b>Hit Dice</b> — spent on short rests to heal.</p>
+<p><b>Initiative</b> — d20 + Dex; sets turn order.</p>
+<p><b>Long / Short rest</b> — 8 hours / 1 hour of downtime.</p>
+<p><b>Modifier</b> — the bonus from an ability score.</p>
+<p><b>Multiclass</b> — taking levels in more than one class.</p>
+<p><b>Natural 20 / 1</b> — the die itself shows 20 / 1.</p>
+<p><b>Opportunity attack</b> — a reaction attack when a foe leaves your reach.</p>
+<p><b>Passive check</b> — 10 + modifiers, no roll.</p>
+<p><b>Proficiency</b> — being trained; add your proficiency bonus.</p>
+<p><b>Reaction</b> — one instant response per round.</p>
+<p><b>Resistance / Vulnerability</b> — half / double damage of a type.</p>
+<p><b>Ritual</b> — cast without a slot by taking 10 extra minutes.</p>
+<p><b>Round</b> — everyone takes one turn; about 6 seconds.</p>
+<p><b>Saving throw</b> — d20 roll to resist an effect.</p>
+<p><b>Spell save DC</b> — 8 + casting modifier + proficiency.</p>
+<p><b>Spell slot</b> — the fuel for casting leveled spells.</p>
+<p><b>Subclass</b> — your specialization, chosen at level 3.</p>
+<p><b>Temporary HP</b> — a buffer lost before real HP.</p>
+<p><b>Upcasting</b> — casting a spell with a higher slot for more effect.</p>
+</div>
+
+
+{{PART:II|The Classes|All twelve classes: how to play them, a level-by-level table, every feature explained, and the complete official rules text.}}
+<!-- 12 -->
+<h1 class="chapter">12 · The Twelve Classes</h1>
+<p class="chapter-intro">Each class gets its own section: what it's like to play, a quick beginner build, its core traits, a full 1–20 level table, every feature explained, and its example subclass.</p>
+{{CLASS_CARDS}}
+<div class="box" style="margin-top:3mm"><h4>Reading a class table</h4><p><b>Lvl</b> is your level in that class. <b>Prof.</b> is your proficiency bonus. <b>Features</b> are what you gain at that level — "Subclass feature" means check your subclass section. Extra columns track class resources (Rages, Sneak Attack dice, etc.). Spell slots for full and half casters are in Chapter 8.</p></div>
+<p class="small muted" style="margin-top:3mm">Class features and rules are summarized from the D&amp;D 2024 core rules and the System Reference Document 5.2 by Wizards of the Coast LLC, licensed under CC-BY-4.0 (creativecommons.org/licenses/by/4.0). Subclasses not in the SRD are named for reference only — see the Player's Handbook for their full rules.</p>
+
+{{CLASSES}}
+
+{{PART:III|Character Origins|Every species, background and feat in the 2024 System Reference Document, with full rules text.}}
+<h1 class="chapter">13 · Species</h1>
+<p class="chapter-intro">Your character's species determines size, speed and a set of inborn traits. Choose the species that fits the character you imagine; ability score increases come from your background, not your species.</p>
+{{SPECIES}}
+<h1 class="chapter">14 · Backgrounds</h1>
+<p class="chapter-intro">A background represents where your character came from. It gives ability score increases, an Origin feat, skills, a tool and starting equipment.</p>
+{{BACKGROUNDS}}
+<h1 class="chapter">15 · Feats</h1>
+<p class="chapter-intro">Feats are special talents. Origin feats come from backgrounds; General feats can replace an Ability Score Improvement from level 4; Fighting Style feats come from class features; Epic Boons are gained at level 19.</p>
+{{FEATS}}
+
+{{PART:IV|Equipment|Adventuring gear, tools, mounts, vehicles and trade goods, with prices and full descriptions. Weapons and armor are in Chapter 9.}}
+<h1 class="chapter">16 · Adventuring Gear</h1>
+<p class="chapter-intro">Prices are in gold (GP), silver (SP) and copper (CP) pieces. Equipment packs bundle common gear at a discount.</p>
+{{GEAR}}
+<h1 class="chapter">17 · Tools</h1>
+<p class="chapter-intro">If you're proficient with a tool, add your proficiency bonus to any ability check made using it. Each tool lists its ability, uses and what you can craft.</p>
+{{TOOLS}}
+<h1 class="chapter">18 · Mounts &amp; Vehicles</h1>
+{{MOUNTS}}
+<h1 class="chapter">19 · Trade Goods &amp; Trinkets</h1>
+{{TRADE}}
+{{TRINKETS}}
+
+{{PART:V|Spells|Spell lists for every class, followed by the complete description of all 339 spells in the System Reference Document, in alphabetical order.}}
+<h1 class="chapter">20 · Spell Lists</h1>
+<p class="chapter-intro">Spells available to each class, by level. <i>C</i> = requires Concentration. <i>R</i> = can be cast as a Ritual.</p>
+{{SPELL_LISTS}}
+<h1 class="chapter">21 · Spell Descriptions</h1>
+<p class="chapter-intro">Each entry lists the spell's level, school and classes, then its casting time, range, components and duration. Spell slot tables are in Chapter 8.</p>
+{{SPELLS}}
+
+{{PART:VI|Rules Reference|The complete core rules of the System Reference Document 5.2 — for when you need the exact wording.}}
+<h1 class="chapter">22 · Rules Reference</h1>
+<p class="chapter-intro">The official rules text, organized from the basics of play through combat, damage, character creation and multiclassing. The full list of conditions follows in Chapter 23.</p>
+{{RULES}}
+<h1 class="chapter">23 · Conditions</h1>
+<p class="chapter-intro">Conditions are status effects. A creature either has a condition or doesn't; the same condition doesn't stack (except Exhaustion levels).</p>
+
+<table>
+  <thead><tr><th style="width:15%">Condition</th><th>Effects</th></tr></thead>
+  <tbody>
+    <tr><td><b>Blinded</b></td><td>Can't see; auto-fails checks requiring sight. Attacks against it have advantage; its attacks have disadvantage.</td></tr>
+    <tr><td><b>Charmed</b></td><td>Can't attack or target the charmer with harmful effects. The charmer has advantage on social checks against it.</td></tr>
+    <tr><td><b>Deafened</b></td><td>Can't hear; auto-fails checks requiring hearing.</td></tr>
+    <tr><td><b>Exhaustion</b></td><td>Cumulative levels 1–6. Each level: <b>−2 to all d20 Tests</b> and <b>−5 ft Speed</b>. Level 6 = death. A long rest removes one level.</td></tr>
+    <tr><td><b>Frightened</b></td><td>Disadvantage on ability checks and attacks while the source is in sight. Can't willingly move closer to the source.</td></tr>
+    <tr><td><b>Grappled</b></td><td>Speed 0. Disadvantage on attacks against anyone except the grappler. Can be dragged (grappler moves at half speed). Escape with an action: Athletics or Acrobatics vs. the grapple DC.</td></tr>
+    <tr><td><b>Incapacitated</b></td><td>No actions, bonus actions or reactions. Concentration breaks. Can't speak. Rolls initiative with disadvantage.</td></tr>
+    <tr><td><b>Invisible</b></td><td>Can't be seen. Advantage on initiative. Attacks against it have disadvantage; its attacks have advantage (unless the attacker can somehow see it).</td></tr>
+    <tr><td><b>Paralyzed</b></td><td>Incapacitated, Speed 0. Auto-fails Str and Dex saves. Attacks against it have advantage; hits from within 5 ft are Critical Hits.</td></tr>
+    <tr><td><b>Petrified</b></td><td>Turned to stone. Incapacitated, Speed 0, unaware. Attacks against it have advantage; auto-fails Str and Dex saves; resistance to all damage; immune to poison.</td></tr>
+    <tr><td><b>Poisoned</b></td><td>Disadvantage on attack rolls and ability checks.</td></tr>
+    <tr><td><b>Prone</b></td><td>Can only crawl (each foot costs 2 ft) unless it stands up (costs half its Speed). Disadvantage on its attacks. Melee attacks against it (within 5 ft) have advantage; ranged attacks against it have disadvantage.</td></tr>
+    <tr><td><b>Restrained</b></td><td>Speed 0. Attacks against it have advantage; its attacks have disadvantage. Disadvantage on Dex saves.</td></tr>
+    <tr><td><b>Stunned</b></td><td>Incapacitated. Auto-fails Str and Dex saves. Attacks against it have advantage.</td></tr>
+    <tr><td><b>Unconscious</b></td><td>Incapacitated and Prone, drops what it's holding, Speed 0, unaware. Auto-fails Str and Dex saves. Attacks against it have advantage; hits from within 5 ft are Critical Hits.</td></tr>
+  </tbody>
+</table>
+
+<h2 data-i="eye">Vision &amp; Light</h2>
+<table>
+  <thead><tr><th>Light</th><th>Effect</th></tr></thead>
+  <tbody>
+    <tr><td><b>Bright light</b></td><td>Normal vision.</td></tr>
+    <tr><td><b>Dim light</b> (twilight, torchlight edge)</td><td>Lightly obscured: disadvantage on sight-based Perception checks.</td></tr>
+    <tr><td><b>Darkness</b></td><td>Heavily obscured: effectively Blinded when trying to see into it.</td></tr>
+    <tr><td><b>Darkvision</b></td><td>Treats darkness as dim light and dim light as bright, within its range (usually 60 ft).</td></tr>
+  </tbody>
+</table>
+
+
+
+
+<!-- Blank sheet -->
+{{PART:VII|Expanded Options|Original content made for this book: 36 new subclasses, new backgrounds, species, feats and spells, balanced for the 2024 rules.}}
+<h1 class="chapter">24 · Original Subclasses</h1>
+<p class="chapter-intro">Three new subclasses for every class, designed for this book. They use the same subclass levels as the official ones, so you can swap them in freely. Ask your GM before using original content in their game.</p>
+{{O_SUBS}}
+<h1 class="chapter">25 · Original Backgrounds &amp; Species</h1>
+<p class="chapter-intro">Twelve new backgrounds and two new species. Backgrounds follow the 2024 format: three ability scores (+2/+1 or +1/+1/+1), an Origin feat, two skills, a tool and equipment.</p>
+<h2 data-i="book">Backgrounds</h2>
+{{O_BG}}
+<h2 data-i="people">Species</h2>
+{{O_SPECIES}}
+<h1 class="chapter">26 · Original Feats</h1>
+<p class="chapter-intro">New Origin, General, Fighting Style and Epic Boon feats.</p>
+{{O_FEATS}}
+<h1 class="chapter">27 · Original Spells</h1>
+<p class="chapter-intro">Forty-seven new spells, from cantrips to 9th level. Each lists the classes that can learn it.</p>
+{{O_SPELLS}}
+
+{{PART:VIII|Appendix|A blank character sheet to photocopy.}}
+<h1 class="chapter">Character Sheet</h1>
+<div class="sheet" style="padding:3mm">
+  <div class="sheet-top">
+    <div class="stat" style="text-align:left; padding:1.5mm 3mm; height:14mm"><div class="k">Name</div></div>
+    <div class="stat" style="height:14mm"><div class="k">Class &amp; Level</div></div>
+    <div class="stat"><div class="k">Species</div></div>
+    <div class="stat"><div class="k">Background</div></div>
+    <div class="stat"><div class="k">Alignment</div></div>
+  </div>
+  <div class="sheet-top" style="grid-template-columns: repeat(6,1fr)">
+    <div class="stat" style="height:15mm"><div class="k">Armor Class</div></div>
+    <div class="stat"><div class="k">Max HP</div></div>
+    <div class="stat"><div class="k">Current HP</div></div>
+    <div class="stat"><div class="k">Hit Dice</div></div>
+    <div class="stat"><div class="k">Speed</div></div>
+    <div class="stat"><div class="k">Initiative · Prof.</div></div>
+  </div>
+  <div class="abil">
+    <div class="stat" style="height:20mm"><div class="k">Strength</div></div>
+    <div class="stat"><div class="k">Dexterity</div></div>
+    <div class="stat"><div class="k">Constitution</div></div>
+    <div class="stat"><div class="k">Intelligence</div></div>
+    <div class="stat"><div class="k">Wisdom</div></div>
+    <div class="stat"><div class="k">Charisma</div></div>
+  </div>
+  <div class="grid3" style="gap:3mm">
+    <table class="compact blank tight"><thead><tr><th class="c">✓</th><th>Saves &amp; Skills</th><th class="c">+</th></tr></thead><tbody>
+      <tr><td></td><td>Str save</td><td></td></tr><tr><td></td><td>Dex save</td><td></td></tr><tr><td></td><td>Con save</td><td></td></tr>
+      <tr><td></td><td>Int save</td><td></td></tr><tr><td></td><td>Wis save</td><td></td></tr><tr><td></td><td>Cha save</td><td></td></tr>
+      <tr><td></td><td>Acrobatics (Dex)</td><td></td></tr><tr><td></td><td>Animal Handling (Wis)</td><td></td></tr><tr><td></td><td>Arcana (Int)</td><td></td></tr>
+      <tr><td></td><td>Athletics (Str)</td><td></td></tr><tr><td></td><td>Deception (Cha)</td><td></td></tr><tr><td></td><td>History (Int)</td><td></td></tr>
+      <tr><td></td><td>Insight (Wis)</td><td></td></tr><tr><td></td><td>Intimidation (Cha)</td><td></td></tr><tr><td></td><td>Investigation (Int)</td><td></td></tr>
+      <tr><td></td><td>Medicine (Wis)</td><td></td></tr><tr><td></td><td>Nature (Int)</td><td></td></tr><tr><td></td><td>Perception (Wis)</td><td></td></tr>
+      <tr><td></td><td>Performance (Cha)</td><td></td></tr><tr><td></td><td>Persuasion (Cha)</td><td></td></tr><tr><td></td><td>Religion (Int)</td><td></td></tr>
+      <tr><td></td><td>Sleight of Hand (Dex)</td><td></td></tr><tr><td></td><td>Stealth (Dex)</td><td></td></tr><tr><td></td><td>Survival (Wis)</td><td></td></tr>
+      <tr><td></td><td><b>Passive Perception</b></td><td></td></tr>
+    </tbody></table>
+    <div>
+      <table class="compact blank"><thead><tr><th>Attack</th><th class="c">Hit</th><th>Damage</th></tr></thead><tbody>
+        <tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr>
+      </tbody></table>
+      <table class="compact blank"><thead><tr><th>Features &amp; Traits</th></tr></thead><tbody>
+        <tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr>
+      </tbody></table>
+    </div>
+    <div>
+      <table class="compact blank"><thead><tr><th>Spells · DC ___ · Atk ___</th></tr></thead><tbody>
+        <tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr>
+      </tbody></table>
+      <table class="compact blank"><thead><tr><th>Equipment &amp; Gold</th></tr></thead><tbody>
+        <tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr>
+      </tbody></table>
+    </div>
+  </div>
+  <table class="compact blank" style="margin-top:2mm"><tbody>
+    <tr><td style="width:20%"><b>Trait</b></td><td></td><td style="width:20%"><b>Ideal</b></td><td></td></tr>
+    <tr><td><b>Bond</b></td><td></td><td><b>Flaw</b></td><td></td></tr>
+  </tbody></table>
+</div>
+
+
+
+</body>
+</html>
