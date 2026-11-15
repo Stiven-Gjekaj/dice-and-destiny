@@ -18,6 +18,14 @@ ITEMS = sorted(content.items.ITEMS, key=lambda i: i[0])
 TAG = '<span class="orig">Original</span>'
 
 
+LABEL = re.compile(r"\[\[([^\[\]]+)\]\]")
+
+
+def feature_text(text):
+    """Escape the text of a subclass feature. Show each [[label]] in bold."""
+    return LABEL.sub(r"<b>\1</b>", E(text))
+
+
 def sub_names(c):
     return [s[0] for s in SUBS[c]]
 
@@ -29,7 +37,7 @@ def subclasses_html():
         for name, tag, feats in SUBS[c]:
             out.append(f'<div class="entry"><h4 class="sp-name">{E(name)}</h4><div class="sp-meta"><i>{c.capitalize()} subclass · {E(tag)}</i></div>')
             for lv, fn, tx in feats:
-                out.append(f'<div class="ft"><h4><span class="lv">{lv}</span>{E(fn)}</h4><p>{E(tx)}</p></div>')
+                out.append(f'<div class="ft"><h4><span class="lv">{lv}</span>{E(fn)}</h4><p>{feature_text(tx)}</p></div>')
             out.append("</div>")
         out.append("</div>")
     return "\n".join(out)
