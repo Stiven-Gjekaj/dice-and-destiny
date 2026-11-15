@@ -3,12 +3,13 @@ import html, re
 from collections import defaultdict
 import orig_options, orig_spells
 from content.subclasses import SUBS
-import orig_mon1, orig_mon2, orig_mon3, orig_mon4, orig_items1, orig_items2, orig_items3
+import orig_items1, orig_items2, orig_items3
+from content.monsters import MON
 from monster_engine import crs, XP
 
 E = html.escape
 ORDER = "barbarian bard cleric druid fighter monk paladin ranger rogue sorcerer warlock wizard".split()
-MONSTERS = sorted(orig_mon1.MON + orig_mon2.MON + orig_mon3.MON + orig_mon4.MON, key=lambda m: m.name)
+MONSTERS = sorted(MON, key=lambda m: m.name)
 ITEMS = sorted(orig_items1.ITEMS + orig_items2.ITEMS + orig_items3.ITEMS, key=lambda i: i[0])
 TAG = '<span class="orig">Original</span>'
 
