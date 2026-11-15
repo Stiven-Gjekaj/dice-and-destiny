@@ -5,6 +5,8 @@ Copyright (c) 2026 Stiven Gjekaj.
 This license applies to the original text and content of Dice & Destiny.
 `NOTICE.md` shows the folders that it covers.
 The SRD 5.2 material is not under this license. It is under CC BY 4.0.
+The official text of this license is at
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.
 
 ```text
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
