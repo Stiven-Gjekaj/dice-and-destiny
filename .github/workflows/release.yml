@@ -39,8 +39,11 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils fonts-crosextra-caladea fonts-liberation fonts-inter
-          pip install "markdown==3.11.3" "pypdf==6.17.0"
+          pip install "markdown==3.11.3" "pypdf==6.17.0" "pytest==8.3.4"
           google-chrome --version
+
+      - name: Run the tests
+        run: cd compendium && python3 -m pytest -q
 
       - name: Build the books
         run: compendium/build.sh
