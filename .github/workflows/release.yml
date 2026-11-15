@@ -39,11 +39,15 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils fonts-crosextra-caladea fonts-liberation fonts-inter
-          pip install "markdown>=3.5" "pypdf>=4.0"
+          pip install "markdown==3.11.3" "pypdf==6.17.0"
           google-chrome --version
 
       - name: Build the books
         run: compendium/build.sh
+
+      # Stop here if a PDF has a font that changes the page breaks.
+      - name: Check the fonts
+        run: python3 compendium/build/check_fonts.py compendium/dist/*.pdf
 
       - name: Show the page counts
         run: |
