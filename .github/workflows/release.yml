@@ -49,6 +49,17 @@ jobs:
       - name: Check the fonts
         run: python3 compendium/build/check_fonts.py compendium/dist/*.pdf
 
+      # The books never use an em-dash.
+      - name: Check for em-dashes
+        run: |
+          dash=$(printf '\342\200\224')  # the UTF-8 bytes of an em-dash
+          bad=0
+          for f in compendium/dist/*.pdf; do
+            n=$(pdftotext "$f" - | grep -o "$dash" | wc -l)
+            if [ "$n" -gt 0 ]; then echo "EM-DASH ERROR: $f has $n"; bad=1; fi
+          done
+          exit $bad
+
       - name: Show the page counts
         run: |
           for f in compendium/dist/*.pdf; do
