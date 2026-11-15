@@ -121,7 +121,7 @@ def toc_html(pages):
 
 
 def expand(name):
-    s = open(f"{name}.src.html").read()
+    s = open(f"books/{name}.src.html").read()
     s = s.replace('<link rel="stylesheet" href="style.css">', '<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="book.css">')
     s = s.replace("{{FRONT}}", front(name))
     reps = {
@@ -157,9 +157,9 @@ def expand(name):
 
 
 def render(name, s):
-    open(f"{name}.html", "w").write(s)
+    open(f"books/{name}.html", "w").write(s)
     subprocess.run(["google-chrome", "--headless=new", "--no-sandbox", "--disable-gpu", "--no-pdf-header-footer",
-                    f"--print-to-pdf={os.getcwd()}/{name}.pdf", f"file://{os.getcwd()}/{name}.html"],
+                    f"--print-to-pdf={os.getcwd()}/{name}.pdf", f"file://{os.getcwd()}/books/{name}.html"],
                    stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, timeout=900)
 
 

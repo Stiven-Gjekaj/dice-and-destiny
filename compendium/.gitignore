@@ -1,7 +1,7 @@
 __pycache__/
 *.pyc
-/player.html
-/gm.html
+/books/player.html
+/books/gm.html
 /player_cover.html
 /gm_cover.html
 /player.pdf
