@@ -128,6 +128,7 @@ table.mon-ab td:nth-child(4n+1) { text-align: left; background: #e4e4e4 !importa
 .lvl-block h4 { margin: 1mm 0 0.6mm; font-size: 8.8pt; border-bottom: 0.5pt solid #999; }
 .cr-index p { font-size: 8pt; margin: 0 0 2mm; break-inside: avoid; }
 .species { margin-bottom: 5mm; }
+.species { break-inside: avoid; }
 .ft h4 { display: flex; align-items: center; gap: 1.6mm; margin: 2.6mm 0 1mm; font-size: 9.6pt; }
 .ft .lv { font-family: "Inter", sans-serif; font-size: 6.8pt; padding: .2mm 1.4mm; border-radius: 1mm; }
 .fulltext { font-size: 8.8pt; }
