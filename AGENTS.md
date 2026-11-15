@@ -54,6 +54,14 @@ They also apply to a change that you start without a request.
 - A commit does not change the version.
 - Do not open a pull request if the human does not ask for it.
 
+## Branches
+
+- Do all work on `main`.
+- Push to `main` only.
+- Do not create a remote branch.
+- If the push fails because `main` on the remote has new commits, fetch them.
+  Then rebase your commits on them and push again.
+
 ### An example of granular commits
 
 These commits are correct.
