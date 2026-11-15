@@ -22,9 +22,9 @@ These rules apply to all campaigns and one-shots in this repository.
 
 ## Campaigns
 
-- [The Fountain of Divine](the-fountain-of-divine/README.md)
+- [The Fountain of Divine](campaigns/the-fountain-of-divine/README.md)
 
 ## One-shots
 
-- [The Last Watch of the Sleepers](tutorial-one-shot/README.md): a tutorial
+- [The Last Watch of the Sleepers](adventures/tutorial-one-shot/README.md): a tutorial
   one-shot that teaches new players the rules.
