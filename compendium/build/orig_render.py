@@ -1,12 +1,12 @@
 """Render original (non-SRD) content into HTML for the compendiums."""
 import html, re
 from collections import defaultdict
-import orig_sub1, orig_sub2, orig_sub3, orig_options, orig_spells
+import orig_options, orig_spells
+from content.subclasses import SUBS
 import orig_mon1, orig_mon2, orig_mon3, orig_mon4, orig_items1, orig_items2, orig_items3
 from monster_engine import crs, XP
 
 E = html.escape
-SUBS = {**orig_sub1.SUBS, **orig_sub2.SUBS, **orig_sub3.SUBS}
 ORDER = "barbarian bard cleric druid fighter monk paladin ranger rogue sorcerer warlock wizard".split()
 MONSTERS = sorted(orig_mon1.MON + orig_mon2.MON + orig_mon3.MON + orig_mon4.MON, key=lambda m: m.name)
 ITEMS = sorted(orig_items1.ITEMS + orig_items2.ITEMS + orig_items3.ITEMS, key=lambda i: i[0])
