@@ -339,8 +339,9 @@ The twist works only if the players believe the lie. Some rules help:
 - **Wick believes the lie.** Wick learned it from the steward himself.
 - **Hint, but do not tell.** These hints are safe: the black stone feels
   like the crystal of the Hall of Sleepers; Malgrath says "we" and "sleepers";
-  an old song in Fennick calls the Unlit King "the bad knight"; a statue
-  in Kingsholm has its face cut off. A sharp player can guess. That is
+  the goliaths of the Grey Teeth call the Unlit King "the one who ate the
+  fire"; a statue in Kingsholm has its face cut off. The gazetteer marks
+  each hint. A sharp player can guess. That is
   fine. A guess is not proof, and chapter 10 still lands.
 - **Do not show the name Garrath before chapter 10.** If a player asks
   about the founders of the Dawnwatch, Wick does not know, and the old
