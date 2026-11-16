@@ -430,7 +430,7 @@ def render_class(c):
     from icons import icon
     nb = " newpage"
     out = [f'<div class="class-banner{nb}"><div class="ch-num">Class</div><h1 class="classname">{name}</h1>'
-           f'<div class="tagline">{info["tag"]}</div><span class="crest">{icon(c, 40, "#c99a3e", 1.4)}</span></div>']
+           f'<div class="tagline">{info["tag"]}</div><span class="crest">{icon(c, 40, "currentColor", 1.4)}</span></div>']
     out.append('<div class="class-head"><div>')
     out.append(f'<p><span class="tag">{info["role"]}</span><span class="tag">Difficulty: {info["diff"]}</span></p>')
     out.append(f'<h3>How to Play</h3><p>{info["play"]}</p>')
@@ -519,7 +519,7 @@ def cards():
         d = json.load(open(f"{DATA}/{c}.json"))
         t = core_traits(d)
         from icons import icon
-        out.append(f'''<div class="card"><div class="top"><span class="ch-badge">{icon(c, 18, "#f6e2b8", 1.5)}</span>
+        out.append(f'''<div class="card"><div class="top"><span class="ch-badge">{icon(c, 18, "currentColor", 1.5)}</span>
 <div><h3>{d["name"]}</h3><div class="meta">{d["hit_dice"].lower()} HP · {t.get("Primary Ability","")} · {INFO[c]["diff"]}</div></div></div>
 <p>{INFO[c]["tag"]}</p><p class="meta" style="margin-top:1mm"><b>Role:</b> {INFO[c]["role"]}</p></div>''')
     out.append('</div>')

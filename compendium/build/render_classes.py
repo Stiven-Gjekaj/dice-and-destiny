@@ -34,7 +34,7 @@ def class_html(c, subs=(), newpage=True):
     hd = c["hit_die"]
     nb = " newpage" if newpage else ""
     out = [f'<div class="class-banner{nb}"><div class="ch-num">Class</div><h1 class="classname">{E(c["name"])}</h1>'
-           f'<div class="tagline">{E(c["tagline"])}</div><span class="crest">{icon(c["icon"], 40, "#c99a3e", 1.4)}</span></div>']
+           f'<div class="tagline">{E(c["tagline"])}</div><span class="crest">{icon(c["icon"], 40, "currentColor", 1.4)}</span></div>']
     out.append('<div class="class-head"><div>')
     out.append(f'<p><span class="tag">{E(c["role"])}</span><span class="tag">Difficulty: {E(c["difficulty"])}</span></p>')
     out.append(f'<h3>How to Play</h3><p>{E(c["guide"]["play"])}</p>')
