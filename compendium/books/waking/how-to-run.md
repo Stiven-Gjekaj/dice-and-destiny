@@ -123,7 +123,7 @@ Compendium.
 ## One System at a Time
 
 Dice & Destiny has eight optional systems. This book teaches seven of them,
-one in each chapter, when the story needs it. The tutorial teaches the
+one at a time, when the story needs it. The tutorial teaches the
 core rules in the same way. Book Two adds the last one, Legend Paths.
 
 | Chapter | System | Why it starts here |
@@ -156,7 +156,7 @@ box and run the scene with the core rules:
 - **Crafting and Gathering:** the Lampwrights sell the items instead.
 - **Strongholds:** the keep is a safe place to rest, with no rules for
   rooms or staff.
-- **Techniques:** the ghost of Fennick gives each character one uncommon
+- **Techniques:** the ghost of Fennick gives each character one Uncommon
   magic item from the Game Master's Compendium instead.
 - **Injuries and Scars:** use the normal rules for 0 Hit Points.
 
@@ -189,9 +189,9 @@ ways to start:
 
 1. **Run the tutorial fast.** Skip the Teach boxes. Run it in about one
    hour as a prologue, then go on to chapter 2 in the same session.
-2. **Run the tutorial with harder fights.** Use the High column of the
-   Scaling table for both fights, and add one Giant Rat for each player in
-   the armory. Keep the story.
+2. **Run the tutorial with harder fights.** Use one more Giant Rat in
+   Scene 4 and one more Brimstone Pup in Scene 6 than the Scaling table of
+   the tutorial gives. Keep the story.
 3. **Start at chapter 2.** Read the summary below aloud. The characters
    start at level 2, at the Dawn Door, with the black stone and one Scroll
    of the Last Watch each.
@@ -341,13 +341,13 @@ The twist works only if the players believe the lie. Some rules help:
   like the crystal of the Hall of Sleepers; Malgrath says "we" and "sleepers";
   the goliaths of the Grey Teeth call the Unlit King "the one who ate the
   fire"; a statue in Kingsholm has its face cut off. The gazetteer marks
-  each hint. A sharp player can guess. That is
-  fine. A guess is not proof, and chapter 10 still lands.
+  each hint. A sharp player can guess. That is fine. A guess is not proof, and chapter 10 still lands.
 - **Do not show the name Garrath before chapter 10.** If a player asks
   about the founders of the Dawnwatch, Wick does not know, and the old
   records are lost.
-- **The player's guide and the handouts are safe to give out.** They tell
-  the lie, and nothing about the world of today.
+- **The player's guide is safe to give out.** It tells the lie, and
+  nothing about the world of today. Give each handout only when its
+  chapter says so.
 
 ## Wick at the Table
 
