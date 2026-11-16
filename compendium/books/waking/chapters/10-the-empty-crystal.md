@@ -436,8 +436,9 @@ plans to "let them see the last dark": to leave them in the vault.
 
 > The great windows of the cathedral are dark, because there is no sun
 > behind them. Each window shows a knight of the sun. On the biggest
-> window, over the altar, someone has broken out the face of the knight,
-> one small piece of glass at a time.
+> window, over the altar, someone broke out the face of the knight, long
+> ago, one small piece of glass at a time. Under the window, the Hush has
+> tied a hundred grey ribbons.
 >
 > The prisoners sit in the middle of the floor, tied together. Around them,
 > the Hush stands in a ring, with their backs to the prisoners and their
@@ -472,7 +473,7 @@ Charisma (Persuasion) check makes one Cultist put down its weapon.
 **After the fight.** The prisoners thank the party. One of them, an old
 pilgrim of the Church, knows the cathedral. She tells the party that "the
 broken window was the first knight, the one the old songs don't name. The
-Hush broke his face out, and then they cried while they did it. I never
-understood that."
+old kingdom broke his face out, the stories say. And the Hush ties ribbons
+under it, and cries. I never understood that."
 
 ---
