@@ -215,59 +215,82 @@ light.
 
 ## Scene 3: The Stair of Teeth (15 minutes)
 
-**Goal:** Teach Perception, saving throws, damage, and hit points.
+**Goal:** Teach Perception, disadvantage in dim light, saving throws, damage,
+and hit points.
 
-> A long stair goes down into the dark. The steps are old, and some are
-> broken. In the walls on both sides are thin dark slots, one above each
-> step. The air smells of dust and old metal.
+> A long, narrow stair goes down into the dark. The steps are old, and some
+> are broken. High above the middle of the stair, a wooden shelf sticks out
+> of the wall. Something round sits on it, in the shadows. The air smells of
+> dust, old grease, and rusty iron.
 >
-> Wick whispers: "The Stair of Teeth. The steward built it to stop thieves.
-> I do not remember the safe way. Sorry. Three hundred years."
+> Wick whispers: "The Stair of Teeth. The steward put iron teeth on it to
+> stop thieves. I do not remember the safe way. Sorry. Three hundred years."
 
-### The trap
+### The trap: Caltrop Spill
 
-On the eighth step, a pressure plate fires blades out of the slots.
+Use the **Caltrop Spill** from Traps & Hazards in the Game Master's
+Compendium. For levels 1 to 4, the DC is 11 and the damage is 1d10.
 
-- **Find it:** A character who looks at the stair can make a Wisdom
-  (Perception) check, DC 12. On a success, the character sees that one step
-  is a different color. A character who studies the slots can make an
-  Intelligence (Investigation) check, DC 12, to see how the trap works.
-- **Passive Perception:** If no player asks to look, check the passive
-  Perception of each character. It is on the sheet. A score of 14 or more
-  notices the step. Of the pregens, only the Shadow has this.
+- **The trap:** A thin tripwire goes across the stair, halfway down. Above it,
+  a barrel on the shelf is tied to the wire. The barrel holds iron caltrops
+  (the "teeth") and a bucket of grease.
+- **The light:** The shelf and the wire are 30 feet or more from Wick, in Dim
+  Light. Dim Light makes the area Lightly Obscured. A creature has
+  Disadvantage on Wisdom (Perception) checks to see something there.
+- **Find it:** A character who looks at the stair makes a Wisdom (Perception)
+  check against DC 11, with Disadvantage. On a success, the character sees
+  the tripwire or the barrel.
+- **Passive Perception:** If no player asks to look, compare the passive
+  Perception of each character with DC 11. Disadvantage takes 5 from a passive
+  score. With the pregens, nobody notices the trap without a roll.
 
 > **Teach: passive Perception.** "Your sheet has a number called passive
 > Perception. I use it when you do not ask to look. It is what your character
-> notices without trying."
+> notices without trying. In dim light it is 5 lower, because you cannot see
+> well."
 
-- **Avoid it:** When the characters know about the step, they step over it.
+> **Teach: disadvantage again.** When a player looks, say: "It is dark down
+> there, so you have Disadvantage. Roll two d20s and use the lower one. Wick
+> can go closer and give more light. Then you roll normally." Wick's Bright
+> Light reaches 30 feet. If a character carries Wick closer, the Disadvantage
+> goes away.
+
+- **Avoid it:** When the characters know about the wire, they step over it.
   No roll. Tell the players: "Good thinking saves you a roll."
-- **Disarm it:** The Shadow can jam the plate with thieves' tools.
-  Dexterity (Sleight of Hand) check, DC 10. On a failure, the trap fires.
+- **Disarm it:** A character with Thieves' Tools can cut the wire carefully.
+  This is a Dexterity check with Thieves' Tools against DC 11. The Shadow is
+  proficient with Thieves' Tools, so the Shadow adds +5. On a failure, the
+  trap triggers.
 
-### If the trap fires
+### If the trap triggers
 
-> A click. Then a sound like a hundred knives out of a hundred sheaths.
-> Blades swing out of the walls.
+> A thin twang. Above you, a barrel tips over. Iron spikes and black grease
+> pour down the steps like rain.
 
-Each character on the stair makes a Dexterity saving throw, DC 12.
+The caltrops cover a 10-foot square of the stair. Each character in that
+square makes a Dexterity saving throw against DC 11.
 
 > **Teach: the saving throw.** "This is a saving throw. It is not something
 > that you try to do. It is something that happens to you, and you try to
 > resist it. Roll a d20 and add your Dexterity save. It is on your sheet,
 > under Dexterity."
 
-- **Fail:** 3 (1d6) slashing damage.
-- **Success:** No damage. The character ducks just in time.
+- **Fail:** 1d10 Piercing damage. Also, the character's Speed goes down by 10
+  feet until it regains at least 1 Hit Point.
+- **Success:** Half the damage. Roll 1d10 and divide by 2, rounded down.
+- **After the trap:** The square is Difficult Terrain. A creature that moves
+  through it at more than half its Speed takes the damage again, with no
+  save. To cross safely, move slowly, or sweep the caltrops away with a
+  shield (1 minute).
 
-> **Teach: damage and hit points.** "Roll a d6. That is the damage. Take it
+> **Teach: damage and hit points.** "Roll a d10. That is the damage. Take it
 > away from your HP. HP are hit points. They show how much more you can take.
 > At 0, you fall down."
 
-Make the trap low risk. A character at 1 HP after the trap is a problem for
-Scene 4. If a character has very low HP, let Wick say: "Oh dear. You look
-terrible. There is a well in the armory. Drink." The water heals 1d4 HP one
-time.
+**Watch the Spark.** The Spark has 8 HP, and the trap can deal up to 10. If a
+character drops to 0 HP here, teach death saving throws now (see Scene 6).
+Then let a friend use the Potion of Healing from Scene 2, or the Light's
+*Healing Word*.
 
 ### The Bell Gate (optional)
 
@@ -294,10 +317,25 @@ sleep so that the dawn can wake."
 - Wick: "I think it is the order of the sky? Or the order of my favorite
   colors? No, that is gold, then gold, then gold."
 
-**Wrong order:** Ash falls from the ceiling. Each character near the gate
-makes a Constitution saving throw, DC 10. On a fail, the character coughs
-and has disadvantage on the next ability check. This shows that different
-saving throws use different abilities.
+**Wrong order:** A wrong bell triggers a **Tripwire Bell Net** (Traps &
+Hazards in the Game Master's Compendium; for levels 1 to 4, the DC is 11).
+In the book, a wire triggers this trap. Here, the wrong bell triggers it.
+
+> All three bells ring at once, very loud. A heavy net drops from the
+> ceiling.
+
+- The net covers a 10-foot square in front of the gate. Each character under
+  it makes a Dexterity saving throw against DC 11. On a fail, the character
+  has the Restrained condition.
+- A Restrained character can take an action to make a Strength (Athletics)
+  check against DC 11. On a success, it is free.
+- A character can also attack the net. The net has AC 10 and 20 Hit Points.
+
+> **Teach: conditions.** "Restrained is a condition. Conditions are short
+> rules for a bad state. While you are Restrained, your Speed is 0. Attacks
+> against you have Advantage, and your attacks have Disadvantage. You also
+> have Disadvantage on Dexterity saving throws." The conditions are in the Rules
+> Reference in the Player's Compendium.
 
 **Right order:** The gate swings open with a long, sad sound. Wick sings a
 short song of victory. It is bad.
