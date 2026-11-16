@@ -31,8 +31,8 @@ think the master does not tell riddles.
   will build one day. He put his mark on their heels and said they would
   know his work when they saw it.
 - In the last month before we left, he went north to Kingsholm with a lamp
-  and came back without it. He was gone three days. When he came back he did
-  not hum any more.
+  and came back without it. He was gone seven days. When he came back he
+  hummed much less.
 - On the last night he did not sleep. He sat in the workshop and made one
   more lamp, a small brass one with a hood. He would not let us see it.
   When we left in the morning, it was gone, and so was he.
