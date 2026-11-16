@@ -257,3 +257,222 @@ the rite on the shortest day, and that "Mother has been down to see the
 king. She came back different. Her eyes are all black now."
 
 ---
+
+## Scene 3: Kingsholm (1 session)
+
+**Goal:** The party enters the ruins and breaks the outer ring of the Hush.
+
+### The old capital
+
+Kingsholm was the capital of Ostrey. It stands on both banks of the River
+Dunn, at a bend where the river runs fast and deep. The palace stood on a
+hill on the north bank. Three hundred years of weather, a civil war, and a
+long time with nobody to fix the roofs have made it a ruin. Nobody lives
+here now. The people of today say that the place is bad luck, and they are
+right.
+
+> The grey dome is bigger from close by. It sits over the ruins like a lid.
+> At its edge, the snow stops. Inside, there is no snow, no wind, and no
+> sun. The light goes grey and then goes out, as if you walk into the
+> evening in the middle of the day.
+>
+> Inside the dome, the city is very quiet. Broken towers. A bridge of white
+> stone across a black river. On the hill above it, a palace with no roof,
+> and over the palace the bell towers, with no bells in them. Somewhere,
+> very far away, many people hum one long note.
+
+**Inside the dome.** It is always night inside the dome. The area is in
+darkness, except where there is a light. Nonmagical lights work, but the
+Hush puts them out (see the Snuff bonus action of the Hush Night Warden).
+Wick, the First Lamp, the Fennick Candle, and the lamps of the Lampwrights
+burn normally. Spells that make light work, but Hush Grey Choirs dim them.
+
+> **GM tip:** Make the dark feel heavy, not hopeless. Each time the party
+> lights a lamp in Kingsholm, describe how the grey air pulls back from it,
+> just a little. The party is the only light in the city. That is the
+> image of this chapter.
+
+### Ways in
+
+Ask the players how they want to go in. All three ways lead to the Kings'
+Bridge and the palace hill.
+
+| Way | What happens |
+|---|---|
+| **The front.** Across the Kings' Bridge, in the open. | The Hush sees the party at once. Run "The Kings' Bridge" with no surprise. If Gaunt soldiers came, they hold the far end of the bridge and fight the Cultist Fanatics there: remove the fanatics from the encounter. |
+| **Quiet.** Through the drowned streets of the south bank, and over the river on the ice. | A group Dexterity (Stealth) check, DC 15. On a success, the party reaches the bridge from the side and surprises the Hush. On a failure, a sentry hums a warning, and the party fights on the bridge with no surprise. The ice is Difficult Terrain. |
+| **In grey.** In the robes of captured outriders. | A DC 16 Charisma (Deception) check by the leader, with Advantage if the party took an outrider alive. The Hush speaks little, so a character who stays silent does well. On a success, the party walks past the bridge and can skip the fight, or start it with surprise. On a failure, the Hush sees the light of Wick under a robe. |
+
+### Places in Kingsholm
+
+Use these places as the party crosses the city. They are in the order in
+which the party usually finds them.
+
+#### K1. The Market of Statues
+
+A wide square on the south bank, full of statues of the knights of the sun.
+Most of them stand, with snow on their shoulders from before the dome came.
+One statue lies face down in the square. Its name was cut off the base with
+a chisel, long ago. Only four letters are left: **...RATH**.
+
+| Check | DC | Result |
+|---|---|---|
+| Intelligence (History) | 15 | The statue is the oldest in the square, and the base is the biggest. Whoever it was, it was the first knight that the city honored. |
+| Wisdom (Perception) | 13 | Someone put a grey ribbon on the fallen statue's hand. The Hush comes here to pray. |
+| Intelligence (Investigation) | 18 | On the back of the base, under the moss, the chisel missed one word: **GAR**. The rest is gone. |
+
+Do not explain the statue. Let the players think about it. It pays off in
+Scene 6.
+
+#### K2. The Drowned Streets
+
+The streets along the south bank flood each spring. Now they are frozen.
+The houses are empty. Grey ribbons hang on many doors, one for each family
+that joined the Hush. Some of those families came from the villages that
+the party saw in the earlier chapters.
+
+#### K3. The Kings' Bridge
+
+A bridge of white stone, 30 feet wide and 300 feet long, with a gatehouse
+at the north end. The Hush holds the bridge. See the encounter below.
+
+#### K4. The Grey Camp
+
+Under the palace hill, on the north bank, the Hush has a camp: a hundred
+tents, grey and quiet. Most of the people here are not fighters. They are
+the poor, the frightened, and the tired, who believe that the sun is dying
+and that only the Unlit King can save it. When Mother Sallow falls, most of
+them give up (see Scene 4).
+
+A party that goes through the camp before the throne hall sees the faces
+of the Hush. Use this to make the end of the Hush feel like a rescue, not
+only a battle.
+
+> A woman sits in front of a tent with a baby in her arms. She hums with
+> the others, very softly. When she sees your light, she does not run. She
+> looks at it for a long time, as if she has forgotten what it is.
+
+#### K5. The Cathedral of the Sun
+
+The great church of old Ostrey, on the side of the palace hill. The Hush
+uses it as a prison. See "The Cathedral" below.
+
+#### K6. The Palace Steps
+
+Four hundred steps up the hill, to the gate of the palace. The steps are in
+plain view of the throne hall. The Hush does not guard them. Mother Sallow
+wants the party to come up.
+
+#### K7. The Throne Hall
+
+The rite happens here. See Scene 4.
+
+#### K8. The Stair of Bells
+
+Behind the throne, a stair goes down into the hill, under the old bell
+towers. At its foot is the vault. See Scene 5.
+
+### Encounter: The Kings' Bridge (Moderate)
+
+> At the north end of the bridge, the grey robes stand in a crowd, close
+> together, shoulder to shoulder. They are the ones who hum. As you come
+> closer, the note gets louder, and your light gets smaller. In front of
+> them stand soldiers in grey mail with no badge. Behind them, on the roof
+> of the gatehouse, a priest in grey lifts a fist.
+
+The Hush wants to stop the party here, or at least to slow it down until
+the rite is done.
+
+- **Budget:** Moderate, for 4 characters of level 10: 2,300 × 4 = 9,200 XP.
+- **Monsters:** 1 Hush Grey Choir (2,300 XP), 2 Hush Night Wardens (2,200
+  XP), 1 Hush Dusk Priest (2,900 XP), and 4 Cultist Fanatics (1,800 XP).
+  Total: 9,200 XP.
+
+{{statblock: Hush Grey Choir}}
+
+{{statblock: Hush Dusk Priest}}
+
+**The battlefield.** The bridge is 30 feet wide. Its low walls give Half
+Cover to a creature that crouches behind them. The river is 40 feet below:
+a creature that falls in takes 2d6 Bludgeoning damage from the ice and
+must swim (DC 15 Strength (Athletics)) or be swept 60 feet downstream each
+round. The gatehouse roof is 20 feet up, and the Dusk Priest stands on it.
+
+**Tactics.**
+
+- The **choir** walks forward along the middle of the bridge, so that its
+  song covers the most ground. It uses Hymn of Quiet as soon as it can catch
+  three characters in it.
+- The **wardens** stand in front of the choir and protect it with Close the
+  Ranks.
+- The **fanatics** try to get around the party and reach the character who
+  carries a piece of the Dawnfire.
+- The **priest** uses Snuff the Sun on the biggest group of characters, then
+  Hold Person on a fighter, then Word of Night.
+
+**When the bridge falls.** When the priest and the choir drop, the others
+run up the hill. They do not fight to the death. The way to the palace is
+open.
+
+> **Scaling:** The budget is 2,300 XP for each character.
+>
+> - **3 characters (6,900 XP):** remove the Dusk Priest, and add 1 Cultist
+>   Fanatic (6,750 XP).
+> - **4 characters (9,200 XP):** as written (9,200 XP).
+> - **5 characters (11,500 XP):** add 1 Hush Night Warden and 1 Cultist
+>   Fanatic (10,750 XP).
+> - **6 characters (13,800 XP):** add 1 Hush Night Warden and 1 Hush Dusk
+>   Priest (13,200 XP).
+> - **With Techniques on:** add one Cultist Fanatic for each four
+>   characters.
+> - **Gaunt soldiers hold the bridge:** remove all the Cultist Fanatics.
+
+### Encounter: The Cathedral (optional, Low)
+
+The Hush keeps prisoners in the cathedral: pilgrims who would not join, two
+Lampwright journeymen who came to look for the First Lamp, and anyone else
+that the party lost on the way. At midnight on the shortest day, the Hush
+plans to "let them see the last dark": to leave them in the vault.
+
+> The great windows of the cathedral are dark, because there is no sun
+> behind them. Each window shows a knight of the sun. On the biggest
+> window, over the altar, someone has broken out the face of the knight,
+> one small piece of glass at a time.
+>
+> The prisoners sit in the middle of the floor, tied together. Around them,
+> the Hush stands in a ring, with their backs to the prisoners and their
+> faces to the doors.
+
+- **Budget:** Low, for 4 characters of level 10: 1,600 × 4 = 6,400 XP.
+- **Monsters:** 1 Hush Dusk Priest (2,900 XP), 1 Hush Night Warden (1,100
+  XP), 4 Cultist Fanatics (1,800 XP), and 8 Cultists (200 XP). Total:
+  6,000 XP.
+
+**Not everyone fights.** The eight Cultists are new to the Hush. They are
+scared. When the priest falls, each of them drops their weapon and sits
+down. A character can also stop one with words: as an action, a DC 13
+Charisma (Persuasion) check makes one Cultist put down its weapon.
+
+> **Teach: not every fight is to the death.** "Most people don't want to
+> die. When their leader falls, or when you offer them a way out, they give
+> up or they run." In this chapter, the Hush breaks because the people in
+> it stop believing. Each Cultist that the party talks down is one more
+> person who goes home after Book One.
+
+> **Scaling:** The budget is 1,600 XP for each character.
+>
+> - **3 characters (4,800 XP):** remove the Night Warden (4,900 XP).
+> - **4 characters (6,400 XP):** as written (6,000 XP).
+> - **5 characters (8,000 XP):** add 1 Hush Night Warden and 2 Cultist
+>   Fanatics (8,000 XP).
+> - **6 characters (9,600 XP):** add 2 Hush Night Wardens and 3 Cultist
+>   Fanatics (9,550 XP).
+> - **With Techniques on:** add one Cultist for each four characters.
+
+**After the fight.** The prisoners thank the party. One of them, an old
+pilgrim of the Church, knows the cathedral. She tells the party that "the
+broken window was the first knight, the one the old songs don't name. The
+Hush broke his face out, and then they cried while they did it. I never
+understood that."
+
+---
