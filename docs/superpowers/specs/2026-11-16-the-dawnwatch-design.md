@@ -88,7 +88,7 @@ The theme: heroes who made a promise to a world that forgot them.
 
 The tutorial already gives three hooks. The campaign uses all three:
 
-- The **black stone** in the pocket of each character. It hums when
+- The **black stone** that the party finds in the chapel. It hums when
   Malgrath speaks.
 - The words of Malgrath at the end of the tutorial: "Sleepers. I also
   slept."
