@@ -1,5 +1,12 @@
 # Three Banners
 
+| | |
+|---|---|
+| **Levels** | 9 to 10 |
+| **Time at the table** | 3 or 4 sessions |
+| **Places** | The road south from the keep, the village of Wenlow, Ashby Field on the border of Gaunt and Saint Ivo's, the two camps, the Ashby stone |
+| **System that starts** | Injuries and scars |
+
 Two armies march to the same field. One flies the grey and steel of Gaunt.
 One flies the five gold stars of the Church. Both say that the Dawnwatch
 march with them. Neither asked.
@@ -9,14 +16,7 @@ own them, and a third power that wants them both to bleed. They can choose
 a side. They can try to stop the war. Whatever they choose, they fight
 their first true battle, and they carry its marks for a long time.
 
-| | |
-|---|---|
-| **Levels** | 9 to 10 |
-| **Time at the table** | 3 or 4 sessions |
-| **Places** | The road south from the keep, the village of Wenlow, Ashby Field on the border of Gaunt and Saint Ivo's, the two camps, the Ashby stone |
-| **System that starts** | Injuries and scars |
-
-## The Chapter at a Glance
+## The chapter at a glance
 
 **Goal:** the party chooses a side, or stops a war.
 
@@ -40,7 +40,7 @@ their first true battle, and they carry its marks for a long time.
 8. **After the battle.** A truce at the stone, or a victory, or a grave.
    The first scars at the fire. A prisoner names Kingsholm.
 
-### What Is Really Going On
+### What is really going on
 
 Read this part before you run the chapter. The players learn it slowly.
 
@@ -71,7 +71,7 @@ to push.
 > question that the players forgot: "Why does the Lieutenant always stand
 > where the light is worst?"
 
-### The People of This Chapter
+### The people of this chapter
 
 | Person | Who they are | Statblock |
 |---|---|---|
@@ -86,7 +86,7 @@ to push.
 
 ---
 
-## Before You Start: Injuries
+## Before you start: Injuries
 
 This chapter starts the **Injuries and Scars** system of the Game Master's
 Compendium. Read that chapter before the session. It is short.
@@ -152,7 +152,7 @@ bring the Dawnwatch back with them. Give the players the handout now.
 
 {{handout: 09-two-proclamations}}
 
-### The Riders
+### The riders
 
 - **The riders of Gaunt** are led by a young officer, Ensign Aldo Varne. He
   is polite and stiff. He has orders: "The Marshal requests that the
@@ -165,7 +165,7 @@ bring the Dawnwatch back with them. Give the players the handout now.
 
 Both riders say that the other side started it. Both believe it.
 
-### What the Riders Know
+### What the riders know
 
 | Question | The rider of Gaunt says | The rider of the Church says |
 |---|---|---|
@@ -189,7 +189,7 @@ Let the characters ask questions. Use this table for checks.
 > player makes the connection, Wick does, very quietly: "They put out the
 > lamps first. Who does that?"
 
-### The Choice of the Road
+### The choice of the road
 
 Both riders want the characters to ride with them, right now. The
 characters can:
@@ -287,7 +287,7 @@ no flame.
 > Points. If you also use other optional systems, count each one
 > separately, as the Compendium says.
 
-### After the Fight
+### After the fight
 
 The villagers come out coughing. An old miller, Gaffer Tull, takes off his
 hat and stares at the characters for a long time. "You are them," he says.
@@ -338,7 +338,7 @@ road comes over a low ridge.
 > stone. That was the rule." He pauses. "I do not think anyone here
 > remembers the rule."
 
-### The Field
+### The field
 
 Describe the field to the players. They fight here in Scene 7, and they
 plan better if they know it.
@@ -652,7 +652,7 @@ people. A letter called him to the stone at midnight, to talk peace with
 him at the stone, with a knife from the Church armory that Ansel stole for
 him. Blood at the stone: the Hush chose the place on purpose.
 
-### The Body at the Stone
+### The body at the stone
 
 The body still lies by the stone when the characters arrive. Soldiers of
 both sides stand on the two banks of the stream with torches, and shout.
@@ -671,7 +671,7 @@ Nobody has crossed yet. The characters have a few minutes.
 > look at everything. This scene rewards them for being the only careful
 > people in a valley full of angry ones.
 
-### The Clue Path
+### The clue path
 
 By now the characters can have many clues. Use this list to check what
 they have, and to point them at what they miss.
@@ -688,7 +688,7 @@ they have, and to point them at what they miss.
 | The note in the envoy's glove, in Roe's hand | The stone (Scene 6) | Roe |
 | The black stone hums near Roe and Ansel | Any time | Both |
 
-### The Last Night
+### The last night
 
 The Marshal and the Abbess both send for the characters before dawn. Both
 say the same thing in different words: "Tomorrow you stand with us, or you
@@ -744,7 +744,7 @@ in the battle:
 **Goal:** The first true battle. Teach injuries. Let the characters'
 choice decide the shape of the day.
 
-### How to Run the Battle
+### How to run the battle
 
 Do not try to run five thousand soldiers. The armies are the weather. The
 characters fight in the places where the battle turns. The battle has
@@ -770,7 +770,7 @@ At the end of the battle, the Toll tells you how the day ends (see Scene
 8). You can tell the players that you keep it, or keep it secret. If you
 tell them, say: "This is how many people die today. Lower is better."
 
-### Running Injuries in the Battle
+### Running Injuries in the battle
 
 > **Teach: injuries.** Use this box the first time that an enemy scores a
 > Critical Hit on a character, or a character drops to 0 Hit Points. Stop
@@ -882,7 +882,7 @@ the characters can call out to the lines (see Phase 2).
 > **Optional systems:** with Techniques on, add one Hush Night Warden for
 > each four characters, or give each creature 10% more Hit Points.
 
-### The First Lull
+### The first lull
 
 > The grey thins. Through it you see the field again, and it is worse than
 > the fog. The lines are broken and tangled. Pikes lie in the grass. A horse
@@ -906,7 +906,7 @@ the moment to ride to the stone.
 The armies form again, and this time they move for real. Where the
 characters are depends on their path. Run one of the three versions.
 
-#### The Gaunt Version (the Characters Stand with the Church)
+#### The Gaunt version (the characters stand with the Church)
 
 > On the south slope, the grey squares turn as one. Then the riders come
 > out between them, three hundred lances, and start down the hill at a
@@ -936,7 +936,7 @@ charge breaks with it, and the riders behind wheel away.
 levy drop), the Toll goes up by 1. If the characters break the point in 4
 rounds or fewer, the Toll does not go up.
 
-#### The Church Version (the Characters Ride with Gaunt)
+#### The Church version (the characters ride with Gaunt)
 
 > The Marshal raises her sword. The horns of Gaunt answer. You ride down
 > the hill at the front of three hundred lances, and the wind is in your
@@ -968,7 +968,7 @@ levies can give up without being cut down.
 Lenna dies, the Toll goes up by 1. If the levy surrenders, the Toll does
 not go up.
 
-#### The Stone Version (the Characters Stop the War)
+#### The stone version (the characters stop the war)
 
 > You ride down into the valley as the lines move. You reach the stone at
 > the same moment as the first riders of Gaunt on one side and the first
@@ -1029,7 +1029,7 @@ Toll goes up by 2.
 > four characters, or give the Captain and the Templar 10% more Hit
 > Points.
 
-### The Optional Duel: The Marshal
+### The optional duel: the Marshal
 
 Use this on the Church path, or on any path if the Shield, or another
 character, challenges the Marshal. Marshal Ide Gauntry rides at the front
@@ -1076,7 +1076,7 @@ take a duel, one against one, with the guards and the armies watching.
 > **Optional systems:** with Techniques on, give the Marshal 10% more Hit
 > Points.
 
-### The Second Lull
+### The second lull
 
 > The charge breaks, or halts, or turns. The horns blow again, ragged now.
 > Between the lines, the grass is torn into mud. The stream runs brown.
@@ -1160,7 +1160,7 @@ whatever the length of the fight.
 > **Optional systems:** with Techniques on, add one Hush Night Warden for
 > each four characters, or give the two priests 10% more Hit Points.
 
-### The End of the Battle
+### The end of the battle
 
 > The last black candle falls. The hum stops in the middle of a note, as
 > if someone shut a door on it. And the fog lifts: not slowly, like a
@@ -1179,7 +1179,7 @@ whatever the length of the fight.
 **Goal:** End the war, or end the day. Give the injuries their weight and
 the first scars their story. Point at Kingsholm.
 
-### How the Day Ends
+### How the day ends
 
 Look at the Toll, and at the path that the characters took.
 
@@ -1203,7 +1203,7 @@ Each path also changes the end:
   Marshal and the Abbess meet at the stone. Neither is happy. Both are
   alive.
 
-### The Truce at the Stone
+### The truce at the stone
 
 If the leaders meet (a Toll of 4 or lower), run this scene.
 
@@ -1238,7 +1238,7 @@ character who did the most to stop the war: "When I am Marshal, there will
 be no more of this. I promise." (Promises are a theme in this chapter. The
 Shield's player may have something to say.)
 
-### The Prisoner
+### The prisoner
 
 If either agent is alive, the characters can question them. If both are
 dead, a captured Hush Night Warden from the hollow takes their place. The
@@ -1266,7 +1266,7 @@ it back, the prisoner means the pieces of the Dawnfire in general.
 > leads it; and "he" slept there. Let the black stone hum loud when the
 > prisoner says "Kingsholm".
 
-### The Fire: Injuries and Scars
+### The fire: Injuries and scars
 
 That night, wherever the characters camp (with the army they helped, or
 alone by the stone), give the players a quiet scene at the fire. This is
@@ -1310,7 +1310,7 @@ chapter). Most Minor and Serious injuries can heal with care in that time.
 > whole for the finale. Both are good choices. The cleric with Lesser
 > Restoration is now very popular; let that be a fun problem.
 
-### The Field Healer
+### The field healer
 
 Among the wounded of the Church (or among the prisoners, on the Gaunt
 path) works an old field healer, Sister Hild. She has sewn up soldiers of
