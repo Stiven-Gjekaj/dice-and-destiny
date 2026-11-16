@@ -255,3 +255,150 @@ What the alarm does:
 | 1 | No surprise. Encounter 1 is normal. |
 | 2 | The Hush in the Hall of Sleepers hear the fight. In encounter 2, they are ready, and Mother Sallow starts to leave sooner (see Scene 4). |
 | 3 | As alarm 2. Also, two of the initiates in the hall run to the study door with hammers. The party has 3 rounds before they break the hinges of the door frame and damage the door. (The door still does not open. But Wick is very angry.) |
+
+---
+
+## Scene 3: Into the Keep (45 to 60 minutes)
+
+**Goal:** Fight the main force of the Hush and get to the Hall of Sleepers.
+
+### The keep inside
+
+The players know these rooms from the tutorial. Here is what changed.
+
+**The Chapel of Dawn.** The Hush camp here. Bedrolls lie on the floor. A
+grey cloth covers the stone bowl of the Dawnfire, like a shroud on a body.
+The crack in the roof is blocked with a tent cloth, so the thin line of
+light is gone. The room is dark.
+
+**The armory.** The Hush use it as a store. Baskets of broken blue crystal
+stand in rows between the old weapon racks. Picks and shovels lean against
+the well.
+
+**The Bell Gate.** The Hush cut the ropes of the three bells. The gate
+stands open.
+
+**The Stair of Teeth.** The Hush put new teeth on the stair (see below).
+
+**The Hall of Sleepers.** See Scene 4.
+
+### Where encounter 1 happens
+
+Encounter 1 is the fight with the main force. Where it happens depends on
+the way in.
+
+- **The Dawn Door:** at the door and in the chapel. The four guards at the
+  door are two Hush Night Wardens and two Cultist Fanatics. The rest of the
+  force wakes and joins on the second round.
+- **The well:** in the armory. The force is in the chapel, next door, and it
+  comes through the big wooden door at the end of the armory. If the alarm
+  is 0, the party can choose to attack the sleeping force in the chapel
+  instead, with surprise.
+- **The broken wall:** the party skips the chapel and goes down the Stair of
+  Teeth. The force follows. It catches the party at the Bell Gate, at the
+  bottom of the stair, two rounds after the party gets there. The narrow
+  gate is a good place to hold. If the party wants, it can go on to the Hall
+  of Sleepers first. Then the force arrives in the hall at the start of the
+  third round of encounter 2. In that case, use only half of the force
+  (round down), so the two fights together are not too much.
+
+### The new teeth
+
+If the party goes down the Stair of Teeth, the trap waits halfway down. The
+Hush know the old trap of the steward. They made it again, with new teeth
+and fresh grease.
+
+> Halfway down the stair, Wick's light falls on something new: a bright
+> copper wire across the steps, and above it, on the old shelf, a new
+> barrel. Or it would, if anyone looked.
+
+- **Find it:** DC 15 Wisdom (Perception). A character who remembers the old
+  trap from the tutorial has Advantage. Say: "You were here before. You know
+  where to look."
+- **Disarm it:** DC 15 Dexterity check with Thieves' Tools.
+- **If it triggers:** each creature in a 10-foot square makes a DC 15
+  Dexterity saving throw, taking 4d10 Piercing damage on a failed save or
+  half as much on a success. The square is Difficult Terrain. The barrel
+  crashes, which adds 1 to the alarm.
+
+> Wick sniffs. "That is the steward's trap. They stole the steward's trap.
+> That is not even their trap."
+
+### Encounter 1: The Main Force
+
+> They come out of the dark with no sound: grey mail, grey hoods, and maces
+> that do not shine. Nobody shouts an order. One of them lifts a hand and
+> pinches the air, and the torch on the wall dies like a candle under a
+> thumb. In the new dark, the grey shapes come on, and you hear only their
+> boots.
+
+**Creatures:** 3 Hush Night Wardens (CR 4, 1,100 XP each) and 4 Cultist
+Fanatics (CR 2, 450 XP each). The Cultist Fanatics are senior initiates of
+the Hush. They wear grey robes, not mail.
+
+**XP:** 3 × 1,100 + 4 × 450 = 5,100 XP. A Moderate fight for four
+characters of level 7 (the budget is 4 × 1,300 = 5,200 XP).
+
+{{statblock: Hush Night Warden}}
+
+{{statblock: Cultist Fanatic}}
+
+**Tactics:**
+
+- **Snuff first.** On the first round, each Night Warden uses Snuff as a
+  Bonus Action on a torch or a lantern. Wick is magical, so his flame only
+  flickers. Describe it: "The grey hand pinches toward Wick. Wick's flame
+  bends, shivers... and stays. Wick sticks out a tongue of fire at it."
+- **Fight in the dark.** The Wardens have Grey Sight. If the party has no
+  light, the Wardens have Advantage against characters who can't see them.
+  Wick and the First Lamp from chapter 6 are the answer. Let the players find
+  that out.
+- **Close the Ranks.** The Wardens stand next to the Fanatics and use their
+  Reaction to protect them.
+- **No retreat.** The Hush in this force do not flee. They believe that
+  their deaths feed the long night. A Fanatic at 10 Hit Points or fewer
+  drops its weapon, kneels, and waits in silence. It does not fight again.
+  The party can take it prisoner.
+
+> **GM tip:** The Hush are not monsters. They are people who are afraid that
+> the world is ending. Play their silence. They do not taunt and they do not
+> beg. When one falls, the others do not look. This is scarier than any
+> battle cry, and it makes Mother Sallow more interesting in Scene 4.
+
+> **Scaling:** The budget for a Moderate fight at level 7 is 1,300 XP for
+> each character.
+>
+> - **3 characters** (3,900 XP): 2 Hush Night Wardens and 3 Cultist Fanatics
+>   (2 × 1,100 + 3 × 450 = 3,550 XP).
+> - **4 characters** (5,200 XP): 3 Hush Night Wardens and 4 Cultist Fanatics
+>   (5,100 XP).
+> - **5 characters** (6,500 XP): 4 Hush Night Wardens and 4 Cultist Fanatics
+>   (4 × 1,100 + 4 × 450 = 6,200 XP).
+> - **6 characters** (7,800 XP): 5 Hush Night Wardens and 5 Cultist Fanatics
+>   (5 × 1,100 + 5 × 450 = 7,750 XP).
+>
+> If you use other optional systems, make the changes that their chapters
+> give, as you did in the earlier chapters.
+
+### After the fight
+
+The party can take a Short Rest in the armory or the chapel. The rest of the
+Hush in the camp are initiates (Cultists). They do not fight. They hide in
+the tents or run away into the Wolds. Let them go. They are farmers and
+clerks who joined a cult because the winters got longer.
+
+If the party took a prisoner, it can ask questions. The prisoner does not
+speak at first. The Hush value silence.
+
+| Check | DC | Result |
+|---|---|---|
+| Charisma (Intimidation) | 15 | The prisoner says one sentence and no more: "Mother is at the door, and the big one is with her." |
+| Charisma (Persuasion) | 14 | The prisoner talks. The Hush dig for shards because "the sleepers and the king were put to sleep by the same hand". Mother Sallow wants the key of the king's sleep, which is behind the door that has no lock. |
+| Wisdom (Insight) | 13 | The prisoner is not afraid of death. The prisoner is afraid of the dark that comes after the sun dies, and really believes that it comes soon. |
+| Wick talks to the prisoner | No roll | Wick asks why the Hush hate lights. The prisoner answers: "We do not hate them. We are saving them. A fire that burns all night is gone by morning." Wick has no answer, and that bothers him. |
+
+> **Thread (the steward):** "The same hand." If the players ask Wick, he
+> says that the steward made the spell of the coffins. "The steward could
+> do anything with crystal. He made the coffins, and the coffins worked." He
+> does not know of any other crystal. The players can wonder what other
+> crystal the steward made.
