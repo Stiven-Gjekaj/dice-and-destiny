@@ -36,6 +36,80 @@ The tutorial already starts the story:
 The campaign starts at that moment. The finale is the fight against
 Malgrath for the sun.
 
+## The story (approved by the human)
+
+The theme: heroes who made a promise to a world that forgot them.
+
+The tutorial already gives three hooks. The campaign uses all three:
+
+- The **black stone** in the pocket of each character. It hums when
+  Malgrath speaks.
+- The words of Malgrath at the end of the tutorial: "Sleepers. I also
+  slept."
+- The **Before** and **After** questions. Each character lost a person or a
+  place 300 years ago.
+
+### Act I: Waking (levels 1 to 4)
+
+- Chapter 1 is the tutorial. It ends with the cliffhanger, as it does now.
+- In the first town, the Dawnwatch learn that the old kingdom fell 200
+  years ago. Their names are now a religion: the **Church of the Five
+  Sleepers** prays for their return. The Church does not know that they
+  are real. Some people want to worship them. Some want to use them. Some
+  say that they are impostors.
+- The land has new borders, new roads, and old ruins. The **Journeys**
+  system starts here.
+- At the end of the act, a cult of the Unlit King tries to take the black
+  stones. The party learns that the stones are linked to Malgrath, and
+  that he can feel where the stones are.
+
+### Act II: The Ashes of the Kingdom (levels 5 to 10)
+
+- The factions of the world of today compete: the kingdoms that came after
+  the old kingdom, the Church, a guild of lantern makers that kept the
+  craft of Wick alive, and the cult.
+- The party takes back **Dawnwatch Keep** as its base. The **Strongholds**
+  system starts here.
+- The party looks for the pieces of the **Dawnfire**, the flame that kept
+  Malgrath asleep.
+- **The twist at the middle of the campaign:** the history in the player's
+  guide is a lie. **Malgrath was the first Dawnwatch.** He was a knight of
+  the sun. He tried to save a sun that was dying, and he lost himself. The
+  old kingdom did not defeat him. It put him to sleep with the same crystal
+  spell. The black stones are pieces of his crystal. "I also slept" is the
+  truth.
+
+### Act III: The Long Night (levels 11 to 16)
+
+- The cloud of Malgrath spreads. The days become shorter. Full regions
+  fall into night.
+- The characters become the legends that the people prayed to, or they
+  become something different. The **Legend Paths** system starts here.
+- The party learns why Malgrath wants to put out the sun. The sun is
+  really dying. He thinks that only a sun that goes out and burns again can
+  last. He can be correct. The cost is each living thing under the sun.
+- The Before and After stories return. The party finds the people and the
+  places that each character lost, after 300 years of change.
+
+### Act IV: The Last Dawn (levels 17 to 20)
+
+- The party attacks the fortress of Malgrath at the edge of the world.
+- **The finale is a choice, not only a fight.** The players choose one end:
+  - **Defeat Malgrath.** The sun continues to die, slowly. That is a
+    problem for the next age.
+  - **Redeem Malgrath.** The first Dawnwatch and the last Dawnwatch light
+    the sun again, together.
+  - **Take his place.** One character sleeps in the crystal for the next
+    300 years.
+- **The end of Wick:** his flame is the last true piece of the Dawnfire.
+  Wick can give it to light the sun again. The GM can make this a choice
+  of the players or a sacrifice that Wick makes.
+
+### Tone (approved by the human)
+
+The campaign starts light and spooky, as the tutorial does. It becomes
+darker as the light goes. It ends with hope.
+
 ## Name and versions (decided by the human)
 
 - The book is **The Dawnwatch**, a campaign for Dice & Destiny.
@@ -170,13 +244,14 @@ change apart.
 
 ## Questions for the human
 
-1. The name of the world and of the present-day kingdom or kingdoms.
-2. The number of chapters, and the level range of each chapter.
+1. The name of the world and of the kingdoms of today.
+2. The number of chapters in each act. The level range of each act is in
+   "The story".
 3. A map: who makes it, and in which style. The books have no art at this
    time.
-4. Is Wick with the party for the full campaign, or only for part of it?
-5. The tone after the tutorial. The tutorial is spooky with a funny guide.
-   Does the campaign stay light, or does it become darker toward the end?
+
+The story answers two earlier questions. Wick stays with the party for the
+full campaign. The tone is in "Tone".
 
 ## Left to the builder
 
