@@ -134,6 +134,20 @@ Each system is optional. A table can use one, some, all, or none.
 
 ## Get the books
 
+### The newest files of each product
+
+Each link gives the newest released version of the file. Each product
+release replaces the files of its rolling release, so the links do not
+change.
+
+| Product | Read on a screen | Print at home | Lulu hardcover | Buy a hardcover | Requires |
+|---|---|---|---|---|---|
+| The Player's Compendium | [Screen](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-players-compendium-screen.pdf) | [Home print](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-players-compendium-home-print.pdf) | [Interior](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-players-compendium-lulu-interior.pdf), [cover](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-players-compendium-lulu-cover.pdf) | [Lulu](https://www.lulu.com/shop/stiven-gjekaj/dice-destiny-the-players-compendium/hardcover/product-yv69eey.html) | Nothing |
+| The Game Master's Compendium | [Screen](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-game-masters-compendium-screen.pdf) | [Home print](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-game-masters-compendium-home-print.pdf) | [Interior](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-game-masters-compendium-lulu-interior.pdf), [cover](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-game-masters-compendium-lulu-cover.pdf) | [Lulu](https://www.lulu.com/shop/stiven-gjekaj/dice-destiny-the-game-masters-compendium/hardcover/product-w46qm8v.html) | Nothing |
+| The Dawnwatch, Book One: Waking | [Screen](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/dawnwatch-waking-latest/dice-and-destiny-the-dawnwatch-waking-screen.pdf) | [Home print](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/dawnwatch-waking-latest/dice-and-destiny-the-dawnwatch-waking-home-print.pdf) | [Interior](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/dawnwatch-waking-latest/dice-and-destiny-the-dawnwatch-waking-lulu-interior.pdf), [cover](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/dawnwatch-waking-latest/dice-and-destiny-the-dawnwatch-waking-lulu-cover.pdf) | Not on Lulu yet | Requires Edition 2 |
+
+The Waking links work after the first `dawnwatch-waking-N` release.
+
 ### Buy a printed hardcover
 
 Each book is for sale as an A4 hardcover on the Lulu Bookstore. Lulu prints
@@ -147,7 +161,7 @@ each copy when you order it.
 ### Download the PDFs
 
 Go to [Releases](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases).
-Each release has five files for each book. Choose the files for what you
+Each book has five files in a release. Choose the files for what you
 want to do:
 
 | Use | File | What it is |
@@ -157,8 +171,13 @@ want to do:
 | Print a hardcover | `...-lulu-interior.pdf` and `...-lulu-cover.pdf` | The interior with no cover, and the wraparound cover for a Lulu A4 casewrap hardcover. |
 | Print a paperback | `...-lulu-interior.pdf` and `...-paperback-cover.pdf` | The same interior, and a full color A4 paperback cover with 3 mm bleed. Check the spine width with the cover template of your printer. |
 
-- A **preview** release comes from each change to the books.
-- An **edition** release is a finished edition.
+- A **preview** release comes from each change to the books. It has the
+  files of all books.
+- An **edition** release (tag `edition-N`) is a finished edition of the two
+  Compendiums. The rolling release `compendium-latest` has its files.
+- A **Waking** release (tag `dawnwatch-waking-N`) is a finished version of
+  The Dawnwatch, Book One: Waking. The rolling release
+  `dawnwatch-waking-latest` has its files.
 
 To build the books yourself, read [`compendium/README.md`](compendium/README.md).
 
@@ -168,7 +187,7 @@ To build the books yourself, read [`compendium/README.md`](compendium/README.md)
 
 | Folder | Contents |
 |---|---|
-| [`compendium/`](compendium/) | The source of the two books, the original content, and the build system |
+| [`compendium/`](compendium/) | The source of the two Compendiums and of The Dawnwatch, the original content, and the build system |
 | [`adventures/`](adventures/) | One-shots and short adventures |
 | [`docs/`](docs/) | The style and balance guide, the design documents, and the review notes |
 | [`assets/`](assets/) | The wordmark of this page |
@@ -180,7 +199,8 @@ front of the name.
 ### Adventures
 
 - [The Last Watch of the Sleepers](adventures/tutorial-one-shot/README.md): a
-  tutorial one-shot that teaches new players the rules.
+  tutorial one-shot that teaches new players the rules. It is also chapter 1
+  of The Dawnwatch, Book One: Waking.
 
 ---
 
