@@ -570,7 +570,7 @@ Let the players plan. These are good plans. Each one works.
 |---|---|---|---|
 | Sneak up the west side at night | Dexterity (Stealth), for each character | 12 | On a success for all, the party reaches the ring unseen. Skip the guards at the gap. In Scene 6, the Hush are surprised: they have Disadvantage on their Initiative rolls. |
 | Free Pell from the tents first | Dexterity (Stealth) | 12 | The three Snuffers at the tents do not see the party. Pell is tied up, gagged, and very glad. He can walk. He cannot fight. |
-| Fight the guards at the gap | None | None | Two Snuffers. A Low fight for level 4. When the fight starts, Mother Sallow knows. She starts the rite at once. |
+| Fight the guards at the gap | None | None | Two Snuffers (200 XP), an easy fight below the Low budget for level 4. When the fight starts, Mother Sallow knows. She starts the rite at once. |
 | Walk up the path openly, with the stone | None | None | The guards let the party pass. Mother Sallow waits in the chapel. She wants to talk first. See "The talk" in Scene 6. |
 | Use the stone as bait | Charisma (Deception) | 13 | One character carries the stone up the path, and the others go up the west side. The Hush watch the stone, not the hill. The others get Advantage on their Stealth checks. |
 
