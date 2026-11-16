@@ -352,12 +352,12 @@ attack rolls, AC, damage, and HP.
 > the hall is a stone well. At the far end, a big wooden door is half open.
 >
 > Wick's light falls on the floor. The floor moves. No: something on the
-> floor moves. Small grey shapes look up from a pile of old shields. They
-> have coal-red eyes. They squeak.
+> floor moves. Grey shapes as big as dogs look up from a pile of old
+> shields. They have long yellow teeth and pink tails. They squeak.
 >
-> "Ash mites," Wick whispers. "Rude."
+> "Rats," Wick whispers. "I told you. Rude."
 
-Use the scaling table in the overview for the number of Ash Mites. See the
+Use the scaling table in the overview for the number of Giant Rats. See the
 [statblocks](../../statblocks.md).
 
 ### The map
@@ -366,7 +366,7 @@ Draw a simple map: a hall 60 feet long and 30 feet wide. One square is 5
 feet.
 
 - The characters stand at the gate, at one end.
-- The mites are in the middle, around the pile of shields, 30 feet away.
+- The rats are in the middle, around the pile of shields, 30 feet away.
 - The well is in the middle of the hall. It is 5 feet wide. A creature can
   hide behind it.
 - The door to the chapel is at the far end.
@@ -377,7 +377,7 @@ Teach the first round slowly. Do one step at a time. From round 2, let the
 players play at normal speed.
 
 > **Teach 1: initiative.** "This is a fight. Everyone rolls a d20 and adds
-> the Initiative number on the sheet. I roll for the mites. The highest
+> the Initiative number on the sheet. I roll for the rats. The highest
 > result goes first. Then we go down the list."
 
 Write the order on paper where all players can see it.
@@ -389,13 +389,13 @@ Write the order on paper where all players can see it.
 > **Teach 3: the attack roll.** "To attack, roll a d20 and add the attack
 > number for your weapon. If the total is equal to or more than the AC of the
 > enemy, you hit. AC is Armor Class. It shows how hard the enemy is to hit.
-> These mites have AC 12, but usually I do not tell you the AC."
+> These rats have AC 13, but usually I do not tell you the AC."
 
-Tell the AC of the mites one time, so that the players learn the idea. For
-the Ash Hound in Scene 6, do not tell it.
+Tell the AC of the rats one time, so that the players learn the idea. For
+the pups in Scene 6, do not tell it.
 
 > **Teach 4: damage.** "You hit. Roll the damage dice for your weapon and
-> add the number. The mite has very few HP." Describe the mite going pop.
+> add the number. A rat has only 7 HP." Describe how the rat falls.
 
 > **Teach 5: the bonus action.** When a player has a bonus action, tell
 > them. For example:
@@ -405,9 +405,9 @@ the Ash Hound in Scene 6, do not tell it.
 > - The Light: "Healing Word is a bonus action."
 > - The Shield: "Second Wind is a bonus action."
 
-> **Teach 6: the enemy turn.** On the first mite turn, say: "Now the mites
-> attack. I roll for them. The mite rolls a 14, plus 4 is 18. Your AC is 14.
-> 18 is more than 14, so it hits." Show the players that the same rule
+> **Teach 6: the enemy turn.** On the first rat turn, say: "Now the rats
+> attack. I roll for them. The rat rolls a 14, plus 5 is 19. Your AC is 14.
+> 19 is more than 14, so it hits." Show the players that the same rule
 > applies to the enemies.
 
 > **Teach 7: other actions.** When a player does not want to attack, show
@@ -418,9 +418,10 @@ the Ash Hound in Scene 6, do not tell it.
 
 - **Critical hit:** If a player rolls a 20, make it big. "A natural 20!
   Roll the damage dice two times."
-- **Pack Bite:** When two mites bite the same character, the second one has
-  advantage. Tell the players why. This teaches them to keep enemies apart.
-- **Opportunity attack:** If a character runs away from a mite, the mite
+- **Pack Tactics:** When a rat attacks a character, and another rat is next
+  to that character, the rat has Advantage. Tell the players why. This
+  teaches them to keep enemies apart.
+- **Opportunity attack:** If a character runs away from a rat, the rat
   bites. Say: "When you leave the reach of an enemy, it gets a free attack.
   This is an opportunity attack. The Disengage action stops it."
 - **Weapon Mastery:** When the Shield hits with Sap, or the Shadow hits with
@@ -428,16 +429,18 @@ the Ash Hound in Scene 6, do not tell it.
 - **Sneak Attack:** When an ally stands next to the target of the Shadow,
   remind that player to add 1d6.
 
-**If the fight goes badly:** Wick uses Light Burst. Each mite within 10 feet
-takes 2 fire damage. Use it one time only.
+**If the fight goes badly:** The last rat always flees (see its tactics). If
+the players are in trouble, let two rats flee instead.
 
 ### After the fight
 
-> The last mite pops into grey ash. The hall is quiet again. Then Wick
+> The last rat squeals and runs into a hole in the wall. The hall is quiet
+> again. Then Wick
 > speaks, much too loud: "VICTORY! Ha! Take that, you rude little..." Wick
-> stops. From behind the far door comes a low sound. A growl. Then nothing.
+> stops. From behind the far door comes a sound. A yip. Then many yips, and
+> a smell of sulfur. Then nothing.
 >
-> "That," says Wick in a very small voice, "was the dog."
+> "That," says Wick in a very small voice, "was the dogs."
 
 **Treasure in the armory:** In the pile of shields, the characters find 15
 gold coins of the old kingdom and one shield in good condition. A character
