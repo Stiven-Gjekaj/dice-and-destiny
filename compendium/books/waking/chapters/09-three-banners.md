@@ -1087,3 +1087,85 @@ wounded, and a plan. Everyone who has found a clue now knows where to go:
 the hollow. If the characters do not see it, Brother Cade or Captain Ilse
 Varro brings it to them: "Ansel ran to the hollow." "Roe is gone from the
 command tent. His horse went west."
+
+### Phase 3: The Heart (Encounter 4)
+
+> The hollow is a bowl of grass and grey rocks, a quarter of a mile west
+> of the stone, out of sight of both camps. The fog here never left. It
+> pours over the rim like water over a dam.
+>
+> In the middle of the bowl, around a ring of black candles that burn with
+> no light at all, stand the singers: rows of grey hoods, swaying. In front
+> of them stand two figures who do not sing. One wears the grey coat of a
+> Gaunt officer. One wears the brown robe of a monk of the Church. Both
+> have taken off their masks of politeness, and their faces are calm and
+> happy.
+>
+> Lieutenant Roe lifts a hand to you, like a friend. "You came," he says.
+> "Good. Mother wanted you to see this."
+>
+> Brother Ansel only smiles.
+
+The two agents are Hush Dusk Priests. Here they lead the last song of the
+choir, the song that would put the whole valley in the grey for the rest
+of the day, until the armies have killed each other in the dark. If the
+characters break the Heart, the fog over Ashby Field lifts for good.
+
+- **Creatures:** 2 Hush Dusk Priests (Lieutenant Roe and Brother Ansel),
+  1 Hush Grey Choir, and 2 Hush Night Wardens.
+- **XP:** 2 × 2,900 + 2,300 + 2 × 1,100 = 10,300 XP. For four characters of
+  level 9, this is a **High** encounter (4 × 2,600 = 10,400). This fight
+  can drop a character. That is the point.
+- **The hollow:** the whole bowl is in the magical fog of Phase 1. It is
+  Heavily Obscured beyond 10 feet, except in Bright Light. The ring of
+  black candles is 20 feet across. While at least one priest stands in the
+  ring, the fog cannot be ended by the spells that end it in Phase 1.
+- **The candles:** a character can use an action to knock over the black
+  candles in one 5-foot square of the ring. When all four squares of
+  candles are down (four actions), the ring breaks, and the fog in the
+  hollow ends at the end of that turn.
+- **Grey rocks:** they give Half Cover.
+
+**Tactics:** The choir comes straight at the characters, into their spaces,
+and sings Hymn of Quiet at the spellcasters. The Wardens guard the ring
+and use Close the Ranks for the priests. Both priests open with Snuff the
+Sun on the brightest group of characters. Then Roe casts Hold Person on the
+strongest fighter, and Ansel casts Silence on the spellcasters. They use
+Word of Night on a character who carries a light. A priest who is Bloodied
+fights on: they do not fear death. They believe that the sun dies anyway.
+
+**If the Marshal or the Abbess had proof** (see Scene 6), one agent is
+already in chains. Use 1 Hush Dusk Priest and 3 Hush Night Wardens
+(2,900 + 3,300 = 6,200 XP, plus the choir 2,300, so 8,500 XP: Moderate).
+
+**The Toll:** if the fight lasts more than 6 rounds, the armies blunder
+into each other again in the fog. The Toll goes up by 1. If the characters
+break the ring of candles before the priests fall, the Toll does not go up,
+whatever the length of the fight.
+
+> **Scaling:** The budget for this encounter is High: 2,600 XP for each
+> character.
+>
+> - **3 characters (7,800 XP):** 2 Hush Dusk Priests and 2 Hush Night
+>   Wardens (5,800 + 2,200 = 8,000). No choir; the priests sing the song
+>   themselves.
+> - **4 characters (10,400 XP):** as written.
+> - **5 characters (13,000 XP):** 2 Hush Dusk Priests, 1 Hush Grey Choir,
+>   and 4 Hush Night Wardens (5,800 + 2,300 + 4,400 = 12,500).
+> - **6 characters (15,600 XP):** 2 Hush Dusk Priests, 2 Hush Grey Choirs,
+>   and 4 Hush Night Wardens (5,800 + 4,600 + 4,400 = 14,800).
+>
+> **Optional systems:** with Techniques on, add one Hush Night Warden for
+> each four characters, or give the two priests 10% more Hit Points.
+
+### The End of the Battle
+
+> The last black candle falls. The hum stops in the middle of a note, as
+> if someone shut a door on it. And the fog lifts: not slowly, like a
+> morning mist, but all at once, like a sheet pulled off a table.
+>
+> From the hollow you can see the whole valley. Two armies stand on two
+> slopes, tired and bloody and blinking in the sun. Between them, the
+> grass is churned and red. The stone stands where it always stood.
+>
+> For the first time today, nobody shouts.
