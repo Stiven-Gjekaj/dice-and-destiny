@@ -37,6 +37,16 @@ does.
   edition".
 - Keep distances in feet, as the SRD does.
 
+### Chapters
+
+- Write a chapter heading with no number:
+  `<h1 class="chapter">Marks</h1>`. The build numbers the chapters of each
+  book in order.
+- A chapter that must have no number (for example the character sheet) has
+  the attribute `data-unnumbered`.
+- To refer to a chapter, give its name, not its number. Example: "the
+  encounter rules in Building Encounters", not "the rules in Chapter 9".
+
 ## 3. What "original" means
 
 The SRD 5.2 is free to use. Content from a paid book is not. An entry can
