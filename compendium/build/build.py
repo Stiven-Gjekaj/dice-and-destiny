@@ -38,19 +38,22 @@ def marker(kind, label):
 
 
 def chapter_heads(s):
+    """Number the chapters of a book in order. A chapter with the attribute data-unnumbered gets no number."""
+    count = [0]
+
     def rep(m):
-        np_, title = m.group(1), m.group(2).strip()
-        num, name = None, title
-        mm = re.match(r"(\d+)\s*·\s*(.*)", title)
-        if mm:
-            num, name = mm.group(1), mm.group(2)
+        np_, attrs, name = m.group(1), m.group(2), m.group(3).strip()
+        num = None
+        if "data-unnumbered" not in attrs:
+            count[0] += 1
+            num = count[0]
         ic = CH_ICONS.get(name, "d20")
         cls = "ch-head newpage" if np_ else "ch-head"
         kicker = f'<div class="ch-num">Chapter {num}</div>' if num else ""
         mk = marker("ch", (f"{num}. " if num else "") + name)
         return (f'<div class="{cls}">{mk}<span class="ch-badge">{icon(ic, 26, ICON_COLOR, 1.5)}</span>'
                 f'<div>{kicker}<h1 class="chapter">{name}</h1></div></div>{divider()}')
-    return re.sub(r'<h1 class="chapter((?: newpage)?)"[^>]*>(.*?)</h1>', rep, s)
+    return re.sub(r'<h1 class="chapter((?: newpage)?)"([^>]*)>(.*?)</h1>', rep, s)
 
 
 def class_marks(s):
