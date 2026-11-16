@@ -179,7 +179,7 @@ REGISTRY = {
     "spells": lambda m: [e[0] for e in m.SPELLS],
     "monsters": lambda m: [e.name for e in m.MON],
     "items": lambda m: [e[0] for e in m.ITEMS],
-    "downtime": lambda m: [],
+    "downtime": lambda m: [e["name"] for e in m.DOWNTIME],
     "classes": lambda m: [e["name"] for e in m.CLASSES],
     "systems": lambda m: [e["name"] for e in m.MARKS + m.BONDS],
     "traps": lambda m: [e["name"] for e in m.TRAPS],

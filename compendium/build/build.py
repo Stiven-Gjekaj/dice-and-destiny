@@ -15,6 +15,7 @@ CH_ICONS = {
     "Traps &amp; Hazards": "warn",
     "World-Building Tables": "dice",
     "Pantheons": "crown",
+    "Downtime Activities": "scroll",
     # Player
     "Welcome to the Table": "d20", "The Six Abilities": "sheet", "Skills, Proficiency &amp; Rolling": "dice",
     "Creating a Character": "quill", "Reading a Character Sheet": "eye", "Your Turn in Combat": "swords",
@@ -155,6 +156,7 @@ def expand(name):
         "{{O_TRAPS}}": lambda: __import__("render_traps").all_traps_html(),
         "{{TABLE_SETS}}": lambda: __import__("render_tables").all_tables_html(),
         "{{PANTHEONS}}": lambda: __import__("render_pantheons").all_pantheons_html(),
+        "{{DOWNTIME}}": lambda: __import__("render_downtime").all_downtime_html(),
     }
     for k, f in reps.items():
         if k in s:
