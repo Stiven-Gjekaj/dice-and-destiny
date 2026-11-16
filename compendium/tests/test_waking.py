@@ -375,7 +375,8 @@ def test_expand_makes_one_page_of_html_with_links_on_the_screen(tmp_path, tutori
     assert '<a class="xref" href="#p-old-bren">Old Bren</a>' in h
     assert "—" not in h
     assert "{{TOC}}" in h and "{{INDEX}}" in h and "@@PAGE:handout-01-map@@" in h
-    assert {e["name"] for e in es} == {"Old Bren", "Kell"}
+    assert {e["name"] for e in es if e["kind"] != "term"} == {"Old Bren", "Kell"}
+    assert "Wick" in {e["name"] for e in es if e["kind"] == "term"}
     labels = [t[1] for t in B.TOC]
     assert labels.index("1. The Last Watch") < labels.index("2. The Ford") < labels.index("Index")
     hp, _ = W.expand(screen=False, inside_mm=25, book=str(book), tutorial=str(tutorial), dw=d)
@@ -491,3 +492,32 @@ def test_a_person_with_a_statblock_has_one_heading_with_the_role_under_the_type(
     assert entry.count("Zzyx Smith</h4>") == 1 and 'class="sp-name"' not in entry
     assert entry.index('class="mon-type"') < entry.index('class="role">A smith of the ford.<') \
         < entry.index("Named in chapter 2") < entry.index('class="mon-top"')
+
+
+def test_page_lists_join_runs_and_keep_the_entry_page_alone():
+    assert W.page_list({3, 4, 5, 6, 9, 11, 12}, set()) == "3-6, 9, 11, 12"
+    assert W.page_list({3, 4, 5, 6}, {5}) == "3, 4, <b>5</b>, 6"
+    assert W.page_list(set(), set()) == ""
+
+
+def test_an_index_term_gets_markers_and_an_index_line_but_no_link():
+    es = W.index_terms([], [("The Hush", ["Hush"]), ("Church of the Five Sleepers", ["Church of the Five Sleepers", "Church"])])
+    h = W.mark_mentions("<p>The Hush hate the Church. The Church of the Five Sleepers prays.</p>", es, screen=True)
+    assert "xref" not in h
+    assert [n for n, _, _ in W.IDX] == ["The Hush", "Church of the Five Sleepers", "Church of the Five Sleepers"]
+    pages = {mk: 7 for _, mk, _ in W.IDX}
+    ih = W.index_html(pages, es, screen=True)
+    assert "<p>Church of the Five Sleepers <span" in ih and "<p>The Hush <span" in ih and "<a " not in ih
+    assert ih.index("Church") < ih.index("The Hush")
+
+
+def test_a_longer_entry_name_wins_over_a_term_inside_it():
+    es = [dict(kind="creature", name="Hush Night Warden", anchor="c-hush-night-warden", obj=None)]
+    es += W.index_terms(es, [("The Hush", ["Hush"])])
+    W.mark_mentions("<p>A Hush Night Warden of the Hush.</p>", es)
+    assert [n for n, _, _ in W.IDX] == ["Hush Night Warden", "The Hush"]
+
+
+def test_a_term_with_the_name_of_an_entry_is_left_out():
+    es = [dict(kind="person", name="Wick", anchor="p-wick", obj=None)]
+    assert W.index_terms(es, [("Wick", ["Wick"]), ("Marks", ["Marks"])])[0]["name"] == "Marks"

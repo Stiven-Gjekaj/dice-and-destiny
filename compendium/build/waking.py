@@ -483,7 +483,8 @@ def mark_mentions(h, es, screen=False):
     The text of headings, links, SVG, and markers does not change."""
     names = {}
     for e in es:
-        names.setdefault(E(e["name"], quote=False), (e["name"], e["anchor"]))
+        for form in e.get("forms") or [e["name"]]:
+            names.setdefault(E(form, quote=False), (e["name"], e["anchor"]))
     pat = mention_pattern(names)
     if not pat:
         return h
@@ -491,7 +492,7 @@ def mark_mentions(h, es, screen=False):
 
     def rep(m):
         name, anchor = names[canonical(m.group(1))]
-        word = f'<a class="xref" href="#{anchor}">{m.group(1)}</a>' if screen else m.group(1)
+        word = f'<a class="xref" href="#{anchor}">{m.group(1)}</a>' if screen and anchor else m.group(1)
         return word + idx_mark(name)
     for tok in re.split(r"(<[^>]*>)", h):
         if tok.startswith("<"):
@@ -514,6 +515,56 @@ def mark_mentions(h, es, screen=False):
     return "".join(out)
 
 
+# Index terms that are not content names: (the name in the index, the forms in the text).
+# A term has no appendix entry, so it has no link.
+INDEX_TERMS = [
+    ("Wick", ["Wick"]),
+    ("The Hush", ["Hush"]),
+    ("Church of the Five Sleepers", ["Church of the Five Sleepers", "Church"]),
+    ("Lampwrights", ["Lampwrights", "Lampwright"]),
+    ("Hall of Sleepers", ["Hall of Sleepers"]),
+    ("The Dawnfire", ["Dawnfire"]),
+    ("Bonds", ["Bonds"]),
+    ("Journeys", ["Journeys"]),
+    ("Marks", ["Marks"]),
+    ("Factions and Renown", ["Factions and Renown", "Renown"]),
+    ("Crafting and Gathering", ["Crafting and Gathering", "Crafting"]),
+    ("Strongholds", ["Strongholds", "Stronghold"]),
+    ("Techniques", ["Techniques"]),
+    ("Injuries and Scars", ["Injuries and Scars", "Injuries"]),
+]
+
+
+def index_terms(es, terms=INDEX_TERMS):
+    """The index terms as entries with no anchor. A term with the name of an entry is left out."""
+    known = {e["name"].lower() for e in es}
+    return [dict(kind="term", name=n, anchor=None, obj=None, forms=forms) for n, forms in terms if n.lower() not in known]
+
+
+def page_list(all_, mains):
+    """The pages of a name: a run of three or more pages becomes a range, as in "12-15".
+    The page of the entry itself is in bold and stays alone."""
+    out, run = [], []
+
+    def flush():
+        if len(run) >= 3:
+            out.append(f"{run[0]}-{run[-1]}")
+        else:
+            out.extend(str(p) for p in run)
+        run.clear()
+    for p in sorted(all_):
+        if p in mains:
+            flush()
+            out.append(f"<b>{p}</b>")
+        elif run and p == run[-1] + 1:
+            run.append(p)
+        else:
+            flush()
+            run.append(p)
+    flush()
+    return ", ".join(out)
+
+
 def index_html(pages, es, screen=False):
     """Each name, A to Z, with its pages. The page of the entry itself is in bold."""
     found = {}
@@ -534,8 +585,8 @@ def index_html(pages, es, screen=False):
             letter = first
             out.append(f'<div class="letter">{E(letter)}</div>')
         all_, mains = found.get(name, (set(), set()))
-        pg = ", ".join(f"<b>{p}</b>" if p in mains else str(p) for p in sorted(all_))
-        nm = f'<a href="#{anchors[name]}">{E(name)}</a>' if screen else E(name)
+        pg = page_list(all_, mains)
+        nm = f'<a href="#{anchors[name]}">{E(name)}</a>' if screen and anchors[name] else E(name)
         out.append(f'<p>{nm} <span class="pg">{pg}</span></p>')
     out.append("</div>")
     return "\n".join(out)
@@ -571,6 +622,7 @@ def expand(screen=False, inside_mm=None, book=BOOK, tutorial=TUTORIAL, dw=None):
     dw = dw if dw is not None else content()
     out, _, _ = body_parts(dw, book, tutorial, screen)
     es = entries(dw)
+    es = es + index_terms(es)
     s = B.parts("\n".join(out))
     head, rest = s.split("{{TOC}}", 1)
     s = head + "{{TOC}}" + mark_mentions(rest, es, screen)
