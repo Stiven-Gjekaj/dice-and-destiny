@@ -85,7 +85,7 @@ SUBS["ranger"] = [
 ]
 
 SUBS["rogue"] = [
-("Smuggler", "Rogues who move what should not be moved, past people who should have noticed.", [
+("Contrabandist", "Rogues who move what should not be moved, past people who should have noticed.", [
  (3, "Hidden Pockets", "You gain proficiency with Water Vehicles and with the Forgery Kit. Creatures have Disadvantage on ability checks made to find objects that you hide on your body or in your gear."),
  (3, "Slip the Net", "When a creature you can see ends its turn within 5 feet of you, you can take a Reaction to move up to half your Speed without provoking Opportunity Attacks."),
  (9, "Grease the Wheels", "You have Advantage on Charisma checks made to deal with guards, customs officers, and other officials. You can take the Influence action as a Bonus Action."),
