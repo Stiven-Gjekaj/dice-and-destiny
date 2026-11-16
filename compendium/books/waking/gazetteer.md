@@ -119,9 +119,9 @@ sleepers.
 > Dawnfire. Orme lit him from it on the last night. Nobody in Book One
 > knows this, Wick included.
 
-Haskel Orme died some years after the sleep. His letters (chapters 7 and
-10) tell where and how. His apprentices went west to Corrin and Tey and
-started a guild of lantern makers. Later stewards held Dawnwatch Keep for
+Haskel Orme died some years after the sleep. Nobody knows where. In the
+year of the sleep, on his orders, his apprentices went west to Corrin and
+Tey with the First Lamp, and they started a guild of lantern makers. Later stewards held Dawnwatch Keep for
 the crown until the fall.
 
 ### About year 100: the Grey Winter
@@ -140,8 +140,9 @@ night, the water covered the farmland of the south-east and the town of
 Fennick. It never went back down. That water is the Low Fen.
 
 The steward of Dawnwatch Keep left for the war of the lords and did not
-return. The keep stood empty. The last human to visit the Hall of
-Sleepers came in this year. Wick still remembers the footsteps.
+return. The family of his watchman kept the last watch for a while, and
+then the keep stood empty. The last human to visit the Hall of Sleepers
+came in these years. Wick still remembers the footsteps.
 
 > **Secret (Book Two):** The Grey Winter was not the work of the Unlit
 > King, who was asleep. It was the sun, tired, as Garrath saw it. It is
@@ -663,7 +664,7 @@ full.
 
 - **Tamsin,** the ferry woman. About seventy, small, sharp-eyed, kind, and
   full of questions. Her family kept the last watch at the keep, two
-  hundred years ago, before the steward left. She knows more than she
+  hundred years ago, after the last steward left. She knows more than she
   says. She will be an ally for the whole book if the party is honest with
   her.
 - **Dace,** the pedlar of bones. A thin, quick man who sells "bones of the
@@ -915,7 +916,8 @@ starts here: the guild makes items from the materials that the party
 brings.
 
 > **Secret (chapter 6):** The founder of the Lampwrights was Haskel Orme.
-> His apprentices brought the First Lamp west after his death. The guild
+> His apprentices brought the First Lamp west on his orders, in the year
+> of the long sleep. The guild
 > knows his mark and his name. It does not know what he did on the last
 > night, and it does not know about the lie.
 
@@ -1210,7 +1212,7 @@ Church, and it smiles at both. It wants neither of them to win.
 
 The Lampwrights are the guild of lantern makers, the oldest guild of the
 city. They started with the apprentices of Haskel Orme, the steward of
-Dawnwatch Keep, who came west after his death. The guild keeps his mark,
+Dawnwatch Keep. He sent them west in the year of the long sleep. The guild keeps his mark,
 a small sun inside a square, on every lamp it makes. It keeps the First
 Lamp in the inner room of its hall: a lamp with a flame that needs no oil,
 which the founders brought from the east. The guild does not show it to
@@ -1962,21 +1964,33 @@ appendix of people.
 | Name | Who they are | Where | Power | Chapters |
 |---|---|---|---|---|
 | Abbess Merrow | The head of the Church. Wants the party as living saints. | Saint Ivo's | The Church | 3, 9 |
+| Ada Ferrow | An old eel catcher of the Low Fen. She takes the party to Fennick by boat. | The Low Fen | None | 8 |
+| Brother Ansel | The secretary of Abbess Merrow. | Saint Ivo's | The Church | 9 |
 | Brother Cade | A priest who thinks that the party are impostors. Later an ally. | Saint Ivo's | The Church | 3, 4, 9 |
+| Captain Ilse Varro | The spymaster of Gaunt in Corrantey. | Corrantey | Gaunt | 6, 9 |
+| Captain Joss Marrick | The captain of the honor guard of Gaunt at the feast. | Saint Ivo's, Stannard | Gaunt | 3, 5 |
+| Corporal Lenna | A young soldier of the levy of Saint Ivo's. | Ashby Field | The Church | 9 |
 | Corvin Lisle | An antiquary who buys old things of Ostrey. | Corrantey, on the road | Corrantey | 2, 3 |
 | Dace | A pedlar who sells "bones of the Five Sleepers". | The pilgrim road | None | 2, 3 |
+| Edric Pole | An old shepherd of the Wolds. He can keep the gate of the keep. | The Wolds | None | 7 |
 | Garret Pell | The leader of a troupe of actors who play the Dawnwatch. | Saint Ivo's | None | 3 |
 | Haskel Orme | The steward of Dawnwatch Keep, 300 years ago. Dead. He made Wick and wrote the lie. | Letters | Old Ostrey | 1, 7, 10 |
+| Hesper Wren | A young Lampwright. Later the steward of Dawnwatch Keep. | The keep | Corrantey | 7, 10 |
+| Lieutenant Roe | The aide of Marshal Gauntry. | Stannard | Gaunt | 5, 9 |
 | Magister Aud Brennet | The first war mage of Gaunt. Teaches a wrong "Dawnwatch spell". | Stannard | Gaunt | 5 |
 | Marshal Ide Gauntry | The ruler of Gaunt. | Stannard | Gaunt | 5, 9 |
-| Mother Sallow | The leader of the Hush. | Kell, the keep, Kingsholm | The Hush | 4, 7, 10 |
+| Mother Sallow | The leader of the Hush. | Kell, the keep, Kingsholm | The Hush | 3, 4, 7, 10 |
 | Osk | The enforcer of Mother Sallow. He does not speak. | With Mother Sallow | The Hush | 4, 7 |
 | Perrin Hale | The master of the Lampwrights. | Corrantey | Corrantey | 6, 7 |
 | Sergeant Maud Kettle | The ghost of a soldier of Ostrey. Teaches the old fighting ways. | Fennick | None | 8 |
 | Sir Garrath (Malgrath) | The first Dawnwatch. The Unlit King. Only his voice in Book One. | The black stone | None | 1, 4, 10 |
 | Tamsin | The old ferry woman. Kind, and she asks too many questions. | Brannock's Ford | None | 2 |
+| Tilly Ashe | An actress of Pell's Players. She plays the Shadow. | Saint Ivo's | None | 3 |
 | Tobin Gauntry | The son of the Marshal. He does not want a war. | Stannard | Gaunt | 5, 9 |
 | Wick | The talking lantern. | With the party | The Dawnwatch | All |
 
 > **Secret (chapter 10):** Do not show this table to the players. The
 > row of Sir Garrath gives away the twist.
+
+> **Secret (chapter 9):** Lieutenant Roe and Brother Ansel are secret
+> agents of the Hush.
