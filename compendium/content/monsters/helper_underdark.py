@@ -74,3 +74,7 @@ M("Mountain-Eater Worm", "G", "Monstrosity", "Unaligned", 19, "28 6 26 2 12 4", 
   leg=[("Burrow", "The worm moves up to half its Burrow Speed."), ("Tail Sting", "The worm makes one Tail Sting attack.")],
   desc="A worm so old and so long that the great cave roads of the deep are its old tunnels. The deep folk mark each tremor it makes."),
 ]
+
+# The shared traits say "The creature". Put the name of each monster in its place.
+for _m in MON:
+    _m.traits = [(n, t.replace("If the creature", "If the " + _m.ref())) for n, t in _m.traits]

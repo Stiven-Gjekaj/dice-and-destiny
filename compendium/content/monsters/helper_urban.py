@@ -196,3 +196,7 @@ M("The City Below", "G", "Aberration", "Neutral Evil", 22, "24 6 28 22 20 22", a
        ("Voice of the City (Costs 2 Actions)", "Each creature within 120 feet that the City Below can sense makes a {dc:cha} Wisdom saving throw or takes {6d10} Psychic damage and has the Frightened condition until the end of its next turn.")],
   desc="The first city on the site was not built by people. It was grown. It has slept under the new streets for an age, and the new city's sewers are its veins."),
 ]
+
+# The shared traits say "The creature". Put the name of each monster in its place.
+for _m in MON:
+    _m.traits = [(n, t.replace("If the creature", "If the " + _m.ref())) for n, t in _m.traits]

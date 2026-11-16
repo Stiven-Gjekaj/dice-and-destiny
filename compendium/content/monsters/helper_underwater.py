@@ -114,3 +114,7 @@ M("Tidal Sovereign", "G", "Elemental", "Neutral", 20, "26 16 26 14 20 20", ac=19
   leg=[("Surge", "The sovereign moves up to its Swim Speed."), ("Wave Slam", "The sovereign makes one Wave Slam attack.")],
   desc="The spirit of the open ocean in a body of green water as tall as a lighthouse. It wakes when a sea kingdom breaks its oldest oath."),
 ]
+
+# The shared traits say "The creature". Put the name of each monster in its place.
+for _m in MON:
+    _m.traits = [(n, t.replace("If the creature", "If the " + _m.ref())) for n, t in _m.traits]
