@@ -51,7 +51,7 @@ def subclasses_html():
 
 def backgrounds_html():
     out = ['<div class="grid2">']
-    for n, ab, sk, tool, feat, eq, flav in content.backgrounds.BACKGROUNDS:
+    for n, ab, sk, tool, feat, eq, flav in sorted(content.backgrounds.BACKGROUNDS, key=lambda e: e[0]):
         out.append(f'<div class="box"><h4>{E(n)}</h4><p><i>{E(flav)}</i></p><p><b>Ability Scores:</b> {E(ab)}<br><b>Feat:</b> {E(feat)}<br>'
                    f'<b>Skill Proficiencies:</b> {E(sk)}<br><b>Tool Proficiency:</b> {E(tool)}<br><b>Equipment:</b> Choose A or B: (A) {E(eq)}; or (B) 50 GP</p></div>')
     out.append("</div>")
@@ -60,7 +60,7 @@ def backgrounds_html():
 
 def species_html():
     out = []
-    for n, size, speed, desc, traits in content.species.SPECIES:
+    for n, size, speed, desc, traits in sorted(content.species.SPECIES, key=lambda e: e[0]):
         out.append(f'<div class="species"><h3>{E(n)}</h3><p><i>{E(desc)}</i></p><p><b>Size:</b> {E(size)} · <b>Speed:</b> {E(speed)}</p><div class="cols2 compendium">')
         for tn, tt in traits:
             out.append(f'<div class="entry"><p><b><i>{E(tn)}.</i></b> {E(tt)}</p></div>')
