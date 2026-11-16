@@ -639,7 +639,8 @@ word. Play her as the most reasonable person on the hill.
 > polite to the party, and absolutely sure. The scariest villain is the
 > one who is half right. Do not let the players kill her: she escapes in
 > Scene 7. Her statblock is here so that you can run her spells and her
-> escape.
+> escape. For the escapes that this chapter tells, she does not need to
+> take damage first.
 
 ### The rite
 
@@ -667,8 +668,8 @@ of them. Let Wick or Cade guess one, if the players are stuck.
 |---|---|
 | **Take the Ember.** | A creature next to the altar takes the Ember out of the bowl as a Utilize action. The bearer of the black stone takes 1d6 Radiant damage if it touches the Ember. The rite stops while the Ember is out of the bowl. |
 | **Keep the stone away.** | The stone is more than 30 feet from the bowl. The rite does not advance. But the Long Shadow goes with the stone (see below). |
-| **Silence Mother Sallow.** | She has the Incapacitated condition, can't speak (*Silence*, a gag while Grappled, a Shush of her own), or is more than 30 feet from the bowl. |
-| **Light the stone.** | The bearer holds the stone in the Ember's Bright Light, within 20 feet of it. The rite does not advance this round, and the Long Shadow fades (see below). |
+| **Silence Mother Sallow.** | She has the Incapacitated condition, she can't speak (the *Silence* spell, or a gag while she has the Grappled condition), or she is more than 30 feet from the bowl. |
+| **Light the stone.** | The bearer holds the stone in the Ember's light: within 10 feet of it while it is in the bowl, or within 40 feet of it when it is out. The rite does not advance this round, and the Long Shadow fades (see below). |
 
 ### The Long Shadow
 
@@ -729,8 +730,8 @@ than 120 feet from the stone.
   Disadvantage on attack rolls in Bright Light. It has Vulnerability to
   Radiant damage. Point this out with Wick: "It does not like me! Hold me
   up! Higher! Oh, it really does not like me."
-- **The Ember ends the shadow.** When the stone is in the Bright Light of
-  the Ember, the Long Shadow fades into the floor and is gone. This is the
+- **The Ember ends the shadow.** When the stone is in the light of the
+  Ember, the Long Shadow fades into the floor and is gone. This is the
   best way to win the fight, and the most dramatic. The bearer must hold
   the stone near the Ember. It burns.
 - **The black stone.** The bearer can draw on the stone. If the bearer does
@@ -751,7 +752,7 @@ If the third box fills, the Ember goes dark. Do not make this the end.
 >
 > Far away in the north, something breathes in.
 
-Mother Sallow uses Into the Dark at once, and she is gone. The Long Shadow
+Mother Sallow steps into the dark, as with Into the Dark, and she is gone. The Long Shadow
 stops, bows to the bearer, and sinks into the ground. The fight is over.
 
 But the Ember is not dead. A piece of the Dawnfire is hard to kill. At
@@ -809,7 +810,7 @@ quiet. Then the stone speaks.
 
 ### Mother Sallow's last word
 
-If Mother Sallow did not flee already, she flees now, with Into the Dark.
+If Mother Sallow did not flee already, she flees now, as with Into the Dark.
 Before she goes, she looks at the bearer of the stone, and she smiles, as
 if she is proud of a child.
 
