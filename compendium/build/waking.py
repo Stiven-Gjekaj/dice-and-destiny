@@ -289,7 +289,115 @@ def body_parts(dw, book=BOOK, tutorial=TUTORIAL, screen=False):
     if gaz is not None:
         out.append(part("III", "The World", "The land of today: its regions, its towns, and the ruins of the old kingdom."))
         out.append(section_html(gaz, hs, "gazetteer", ic="compass"))
+    out.append(part("IV", "Reference", "The creatures, people, treasures, and places of the book from A to Z, the handouts, and the index."))
+    out.append(appendices_html(dw, chs))
+    out.append(handouts_html(hs_list, hs))
+    out.append("<!--PARTSTART-->" + chapter_head("Index", ic="book", anchor="index") + "{{INDEX}}")
     return out, hs_list, hs
+
+
+# ------------------------------------------------------------------ appendices
+
+IDX = []  # (name, marker, main): a page that names an entry. main is True for the page of the entry itself.
+
+# kind: (anchor prefix, appendix title, icon)
+KINDS = {"creature": ("c", "Creatures", "dragon"), "person": ("p", "People", "people"),
+         "treasure": ("t", "Treasures", "chest"), "place": ("l", "Places", "compass")}
+
+
+def idx_mark(name, main=False):
+    n = len(IDX)
+    IDX.append((name, f"@@I{n}@@", main))
+    return f'<span class="mark">@@I{n}@@</span>'
+
+
+def entries(dw):
+    """Each name of the book with its kind, its anchor, and its data, A to Z inside each kind.
+    A name that two kinds share keeps the first kind, in the order of KINDS."""
+    raw = ([("creature", m.name, m) for m in dw.MON] + [("person", person_name(e), e) for e in dw.NPCS]
+           + [("treasure", i[0], i) for i in dw.ITEMS] + [("place", place_name(p), p) for p in dw.PLACES])
+    out, seen = [], set()
+    for kind, name, obj in raw:
+        if name.lower() in seen:
+            continue
+        seen.add(name.lower())
+        out.append(dict(kind=kind, name=name, obj=obj, anchor=f"{KINDS[kind][0]}-{wm.slug(name)}"))
+    return sorted(out, key=lambda e: (list(KINDS).index(e["kind"]), e["name"].lower()))
+
+
+def mention_pattern(names):
+    """One pattern for all names. A longer name wins over a shorter name inside it."""
+    names = sorted({n for n in names if n}, key=len, reverse=True)
+    if not names:
+        return None
+    return re.compile(r"(?<![\w])(" + "|".join(re.escape(n) for n in names) + r")(?![\w])")
+
+
+def named_in(name, chs):
+    """The numbers of the chapters whose text names `name`."""
+    pat = mention_pattern([name])
+    return [num for num, _, text in chs if pat.search(text)]
+
+
+def chapters_line(nums):
+    if not nums:
+        return ""
+    word = "Chapter" if len(nums) == 1 else "Chapters"
+    return f'<div class="named-in">{word} {", ".join(str(n) for n in nums)}</div>'
+
+
+def entry_html(e, chs):
+    kind, name, obj = e["kind"], e["name"], e["obj"]
+    head = f'<div class="entry" id="{e["anchor"]}">{idx_mark(name, main=True)}'
+    line = chapters_line(named_in(name, chs))
+    if kind == "creature":
+        return f"{head}{obj.html()}{line}</div>"
+    if kind == "treasure":
+        return f"{head}{_orig_item_html(obj)}{line}</div>"
+    if kind == "person":
+        role, m = obj
+        stat = "" if isinstance(m, str) else m.html()
+        return f'{head}<h4 class="sp-name">{E(name)}</h4><div class="role">{E(role)}</div>{line}{stat}</div>'
+    text = place_text(obj)
+    return f'{head}<h4 class="sp-name">{E(name)}</h4>{f"<p>{E(text)}</p>" if text else ""}{line}</div>'
+
+
+def appendices_html(dw, chs):
+    """One appendix for each kind that has entries, A to Z, with the chapters that name each entry."""
+    es = entries(dw)
+    out, letter_no = [], 0
+    for kind, (_, title, ic) in KINDS.items():
+        group = [e for e in es if e["kind"] == kind]
+        if not group:
+            continue
+        label = f"Appendix {chr(ord('A') + letter_no)}: {title}"
+        letter_no += 1
+        out.append(chapter_head(label, ic=ic, anchor=f"appendix-{title.lower()}"))
+        out.append('<div class="appendix cols2 compendium">')
+        letter = None
+        for e in group:
+            first = e["name"][0].upper()
+            if first != letter:
+                letter = first
+                out.append(f'<div class="letter">{E(letter)}</div>')
+            out.append(entry_html(e, chs))
+        out.append("</div>")
+    return "\n".join(out)
+
+
+def handouts_html(hs_list, hs):
+    """The handouts appendix. Each handout starts on a right-hand page. In print, the page after it is blank."""
+    if not hs_list:
+        return ""
+    out = [chapter_head("Handouts", ic="scroll", anchor="handouts"),
+           '<p class="chapter-intro">Each handout is on its own page, with nothing on the back. '
+           "Copy the page or print it, and give it to the players when the chapter tells you.</p>"]
+    for hid, title, text in hs_list:
+        mk = B.marker("sub", title)
+        ANCHOR_MARK[f"handout-{hid}"] = B.TOC[-1][2]
+        out.append(f'<!--PARTSTART--><section class="handout" id="handout-{hid}">{mk}'
+                   f'{wm.render(text, hs, f"handout-{hid}")}</section>')
+    return "\n".join(out)
 
 
 def page_html(body, screen=False, inside_mm=None):

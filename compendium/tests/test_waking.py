@@ -47,6 +47,7 @@ def clean():
     B.TOC.clear()
     W.WARNINGS.clear()
     W.ANCHOR_MARK.clear()
+    W.IDX.clear()
     yield
 
 
@@ -175,10 +176,12 @@ def test_the_book_order_and_the_parts(tmp_path, tutorial):
     write(book / "players-guide.md", "# The Player's Guide\n")
     write(book / "gazetteer.md", "# The Gazetteer\n")
     write(book / "chapters/02-a.md", "# Brannock's Ford\n")
-    out, _, _ = W.body_parts(dw(), str(book), str(tutorial))
+    write(book / "handouts/01-map.md", "# The Map\n")
+    out, _, _ = W.body_parts(dw(mon=[creature("Zzyx Lurker")]), str(book), str(tutorial))
     s = "".join(out)
     order = ["titlepage", "{{TOC}}", "{{PART:I|", "How to Run This Book", "The Player's Guide", "{{PART:II|",
-             "The Last Watch", "Brannock's Ford", "{{PART:III|", "The Gazetteer"]
+             "The Last Watch", "Brannock's Ford", "{{PART:III|", "The Gazetteer", "{{PART:IV|",
+             "Appendix A: Creatures", "Handouts", "The Map", ">Index<", "{{INDEX}}"]
     pos = [s.index(x) for x in order]
     assert pos == sorted(pos)
 
@@ -186,4 +189,68 @@ def test_the_book_order_and_the_parts(tmp_path, tutorial):
 def test_a_missing_source_leaves_out_its_part(tmp_path):
     out, _, _ = W.body_parts(dw(), str(tmp_path / "book"), str(tmp_path / "none"))
     s = "".join(out)
-    assert "{{PART:" not in s and "{{TOC}}" in s
+    assert "{{TOC}}" in s and "{{INDEX}}" in s
+    assert "{{PART:I|" not in s and "{{PART:II|" not in s and "{{PART:III|" not in s
+    assert "{{PART:IV|" in s and "Appendix" not in s and "Handouts" not in s
+
+
+# ------------------------------------------------------------------ appendices
+
+CHS = [(1, "ch1", "The Zzyx Lurker hides. Old Bren waits at Brannock's Ford."),
+       (2, "ch2", "Brannock's Fordham is a different place. Zzyx Lurkers swarm."),
+       (3, "ch3", "Old Bren's Lamp glows. Old Bren smiles.")]
+
+
+def test_named_in_finds_whole_names_only():
+    assert W.named_in("Brannock's Ford", CHS) == [1]
+    assert W.named_in("Zzyx Lurker", CHS) == [1]
+    assert W.named_in("Old Bren", CHS) == [1, 3]
+    assert W.named_in("Nobody", CHS) == []
+
+
+def test_a_longer_name_wins_in_the_pattern():
+    pat = W.mention_pattern(["Old Bren", "Old Bren's Lamp"])
+    assert pat.findall(CHS[2][2]) == ["Old Bren's Lamp", "Old Bren"]
+    assert W.mention_pattern([]) is None
+
+
+def test_entries_are_a_to_z_in_each_kind_and_a_shared_name_keeps_one_kind():
+    d = dw(mon=[creature("Zzyx B"), creature("Zzyx A")], npcs=[("A guard", "Bren"), ("A cook", person("Zzyx A"))],
+           items=[("Lamp", "Wondrous Item", "Rare", None, "x")], places=[{"name": "Kell", "text": "A shrine."}, "Ash"])
+    es = W.entries(d)
+    assert [(e["kind"], e["name"]) for e in es] == [
+        ("creature", "Zzyx A"), ("creature", "Zzyx B"), ("person", "Bren"), ("treasure", "Lamp"),
+        ("place", "Ash"), ("place", "Kell")]
+    assert es[0]["anchor"] == "c-zzyx-a" and es[-1]["anchor"] == "l-kell"
+
+
+def test_the_place_formats():
+    assert [W.place_name(p) for p in ("Ash", ("Kell", "A shrine."), {"name": "Gaunt"})] == ["Ash", "Kell", "Gaunt"]
+    assert [W.place_text(p) for p in ("Ash", ("Kell", "A shrine."), {"name": "Gaunt", "desc": "A state."}, ("X", 3))] == [
+        "", "A shrine.", "A state.", ""]
+
+
+def test_the_appendices_list_each_entry_with_its_chapters():
+    d = dw(mon=[creature("Zzyx Lurker")], npcs=[("A ferryman", "Old Bren"), ("A smith", person("Zzyx Smith"))],
+           places=[("Brannock's Ford", "A village.")])
+    h = W.appendices_html(d, CHS)
+    assert [t[1] for t in B.TOC] == ["Appendix A: Creatures", "Appendix B: People", "Appendix C: Places"]
+    assert 'id="c-zzyx-lurker"' in h and 'id="p-old-bren"' in h and 'id="l-brannocks-ford"' in h
+    assert "A ferryman" in h and "A village." in h
+    bren = h[h.index('id="p-old-bren"'):h.index('id="p-zzyx-smith"')]
+    assert '<div class="named-in">Chapters 1, 3</div>' in bren and 'class="monster"' not in bren
+    smith = h[h.index('id="p-zzyx-smith"'):]
+    assert 'class="monster"' in smith and "named-in" not in smith.split("</div></div>")[0]
+    assert [(n, main) for n, _, main in W.IDX] == [("Zzyx Lurker", True), ("Old Bren", True), ("Zzyx Smith", True), ("Brannock's Ford", True)]
+
+
+def test_with_no_content_there_are_no_appendices():
+    assert W.appendices_html(dw(), CHS) == "" and B.TOC == []
+
+
+def test_each_handout_starts_a_right_hand_chunk_with_its_marker():
+    h = W.handouts_html([("01-map", "The Map", "# The Map\n\nA map."), ("02-note", "A Note", "# A Note\n")], {})
+    chunks = h.split("<!--PARTSTART-->")
+    assert len(chunks) == 3 and 'id="handout-01-map"' in chunks[1] and 'id="handout-02-note"' in chunks[2]
+    assert W.ANCHOR_MARK["handout-01-map"] in chunks[1] and W.ANCHOR_MARK["handout-02-note"] in chunks[2]
+    assert W.handouts_html([], {}) == ""
