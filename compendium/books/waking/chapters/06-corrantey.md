@@ -301,3 +301,141 @@ Perrin explains, quickly and with a lot of pride:
 If the party tells Perrin what the Lamp really is, a piece of the Dawnfire,
 and that the Hush wants to put it out, he goes pale. "Then it is not safe
 here. And it is not safe with Gaunt." He asks for one night to think.
+
+---
+
+## Scene 4: The Guild and the Work
+
+**Goal:** Perrin offers to make things for the party. Teach the Crafting
+and gathering system.
+
+The next morning, Perrin has thought about it. He makes the party an offer.
+
+> Perrin Hale meets you in the workshop under the tower. Long benches, small
+> forges, glass in every color, and the sound of little hammers. He pushes
+> his spectacles up his nose.
+>
+> "I can't give you the Lamp. Not yet. The council would have my head, and
+> the Lamp is the heart of this guild. But I can do something better than
+> talk. You are going to fight the people who put out lights. You need lights
+> that do not go out." He smiles for the first time. "Bring me the right
+> things, and my guild will make them for you."
+
+### The Two Things That Perrin Offers
+
+Perrin offers to make two things. He knows what each one needs.
+
+1. **Potions of Water Breathing.** "You told me that one piece of the old
+   fire is under the water, in the fen. You will need to breathe there." The
+   potions need Kelp Hearts. Kelp grows in the Skerrows, the sea caves under
+   the mouth of the Tey.
+2. **A storm lantern.** A lantern that only magic can put out, and that shows
+   things that hide in the dark. The guild has made one before, a hundred
+   years ago, for the lighthouse on the point. It needs a Storm Pearl, from
+   the deep pools of the Skerrows, and a Wisp Spark, which the guild has in
+   its stores.
+
+> **GM tip:** The potions are important for chapter 8. Fennick is a drowned
+> town, and much of it is under the water. Each character needs a way to
+> breathe there. The potions are the easy way. A spell such as Water
+> Breathing also works. Help the players see this now, so that they do not
+> arrive in Fennick without air.
+
+> **Teach: Crafting and gathering.** Read this to the players, or say it in
+> your own words. Keep it short. They learn the rest when they do it.
+>
+> "With this system, you can harvest parts from the monsters you defeat, and
+> gather rare things in the wild. Then a crafter turns them into potions and
+> magic items. There are three steps.
+>
+> **Harvest or gather.** After a fight, one of you can harvest a creature.
+> It takes 10 minutes for a Medium or smaller creature, 30 minutes for a
+> Large one, and 1 hour for a Huge one. In the wild, you can search for 1
+> hour for something that grows or forms there. Either way, you make a check.
+> The check depends on the material. The DC depends on how rare it is: 10
+> for Common, 13 for Uncommon, 15 for Rare. A success gives you one unit. A
+> failure by 5 or more ruins it.
+>
+> **Follow a recipe.** A recipe names a tool, the materials, the gold, and
+> the number of workdays. A workday is 8 hours.
+>
+> **Make the check.** At the end, the crafter makes a check with the tool,
+> against a DC for the rarity of the item. On a success, the item is done. On
+> a failure, half the gold and all the time are lost, but you keep the
+> materials and can try again."
+>
+> Then tell them the most important thing: "Crafting doesn't make magic items
+> cheap. It gives you control. You choose what you make. And if you harvest
+> your own materials, you save a little gold."
+
+### The Recipe Cards
+
+Show the players these two cards. Copy them on paper if you like. The
+players can see the costs and plan.
+
+> **Recipe: Potion of Water Breathing** (Uncommon, consumable)
+>
+> - **Tool:** Alchemist's Supplies
+> - **Materials:** 1 Kelp Heart (Uncommon, worth 50 GP)
+> - **Gold:** 50 GP
+> - **Workdays:** 5
+> - **Check:** DC 13 with Alchemist's Supplies
+>
+> One recipe makes one potion. Each potion needs its own Kelp Heart.
+
+> **Recipe: Storm Lantern of Corrantey** (Rare, permanent)
+>
+> - **Tool:** Tinker's Tools
+> - **Materials:** 1 Storm Pearl (Rare, worth 500 GP) and 1 Wisp Spark
+>   (Common, worth 10 GP)
+> - **Gold:** 1,100 GP
+> - **Workdays:** 40
+> - **Check:** DC 15 with Tinker's Tools
+>
+> The guild has a Wisp Spark in its stores. Perrin sells it at its full value,
+> 10 GP. Four masters of the guild work on the lantern together. Each day of
+> four crafters counts as four workdays, so the lantern takes 10 days.
+
+{{treasure: Storm Lantern of Corrantey}}
+
+> **GM tip: why the numbers work.** The Storm Lantern is a recipe that this
+> book makes with the rules in Making Your Own Recipes, in the Crafting and
+> Gathering chapter of the Game Master's Compendium. A Rare item costs about
+> 2,000 GP and 50 workdays to craft. The recipe costs 1,610 GP in all (1,100
+> GP in gold and 510 GP in materials) and takes 40 workdays. If the party
+> harvests the Storm Pearl itself, it pays only 1,110 GP. That is the small
+> saving that the system promises: a quarter of the cost, never more.
+
+### Who Does the Work
+
+The guild does the crafting. A master of the Lampwrights has a +7 bonus with
+Tinker's Tools, Alchemist's Supplies, and Glassblower's Tools. The masters
+roll the check, not the players.
+
+A character who has proficiency with the right tool can work with the
+masters. That character counts as one more crafter, so the work goes a
+little faster, and the character can make the check in place of a master if
+the player wants to. Players like to roll for their own items. Let them.
+
+The party pays the gold. Perrin does not take a fee for the work: "A
+Lampwright never charges a Sleeper. I just decided that. It is a new rule."
+
+> **GM tip:** The party may not have 1,100 GP now. That is fine. Perrin
+> starts the work when the Storm Pearl arrives, and the party can pay at the
+> end of the chapter. After Lamplight Night, the guild pays half of the gold
+> as thanks (see Rewards).
+
+### Other Things the Guild Can Make
+
+If the party brings more materials, the guild can make other items from the
+recipes in the Crafting and Gathering chapter. The most likely ones:
+
+| Material | Where in this chapter | What the guild can make |
+|---|---|---|
+| Elemental Mote | Harvest from the Water Elemental in the Skerrows | An Elemental Gem (Water): Jeweler's Tools, 50 GP, 5 workdays, DC 13. |
+| Kelp Heart (extra) | The kelp beds of the Skerrows | More Potions of Water Breathing. |
+| Wisp Spark | The guild stores, 10 GP | A Lantern of Small Hours: Tinker's Tools, 40 GP, 5 workdays, DC 10. |
+
+The guild can also make ordinary gear, such as oil, lanterns, and flasks of
+Alchemist's Fire, at half the price, with the gear rules of the Crafting and
+Gathering chapter.
