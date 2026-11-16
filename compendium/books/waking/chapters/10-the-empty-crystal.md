@@ -201,7 +201,7 @@ Kingsholm is 3 days from the keep, off the road, along the River Dunn (see
 the travel table in the Gazetteer). In midwinter, the road is hard.
 
 If your table uses Journeys, run it as a journey of 3 days. Each character
-takes a role (Guide, Scout, Quartermaster, Lookout). Use the Supply Die.
+takes a role (Guide, Scout, Quartermaster, Lookout). Use the supply die.
 The weather is cold every day. Roll on the table below once each day, in
 place of the usual encounter roll.
 
@@ -229,7 +229,7 @@ They want the black stone and the pieces of the Dawnfire. They fight in a
 line on the road and try to take one item and ride away.
 
 - **Budget:** Low, for 4 characters of level 10: 1,600 × 4 = 6,400 XP.
-- **Monsters:** 4 Hush Night Wardens (4 × 1,100 = 4,400 XP) and 4 Cultist
+- **Monsters:** 4 Hush Night Wardens (4 × 1,100 = 4,400 XP) and 4 Hush
   Shrouds (4 × 450 = 1,800 XP), on horses. Total: 6,200 XP.
 
 {{statblock: Hush Night Warden}}
@@ -242,10 +242,10 @@ the Hush at the Kings' Bridge is ready (no surprise in Scene 3).
 
 > **Scaling:** The budget is 1,600 XP for each character.
 >
-> - **3 characters (4,800 XP):** 3 Hush Night Wardens and 3 Cultist
+> - **3 characters (4,800 XP):** 3 Hush Night Wardens and 3 Hush
 >   Shrouds (4,650 XP).
 > - **4 characters (6,400 XP):** as written (6,200 XP).
-> - **5 characters (8,000 XP):** 5 Hush Night Wardens and 4 Cultist
+> - **5 characters (8,000 XP):** 5 Hush Night Wardens and 4 Hush
 >   Shrouds (7,300 XP).
 > - **6 characters (9,600 XP):** 5 Hush Night Wardens, 1 Hush Dusk Priest,
 >   and 2 Hush Shrouds (9,300 XP).
@@ -422,10 +422,10 @@ open.
 
 > **Scaling:** The budget is 2,300 XP for each character.
 >
-> - **3 characters (6,900 XP):** remove the Dusk Priest, and add 1 Cultist
+> - **3 characters (6,900 XP):** remove the Dusk Priest, and add 1 Hush
 >   Shroud (6,750 XP).
 > - **4 characters (9,200 XP):** as written (9,200 XP).
-> - **5 characters (11,500 XP):** add 1 Hush Night Warden and 1 Cultist
+> - **5 characters (11,500 XP):** add 1 Hush Night Warden and 1 Hush
 >   Shroud (10,750 XP).
 > - **6 characters (13,800 XP):** add 1 Hush Night Warden and 1 Hush Dusk
 >   Priest (13,200 XP).
@@ -470,9 +470,9 @@ Charisma (Persuasion) check makes one Cultist put down its weapon.
 >
 > - **3 characters (4,800 XP):** remove the Night Warden (4,900 XP).
 > - **4 characters (6,400 XP):** as written (6,000 XP).
-> - **5 characters (8,000 XP):** add 1 Hush Night Warden and 2 Cultist
+> - **5 characters (8,000 XP):** add 1 Hush Night Warden and 2 Hush
 >   Shrouds (8,000 XP).
-> - **6 characters (9,600 XP):** add 2 Hush Night Wardens and 3 Cultist
+> - **6 characters (9,600 XP):** add 2 Hush Night Wardens and 3 Hush
 >   Shrouds (9,550 XP).
 > - **With Techniques on:** add one Cultist for each four characters.
 
@@ -1090,7 +1090,7 @@ this chapter, whatever XP the fights gave.
   finds 4,000 GP in coins of every kind, and a chest of silver and jewels
   worth 3,000 GP. Most of it belonged to the people in the Grey Camp. A
   party that gives it back gains renown with the Church and the
-  Lampwrights (+2 with each, as a great deed for the people), and the
+  Lampwrights (+2 with each, as a mission done well), and the
   thanks of a hundred families. A party that keeps it keeps it.
 - **The weapons of the Hush:** 20 sets of grey mail (as chain mail), a cart
   of maces and crossbows. They are good steel, if the keep needs an armory.
