@@ -682,8 +682,10 @@ The last of the letters ends with a line that matters: the rest of the
 truth is "with him, under Kingsholm". The players do not know who "him" is.
 Do not tell them. Wick does not know either.
 
-> **GM tip:** The letters show that the steward lied about something, and
-> that he felt bad about it. They do not say what the lie is. If the players
+> **GM tip:** The letters show that the steward lied, and that he felt bad
+> about it. The draft page shows part of the lie: the king was put to sleep,
+> not pushed back, and he rose "among us". The letters do not say who the
+> king was. If the players
 > ask Wick, he says: "The steward did not lie. The steward was the most
 > honest person in the keep." Then, after a moment: "Probably." This is the
 > first time that Wick is not sure of the steward.
@@ -728,9 +730,10 @@ Let the players search. Each check takes 10 minutes.
 > - He made the coffins, the crystal spell, the study, and Wick.
 > - He loved the Dawnwatch. He wrote their names down and remembered small
 >   things about each of them.
-> - He wrote something that he was ashamed of, and he asked his sister to
->   forgive him.
-> - He knew that the sun was getting weaker (the letters say so).
+> - He wrote something that he was ashamed of, and he asked for
+>   forgiveness.
+> - He may have known that the sun was getting weaker. Mother Sallow says
+>   that he counted the days. The letters do not say so.
 > - He put the rest of the truth "under Kingsholm", with someone he calls
 >   "him".
 >
