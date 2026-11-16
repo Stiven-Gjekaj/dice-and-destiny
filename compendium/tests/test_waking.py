@@ -352,7 +352,7 @@ def test_the_passes_put_each_recto_chunk_on_a_right_hand_page():
     pages, toc = W.passes("x", body, [], render=render, find=find)
     assert pages == {"@@T0@@": 1, "@@T1@@": 3, "@@T2@@": 5}
     assert seen["s"].count('class="blankpage"') == 2
-    assert "@@T" not in seen["s"]  # the last render has no markers
+    assert "@@T1@@" in seen["s"] and W.HIDE_MARKS in seen["s"]  # the last render hides the markers
     assert [t[2] for t in toc] == ["@@T0@@", "@@T1@@", "@@T2@@"]
 
 
@@ -385,7 +385,7 @@ def test_the_passes_stop_if_the_last_render_has_another_page_count():
     B.TOC[:] = [("ch", "One", "@@T0@@")]
     body = '{{TOC}}<span class="mark" id="t0">@@T0@@</span>'
     render, find, seen = fake_press({"@@T0@@": 1})
-    count = lambda out: 10 if "@@T" in seen["s"] else 11
+    count = lambda out: 11 if W.HIDE_MARKS in seen["s"] else 10
     with pytest.raises(SystemExit, match="11 pages, not 10"):
         W.passes("x", body, [], render=render, find=find, count=count)
 
@@ -417,3 +417,9 @@ def test_an_authored_chapter_sentence_goes_out_when_the_build_shows_the_chapters
     assert ">A ferryman.</div>" in h and "Chapters 1 and 3." not in h
     assert ">A ghost. Chapter 8.</div>" in h  # no chapter names it, so the authored sentence stays
     assert "<p>A shrine.</p>" in h and "Named in chapter 4" in h
+
+
+def test_hide_marks_puts_the_rule_into_the_head():
+    assert W.hide_marks("<head><title>x</title></head><body>@@T0@@</body>") == (
+        "<head><title>x</title>" + W.HIDE_MARKS + "</head><body>@@T0@@</body>")
+    assert W.hide_marks("<p>x</p>").startswith(W.HIDE_MARKS)

@@ -584,12 +584,22 @@ def passes(out, body, es, screen=False, render=None, find=None, count=None):
             break
         pages = new
     measured = count(out) if count else None
-    s = re.sub(r'(<span class="mark"[^>]*>)@@[TI]\d+@@</span>', r"\1</span>", s)
-    render(out, s)
+    # The last render keeps the markers and hides them. A hidden box keeps its place, so the layout is the
+    # layout that gave the page numbers, and Chrome does not print the hidden text. When the build removed
+    # the text, the layout changed and the book had one page more.
+    render(out, hide_marks(s))
     if count and count(out) != measured:
         raise SystemExit(f"{out}: the last render has {count(out)} pages, not {measured}. "
-                         "The text of the markers changes the layout. Check .mark in books/waking.css.")
+                         "Hiding the markers changed the layout. Check .mark in books/waking.css.")
     return pages, toc_entries
+
+
+HIDE_MARKS = "<style>.mark { visibility: hidden; }</style>"
+
+
+def hide_marks(s):
+    """The page with each marker hidden. visibility: hidden does not change the layout."""
+    return s.replace("</head>", HIDE_MARKS + "</head>", 1) if "</head>" in s else HIDE_MARKS + s
 
 
 INSIDE_START_MM = 16  # the first guess. The build changes it to the value of the Lulu table for the page count.
