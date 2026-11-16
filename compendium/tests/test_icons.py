@@ -16,3 +16,15 @@ def test_d20_numbers_have_no_outline():
     # Chrome prints outlined text as a Type 3 font, and Lulu warns about Type 3 fonts.
     for svg in (big_d20(230), big_d20(150, "#111", flat=True)):
         assert 'stroke-width=".4">20' not in svg
+
+
+def test_black_and_white_title_d20_has_black_numbers():
+    # gray() turns the light number color into #fff. The numbers must still
+    # print black, because white numbers on light grey faces cannot be read.
+    import re
+    from build import front
+    html = front("player")
+    svg = html[html.index("<svg"):html.index("</svg>")]
+    fills = re.findall(r'<text[^>]*?fill="([^"]+)"', svg)
+    assert len(fills) == 4
+    assert set(fills) == {"#000"}

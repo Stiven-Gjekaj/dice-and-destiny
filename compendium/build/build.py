@@ -97,7 +97,8 @@ def gray(svg):
 
 
 def _dark_text(svg):
-    return re.sub(r'(<text[^>]*?)fill="#[0-9a-f]{6}"', r'\1fill="#000"', svg)
+    # gray() writes white as #fff, so match the short form too.
+    return re.sub(r'(<text[^>]*?)fill="#(?:[0-9a-fA-F]{3}){1,2}"', r'\1fill="#000"', svg)
 
 
 def front(name, screen=False):
