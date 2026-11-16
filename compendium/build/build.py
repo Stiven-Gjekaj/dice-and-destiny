@@ -156,6 +156,8 @@ def expand(name):
         "{{SYS_TECHNIQUES}}": lambda: __import__("render_systems").all_techniques_html(),
         "{{O_TRAPS_IDX}}": lambda: __import__("render_traps").all_traps_index_html(),
         "{{O_TRAPS}}": lambda: __import__("render_traps").all_traps_html(),
+        "{{O_NPCS_IDX}}": lambda: __import__("render_npcs").all_npcs_index_html(),
+        "{{O_NPCS}}": lambda: __import__("render_npcs").all_npcs_html(),
         "{{TABLE_SETS}}": lambda: __import__("render_tables").all_tables_html(),
         "{{PANTHEONS}}": lambda: __import__("render_pantheons").all_pantheons_html(),
         "{{DOWNTIME}}": lambda: __import__("render_downtime").all_downtime_html(),

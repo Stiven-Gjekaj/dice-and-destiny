@@ -185,6 +185,7 @@ REGISTRY = {
     "traps": lambda m: [e["name"] for e in m.TRAPS],
     "tables": lambda m: [e["name"] for e in m.TABLE_SETS],
     "pantheons": lambda m: [p["name"] for p in m.PANTHEONS] + [g["name"] for p in m.PANTHEONS for g in p["gods"]],
+    "npcs": lambda m: [e[1].name for e in m.NPCS],
 }
 
 
@@ -247,6 +248,8 @@ def check_all_content():
     origin = srd_origin_feats() | {e[0] for e in mods["feats"].FEATS if e[1] == "Origin"}
     errors += background_feat_errors(mods["backgrounds"].BACKGROUNDS, origin)
     for m in mods["monsters"].MON:
+        errors += monster_out_of_band(m)
+    for _, m in mods["npcs"].NPCS:
         errors += monster_out_of_band(m)
     errors += spell_class_level_errors(mods["spells"].SPELLS)
     for sp in mods["spells"].SPELLS:
