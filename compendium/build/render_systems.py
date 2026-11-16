@@ -3,7 +3,7 @@
 The Player's Compendium shows the Blessings, the Curses, and the Bonds.
 The Game Master's Compendium shows the Taints with their hidden prices.
 The Player's Compendium also shows the Techniques and the Legend paths.
-The Game Master's Compendium also shows the Journey biomes.
+The Game Master's Compendium also shows the Journey biomes and the Factions.
 """
 import html
 
@@ -28,6 +28,9 @@ LEGEND_KEYS = {"name", "summary", "deeds", "fall", "tiers"}
 LEGEND_TIERS = [("I", 1, 1), ("II", 3, 5), ("III", 6, 9), ("IV", 10, 13), ("V", 15, 17)]
 BIOME_KEYS = {"name", "summary", "navigate", "forage", "weather", "encounters"}
 BIOME_DC = (5, 25)
+FACTION_KEYS = {"name", "summary", "goal", "gain", "lose", "rival", "ranks"}
+# The renown that each rank of a faction needs.
+FACTION_RANKS = (3, 10, 20, 35, 50)
 
 
 def mark_errors(m):
@@ -284,3 +287,43 @@ def biomes_html(biomes):
 def all_biomes_html():
     from content.systems import BIOMES
     return biomes_html(BIOMES)
+
+
+def faction_errors(f):
+    """Return a list of the problems of one Faction entry. An empty list means no problem."""
+    name = f.get("name", "?")
+    errors = [f"Faction '{name}': missing key '{k}'" for k in sorted(FACTION_KEYS - set(f))]
+    errors += [f"Faction '{name}': unknown key '{k}'" for k in sorted(set(f) - FACTION_KEYS)]
+    if errors:
+        return errors
+    if len(f["ranks"]) != len(FACTION_RANKS) or any(len(r) != 2 for r in f["ranks"]):
+        errors.append(f"Faction '{name}': ranks must be {len(FACTION_RANKS)} rows of (title, reward)")
+    return errors
+
+
+def faction_html(f):
+    """One Faction: the summary, the goal, how renown is won and lost, the rival, and a table of the ranks."""
+    _stop_on(faction_errors(f))
+    rows = "".join(f'<tr><td class="c">{n}</td><td><b>{E(t)}</b></td><td>{feature_text(r)}</td></tr>'
+                   for n, (t, r) in zip(FACTION_RANKS, f["ranks"]))
+    return (f'<div class="entry sys-faction"><h4 class="sp-name">{E(f["name"])}</h4>'
+            f'<p><i>{feature_text(f["summary"])}</i></p><dl class="feat">'
+            f'<dt>Goal</dt><dd>{feature_text(f["goal"])}</dd>'
+            f'<dt>Gain renown</dt><dd>{feature_text(f["gain"])}</dd>'
+            f'<dt>Lose renown</dt><dd>{feature_text(f["lose"])}</dd>'
+            f'<dt>Rival</dt><dd>{feature_text(f["rival"])}</dd></dl>'
+            f'<table class="compact"><caption>{E(f["name"])} Ranks</caption><thead><tr><th class="c">Renown</th><th>Rank</th><th>Reward</th></tr></thead>'
+            f'<tbody>{rows}</tbody></table></div>')
+
+
+def factions_html(factions):
+    """All Factions, in the order of the names. Return "" if there are none."""
+    _stop_on([e for f in factions for e in faction_errors(f)])
+    if not factions:
+        return ""
+    return '<div class="cols2 compendium">' + "\n".join(faction_html(f) for f in sorted(factions, key=lambda f: f["name"])) + "</div>"
+
+
+def all_factions_html():
+    from content.systems import FACTIONS
+    return factions_html(FACTIONS)

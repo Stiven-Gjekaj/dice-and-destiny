@@ -2,9 +2,10 @@
 import pytest
 
 from render_systems import (biome_errors, biome_html, biomes_html, bond_errors, bond_html,
-                            bonds_html, legend_errors, legend_html, legends_html, mark_errors,
-                            mark_html, marks_html, technique_errors, technique_html,
-                            techniques_html, track_html)
+                            bonds_html, faction_errors, faction_html, factions_html,
+                            legend_errors, legend_html, legends_html, mark_errors, mark_html,
+                            marks_html, technique_errors, technique_html, techniques_html,
+                            track_html)
 
 
 def make_mark(**changes):
@@ -261,3 +262,34 @@ def test_biomes_html_sorts_by_name_and_is_empty_with_no_biomes():
     assert out.index("Arctic") < out.index("Swamp")
     with pytest.raises(ValueError):
         biomes_html([make_biome(encounters=[])])
+
+
+def make_faction(**changes):
+    f = dict(name="Test Guild", summary="A guild & its members.", goal="Profit.", gain="Do [[jobs]].",
+             lose="Steal.", rival="Other guilds.", ranks=[(f"Rank {i}", f"Reward {i}.") for i in range(1, 6)])
+    f.update(changes)
+    return f
+
+
+def test_a_correct_faction_has_no_errors():
+    assert faction_errors(make_faction()) == []
+
+
+@pytest.mark.parametrize("change", [dict(ranks=[("a", "b")] * 4), dict(ranks=[("a",)] * 5), dict(colour="red")])
+def test_faction_errors_find_bad_values(change):
+    assert faction_errors(make_faction(**change))
+
+
+def test_faction_html_shows_each_rank_with_its_renown():
+    out = faction_html(make_faction())
+    assert '<td class="c">3</td><td><b>Rank 1</b></td><td>Reward 1.</td>' in out
+    assert '<td class="c">50</td><td><b>Rank 5</b></td><td>Reward 5.</td>' in out
+    assert "A guild &amp; its members." in out and "Do <b>jobs</b>." in out
+
+
+def test_factions_html_sorts_by_name_and_is_empty_with_no_factions():
+    assert factions_html([]) == ""
+    out = factions_html([make_faction(name="Zeal"), make_faction(name="Arc")])
+    assert out.index("Arc") < out.index("Zeal")
+    with pytest.raises(ValueError):
+        factions_html([make_faction(ranks=[])])

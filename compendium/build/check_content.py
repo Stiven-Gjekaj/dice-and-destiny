@@ -183,7 +183,7 @@ REGISTRY = {
     "classes": lambda m: [e["name"] for e in m.CLASSES],
     "injuries": lambda m: [e["name"] for e in m.INJURIES],
     "crafting": lambda m: [e["name"] for e in m.MATERIALS] + [e["item"] for e in m.RECIPES],
-    "systems": lambda m: [e["name"] for e in m.MARKS + m.BONDS + m.TECHNIQUES + m.LEGENDS + m.BIOMES],
+    "systems": lambda m: [e["name"] for e in m.MARKS + m.BONDS + m.TECHNIQUES + m.LEGENDS + m.BIOMES + m.FACTIONS],
     "traps": lambda m: [e["name"] for e in m.TRAPS],
     "tables": lambda m: [e["name"] for e in m.TABLE_SETS],
     "pantheons": lambda m: [p["name"] for p in m.PANTHEONS] + [g["name"] for p in m.PANTHEONS for g in p["gods"]],

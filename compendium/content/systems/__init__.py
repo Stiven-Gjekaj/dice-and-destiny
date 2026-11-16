@@ -46,6 +46,15 @@ BIOMES is a list of Journey biome entries. A biome entry is a dict with these ke
   weather: a list of 6 (name, effect), one for each roll of a d6
   encounters: a list of 8 texts, one for each roll of a d8
 
+FACTIONS is a list of Faction entries. A Faction entry is a dict with these keys:
+  name: the name of the faction
+  summary: one or two sentences that tell what the faction is
+  goal: what the faction wants
+  gain: what earns renown with the faction
+  lose: what loses renown with the faction
+  rival: the kind of faction that opposes it
+  ranks: a list of 5 (title, reward), one for each rank
+
 In all text, [[label]] shows the label in bold.
 """
 from content.collect import collect_list
@@ -55,3 +64,4 @@ BONDS = collect_list(__name__, "BONDS")
 TECHNIQUES = collect_list(__name__, "TECHNIQUES")
 LEGENDS = collect_list(__name__, "LEGENDS")
 BIOMES = collect_list(__name__, "BIOMES")
+FACTIONS = collect_list(__name__, "FACTIONS")
