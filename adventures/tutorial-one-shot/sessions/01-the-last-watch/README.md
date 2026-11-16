@@ -149,8 +149,8 @@ When all characters are out:
 > Hall, and Official Waker. I waited for you for three hundred years, four
 > months, and two days. I counted. There was not much else to do."
 
-Play Wick as proud, dramatic, and lonely. See the Wick statblock for more
-personality notes.
+Play Wick as proud, dramatic, and lonely. See Wick in the statblocks for
+more personality notes.
 
 ### What Wick knows
 
@@ -159,13 +159,13 @@ a lot of drama:
 
 - The Unlit King is back. Wick felt it this morning. "The Dawnfire in the
   chapel went out. That only happens if he wakes."
-- The keep is old and partly broken. Small demons came in during the last
-  years. "Ash mites. Like rats, but worse. They bite. They squeak. Rude."
+- The keep is old and partly broken. Animals came in during the last years.
+  "Rats. Big ones. As big as dogs. They bite. They squeak. Rude."
 - The way out goes down the Stair of Teeth, through the old armory, and
   through the Chapel of Dawn. The Dawn Door is at the end of the chapel. It
   opens to the surface.
-- Something big now sleeps in the chapel. Wick does not want to talk about
-  it.
+- This morning, something came into the chapel from the outside. Wick does
+  not want to talk about it.
 
 ### The secret
 
@@ -182,8 +182,8 @@ Wick hides two facts:
 
 | Check | DC | Result |
 |-------|----|--------|
-| Wisdom (Insight) | 12 | Wick is scared. The flame gets small each time someone says "chapel." |
-| Charisma (Persuasion) | 10 | Wick tells the truth: "It is a big dog. Made of ash. It breathes fire. I hate it." |
+| Wisdom (Insight) | 12 | Wick is scared. The flame gets small each time someone says "chapel". |
+| Charisma (Persuasion) | 10 | Wick tells the truth: "Dogs. Little dogs made of fire and sulfur. One for each of you, I think. I hate them." |
 | Charisma (Intimidation) | 10 | Same, but Wick sulks for the rest of the scene. |
 | Intelligence (History) | 10 | The character remembers Wick. The steward made Wick on the last night. The steward said, "Do not let them oversleep." |
 
@@ -199,14 +199,15 @@ Before the characters leave, Wick says:
 > the shelf. "I could not open it. I have no hands. It was a long three
 > hundred years."
 
-In the box is one **potion of healing** (red liquid, a glass bottle). A
-character can drink it or give it to a creature within 5 feet as a bonus
-action. That creature regains 2d4 + 2 HP.
+In the box is one **Potion of Healing** (red liquid, a glass bottle). A
+character can drink it, or give it to a creature within 5 feet, as a Bonus
+Action. That creature regains 2d4 + 2 HP.
 
 Wick asks to come with the characters. One character carries Wick. Wick gives
 light.
 
-> **Teach: light and darkvision.** "Wick gives bright light for 20 feet. Some
+> **Teach: light and darkvision.** "Wick gives light like a Hooded Lantern:
+> Bright Light for 30 feet, and Dim Light for 30 feet more. Some
 > of you have darkvision on your sheet. You see in the dark, but only in grey.
 > The others need Wick to see."
 
