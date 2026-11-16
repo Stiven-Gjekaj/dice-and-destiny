@@ -1016,7 +1016,7 @@ Toll goes up by 2.
 > - **3 characters (3,900 XP):** remove one Mounted Lancer on its horse
 >   and three Line Pikemen, or, in the stone version, both Pikemen of
 >   Gaunt and one of the Church (each version is then about 3,900 to
->   4,600 XP).
+>   4,900 XP).
 > - **4 characters (5,200 XP):** as written.
 > - **5 characters (6,500 XP):** add one Mounted Lancer on a Warhorse
 >   (800) and one Crossbow Sergeant (450), so about 6,500 XP.
@@ -1121,9 +1121,9 @@ characters break the Heart, the fog over Ashby Field lifts for good.
   Heavily Obscured beyond 10 feet, except in Bright Light. The ring of
   black candles is 20 feet across. While at least one priest stands in the
   ring, the fog cannot be ended by the spells that end it in Phase 1.
-- **The candles:** a character can use an action to knock over the black
-  candles in one 5-foot square of the ring. When all four squares of
-  candles are down (four actions), the ring breaks, and the fog in the
+- **The candles:** the black candles stand in four groups around the ring,
+  each in one 5-foot square. A character can use an action to knock over
+  one group. When all four groups are down (four actions), the ring breaks, and the fog in the
   hollow ends at the end of that turn.
 - **Grey rocks:** they give Half Cover.
 
@@ -1135,8 +1135,8 @@ strongest fighter, and Ansel casts Silence on the spellcasters. They use
 Word of Night on a character who carries a light. A priest who is Bloodied
 fights on: they do not fear death. They believe that the sun dies anyway.
 
-**If the Marshal or the Abbess had proof** (see Scene 6), one agent is
-already in chains. Use 1 Hush Dusk Priest and 3 Hush Night Wardens
+**If the Marshal had proof** (see Scene 6), Ilse Varro has Roe in chains.
+Only Ansel is here. Use 1 Hush Dusk Priest and 3 Hush Night Wardens
 (2,900 + 3,300 = 6,200 XP, plus the choir 2,300, so 8,500 XP: Moderate).
 
 **The Toll:** if the fight lasts more than 6 rounds, the armies blunder
