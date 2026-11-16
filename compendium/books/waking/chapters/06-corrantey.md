@@ -439,3 +439,171 @@ recipes in the Crafting and Gathering chapter. The most likely ones:
 The guild can also make ordinary gear, such as oil, lanterns, and flasks of
 Alchemist's Fire, at half the price, with the gear rules of the Crafting and
 Gathering chapter.
+
+---
+
+## Scene 5: The Skerrows
+
+**Goal:** the party gathers Kelp Hearts and a Storm Pearl, and harvests a
+monster. The first fight of the chapter.
+
+### Getting There
+
+The Skerrows are a maze of sea caves in the black cliffs south of the mouth
+of the Tey. At low tide, a path of wet rocks leads from the shore into the
+caves. At high tide, the sea fills most of them. The fishers of the Tey side
+do not go in. They say that "the old woman of the rocks" lives there, and
+that she sings ships onto the reef.
+
+> The tide pulls back, and the path appears: a line of black, weedy rocks
+> that runs from the beach into a mouth in the cliff. Inside, the light turns
+> green. Water drips from the roof. Pools lie everywhere, clear as glass,
+> and in them long ropes of kelp move slowly, though there is no wind.
+>
+> Somewhere deeper in, someone is singing. It is a woman's voice, old and
+> cracked, and the song has no words.
+
+The party has about 6 hours before the tide comes back. Tell the players
+this. Each hour of searching uses one of those hours. When the tide returns,
+the low caves fill, and the party must leave or swim.
+
+> **GM tip:** The tide gives the players a clock. They can search, fight,
+> and harvest, but not all at once and not forever. Keep a count of the hours
+> where the players can see it.
+
+### Gathering in the Caves
+
+| Material | Where | Check | DC | Notes |
+|---|---|---|---|---|
+| Kelp Heart (Uncommon) | The kelp pools near the entrance and in the Long Pool | Wisdom (Survival) | 13 | 1 hour of searching. Each success gives one Kelp Heart. The pools hold 8 hearts in all. A character must go into the water to cut a heart from a living plant. |
+| Storm Pearl (Rare) | Only in the Drowned Chapel, the deepest cave (see below) | Wisdom (Survival) | 15 | 1 hour of searching. The pools there hold 2 pearls. |
+| Elemental Mote (Uncommon) | Harvest from the Water Elemental after the fight | Intelligence (Arcana) | 13 | 30 minutes (the elemental is Large). |
+
+On a failure by 5 or more, the material is ruined: the kelp heart tears, or
+the pearl cracks in the hand.
+
+### Areas of the Skerrows
+
+**S1. The mouth.** A wide cave with a floor of wet rock and shallow pools. The
+kelp pools here hold 3 Kelp Hearts. The water is 3 feet deep: Difficult
+Terrain for a Medium creature.
+
+**S2. The Long Pool.** A long, narrow cave with a deep pool down the middle,
+20 feet deep and very clear. The kelp here holds 5 Kelp Hearts. A character
+who dives must hold their breath. A ledge 5 feet wide runs along each side.
+
+**S3. The bone shelf.** A dry cave above the tide line, full of old bones,
+broken oars, and the figurehead of a ship (a woman with a lamp). This is
+where the hag sleeps. Under her nest of rotten sailcloth, there is a chest
+(see Treasure).
+
+**S4. The Drowned Chapel.** The deepest cave, a round chamber with a roof like
+a dome. Once, smugglers carved an altar here for luck. Now the sea comes in
+through a hole in the floor, and the cave is half water. The light from the
+water is blue. The 2 Storm Pearls lie in the deep pool under the altar. This
+is where the fight happens.
+
+### The Fight in the Drowned Chapel
+
+The singer is Nan Corley, a sea hag who has lived in the Skerrows for sixty
+years. She sings ships onto the reef and takes what washes up. Some years
+ago, she bound a water elemental to the pool of the Drowned Chapel with a
+broken charm from a wreck. Three merrow serve her for a share of the
+drowned.
+
+> The cave opens into a dome of black rock. Half of the floor is water, and
+> the water glows a soft blue. On a carved stone altar at the edge of the
+> pool sits a woman with grey-green skin and hair like old rope. She is the
+> singer. She stops singing and smiles at you with too many teeth.
+>
+> "Visitors. Visitors with a light." Her eyes go to Wick. "Pretty. I will
+> hang it on my wall." She slaps the water with her hand. The pool rises,
+> and rises, and a shape of water stands up out of it, taller than a man.
+> Behind it, three long, grey shapes slide up onto the rocks.
+
+**Creatures:** one Sea Hag (Nan Corley), one Water Elemental, and three
+Merrow.
+
+**The budget:** for 4 characters of level 6, a Moderate fight is 4 × 1,000 =
+4,000 XP. The Sea Hag is 450 XP, the Water Elemental is 1,800 XP, and the
+three Merrow are 1,350 XP. The total is 3,600 XP, a Moderate fight with room
+for the terrain.
+
+{{statblock: Sea Hag}}
+
+{{statblock: Water Elemental}}
+
+{{statblock: Merrow}}
+
+**Terrain:**
+
+- The pool is 15 feet deep. A creature in it swims. The elemental and the
+  merrow have Swim Speeds; most characters do not, so they swim at half
+  Speed.
+- The rock floor around the pool is wet and covered in weed. A creature that
+  takes the Dash action on it must succeed on a DC 10 Dexterity (Acrobatics)
+  check or fall Prone.
+- The altar is 3 feet high. It gives Half Cover.
+
+**Tactics:**
+
+- **Nan Corley** stays on the altar. Her Vile Appearance frightens the
+  characters who come close, and she uses Death Glare on a Frightened
+  character. She hates light. She tries to grab Wick, or to make a character
+  drop him. If she drops below half her Hit Points, she slips into the water
+  and tries to flee down the hole in the floor.
+- **The Water Elemental** uses Whelm to pull characters into the pool and
+  drown them. It
+  is bound to the pool, and it can't go more than 30 feet from it.
+- **The Merrow** attack the characters who stand at the edge of the water and
+  try to drag them in.
+
+**The charm:** the elemental is bound by a bronze ship's bell, green with
+age, that hangs from a chain over the pool. A character who sees the bell
+and succeeds on a DC 13 Intelligence (Arcana) check knows that it holds the
+elemental. If a character breaks the chain (AC 15, 10 Hit Points) or takes
+the bell, the elemental is free. A free elemental does not attack the party.
+It sinks into the pool and goes back to the sea. The party can't harvest an
+Elemental Mote from a free elemental.
+
+> **GM tip:** This is a good choice for the players. They can fight the
+> elemental and harvest it, or free it and lose the mote. Neither is wrong.
+> If they free it, give them a moment of wonder: the water stands still, the
+> elemental looks at them for a long second, and then it is just the sea.
+
+> **Scaling:** The budget for a Moderate fight at level 6 is 1,000 XP for
+> each character.
+>
+> - **3 characters (3,000 XP):** remove one Merrow. The total is 3,150 XP.
+> - **4 characters (4,000 XP):** use the fight as written. The total is
+>   3,600 XP.
+> - **5 characters (5,000 XP):** add two Merrow and one Hunter Shark in the
+>   pool. The total is 4,950 XP.
+> - **6 characters (6,000 XP):** add three Merrow and one Hunter Shark. The
+>   total is 5,850 XP.
+
+**After the fight:** the characters can harvest the Water Elemental if it
+fell (see the table above). When the elemental drops to 0 Hit Points, it
+splashes over the floor, and a small bright stone of hard water is left in
+the pool. That is where the harvester works. The Storm Pearls are in the deep
+pool, now quiet.
+
+**Treasure:** in the chest in S3, the hag kept what washed up from forty
+years of wrecks: 640 GP in mixed coins of Corrantey and Gaunt, a silver
+compass that always points to the nearest land (a trinket, worth 50 GP),
+and the logbook of a ship called the *Merry Tern*. The last page of the log
+says: "Grey passengers. Paid in old gold. They asked us to put out the
+lamps."
+
+> **GM tip:** The logbook is a small sign of the Hush. Three months ago, the
+> Hush paid a ship to carry its people along the coast with no lights. The
+> hag wrecked the ship. If the players ask Perrin about the *Merry Tern*, he
+> knows the ship: it left Corrantey for the north, and it never came back.
+
+### The Tide Comes Back
+
+If the party is still in the caves when the 6 hours end, the sea comes back
+fast. Each character makes a DC 12 Strength (Athletics) check to wade and
+swim out. On a failure, the character takes 2d6 Bludgeoning damage from the
+rocks and gains 1 Exhaustion level, but still gets out. Nobody drowns here.
+The sea only reminds them that it is bigger than they are.
