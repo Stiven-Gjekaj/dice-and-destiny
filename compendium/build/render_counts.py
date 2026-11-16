@@ -28,3 +28,24 @@ def all_player_counts():
     from content.classes import CLASSES
     from content.subclasses import SUBS
     return player_counts(CLASSES, SUBS)
+
+
+def origin_counts(backgrounds, species):
+    """The counts for the intro of the backgrounds and species chapter."""
+    return f"{len(backgrounds)} new backgrounds and {len(species)} new species"
+
+
+def spell_counts(spells):
+    """The count for the intro of the spells chapter."""
+    return f"{len(spells)} new spells"
+
+
+def all_origin_counts():
+    from content.backgrounds import BACKGROUNDS
+    from content.species import SPECIES
+    return origin_counts(BACKGROUNDS, SPECIES)
+
+
+def all_spell_counts():
+    from content.spells import SPELLS
+    return spell_counts(SPELLS)

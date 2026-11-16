@@ -161,6 +161,8 @@ def expand(name):
         "{{O_NPCS}}": lambda: __import__("render_npcs").all_npcs_html(),
         "{{O_COUNTS_GM}}": lambda: __import__("render_counts").all_gm_counts(),
         "{{O_COUNTS_PLAYER}}": lambda: __import__("render_counts").all_player_counts(),
+        "{{O_COUNTS_ORIGINS}}": lambda: __import__("render_counts").all_origin_counts(),
+        "{{O_COUNTS_SPELLS}}": lambda: __import__("render_counts").all_spell_counts(),
         "{{TABLE_SETS}}": lambda: __import__("render_tables").all_tables_html(),
         "{{PANTHEONS}}": lambda: __import__("render_pantheons").all_pantheons_html(),
         "{{DOWNTIME}}": lambda: __import__("render_downtime").all_downtime_html(),
