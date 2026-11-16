@@ -736,3 +736,247 @@ Let the players search. Each check takes 10 minutes.
 >   "him".
 >
 > That is enough. Do not add more. Chapter 10 gives the last letter.
+
+---
+
+## Scene 6: A Home (60 minutes)
+
+**Goal:** Start the Strongholds system. The keep becomes the home of the
+party. Teach founding, ratings, rooms, followers, and the Monthly Turn.
+
+### The morning after
+
+> You sleep in the keep. Not in a crystal box: in the chapel, in bedrolls,
+> with the grey cloth pulled off the stone bowl and the crack in the roof
+> open again. In the morning, the thin line of light comes back. It falls
+> on the cold bowl of the Dawnfire, and on your faces.
+>
+> It is quiet. It is your quiet. For the first time since you woke, nobody
+> wants anything from you.
+>
+> Wick sits in his niche in the Hall of Sleepers, with the door of the study
+> open beside him. When you come in, he says, "Good morning," as if he has
+> said it every morning for three hundred years. Then he says: "So. Who is
+> going to fix the roof?"
+
+### Perrin Hale arrives
+
+Perrin Hale, the master of the Lampwrights, arrives the next day, in a cart
+pulled by a tired mule. With Perrin is a young Lampwright named Hesper Wren.
+
+Perrin goes straight to the study and stands in the door for a long time
+without a word. Then Perrin touches the mark of the flame inside the ring,
+very gently.
+
+> "The first master," Perrin says. "We have his mark on our door, our seal,
+> and our oldest tools. Three hundred years, and I never saw a thing that
+> his own hand made, except your lantern. And now this." Perrin looks at the
+> broken coffins in the hall. "What a waste. What a terrible waste."
+
+Perrin does not stay long. Perrin has a guild to run, and Gaunt watches the
+hall in Corrantey. Before Perrin leaves:
+
+- Perrin offers to send glass and brass for the repair of the keep at the
+  cost of the materials. (This is part of the half cost of the old rooms,
+  below.)
+- Perrin asks to copy the plan of Wick for the archive of the guild. Wick
+  says no. Then Wick says yes, if he gets to approve the copy.
+- Perrin leaves Hesper Wren behind. "She asked to come. She is the best
+  young hand that I have, and she writes lists in her sleep. Your keep needs
+  someone to keep it, and she needs a place to be useful."
+
+**Hesper Wren** is nineteen, thin, and serious, with ink on her fingers and
+a slate on a string around her neck. She has read everything that the
+guild has about Haskel Orme, and she is a little in awe of the party, and
+very much in awe of Wick. She does not show it. She makes lists. On the
+first day she makes a list of everything that is broken in the keep. It is
+four slates long.
+
+> Wick looks at Hesper. Hesper looks at Wick. "A new steward," says Wick
+> slowly. "Do you know the rules? Rule one. Do not let them oversleep."
+>
+> "I will write it down," says Hesper, and she does.
+
+### Teaching Strongholds
+
+> **Teach: Strongholds.** "This keep is yours now. In this game, a home
+> base has its own rules, called Strongholds. Your keep has three numbers,
+> called ratings. Walls is how safe it is. Coffers is how much money it makes.
+> Renown is how famous it is, and how many people want to come and help.
+> Each starts at 1. You can build rooms, and each room does something. Each
+> month, you take one turn for the keep: you collect money, you pay for the
+> keep, you give one order, and you roll to see what happens."
+
+Teach the rest step by step, as the players need it. The full rules are in
+Strongholds in the Game Master's Compendium. Here is what the players need
+today.
+
+#### Founding
+
+A new stronghold usually costs 2,000 GP. The party does not pay: the keep
+is a story reward. The characters took it back, and it was theirs to begin
+with.
+
+By the rules, the keep starts as a **Hold**. Its three ratings start at 1:
+
+| Rating | What it measures | What each level gives |
+|---|---|---|
+| Walls | Defense and safety | +1 to defense rolls, more guards |
+| Coffers | Income and trade | +50 GP income each month |
+| Renown | Reputation and influence | Followers, favors, and rumors |
+
+> Wick is offended. "A Hold? A HOLD? This is Dawnwatch Keep. It has KEEP in
+> the name." Hesper writes on her slate. "It says Hold in the rules," she
+> says. "We can make it a Keep. It costs money." Wick sulks for an hour.
+
+The tier of a stronghold equals its highest rating: Hold (1 to 2), Keep (3
+to 4), Citadel (5). So the party can make the keep a Keep again, if they
+raise one rating to 3.
+
+#### Rooms
+
+A stronghold has room slots equal to 2 + its total ratings. With three
+ratings at 1, the keep has 2 + 3 = **5 room slots**.
+
+Each room costs gold and time to build, and gives a benefit:
+
+| Room | Cost / Time | Benefit |
+|---|---|---|
+| Armory | 500 GP / 2 weeks | Gear the garrison: +1 Walls on defense rolls; craft mundane weapons at half price. |
+| Barracks | 400 GP / 2 weeks | House 12 guards. Needed for Walls 3 or more. |
+| Chapel | 600 GP / 3 weeks | Once each month, a free Revivify or Lesser Restoration; +1 to Renown rolls. |
+| Forge | 800 GP / 3 weeks | Craft armor and weapons at half price; craft Uncommon magic items in half the time. |
+| Garden | 300 GP / 2 weeks | Harvest 1d4 Potions of Healing or Healer's Honey each month. |
+| Library | 700 GP / 4 weeks | Advantage on research checks; copy spells at half cost. |
+| Market Hall | 800 GP / 4 weeks | +1 Coffers; buy and sell goods at a fair price without travel. |
+| Menagerie | 600 GP / 3 weeks | Raise and train mounts or beasts of CR 2 or lower. |
+| Scriptorium | 500 GP / 3 weeks | Scribe spell scrolls in half the time and at half the cost. |
+| Spy Network | 1,000 GP / 4 weeks | Once each month, learn one secret about a person or faction within 50 miles. |
+| Tavern | 400 GP / 2 weeks | +1 Renown; hear 1d4 rumors each month. |
+| Teleport Circle | 5,000 GP / 8 weeks | A permanent destination for Teleportation Circle. |
+| Vault | 1,500 GP / 4 weeks | Treasure stored here can't be stolen except by force; +1 Walls against thieves. |
+| Watchtower | 700 GP / 3 weeks | See threats coming: the stronghold is never surprised by an attack. |
+| Workshop | 600 GP / 3 weeks | Craft any tool-based item in half the time. |
+
+**The old rooms of the keep (a story benefit).** Dawnwatch Keep is old, and
+two of its rooms are still there, only broken: the **armory** and the
+**Chapel of Dawn**. In this book, the party can restore each of them at half
+the cost and in half the time (round up to whole weeks):
+
+- **Armory:** 250 GP and 1 week.
+- **Chapel:** 300 GP and 2 weeks.
+
+Each restored room still uses a room slot. This is a rule of this book, not
+of the Compendium. It rewards the party for taking back a place with a
+history.
+
+If the party found the brass key in the study, it can also build a **Vault**
+in the old strongroom for half the cost: 750 GP and 2 weeks.
+
+> **GM tip:** The Chapel of Dawn has the stone bowl of the Dawnfire. A
+> restored chapel does not light the bowl. If the players put the First Lamp
+> or another piece of the Dawnfire in the bowl, the bowl glows warm for a
+> moment, then goes cold again. Wick says: "It needs all of it. It needs the
+> whole fire." This is a question for Book Two. Do not answer it now.
+
+**Good first rooms.** If the players do not know what to build, Hesper
+suggests the armory and the chapel ("They are half price, and Wick wants his
+chapel back"), and a Watchtower ("The Hush came once. They will come again.").
+
+#### Upgrading ratings
+
+To raise a rating costs 1,000 GP × the new level, and it takes 2 weeks for
+each level of the new rating. The highest rating is 5.
+
+| Raise a rating | Cost | Time |
+|---|---|---|
+| From 1 to 2 | 2,000 GP | 4 weeks |
+| From 2 to 3 | 3,000 GP | 6 weeks |
+| From 3 to 4 | 4,000 GP | 8 weeks |
+| From 4 to 5 | 5,000 GP | 10 weeks |
+
+Each new level of a rating also gives one more room slot, because the room
+slots are 2 + the total of the ratings.
+
+> **GM tip:** Strongholds in the Game Master's Compendium says: "Raising a
+> rating costs 1,000 GP × the new level and takes 2 weeks per level." This
+> book reads "2 weeks per level" as 2 weeks for each level of the new
+> rating, as in the table. If your table reads it as 2 weeks for each step,
+> that is also fine. Choose one reading and keep to it.
+
+#### Followers
+
+A stronghold attracts followers equal to its Renown × 2. With Renown 1, the
+keep has **2 followers**:
+
+1. **Hesper Wren, the steward.** A steward runs the stronghold while the
+   party adventures. Without a steward, the party skips the order each
+   month. Hesper is the steward from now on.
+2. **One more.** If the party helped the shepherds in Scene 1, Edric Pole
+   comes back with his grandsons and keeps the gate. If not, a young pilgrim
+   from Saint Ivo's comes up the hill, sees the party, falls on her knees, and
+   asks to serve "the living saints". She is useful, and very tiring.
+
+When Renown goes up, more followers come. Name each one, and give each one
+a small story. A follower is a hook.
+
+### The first Monthly Turn
+
+At the start of each month in the story, or between adventures, the players
+take a Stronghold Turn. Play the first one at the table, step by step, so
+that the players learn it. Hesper reads each step from her slate.
+
+1. **Collect income:** 50 GP × Coffers, plus the benefits of the rooms. With
+   Coffers 1, that is 50 GP.
+2. **Pay upkeep:** 20 GP × the total of the ratings. With three ratings at
+   1, that is 60 GP. If the party does not pay, Renown goes down by 1.
+3. **Give one order.** Choose one:
+   - **Build:** start a room or a rating.
+   - **Recruit:** gain a follower.
+   - **Trade:** roll d20 + Coffers. On 15 or more, gain 1d6 × 100 GP.
+   - **Scout:** learn a rumor.
+   - **Celebrate:** spend 200 GP for +1 to the next Renown roll.
+4. **Roll for an event** on the d12 table below.
+
+> Hesper taps her slate. "Income: fifty. Upkeep: sixty. We are ten gold
+> pieces short this month." She looks up. "Before you say it: no, Wick does
+> not count as income."
+>
+> "I could," says Wick. "I could be a lighthouse. People would pay."
+
+> **Teach: the keep costs money.** "A stronghold is not free. Each month, it
+> costs a little. If it makes less than it costs, you pay the difference
+> from your own purses. Rooms and ratings help. A Market Hall gives +1
+> Coffers. So does raising Coffers. Or you can go on adventures and bring
+> back gold. That is what most heroes do."
+
+For the first turn, let the players choose any order. The event is fixed:
+it is an Attack (result 1). That is Scene 7. Do not roll. Tell the players:
+"The first month, I choose the event. From next month, we roll."
+
+### Events at Dawnwatch Keep
+
+Use this table for each Monthly Turn from the second month on. It is the
+d12 table of Strongholds, with the flavor of the keep and the Wolds. The
+results are the same as in the Compendium.
+
+| d12 | Event at Dawnwatch Keep |
+|---|---|
+| 1 | **Attack!** Hush raiders, wolves from the Wolds, or deserters from Gaunt strike at night. Roll d20 + Walls against DC 12 + half the party level. On a failure, the party loses a room for a month, or 1d6 × 100 GP. |
+| 2 | **Fire or flood.** The old well floods the armory, or a spark from the forge catches the roof. Pay 200 GP for each room, or one room is out of use for a month. |
+| 3 | **Thief in the walls.** A pilgrim takes "relics of the Sleepers" home in a pack: coins, crystal shards, a spoon. Lose 1d4 × 100 GP, unless the keep has a Vault or a Spy Network. |
+| 4 | **Petitioner.** A farmer from Brannock's Ford, a lost child, or a priest from Saint Ivo's asks for help. This is an adventure hook. |
+| 5–6 | **Quiet month.** Nothing unusual. The sheep come back to the hill. Wick counts them. |
+| 7 | **Traveling merchant.** A cart of the Lampwrights from Corrantey, or a tinker on the old road. Buy one Uncommon magic item at its list price. |
+| 8 | **Good harvest.** The wool of the Wolds sells well this year. Gain 1d4 × 100 GP. |
+| 9 | **Visiting noble.** An officer of Gaunt or a canon of the Church comes to see the living Sleepers. Roll d20 + Renown. On 15 or more, gain a favor. |
+| 10 | **New follower.** A skilled hireling asks to join: a mason, a cook, an old soldier, a young mage who wants to study the crystal. |
+| 11 | **Rival.** Gaunt, the Church, or the Hush makes a move against the keep. This is a story hook. Use the ranks of the party from Factions and Renown. |
+| 12 | **Fame.** The story of the keep spreads. +1 Renown (the highest is 5). |
+
+> **GM tip:** The stronghold is a story engine. Name the steward (Hesper),
+> give the gate a keeper, and let the events turn into adventures. A rival
+> who burns down the Garden is a better hook than any notice board. In
+> chapters 8 and 9, use at least one event each month as the start of a
+> scene. In chapter 10, the keep is the place where the party gathers its
+> allies.
