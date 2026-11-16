@@ -1893,3 +1893,88 @@ group that wants to play on before Book Two, or instead of it.
   people do strange things. A prophet in every town, a riot in every
   market, a new cult every season.
 - **The cloud in the north.** It grows. Book Two starts there.
+
+## Old Ostrey on the Road
+
+The land is full of things that the characters remember new. Use this
+table when the party travels, to show the three hundred years. Roll a
+d12, or choose one for each day of a trip.
+
+| d12 | What the party finds | What it was |
+|---|---|---|
+| 1 | A milestone, half sunk in the grass, with a number and the sun of Ostrey. | A mile stone of the king's road. The characters know the number. It is the miles to Kingsholm. |
+| 2 | A ring of tumbled stones on a hilltop. | A beacon tower. In the war, a chain of fires warned Kingsholm. A character may have lit this one. |
+| 3 | Two stone pillars in a field, with no wall and no gate. | The gate of a lord's house. The house is gone. The family is a name that nobody knows. |
+| 4 | A shrine of the Five with a much older stone bowl in the back of it. | A shrine of the Morning Flame. The new shrine was built around the old one. |
+| 5 | A grassy mound by a stream, with cut stones in it. | A mill. The characters ate its bread. |
+| 6 | A row of old oaks in a straight line across a wild field. | A hedge that a farmer planted three hundred years ago. The oaks grew from it. |
+| 7 | A rusty iron ring in a rock by a river. | A ferry rope ring. The ferry is gone. So is the road to it. |
+| 8 | A child's toy, a wooden knight, in a shop window. | It has the badge of the Dawnwatch. It is from today, and it is a figure of the Five. |
+| 9 | A carved stone in the wall of a barn: a sun with seven rays. | A stone of a Dawnwatch post. A patrol of the order slept here in the war. |
+| 10 | A grave in a village churchyard with a name that a character knows. | Not the same person. The name passed down a family for ten generations. |
+| 11 | A song that a farmer sings in a field. | A song of Ostrey, with the words worn down so far that only the tune is left. |
+| 12 | A road that ends in a lake. | The road is old. The lake is new, since the Grey Winter. |
+
+### Names for small places
+
+The book does not name every village, farm, and ruin. When you need a name,
+use the rule of the land: the names of today are worn-down forms of old
+names, of people, saints, rivers, and old words. A ferryman named Brannock
+made Brannock's Ford. The Field of the Five became Ashby Field.
+
+- **A village:** the name of its first family, or of its river, worn down.
+  Hallow's Bridge, Mossop, Tench End.
+- **A farm:** the name of the family, and a word for land. Kettle's Croft,
+  Orrin Hill.
+- **A ruin of Ostrey:** the name that the locals use, not the old name.
+  The Old Stones, Lord's Gate, the Burned Mill.
+
+Do not give a small place a name that explains itself, and do not join two
+English words into one name.
+
+## The Land through Book One
+
+The land changes as the story goes on. The days become shorter, the powers
+move, and the news of the Dawnwatch spreads. Use this table to set the
+mood of each chapter, and to answer the question "what is happening in
+the rest of the land now?"
+
+| After chapter | The days | The powers | What people say about the Five |
+|---|---|---|---|
+| 1 | A little short. Nobody notices. | Quiet. Gaunt drills. The Church prepares the feast. | Nothing new. The black noon is the news. |
+| 2 | The sun sets early in the Wolds. | Gaunt moves border stones. | "Strangers in old armor on the pilgrim road." |
+| 3 | Pilgrims bring lamps to the feast. | The Church has the Five. Gaunt hears of it within a week. | "The Five are awake! The Ember glowed!" |
+| 4 | Frost comes early. | The Church mourns the Ember, or celebrates its return. Gaunt sends an invitation. | "The Five fought demons in grey at Kell." |
+| 5 | The days are shorter than anybody remembers. | Gaunt and the Church both claim the Five. Letters fly. | "The Five are Gaunt's." "The Five are the Church's." |
+| 6 | Lamp oil is twice the price. | Corrantey tries to buy peace. Gaunt sends agents west. | "The Five have a talking lamp that is older than the city." |
+| 7 | Wick counts the minutes each morning. They are fewer. | The Hush is out of the keep. All three powers send envoys to the keep. | "The Five live in the old keep on the hill. Pilgrims go there now." |
+| 8 | Winter comes a month early. | Gaunt marches its army to the border. The Church calls its guard. | "The Five went into the drowned town and came back." |
+| 9 | The land sees it. Fear spreads. | War on Ashby Field, and then peace, or no peace. | "The Five chose a side." Or: "The Five stopped the war." |
+| 10 | The cloud in the north is on the horizon every day. | The powers learn what happened in Kingsholm, as much as the party tells them. | Whatever the party lets them say. |
+
+## People of the Land
+
+All the named people of Book One, in one place. The statblocks are in the
+appendix of people.
+
+| Name | Who they are | Where | Power | Chapters |
+|---|---|---|---|---|
+| Abbess Merrow | The head of the Church. Wants the party as living saints. | Saint Ivo's | The Church | 3, 9 |
+| Brother Cade | A priest who thinks that the party are impostors. Later an ally. | Saint Ivo's | The Church | 3, 4, 9 |
+| Corvin Lisle | An antiquary who buys old things of Ostrey. | Corrantey, on the road | Corrantey | 2, 3 |
+| Dace | A pedlar who sells "bones of the Five Sleepers". | The pilgrim road | None | 2, 3 |
+| Garret Pell | The leader of a troupe of actors who play the Dawnwatch. | Saint Ivo's | None | 3 |
+| Haskel Orme | The steward of Dawnwatch Keep, 300 years ago. Dead. He made Wick and wrote the lie. | Letters | Old Ostrey | 1, 7, 10 |
+| Magister Aud Brennet | The first war mage of Gaunt. Teaches a wrong "Dawnwatch spell". | Stannard | Gaunt | 5 |
+| Marshal Ide Gauntry | The ruler of Gaunt. | Stannard | Gaunt | 5, 9 |
+| Mother Sallow | The leader of the Hush. | Kell, the keep, Kingsholm | The Hush | 4, 7, 10 |
+| Osk | The enforcer of Mother Sallow. He does not speak. | With Mother Sallow | The Hush | 4, 7 |
+| Perrin Hale | The master of the Lampwrights. | Corrantey | Corrantey | 6, 7 |
+| Sergeant Maud Kettle | The ghost of a soldier of Ostrey. Teaches the old fighting ways. | Fennick | None | 8 |
+| Sir Garrath (Malgrath) | The first Dawnwatch. The Unlit King. Only his voice in Book One. | The black stone | None | 1, 4, 10 |
+| Tamsin | The old ferry woman. Kind, and she asks too many questions. | Brannock's Ford | None | 2 |
+| Tobin Gauntry | The son of the Marshal. He does not want a war. | Stannard | Gaunt | 5, 9 |
+| Wick | The talking lantern. | With the party | The Dawnwatch | All |
+
+> **Secret (chapter 10):** Do not show this table to the players. The
+> row of Sir Garrath gives away the twist.
