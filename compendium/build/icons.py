@@ -48,7 +48,8 @@ def icon(name, size=18, color="currentColor", sw=1.6):
             f'{P[name]}</svg>')
 
 
-def big_d20(size=260, stroke="#d6aa55"):
+def big_d20(size=260, stroke="#d6aa55", flat=False):
+    """flat=True: no glow, no shadow, and no transparency (for the black and white interior)."""
     """Large shaded d20 for covers: correct icosahedron silhouette, light from top-left."""
     T, UL, UR, LL, LR, B = (50, 3), (91, 26.5), (91, 73.5), (9, 73.5), (9, 26.5), (50, 97)
     UL, UR, LL, LR = (9, 26.5), (91, 26.5), (9, 73.5), (91, 73.5)
@@ -62,6 +63,17 @@ def big_d20(size=260, stroke="#d6aa55"):
     ]
     poly = lambda pts: " ".join(f"{x},{y}" for x, y in pts)
     body = "".join(f'<polygon points="{poly(p)}" fill="{c}" stroke="{stroke}" stroke-width="0.9" stroke-linejoin="round"/>' for p, c in faces)
+    if flat:
+        # Solid colors only. Lulu warns about transparency in an interior.
+        return f'''<svg width="{size}" height="{size}" viewBox="-6 -6 112 116" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <linearGradient id="face" x1="0.2" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#e2604f"/><stop offset="1" stop-color="#9c2a1f"/></linearGradient>
+</defs>{body}
+<text x="50" y="59" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="19" fill="#f8e6c0" stroke="#5a120c" stroke-width=".4">20</text>
+<text x="31" y="23" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="7" fill="#f8e6c0" transform="rotate(-30 31 23)">8</text>
+<text x="69" y="23" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="7" fill="#f8e6c0" transform="rotate(30 69 23)">14</text>
+<text x="50" y="84" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="7" fill="#f8e6c0" transform="rotate(180 50 82)">2</text>
+</svg>'''
     return f'''<svg width="{size}" height="{size}" viewBox="-6 -6 112 116" xmlns="http://www.w3.org/2000/svg">
 <defs>
  <linearGradient id="face" x1="0.2" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#e2604f"/><stop offset="1" stop-color="#9c2a1f"/></linearGradient>

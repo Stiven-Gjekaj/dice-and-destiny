@@ -98,7 +98,7 @@ def front(name):
     return f'''<section class="titlepage">
 <div class="kicker">Dice &amp; Destiny</div>
 <h1>{f["title"]}</h1><div class="rule"></div>
-<div>{_dark_text(gray(big_d20(150, "#111")))}</div>
+<div>{_dark_text(gray(big_d20(150, "#111", flat=True)))}</div>
 <div class="sub" style="margin-top:8mm">{f["sub"]}</div>
 <div class="compat">A rules-compatible guide for fifth edition (2024)</div></section>
 <section class="credits">
