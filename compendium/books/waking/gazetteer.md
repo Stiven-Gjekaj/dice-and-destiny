@@ -175,7 +175,7 @@ The town of Saint Ivo's grew around the shrine. The Church of the Five
 Sleepers counts its years from this time.
 
 The Church never knew where the Five slept. Its books say "under a hill
-in the east". Most priests think that it is a holy story, not a place.
+somewhere in the north". Most priests think that it is a holy story, not a place.
 
 ### About year 150: the Founding of Gaunt
 
@@ -283,8 +283,10 @@ that the dawn comes late. Wick notices first. He counts.
 
 ### The faith of today
 
-The Morning Flame is still the god of the dawn, but most people pray to
-the Five Sleepers now. The Church teaches that the Five sleep in the light
+The Morning Flame is half forgotten. The Church keeps a saint's day for
+it, and old people still face east at dawn, but people pray to the Five
+Sleepers now. The priests of the Church wear grey and blue, not the red
+and gold of Ostrey. The Church teaches that the Five sleep in the light
 of the Morning Flame, and that they will wake on the day of the last dark
 to save the land. Every village has a shrine of the Five: five candles in
 a niche, and five small figures in wood or clay.
@@ -311,7 +313,7 @@ formal, like a priest reading from an old book.
 
 | Old Ostrey | Today |
 |---|---|
-| "Light to you." "And dawn to you." | "Lightye." "Dawn." |
+| "Light to you." "And dawn to you." | "Wake well." "And see the morning." The greeting comes from the Sleepers. |
 | "Dark take it." | "Darkit." |
 | A sun, a star, a bit | A gold piece, a silver, a copper |
 | The March of Gauntry | Gaunt |

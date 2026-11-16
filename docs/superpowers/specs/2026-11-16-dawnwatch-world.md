@@ -149,8 +149,8 @@ road and about 16 miles off the road.
 
 The gazetteer sets these facts. Each writer uses them.
 
-- **The greeting today:** "Lightye." The answer is "Dawn." The small curse
-  is "Darkit."
+- **The greeting today:** "Wake well." The answer is "And see the
+  morning." It comes from the Sleepers. The small curse is "Darkit."
 - **The coins today:** gold, silver, and copper pieces. Corrantey stamps a
   lamp on its coins. Gaunt stamps a mailed fist. A collector pays 5 GP or
   more for a gold sun of Ostrey.
@@ -158,8 +158,10 @@ The gazetteer sets these facts. Each writer uses them.
   wrong. Nobody knows that the Spark is an elf.
 - **The holy days:** the Longest Night is now the Vigil of the Five. The
   great feast is the Feast of the Five Sleepers in Saint Ivo's.
-- **The Church books** say that the Five sleep "under a hill in the east".
-  The Church does not know about Dawnwatch Keep.
+- **The Church books** say that the Five sleep "under a hill somewhere in
+  the north". The Church does not know about Dawnwatch Keep.
+- **The priests of the Church** wear grey and blue. The Morning Flame is
+  half forgotten. The Church keeps a saint's day for it.
 - **The Lampwrights** keep a book of the times of sunrise and sunset. They
   know that the days become shorter.
 - **The sky at noon:** on the day of the Waking, the sky over the Grey
