@@ -55,7 +55,7 @@ NPCS = [
 ("A young Lampwright who becomes the steward of Dawnwatch Keep. Chapters 7 and 10.", "Hesper Wren"),
 ("An old shepherd of the Wolds. The Hush burned his farm. Chapter 7.", "Edric Pole"),
 ("An old eel catcher of the Low Fen. She takes the party to Fennick. Chapter 8.", "Ada Ferrow"),
-("The aide of Marshal Gauntry, and a secret agent of the Hush. Use the Hush Dusk Priest when he is unmasked. Chapter 9.", "Lieutenant Roe"),
+("The aide of Marshal Gauntry, and a secret agent of the Hush. Use the Hush Dusk Priest when he is unmasked. Chapters 5 and 9.", "Lieutenant Roe"),
 ("The secretary of Abbess Merrow, and a secret agent of the Hush. Use the Hush Dusk Priest when he is unmasked. Chapter 9.", "Brother Ansel"),
 ("A young soldier of the levy of Saint Ivo's, of the family of the Shield's promise. Use the Line Pikeman. Chapter 9.", "Corporal Lenna"),
 ]
