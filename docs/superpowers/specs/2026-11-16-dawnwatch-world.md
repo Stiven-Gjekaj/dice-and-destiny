@@ -61,6 +61,29 @@ east, y goes south. The maps lane uses these numbers.
 | The Low Fen | 185 to 235 | 225 to 275 | Marsh and black water in the south-east. |
 | The Western Sea | 0 to 20 | all | The sea on the west coast. |
 
+### The map 300 years ago
+
+The map of Ostrey in the player's guide uses these places. The list in
+`compendium/content/dawnwatch/places.py` holds all the places of both
+maps.
+
+| Place then | x | y | Place today |
+|---|---|---|---|
+| Ostrey | 20 to 240 | 60 to 320 | The land. People still say "old Ostrey". |
+| Kingsholm, a whole city | 125 | 120 | Kingsholm, in ruins |
+| Caer Dunholm | 120 | 20 | Coldharrow |
+| The shrine of Saint Ivo | 150 | 220 | Saint Ivo's |
+| The March of Gauntry | 70 to 190 | 255 to 320 | Gaunt |
+| Corrin, a sea town | 33 | 193 | Corrantey |
+| Tey, a sea town | 35 | 207 | Corrantey |
+| Fennick, a town in farmland | 205 | 245 | Fennick, drowned in the Low Fen |
+
+- Before the flood of the Grey Winter, the Low Fen was the farmland of
+  Fennick. The flood made the marsh.
+- Brannock's Ford, Stannard, and Ashby Field are not on the old map.
+- Gaunt has the same land as the March of Gauntry: x 70 to 190, y 255 to
+  320. Ashby Field is on its north border.
+
 ### Rivers
 
 - **The River Dunn** comes down from the Grey Teeth, passes Kingsholm, and
