@@ -56,6 +56,7 @@ east, y goes south. The maps lane uses these numbers.
 | The shrine at Kell | 110 | 205 | An old shrine of Ostrey on a hill. Chapter 4. |
 | Ashby Field | 140 | 250 | Open land on the border of Gaunt and Saint Ivo's. Chapter 9. |
 | Stannard | 130 | 285 | The seat of the Gauntry family. Chapter 5. |
+| Wenlow | 148 | 200 | A small village of the Church, two days south of the keep. The Hush burned its chapel. Chapter 9. |
 | Corrantey | 35 | 200 | The city on the west coast, at the mouths of the Corrin and the Tey. Chapter 6. |
 | Fennick | 205 | 245 | A drowned town in the Low Fen. Chapter 8. |
 | The Low Fen | 185 to 235 | 225 to 275 | Marsh and black water in the south-east. |
@@ -320,6 +321,9 @@ the person in more than one scene.
 | Edric Pole | An old shepherd of the Wolds. The Hush burned his farm. He can keep the gate of the keep. | 7 | No |
 | Hesper Wren | A young Lampwright, sent by Perrin Hale. She becomes the steward of Dawnwatch Keep when the party takes it back. | 7, 10 | No |
 | Ada Ferrow | An old eel catcher of the Low Fen. She takes the party to Fennick by boat. Her brother Tam died there. | 8 | No |
+| Lieutenant Roe | The aide of Marshal Gauntry. A secret agent of the Hush. | 9 | Yes (Hush Dusk Priest) |
+| Brother Ansel | The secretary of Abbess Merrow. A secret agent of the Hush. | 9 | Yes (Hush Dusk Priest) |
+| Corporal Lenna | A young soldier of the levy of Saint Ivo's. Her family name is the family of the person of the Shield's promise. | 9 | Yes (Line Pikeman) |
 | Sergeant Maud Kettle | The ghost of a soldier of Ostrey in Fennick. She teaches the old fighting ways. | 8 | Yes |
 | Sir Garrath (Malgrath) | The first Dawnwatch. The Unlit King. Only his voice in Book One. | 1, 4, 10 | No (Book Two) |
 
