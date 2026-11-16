@@ -12,7 +12,10 @@ import sys
 
 # Caladea, Inter, and Liberation Serif set the text of the books.
 # DejaVu Sans gives some symbols on the covers, for example the diamond on the spine.
-ALLOWED = {"Caladea", "Inter", "LiberationSerif", "DejaVuSans"}
+# IM Fell English sets the labels of the final maps of The Dawnwatch. A PDF names it by the
+# PostScript name of each file: IM_FELL_English_Roman, IM_FELL_English_Italic, IM_FELL_English_SC.
+ALLOWED = {"Caladea", "Inter", "LiberationSerif", "DejaVuSans",
+           "IM_FELL_English_Roman", "IM_FELL_English_Italic", "IM_FELL_English_SC"}
 
 
 def fonts(pdffonts_text):

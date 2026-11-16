@@ -2,6 +2,13 @@
    Loaded after book.css. bw.css or screen.css comes after it and sets the colors
    of the variables, so these rules work in print and on the screen. */
 
+/* IM Fell English sets the labels of the final maps (compendium/maps/<id>.svg).
+   The files are in books/fonts (SIL Open Font License, OFL-IMFellEnglish.txt), so each build
+   uses the same font and does not depend on a system font. */
+@font-face { font-family: "IM Fell English"; src: url("fonts/IMFellEnglish-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "IM Fell English"; src: url("fonts/IMFellEnglish-Italic.ttf") format("truetype"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "IM Fell English SC"; src: url("fonts/IMFellEnglishSC-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; }
+
 /* Read-aloud text: the GM reads it to the players. */
 blockquote.read-aloud {
   margin: 3mm 0; padding: 2.4mm 4mm 2.4mm 4.4mm;

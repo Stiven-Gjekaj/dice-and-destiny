@@ -19,3 +19,18 @@ def test_a_type3_font_fails_even_when_the_family_is_allowed():
 
 def test_an_unknown_family_fails():
     assert len(problems(fonts(("AAAAAA+DejaVuSerif", "CID TrueType")))) == 1
+
+
+def test_im_fell_english_of_the_maps_passes():
+    rows = [("AAAAAA+IM_FELL_English_Roman", "CID TrueType"), ("BAAAAA+IM_FELL_English_Italic", "CID TrueType"),
+            ("CAAAAA+IM_FELL_English_SC", "TrueType")]
+    assert problems(fonts(*rows)) == []
+
+
+def test_another_new_family_still_fails_next_to_im_fell_english():
+    rows = [("AAAAAA+IM_FELL_English_Roman", "CID TrueType"), ("BAAAAA+EBGaramond-Regular", "CID TrueType")]
+    assert problems(fonts(*rows)) == ["uses EBGaramond"]
+
+
+def test_im_fell_english_as_type3_fails():
+    assert problems(fonts(("AAAAAA+IM_FELL_English_Roman", "Type 3"))) == ["has IM_FELL_English_Roman as a Type 3 font"]
