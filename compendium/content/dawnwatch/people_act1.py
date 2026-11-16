@@ -22,8 +22,9 @@ NPCS = [
    senses="Darkvision 60 ft.",
    traits=[("Silent", "Osk makes no sound when he moves, and he has Advantage on Dexterity (Stealth) checks in Darkness.")],
    attacks=[("Iron Maul", "m", "2d6", "Bludgeoning")], multi=2,
-   bonus=[("Carry Off", "Osk makes one Strength (Athletics) check to grapple a Medium or smaller creature within 5 feet of him (escape {dc:str}). "
-           "While he grapples a creature this way, he can still move at his full Speed.")],
+   bonus=[("Carry Off", "One Medium or smaller creature within 5 feet of Osk makes a {dc:str} Strength or Dexterity saving throw. "
+           "On a failed save, the creature has the Grappled condition (escape {dc:str}). "
+           "While Osk grapples a creature this way, he moves at his full Speed.")],
    react=[("Her Shield", "When a creature that Osk can see hits Mother Sallow within 5 feet of him with an attack, Osk becomes the target of the attack instead.")],
    desc="A grey giant of a man, eight feet tall, with a shaved head and a sewn-up mouth. Nobody knows if the Hush did it, or if he did it himself.")),
 ("The leader of the Hush, the cult of the Unlit King. She escapes at the end of Act I. Chapters 4, 7, and 10.",
