@@ -1350,3 +1350,107 @@ fights to keep the Ember. From chapter 7, it fights to kill.
 > wrong that the Unlit King only wants to rest it. Garrath thinks that a
 > sun that goes out and burns again can last. The cost is each living
 > thing under the sun.
+
+## Rumors
+
+People talk. Use these tables when the characters ask for news, buy a
+round, or sit by the road with pilgrims. Roll a d10, or choose. Each rumor
+says how true it is:
+
+- **True.** It is true. It may lead to a chapter, a seed, or a secret.
+- **Partly.** Some of it is true. The column says which part.
+- **False.** It is wrong, but people believe it. It shows how the land
+  thinks.
+
+A rumor that points to a secret does not tell the secret. It only lets
+the players feel that something is there.
+
+### The Wolds and Brannock's Ford
+
+| d10 | Rumor | How true |
+|---|---|---|
+| 1 | "The Five sleep under the hill with the ruined keep. My nan said so." | True. Nobody believes it. |
+| 2 | "There were lights at the old keep this spring. Grey lights, if a light can be grey." | True. The Hush came to put out the Dawnfire. |
+| 3 | "Somebody is digging in the barrow on the hill and selling what he finds." | True. Dace. Chapter 2. |
+| 4 | "Tamsin at the ferry knows more about the keep than she says." | True. Her family kept the last watch there. |
+| 5 | "On the day the sky went black at noon, every dog in the Wolds howled at the north." | True. |
+| 6 | "The sheep will not graze on the north side of the keep's hill any more." | Partly. They graze near the Hall of Sleepers again now that it is open. They avoid the chapel. |
+| 7 | "Grey folk paid for a boat in old coins and took it up the river at night." | True. The Hush. Chapter 2. |
+| 8 | "The standing stones move on the Vigil of the Five. Count them and see." | False. Shepherds count badly after the Vigil ale. |
+| 9 | "A pedlar's bones of the Five cured my cousin's cough." | False. The cough went away by itself. |
+| 10 | "The Sleepers will wake when the Unlit King returns. That is what the black noon was." | True, and nobody who says it really believes it. |
+
+### Saint Ivo's and the middle land
+
+| d10 | Rumor | How true |
+|---|---|---|
+| 1 | "The Abbess has a chapter of the Book of the Vigil that she never reads aloud." | True. See the Church. |
+| 2 | "The Ember of Saint Ivo glowed brighter on the day of the black noon." | True. It felt the keep go dark. |
+| 3 | "Garret Pell's Shield cries real tears in the last act. He cuts an onion backstage." | Partly. He cried real tears once, twenty years ago. Now it is the onion. |
+| 4 | "Gaunt soldiers moved the border stones at Ashby Field again. Three fields this time." | True. Chapters 5 and 9. |
+| 5 | "Brother Cade sent the last false saint home with a black eye." | True. He is not proud of it. |
+| 6 | "The window of the Light's Sign in the great church weeps on the Vigil of the Five." | Partly. Water comes in at a crack in the lead. The window is real. Chapter 3. |
+| 7 | "There is a spy of Gaunt in the house of the Abbess." | True. There is also a spy of the Hush, and neither knows about the other. |
+| 8 | "Somebody stole candles from every shrine on the road to Kell. Not the candles. Only the flames." | True. The Hush. Chapter 4. |
+| 9 | "The Five will come back at the feast this year. A child dreamed it." | True, and the town laughs at it until chapter 3. |
+| 10 | "The old shrine at Kell is haunted by an old priest who keeps a candle that will not light." | Partly. The candle is real. The priest is not there. The Hush is. |
+
+### Gaunt and the south
+
+| d10 | Rumor | How true |
+|---|---|---|
+| 1 | "The Marshal keeps an empty pole in her hall for the banner of Ostrey." | True. |
+| 2 | "Tobin Gauntry said at dinner that a war with the Church is a war with our own mothers." | True. His mother did not speak to him for a week. |
+| 3 | "The war mages have a spell from the Dawnwatch itself. It brings the dawn at midnight." | Partly. They have a spell. It does not do that. Chapter 5. |
+| 4 | "The ring that proves the Gauntry claim was made in Corrantey, a hundred years ago." | Partly. The ring is old. The letter is the forgery. See the seeds. |
+| 5 | "The army will march north in the spring." | True. Chapter 9. |
+| 6 | "A soldier who shows fear in Stannard loses his boots." | False. He loses his pay for a week. |
+| 7 | "The Marshal has never lost a battle because she has never fought a fair one." | Partly. She has never fought a fair one. |
+| 8 | "Agents of Gaunt are on the road to Corrantey with a lot of gold and no goods." | True. They want the First Lamp. Chapter 6. |
+| 9 | "The farmers on Ashby Field plow up arrowheads, and the arrowheads are warm in winter." | False. They are ordinary arrowheads. The story is good, though. |
+| 10 | "A grey preacher in the barracks says that the short days are not the end. He says that they are the cure." | True. The Hush, in Stannard. |
+
+### Corrantey and the coast
+
+| d10 | Rumor | How true |
+|---|---|---|
+| 1 | "The Lampwrights keep a lamp that has burned for three hundred years with no oil." | True. The First Lamp. Chapter 6. |
+| 2 | "Lamp oil costs twice what it cost ten years ago, and the council likes it that way." | True. |
+| 3 | "An apprentice of the Lampwrights ran away with a book of numbers, and the guild is frightened." | True. The book of sunrise and sunset. See the seeds. |
+| 4 | "A light on the cliffs south of the city brings ships onto the rocks." | True. See the seeds. |
+| 5 | "Smugglers land at the mouth of the Dunn with silver from the dead city." | True. Scavengers from Kingsholm. |
+| 6 | "Corvin Lisle pays more for an old coin of Ostrey than the gold is worth." | True. Chapter 2. |
+| 7 | "The three theaters are each going to play the Five this winter, and each says that its Five is the true one." | True. |
+| 8 | "Perrin Hale has not slept since the black noon. He sits up with the First Lamp." | Partly. He sleeps. Badly. |
+| 9 | "Sailors from the far south say that their days are short too." | True. It is not only the land. |
+| 10 | "The council will vote to buy an army." | False. The council will vote to talk about voting to buy an army. |
+
+### The Low Fen
+
+| d10 | Rumor | How true |
+|---|---|---|
+| 1 | "The bell of the drowned church rings on the night of the flood every year." | True. Chapter 8. |
+| 2 | "A soldier walks the top of the drowned tower and calls the watch." | True. Sergeant Maud Kettle. Chapter 8. |
+| 3 | "Follow the lamps of the drowned and you join them." | Partly. Some of the lights are the dead of Fennick. Some are worse. |
+| 4 | "There is a light under the water in Fennick. Not a reflection. A light." | True. The piece of the Dawnfire. Chapter 8. |
+| 5 | "The fen folk drown strangers who ask too many questions." | False. They only let them get lost. |
+| 6 | "The old dikes are safe to walk if you keep to the willow line." | True. A good tip for the Journeys rules. |
+| 7 | "Grey folk in a flat boat asked the way to Fennick last month. Nobody told them." | True. The Hush. Somebody will tell them eventually. |
+| 8 | "Fennick ale was the best in Ostrey. There are still barrels in the cellars under the water." | True. Nobody has ever opened one. |
+| 9 | "The water came up in one night because the people of Fennick angered the Five." | False. The dikes failed. |
+| 10 | "An eel as long as a barge lives in the market square of Fennick." | Partly. It is as long as a cart. |
+
+### The north
+
+| d10 | Rumor | How true |
+|---|---|---|
+| 1 | "The cloud over the mountains has not moved since the black noon." | True. |
+| 2 | "Nobody comes back from Kingsholm with a stone of the city. They die within the year." | False. But the scavengers have stopped coming back for other reasons. |
+| 3 | "There are grey folk in the ruins of the old capital. They carry no lights." | True. The Hush. Chapter 10. |
+| 4 | "In the old square of Kingsholm is a statue of a knight with no face." | True. Chapter 10. |
+| 5 | "The goliaths of the high passes have a song about the Unlit King that they will not sing to a lowlander." | True. See the seeds. |
+| 6 | "The wolves came south early this year, and some of them had no eyes." | True. |
+| 7 | "The dwarf gates under the Grey Teeth opened for one night after the black noon." | Partly. A dwarf gate opened. Nobody saw who came out. See the seeds. |
+| 8 | "The River Dunn runs cold in summer now." | True. |
+| 9 | "The old king of Ostrey sits on his throne under the moss and waits for an heir." | False. An oak grows where the throne was. |
+| 10 | "Under the palace hill of Kingsholm is a door that no army could open." | True. Chapter 10. |
