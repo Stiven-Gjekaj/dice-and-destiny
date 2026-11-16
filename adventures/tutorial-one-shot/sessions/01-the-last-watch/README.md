@@ -668,7 +668,7 @@ keep it.
 >
 > You stand on a hill, at the top of a ruin. The keep was once a great
 > fortress. Now it is a few broken walls with trees growing through them.
-> Below the hill, where the old market town stood, there is a forest. Far away
+> Below the hill, where the keep town stood, there is a forest. Far away
 > is a small village that you do not know. Smoke comes from its chimneys.
 >
 > Wick looks at the trees for a long time. "Ah," says Wick. "So it was
