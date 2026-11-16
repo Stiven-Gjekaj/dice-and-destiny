@@ -404,7 +404,8 @@ players can see the costs and plan.
 > 2,000 GP and 50 workdays to craft. The recipe costs 1,610 GP in all (1,100
 > GP in gold and 510 GP in materials) and takes 40 workdays. If the party
 > harvests the Storm Pearl itself, it pays only 1,110 GP. That is the small
-> saving that the system promises: a quarter of the cost, never more.
+> saving that the system promises: about a quarter of the cost of a Rare
+> item, never more.
 
 ### Who Does the Work
 
