@@ -712,18 +712,23 @@ have it.
 
 ### Rewards
 
-- **The Dawnwatch Sigil:** Each character finds a silver brooch with a sun on
-  it, in the pocket of their old uniform. It is a common magic item. While a
-  character wears it, they always know which way is east. One time per Long
-  Rest, when the character makes a death saving throw, the character can
-  treat a roll of 9 or lower as a 10.
-- **Old coins:** The 15 gold coins from the armory are three hundred years
-  old. A collector in the village pays 50 gold pieces for them.
+- **Scroll of the Last Watch:** Each character finds one in the pocket of
+  their old uniform. It is a Common magic item from Original Magic Items in
+  the Game Master's Compendium. As a Bonus Action, you read it over a
+  creature that has 0 Hit Points and isn't dead. The creature becomes Stable.
+  Then the scroll turns to dust. Say: "The steward knew what you would need."
+- **Old coins:** The 15 GP from the armory are three hundred years old, but
+  gold is still gold.
 - **Wick:** Wick goes with the party. Wick is a friend, a light, and a guide.
 
 > **Teach: experience and levels.** "When characters survive danger, they
 > get experience points, or XP. With enough XP, they go up a level. You go to
 > level 2 now."
+
+This tutorial uses milestone levels: the characters go up a level at the end
+of a big story moment. The two fights give less than the 300 XP that level 2
+needs. Milestone levels are in Levels, XP & Progression in the Game Master's
+Compendium.
 
 ### Level up
 
@@ -767,3 +772,9 @@ If the players want more, here are hooks for a second session:
   hall of sleepers. Are there other Dawnwatch groups? Are they awake?
 - **The "Before" answers:** Use the answers from Scene 1. The promise, the
   stolen thing, and the sign from the god can each become a quest.
+- **A Legend path:** For a longer game, look at Legend Paths in the Player's
+  Compendium, and Running Legend Paths in the Game Master's Compendium. The
+  Deathless path fits the Dawnwatch well: its deeds are to survive certain
+  death and to come back from the dead. Three hundred years in crystal is a
+  good start. Do not add the rules in the tutorial. Only tell the players
+  that the path exists.
