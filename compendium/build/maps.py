@@ -19,6 +19,7 @@ Open the HTML page in Chrome, or add --png to write a PNG of each map.
 import math
 import os
 import random
+import re
 import subprocess
 import sys
 from xml.sax.saxutils import escape
@@ -760,17 +761,57 @@ class _Map:
         return "\n".join(self.out)
 
 
+# The final maps from the map tool. A file <id>.svg here replaces the preview.
+MAP_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "maps")
+
+_BLACK_WHITE = {"#000", "#000000", "black", "#fff", "#ffffff", "white", "none"}
+_NOT_FOR_PRINT = ("opacity", "rgba(", "hsla(", "<filter", "filter:", "<mask", "mask=",
+                  "Gradient", "<image")
+
+
+def check_print(svg, source):
+    """Raise ValueError if the SVG has transparency, a grey or colour fill, or outlined text.
+
+    Lulu prints the interior in black and white and warns about transparency.
+    Chrome prints outlined text as a Type 3 font.
+    """
+    for word in _NOT_FOR_PRINT:
+        if word in svg:
+            raise ValueError(f"{source}: {word.strip('<(:=')!r} is not allowed in a printed map")
+    colours = re.findall(r'\b(?:fill|stroke|color)\s*[=:]\s*"?\s*([^";>]+)', svg)
+    for c in colours:
+        c = c.strip().lower()
+        if c not in _BLACK_WHITE and not c.startswith("url("):
+            raise ValueError(f"{source}: the colour {c!r} is not black or white")
+    for tag in re.findall(r"<text\b[^>]*>", svg):
+        if re.search(r'\bstroke\s*[=:]\s*"?\s*(?!none)[#\w]', tag):
+            raise ValueError(f"{source}: a text has an outline")
+    return svg
+
+
+def map_file(map_id):
+    """The path of the final map of map_id. The file can be missing."""
+    return os.path.join(MAP_DIR, f"{map_id}.svg")
+
+
 def map_svg(map_id, size=None):
     """Return the SVG of a map as a string.
 
     map_id is one of MAP_IDS. size is "page" or "half". With no size, the
     map uses its own size from MAPS.
+
+    If compendium/maps/<map_id>.svg exists, return that file. Else return the
+    drawn preview. Both must pass check_print().
     """
     if map_id not in MAPS:
         raise KeyError(f"unknown map {map_id!r}; the maps are {', '.join(MAP_IDS)}")
     if size is not None and size not in SIZES:
         raise ValueError(f"unknown map size {size!r}")
-    return _Map(map_id, size).render()
+    path = map_file(map_id)
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            return check_print(f.read(), path)
+    return check_print(_Map(map_id, size).render(), f"the preview of {map_id}")
 
 
 def write_previews(folder, png=False):

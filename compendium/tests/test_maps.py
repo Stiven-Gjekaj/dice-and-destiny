@@ -1,4 +1,5 @@
 """Tests for the maps of The Dawnwatch. The interior prints in black and white, with no transparency."""
+import os
 import re
 import xml.etree.ElementTree as ET
 
@@ -8,6 +9,13 @@ import maps
 from content.dawnwatch import places as places_module
 
 NS = "{http://www.w3.org/2000/svg}"
+REAL_MAP_DIR = maps.MAP_DIR
+
+
+@pytest.fixture(autouse=True)
+def previews_only(tmp_path_factory, monkeypatch):
+    """Test the drawn previews. A final map in compendium/maps/ must not change these tests."""
+    monkeypatch.setattr(maps, "MAP_DIR", str(tmp_path_factory.mktemp("no-final-maps")))
 
 
 def labels(svg):
@@ -150,3 +158,46 @@ def test_write_previews_writes_each_map(tmp_path):
         assert svg == maps.map_svg(map_id)
         assert (tmp_path / f"{map_id}.html").exists()
     assert (tmp_path / "index.html").read_text().count("<svg") == len(maps.MAP_IDS)
+
+
+FINAL = ('<svg xmlns="http://www.w3.org/2000/svg" width="167mm" height="250mm" viewBox="0 0 167 250">'
+         '<rect width="167" height="250" fill="white"/><path d="M0,0L10,10" stroke="#000000"/>'
+         '<text x="5" y="5" font-family="Caladea" fill="black">Final map</text></svg>')
+
+
+def test_a_file_in_the_map_folder_replaces_the_preview(tmp_path, monkeypatch):
+    monkeypatch.setattr(maps, "MAP_DIR", str(tmp_path))
+    (tmp_path / "act-1.svg").write_text(FINAL)
+    assert maps.map_svg("act-1") == FINAL
+    assert maps.map_svg("act-2") != FINAL
+    assert "dw-map" in maps.map_svg("act-2")
+
+
+def test_with_no_file_the_build_draws_the_preview(tmp_path, monkeypatch):
+    monkeypatch.setattr(maps, "MAP_DIR", str(tmp_path))
+    assert 'class="dw-map"' in maps.map_svg("act-1")
+
+
+@pytest.mark.parametrize("bad", [
+    '<rect fill="#888"/>',
+    '<rect fill="grey"/>',
+    '<rect style="fill:#cccccc"/>',
+    '<rect fill="#000" opacity=".5"/>',
+    '<rect fill="#000" fill-opacity=".5"/>',
+    '<rect fill="rgba(0,0,0,.5)"/>',
+    '<defs><linearGradient id="g"/></defs>',
+    '<text stroke="#000">Outline</text>',
+])
+def test_a_map_file_that_does_not_print_is_refused(tmp_path, monkeypatch, bad):
+    monkeypatch.setattr(maps, "MAP_DIR", str(tmp_path))
+    (tmp_path / "act-1.svg").write_text(FINAL.replace("</svg>", bad + "</svg>"))
+    with pytest.raises(ValueError):
+        maps.map_svg("act-1")
+
+
+@pytest.mark.parametrize("map_id", maps.MAP_IDS)
+def test_each_final_map_in_the_repository_prints(map_id, monkeypatch):
+    monkeypatch.setattr(maps, "MAP_DIR", REAL_MAP_DIR)
+    if not os.path.exists(maps.map_file(map_id)):
+        pytest.skip("no final map yet")
+    ET.fromstring(maps.map_svg(map_id))
