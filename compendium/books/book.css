@@ -153,3 +153,6 @@ table.pantheon-table { break-inside: avoid; }
 
 /* keep each downtime table in one piece */
 table.downtime-table { break-inside: avoid; }
+
+/* keep the name and the summary of a table set with its first table */
+.compendium .table-set .ts-head { break-inside: avoid; }

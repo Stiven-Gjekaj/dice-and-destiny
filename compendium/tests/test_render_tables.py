@@ -54,6 +54,13 @@ def test_set_html_escapes_text_and_shows_bold_labels():
     assert "<b>Wolves</b> at night" in out
 
 
+def test_set_html_keeps_the_name_and_the_summary_with_the_first_table_only():
+    out = set_html(make_set())
+    head = out[out.index('<div class="ts-head">'):out.index("</div>")]
+    assert "Test Set" in head and "A set for the tests." in head and "d4 Trouble" in head
+    assert "d6 Trade" not in head
+
+
 def test_set_html_stops_on_a_bad_set():
     with pytest.raises(ValueError):
         set_html(make_set(theme="Weather"))

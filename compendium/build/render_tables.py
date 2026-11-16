@@ -56,11 +56,16 @@ def table_html(die, title, entries):
 
 
 def set_html(t):
-    """One table set: the name, a short summary, and its tables. The theme is the heading of the group."""
+    """One table set: the name, a short summary, and its tables. The theme is the heading of the group.
+
+    The name, the summary, and the first table are in one block, so that a page break does not
+    leave the name alone at the bottom of a column.
+    """
     _stop_on(set_errors(t))
-    out = [f'<div class="entry table-set"><h4 class="sp-name">{E(t["name"])}</h4>',
-           f'<p><i>{feature_text(t["summary"])}</i></p>']
-    out += [table_html(*table) for table in t["tables"]]
+    tables = [table_html(*table) for table in t["tables"]]
+    out = [f'<div class="entry table-set"><div class="ts-head"><h4 class="sp-name">{E(t["name"])}</h4>',
+           f'<p><i>{feature_text(t["summary"])}</i></p>', tables[0], "</div>"]
+    out += tables[1:]
     out.append("</div>")
     return "\n".join(out)
 
