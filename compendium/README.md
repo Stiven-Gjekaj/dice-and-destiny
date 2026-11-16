@@ -32,8 +32,8 @@ You need these tools:
   the table of contents.
 - The fonts Caladea and Liberation Serif. On Ubuntu, install
   `fonts-crosextra-caladea` and `fonts-liberation`. Other fonts change the
-  page breaks. Inter is in `books/fonts/` (TrueType), so you do not install
-  it.
+  page breaks. Inter and IM Fell English are in `books/fonts/` (TrueType), so
+  you do not install them.
 
 Then run these commands:
 
@@ -118,7 +118,12 @@ A chapter puts a map in the book with the directive `{{map: id}}`.
   transparency.
 - Do not give a text an outline (`stroke`). Chrome prints outlined text as a
   Type 3 font.
-- Use the book fonts for the labels: Caladea and Inter.
+- Use IM Fell English for the labels (the font families `IM Fell English`
+  and `IM Fell English SC`, regular or italic). Use Caladea or Inter for any
+  other text. Do not use another font, for example EB Garamond. The font
+  check of the build refuses it.
+- The IM Fell English files are in `books/fonts/`, and `books/waking.css`
+  loads them. You do not install the font.
 - The build refuses a file that breaks these rules.
 
 ### The places for the map tool

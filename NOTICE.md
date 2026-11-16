@@ -51,6 +51,12 @@ TrueType. Inter is copyright (c) 2016 The Inter Project Authors and is under
 the SIL Open Font License 1.1. See
 [`compendium/books/fonts/OFL.txt`](compendium/books/fonts/OFL.txt).
 
+The Dawnwatch books include the IM Fell English and IM Fell English SC fonts
+in `compendium/books/fonts/`, from the Google Fonts repository. The maps use
+them for the labels. IM Fell English is copyright (c) 2010 Igino Marini and is
+under the SIL Open Font License 1.1. See
+[`compendium/books/fonts/OFL-IMFellEnglish.txt`](compendium/books/fonts/OFL-IMFellEnglish.txt).
+
 ## Other references
 
 The encounter-building and improvised-damage tables follow the 2024 Dungeon
