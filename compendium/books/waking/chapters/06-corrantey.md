@@ -149,7 +149,7 @@ a d6 or choose.
 | d6 | Rumor |
 |---|---|
 | 1 | "The First Lamp has burned since the time of old Ostrey. No oil. No wick. Nobody knows how. The Lampwrights say that if it goes out, the city falls into the sea." (The first part is true.) |
-| 2 | "The Gaunt ships want the Lamp. The marshal wants to put it on a pole at the front of her army, like a flag." (Close to the truth.) |
+| 2 | "The Gaunt ships want the Lamp. The Marshal wants to put it on a pole at the front of her army, like a flag." (Close to the truth.) |
 | 3 | "There are people in grey near the Lamp hall at night. They stand very still and don't talk. My cousin says that a street lamp went out when one of them walked past." (True. They are the Hush.) |
 | 4 | "The Five Sleepers? The Church folk say that they are awake. I say that it's a story to sell candles." (The party is standing right there.) |
 | 5 | "The brass men in the Lamp hall move at night. My grandmother saw one turn its head." (True. They are the Brass Lamp Wardens.) |
@@ -286,7 +286,7 @@ Perrin explains, quickly and with a lot of pride:
 | Charisma (Persuasion) | 12 | Perrin believes that the party are who they say. "A Sleeper. In my hall. The council will never believe me." He offers the party rooms in the guild house. |
 | Intelligence (History) | 14 | The character knew Haskel Orme by sight: the steward of Dawnwatch Keep, a quiet man with ink on his hands. Nobody in the Dawnwatch knew that he made lamps. |
 | Intelligence (Arcana) | 15 | The First Lamp is not a lamp with a spell on it. The flame is the spell. It is the same kind of fire as the fire in the chapel of the keep: a piece of the Dawnfire. |
-| Wisdom (Insight) | 13 | Perrin is scared of something. If the party asks, he admits it: "Gaunt. The marshal sends me letters. Polite ones. Each one is less polite." |
+| Wisdom (Insight) | 13 | Perrin is scared of something. If the party asks, he admits it: "Gaunt. The Marshal sends me letters. Polite ones. Each one is less polite." |
 
 ### What Perrin Knows About the First Lamp
 
@@ -634,21 +634,21 @@ Gauntry, and she is very good at her work.
 - **She keeps a list.** She knows who owes whom in the city. She knows which
   guild master drinks, which one gambles, and which one has a son in debt.
 - **She believes in Gaunt.** She thinks that the land needs one strong ruler,
-  and that the marshal is the best one. She thinks that the Hush is a danger,
+  and that the Marshal is the best one. She thinks that the Hush is a danger,
   and that the First Lamp is safer in Stannard than in a guild hall with an
   open door.
 
 > A woman in a grey coat sits alone at the window table. She has a cup of tea
 > and a small book. When you come in, she closes the book and smiles. "Please
 > sit. I have ordered for you. The fish here is the best in the city. I am
-> Ilse Varro. I work for the marshal, as I think you know. I would like to
+> Ilse Varro. I work for the Marshal, as I think you know. I would like to
 > save us all some trouble."
 
 ### The Offer
 
 Ilse is clear about what she wants.
 
-- **The marshal wants the First Lamp.** "Gaunt is the heir of old Ostrey. The
+- **The Marshal wants the First Lamp.** "Gaunt is the heir of old Ostrey. The
   old fire belongs with the heir. It will be safe in Stannard, behind walls
   and soldiers, not on a plinth where any fool in grey can walk up to it."
 - **She offers money and friendship.** 2,000 GP, paid in Stannard, and the
@@ -667,7 +667,7 @@ Ilse is clear about what she wants.
 | Check | DC | Result |
 |---|---|---|
 | Wisdom (Insight) | 15 | Ilse tells the truth about the Hush and about the money. She does not say that her agents will hurt anyone who stands in the way. She will not lose sleep over a few dead apprentices. |
-| Charisma (Persuasion) | 18 | Ilse agrees to wait one week and to talk to the marshal again. She still raids the hall on Lamplight Night, but with fewer agents (remove the two Spies from the fight in Scene 7). |
+| Charisma (Persuasion) | 18 | Ilse agrees to wait one week and to talk to the Marshal again. She still raids the hall on Lamplight Night, but with fewer agents (remove the two Spies from the fight in Scene 7). |
 | Charisma (Intimidation) | 16 | Ilse smiles. "I am a woman alone with a cup of tea, in a room full of witnesses. Please, go on." It does not work, and she remembers. |
 | Charisma (Deception) | 14 | Ilse believes that the party will stay away. On Lamplight Night, she does not expect them in the hall. The party has Advantage on Initiative in Scene 7. |
 | Wisdom (Perception) | 13 | Two other tables are hers: a young man reading a letter and an old woman who never drinks her wine. Both are agents. |
@@ -812,7 +812,7 @@ both the party and the agents.
 festival (see the rooftop chase, Scene 8). The party can catch her there.
 
 **If Ilse drops to half her Hit Points or fewer:** she drops the Lamp, uses
-Smoke Pellet, and flees. She does not die for the marshal. Her agents
+Smoke Pellet, and flees. She does not die for the Marshal. Her agents
 surrender when she is gone.
 
 **If the party captures Ilse:** she does not talk about her work, but she
