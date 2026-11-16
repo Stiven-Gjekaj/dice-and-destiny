@@ -288,8 +288,8 @@ the party.
 > together, like one animal. The sound of their feet comes to you a moment
 > late.
 >
-> The Shield of the Dawnwatch knows that drill. It is the drill of Ostrey.
-> Nobody has used it in two hundred years. Somebody kept it.
+> The Shield of the Dawnwatch knows that drill. It is the drill of Ostrey,
+> and Ostrey fell two hundred years ago. Somebody kept it.
 
 ### The Gate of the Five
 
@@ -842,8 +842,8 @@ appendix.
   bearer may stop to stare, as the Snuffer did in chapter 3. Then it
   remembers its job.
 - **The guards.** At the end of round 4, ten guards of the fortress burst
-  in with torches. The Darkness ends, and the Hush flee down the servants'
-  stair. A Hush that cannot flee fights to the death. It does not
+  in with torches. The Shrouds drop their *Darkness*, and the Hush flee
+  down the servants' stair. A Hush that cannot flee fights to the death. It does not
   surrender. It does not speak.
 
 ### The false clue
@@ -962,7 +962,8 @@ Chapter 6 goes to Corrantey.
 
 > **GM tip:** If your group plays chapter 6 before chapter 5, the How to
 > Run This Book section explains how to change the order. In that case,
-> Tobin says the same thing about Fennick, and the party goes to chapter 7.
+> the party already knows Corrantey. Skip Tobin's words, and the party
+> goes on to chapter 7.
 
 ---
 
