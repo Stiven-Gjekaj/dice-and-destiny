@@ -421,8 +421,12 @@ def entry_html(e, chs):
     if kind == "person":
         role, m = obj
         role = without_chapters(role) if line else role
-        stat = "" if isinstance(m, str) else dw_stat_html(m, "person")
-        return f'{head}<h4 class="sp-name">{E(name)}</h4><div class="role">{E(role)}</div>{line}{stat}</div>'
+        if isinstance(m, str):
+            return f'{head}<h4 class="sp-name">{E(name)}</h4><div class="role">{E(role)}</div>{line}</div>'
+        # The statblock has the name as its heading. The role and the chapters go under its type line.
+        stat = dw_stat_html(m, "person")
+        cut = stat.index("</div>", stat.index('<div class="mon-type">')) + len("</div>")
+        return f'{head}{stat[:cut]}<div class="role">{E(role)}</div>{line}{stat[cut:]}</div>'
     text = place_text(obj)
     text = without_chapters(text) if line else text
     return f'{head}<h4 class="sp-name">{E(name)}</h4>{f"<p>{E(text)}</p>" if text else ""}{line}</div>'

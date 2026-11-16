@@ -482,3 +482,12 @@ def test_a_treasure_keeps_bold_and_italic_and_escapes_the_rest():
                    "<b>Daylight</b> (1 charge). <i>Dawn's Answer.</i> A & B <script>x</script>")])
     h = W.treasure_html("Zzyx Lamp", d)
     assert "<b>Daylight</b> (1 charge). <i>Dawn&#x27;s Answer.</i> A &amp; B &lt;script&gt;x&lt;/script&gt;" in h
+
+
+def test_a_person_with_a_statblock_has_one_heading_with_the_role_under_the_type():
+    d = dw(npcs=[("A smith of the ford.", person("Zzyx Smith"))])
+    h = W.appendices_html(d, [(2, "ch2", "Zzyx Smith works.")])
+    entry = h[h.index('id="p-zzyx-smith"'):]
+    assert entry.count("Zzyx Smith</h4>") == 1 and 'class="sp-name"' not in entry
+    assert entry.index('class="mon-type"') < entry.index('class="role">A smith of the ford.<') \
+        < entry.index("Named in chapter 2") < entry.index('class="mon-top"')
