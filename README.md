@@ -170,7 +170,7 @@ To build the books yourself, read [`compendium/README.md`](compendium/README.md)
 |---|---|
 | [`compendium/`](compendium/) | The source of the two books, the original content, and the build system |
 | [`adventures/`](adventures/) | One-shots and short adventures |
-| [`docs/`](docs/) | The style and balance guide, design documents, and plans |
+| [`docs/`](docs/) | The style and balance guide, the design documents, and the review notes |
 | [`assets/`](assets/) | The wordmark of this page |
 
 Each adventure has its own folder. Each of these folders has a `sessions/`
