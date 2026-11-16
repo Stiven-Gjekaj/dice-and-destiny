@@ -21,9 +21,10 @@ You need these tools:
 - Google Chrome. The build uses headless Chrome to make each PDF.
 - `poppler-utils`. The build uses `pdftotext` to find the page numbers for
   the table of contents.
-- The fonts Caladea, Liberation Serif, and Inter. On Ubuntu, install
-  `fonts-crosextra-caladea`, `fonts-liberation`, and `fonts-inter`.
-  Other fonts change the page breaks.
+- The fonts Caladea and Liberation Serif. On Ubuntu, install
+  `fonts-crosextra-caladea` and `fonts-liberation`. Other fonts change the
+  page breaks. Inter is in `books/fonts/` (TrueType), so you do not install
+  it.
 
 Then run these commands:
 
@@ -34,6 +35,9 @@ compendium/build.sh
 
 You can run `build.sh` from any folder. The PDFs go into `compendium/dist/`.
 Git ignores this folder.
+
+The build stops if a PDF has a font that is not expected, or a Type 3 font.
+Printers such as Lulu warn about Type 3 fonts.
 
 The build makes each book more than one time. It puts the real page numbers
 in the table of contents. It adds blank pages so that each Part starts on a

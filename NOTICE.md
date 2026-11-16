@@ -44,6 +44,13 @@ Destiny. This includes:
 - the campaigns and the adventures
 - the build system
 
+## Fonts
+
+The books include the Inter font in `compendium/books/fonts/`, converted to
+TrueType. Inter is copyright (c) 2016 The Inter Project Authors and is under
+the SIL Open Font License 1.1. See
+[`compendium/books/fonts/OFL.txt`](compendium/books/fonts/OFL.txt).
+
 ## Other references
 
 The encounter-building and improvised-damage tables follow the 2024 Dungeon
