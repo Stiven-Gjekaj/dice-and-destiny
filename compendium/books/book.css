@@ -150,3 +150,6 @@ table.trinkets { font-size: 7.4pt; }
 
 /* keep the overview of a pantheon in one piece */
 table.pantheon-table { break-inside: avoid; }
+
+/* keep each downtime table in one piece */
+table.downtime-table { break-inside: avoid; }
