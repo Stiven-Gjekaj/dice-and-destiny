@@ -310,3 +310,174 @@ the tabards. Now they are not so sure.
 
 The black stone hums the whole time that the Hush prisoners are near.
 Remind the bearer of this. It is useful later.
+
+---
+
+## Scene 3: Ashby Field
+
+**Goal:** Show the scale of the war. Show the place where the battle will
+happen.
+
+Two days after Wenlow, the road comes over a low ridge.
+
+> Below you, the land opens into a long, shallow valley of grass and
+> stone walls. A stream runs down the middle, so small that you could jump
+> it. On the south slope stands a city of tents in grey and black, with
+> thin columns of smoke and the flash of steel. On the north slope stands
+> a second city, larger and messier, of white tents and wagons, with a
+> hundred blue banners and a sound of singing.
+>
+> In the bottom of the valley, by the stream, stands one grey stone, taller
+> than a rider. Nobody camps near it. A ring of trampled grass shows where
+> both armies have sent riders to look at it, and turned back.
+>
+> Wick goes very quiet. Then he says, "I know that stone. The steward told
+> me about it, the night he made me. The kings swore on it. No blood at the
+> stone. That was the rule." He pauses. "I do not think anyone here
+> remembers the rule."
+
+### The Field
+
+Describe the field to the players. They fight here in Scene 7, and they
+plan better if they know it.
+
+- **The south slope:** the camp of Gaunt. About 2,000 soldiers: pike
+  squares, crossbows, and 300 riders. Neat rows. Good order.
+- **The north slope:** the camp of the Church. About 3,000 people: some
+  knights of the Church and templars, many levies from the farms and towns
+  with spears and old helmets, and a crowd of pilgrims who came to watch
+  and pray. Less order. More heart.
+- **The Ashby stone:** a standing stone of Ostrey, 12 feet tall, by the
+  stream. The old words cut in it are worn almost flat. A character who
+  reads the old speech of Ostrey can read them: "HERE THE SWORD SLEEPS."
+- **The stream:** 5 feet wide, knee-deep. Difficult Terrain.
+- **The stone walls:** old field walls, 3 feet high. They give Half Cover.
+- **The hollow:** a dip west of the stone, out of sight of both camps. Fog
+  gathers there each morning. (This is where the Hush hides its choir.)
+
+> **Thread (Wick):** Wick never saw this field. But on the night that he
+> made Wick, the steward talked about it, the way people talk to a thing
+> that they think cannot listen yet. If a player asks, Wick tells it: "He
+> stood by that stone once, with a king, to swear a peace. He said the
+> words, and the king said them back, and nobody died that day. He was
+> very proud. He told me three times." Wick is quiet for a moment. "He
+> told me a lot of things. He did not tell me the important ones."
+
+From here the characters go to one camp or both. Most groups visit both.
+Run Scenes 4 and 5 in the order that the players choose.
+
+---
+
+## Scene 4: The Camp of Gaunt
+
+**Goal:** Meet the Marshal, her son, her spymaster, and her helpful aide.
+Find clues.
+
+> The camp of Gaunt is quiet. Soldiers clean armor in rows. Sergeants walk
+> between them and say little. Every tent has the same shape, the same
+> distance from the next one, the same black flag.
+>
+> In the center is a large tent with its walls rolled up. A woman in plain
+> steel stands over a table with a map. She is about fifty, with grey hair
+> cut short and a face like a closed door. She looks up, and for a moment
+> the door opens a little.
+>
+> "The Dawnwatch," says Marshal Ide Gauntry. "I read about you when I was
+> a girl. Sit. Tell me how many of the books were wrong."
+
+### Marshal Ide Gauntry
+
+The Marshal is the most dangerous person in the chapter, because she is
+reasonable. Play her calm, curious, and sure. She does not shout. She asks
+good questions and listens to the answers.
+
+- **What she wants:** the Dawnwatch at her side tomorrow, in front of both
+  armies. If the Dawnwatch ride with Gaunt, the Church levies will break
+  and run home, and nobody needs to die. "That is not a threat. That is
+  the kindest plan I have."
+- **What she believes:** the Church burned its own chapel, and killed her
+  envoy (after Scene 6). The priests want the Dawnwatch as statues, and the
+  land needs them as soldiers.
+- **What she will not do:** attack first without a reason. She has given
+  her army that order. She thinks that the Church will give her a reason
+  soon.
+
+If the characters met her in chapter 5, she remembers it, and she says
+what she thought of them then, honestly.
+
+If Gaunt took the First Lamp in chapter 6, it stands on a pole outside
+her tent, behind a guard of four soldiers. She carries it into the battle
+as a banner. The characters can win it back: as the price of a truce, as
+the prize of the duel, or from Ilse Varro, who never liked the plan.
+
+### Tobin Gauntry
+
+Tobin is her son, twenty years old, in armor that is too new for him. He
+stands at the edge of the tent and does not speak while his mother speaks.
+Later, he finds the characters alone.
+
+> The young man catches up with you between the tents, out of breath. He
+> looks back over his shoulder twice.
+>
+> "You must stop this," Tobin says. "She thinks it will be quick. It is
+> never quick. Half of those people on the other slope are farmers. My
+> mother has never met a farmer. She has met maps of them."
+
+Tobin is the key to the third path. He does not know about the Hush. He
+knows that his mother trusts Lieutenant Roe more each month, and he does
+not like it. "Roe is always there. Roe always agrees with her. Roe told
+her about the chapel before the riders even came."
+
+### Captain Ilse Varro
+
+The characters met Ilse in Corrantey in chapter 6. How that went decides
+how she greets them now:
+
+- **If they parted as enemies:** she is cold and polite, and she watches
+  them. She still talks, because she is a professional.
+- **If they made a deal, or parted with respect:** she is almost friendly.
+  "You again. I hoped it would be you."
+
+Ilse is suspicious of Roe for her own reasons. She did not write the
+report about the chapel. Roe did. And the envoy who dies in Scene 6 was
+one of her people. If the characters bring her proof, she becomes their
+best ally in the Gaunt camp. She can get them to the Marshal at any hour,
+and she can arrest Roe if the proof is good enough.
+
+### Lieutenant Roe
+
+> At the Marshal's shoulder stands a slim man in a grey officer's coat, so
+> neat that he looks drawn with a ruler. He bows to you, low and correct.
+> "Lieutenant Roe, at your service. If you need anything at all, you ask
+> me first."
+
+Roe is helpful, charming, and always present. He offers the characters a
+tent, food, a guide. He agrees with whatever the Marshal says, a moment
+after she says it. He is a member of the Hush, and he is very good at his
+work.
+
+**Clues that Roe gives away** (the characters notice these only if they
+look):
+
+- He always stands where the light is worst: at the back of the tent, out
+  of the circle of the lamp.
+- He flinches from the light of the First Lamp, and he does not look at
+  Wick.
+- He does not drink the wine. (The Hush keep a fast before their great
+  works.)
+- The black stone hums when he is within 30 feet.
+
+| Check | DC | Result |
+|---|---|---|
+| Wisdom (Insight) on the Marshal | 13 | She is less sure than she looks. She does not want to kill farmers. She wants someone to give her a way out that does not look like weakness. |
+| Wisdom (Insight) on Roe | 18 | He is not afraid of the battle. He is looking forward to it. A character who beats the DC by 5 or more also notices that he has never once said the word "light". |
+| Wisdom (Perception) in Roe's tent | 15 | No lamp at all. A stub of black candle in a boot, never lit. |
+| Intelligence (Investigation) of the reports on the Marshal's table | 14 | The report about Wenlow is in Roe's hand, and it is dated one day before the chapel burned. Someone wrote it before the fire. |
+| Charisma (Persuasion) with the Marshal | 16 | She agrees to wait one more day before she attacks, if the characters bring her proof of a third hand. (Only with real evidence: the letter from Wenlow, the dated report, or a witness.) |
+| Charisma (Deception) with Roe | 15 | He believes that the characters will ride with Gaunt. He relaxes, and he says one thing too many: "Then the field will be grey for both sides tomorrow." |
+
+> **GM tip:** Do not let the players accuse Roe in front of the Marshal
+> with no proof. If they do, the Marshal sides with her aide, and the
+> characters lose 2 renown with Gaunt. Roe smiles. Then he moves his plan a
+> day earlier. (The battle starts at dawn, and the dead envoy of Scene 6
+> happens tonight.)
