@@ -978,9 +978,9 @@ lamp and came back without it."
 > know yet what is under Kingsholm, and Perrin does not know either. Kingsholm
 > was the capital of old Ostrey, and it is ruins now. The steward went there
 > with a lamp, and he came back without it. That is all. It is a seed for
-> chapter 10. If the players ask Wick, he says, "Kingsholm? He went away for
-> three days, once, before the end. When he came back he was very tired, and
-> he did not hum any more."
+> chapter 10. If the players ask Wick, he says, "Kingsholm? I don't know. I
+> only knew him for one night. But that night his boots were wet, and he
+> was very tired, and he hummed much less than I would have liked."
 
 ### Perrin's Choice
 

@@ -205,7 +205,7 @@ each success.
 | Wisdom (Perception) | 13 | Hush soldiers come and go through the white stone door on the hilltop: the Dawn Door. That is the main way in. Four guards stand at it day and night. |
 | Wisdom (Survival) | 14 | Tracks lead to the far side of the hill. A landslip opened a crack in the old wall there. The Hush use it to throw out dirt and broken crystal. It leads down into the Stair of Teeth. |
 | Wisdom (Insight), watching the camp | 15 | The character sees the pattern of the camp. At dawn, most Hush go inside to sleep. The best time to attack is just after sunrise, when the camp is sleepy. |
-| Intelligence (History) or Wick | 12 | The well house. A stone hut in the old courtyard has a shaft that goes 60 feet down into the armory. Wick: "The steward sent soup down that shaft. Cold soup, usually." |
+| Intelligence (History) or Wick | 12 | The well house. A stone hut in the old courtyard has a shaft that goes 60 feet down into the armory. Wick: "The steward told me about it. He sent soup down that shaft, he said. Cold soup, usually." |
 | Intelligence (Investigation), at night | 15 | A cart leaves the hill each night with baskets of broken blue crystal, going north toward the Dunn. The Hush send the shards away. (This is a hint for chapter 10. The cart goes toward Kingsholm.) |
 
 > **Thread (the black stone):** If the bearer of the black stone comes

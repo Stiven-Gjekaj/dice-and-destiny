@@ -82,11 +82,12 @@ Water Breathing from chapter 6.
 
 Use the hook that fits your campaign. Each of them works.
 
-- **Wick remembers.** Wick knows the old shrines of Ostrey. With two pieces
-  of the Dawnfire found (the Ember of Saint Ivo and the First Lamp), he
-  counts on his tiny fingers, which he does not have. "Saint Ivo's. The
-  lantern makers. And... Fennick. The candle of Fennick. Oh, I liked
-  Fennick. They had eels. I could not eat them, but I liked to watch."
+- **Wick remembers.** On the night that he made Wick, the steward named the
+  shrines of the Dawnfire out loud, one by one, as he worked. With two pieces
+  found (the Ember of Saint Ivo and the First Lamp), Wick counts on his tiny
+  fingers, which he does not have. "Saint Ivo's. The lantern makers.
+  And... Fennick. The candle of Fennick. He said they had eels there. He
+  said it as if eels were a joke that I would understand one day."
 - **The guild ledger.** In chapter 6, the old books of the Lampwrights list
   the shrines that got a piece of the Dawnfire. One line reads "Fennick, a
   candle, for the church on the island." A later hand added: "Drowned."
@@ -96,8 +97,8 @@ Use the hook that fits your campaign. Each of them works.
   go.
 
 > Wick looks at the map for a long time. Then he says, very quietly: "The
-> whole town? Under the water? But the dike was so big. It was the biggest
-> thing I ever saw, and I have seen a dragon. A small one. From far away."
+> whole town? Under the water? But the steward said that the dike was the
+> biggest thing in Ostrey. Bigger than a dragon. He said that twice."
 
 ### The road
 
