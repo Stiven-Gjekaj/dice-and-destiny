@@ -19,8 +19,8 @@ def legres(n):
 
 MON = [
 # ================= THE HUSH =================
-M("Hush Night Warden", "M", "Humanoid", "Neutral", 4, "16 12 16 10 12 11", ac=17, skills="Perception, Stealth",
-  lang="Common", traits=[GREY_SIGHT],
+M("Hush Night Warden", "M", "Humanoid", "Lawful Evil", 4, "16 12 16 10 12 11", ac=17, skills="Perception, Stealth",
+  lang="Common, Hush Sign", traits=[GREY_SIGHT],
   attacks=[("Grey Mace", "m", "1d8", "Bludgeoning", "plus {1d6} Necrotic damage"),
            ("Light Crossbow", "r", "1d8", "Piercing", "", "80/320 ft.")], multi=2,
   bonus=[("Snuff", "The warden pinches its fingers. One nonmagical flame or light that it can see within 30 feet goes out: "
@@ -29,8 +29,8 @@ M("Hush Night Warden", "M", "Humanoid", "Neutral", 4, "16 12 16 10 12 11", ac=17
                              "against the attack, possibly causing it to miss.")],
   desc="The soldiers of the Hush wear grey mail with no badge. They do not shout in battle. "
        "They put out the lights first, and then they come."),
-M("Hush Grey Choir", "L", "Swarm of Medium Humanoids", "Neutral", 6, "12 10 14 10 14 14", ac=13,
-  lang="Common", res=R(Resistances="Bludgeoning, Piercing, Slashing",
+M("Hush Grey Choir", "L", "Swarm of Medium Humanoids", "Lawful Evil", 6, "12 10 14 10 14 14", ac=13,
+  lang="Common, Hush Sign", res=R(Resistances="Bludgeoning, Piercing, Slashing",
                        Immunities="Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned"),
   traits=[GREY_SIGHT,
           ("Swarm", "The choir is a crowd of grey-robed singers who move as one. It can occupy another creature's space and vice versa, "
@@ -42,8 +42,8 @@ M("Hush Grey Choir", "L", "Swarm of Medium Humanoids", "Neutral", 6, "12 10 14 1
                                             "On a failed save, the creature takes {6d8} Psychic damage and can't speak until the end of its next turn. "
                                             "On a successful save, it takes half as much damage only.")],
   desc="Twenty grey robes, twenty hoods, one hum. The choir walks in front of the Hush and sings the light away."),
-M("Hush Dusk Priest", "M", "Humanoid", "Neutral", 7, "10 14 14 13 18 15", ac=14, saves="Wis, Cha",
-  skills="Insight, Religion", lang="Common, and one other language", traits=[GREY_SIGHT],
+M("Hush Dusk Priest", "M", "Humanoid", "Lawful Evil", 7, "10 14 14 13 18 15", ac=14, saves="Wis, Cha",
+  skills="Insight, Religion", lang="Common, Hush Sign", traits=[GREY_SIGHT],
   attacks=[("Word of Night", "s:wis", "3d10", "Psychic", "", "120 ft."),
            ("Iron Censer", "m", "1d6", "Bludgeoning", "plus {2d6} Necrotic damage")], multi=2,
   actions=[("Spellcasting", "The priest casts one of the following spells, using Wisdom as the spellcasting ability ({dc:wis}). "
