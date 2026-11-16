@@ -1128,3 +1128,129 @@ When a character takes the candle:
 > Dawnfire. Nobody knows that in Book One. But Wick feels something when he
 > is near the pieces. Play it as a small, warm, strange feeling. Do not
 > explain it. Book Two explains it.
+
+---
+
+## Scene 6: Off Watch (20 minutes)
+
+**Goal:** End the chapter on a good, sad moment. Give Maud her rest.
+
+Back on the tower, Maud waits. If the party rang the all-clear, she heard
+it. If they did not, they can ring it now, with no fight, with Maud on one
+rope.
+
+> The bell rings: one, two, three, quick, in one breath. The sound goes out
+> over the black water, over the drowned roofs, over the reeds of the fen,
+> and far away a flock of birds rises into the morning.
+>
+> On the ledge, the drowned squad stops. One by one, they put their spears
+> down. They look up at the sun. Then, one by one, they are not there
+> anymore.
+>
+> Maud Kettle stands very still. She is fainter now. You can see the sky
+> through her.
+>
+> "All clear," she says. "That's the all-clear." She takes off her old
+> helmet, and under it her hair is grey. "Two hundred years. Good. That's
+> enough. That's quite enough."
+
+Maud gives her whistle to the character that she liked best in the drill, or
+to the character who used the most techniques.
+
+> She holds out a dented tin whistle on a leather cord. "Here. For the
+> drill. Your lot needs a sergeant, and I'm going off watch. Blow it when
+> they're tired. They'll remember they have one more in them." She looks
+> at the lantern. "And you. Lamp. Look after them. They're good. They're
+> not good. They're not bad."
+>
+> "I will," says Wick. His voice is thick, which is strange, because he is
+> a flame.
+
+{{treasure: Maud Kettle's Whistle}}
+
+What else Maud does, if the party has done these things:
+
+- **If the party read her the warden's book (F4):** she says: "Tell them.
+  Whoever the land is now. Tell them who opened the gates. Not his name.
+  Just that somebody did it, and the town didn't drown by itself."
+- **If the party found her family's house next to the Storm house (F6):**
+  she asks, very quietly, what they saw. Whatever the party says, she
+  nods. "Good. Good. I'll go see them now."
+- **If the Storm thread was the descendant in her squad:** she salutes the
+  Storm. "Your family stood the wall, Dawnwatch. Last on the wall. Same as
+  you."
+
+Then she is gone. The tower is quiet. The bell rings once more by itself,
+very softly, and stops.
+
+### Ada Ferrow
+
+If the party found the locket of Tam Ferrow in the sluice (F7), they can
+bring it to Ada on the way back. She takes it, looks at it for a long time,
+and puts it in her shirt. She says nothing. Then she lights her pipe, for
+the first time in twenty years.
+
+### The way out
+
+With the candle, the Low Fen is easier. Its light keeps the swamp creatures
+away, and the party can cross water that would stop other travelers. The
+trip back to Saint Ivo's, or to Dawnwatch Keep, is four days. Run it with
+one journey roll for each day, or skip it.
+
+> **GM tip:** If the party has Dawnwatch Keep as a stronghold (chapter 7),
+> this is a good moment for a Stronghold Turn. News comes from the keep:
+> the Hush was seen on the Dunn road, going north. Many of them. That leads
+> to chapter 9 and, later, to chapter 10.
+
+---
+
+## Rewards
+
+**Treasure:**
+
+- The Fennick Candle, the third piece of the Dawnfire (Scene 5).
+- Maud Kettle's Whistle (Scene 6).
+- Gauntlets of Ogre Power, from Maud's room in the watch house (F5).
+- Boots of the Winterlands, if the Storm house is the family house (F6).
+- A Potion of Greater Healing and a Lantern of Small Hours, from the drain of the
+  sluice (F7).
+- Coins and valuables: 30 GP (F2), 120 GP and a silver scale worth 25 GP
+  and a necklace worth 100 GP (F3), 250 GP and a brooch worth 50 GP (F6),
+  180 GP (F7). In total, 580 GP in coins and 175 GP in valuables.
+- The weapons of the watch house (F5): six spears, two tridents, four
+  daggers, and a heavy crossbow with 20 bolts.
+
+**Other rewards:**
+
+- **Techniques.** Each character now knows techniques equal to their
+  Proficiency Bonus plus 1, and has technique points equal to their
+  Proficiency Bonus.
+- **The truth of the flood.** The log of the dike wardens (F4). A group
+  that uses Factions and Renown (chapter 5) can show it to the Church or to
+  Gaunt. Each one reacts in its own way. The Church sees a sin of the old
+  lords. Gaunt sees an old order of war, and it does not like to see it.
+- **The letter of the Hush.** It points to Kingsholm (chapter 10).
+- **Heroic Inspiration** for the player of the Storm, if the thread had its
+  moment.
+
+**Crafting materials** (see Crafting and Gathering in the Game Master's
+Compendium):
+
+- A character can harvest Ectoplasm (Uncommon, DC 13 Intelligence
+  (Religion)) from the Grief of Fennick when it is destroyed, before the
+  mist fades. The Lampwrights of Corrantey can make a Shroud of the Quiet
+  Dead from it.
+- A Giant Crocodile (CR 5) gives an Uncommon material of your choice, if
+  your table makes its own recipes.
+
+**XP:** if you use XP and not milestones, give the XP of each encounter that
+the party won, and give the XP of the Grief of Fennick (3,900) if the party
+calmed it.
+
+### Milestone
+
+The party has the third piece of the Dawnfire. The characters go to level 9.
+
+At level 9, each character's Proficiency Bonus goes up to +4. Remind the
+players of what that means now: one more technique point (4 in total), and
+one more technique known (5 in total).
