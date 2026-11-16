@@ -190,6 +190,17 @@ the Dawnwatch know it. Each writer uses them.
   an elf scholar. The Shadow was a thief in Kingsholm. The Storm was a
   goliath guide in the passes of the Grey Teeth.
 
+## The creatures of Book One
+
+The statblocks are in `compendium/content/dawnwatch/creatures_*.py`.
+
+| Name | What it is | CR | Chapters |
+|---|---|---|---|
+| Hush Snuffer | The first tier of the Hush. A cultist with a brass snuffer on a pole. | 1/2 | 3, 4 |
+| Hush Shroud | The second tier of the Hush. A priest in a grey veil who prays in silence. | 2 | 4, 5 |
+| Hush Lightless | The third tier of the Hush. A warrior who drank the black water at the rite of the cult. | 4 | 4, 5 |
+| The Long Shadow | The shadow of the Unlit King. Mother Sallow calls it through the black stone at Kell. The creature at the end of Act I. | 5 | 4 |
+
 ## The people of Book One
 
 Each writer uses these names. Add a new person here before a chapter uses
