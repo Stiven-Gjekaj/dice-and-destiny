@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="140" viewBox="0 0 760 140" role="img" aria-label="Dice &amp; Destiny">
+<title>Dice &amp; Destiny</title>
+<svg x="10" y="10" width="120" height="120" viewBox="-6 -6 112 116" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <linearGradient id="dd-face" x1="0.2" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#e2604f"/><stop offset="1" stop-color="#9c2a1f"/></linearGradient>
+</defs><polygon points="50,3 9,26.5 50,27" fill="#d9564a" stroke="#c99a3e" stroke-width="0.9" stroke-linejoin="round"/><polygon points="50,3 91,26.5 50,27" fill="#b23a2f" stroke="#c99a3e" stroke-width="0.9" stroke-linejoin="round"/><polygon points="9,26.5 50,27 22,70" fill="#c4473b" stroke="#c99a3e" stroke-width="0.9" stroke-linejoin="round"/><polygon points="91,26.5 50,27 78,70" fill="#8f251c" stroke="#c99a3e" stroke-width="0.9" stroke-linejoin="round"/><polygon points="9,26.5 9,73.5 22,70" fill="#a3362b" stroke="#c99a3e" stroke-width="0.9" stroke-linejoin="round"/><polygon points="91,26.5 91,73.5 78,70" fill="#6e1912" stroke="#c99a3e" stroke-width="0.9" stroke-linejoin="round"/><polygon points="9,73.5 50,97 22,70" fill="#7f2017" stroke="#c99a3e" stroke-width="0.9" stroke-linejoin="round"/><polygon points="91,73.5 50,97 78,70" fill="#5a120c" stroke="#c99a3e" stroke-width="0.9" stroke-linejoin="round"/><polygon points="22,70 78,70 50,97" fill="#741c14" stroke="#c99a3e" stroke-width="0.9" stroke-linejoin="round"/><polygon points="50,27 22,70 78,70" fill="url(#dd-face)" stroke="#c99a3e" stroke-width="0.9" stroke-linejoin="round"/>
+<text x="50" y="59" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="19" fill="#f8e6c0">20</text>
+<text x="31" y="23" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="7" fill="#f8e6c0" transform="rotate(-30 31 23)">8</text>
+<text x="69" y="23" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="7" fill="#f8e6c0" transform="rotate(30 69 23)">14</text>
+<text x="50" y="84" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="7" fill="#f8e6c0" transform="rotate(180 50 82)">2</text>
+</svg>
+<text x="152" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#c99a3e" letter-spacing="1">Dice <tspan fill="#b8322a">&amp;</tspan> Destiny</text>
+<text x="156" y="120" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#b8892d" letter-spacing="5">A FIFTH EDITION COMPATIBLE GAME</text>
+</svg>
