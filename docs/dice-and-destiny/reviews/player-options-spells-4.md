@@ -38,7 +38,7 @@ Original spells now: 143.
 | Level | Spell | Classes | Equal to |
 |---|---|---|---|
 | 0 | Rime Touch | D, S, W | Chill Touch / Ray of Frost (1d10, no Dash) |
-| 0 | Cinder Breath | S, K, W | Thunderclap-type area cantrip (1d6, 15 ft Cone) |
+| 0 | Cinder Breath | S, K, W | Burning Hands as a cantrip (1d6, 15 ft Cone) |
 | 1 | Stone Hail | D, S, W | Thunderwave (2d6, 10 ft radius) |
 | 1 | Devoted Shield | P, C | Shield for an ally (reduce 1d10 + mod) |
 | 1 | Shadow Grasp | K, W | Ray of Sickness (2d6 Necrotic, -10 Speed) |
