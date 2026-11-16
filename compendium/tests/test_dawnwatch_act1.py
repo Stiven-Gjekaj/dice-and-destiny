@@ -42,3 +42,12 @@ def test_each_act1_person_has_a_role_and_a_name():
     for role, person in people_act1.NPCS:
         name = person if isinstance(person, str) else person.name
         assert role.strip() and name.strip()
+
+
+def test_act1_treasures_use_known_rarities_and_plain_text():
+    from check_content import RARITIES
+    from content.dawnwatch import treasures_act1
+    for name, category, rarity, attunement, text in treasures_act1.ITEMS:
+        assert rarity in RARITIES, name
+        # The item renderer escapes the text, so a tag would print as text.
+        assert "<" not in text, name

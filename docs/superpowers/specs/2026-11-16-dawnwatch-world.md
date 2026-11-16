@@ -231,8 +231,12 @@ the person in more than one scene.
 
 | Thing | What it is | Chapters |
 |---|---|---|
-| The black stone | A piece of the crystal of Garrath. It hums near the Hush and when Malgrath speaks. Chapter 4 gives it rules with the Marks system. | 1, 4, 10 |
-| The Ember of Saint Ivo | A piece of the Dawnfire. A small coal that never goes cold. | 3, 4 |
+| The black stone | A piece of the crystal of Garrath. It hums near the Hush and when Malgrath speaks. Chapter 4 gives it rules with the Marks system: the open Curse of the Black Stone. Artifact. | 1, 4, 10 |
+| The Ember of Saint Ivo | A piece of the Dawnfire. A small coal that never goes cold, in a cage of old gold. Artifact. | 3, 4 |
+| Compass of the Old Road | A brass compass of Ostrey that points along the old roads. The unique item of chapter 2. Uncommon. | 2 |
+| Mask of the Fifth Sleeper | A painted mask from the play of the troupe of Garret Pell. The unique item of chapter 3. Uncommon. | 3 |
+| Kell Warden's Shield | A shield of oak and bronze from the shrine at Kell. The unique item of chapter 4. Uncommon. | 4 |
+| Gauntry War Banner | The red banner with the iron gauntlet of the house of Gauntry. The unique item of chapter 5. Rare. | 5 |
 | The First Lamp | A piece of the Dawnfire. A lamp with a flame that needs no oil. | 6 |
 | The piece in Fennick | A piece of the Dawnfire, under the water, in the old church of Fennick. | 8 |
 | The letters of Haskel Orme | Handouts. They show the lie, step by step. | 7, 10 |
