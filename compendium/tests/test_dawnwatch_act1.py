@@ -26,3 +26,19 @@ def test_the_hush_has_three_tiers_that_grow_in_cr():
     tiers = [m.cr for m in creatures_act1.MON if m.name.startswith("Hush ")]
     assert len(tiers) == 3
     assert tiers == sorted(tiers) and len(set(tiers)) == 3
+
+
+def test_act1_people_with_statblocks_are_inside_their_bands_and_render():
+    from content.dawnwatch import people_act1
+    fighters = [m for _, m in people_act1.NPCS if not isinstance(m, str)]
+    assert fighters
+    for m in fighters:
+        assert monster_out_of_band(m) == [], m.name
+        assert not PLACEHOLDER.search(m.html()), m.name
+
+
+def test_each_act1_person_has_a_role_and_a_name():
+    from content.dawnwatch import people_act1
+    for role, person in people_act1.NPCS:
+        name = person if isinstance(person, str) else person.name
+        assert role.strip() and name.strip()

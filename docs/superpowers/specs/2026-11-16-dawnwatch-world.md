@@ -216,11 +216,13 @@ the person in more than one scene.
 | Dace | A pedlar who sells "bones of the Five Sleepers" to pilgrims. | 2, 3 | No |
 | Abbess Merrow | The head of the Church in Saint Ivo's. She wants the party as living saints. | 3, 9 | No |
 | Brother Cade | A priest who thinks that the party are impostors. Later an ally. | 3, 4, 9 | Yes |
+| Corvin Lisle | An antiquary from Corrantey who buys old things of Ostrey. He offers a lot of money for the thing that the Shadow stole. | 2, 3 | No |
 | Garret Pell | The leader of a troupe of actors who play the Dawnwatch. | 3 | No |
 | Mother Sallow | The leader of the Hush. | 4, 7, 10 | Yes |
 | Osk | The enforcer of Mother Sallow. Big, and he does not speak. | 4, 7 | Yes |
 | Marshal Ide Gauntry | The ruler of Gaunt. | 5, 9 | Yes |
 | Tobin Gauntry | Her son. He does not want a war. | 5, 9 | No |
+| Magister Aud Brennet | The first war mage of Gaunt. She teaches a "Dawnwatch spell" that is wrong. | 5 | No |
 | Perrin Hale | The master of the Lampwrights in Corrantey. | 6, 7 | No |
 | Sergeant Maud Kettle | The ghost of a soldier of Ostrey in Fennick. She teaches the old fighting ways. | 8 | Yes |
 | Sir Garrath (Malgrath) | The first Dawnwatch. The Unlit King. Only his voice in Book One. | 1, 4, 10 | No (Book Two) |
