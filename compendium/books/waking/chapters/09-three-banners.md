@@ -481,3 +481,146 @@ look):
 > characters lose 2 renown with Gaunt. Roe smiles. Then he moves his plan a
 > day earlier. (The battle starts at dawn, and the dead envoy of Scene 6
 > happens tonight.)
+
+---
+
+## Scene 5: The Camp of the Church
+
+**Goal:** Meet the Abbess, an old friend, a quiet secretary, and a young
+soldier who carries the Shield's past. Find clues.
+
+> The camp of the Church sings. Everywhere you look, people sing: hymns
+> around the cook fires, marching songs at the spear drills, and one old
+> woman who sings the same verse to a goat, over and over. Pilgrims crowd
+> the paths. Children run between the tents with wooden swords and argue
+> about which of them is the Shield.
+>
+> When the first person sees your faces, the singing stops. Then it
+> starts again, louder, and very much worse, because everyone sings a
+> different song.
+
+The characters cannot walk anywhere in this camp without a crowd. People
+want to touch their cloaks, show them a sick child, or ask them which side
+of the bed the Light sleeps on. This is funny, and it is also a little
+frightening.
+
+### Abbess Merrow
+
+> The Abbess receives you in a great white tent full of candles. She is
+> old and small and very bright, with the five gold stars sewn on her
+> sleeves. She takes the hands of the nearest character in both of hers.
+>
+> "You came," she says. "I knew you would. They cannot fight in front of
+> you. Nobody can. You only have to stand on the hill and let them see
+> you."
+
+Abbess Merrow wants the characters as living saints. That has not changed
+since chapter 3. Now she has a plan for it: the characters stand on the
+north slope in the morning, under the banner of the Five, and Gaunt
+loses its nerve.
+
+- **What she wants:** the Dawnwatch on the hill, in white, in the light.
+- **What she believes:** Gaunt burned Wenlow. Gaunt sent an envoy with
+  threats. The Sleepers belong to the faithful, because the faithful kept
+  their memory for a hundred and sixty years.
+- **What she will not do:** attack first. "We are the Church. We do not
+  attack." She does not see that three thousand people with spears are an
+  attack, to the other side.
+
+### Brother Cade
+
+Brother Cade thought that the characters were impostors, in chapter 3.
+Now he is their friend, and he is worried.
+
+> Brother Cade finds you outside the tent and walks you away from the
+> crowd, fast. "Do not let her put you on that hill," he says. "If you
+> stand there in white, Gaunt sees an army with five heroes in front. They
+> will charge the hill to take you. Merrow thinks you stop a war. You
+> start it."
+
+Cade is the key to the third path in this camp, as Tobin is in the other.
+He also does not trust Brother Ansel. "He came to us two years ago with a
+letter from a house of prayer that I cannot find on any map. He writes all
+her letters now. She signs them without reading."
+
+### Brother Ansel
+
+> Behind the Abbess, at a writing desk in the shadow of the tent wall,
+> sits a pale young monk with ink on his fingers. He does not get up. He
+> nods to you once, a very small nod, and goes back to his writing.
+
+Ansel is quiet, polite, and almost invisible. He wrote the letter of the
+Church in the handout, and the Abbess signed it. He is the one who
+suggested the call for spears. He is a member of the Hush.
+
+**Clues that Ansel gives away:**
+
+- His desk is the only place in the tent with no candle. He writes in the
+  light of the candles of others.
+- He trims the wicks of the candles near him very short, so that they
+  give almost no light.
+- The black stone hums when he is within 30 feet.
+- His sandals are wet with the dew of the hollow west of the stone. He
+  walks there each morning, alone, "to pray".
+
+| Check | DC | Result |
+|---|---|---|
+| Wisdom (Insight) on the Abbess | 13 | She is afraid, under the joy. She has never seen a battle. She thinks that the Sleepers can stop one with their faces, because she needs that to be true. |
+| Wisdom (Insight) on Ansel | 18 | He is not praying when he moves his lips. He is counting. (He counts the hours to the dawn.) |
+| Intelligence (Investigation) of Ansel's desk | 15 | A draft of the Church letter, in his hand, with the line "Bring a spear" added at the bottom in fresh ink, after the Abbess had signed. |
+| Wisdom (Survival) on Ansel's tracks | 14 | His morning walks go to the hollow west of the stone. Many other feet went there too, in soft shoes, at night. |
+| Charisma (Persuasion) with the Abbess | 16 | She agrees to keep her levies on the hill one more day, whatever Gaunt does, if the characters bring her proof. (Only with real evidence.) |
+| Charisma (Persuasion) with Cade | 10 | He helps the characters in any way that he can. He can take them into the Abbess's tent at night, or speak for them to her. |
+
+### Corporal Lenna
+
+Somewhere in the camp of the Church, the characters meet a young soldier
+of the levy of Saint Ivo's. Run this when it feels right: at a drill, at a
+cook fire, or when the crowd presses in.
+
+> A young woman in a leather jerkin pushes through the crowd with her
+> spear held sideways, like a gate, to clear a path for you. "Back, back.
+> Let them breathe." She has a corporal's knot on her shoulder and a stubborn
+> chin. When the crowd thins, she turns to you, suddenly shy.
+>
+> Around her neck, on a leather cord, hangs an old thing. Too old for her.
+
+> **Thread (the Shield):** In the first chapter, the player of the Shield
+> answered the question: "The night before the long sleep, you made a
+> promise to someone. Who was it, and what did you promise?" Read that
+> answer again before this scene.
+>
+> Corporal Lenna is a descendant of that person. Her family name is the
+> family name of the person of the promise. The thing on the cord is the
+> token of the promise, or a thing that came from it: a ring, a button
+> from the Shield's coat, a carved wooden horse, a coin bent in half.
+> Choose the thing that fits the answer.
+>
+> Lenna does not know who the Shield is, at first. She knows a family
+> story: "My great-great-something grandmother waited for a soldier who
+> went to sleep under a hill. He promised her that he would come back. He
+> never did. We keep this, so that somebody remembers him."
+>
+> Some ideas for the promise:
+>
+> - **"I promised to come back."** The family waited, then stopped
+>   waiting, then made it a story. Lenna wears the token for luck.
+> - **"I promised to protect them."** The family became soldiers, all of
+>   them, for ten generations, because of the promise. Lenna is the latest.
+>   She is afraid, and she is too proud to say it.
+> - **"I promised to keep a secret."** The family kept something hidden,
+>   and does not know why. Lenna carries a sealed note that nobody in the
+>   family ever opened.
+> - **"I promised to say goodbye properly."** The family has an old
+>   letter, never sent, in the Shield's hand.
+>
+> Now the promise has a face, and that face is in the front rank of the
+> Church levies tomorrow. If the war starts, Lenna stands where the cavalry
+> of Gaunt charges. Give the Shield a reason to care which way this goes.
+>
+> If the Shield is on the side of Gaunt, the thread still works: Lenna is
+> on the other side of the field. If no player plays the Shield, use the
+> nearest question of a character the players made.
+
+Lenna stays with the levy. She does not leave her squad, even for the
+Dawnwatch. "I made a promise too," she says, if anyone asks her to.
