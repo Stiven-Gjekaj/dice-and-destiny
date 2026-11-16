@@ -68,4 +68,4 @@ def test_place_raises_for_an_unknown_name():
 
 def test_summaries_have_no_em_dash():
     for p in PLACES:
-        assert "—" not in p["summary"], p["name"]
+        assert "\u2014" not in p["summary"], p["name"]
