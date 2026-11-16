@@ -1169,3 +1169,254 @@ whatever the length of the fight.
 > grass is churned and red. The stone stands where it always stood.
 >
 > For the first time today, nobody shouts.
+
+---
+
+## Scene 8: After the Battle
+
+**Goal:** End the war, or end the day. Give the injuries their weight and
+the first scars their story. Point at Kingsholm.
+
+### How the Day Ends
+
+Look at the Toll, and at the path that the characters took.
+
+| Toll | What happened | The end of the day |
+|---|---|---|
+| 0 | Almost nobody died. A few dozen wounded. | A true truce. The Marshal and the Abbess meet at the stone that evening, with the characters between them. |
+| 1 to 2 | Some dead on both sides. Many wounded. | A hard truce. The leaders meet, but they do not shake hands. The war stops for now. |
+| 3 to 4 | Hundreds dead. | A bitter end. The side that the characters helped holds the field. The other side goes home and does not forgive. |
+| 5 or more | A slaughter. | The valley is full of graves. The leaders agree to stop only because nobody can fight any more. The land remembers this day, and it remembers that the Dawnwatch were here. |
+
+Each path also changes the end:
+
+- **With Gaunt:** if the Toll is 2 or lower, the Church levies surrendered
+  and went home alive. The Marshal holds Ashby Field and the pilgrim road.
+  She offers the characters a place at her side, for good.
+- **With the Church:** if the Toll is 2 or lower, the charge broke on the
+  hill, and Gaunt pulled back to the south. The Abbess calls it a miracle,
+  in front of everyone. She calls the characters saints, in front of
+  everyone. Brace for the songs.
+- **Stop the war:** if the Toll is 2 or lower, both armies stood down. The
+  Marshal and the Abbess meet at the stone. Neither is happy. Both are
+  alive.
+
+### The Truce at the Stone
+
+If the leaders meet (a Toll of 4 or lower), run this scene.
+
+> At sunset, the Marshal walks down the south slope with Tobin and Ilse
+> Varro. The Abbess walks down the north slope with Brother Cade, leaning
+> on his arm. They meet at the Ashby stone. The two armies watch from the
+> slopes, thousands of faces in the low red light.
+>
+> Nobody knows what to say first. They both look at you.
+
+The characters can speak first, or let the leaders speak. If the
+characters bring the agents (alive or dead), the evidence from Wenlow, and
+the black candles of the hollow, the truth comes out in front of both
+leaders. The Marshal goes very pale when she sees Roe. The Abbess cries
+when she sees Ansel, and then she is very angry.
+
+| Check | DC | Result |
+|---|---|---|
+| Charisma (Persuasion) to make a lasting peace | 15 (12 with the evidence of both agents) | The Marshal and the Abbess swear on the stone, in the old words, that there will be no war between Gaunt and Saint Ivo's while the Hush lives. The pilgrim road opens to Gaunt traders. |
+| Charisma (Persuasion) to make Gaunt leave the field | 13 | The Marshal agrees to go home, "for now". |
+| Charisma (Persuasion) to make the Church send the levies home | 12 | The Abbess agrees, and she adds, without being asked, that she was wrong to call for spears. |
+| Intelligence (History) | 13 | The character knows the old words of the treaty of the stone, and teaches them to the leaders. They say them back. Wick says them too, very quietly, at the same time. |
+
+> **GM tip:** A peace that both sides sign is the best end for the story,
+> but not the only good one. If the players took a side, let that side
+> win, and let the cost show. Book Two remembers what happened here.
+
+**Tobin:** whatever the end, Tobin finds the characters after the truce.
+He thanks them, or he does not. If his mother was injured in the duel or
+the charge, he sits by her tent all night. He says one thing, to the
+character who did the most to stop the war: "When I am Marshal, there will
+be no more of this. I promise." (Promises are a theme in this chapter. The
+Shield's player may have something to say.)
+
+### The Prisoner
+
+If either agent is alive, the characters can question them. If both are
+dead, a captured Hush Night Warden from the hollow takes their place. The
+prisoner is calm. The Hush fear nothing that the characters can do.
+
+> The prisoner sits in the dirt with chained hands and looks at you
+> without hate. "You won a field," the prisoner says. "Good for you. It
+> does not matter. While you played with soldiers, Mother went north. They
+> are all gathering at Kingsholm. In the old capital, where he slept. When
+> the last light goes out there, you will understand. Everyone will
+> understand."
+
+| Check | DC | Result |
+|---|---|---|
+| Charisma (Intimidation) | 17 | The prisoner says more than they meant to: "Mother Sallow went down to his bed and drank the dark that he left in the crystal. Now she will put out the coal there, and the long night comes early." |
+| Charisma (Persuasion) | 15 | The prisoner speaks almost kindly: "The sun is dying. You know it. You have seen the days. He tried to save it once. He will try again. We help him. What do you help?" |
+| Wisdom (Insight) | 14 | The prisoner believes every word. And the prisoner is not sure that the characters are wrong, either. |
+
+The prisoner says "the coal": if the Hush still has the Ember of Saint Ivo
+from chapter 4, the prisoner means the Ember. If the characters already got
+it back, the prisoner means the pieces of the Dawnfire in general.
+
+> **GM tip:** This scene points at chapter 10. Make sure that the players
+> leave with three facts: the Hush gathers at Kingsholm; Mother Sallow
+> leads it; and "he" slept there. Let the black stone hum loud when the
+> prisoner says "Kingsholm".
+
+### The Fire: Injuries and Scars
+
+That night, wherever the characters camp (with the army they helped, or
+alone by the stone), give the players a quiet scene at the fire. This is
+the time to look at what the battle left on each character.
+
+> The camp is very quiet. Somewhere a man sings to his horse. Somewhere
+> else a woman laughs, because she is alive and could not help it. You sit
+> at your own fire and count what you lost.
+
+Go around the table. For each character who has an injury, ask the player
+two questions:
+
+1. "How does it feel tonight?"
+2. "Who tends it?"
+
+Then teach the rest of the system.
+
+> **Teach: healing and scars.** "Your injuries heal with time and care.
+> A Minor injury heals when you finish a Long Rest. Some need someone to
+> tend them first: a Healer's Kit, or a Wisdom (Medicine) check. A Serious
+> injury needs three Long Rests, each after someone tends it. A Lasting
+> injury needs a month of rest. Magic can heal an injury at once: a Lesser
+> Restoration spell ends a Serious one, and stronger spells end a Lasting
+> one.
+>
+> "But here is the thing. When an injury heals slowly, with rest and care,
+> and not with magic, you get its scar. A scar is small and permanent. A
+> Cut Above the Eye leaves a Dueling Scar. Cracked Ribs leave Knit Bone. A
+> Broken Arm leaves a Set Bone. Each scar gives you a small benefit, and a
+> story to tell at the fire. You can have as many scars as your
+> Proficiency Bonus. So you choose: heal fast with magic and keep nothing,
+> or heal slow and keep the scar."
+
+Let the players decide for each injury. The characters have a few weeks of
+travel and rest before chapter 10, if they want them (see the end of this
+chapter). Most Minor and Serious injuries can heal with care in that time.
+
+> **GM tip:** The choice between magic and time is the heart of this
+> system. Do not push. Some players love a scar. Some want their character
+> whole for the finale. Both are good choices. The cleric with Lesser
+> Restoration is now very popular; let that be a fun problem.
+
+### The Field Healer
+
+Among the wounded of the Church (or among the prisoners, on the Gaunt
+path) works an old field healer, Sister Hild. She has sewn up soldiers of
+both sides all day, and she does not care which slope they came from.
+
+> The old woman does not look up from the leg that she sews. "Sit," she
+> says. "You are next. No, do not tell me you are fine. Everyone says that.
+> Sit."
+
+Sister Hild tends one injury of each character for free, and she does it
+well (count it as care, and the Medicine check succeeds). When the
+characters leave, she gives them her needle.
+
+> "Take it. It has sewn up ten thousand fools, and you will need it more
+> than I will. I am going home to my garden." She presses the horn case
+> into your hand. "Slow is better. Let them heal slow. Scars remind you."
+
+{{treasure: The Bonesetter's Needle}}
+
+### Corporal Lenna
+
+If Lenna survived, she finds the Shield at the fire. Run the end of the
+thread now. If the Shield has not told her who they are, Lenna has worked
+it out: "You looked at the cord. Nobody looks at the cord."
+
+> **Thread (the Shield):** Let the Shield's player decide what happens.
+> Some ideas:
+>
+> - Lenna gives the token back. "It was always yours. We only kept it."
+> - The Shield gives the token back to her. "Keep it. The promise is
+>   yours now."
+> - Lenna asks the one question that her family asked for three hundred
+>   years: "Did you mean to come back?" The player answers.
+> - If Lenna died in the battle, the Shield carries the token to her
+>   family in Saint Ivo's. That is a promise too. It can wait for Book
+>   Two, but not for long.
+>
+> If the Shield kept the promise in some way today (saved Lenna, or saved
+> her squad), give the player Heroic Inspiration, and consider a Bond
+> between the Shield and Lenna, if your table uses Bonds.
+
+### Renown
+
+Change the renown of each character at the end of the chapter. Use the
+deeds of the Factions and Renown chapter:
+
+| What the characters did | Gaunt | The Church |
+|---|---|---|
+| Fought with Gaunt, and the Church surrendered alive | +5 | −3 |
+| Fought with the Church, and the charge of Gaunt broke | −3 | +5 |
+| Stopped the war with a peace at the stone | +2 | +2 |
+| Unmasked Lieutenant Roe | +2 | +0 |
+| Unmasked Brother Ansel | +0 | +2 |
+| Won the duel against the Marshal | +1 (she respects it) | +1 |
+| A Toll of 5 or more, on any path | −2 | −2 |
+
+A single deed never gives more than 5 renown. If a character reaches the
+third rank in one faction, the other faction now treats that character as
+an enemy, as the Compendium says. On the stop-the-war path, this is less
+likely, and that is part of its reward.
+
+### Toward Kingsholm
+
+> In the morning, the armies begin to pack. Wagons roll south. Pilgrims
+> walk north, singing again, more quietly. On the stone, someone has
+> scratched a new line under the old worn words. It is the date, and five
+> small marks, one for each of you.
+>
+> Wick looks north, past the hills, toward the river and the old capital.
+> His flame is very small.
+>
+> "Kingsholm," he says. "The steward smelled of river water and cold
+> stone, the night he made me. I always wondered where he had been." A
+> pause. "I think I know now."
+
+Kingsholm is three days north of the keep, along the River Dunn, off the
+road. The characters can go straight there, or rest first at Dawnwatch
+Keep. A few weeks at the keep let injuries heal, a monthly turn of the
+stronghold run, and the allies of this chapter come to help (see chapter
+10). The Hush does not wait forever, but it waits long enough.
+
+---
+
+## Rewards
+
+**Milestone.** At the end of the chapter, the characters go up one level.
+
+**Treasure.**
+
+- **The Bonesetter's Needle** (Uncommon), from Sister Hild.
+- **The purses of the Hush** from Wenlow and the hollow: 2d6 × 10 GP from
+  Wenlow, and 300 GP in Gaunt silver and Church gold from the hollow (the
+  agents paid both sides' informers).
+- **The thanks of the side they helped,** or of both sides: on a Toll of 2
+  or lower, the Marshal sends a chest of 500 GP to the keep "for the
+  garrison", and the Abbess sends a cart of food and wine and a healer
+  for a month (the next monthly turn of the stronghold, the party pays no
+  upkeep).
+- **A Potion of Healing (Greater)** for each character, from the stores of
+  the army that they helped.
+- **Renown,** as in the table in Scene 8.
+
+**Story rewards.**
+
+- The war between Gaunt and Saint Ivo's stops, for now. On a peace at the
+  stone, both powers will send help to Kingsholm in chapter 10.
+- The characters know that the Hush gathers at Kingsholm, led by Mother
+  Sallow, at the place where "he" slept.
+- The characters carry their injuries, and perhaps their first scars, into
+  the end of Book One.
+
+**Level.** The characters go to level 10.
