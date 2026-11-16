@@ -64,7 +64,7 @@ Keep it light, as the tutorial was. The characters are the most famous
 people in the land, and nobody knows their faces. That is funny. Let it be
 funny. Under the jokes, let one or two moments land hard: a grave with a
 name that a character knows, or a child who asks if the Sleepers will save
-them from the short winters.
+them from the long winters.
 
 ### What the people of today know
 
@@ -219,8 +219,8 @@ Show these things as the party walks to the inn. Choose two or three.
 - **A woman** hangs a bundle of herbs over her door. "For the long nights,"
   she says. "It keeps the dark out." She has never heard of the Hush.
 - **Children** play a game called "Sleepers". Five children lie down. One
-  child is the Unlit King. He creeps up and taps one of them, who must
-  stay asleep. The last one awake wins.
+  child is the Unlit King. He creeps up and taps them, one at a time. A
+  child who is tapped must stay asleep. The last one awake wins.
 
 ### The inn: the Ferry Bell
 
@@ -236,8 +236,8 @@ The inn is full of farmers, two boatmen, and a family of pilgrims on their
 way south. The innkeeper is a big, red, nervous man named Hob. A room
 costs 5 SP for each character, with supper. Hob takes old coins, but a
 character who makes a DC 10 Wisdom (Insight) check sees that he is very
-happy about it. An old sun is worth five times its weight to the right
-buyer, and Hob knows a buyer (Scene 7).
+happy about it. An old sun is worth 5 GP or more to the right buyer, and
+Hob knows a buyer (Scene 7).
 
 ### What the characters learn at the inn
 
@@ -251,7 +251,7 @@ the people of today know" for the easy answers. For more, use this table.
 | Asks about the keep in the north | Charisma (Persuasion) | 12 | Nobody goes there. The sheep go there. "My nan said the Sleepers sleep under that hill. My nan also said a frog was her husband." |
 | Asks about Ostrey | Intelligence (History) | 10 | The character hears the story of the fall and understands it: the Grey Winter, the king with no heir, the civil war. The character knows that the order of events is right, but the people in it are wrong. |
 | Asks about the shorter days | Wisdom (Insight) | 12 | Everybody jokes about the long winters. Nobody likes the joke. Two farmers lost their harvest last year to an early frost. |
-| Tells the truth about who they are | Charisma (Persuasion) | 20 | Nobody believes it, on any roll. On a 20 or more, one pilgrim child believes it, and she stays close to the party all night. Her name is Wenna. She wants to know if the Unlit King is real. |
+| Tells the truth about who they are | Charisma (Persuasion) | 20 | No adult believes it, on any roll. On a 20 or more, one pilgrim child believes it, and she stays close to the party all night. Her name is Wenna. She wants to know if the Unlit King is real. |
 
 > **GM tip:** The DCs are low. This scene is not a puzzle. It is a window.
 > Give the information freely. Save the rolls for when a player wants to
@@ -374,8 +374,8 @@ or Charisma (Persuasion) check, or if the dead come to the village (Scene
 5). If the party threatens him, he tells the truth at once. He is not
 brave.
 
-> **GM tip:** Dace returns in chapter 3. Do not let the party kill him or send him to prison here. If they want justice,
-> let him run. He takes the road south, with the pilgrims. He will be in
+> **GM tip:** Dace returns in chapter 3. Do not let the party kill him or
+> send him to prison here. If they want justice, let him run. He takes the road south, with the pilgrims. He will be in
 > Saint Ivo's before them, selling bones at the feast.
 
 ---
@@ -409,10 +409,10 @@ person in the village who does. She says so in one sentence and then she
 cries, quietly, for about ten seconds. Then she tells them this:
 
 > "My family kept that keep. Not the Dawnwatch, mind. The doors. The roof.
-> The well. My great-great-granny was the last of us to do it. When the
-> Grey Winter came, the steward's people were all dead, and the soldiers
-> were gone, and she kept the door shut for three years on her own. Then
-> she came down the hill and married a ferryman. She said the Sleepers were
+> The well. A granny of mine, six grannies back, was the last of us to do
+> it. When the Grey Winter came, the last steward went off to the war of
+> the lords, and the soldiers were gone, and she kept the door shut for
+> three years on her own. Then she came down the hill and married a ferryman. She said the Sleepers were
 > under the hill, and that somebody had to remember. So we remembered.
 > Nobody believed us. My granddad had a coin like yours in the wall."
 
@@ -689,8 +689,8 @@ niches in the walls of the room.
 - **Aske fights to drive thieves out, not to kill.** It doesn't attack a
   creature at 0 Hit Points. When all the living creatures leave its tomb,
   it sits down again.
-- **It can still stop.** At the start of each round, a character can try
-  the talk again, as an action. Aske stops fighting on a success, and the
+- **It can still stop.** On its turn, a character can take an action to
+  try the talk again. Aske stops fighting on a success, and the
   table above applies.
 - **When Aske drops to 0 Hit Points,** it falls apart in its chair. The
   compass falls at its feet. The party can take it. The barrow is quiet,
@@ -1028,8 +1028,8 @@ The party can pay, talk, or fight.
 
 {{statblock: Scout}}
 
-The bandit leader is a **Bandit Captain** called Red Hollis. Two **Scouts**
-with bows hide in the rocks on the far side of the gully, 60 feet from the
+The bandit leader is a **Bandit Captain** called Red Hollis. A **Scout**
+with a bow hides in the rocks on the far side of the gully, 60 feet from the
 bridge. Two **Bandits** stand at the near end of the bridge.
 
 | Party size | Monsters | XP |
@@ -1045,7 +1045,7 @@ bridge. Two **Bandits** stand at the near end of the bridge.
 > - **5 characters (750 XP):** 1 Bandit Captain, 2 Scouts, 2 Bandits
 >   (700 XP).
 > - **6 characters (900 XP):** 1 Bandit Captain, 3 Scouts, 2 Bandits
->   (850 XP).
+>   (800 XP).
 
 - **The map:** the bridge is 30 feet long and 10 feet wide, with no wall.
   The gully below is 20 feet deep, with a fast stream at the bottom. A
@@ -1097,8 +1097,7 @@ chapter 3.
 > its place is a town of a thousand roofs, inside a wall of yellow stone.
 > In the middle of the town stands a church so big that the town looks
 > small around it. It has five towers, and the tallest has a gold sun on
-> top. Lamps burn in every
-> window. Bells ring for the evening prayer, and the sound comes up the
+> top. Lamps burn in every window. Bells ring for the evening prayer, and the sound comes up the
 > hill like water.
 >
 > Over the gate, a banner as long as a ship moves in the wind. On it are
@@ -1119,7 +1118,8 @@ The characters can end this chapter with these things.
 
 - **The Compass of the Old Road**, from Aske in the barrow (Scene 6). It is
   an Uncommon magic item. The Treasures appendix has its full entry.
-- **Money:** up to 75 GP for the old suns from Corvin Lisle (Scene 7), and
+- **Money:** 75 GP for the 15 old suns from Corvin Lisle, 5 GP more for
+  Tamsin's coin (Scene 7), and
   up to 500 GP more if the Shadow sold the stolen thing. The tolls at the
   bridge give 32 GP and 140 SP (Scene 9). The grave goods in the barrow
   are worth 40 GP, if the party took them.
