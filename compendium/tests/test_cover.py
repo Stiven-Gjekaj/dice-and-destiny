@@ -45,3 +45,19 @@ def test_cover_bullets_have_no_counts_written_by_hand():
         for bullet in book["bullets"]:
             for match in re.finditer(r"\d+ (?:original|new) ", bullet):
                 raise AssertionError(f"a count written by hand: {match.group(0)!r} in {bullet!r}")
+
+
+def test_the_dawnwatch_counts_come_from_the_content():
+    import types
+    from cover import dawnwatch_counts
+    dw = types.SimpleNamespace(MON=[1, 2], NPCS=[1], ITEMS=[])
+    assert dawnwatch_counts(dw) == {"{DW_COUNTS}": "2 new creatures, 1 person, and 0 treasures"}
+
+
+def test_the_waking_cover_says_that_it_needs_edition_2_and_the_compendiums_do_not():
+    from cover import cover_html
+    waking = cover_html("waking", 120, "hardcover")[0]
+    assert "Requires Edition 2" in waking and "{DW_COUNTS}" not in waking and "The Dawnwatch" in waking
+    for book in ("player", "gm"):
+        h = cover_html(book, 300, "paperback")[0]
+        assert "Requires Edition" not in h and "A rules-compatible guide for fifth edition (2024)" in h

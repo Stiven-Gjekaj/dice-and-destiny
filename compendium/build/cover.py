@@ -58,7 +58,20 @@ BOOKS = {
             "Expanded options: {PLAYER_COUNTS}, new species, backgrounds, feats and {SPELL_COUNTS}",
             "Equipment, the complete rules reference, conditions, a glossary and a blank character sheet"],
    icons=["swords", "spark", "fighter", "book"]),
+ "waking": dict(title="The Dawnwatch: Waking", t1="The Dawnwatch", t2="Book One: Waking",
+   sub="Five heroes wake after three hundred years. The world forgot them. Their enemy did not.",
+   back="A campaign from level 1 to level 10. It starts in the crypt where the tutorial starts.",
+   bullets=["Ten chapters, from the waking in Dawnwatch Keep to the empty crystal in the old capital",
+            "Read-aloud text, a box for each new rule, and scaling for 3 to 6 characters in every fight",
+            "A player's guide with no spoilers, and a gazetteer of the land of today",
+            "{DW_COUNTS}, each in an appendix from A to Z",
+            "Maps, handouts on their own pages, and an index of every name"],
+   icons=["compass", "dragon", "people", "scroll"],
+   compat="A campaign for levels 1 to 10 &middot; Requires Edition 2",
+   note="Uses the rules of Dice &amp; Destiny: The Player's Compendium and The Game Master's Compendium, Edition 2."),
 }
+COMPAT = "A rules-compatible guide for fifth edition (2024)"
+NOTE = "Compatible with the fifth edition (2024) rules. For players and Game Masters."
 
 
 def fill_counts(text, counts):
@@ -73,6 +86,15 @@ def content_counts():
     import render_counts as rc
     return {"{GM_COUNTS}": rc.all_gm_counts(), "{PLAYER_COUNTS}": rc.all_player_counts(),
             "{SPELL_COUNTS}": rc.all_spell_counts()}
+
+
+def dawnwatch_counts(dw=None):
+    """The counts of the Dawnwatch content, for the back cover of a Dawnwatch book."""
+    if dw is None:
+        import content.dawnwatch as dw
+    n = lambda k, one, many: f"{k} {one if k == 1 else many}"
+    return {"{DW_COUNTS}": f"{n(len(dw.MON), 'new creature', 'new creatures')}, "
+                           f"{n(len(dw.NPCS), 'person', 'people')}, and {n(len(dw.ITEMS), 'treasure', 'treasures')}"}
 
 
 def cover_html(name, pages, kind="paperback"):
@@ -90,6 +112,8 @@ def cover_html(name, pages, kind="paperback"):
                    f'height:{g["barcode_h_mm"]}mm"></div>') if hard else ""
     ic = "".join(f'<span class="cb">{icon(i, 22, "#d6aa55", 1.4)}</span>' for i in b["icons"])
     counts = content_counts()
+    if any("{DW_COUNTS}" in x for x in b["bullets"]):
+        counts.update(dawnwatch_counts())
     bl = "".join(f"<li>{fill_counts(x, counts)}</li>" for x in b["bullets"])
     return f'''<!DOCTYPE html><html><head><meta charset="utf-8"><style>
 @page {{ size: {tw}mm {th}mm; margin: 0; }}
@@ -131,7 +155,7 @@ h1 {{ font-family: "GFS Baskerville", Caladea, serif; font-weight: normal; font-
 </style></head><body>
 <div class="panel back"><div class="frame"></div><div class="inner">
   <h2>{b["back"]}</h2><ul>{bl}</ul><div class="rule"></div>
-  <p style="font-style:italic;color:#e2cfa8;font-size:10pt">Compatible with the fifth edition (2024) rules. For players and Game Masters.</p>
+  <p style="font-style:italic;color:#e2cfa8;font-size:10pt">{b.get("note", NOTE)}</p>
   <div class="small">Includes material from the System Reference Document 5.2 by Wizards of the Coast LLC, licensed under CC-BY-4.0. Not affiliated with or endorsed by Wizards of the Coast. Original content © 2026 Stiven Gjekaj, licensed under CC BY-NC-SA 4.0.</div>
   {barcode_in}
 </div>{barcode_out}</div>
@@ -141,7 +165,7 @@ h1 {{ font-family: "GFS Baskerville", Caladea, serif; font-weight: normal; font-
   <h1>{b["t1"]}<br>{b["t2"]}</h1>
   <div style="margin-top:12mm">{big_d20(230)}</div>
   <div class="subt">{b["sub"]}</div>
-  <div class="compat">A rules-compatible guide for fifth edition (2024)</div>
+  <div class="compat">{b.get("compat", COMPAT)}</div>
   <div class="icons">{ic}</div>
 </div><div class="foot">Dice &amp; Destiny · {pages} pages</div></div>
 </body></html>''', spine, tw, th

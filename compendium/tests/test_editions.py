@@ -47,3 +47,9 @@ def test_the_color_front_page_names_the_book():
     html = editions.front_page_html("gm", "color")
     assert "The Game Master's<br>Compendium" in html
     assert "size: A4" in html
+
+
+def test_the_waking_front_page_has_its_own_compat_line():
+    from editions import front_page_html
+    h = front_page_html("waking", "color")
+    assert "Book One: Waking" in h and "Requires Edition 2" in h

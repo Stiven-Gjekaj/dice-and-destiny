@@ -15,7 +15,7 @@ import sys
 
 from pypdf import PdfReader, PdfWriter
 
-from cover import BOOKS
+from cover import BOOKS, COMPAT
 from icons import big_d20, icon
 
 FONTS = "\n".join(
@@ -61,7 +61,7 @@ h1 {{ font-family: "GFS Baskerville", Caladea, serif; font-weight: normal; font-
   <h1>{b["t1"]}<br>{b["t2"]}</h1>
   <div style="margin-top:12mm">{d20}</div>
   <div class="subt">{b["sub"]}</div>
-  <div class="compat">A rules-compatible guide for fifth edition (2024)</div>
+  <div class="compat">{b.get("compat", COMPAT)}</div>
   <div class="icons">{ic}</div>
 </div></body></html>'''
 
