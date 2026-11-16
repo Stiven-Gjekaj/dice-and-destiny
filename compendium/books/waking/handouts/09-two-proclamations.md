@@ -1,7 +1,7 @@
 # Two Proclamations
 
-*Two sheets of paper, nailed side by side on the door of an inn on the
-road to Ashby Field. Someone has torn the corner off each one.*
+*Two sheets of paper, one from each group of riders. Copies of both hang
+side by side on the doors of the inns along the road to Ashby Field.*
 
 ---
 
@@ -55,6 +55,6 @@ road open and the Sleepers free.
 
 Pray for peace. Bring a spear.
 
-*Written in the House of the Five at Saint Ivo's,*
+*Written in the Church of the Five at Saint Ivo's,*
 
 **Merrow, Abbess of Saint Ivo's, Keeper of the Ember**
