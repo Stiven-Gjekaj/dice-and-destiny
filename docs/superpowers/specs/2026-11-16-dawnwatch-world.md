@@ -331,7 +331,7 @@ the person in more than one scene.
 | Tilly Ashe | An actress of Pell's Players. She plays the Shadow. | 3 | No |
 | Mother Sallow | The leader of the Hush. She watches the Waking Service at the end of chapter 3, with no candle. Chapter 10 uses a stronger statblock, "Mother Sallow, Unbound" (`people_act2.py`). | 3, 4, 7, 10 | Yes |
 | Osk | The enforcer of Mother Sallow. Big, and he does not speak. | 4, 7 | Yes |
-| Marshal Ide Gauntry | The ruler of Gaunt. Her statblock is in `people_act1.py`: CR 8, about 52 damage each round (three longsword attacks). | 5, 9 | Yes |
+| Marshal Ide Gauntry | The ruler of Gaunt. She signs as "Marshal of Gaunt, Warden of the March". Her statblock is in `people_act1.py`: CR 8, about 52 damage each round (three longsword attacks). | 5, 9 | Yes |
 | Captain Ilse Varro | The spymaster of Gaunt in Corrantey. She works for Marshal Gauntry. | 6, 9 | Yes |
 | Tobin Gauntry | Her son. He does not want a war. | 5, 9 | No |
 | Magister Aud Brennet | The first war mage of Gaunt. She teaches a "Dawnwatch spell" that is wrong. | 5 | No |
@@ -356,10 +356,10 @@ tells which lane owns the creature.
 | Hush Shroud | The second tier of the Hush. A priest in a grey veil who prays in silence. CR 2. | 3, 4, 5 | `creatures_act1.py` |
 | Hush Lightless | The third tier of the Hush. A warrior who drank the black water at the rite of the cult. CR 4. | 4, 5 | `creatures_act1.py` |
 | The Long Shadow | The shadow of the Unlit King. Mother Sallow calls it through the black stone at Kell. The creature at the end of Act I. CR 5. | 4 | `creatures_act1.py` |
-| Hush Night Warden | A soldier of the Hush in grey mail. CR 4. | 7, 9, 10 | `creatures_act2.py` |
+| Hush Night Warden | A soldier of the Hush in grey mail. CR 4. | 7, 8, 9, 10 | `creatures_act2.py` |
 | Hush Grey Choir | A crowd of Hush singers that acts as one swarm. CR 6. | 7, 9, 10 | `creatures_act2.py` |
-| Hush Dusk Priest | A priest of the Hush who puts out lights. CR 7. | 7, 8, 10 | `creatures_act2.py` |
-| Brass Lamp Warden | A brass guardian of the hall of the Lampwrights, with the maker's mark of Haskel Orme. CR 5. | 6 | `creatures_act2.py` |
+| Hush Dusk Priest | A priest of the Hush who puts out lights. CR 7. | 7, 8, 9, 10 | `creatures_act2.py` |
+| Brass Lamp Warden | A brass guardian of the hall of the Lampwrights, with the maker's mark of Haskel Orme. Orme made the six guards (handout of chapter 6). CR 5. | 6 | `creatures_act2.py` |
 | Fennick Drowned | A drowned townsperson of Fennick. CR 2. | 8 | `creatures_act2.py` |
 | Grief of Fennick | The sorrow of the drowned town, in the old church. CR 8. | 8 | `creatures_act2.py` |
 | Sergeant Maud Kettle | See the people. CR 5. | 8 | `creatures_act2.py` |

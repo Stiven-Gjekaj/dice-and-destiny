@@ -30,7 +30,7 @@ in good Gaunt silver.
 
 *Given at Stannard, under my hand and seal,*
 
-**Ide Gauntry, Marshal of Gaunt, Warden of the South**
+**Ide Gauntry, Marshal of Gaunt, Warden of the March**
 
 ---
 
