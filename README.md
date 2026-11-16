@@ -6,12 +6,20 @@ It is a rules-compatible guide for fifth edition (2024).
 Dice & Destiny has two books:
 
 - **The Player's Compendium.** It teaches new players how to play. It holds
-  all twelve classes, the species, the backgrounds, the feats, the equipment,
-  all SRD spells, and the full rules reference. It also holds original
-  subclasses, species, backgrounds, feats, and spells.
+  all twelve SRD classes, the species, the backgrounds, the feats, the
+  equipment, all SRD spells, and the full rules reference. It also holds
+  original content: 4 classes, 96 subclasses, 20 species, 40 backgrounds,
+  120 feats, 220 spells, and the player rules of the optional systems.
 - **The Game Master's Compendium.** It teaches the GM how to run the game.
-  It holds the SRD bestiary and magic items, 166 original monsters,
-  250 original magic items, a stronghold system, cheat sheets, and templates.
+  It holds the SRD bestiary and magic items, and original content:
+  651 monsters, 100 NPCs, 822 magic items, 80 traps and hazards,
+  50 sets of world-building tables, 2 pantheons with 24 gods,
+  10 downtime activities, strongholds, cheat sheets, and templates.
+
+The 8 optional systems are Marks, Bonds, Techniques, Legend paths, Journeys,
+Factions and renown, Injuries and scars, and Crafting and gathering. The
+player rules are in the Player's Compendium. The GM rules are in the Game
+Master's Compendium.
 
 ## Get the books
 
