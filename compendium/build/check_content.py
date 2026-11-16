@@ -183,6 +183,7 @@ REGISTRY = {
     "classes": lambda m: [e["name"] for e in m.CLASSES],
     "systems": lambda m: [e["name"] for e in m.MARKS + m.BONDS],
     "traps": lambda m: [e["name"] for e in m.TRAPS],
+    "tables": lambda m: [e["name"] for e in m.TABLE_SETS],
 }
 
 
