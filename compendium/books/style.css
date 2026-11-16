@@ -1,3 +1,9 @@
+/* Inter is bundled as TrueType (books/fonts, SIL Open Font License). Chrome embeds the
+   system OpenType Inter as Type 3, and printers such as Lulu warn about Type 3 fonts. */
+@font-face { font-family: "Inter"; src: url("fonts/Inter-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "Inter"; src: url("fonts/Inter-Italic.ttf") format("truetype"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "Inter"; src: url("fonts/Inter-SemiBold.ttf") format("truetype"); font-weight: 600; font-style: normal; }
+@font-face { font-family: "Inter"; src: url("fonts/Inter-Bold.ttf") format("truetype"); font-weight: 700; font-style: normal; }
 @page {
   size: A4;
   margin: 16mm 14mm 18mm 24mm; /* wide left margin for binder holes */

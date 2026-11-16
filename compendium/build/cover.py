@@ -78,6 +78,11 @@ def cover_html(name, pages, kind="paperback"):
     bl = "".join(f"<li>{x}</li>" for x in b["bullets"])
     return f'''<!DOCTYPE html><html><head><meta charset="utf-8"><style>
 @page {{ size: {tw}mm {th}mm; margin: 0; }}
+@font-face {{ font-family: "Inter"; src: url("books/fonts/Inter-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; }}
+@font-face {{ font-family: "Inter"; src: url("books/fonts/Inter-Italic.ttf") format("truetype"); font-weight: 400; font-style: italic; }}
+@font-face {{ font-family: "Inter"; src: url("books/fonts/Inter-SemiBold.ttf") format("truetype"); font-weight: 600; font-style: normal; }}
+@font-face {{ font-family: "Inter"; src: url("books/fonts/Inter-Bold.ttf") format("truetype"); font-weight: 700; font-style: normal; }}
+
 html {{ -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
 body {{ margin: 0; width: {tw}mm; height: {th}mm; position: relative; overflow: hidden; font-family: "Bitstream Charter", serif;
   background: radial-gradient(ellipse at 78% 38%, #4a1913 0%, #22100c 55%, #140806 100%); color: #f3e6cc; }}
