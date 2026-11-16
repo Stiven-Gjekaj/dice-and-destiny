@@ -184,6 +184,13 @@ The gazetteer sets these facts. Each writer uses them.
 - **The sizes of the towns:** Brannock's Ford about two hundred people,
   Saint Ivo's about four thousand, Stannard about six thousand, Corrantey
   about fifteen thousand.
+- **Small places in the gazetteer:** in Corrantey, Lantern Street, the
+  Hall of the Lampwrights, and the Council House on the bridge between the
+  two halves. In Stannard, the Marshal's Hall, the College of War, and the
+  Gate of the Five. In Saint Ivo's, the Church of the Five with five
+  towers, and the old chapel of Saint Ivo inside it.
+- **The goliath name for the Unlit King:** "the one who ate the fire". A
+  hint for chapter 10.
 - **Kell** had its own piece of the Dawnfire after the war. It went out in
   the Broken Years.
 - **Sergeant Maud Kettle** was a sergeant of the last garrison of the king
