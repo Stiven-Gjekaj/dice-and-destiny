@@ -1126,8 +1126,8 @@ Tools must make it alone.
 
 Count the crafted items as part of the treasure of this chapter. The party
 gains one Very Rare item (the First Lamp), one Rare item (the Storm Lantern),
-and some Uncommon potions. That is a generous chapter. Give one fewer Rare
-item in the treasure of chapter 7.
+and some Uncommon potions. That is a generous chapter. When you add treasure
+of your own in the next chapters, give one fewer Rare item than you planned.
 
 If the party also made other items (an Elemental Gem, a Lantern of Small
 Hours), count those too, and give one fewer Uncommon item later.
