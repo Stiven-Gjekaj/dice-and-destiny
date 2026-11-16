@@ -378,9 +378,9 @@ Find clues.
 > between them and say little. Every tent has the same shape, the same
 > distance from the next one, the same red flag.
 >
-> In the center is a large tent with its walls rolled up. A woman in plain
-> steel stands over a table with a map. She is about fifty, with grey hair
-> cut short and a face like a closed door. She looks up, and for a moment
+> In the center is a large tent with its walls rolled up. A tall woman in
+> plain steel stands over a table with a map. She is about sixty, with grey
+> braids and a face like a closed door. She looks up, and for a moment
 > the door opens a little.
 >
 > "The Dawnwatch," says Marshal Ide Gauntry. "I read about you when I was
@@ -1384,8 +1384,8 @@ likely, and that is part of its reward.
 > stone, the night he made me. I always wondered where he had been." A
 > pause. "I think I know now."
 
-Kingsholm is three days north of the keep, along the River Dunn, off the
-road. The characters can go straight there, or rest first at Dawnwatch
+Kingsholm is three days north-west of the keep, over the Wolds and up the
+River Dunn, off the road. The characters can go straight there, or rest first at Dawnwatch
 Keep. A few weeks at the keep let injuries heal, a monthly turn of the
 stronghold run, and the allies of this chapter come to help (see chapter
 10). The Hush does not wait forever, but it waits long enough.
