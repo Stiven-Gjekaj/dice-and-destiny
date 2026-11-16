@@ -242,8 +242,8 @@ The band works fast. Two soldiers nail the door of the inn and pile straw
 against it, while the rest watch the street. A priest in a soldier's cloak
 stands back in the dark and watches.
 
-- **Creatures:** 3 Hush Night Wardens, 1 Hush Dusk Priest, and 4 Cultist
-  Shrouds all in Gaunt tabards.
+- **Creatures:** 3 Hush Night Wardens, 1 Hush Dusk Priest, and 4 Hush
+  Shrouds, all in Gaunt tabards.
 - **XP:** 3 × 1,100 + 2,900 + 4 × 450 = 8,000 XP. For four characters of
   level 9, this is a **Moderate** encounter (4 × 2,000 = 8,000).
 - **The inn:** eighteen villagers are inside. The straw catches fire on
@@ -253,7 +253,8 @@ stands back in the dark and watches.
   takes the full action and the Bonus Action).
 - **The dark:** the Wardens have used Snuff on every lamp in the street.
   The street is dark, except for the torch at the inn door and the light
-  that the characters bring. The Hush have Grey Sight. Light matters here:
+  that the characters bring. The Wardens and the priest have Grey Sight,
+  and the Shrouds have Darkvision. Light matters here:
   Wick, the First Lamp, and the Storm Lantern all help.
 
 **Tactics:** The Shrouds fight in the street. Two Wardens hold the door of
