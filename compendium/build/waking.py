@@ -17,6 +17,7 @@ import importlib.util
 import inspect
 import os
 import re
+import subprocess
 import sys
 
 import build as B
@@ -400,8 +401,194 @@ def handouts_html(hs_list, hs):
     return "\n".join(out)
 
 
+# ------------------------------------------------------------------ index
+
+SKIP_TAGS = {"h1", "h2", "h3", "h4", "h5", "h6", "a", "title", "style", "script", "svg"}
+OPEN_TAG = re.compile(r"<(/?)([a-zA-Z][a-zA-Z0-9]*)")
+
+
+def mark_mentions(h, es, screen=False):
+    """Put an index marker after each name of an entry in the text. On the screen, the name links to its entry.
+    The text of headings, links, SVG, and markers does not change."""
+    names = {}
+    for e in es:
+        names.setdefault(E(e["name"], quote=False), (e["name"], e["anchor"]))
+    pat = mention_pattern(names)
+    if not pat:
+        return h
+    out, skip, spans = [], 0, []
+
+    def rep(m):
+        name, anchor = names[m.group(1)]
+        word = f'<a class="xref" href="#{anchor}">{m.group(1)}</a>' if screen else m.group(1)
+        return word + idx_mark(name)
+    for tok in re.split(r"(<[^>]*>)", h):
+        if tok.startswith("<"):
+            m = OPEN_TAG.match(tok)
+            if m and not tok.endswith("/>"):
+                close, tag = m.group(1) == "/", m.group(2).lower()
+                if tag in SKIP_TAGS:
+                    skip += -1 if close else 1
+                elif tag == "span":
+                    if not close:
+                        spans.append('class="mark"' in tok)
+                        skip += spans[-1]
+                    elif spans:
+                        skip -= spans.pop()
+            out.append(tok)
+        elif skip > 0 or not tok.strip():
+            out.append(tok)
+        else:
+            out.append(pat.sub(rep, tok))
+    return "".join(out)
+
+
+def index_html(pages, es, screen=False):
+    """Each name, A to Z, with its pages. The page of the entry itself is in bold."""
+    found = {}
+    for name, mk, main in IDX:
+        p = pages.get(mk)
+        if p:
+            all_, mains = found.setdefault(name, (set(), set()))
+            all_.add(p)
+            if main:
+                mains.add(p)
+    anchors = {}
+    for e in es:
+        anchors.setdefault(e["name"], e["anchor"])
+    out, letter = ['<div class="index">'], None
+    for name in sorted(anchors, key=str.lower):
+        first = name[0].upper()
+        if first != letter:
+            letter = first
+            out.append(f'<div class="letter">{E(letter)}</div>')
+        all_, mains = found.get(name, (set(), set()))
+        pg = ", ".join(f"<b>{p}</b>" if p in mains else str(p) for p in sorted(all_))
+        nm = f'<a href="#{anchors[name]}">{E(name)}</a>' if screen else E(name)
+        out.append(f'<p>{nm} <span class="pg">{pg}</span></p>')
+    out.append("</div>")
+    return "\n".join(out)
+
+
+PAGE_REF = re.compile(r"@@PAGE:([\w-]+)@@")
+
+
+def fill(body, pages, es, screen=False):
+    """Put the page numbers into the contents, the index, and the page references."""
+    s = body.replace("{{TOC}}", B.toc_html(pages, links=screen)).replace("{{INDEX}}", index_html(pages, es, screen))
+    return PAGE_REF.sub(lambda m: str(pages.get(ANCHOR_MARK.get(m.group(1)), "?")), s)
+
+
+def recto_marks(body):
+    """The first marker of each chunk that must start on a right-hand page, in order."""
+    return [re.search(r"@@T\d+@@", c).group(0) for c in body.split("<!--PARTSTART-->")[1:]]
+
+
+def insert_blanks(s, blanks):
+    chunks = s.split("<!--PARTSTART-->")
+    return chunks[0] + "".join(('<div class="blankpage"></div>' if i in blanks else "") + c for i, c in enumerate(chunks[1:]))
+
+
+# ------------------------------------------------------------------ build
+
+def expand(screen=False, inside_mm=None, book=BOOK, tutorial=TUTORIAL, dw=None):
+    """The full HTML of the book with placeholders for the page numbers, and the entries."""
+    B.TOC.clear()
+    IDX.clear()
+    ANCHOR_MARK.clear()
+    WARNINGS.clear()
+    dw = dw if dw is not None else content()
+    out, _, _ = body_parts(dw, book, tutorial, screen)
+    es = entries(dw)
+    s = B.parts("\n".join(out))
+    head, rest = s.split("{{TOC}}", 1)
+    s = head + "{{TOC}}" + mark_mentions(rest, es, screen)
+    import compendium as comp
+    import keep_tables
+    s = keep_tables.keep_small_tables(comp.no_em_dash(s))
+    B.TOC.sort(key=lambda t: s.index(t[2]))
+    return page_html(s, screen, inside_mm), es
+
+
+def find_marks(out):
+    """The page of each marker in <out>.pdf: the contents markers and the index markers."""
+    txt = subprocess.run(["pdftotext", f"{out}.pdf", "-"], capture_output=True, text=True).stdout
+    pages = {}
+    for i, pg in enumerate(txt.split("\f")):
+        for m in re.findall(r"@@[TI]\d+@@", pg):
+            pages.setdefault(m, i + 1)
+    return pages
+
+
+def passes(out, body, es, screen=False, render=None, find=None):
+    """Render the book until the page numbers do not change. In print, each recto chunk starts on a
+    right-hand page. The method is the method of build.build. Return the pages and the contents."""
+    render, find = render or B.render, find or find_marks
+    toc_entries, rectos = list(B.TOC), recto_marks(body)
+    blanks, pages = set(), {}
+    for it in range(12):
+        B.TOC[:] = toc_entries
+        s = fill(body, pages, es, screen)
+        if not screen:
+            s = insert_blanks(s, blanks)
+        render(out, s)
+        new = find(out)
+        if not screen and it == 0 and rectos and all(mk in new for mk in rectos):
+            rp = [new[mk] for mk in rectos]
+            blanks = B.plan_blanks(rp)
+            pages = B.shift_pages(new, rp, blanks)
+            print(f"  pass {it + 1}: {len(new)} markers, planned blanks={sorted(blanks)}", flush=True)
+            continue
+        moved = False
+        for i, mk in enumerate([] if screen else rectos):
+            p = new.get(mk)
+            if p and p % 2 == 0:
+                blanks.symmetric_difference_update({i})
+                moved = True
+                break
+        print(f"  pass {it + 1}: {len(new)} markers, blanks={sorted(blanks)}", flush=True)
+        if not moved and new == pages:
+            break
+        pages = new
+    s = re.sub(r'(<span class="mark"[^>]*>)@@[TI]\d+@@</span>', r"\1</span>", s)
+    render(out, s)
+    return pages, toc_entries
+
+
+INSIDE_START_MM = 16  # the first guess. The build changes it to the value of the Lulu table for the page count.
+
+
+def build_book(screen=False):
+    """Build the print interior (waking.pdf) or the screen interior (waking_screen.pdf)."""
+    from pypdf import PdfReader
+    out = f"{NAME}_screen" if screen else NAME
+    inside = None if screen else INSIDE_START_MM
+    for _ in range(4):
+        body, es = expand(screen, inside)
+        pages, toc_entries = passes(out, body, es, screen)
+        if screen:
+            B.add_outline(f"{out}.pdf", B.outline(toc_entries, pages))
+            break
+        n = len(PdfReader(f"{out}.pdf").pages)
+        need = B.lulu_inside_mm(n)
+        if need == inside:
+            print(f"  {n} pages, inside margin {inside} mm", flush=True)
+            break
+        print(f"  {n} pages need a {need} mm inside margin, not {inside} mm. Build again.", flush=True)
+        inside = need
+    else:
+        raise SystemExit("waking: the inside margin does not settle")
+    for w in sorted(set(WARNINGS)):
+        print("WARNING:", w)
+
+
 def page_html(body, screen=False, inside_mm=None):
     style = STYLES[screen] + (B.margin_css(inside_mm) if inside_mm else "")
     title = f'{FRONT["title"]}, {FRONT["sub_title"]}'
     return (f'<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>{title}</title>\n'
             f'{style}\n</head>\n<body class="{"screen" if screen else "print"}">\n{body}\n</body>\n</html>\n')
+
+
+if __name__ == "__main__":
+    build_book("--screen" in sys.argv[1:])
+    print(NAME, "screen" if "--screen" in sys.argv[1:] else "print", "done")

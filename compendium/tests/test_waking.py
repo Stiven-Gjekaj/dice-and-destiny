@@ -254,3 +254,113 @@ def test_each_handout_starts_a_right_hand_chunk_with_its_marker():
     assert len(chunks) == 3 and 'id="handout-01-map"' in chunks[1] and 'id="handout-02-note"' in chunks[2]
     assert W.ANCHOR_MARK["handout-01-map"] in chunks[1] and W.ANCHOR_MARK["handout-02-note"] in chunks[2]
     assert W.handouts_html([], {}) == ""
+
+
+# ------------------------------------------------------------------ index
+
+ES = [dict(kind="person", name="Old Bren", anchor="p-old-bren", obj=None),
+      dict(kind="place", name="Kell", anchor="l-kell", obj=None)]
+
+
+def test_a_mention_in_the_text_gets_a_marker():
+    h = W.mark_mentions("<p>Old Bren goes to Kell. Kelly stays.</p>", ES)
+    assert h.count('<span class="mark">@@I') == 2
+    assert "Kelly stays" in h
+    assert [n for n, _, _ in W.IDX] == ["Old Bren", "Kell"]
+
+
+def test_headings_links_markers_and_svg_keep_their_text():
+    src = ('<h2>Old Bren</h2><p><a href="#x">Kell</a> <span class="mark">Kell</span> <svg><text>Kell</text></svg> '
+           '<span class="other">Kell</span></p>')
+    h = W.mark_mentions(src, ES)
+    assert len(W.IDX) == 1  # only the plain span
+    assert h.startswith("<h2>Old Bren</h2>")
+
+
+def test_on_the_screen_a_mention_links_to_its_entry():
+    h = W.mark_mentions("<p>Old Bren</p>", ES, screen=True)
+    assert '<a class="xref" href="#p-old-bren">Old Bren</a><span class="mark">@@I0@@</span>' in h
+
+
+def test_a_name_with_an_ampersand_matches_the_escaped_text():
+    es = [dict(kind="place", name="Salt & Ash", anchor="l-salt-ash", obj=None)]
+    assert len(W.IDX) == 0
+    W.mark_mentions("<p>At Salt &amp; Ash.</p>", es)
+    assert [n for n, _, _ in W.IDX] == ["Salt & Ash"]
+
+
+def test_the_index_lists_each_name_with_its_pages_and_the_entry_page_in_bold():
+    W.IDX[:] = [("Old Bren", "@@I0@@", True), ("Old Bren", "@@I1@@", False), ("Old Bren", "@@I2@@", False),
+                ("Kell", "@@I3@@", False)]
+    pages = {"@@I0@@": 40, "@@I1@@": 7, "@@I2@@": 7, "@@I3@@": 12}
+    h = W.index_html(pages, ES)
+    assert '<p>Kell <span class="pg">12</span></p>' in h
+    assert '<p>Old Bren <span class="pg">7, <b>40</b></span></p>' in h
+    assert h.index("Kell") < h.index("Old Bren")
+    assert '<a href="#p-old-bren">Old Bren</a>' in W.index_html(pages, ES, screen=True)
+
+
+def test_fill_puts_in_the_contents_the_index_and_the_page_references():
+    B.TOC[:] = [("ch", "Handouts", "@@T0@@")]
+    W.ANCHOR_MARK["handout-01-map"] = "@@T0@@"
+    body = "{{TOC}}|page @@PAGE:handout-01-map@@ and @@PAGE:handout-99@@|{{INDEX}}"
+    s = W.fill(body, {"@@T0@@": 9}, ES)
+    assert "page 9 and ?" in s and "{{TOC}}" not in s and "{{INDEX}}" not in s
+    assert '<span class="p">9</span>' in s and 'class="index"' in s
+
+
+def test_recto_marks_and_blank_pages():
+    body = "a @@T0@@ <!--PARTSTART-->x @@T1@@ @@T2@@<!--PARTSTART-->y @@T3@@"
+    assert W.recto_marks(body) == ["@@T1@@", "@@T3@@"]
+    s = W.insert_blanks(body, {1})
+    assert s.count('class="blankpage"') == 1 and s.index("blankpage") < s.index("y @@T3@@") and s.index("@@T2@@") < s.index("blankpage")
+
+
+def fake_press(base):
+    """A fake render: the page of a marker is its base page plus one page for each blank page before it."""
+    seen = {}
+
+    def render(out, s):
+        seen["s"] = s
+
+    def find(out):
+        s = seen["s"]
+        return {mk: p + s[:s.index(mk)].count('class="blankpage"') for mk, p in base.items() if mk in s}
+    return render, find, seen
+
+
+def test_the_passes_put_each_recto_chunk_on_a_right_hand_page():
+    B.TOC[:] = [("ch", "One", "@@T0@@"), ("part", "Two", "@@T1@@"), ("sub", "Three", "@@T2@@")]
+    body = ('{{TOC}}<span class="mark" id="t0">@@T0@@</span><!--PARTSTART--><span class="mark" id="t1">@@T1@@</span>'
+            '<!--PARTSTART--><span class="mark" id="t2">@@T2@@</span>{{INDEX}}')
+    render, find, seen = fake_press({"@@T0@@": 1, "@@T1@@": 2, "@@T2@@": 3})
+    pages, toc = W.passes("x", body, [], render=render, find=find)
+    assert pages == {"@@T0@@": 1, "@@T1@@": 3, "@@T2@@": 5}
+    assert seen["s"].count('class="blankpage"') == 2
+    assert "@@T" not in seen["s"]  # the last render has no markers
+    assert [t[2] for t in toc] == ["@@T0@@", "@@T1@@", "@@T2@@"]
+
+
+def test_on_the_screen_the_passes_add_no_blank_pages():
+    B.TOC[:] = [("part", "Two", "@@T1@@")]
+    body = '{{TOC}}<!--PARTSTART--><span class="mark" id="t1">@@T1@@</span>'
+    render, find, seen = fake_press({"@@T1@@": 2})
+    pages, _ = W.passes("x", body, [], screen=True, render=render, find=find)
+    assert pages == {"@@T1@@": 2} and "blankpage" not in seen["s"]
+
+
+def test_expand_makes_one_page_of_html_with_links_on_the_screen(tmp_path, tutorial):
+    book = tmp_path / "book"
+    write(book / "chapters/02-ford.md", "# The Ford\n\nOld Bren waits at Kell — alone.\n\n{{handout: 01-map}}\n")
+    write(book / "handouts/01-map.md", "# The Map\n")
+    d = dw(npcs=[("A ferryman", "Old Bren")], places=["Kell"])
+    h, es = W.expand(screen=True, book=str(book), tutorial=str(tutorial), dw=d)
+    assert h.startswith("<!DOCTYPE html>") and "waking.css" in h and "screen.css" in h
+    assert '<a class="xref" href="#p-old-bren">Old Bren</a>' in h
+    assert "—" not in h
+    assert "{{TOC}}" in h and "{{INDEX}}" in h and "@@PAGE:handout-01-map@@" in h
+    assert {e["name"] for e in es} == {"Old Bren", "Kell"}
+    labels = [t[1] for t in B.TOC]
+    assert labels.index("1. The Last Watch") < labels.index("2. The Ford") < labels.index("Index")
+    hp, _ = W.expand(screen=False, inside_mm=25, book=str(book), tutorial=str(tutorial), dw=d)
+    assert "bw.css" in hp and "margin-left: 25mm" in hp and 'class="xref"' not in hp
