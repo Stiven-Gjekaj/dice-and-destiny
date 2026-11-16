@@ -8,6 +8,9 @@ A class entry is a dict with these keys:
   columns: a list of (heading, [20 values, one for each level])
   features: a list of (level, name, text). In the text, [[label]] shows the label in bold.
   guide: a dict with "play" and "build" text
+  also_at (optional): a dict {feature name: [levels]}. The level table shows
+    the feature again at these levels, for example an Ability Score
+    Improvement at 8, 12, and 16. The feature text is shown one time only.
   lists (optional): a list of (title, [(name, text), ...]). Each list shows as
     its own block after the features, for example the options of a feature.
 

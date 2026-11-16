@@ -70,3 +70,15 @@ def test_class_html_shows_each_list_after_the_features():
 
 def test_class_html_without_lists_has_no_list_block():
     assert "<h3>" not in class_html(make_class()).split("Class Features")[1]
+
+
+def test_level_table_shows_a_feature_again_at_its_also_at_levels():
+    rows = level_table(make_class(also_at={"First Trick": [8, 12]}))
+    assert rows[0] == ["First Trick"]
+    assert rows[7] == ["First Trick"]
+    assert rows[11] == ["First Trick"]
+
+
+def test_also_at_does_not_repeat_the_feature_text():
+    out = class_html(make_class(also_at={"First Trick": [8]}))
+    assert out.count("Pick one:") == 1

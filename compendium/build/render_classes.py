@@ -21,6 +21,9 @@ def level_table(c):
     rows = [[] for _ in range(20)]
     for lv, name, _ in c["features"]:
         rows[lv - 1].append(name)
+    for name, levels in c.get("also_at", {}).items():
+        for lv in levels:
+            rows[lv - 1].append(name)
     for lv in c["subclass_levels"][1:]:
         rows[lv - 1].append("Subclass feature")
     return rows
