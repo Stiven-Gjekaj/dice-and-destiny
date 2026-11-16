@@ -39,3 +39,8 @@ Repeating damage (your rule: a way out in about 3 rounds):
 2. Some find and stop texts give a fixed DC that is not the DC of the band (for example "a DC 13 Wisdom (Perception) check"). The chapter says "the DC ... unless the text says otherwise", so this is permitted, but traps batch 1 mostly uses "against the DC". Tell me if you want the band DC everywhere.
 
 Tell me to commit, or what to change.
+
+## Addition after the rebase
+
+- The systems session added 2 chapters to Part V, and renumbered Part VII: Traps 25, Tables 26, Pantheons 27. My downtime chapter landed at the same time and kept the number 26, so main had two chapters 26. I pushed one fix commit for this, with no other change: 7e72d70 "fix: number the downtime chapter 28 after the new systems chapters". The build passed before the push. The PDF table of contents now reads 25 Traps & Hazards, 26 World-Building Tables, 27 Pantheons, 28 Downtime Activities.
+- After the rebase on 7e72d70, the traps batch builds again: 153 tests pass, the checks are OK, GM book 283 pages.
