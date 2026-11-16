@@ -36,9 +36,11 @@ The chapter has five parts:
 ### What the Party Knows at the Start
 
 At the end of chapter 5, the party has met Marshal Ide Gauntry and the power
-of Gaunt. They know that the Hush hunts the pieces of the Dawnfire. They may
-know (from Wick, from Brother Cade, or from the Church) that a second piece
-is said to burn in Corrantey, in the hall of the guild that makes lanterns.
+of Gaunt. (If you play this chapter before chapter 5, the party comes
+straight from Kell.) They know that the Hush hunts the pieces of the
+Dawnfire. The grey ledger from Kell names the next one: "the lamp of the
+lantern makers, in their hall by the sea". That is the hall of the guild
+that makes lanterns, in Corrantey.
 
 If the party needs a reason to go west, use one of these:
 
@@ -57,7 +59,7 @@ If the party needs a reason to go west, use one of these:
 | Piece | Where | Who has it |
 |---|---|---|
 | The fire in the chapel of the keep | Dawnwatch Keep | It went out in chapter 1. |
-| The Ember of Saint Ivo | Saint Ivo's | The Hush stole it in chapter 4. |
+| The Ember of Saint Ivo | Saint Ivo's | The Hush stole it, and the party took it back at Kell, in chapter 4. |
 | The First Lamp | Corrantey | The Lampwrights. This chapter. |
 | The piece in Fennick | Under the water of the Low Fen | Nobody. Chapter 8. |
 
@@ -68,8 +70,8 @@ If the party needs a reason to go west, use one of these:
 
 ### Optional Systems at This Level
 
-The party already uses Bonds, Journeys, Marks, and Factions and renown. This
-chapter adds Crafting and gathering. Crafting makes characters stronger only
+The party already uses Journeys, Marks, Factions and renown, and maybe
+Bonds. This chapter adds Crafting and gathering. Crafting makes characters stronger only
 through the items that they make. Count the crafted items of this chapter as
 part of its treasure. The Rewards section does this for you.
 
@@ -83,7 +85,7 @@ merchants.
 The pilgrim road goes west from Saint Ivo's to Corrantey. It takes 5 days.
 Run it with the Journeys rules if your table likes them, or tell it in a few
 lines. The road is busy: carts of wool, pilgrims who go home, and soldiers of
-Gaunt in grey cloaks who ride fast and say nothing.
+Gaunt in red coats who ride fast and say nothing.
 
 > On the fifth day the road climbs a long hill, and the wind changes. It
 > smells of salt and tar and smoke. At the top you stop.
@@ -589,7 +591,7 @@ splashes over the floor, and a small bright stone of hard water is left in
 the pool. That is where the harvester works. The Storm Pearls are in the deep
 pool, now quiet.
 
-**Treasure:** in the chest in S3, the hag kept what washed up from forty
+**Treasure:** in the chest in S3, the hag kept what washed up from sixty
 years of wrecks: 640 GP in mixed coins of Corrantey and Gaunt, a silver
 compass that always points to the nearest land (a trinket, worth 50 GP),
 and the logbook of a ship called the *Merry Tern*. The last page of the log
@@ -599,7 +601,7 @@ lamps."
 > **GM tip:** The logbook is a small sign of the Hush. Three months ago, the
 > Hush paid a ship to carry its people along the coast with no lights. The
 > hag wrecked the ship. If the players ask Perrin about the *Merry Tern*, he
-> knows the ship: it left Corrantey for the north, and it never came back.
+> knows the ship: it left Corrantey for the south, and it never came back.
 
 ### The Tide Comes Back
 
@@ -890,8 +892,8 @@ on the bridge at once.
 > come, with their hands open, reaching for the flame.
 
 **Creatures:** one Hush Night Warden, two Hush Shrouds, and four
-Cultists. The Cultists and the Shrouds are new members of the Hush, who
-joined in the city.
+Cultists. The Cultists are new members of the Hush, who joined in the
+city.
 
 **The budget:** for 4 characters of level 6, a Low fight is 4 × 600 = 2,400
 XP. The Hush Night Warden is 1,100 XP, the two Hush Shrouds are 900 XP,
