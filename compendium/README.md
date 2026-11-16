@@ -53,25 +53,34 @@ right-hand page. The full build takes some minutes.
 | Path | Contents |
 |---|---|
 | `books/` | The chapters that a human writes (`player.src.html`, `gm.src.html`) and the styles (`style.css` for the design, `book.css` for the page layout, `bw.css` for print, `screen.css` for the screen). A `{{PLACEHOLDER}}` marks a section that the build makes. |
-| `content/` | The original content: `orig_mon*.py` (monsters), `orig_items*.py` (magic items), `orig_sub*.py` (subclasses), `orig_spells.py` (spells), and `orig_options.py` (backgrounds, species, feats). The strongholds are in `orig_items3.py`. |
-| `build/` | The build code. `build.py` fills the placeholders, adds the chapter headings, makes the table of contents, and makes the PDFs. `cover.py` makes the hardcover covers. `editions.py` makes the front pages and joins the screen and home-print PDFs. `classes.py` and `compendium.py` make the SRD sections. `orig_render.py` makes the original content sections. `monster_engine.py` calculates the monster statistics. `icons.py` holds the icons. |
+| `content/` | The original content. Each category is a folder: `classes/`, `subclasses/`, `species/`, `backgrounds/`, `feats/`, `spells/`, `monsters/`, `npcs/`, `items/`, `traps/`, `tables/`, `pantheons/`, `downtime/` (with the strongholds), `systems/`, `injuries/`, and `crafting/`. The `__init__.py` of each folder collects the entries of all its files. |
+| `build/` | The build code. `build.py` fills the placeholders, adds the chapter headings, makes the table of contents, and makes the PDFs. `cover.py` makes the hardcover covers. `editions.py` makes the front pages and joins the screen and home-print PDFs. `classes.py` and `compendium.py` make the SRD sections. `orig_render.py` and the `render_*.py` files make the original content sections (one renderer for each new category). `check_content.py` checks the content, and `check_fonts.py` checks the fonts of the PDFs. `monster_engine.py` calculates the monster statistics. `icons.py` holds the icons. |
 | `data/` | The SRD 5.2 data in JSON, and `fetch.py`, which downloads the data again. |
 | `build.sh` | Builds the print and screen interiors, the hardcover covers, and the editions of both books, and copies the 8 PDFs into `dist/`. |
 
 ## Add your own content
 
-Edit the files in `content/`. Then run `build.sh`.
+Add a new file to a folder in `content/`, or add entries to a file that is
+already there. The build finds a new file with no other change. Then run
+`build.sh`.
 
-- **Monster:** add an `M(...)` entry to an `orig_mon*.py` file. Give the
-  size, the type, the CR, and the ability scores. The engine calculates the
-  AC, the hit points, the attack bonuses, the average damage, and the save
-  DCs. In the text, use `{dc:con}`, `{atk:str}`, and `{2d6}`.
-- **Magic item:** add a tuple to an `orig_items*.py` file:
-  `(name, category, rarity, attunement, text)`.
-- **Subclass:** add an entry to the class list in an `orig_sub*.py` file:
-  `(name, tagline, [(level, feature, text), ...])`.
-- **Spell, feat, background, or species:** see `orig_spells.py` and
-  `orig_options.py`.
+Use the format of the files that are already in the folder. The format of
+each category is in the "Entry formats" section of the
+[style and balance guide](../docs/dice-and-destiny/style-guide.md), which
+also gives the power budgets. Two examples:
+
+- **Monster:** add an `M(...)` entry to the list `MON` in a file in
+  `content/monsters/`. Give the size, the type, the CR, and the ability
+  scores. The engine calculates the AC, the hit points, the attack bonuses,
+  the average damage, and the save DCs. In the text, use `{dc:con}`,
+  `{atk:str}`, and `{2d6}`.
+- **Magic item:** add a tuple to the list `ITEMS` in a file in
+  `content/items/`: `(name, category, rarity, attunement, text)`.
+
+The content check (`build/check_content.py`) runs in each build. It stops
+the build on a duplicate name, a name that a publisher owns, an em-dash, a
+monster outside the AC and hit point limits, and a spell above the damage
+limit. A new category folder needs one line in `REGISTRY` in that file.
 
 To change a chapter, edit `books/player.src.html` or `books/gm.src.html`.
 
