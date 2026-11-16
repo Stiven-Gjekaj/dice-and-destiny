@@ -12,8 +12,9 @@ play. Each scene teaches one rule. Then the players use that rule at once.
   Master's Compendium. The monsters, the traps, and the reward come from the
   books. The story, the places, and Wick are new.
 
-This adventure is not part of a campaign. You can use it again each time that
-you teach a new player.
+You can play this adventure alone. You can use it again each time that you
+teach a new player. It is also chapter 1 of the campaign *The Dawnwatch,
+Book One: Waking*. The end of the session tells you how to continue.
 
 ## Premise
 

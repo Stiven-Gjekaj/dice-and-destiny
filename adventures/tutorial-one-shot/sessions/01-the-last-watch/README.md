@@ -668,7 +668,7 @@ keep it.
 >
 > You stand on a hill, at the top of a ruin. The keep was once a great
 > fortress. Now it is a few broken walls with trees growing through them.
-> Below the hill, where the capital city stood, there is a forest. Far away
+> Below the hill, where the old market town stood, there is a forest. Far away
 > is a small village that you do not know. Smoke comes from its chimneys.
 >
 > Wick looks at the trees for a long time. "Ah," says Wick. "So it was
@@ -761,7 +761,15 @@ Ask the players three short questions:
 
 ## What next
 
-If the players want more, here are hooks for a second session:
+The story does not have to stop here. If the players want more, the
+campaign *The Dawnwatch, Book One: Waking* starts at this moment. The
+characters walk down the hill to the village, with Wick and the black stone.
+In the village, they learn how long they slept and what happened to the
+kingdom. Chapter 2 of the book starts there, at level 2.
+
+If you play this adventure alone, the end of Scene 7 is a good end. The
+Dawnwatch is awake, and the players can imagine the rest. Or use one of
+these hooks for a second session of your own:
 
 - **The village:** The people in the village speak a strange new form of the
   old language. They have a legend about "the Sleepers under the hill." Some
