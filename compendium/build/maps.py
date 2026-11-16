@@ -29,15 +29,15 @@ from content.dawnwatch.places import PLACES, ROADS, place  # noqa: E402
 INK, PAPER = "#000", "#fff"
 SERIF, SANS = "Caladea, serif", "Inter, sans-serif"
 
-# The largest box for each size, in mm. A map keeps the shape of its land,
-# so it can be shorter than the box. The build scales it to the column.
-SIZES = {"page": (170.0, 240.0), "half": (170.0, 112.0)}
+# The size of a map in mm. The final maps from the map tool have the same
+# sizes, so a final map can replace a preview with no change to the layout.
+SIZES = {"page": (167.0, 250.0), "half": (167.0, 120.0)}
 MARGIN = 3.0  # mm from the edge of the SVG to the inner frame
 
 # The coast of the Western Sea, from north to south, in miles.
-COAST = [(14, -5), (16, 20), (13, 45), (17, 70), (15, 95), (19, 120), (17, 145), (20, 163),
+COAST = [(14, -60), (15, -30), (14, -5), (16, 20), (13, 45), (17, 70), (15, 95), (19, 120), (17, 145), (20, 163),
          (22, 180), (25, 188), (30, 192), (32, 198), (33, 203), (31, 209), (26, 214), (21, 224),
-         (19, 245), (16, 270), (18, 295), (15, 325)]
+         (19, 245), (16, 270), (18, 295), (15, 325), (17, 350), (15, 380)]
 
 MAPS = {
     "ostrey-then": dict(
@@ -134,10 +134,13 @@ class _Map:
         self.cfg = MAPS[map_id]
         self.era = self.cfg["era"]
         bx0, by0, bx1, by1 = self.cfg["bounds"]
-        box_w, box_h = SIZES[size or self.cfg["size"]]
-        self.s = min((box_w - 2 * MARGIN) / (bx1 - bx0), (box_h - 2 * MARGIN) / (by1 - by0))
-        self.w = (bx1 - bx0) * self.s + 2 * MARGIN
-        self.h = (by1 - by0) * self.s + 2 * MARGIN
+        self.w, self.h = SIZES[size or self.cfg["size"]]
+        iw, ih = self.w - 2 * MARGIN, self.h - 2 * MARGIN
+        self.s = min(iw / (bx1 - bx0), ih / (by1 - by0))
+        # Show more land on the long side, so that the map fills its size.
+        ex = (iw / self.s - (bx1 - bx0)) / 2
+        ey = (ih / self.s - (by1 - by0)) / 2
+        self.bounds = (bx0 - ex, by0 - ey, bx1 + ex, by1 + ey)
         self.k = 1.15 if self.s > 0.9 else 1.0  # larger symbols on a regional map
         self.inner = (MARGIN, MARGIN, self.w - MARGIN, self.h - MARGIN)
         self.boxes = []    # the areas that labels and symbols use
@@ -146,10 +149,10 @@ class _Map:
 
     # ---- coordinates
     def X(self, x):
-        return MARGIN + (x - self.cfg["bounds"][0]) * self.s
+        return MARGIN + (x - self.bounds[0]) * self.s
 
     def Y(self, y):
-        return MARGIN + (y - self.cfg["bounds"][1]) * self.s
+        return MARGIN + (y - self.bounds[1]) * self.s
 
     def P(self, pt):
         return (self.X(pt[0]), self.Y(pt[1]))
@@ -656,7 +659,7 @@ class _Map:
           f'fill="none" stroke="{INK}" stroke-width=".7"/>')
         # Ticks along the frame, each `ticks` miles, black and white as on an old atlas.
         step = self.cfg["ticks"]
-        bx0, by0, bx1, by1 = self.cfg["bounds"]
+        bx0, by0, bx1, by1 = self.bounds
         d = []
         m = bx0 - bx0 % step + step
         while m < bx1:

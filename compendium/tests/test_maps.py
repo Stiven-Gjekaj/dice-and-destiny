@@ -32,15 +32,19 @@ def test_each_map_is_valid_svg(map_id):
     assert root.tag == NS + "svg"
     w, h = root.get("width"), root.get("height")
     assert w.endswith("mm") and h.endswith("mm")
-    assert float(w[:-2]) <= maps.SIZES["page"][0]
+    size = maps.SIZES[maps.MAPS[map_id]["size"]]
+    assert (float(w[:-2]), float(h[:-2])) == size
+    assert root.get("viewBox") == f"0 0 {size[0]:g} {size[1]:g}"
+
+
+def test_the_sizes_are_those_of_the_map_tool():
+    assert maps.SIZES == {"page": (167, 250), "half": (167, 120)}
 
 
 @pytest.mark.parametrize("size", ["page", "half"])
-def test_a_map_fits_its_size(size):
+def test_a_map_has_the_size_that_the_build_asks_for(size):
     root = ET.fromstring(maps.map_svg("act-2", size))
-    box_w, box_h = maps.SIZES[size]
-    assert float(root.get("width")[:-2]) <= box_w + .01
-    assert float(root.get("height")[:-2]) <= box_h + .01
+    assert (float(root.get("width")[:-2]), float(root.get("height")[:-2])) == maps.SIZES[size]
 
 
 def test_an_unknown_map_or_size_raises():
