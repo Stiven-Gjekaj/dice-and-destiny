@@ -160,8 +160,8 @@ built. Use the Journeys rules, but quickly: the road is safe and easy.
 
 | Day | Where | Navigation DC | Foraging DC | Event |
 |---|---|---|---|---|
-| 1 | The pilgrim road south, then open farms | 5 | 8 | The toll gate |
-| 2 | The border, and the village of Wendle | 5 | 8 | The press gang |
+| 1 | The good road south, through open farms | 5 | 8 | None |
+| 2 | The border, the toll gate, and the village of Wendle | 5 | 8 | The toll gate, the press gang |
 | 3 | The good road of Gaunt | 5 | 8 | Stannard |
 
 Use the Roads and Farmland biome of the Journeys chapter for the weather
@@ -171,7 +171,7 @@ and the encounters.
 > this road is easy. I roll for all three days now, and we only stop where
 > something happens."
 
-**The toll gate.** On the first day, the party crosses into Gaunt at a
+**The toll gate.** On the second day, the party crosses into Gaunt at a
 stone gate across the road, with a tower and a bored sergeant. The toll
 is 1 SP a head, and a pass to enter Gaunt, which costs 1 SP and lasts a
 week. With the letter of the Marshal, the toll is free, the sergeant
@@ -181,7 +181,7 @@ every village on the road knows.
 
 ### The press gang at Wendle
 
-On the second day, the road passes through Wendle, a village of farms on
+A mile past the gate, the road passes through Wendle, a village of farms on
 the border. Wendle is in Gaunt by a mile. Its people pray at Saint Ivo's.
 
 > The village is quiet when you ride in. Too quiet. On the green, a line
