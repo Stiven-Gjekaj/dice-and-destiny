@@ -656,6 +656,76 @@ attacks the party here any more.
 
 ---
 
+## When Things Go Wrong
+
+The last chapter of a long campaign carries a lot of weight. Here is what to
+do when the dice or the plans go somewhere you did not expect.
+
+### The party loses the fight in the throne hall
+
+A total party defeat in the last chapter is a sad way to end a book. Do
+not let it happen by bad luck alone.
+
+- **Mother Sallow does not kill the Dawnwatch.** She wants them to see the
+  dark. If every character drops, she has them carried down to the vault and
+  left at the foot of the empty crystal, alive, with 1 Hit Point each. Then
+  she goes back up to finish the rite. Run Scene 5 and Scene 6 with the
+  party alone in the vault, with no gear but what they carry. The Unlit Knight
+  is there. When the party comes back up, the rite is half done: the dome is
+  darker, and Mother Sallow is waiting. Run the fight again, and give the
+  party Advantage on Initiative, because she does not expect them.
+- **The allies come.** If Brother Cade, Ilse Varro, or the soldiers of the
+  keep came to Kingsholm, they arrive at the end of the third round of a bad
+  fight. Each of them takes one Hush Night Warden out of the fight. Do this
+  once. The Dawnwatch should finish the fight themselves.
+
+### Mother Sallow puts out the Ember
+
+If the Ember of Saint Ivo goes out, it is gone. The coal turns grey and cold
+in the hand, and it crumbles. The Church will grieve, and Abbess Merrow will
+never quite forgive the party. Do not undo it. Give it weight:
+
+- The grey dome does not break when Mother Sallow falls. It thins, and the
+  sun comes through it weak and pale, like the sun of a long winter.
+- In the vault, the empty crystal is colder. The Unlit Knight has 10% more
+  Hit Points.
+- In the last words, Malgrath says one more line, before the last one: "One
+  more light out. Do you feel the cold? I feel it every day."
+
+### The players go to the vault first
+
+Some groups skip the throne hall and look for the Stair of Bells. Let them
+try. The stair is behind the throne, so the party must cross the hall, and
+Mother Sallow sees them. If they sneak past (a group Dexterity (Stealth)
+check against DC 18, with Disadvantage if anyone carries an uncovered light),
+they reach the vault first. Run the vault and the letter. Then Mother Sallow
+comes down the stair with her guards, and the fight with her happens in the
+vault, at the foot of the empty crystal. That is a strong scene too. She
+reads the letter over their shoulders, and she laughs, and then she cries.
+
+### The players want to destroy the black stone
+
+After the letter, a player may want to break the black stone, or leave it in
+the crystal. Both are fine.
+
+- **Left in the crystal:** the stone stays. The bearer's Mark stays too, but
+  it stops growing. The last words still happen: the voice of Malgrath comes
+  through the badge of Sir Garrath instead, if a character wears it, or
+  through the empty crystal itself, as a whisper up the Stair of Bells.
+- **Broken:** the stone does not break. Steel, fire, and spells of level 5 or
+  lower do nothing to it. It is a piece of the spell of Haskel Orme, and only
+  a greater magic can end it. That is a question for Book Two.
+
+### A character dies
+
+Death in the last chapter matters. If a character dies in Kingsholm, do not
+rush to raise them. Brother Cade can cast a spell of raising if the players
+want it, but ask first: some players want the death to stand. If it stands,
+give the fallen character the first place in the last scene. The voice of
+Malgrath speaks their name first. He knew all five of them, once.
+
+---
+
 ## Scene 5: The Stair of Bells (half a session)
 
 **Goal:** The last fight of Book One, against the guard that the sleeper
