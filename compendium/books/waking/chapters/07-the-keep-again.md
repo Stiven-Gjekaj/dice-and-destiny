@@ -980,3 +980,195 @@ results are the same as in the Compendium.
 > chapters 8 and 9, use at least one event each month as the start of a
 > scene. In chapter 10, the keep is the place where the party gathers its
 > allies.
+
+---
+
+## Scene 7: The Grey Night (45 minutes)
+
+**Goal:** The first event of the keep. A Hush night attack, with the
+Strongholds defense roll and a fight.
+
+### The warning
+
+Run this scene a few days after Scene 6, on the first night when the
+party's first room is not yet finished. The Hush want the keep back, or at
+least they want to show the party that it is not safe.
+
+> It is a clear night with no moon. Hesper is still up, working by the light
+> of Wick, who sits on her table and reads her lists upside down. Then Wick's
+> flame goes small.
+>
+> "Hesper," he says. "Hesper, do you hear that?"
+>
+> She listens. There is nothing to hear. That is the problem. The sheep on
+> the hill are quiet. The owls are quiet. The wind is quiet. And out in the
+> dark, very softly, many voices hum one long low note with their mouths
+> closed.
+
+### The defense roll
+
+> **Teach: the defense roll.** "When an enemy attacks your stronghold, you
+> roll for the keep. Roll a d20 and add the Walls rating. The DC is 12 plus
+> half of your level. If you make it, your keep was ready. If you fail, the
+> attackers get inside before you are ready, and the keep loses something."
+
+The DC is 12 + half the party level. At level 7, that is 12 + 3 = **15**
+(round down).
+
+Bonuses that can apply:
+
+- **Walls:** +1 for each level of Walls (+1 now).
+- **Armory:** +1 Walls on defense rolls, if the party restored it.
+- **The Dawn Banner:** +1 to defense rolls while it flies over the keep.
+- **A good plan:** if the players set watches, block the well, or close the
+  crack in the far wall, give them +2. Ask: "What did you do to make the
+  keep safer?"
+
+**On a success:** the keep is ready. Edric (or the pilgrim) on the wall
+sees the grey shapes on the hill in time and rings the old bell. The party
+meets the Hush at the gate. Use the smaller group below. The keep loses
+nothing.
+
+**On a failure:** the Hush get inside the walls before anyone sees them.
+The party meets them in the courtyard, among the half-built rooms. Use the
+larger group below. After the fight, the keep also loses something: the
+players choose either 1d6 × 100 GP (stolen or burned) or one room out of
+use for a month. A room that is still being built takes one month more.
+
+> **GM tip:** The Watchtower room says that the stronghold is never
+> surprised by an attack. If the party built a Watchtower, they still roll,
+> but a failure does not let the Hush get inside: use the smaller group, and
+> the keep loses only 1d6 × 100 GP on a failure, not a room.
+
+### Encounter 3: The Grey Night
+
+> They come up the hill in a long grey line. At the front walks a crowd of
+> robed figures, close together, humming with closed mouths. Where they
+> walk, the starlight seems to fade. Wick's light shrinks around you, and
+> shrinks, and the dark comes in close like cold water. Behind the singers
+> walk soldiers in grey mail.
+
+**Creatures (success):** 1 Hush Grey Choir (CR 6, 2,300 XP) and 2 Hush
+Night Wardens (CR 4, 1,100 XP each).
+
+**XP:** 2,300 + 2 × 1,100 = 4,500 XP. Between Low (3,000 XP) and Moderate
+(5,200 XP) for four characters of level 7.
+
+**Creatures (failure):** as above, and 1 more Hush Night Warden. **XP:**
+5,600 XP, a little above Moderate.
+
+{{statblock: Hush Grey Choir}}
+
+The statblock of the Hush Night Warden is in Scene 3.
+
+**The place.** The old courtyard of the keep, on the hilltop: broken walls
+(Half Cover), the well house, piles of new stone and timber for the rooms,
+and the white Dawn Door. The tents of the Hush are gone. If the defense roll
+succeeded, the fight starts at the gap in the outer wall that serves as a
+gate, and the party has the high ground: the Hush must climb the rubble of the gap
+(5 feet of extra movement) to get past the party.
+
+**Tactics:**
+
+- **The Choir** walks straight at the largest group of characters. Its Song
+  of the Long Night turns Bright Light into Dim Light, so Wick's light gets
+  weak around it. It uses Hymn of Quiet as soon as it can catch three or more
+  characters in it, and at once on any character who is casting spells.
+- **The Wardens** stay at the edges of the Choir's song, where their Grey
+  Sight helps them. They use Snuff on any nonmagical light and Close the
+  Ranks to protect each other.
+- **The goal of the Hush** is not to kill. It is to break something: one
+  Warden tries to reach the half-built rooms and smash them, and one tries to
+  reach the chapel and cover the bowl again. If a Warden reaches its goal and
+  stays there for a full round, the keep loses as if the defense roll had
+  failed (if it did not fail already).
+- **Retreat.** When the Choir drops to half its Hit Points, the Hush retreat
+  into the dark. They do not chase. They made their point.
+
+> **Scaling:** The budgets at level 7 are Low 750 XP and Moderate 1,300 XP
+> for each character. On a failed defense roll, add 1 Hush Night Warden
+> (1,100 XP) to each row.
+>
+> - **3 characters** (Low 2,250, Moderate 3,900): 1 Hush Grey Choir and 1
+>   Hush Night Warden (3,400 XP; on a failure, 4,500 XP).
+> - **4 characters** (Low 3,000, Moderate 5,200): 1 Hush Grey Choir and 2
+>   Hush Night Wardens (4,500 XP; on a failure, 5,600 XP).
+> - **5 characters** (Low 3,750, Moderate 6,500): 1 Hush Grey Choir and 3
+>   Hush Night Wardens (5,600 XP; on a failure, 6,700 XP).
+> - **6 characters** (Low 4,500, Moderate 7,800): 2 Hush Grey Choirs and 2
+>   Hush Night Wardens (6,800 XP; on a failure, 7,900 XP).
+
+> **Teach: the people of the keep.** During the fight, Hesper and the other
+> followers do not fight. They hide in the chapel. But a player can ask a
+> follower for one thing each round: ring the bell, open a door, throw a
+> torch, drag a hurt character into the chapel. Followers are people, not
+> soldiers. Use them to make the keep feel alive.
+
+### After the fight
+
+> The humming stops. The grey line goes back down the hill, slowly, as if it
+> had all the time in the world. Nobody runs. Then it is gone into the dark
+> of the Wolds, and the owls start again, one by one.
+>
+> Hesper comes out of the chapel with her slate. Her hands shake. She writes
+> something down. Then she looks up at you and says, in a steady voice:
+> "Walls. We need more walls."
+
+If the defense roll failed, now the players choose what the keep lost.
+
+On one of the fallen Wardens, the party finds a grey cloth with a message
+stitched into it in white thread. There is no name on it.
+
+> "Keep the hall, Sleepers. Keep the broken beds. We will see you where the
+> king slept. Count the days. M."
+
+> **Thread (the steward):** "Where the king slept." Mother Sallow and the
+> letters of the steward both point to the same place: Kingsholm. The
+> players can go now, or later. Chapters 8 and 9 come first in the story,
+> and chapter 9 gives them one more reason. If the players want to go to
+> Kingsholm at once, Wick stops them: "Not yet. We are not ready. And I
+> think... I think I do not want to know yet." Let the players decide, but
+> tell them honestly that Kingsholm is the end of the book.
+
+### The end of the chapter
+
+> The sun comes up over the Wolds. From the top of the hill, you see the
+> whole land: the river, the stones, the smoke of Brannock's Ford far away,
+> where people are coming home. The Dawn Banner hangs over the white door,
+> blue and gold, patched in three places.
+>
+> Inside, in the Hall of Sleepers, Wick sits in his niche. His flame is big
+> and bright, the way it never was in three hundred years.
+>
+> "Good morning," he says, to nobody in particular. "Good morning, good
+> morning. They came home."
+
+---
+
+## Rewards
+
+- **Dawnwatch Keep.** The keep is the stronghold of the party: a Hold, with
+  Walls 1, Coffers 1, and Renown 1, and 5 room slots. The party can restore
+  the armory and the chapel at half cost (see Scene 6).
+- **Hesper Wren.** The steward of the keep. She runs it while the party is
+  away, so the party gets its order each month.
+- **The Dawn Banner** (Rare, Requires Attunement), from the chest in the
+  study.
+- **The letters of Haskel Orme** (the handout), and the hint: the rest of
+  the truth is under Kingsholm.
+- **The brass key** from the study (if found): a Vault for half the cost.
+- **The stores of the Hush.** In the tents and the chapel, the party finds
+  1,200 GP in mixed coins (old and new; the Hush took tithes from their
+  members) and two Potions of Greater Healing.
+- **Mother Sallow's prayer book** (if she dropped it): thirty years of
+  numbers that show the days getting shorter, and a plan of a room under
+  Kingsholm.
+- **The broken crystal.** The baskets hold about a hundred pounds of shards
+  of the blue crystal of the coffins. They are not magic now. The party can
+  sell them to the Lampwrights for 300 GP, or keep them. Wick wants them
+  kept. "They were yours," he says. "You slept in them."
+- **Renown.** If you use Factions and Renown, the party did a great deed
+  that the Church and Gaunt both hear of. Give the party renown with each
+  faction where it has a rank, as Factions and Renown says for a great deed.
+
+The characters go to level 8.
