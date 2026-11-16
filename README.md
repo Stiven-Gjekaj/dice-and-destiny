@@ -134,6 +134,18 @@ Each system is optional. A table can use one, some, all, or none.
 
 ## Get the books
 
+### Buy a printed hardcover
+
+Each book is for sale as an A4 hardcover on the Lulu Bookstore. Lulu prints
+each copy when you order it.
+
+| Book | Pages | Price |
+|---|---|---|
+| [The Player's Compendium](https://www.lulu.com/shop/stiven-gjekaj/dice-destiny-the-players-compendium/hardcover/product-yv69eey.html) | 288 | 29.99 EUR |
+| [The Game Master's Compendium](https://www.lulu.com/shop/stiven-gjekaj/dice-destiny-the-game-masters-compendium/hardcover/product-w46qm8v.html) | 469 | 34.99 EUR |
+
+### Download the PDFs
+
 Go to [Releases](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases).
 Each release has five files for each book. Choose the files for what you
 want to do:
