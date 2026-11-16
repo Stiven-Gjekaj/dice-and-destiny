@@ -11,7 +11,7 @@ full color wraparound cover with 3 mm bleed for each book.
 
 You do not have to build the books to read them. Each push to `main` that
 changes this folder makes a preview release with the PDFs. See
-[Releases](https://github.com/Stiven-Gjekaj/DnD/releases).
+[Releases](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases).
 
 ## Build
 

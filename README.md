@@ -15,7 +15,7 @@ Dice & Destiny has two books:
 
 ## Get the books
 
-Go to [Releases](https://github.com/Stiven-Gjekaj/DnD/releases).
+Go to [Releases](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases).
 Each release has four PDFs: the A4 black and white interior and the full
 color cover of each book.
 
