@@ -88,12 +88,12 @@ SUBS["ranger"] = [
  (11, "Exorcist's Shot", "When you hit a creature marked by your Hunter's Mark, you can force it to make a Charisma save (your spell save DC). On a failure it takes an extra 4d8 Radiant damage, and if it is possessing a creature, it is expelled. Once per turn."),
  (15, "Last Rites", "Undead you reduce to 0 Hit Points can't rise again by any means short of a Wish spell, and you have Advantage on saving throws against effects created by Undead and Fiends."),
 ]),
-("Trapper", "Patient hunters who make the land itself fight for them.", [
+("Snarewright", "Patient hunters who make the land itself fight for them.", [
  (3, "Snare Kit", "As a Bonus Action you set a hidden snare in an unoccupied 5-foot space within 5 feet. The first creature to enter it makes a Dexterity save (your spell save DC) or has the Restrained condition (escape DC equals your spell save DC). You can have snares up to your Wisdom modifier at once."),
  (3, "Lay of the Land", "You know the location of difficult terrain, cover and hiding places within 60 feet, and you have Advantage on checks to find or disarm traps."),
  (7, "Tripwire Sense", "You can't be surprised, and when a creature becomes Restrained by one of your snares you can make a weapon attack against it as a Reaction."),
  (11, "Killing Field", "Your attacks have Advantage against Restrained creatures, and when you hit one, it takes an extra 2d8 damage of the weapon's type."),
- (15, "Master Trapper", "Your snares can now be set at range (60 feet), are invisible, and a creature caught in one also takes 4d8 Piercing damage."),
+ (15, "Master Snarewright", "Your snares can now be set at range (60 feet), are invisible, and a creature caught in one also takes 4d8 Piercing damage."),
 ]),
 ("Deep Roads Wayfarer", "Rangers of caves, tunnels and the lightless world below.", [
  (3, "Lightless Sight", "You gain Darkvision 60 feet, or if you already have it, its range increases by 60 feet. You can see through magical Darkness to a range of 10 feet."),
