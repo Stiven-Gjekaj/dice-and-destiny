@@ -144,3 +144,6 @@ table.trinkets { font-size: 7.4pt; }
 .compendium .sp-name, .compendium .mon-name, .compendium .ft h4 { break-after: avoid; }
 /* Traps and hazards: keep the table of level bands in one piece. */
 .trap-bands { break-inside: avoid; }
+
+/* keep each random table in one piece */
+.compendium table.roll-table { break-inside: avoid; }
