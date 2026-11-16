@@ -257,6 +257,18 @@ Each release has both cover types. (Decision of the agent.)
 7. A full review against the targets. Then the human decides on the
    `edition-2` tag.
 
+## Answers of the human (after the content was complete)
+
+1. **The trademark notice.** The copyright page of both books keeps the
+   sentence "Dungeons & Dragons is a trademark of Wizards of the Coast LLC."
+   It is a legal notice, not book text.
+2. **The crafting table.** The Crafting and Gathering chapter keeps the
+   cost and the time of each rarity as its own rule. It does not say that
+   the SRD has the table.
+3. **Lulu templates.** The human downloads the Lulu hardcover templates for
+   the final page counts. The covers are checked against them before the
+   `edition-2` tag.
+
 ## Left to the builder
 
 - The exact Lulu cover numbers (from the Lulu template).
