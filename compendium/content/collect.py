@@ -7,16 +7,16 @@ import importlib
 import pkgutil
 
 
-def _modules(package):
+def _modules(package, prefix=""):
     pkg = importlib.import_module(package)
-    names = sorted(m.name for m in pkgutil.iter_modules(pkg.__path__) if not m.ispkg)
+    names = sorted(m.name for m in pkgutil.iter_modules(pkg.__path__) if not m.ispkg and m.name.startswith(prefix))
     return [importlib.import_module(f"{package}.{n}") for n in names]
 
 
-def collect_list(package, attr):
-    """Join the list `attr` of each module in `package`."""
+def collect_list(package, attr, prefix=""):
+    """Join the list `attr` of each module in `package`. With a prefix, read only the modules whose names start with it."""
     out = []
-    for mod in _modules(package):
+    for mod in _modules(package, prefix):
         out.extend(getattr(mod, attr, []))
     return out
 

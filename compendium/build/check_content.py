@@ -188,7 +188,19 @@ REGISTRY = {
     "tables": lambda m: [e["name"] for e in m.TABLE_SETS],
     "pantheons": lambda m: [p["name"] for p in m.PANTHEONS] + [g["name"] for p in m.PANTHEONS for g in p["gods"]],
     "npcs": lambda m: [e[1].name for e in m.NPCS],
+    "dawnwatch": lambda m: [e.name for e in m.MON] + [person_name(e) for e in m.NPCS] + [e[0] for e in m.ITEMS],
 }
+
+
+def person_name(entry):
+    """A Dawnwatch person is (role, M(...)) or (role, "Name") for a person with no statblock."""
+    return entry[1] if isinstance(entry[1], str) else entry[1].name
+
+
+def campaign_clashes(campaign, compendium):
+    """A campaign name that is also a Compendium name makes a statblock directive point at two entries."""
+    known = {n.strip().lower() for n in compendium}
+    return [f"dawnwatch: '{n}' is also the name of a Compendium entry" for n in campaign if n.strip().lower() in known]
 
 
 def background_feat_errors(backgrounds, origin_feats):
@@ -253,6 +265,12 @@ def check_all_content():
         errors += monster_out_of_band(m)
     for _, m in mods["npcs"].NPCS:
         errors += monster_out_of_band(m)
+    dw = mods["dawnwatch"]
+    errors += unknown_values("dawnwatch", [e[2] for e in dw.ITEMS], RARITIES)
+    for m in list(dw.MON) + [e[1] for e in dw.NPCS if not isinstance(e[1], str)]:
+        errors += monster_out_of_band(m)
+    errors += campaign_clashes(REGISTRY["dawnwatch"](dw), [m.name for m in mods["monsters"].MON]
+                               + [e[1].name for e in mods["npcs"].NPCS] + [e[0] for e in mods["items"].ITEMS])
     errors += spell_class_level_errors(mods["spells"].SPELLS)
     for sp in mods["spells"].SPELLS:
         name, level, desc = sp[0], sp[1], sp[10]
