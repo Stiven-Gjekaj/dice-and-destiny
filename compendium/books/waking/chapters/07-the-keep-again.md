@@ -186,9 +186,9 @@ plan.
 > Wick's flame shrinks to the size of a fingernail. "They are in my house,"
 > he whispers.
 
-The Hush have Grey Sight (the statblock of the Hush Night Warden explains
-it), so they do not need lights. Most Hush initiates (Cultists) do not have
-Grey Sight. They walk by memory and move slowly at night.
+The Hush fighters do not need lights. The Night Wardens have Grey Sight (their
+statblock explains it), and the Shrouds have Darkvision. Most Hush initiates
+(Cultists) have neither. They walk by memory and move slowly at night.
 
 ### Scouting
 
@@ -198,12 +198,12 @@ each success.
 
 | Check | DC | Result |
 |---|---|---|
-| Dexterity (Stealth) to get close | 14 | The character counts the Hush: about thirty in all. Twenty are initiates who carry baskets and tools. About ten are soldiers in grey mail (Hush Night Wardens and Hush Shrouds). |
+| Dexterity (Stealth) to get close | 14 | The character counts the Hush: about thirty in all. Twenty are initiates who carry baskets and tools. About ten are fighters: Hush Night Wardens in grey mail and Hush Shrouds in grey robes. |
 | Wisdom (Perception) | 13 | Hush soldiers come and go through the white stone door on the hilltop: the Dawn Door. That is the main way in. Four guards stand at it day and night. |
 | Wisdom (Survival) | 14 | Tracks lead to the far side of the hill. A landslip opened a crack in the old wall there. The Hush use it to throw out dirt and broken crystal. It leads down into the Stair of Teeth. |
 | Wisdom (Insight), watching the camp | 15 | The character sees the pattern of the camp. At dawn, most Hush go inside to sleep. The best time to attack is just after sunrise, when the camp is sleepy. |
 | Intelligence (History) or Wick | 12 | The well house. A stone hut in the old courtyard has a shaft that goes 60 feet down into the armory. Wick: "The steward told me about it. He sent soup down that shaft, he said. Cold soup, usually." |
-| Intelligence (Investigation), at night | 15 | A cart leaves the hill each night with baskets of broken blue crystal, going north toward the Dunn. The Hush send the shards away. (This is a hint for chapter 10. The cart goes toward Kingsholm.) |
+| Intelligence (Investigation), at night | 15 | A cart leaves the hill each night with baskets of broken blue crystal, going north-west toward the Dunn. The Hush send the shards away. (This is a hint for chapter 10. The cart goes toward Kingsholm.) |
 
 > **Thread (the black stone):** If the bearer of the black stone comes
 > within 300 feet of the Dawn Door, the stone hums so loud that the bearer
@@ -346,8 +346,8 @@ characters of level 7 (the budget is 4 × 1,300 = 5,200 XP).
   Bonus Action on a torch or a lantern. Wick is magical, so his flame only
   flickers. Describe it: "The grey hand pinches toward Wick. Wick's flame
   bends, shivers... and stays. Wick sticks out a tongue of fire at it."
-- **Fight in the dark.** The Wardens have Grey Sight. If the party has no
-  light, the Wardens have Advantage against characters who can't see them.
+- **Fight in the dark.** The Wardens have Grey Sight, and the Shrouds have
+  Darkvision. If the party has no light, the Wardens have Advantage against characters who can't see them.
   Wick and the First Lamp from chapter 6 are the answer. Let the players find
   that out.
 - **Close the Ranks.** The Wardens stand next to the Shrouds and use their
@@ -518,7 +518,7 @@ characters of level 7 (the budget is 4 × 1,700 = 6,800 XP).
 
 The statblock of the Hush Shroud is in Scene 3.
 
-> **GM tip:** Osk is CR 4, as in The Hush. He is weaker than the party
+> **GM tip:** Osk is CR 4, as in chapter 4. He is weaker than the party
 > now, and that is fine: he is the old enemy, and the Dusk Priest is the
 > real threat. Osk's reaction, Her Shield, works only while Mother Sallow
 > stands next to him, so he loses it when she leaves.
