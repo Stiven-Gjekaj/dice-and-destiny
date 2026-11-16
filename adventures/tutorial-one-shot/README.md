@@ -1,6 +1,6 @@
 # The Last Watch of the Sleepers
 
-A tutorial one-shot for D&D 5e (2024 rules). It teaches new players how to
+A tutorial one-shot for Dice & Destiny. It teaches new players how to
 play. Each scene teaches one rule. Then the players use that rule at once.
 
 - **Players:** 1 to 5. The adventure scales. See [Scaling](#scaling).
@@ -99,7 +99,7 @@ pod.
   small demons, fire, and an old crypt. It has no gore.
 - Tell the players that they can stop a scene at any time. They tap the
   table or say "pause."
-- **No character dies in this tutorial.** The first lesson of D&D must not end
+- **No character dies in this tutorial.** The first lesson of the game must not end
   with a lost character. Scene 6 has a rule for this, the Dawnwatch Oath. Do
   not tell the players about it before Scene 6.
 

@@ -446,7 +446,7 @@ characters. Do not ask for a roll. Choose one:
 - "Each of you hears a sound from the chapel. It sounds like a voice that you
   know. Whose voice is it?"
 
-> **Teach: the game is not only fights.** "In D&D, you can talk as your
+> **Teach: the game is not only fights.** "In this game, you can talk as your
 > character, also when nothing happens. This is often the best part."
 
 **To save time:** Skip the questions. Say "An hour passes," let the players
