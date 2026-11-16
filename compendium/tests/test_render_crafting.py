@@ -106,10 +106,17 @@ def gear(**changes):
 
 
 def test_a_biome_material_must_name_known_biomes():
-    assert material_errors(mat(origin="Coast or Underwater")) == []
-    assert material_errors(mat(origin="Forest or Moon")) == [
-        "Material 'Glow Moss': biome 'Moon' is not one of ['Arctic', 'Coast', 'Desert', 'Forest', 'Grassland', 'Hill', "
-        "'Mountain', 'Swamp', 'Underdark', 'Underwater', 'Urban']"]
+    biomes = ["Coast", "Forest", "Underwater"]
+    assert material_errors(mat(origin="Coast or Underwater"), biomes) == []
+    assert material_errors(mat(origin="Forest or Moon"), biomes) == [
+        "Material 'Glow Moss': biome 'Moon' is not one of ['Coast', 'Forest', 'Underwater']"]
+
+
+def test_the_biome_names_are_the_journey_biomes_and_the_extra_ones():
+    from content.systems import BIOMES
+    from render_crafting import EXTRA_BIOMES, biome_names
+    assert biome_names() == [b["name"] for b in BIOMES] + EXTRA_BIOMES
+    assert "Underwater" in biome_names() and "Urban" in biome_names()
 
 
 def test_a_monster_material_can_name_any_creature():

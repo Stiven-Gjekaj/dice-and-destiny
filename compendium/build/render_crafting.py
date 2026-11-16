@@ -22,8 +22,16 @@ MARGIN = 0.8
 MATERIAL_VALUE = {"Common": 10, "Uncommon": 50, "Rare": 500, "Very Rare": 5000, "Legendary": 25000}
 DC = {"Common": 10, "Uncommon": 13, "Rare": 15, "Very Rare": 18, "Legendary": 20}
 SOURCES = {"Monster": "Monster Materials", "Biome": "Biome Materials"}
-# The biomes of the SRD. The origin of a Biome material names one or more of them, joined by " or ".
-BIOMES = ["Arctic", "Coast", "Desert", "Forest", "Grassland", "Hill", "Mountain", "Swamp", "Underdark", "Underwater", "Urban"]
+# The origin of a Biome material names one or more biomes, joined by " or ". The names come from the
+# Journey biomes of the optional systems (content/systems), so that the two systems use the same names.
+# These SRD biomes have no Journey entry, and they are also valid:
+EXTRA_BIOMES = ["Underwater", "Urban"]
+
+
+def biome_names():
+    """The valid biome names: the names of the Journey biomes, then EXTRA_BIOMES."""
+    from content.systems import BIOMES
+    return [b["name"] for b in BIOMES] + EXTRA_BIOMES
 # A gear recipe: the materials cost half the SRD price, and it takes one workday for each GEAR_GP_PER_DAY GP of the price.
 GEAR_GP_PER_DAY = 10
 GEAR_KEYS = {"item", "tool", "materials", "gold", "days", "note"}
@@ -37,8 +45,11 @@ def base_cost(rarity, consumable):
     return (gold / 2, days / 2) if consumable else (gold, days)
 
 
-def material_errors(m):
-    """Return a list of the problems of one material entry. An empty list means no problem."""
+def material_errors(m, biomes=None):
+    """Return a list of the problems of one material entry. An empty list means no problem.
+
+    biomes: the valid biome names. None reads them with biome_names().
+    """
     name = m.get("name", "?")
     errors = [f"Material '{name}': missing key '{k}'" for k in sorted(MATERIAL_KEYS - set(m))]
     errors += [f"Material '{name}': unknown key '{k}'" for k in sorted(set(m) - MATERIAL_KEYS)]
@@ -49,8 +60,9 @@ def material_errors(m):
     if m["rarity"] not in RARITIES:
         errors.append(f"Material '{name}': rarity '{m['rarity']}' is not one of {RARITIES}")
     if m["source"] == "Biome":
-        bad = [b for b in m["origin"].split(" or ") if b not in BIOMES]
-        errors += [f"Material '{name}': biome '{b}' is not one of {BIOMES}" for b in bad]
+        biomes = biome_names() if biomes is None else biomes
+        bad = [b for b in m["origin"].split(" or ") if b not in biomes]
+        errors += [f"Material '{name}': biome '{b}' is not one of {biomes}" for b in bad]
     return errors
 
 
