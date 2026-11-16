@@ -3,6 +3,7 @@
 Each test makes its own sources in a temporary folder and its own content
 in a small namespace. No test reads the book text that the writers edit.
 """
+import re
 import sys
 import types
 
@@ -433,3 +434,18 @@ def test_a_name_with_the_also_matches_a_lowercase_the():
     assert [n for n, _, _ in W.IDX] == ["The Fennick Candle", "The Fennick Candle"]
     assert '<a class="xref" href="#t-the-fennick-candle">the Fennick Candle</a>' in h
     assert W.mention_pattern(["The Wolds"]).search("THE Wolds") is None
+
+
+def test_names_sort_without_the_first_article():
+    assert sorted(["The Black Stone", "Ash", "The Corrin", "Brannock", "A Ledger"], key=W.sort_key) == [
+        "Ash", "The Black Stone", "Brannock", "The Corrin", "A Ledger"]
+    assert W.letter_of("The Black Stone") == "B" and W.letter_of("Theo") == "T" and W.letter_of("The") == "T"
+    d = dw(items=[("The Black Stone", "Wondrous Item", "Rare", None, "x"), ("Candle", "Wondrous Item", "Rare", None, "y"),
+                  ("Amulet", "Wondrous Item", "Rare", None, "z")])
+    h = W.appendices_html(d, [])
+    letters = re.findall(r'<div class="letter">(\w)</div>', h)
+    assert letters == ["A", "B", "C"]
+    es = W.entries(d)
+    assert [e["name"] for e in es] == ["Amulet", "The Black Stone", "Candle"]
+    ih = W.index_html({}, es)
+    assert re.findall(r'<div class="letter">(\w)</div>', ih) == ["A", "B", "C"]

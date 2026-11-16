@@ -332,7 +332,19 @@ def entries(dw):
             continue
         seen.add(name.lower())
         out.append(dict(kind=kind, name=name, obj=obj, anchor=f"{KINDS[kind][0]}-{wm.slug(name)}"))
-    return sorted(out, key=lambda e: (list(KINDS).index(e["kind"]), e["name"].lower()))
+    return sorted(out, key=lambda e: (list(KINDS).index(e["kind"]), sort_key(e["name"])))
+
+
+ARTICLE = re.compile(r"^(?:The|A|An)\s+(?=\S)")
+
+
+def sort_key(name):
+    """Sort a name without its first article: "The Black Stone" goes under B."""
+    return ARTICLE.sub("", name).lower()
+
+
+def letter_of(name):
+    return ARTICLE.sub("", name)[0].upper()
 
 
 def mention_pattern(names):
@@ -411,7 +423,7 @@ def appendices_html(dw, chs):
         out.append('<div class="appendix cols2 compendium">')
         letter = None
         for e in group:
-            first = e["name"][0].upper()
+            first = letter_of(e["name"])
             if first != letter:
                 letter = first
                 out.append(f'<div class="letter">{E(letter)}</div>')
@@ -493,8 +505,8 @@ def index_html(pages, es, screen=False):
     for e in es:
         anchors.setdefault(e["name"], e["anchor"])
     out, letter = ['<div class="index">'], None
-    for name in sorted(anchors, key=str.lower):
-        first = name[0].upper()
+    for name in sorted(anchors, key=sort_key):
+        first = letter_of(name)
         if first != letter:
             letter = first
             out.append(f'<div class="letter">{E(letter)}</div>')
