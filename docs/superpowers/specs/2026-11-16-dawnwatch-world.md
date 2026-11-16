@@ -1,0 +1,155 @@
+# World bible: The Dawnwatch
+
+Date: 2026-11-16.
+Status: the source of truth for each writer of The Dawnwatch. If a chapter
+needs a fact that is not here, add the fact here first, in the same
+commit.
+
+Parent design: [The Dawnwatch](2026-11-16-the-dawnwatch-design.md).
+Book One outline: [Waking](2026-11-16-dawnwatch-waking-outline.md).
+
+## The timeline
+
+Years count from the long sleep. "Today" is year 300.
+
+| Year | Event |
+|---|---|
+| About -40 | Sir Garrath, the first knight of the sun, sees that the sun is weaker each winter. |
+| About -20 | Garrath tries to take the fire of the sun into himself, to save it. He becomes the Unlit King. |
+| -20 to 0 | The war of the Unlit King. Ostrey cannot kill him. |
+| 0 | Steward Haskel Orme puts Garrath to sleep in crystal under Kingsholm. Then he puts the five Dawnwatch to sleep under Dawnwatch Keep, to wait. Orme writes the official history: Ostrey "pushed the king back into the dark". He makes Wick on the last night. |
+| 0 to 100 | Ostrey splits the Dawnfire into pieces and keeps them in shrines. The pieces keep Garrath asleep. |
+| About 100 | The Grey Winter: three years with almost no summer. The last king of Ostrey dies with no heir. Civil war. A flood covers Fennick. Ostrey falls. |
+| About 140 | Pilgrims tell stories of the five sleepers. The Church of the Five Sleepers starts at the shrine of Saint Ivo. |
+| About 150 | The Gauntry family holds the south with an army. The March of Gauntry becomes the state of Gaunt. |
+| About 210 | The towns of Corrin and Tey grow into one city, Corrantey. |
+| About 270 | The days start to become shorter. Few people see it. The Hush starts, in secret. |
+| 300 | The Hush puts out the Dawnfire in the chapel of the keep. The crystal cracks. The tutorial starts. |
+
+## The truth and the lie
+
+- **The lie (the player's guide, and what people know):** Malgrath, a
+  demon king, came from the dark and tried to put out the sun. Ostrey
+  pushed him back. The Dawnwatch sleep to wait for his return.
+- **The truth (Book One, chapter 10):** Malgrath was Sir Garrath, the first
+  of the Dawnwatch. People called him "Mal Garrath", the bad Garrath. Over
+  300 years the name wore down to "Malgrath". He was not defeated. He was
+  put to sleep, with the same crystal spell as the Dawnwatch.
+- **Why Garrath wants to put out the sun (Book Two):** the sun is dying. He
+  thinks that a sun that goes out and burns again can last.
+
+## The map
+
+The map is about 240 miles from west to east and 320 miles from north to
+south. The coordinates are in miles from the north-west corner: x goes
+east, y goes south. The maps lane uses these numbers.
+
+| Place | x | y | What it is |
+|---|---|---|---|
+| Coldharrow | 120 | 20 | The fortress of Malgrath, behind the Grey Teeth mountains. Book Two. |
+| The Grey Teeth | 60 to 200 | 40 to 60 | A wall of mountains across the north. |
+| Kingsholm | 125 | 120 | The old capital of Ostrey, now ruins, on the River Dunn. Chapter 10. |
+| Dawnwatch Keep | 165 | 150 | The keep of the tutorial, in the Wolds. Chapters 1 and 7. |
+| The Wolds | 145 to 190 | 135 to 165 | Low hills with sheep and old stones. |
+| Brannock's Ford | 160 | 172 | A village at a ford of the River Brann. Chapter 2. |
+| Saint Ivo's | 150 | 220 | The town of the Church. Chapter 3. |
+| The shrine at Kell | 110 | 205 | An old shrine of Ostrey on a hill. Chapter 4. |
+| Ashby Field | 140 | 250 | Open land on the border of Gaunt and Saint Ivo's. Chapter 9. |
+| Stannard | 130 | 285 | The seat of the Gauntry family. Chapter 5. |
+| Corrantey | 35 | 200 | The city on the west coast, at the mouths of the Corrin and the Tey. Chapter 6. |
+| Fennick | 205 | 245 | A drowned town in the Low Fen. Chapter 8. |
+| The Low Fen | 185 to 235 | 225 to 275 | Marsh and black water in the south-east. |
+| The Western Sea | 0 to 20 | all | The sea on the west coast. |
+
+### Rivers
+
+- **The River Dunn** comes down from the Grey Teeth, passes Kingsholm, and
+  goes south-west to the sea north of Corrantey.
+- **The River Brann** comes from the Wolds, passes Brannock's Ford, and
+  goes south into the Low Fen.
+- **The Corrin** and **the Tey** are two short rivers. They reach the sea
+  at Corrantey.
+
+### Travel
+
+Use these days for the Journeys system. A day is about 24 miles on a
+road and about 16 miles off the road.
+
+| From | To | Days | Road |
+|---|---|---|---|
+| Dawnwatch Keep | Brannock's Ford | 1 | A sheep track |
+| Brannock's Ford | Saint Ivo's | 3 | The old road of Ostrey, broken in places |
+| Saint Ivo's | The shrine at Kell | 2 | Off the road |
+| Saint Ivo's | Stannard | 3 | A good road, made by Gaunt |
+| Saint Ivo's | Corrantey | 5 | The pilgrim road west |
+| Saint Ivo's | Fennick | 4 | Off the road, through the Low Fen |
+| Dawnwatch Keep | Kingsholm | 3 | Off the road, along the Dunn |
+
+## The powers of today
+
+### Gaunt
+
+- A state of soldiers in the south. The Gauntry family rules from
+  Stannard.
+- It says that it is the true heir of Ostrey. It wants the Dawnwatch as
+  living banners for its army.
+- Its war mages keep "the spells of Ostrey", but most of the spells are
+  wrong.
+
+### The Church of the Five Sleepers
+
+- It started at the shrine of Saint Ivo. The town of Saint Ivo's grew
+  around it.
+- It prays for the return of the five sleepers. It keeps the Ember of
+  Saint Ivo, a piece of the Dawnfire, as a holy relic. It does not know
+  what the relic does.
+- Its art shows the five sleepers, but the faces are wrong.
+
+### Corrantey and the guild of lantern makers
+
+- A city of free merchants. A council of guilds rules it.
+- The **Lampwrights**, the guild of lantern makers, is the oldest guild.
+  It started with the apprentices of Haskel Orme. It keeps the First Lamp,
+  a piece of the Dawnfire, in its hall.
+
+### The Hush
+
+- The cult of the Unlit King. It started about 30 years ago, when the days
+  started to become shorter.
+- Its members think that the sun is dying and that only the Unlit King can
+  save the world. They are partly correct.
+- They speak little and wear grey. They put out lights.
+- They look for the pieces of the Dawnfire, to put them out and wake their
+  king. They put out the piece in the chapel of the keep.
+
+## The people of Book One
+
+Each writer uses these names. Add a new person here before a chapter uses
+the person in more than one scene.
+
+| Name | Role | Chapters | Statblock |
+|---|---|---|---|
+| Haskel Orme | The steward of Dawnwatch Keep, 300 years ago. Dead. He made Wick and wrote the lie. | 1, 7, 10 (letters) | No |
+| Wick | The talking lantern. The tutorial has his statblock. | All | Yes (tutorial) |
+| Tamsin | The old ferry woman at Brannock's Ford. Kind, and she asks too many questions. | 2 | No |
+| Dace | A pedlar who sells "bones of the Five Sleepers" to pilgrims. | 2, 3 | No |
+| Abbess Merrow | The head of the Church in Saint Ivo's. She wants the party as living saints. | 3, 9 | No |
+| Brother Cade | A priest who thinks that the party are impostors. Later an ally. | 3, 4, 9 | Yes |
+| Garret Pell | The leader of a troupe of actors who play the Dawnwatch. | 3 | No |
+| Mother Sallow | The leader of the Hush. | 4, 7, 10 | Yes |
+| Osk | The enforcer of Mother Sallow. Big, and he does not speak. | 4, 7 | Yes |
+| Marshal Ide Gauntry | The ruler of Gaunt. | 5, 9 | Yes |
+| Tobin Gauntry | Her son. He does not want a war. | 5, 9 | No |
+| Perrin Hale | The master of the Lampwrights in Corrantey. | 6, 7 | No |
+| Sergeant Maud Kettle | The ghost of a soldier of Ostrey in Fennick. She teaches the old fighting ways. | 8 | Yes |
+| Sir Garrath (Malgrath) | The first Dawnwatch. The Unlit King. Only his voice in Book One. | 1, 4, 10 | No (Book Two) |
+
+## The things of Book One
+
+| Thing | What it is | Chapters |
+|---|---|---|
+| The black stone | A piece of the crystal of Garrath. It hums near the Hush and when Malgrath speaks. Chapter 4 gives it rules with the Marks system. | 1, 4, 10 |
+| The Ember of Saint Ivo | A piece of the Dawnfire. A small coal that never goes cold. | 3, 4 |
+| The First Lamp | A piece of the Dawnfire. A lamp with a flame that needs no oil. | 6 |
+| The piece in Fennick | A piece of the Dawnfire, under the water, in the old church of Fennick. | 8 |
+| The letters of Haskel Orme | Handouts. They show the lie, step by step. | 7, 10 |
