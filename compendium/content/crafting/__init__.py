@@ -18,9 +18,19 @@ A recipe entry is a dict with these keys:
   days: the workdays (8 hours each) that the crafting takes
   note: anything else that the recipe needs, for example a base item, or ""
 
+A gear recipe (in the list GEAR) is a dict with these keys:
+  item: the exact name of SRD equipment with a price, for example "Potion of Healing"
+  tool: the tool that the crafter must be proficient with
+  materials: a list of material names, or an empty list
+  gold: the gold pieces that the crafter spends, apart from the materials
+  days: the workdays that the crafting takes
+  note: anything else that the recipe needs, or ""
+The materials and the gold of a gear recipe cost at least 80% of half the price of the item.
+
 In all text, [[label]] shows the label in bold.
 """
 from content.collect import collect_list
 
 MATERIALS = collect_list(__name__, "MATERIALS")
 RECIPES = collect_list(__name__, "RECIPES")
+GEAR = collect_list(__name__, "GEAR")

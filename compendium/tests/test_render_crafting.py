@@ -1,13 +1,14 @@
 """Tests for render_crafting. Each test builds its own materials, recipes, and items."""
 import pytest
 
-from render_crafting import all_errors, base_cost, material_errors, recipe_errors, recipes_html, materials_html
+from render_crafting import (all_errors, base_cost, gear_base, gear_errors, gear_table_html, material_errors,
+                             recipe_errors, recipes_html, materials_html)
 
 ITEMS = {"Test Potion": "Uncommon", "Test Boots": "Uncommon", "Test Shield": "Rare"}
 
 
 def mat(**changes):
-    m = dict(name="Glow Moss", source="Biome", origin="Cave", rarity="Uncommon", check="Intelligence (Nature)",
+    m = dict(name="Glow Moss", source="Biome", origin="Underdark", rarity="Uncommon", check="Intelligence (Nature)",
              text="It glows & hums.")
     m.update(changes)
     return m
@@ -93,3 +94,50 @@ def test_materials_are_grouped_by_source():
 def test_a_bad_recipe_stops_the_build():
     with pytest.raises(ValueError):
         recipes_html([mat()], [rec(gold=0)], ITEMS)
+
+
+PRICES = {"Test Tonic": 50.0, "Test Kit": 5.0}
+
+
+def gear(**changes):
+    g = dict(item="Test Tonic", tool="Herbalism Kit", materials=["Dust"], gold=15, days=5, note="")
+    g.update(changes)
+    return g
+
+
+def test_a_biome_material_must_name_known_biomes():
+    assert material_errors(mat(origin="Coast or Underwater")) == []
+    assert material_errors(mat(origin="Forest or Moon")) == [
+        "Material 'Glow Moss': biome 'Moon' is not one of ['Arctic', 'Coast', 'Desert', 'Forest', 'Grassland', 'Hill', "
+        "'Mountain', 'Swamp', 'Underdark', 'Underwater', 'Urban']"]
+
+
+def test_a_monster_material_can_name_any_creature():
+    assert material_errors(mat(source="Monster", origin="any Dragon of CR 7 to 12")) == []
+
+
+def test_the_gear_base_is_half_the_price_and_a_day_for_each_10_gp():
+    assert gear_base(50) == (25, 5)
+    assert gear_base(5) == (2.5, 1)
+
+
+def test_a_correct_gear_recipe_has_no_problem():
+    assert gear_errors(gear(), MATS, PRICES) == []
+    assert gear_errors(gear(item="Test Kit", materials=[], gold=2, days=1), MATS, PRICES) == []
+
+
+def test_a_gear_recipe_below_the_floor_is_reported():
+    errors = gear_errors(gear(gold=5, days=3), MATS, PRICES)
+    assert errors == ["Gear recipe 'Test Tonic': costs 15 GP in all; the floor is 20 GP (80% of half the price)",
+                      "Gear recipe 'Test Tonic': takes 3 days; the floor is 4"]
+
+
+def test_a_gear_recipe_needs_srd_equipment_with_a_price():
+    assert gear_errors(gear(item="Gold Crown"), MATS, PRICES) == ["Gear recipe 'Gold Crown': the item is not SRD equipment with a price"]
+
+
+def test_the_gear_table_shows_the_price_and_sorts_by_item():
+    out = gear_table_html([mat(name="Dust", rarity="Common")], [gear(), gear(item="Test Kit", materials=[], gold=2, days=1)], PRICES)
+    assert "<caption>Gear Recipes</caption>" in out
+    assert out.index("Test Kit") < out.index("Test Tonic")
+    assert '<td class="c">50 GP</td>' in out

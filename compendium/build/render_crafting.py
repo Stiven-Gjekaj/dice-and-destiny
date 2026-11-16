@@ -22,6 +22,11 @@ MARGIN = 0.8
 MATERIAL_VALUE = {"Common": 10, "Uncommon": 50, "Rare": 500, "Very Rare": 5000, "Legendary": 25000}
 DC = {"Common": 10, "Uncommon": 13, "Rare": 15, "Very Rare": 18, "Legendary": 20}
 SOURCES = {"Monster": "Monster Materials", "Biome": "Biome Materials"}
+# The biomes of the SRD. The origin of a Biome material names one or more of them, joined by " or ".
+BIOMES = ["Arctic", "Coast", "Desert", "Forest", "Grassland", "Hill", "Mountain", "Swamp", "Underdark", "Underwater", "Urban"]
+# A gear recipe: the materials cost half the SRD price, and it takes one workday for each GEAR_GP_PER_DAY GP of the price.
+GEAR_GP_PER_DAY = 10
+GEAR_KEYS = {"item", "tool", "materials", "gold", "days", "note"}
 MATERIAL_KEYS = {"name", "source", "origin", "rarity", "check", "text"}
 RECIPE_KEYS = {"item", "rarity", "consumable", "tool", "materials", "gold", "days", "note"}
 
@@ -43,6 +48,9 @@ def material_errors(m):
         errors.append(f"Material '{name}': source '{m['source']}' is not one of {list(SOURCES)}")
     if m["rarity"] not in RARITIES:
         errors.append(f"Material '{name}': rarity '{m['rarity']}' is not one of {RARITIES}")
+    if m["source"] == "Biome":
+        bad = [b for b in m["origin"].split(" or ") if b not in BIOMES]
+        errors += [f"Material '{name}': biome '{b}' is not one of {BIOMES}" for b in bad]
     return errors
 
 
@@ -83,6 +91,68 @@ def recipe_errors(r, materials, items):
     if r["days"] < MARGIN * days:
         errors.append(f"Recipe '{name}': takes {r['days']} days; the floor is {MARGIN * days:g} ({MARGIN:.0%} of {days:g})")
     return errors
+
+
+def gear_base(price):
+    """The base (gold, days) of a gear recipe: half the price in materials, one workday for each 10 GP (minimum 1)."""
+    return price / 2, max(1, price / GEAR_GP_PER_DAY)
+
+
+def gear_errors(g, materials, prices):
+    """Return a list of the problems of one gear recipe.
+
+    materials: {name: material entry}. prices: {item name: price in GP} of the SRD equipment.
+    """
+    name = g.get("item", "?")
+    errors = [f"Gear recipe '{name}': missing key '{k}'" for k in sorted(GEAR_KEYS - set(g))]
+    errors += [f"Gear recipe '{name}': unknown key '{k}'" for k in sorted(set(g) - GEAR_KEYS)]
+    if errors:
+        return errors
+    if name not in prices:
+        return [f"Gear recipe '{name}': the item is not SRD equipment with a price"]
+    errors += [f"Gear recipe '{name}': unknown material '{n}'" for n in g["materials"] if n not in materials]
+    if errors:
+        return errors
+    gold, days = gear_base(prices[name])
+    total = g["gold"] + sum(MATERIAL_VALUE[materials[n]["rarity"]] for n in g["materials"])
+    if total < MARGIN * gold:
+        errors.append(f"Gear recipe '{name}': costs {total:g} GP in all; the floor is {MARGIN * gold:g} GP ({MARGIN:.0%} of half the price)")
+    if g["days"] < MARGIN * days:
+        errors.append(f"Gear recipe '{name}': takes {g['days']:g} days; the floor is {MARGIN * days:g}")
+    return errors
+
+
+def gear_prices():
+    """{item name: price in GP} of the SRD equipment. A name that is in the data two times keeps its higher price."""
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "all_items.json")
+    prices = {}
+    for x in json.load(open(path, encoding="utf-8")):
+        cost = float(x.get("cost") or 0)
+        if cost > 0:
+            prices[x["name"]] = max(cost, prices.get(x["name"], 0))
+    return prices
+
+
+def gear_table_html(materials, gear, prices):
+    """The gear recipes as one small table, in the order of the items. Return "" if there are none."""
+    by_name = {m["name"]: m for m in materials}
+    _stop_on([e for g in gear for e in gear_errors(g, by_name, prices)])
+    if not gear:
+        return ""
+    rows = []
+    for g in sorted(gear, key=lambda g: g["item"]):
+        mats = ", ".join(E(n) for n in g["materials"]) or "–"
+        note = f" {feature_text(g['note'])}" if g["note"] else ""
+        rows.append(f'<tr><td>{E(g["item"])}</td><td class="c">{prices[g["item"]]:g} GP</td><td>{E(g["tool"])}</td>'
+                    f'<td>{mats}</td><td class="c">{g["gold"]:g} GP</td><td class="c">{g["days"]:g}</td><td>{note.strip()}</td></tr>')
+    return ('<table class="compact"><caption>Gear Recipes</caption><thead><tr><th>Item</th><th class="c">Price</th>'
+            '<th>Tool</th><th>Materials</th><th class="c">Gold</th><th class="c">Days</th><th>Note</th></tr></thead>'
+            f'<tbody>{"".join(rows)}</tbody></table>')
+
+
+def all_gear_html():
+    from content.crafting import MATERIALS, GEAR
+    return gear_table_html(MATERIALS, GEAR, gear_prices())
 
 
 def _stop_on(errors):
