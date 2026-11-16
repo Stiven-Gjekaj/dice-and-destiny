@@ -66,9 +66,10 @@ def _cover_counts():
 
 def test_the_package_collects_each_list_from_its_own_files(dawnwatch_files):
     import content.dawnwatch as dw
-    assert [m.name for m in dw.MON] == ["Zzyx Test Lurker"]
-    assert [e[0] for e in dw.NPCS] == ["A test smith", "A test child"]
-    assert [i[0] for i in dw.ITEMS] == ["Zzyx Test Lamp"]
+    # The real content of the book is also in the package. Look only at the entries of the test files.
+    assert [m.name for m in dw.MON if m.name.startswith("Zzyx")] == ["Zzyx Test Lurker"]
+    assert [e[0] for e in dw.NPCS if e[0].startswith("A test")] == ["A test smith", "A test child"]
+    assert [i[0] for i in dw.ITEMS if i[0].startswith("Zzyx")] == ["Zzyx Test Lamp"]
 
 
 def test_the_compendiums_do_not_change_when_dawnwatch_content_exists():
