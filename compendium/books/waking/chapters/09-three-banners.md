@@ -734,3 +734,356 @@ in the battle:
   Church line does not come down to the stream. And Brother Cade watches
   Ansel, so that Ansel must flee to the hollow early. (Ansel still fights
   in Phase 3, but the characters choose where they meet him.)
+
+---
+
+## Scene 7: The Battle of Ashby Field
+
+**Goal:** The first true battle. Teach injuries. Let the characters'
+choice decide the shape of the day.
+
+### How to Run the Battle
+
+Do not try to run five thousand soldiers. The armies are the weather. The
+characters fight in the places where the battle turns. The battle has
+three phases, and each phase is one encounter:
+
+1. **The Grey:** at dawn, the Hush choir sings a fog over the valley. The
+   characters fight the Hush in the fog. (Encounter 2.)
+2. **The Charge:** the armies move. The characters fight soldiers, or stand
+   between them. (Encounter 3.)
+3. **The Heart:** the characters find the agents and the choir in the
+   hollow, and break the Hush. (Encounter 4.)
+
+Between the phases comes **a lull**. The armies pull back to form again,
+the wounded crawl to the rear, and the characters have about one hour.
+They can take a Short Rest in each lull. Remind the players of that. It is
+the only rest that they get today.
+
+### The Toll
+
+Keep a number called **the Toll** for the day. It starts at 0. It shows how
+many people die on Ashby Field. Each phase tells you when the Toll goes up.
+At the end of the battle, the Toll tells you how the day ends (see Scene
+8). You can tell the players that you keep it, or keep it secret. If you
+tell them, say: "This is how many people die today. Lower is better."
+
+### Running Injuries in the Battle
+
+> **Teach: injuries.** Use this box the first time that an enemy scores a
+> Critical Hit on a character, or a character drops to 0 Hit Points. Stop
+> the fight for one minute.
+>
+> "That was a big hit. You can get an injury now. First you choose. Take
+> the injury, and roll on the Injury table. Or shake it off: you gain one
+> level of Exhaustion instead, and no injury."
+>
+> If the player takes the injury: "Roll a d20. Because you dropped to 0
+> Hit Points, add 5. The highest is 20." (Add the 5 only for a drop to 0
+> Hit Points, not for a Critical Hit alone.) Read the injury from the
+> table in the Injuries and Scars chapter. For example, an 11 is Cracked
+> Ribs, a 16 is a Broken Arm, and an 8 is a Cut Above the Eye.
+>
+> "Each injury says what it does, and how it heals. Healing magic gives you
+> Hit Points back, but it does not fix the injury. A Minor injury heals
+> after a Long Rest. A Serious one needs several Long Rests with care, or a
+> Lesser Restoration spell. A Lasting one needs a month of rest, or strong
+> magic."
+>
+> Keep it short. Then go on with the fight.
+
+Remember these rules during the battle:
+
+- **One injury for each hit.** A Critical Hit that also drops the character
+  to 0 Hit Points gives one injury, not two.
+- **Critical Hits give an injury only once in each turn,** however many of
+  them land on a character.
+- **Three at most.** A character carries at most three injuries. If a
+  fourth comes, the player chooses which injury it replaces. The old one
+  heals with no scar.
+- **Exhaustion adds up.** A character who shakes off two injuries has two
+  levels of Exhaustion. Tell the player what that means on the sheet. A
+  Long Rest removes one level.
+- **The people who matter can be injured too.** If the Marshal, Tobin, or
+  Lenna drops to 0 Hit Points or takes a Critical Hit, roll an injury for
+  them. A Marshal with a Broken Arm after the battle is a strong picture.
+
+> **GM tip:** The first injury at your table is a story moment. Describe
+> it: the crack of a rib, the arm that does not lift, the blood in the eye.
+> Then let the character show it in play. A fighter with Cracked Ribs who
+> still holds the line is the reason to use this system.
+
+### Phase 1: The Grey (Encounter 2)
+
+> The dawn comes up red over the east ridge. On both slopes, horns blow.
+> The lines form: grey squares of pikes on the south slope, a crowd of
+> spears under blue banners on the north slope. Between them, by the
+> stream, the stone stands alone.
+>
+> Then you hear it. A hum, low and wide, as if the ground itself sings with
+> its mouth closed. It comes from the west, from the hollow. And with the
+> hum comes the fog. Grey, thick, cold. It pours out of the hollow and
+> across the valley floor like milk across a table. In a minute you cannot
+> see the stone. In two, you cannot see your hand.
+>
+> Out of the grey, on both slopes, men begin to shout. "They are coming!"
+> "They are attacking!" Nobody is attacking. Not yet.
+
+The fog comes from the Grey Choirs, who walk inside it and sing. Under its
+cover, Hush Night Wardens in Gaunt tabards shoot crossbows at the Church
+line, and Wardens in Church white shoot at the Gaunt line. In a few
+minutes, both armies charge.
+
+Wherever the characters are, two choirs and their guards come out of the
+fog near them: the Hush wants the Dawnwatch busy, or dead.
+
+- **Creatures:** 2 Hush Grey Choirs and 3 Hush Night Wardens.
+- **XP:** 2 × 2,300 + 3 × 1,100 = 7,900 XP. For four characters of level 9,
+  this is a **Moderate** encounter (8,000).
+- **The grey:** the fog is magical. The whole area is Heavily Obscured
+  beyond 10 feet, except within the Bright Light of a light source. The
+  Hush have Grey Sight and see 30 feet in it. The Song of the Long Night of
+  each choir turns Bright Light within 30 feet of it into Dim Light, so
+  the closer the choirs come, the darker it gets. Sunlight, such as the
+  light of the First Lamp or the Fennick Candle, is not dimmed by the fog,
+  but the songs still dim it to Dim Light.
+- **Ending the grey:** the fog ends when both choirs are destroyed, or when
+  a creature casts a spell of level 3 or higher that makes light or wind in
+  the fog (such as Daylight or Gust of Wind cast with a slot of level 3 or
+  higher). A Dispel Magic from the Storm Lantern also ends it, in a
+  60-foot radius around the lantern.
+
+**Tactics:** The choirs move into the characters' spaces and attack with
+their knives and cudgels, and they use Hymn of Quiet as often as they can,
+on spellcasters first. The Wardens stay at the edge of the light, shoot,
+and use Snuff on torches and lanterns. A Warden next to a choir uses Close
+the Ranks for the choir.
+
+**The Toll:** if the fight lasts more than 5 rounds, the armies meet in the
+fog before the characters can stop it. The Toll goes up by 1. If the
+characters end the grey in 3 rounds or fewer, the armies see that nobody
+attacked them, and they halt in confusion. The Toll does not go up, and
+the characters can call out to the lines (see Phase 2).
+
+> **Scaling:** The budget for this encounter is Moderate: 2,000 XP for
+> each character.
+>
+> - **3 characters (6,000 XP):** 1 Hush Grey Choir and 3 Hush Night
+>   Wardens (2,300 + 3,300 = 5,600).
+> - **4 characters (8,000 XP):** as written.
+> - **5 characters (10,000 XP):** 2 Hush Grey Choirs and 5 Hush Night
+>   Wardens (4,600 + 5,500 = 10,100).
+> - **6 characters (12,000 XP):** 3 Hush Grey Choirs and 4 Hush Night
+>   Wardens (6,900 + 4,400 = 11,300). Each choir sings from a different
+>   side.
+>
+> **Optional systems:** with Techniques on, add one Hush Night Warden for
+> each four characters, or give each creature 10% more Hit Points.
+
+### The First Lull
+
+> The grey thins. Through it you see the field again, and it is worse than
+> the fog. The lines are broken and tangled. Pikes lie in the grass. A horse
+> with no rider walks in circles by the stream. On both slopes, officers
+> scream at their soldiers to form again, to form again, to form.
+>
+> For a moment, nobody fights. Everyone breathes.
+
+The characters have about one hour before the Charge. They can take a Short
+Rest, tend injuries (a Healer's Kit or a Wisdom (Medicine) check, as the
+injuries say), and talk to their side. On the stop-the-war path, this is
+the moment to ride to the stone.
+
+> **GM tip:** Tending an injury now does not heal it. Most injuries need a
+> Long Rest after the care. But the care is what counts later, so a
+> character who tends a friend in the lull is doing real work. Let a
+> player who rolls the Medicine check describe it.
+
+### Phase 2: The Charge (Encounter 3)
+
+The armies form again, and this time they move for real. Where the
+characters are depends on their path. Run one of the three versions.
+
+#### The Gaunt Version (the Characters Stand with the Church)
+
+> On the south slope, the grey squares turn as one. Then the riders come
+> out between them, three hundred lances, and start down the hill at a
+> walk. Then a trot. The ground shakes under your boots.
+>
+> In the front rank of the levy, right next to you, a young woman with a
+> corporal's knot sets the butt of her spear in the earth. Her hands
+> shake. She holds on.
+
+The charge of Gaunt hits the Church line where the characters stand. The
+characters fight the point of the charge. If they break the point, the
+charge breaks with it, and the riders behind wheel away.
+
+- **Creatures:** 1 Shield-Wall Captain, 2 Mounted Lancers (each on a
+  Warhorse), 5 Line Pikemen, and 2 Crossbow Sergeants.
+- **XP:** 1,800 + 2 × (700 + 100) + 5 × 200 + 2 × 450 = 5,300 XP. For four
+  characters of level 9, this is a **Low** encounter (5,200), but the
+  characters also have a task.
+- **The task:** keep Corporal Lenna and her squad alive. Lenna uses the
+  Line Pikeman statblock. The lancers ride at her squad first. If Lenna
+  drops to 0 Hit Points, roll an injury for her, and she is out of the
+  fight.
+- **Breaking the point:** when the Shield-Wall Captain and both lancers
+  are down, the rest of the point falls back, and the charge turns.
+
+**The Toll:** if Lenna's squad breaks (Lenna and two other Pikemen of the
+levy drop), the Toll goes up by 1. If the characters break the point in 4
+rounds or fewer, the Toll does not go up.
+
+#### The Church Version (the Characters Ride with Gaunt)
+
+> The Marshal raises her sword. The horns of Gaunt answer. You ride down
+> the hill at the front of three hundred lances, and the wind is in your
+> face, and the Church line grows bigger and bigger: farmers, children,
+> old men, and in the middle of them, a knight in shining plate on foot,
+> with a sword that burns like the sun.
+>
+> Somewhere in the front rank, a young woman with a corporal's knot sets
+> her spear. Her hands shake. She holds on.
+
+The characters lead the charge into the Church line. The Marshal wants a
+quick break. A quick break is a massacre, unless the characters make it a
+surrender. They must beat the knights that hold the line, so that the
+levies can give up without being cut down.
+
+- **Creatures:** 1 Templar of the Sun, 1 Mounted Lancer of the Church on a
+  Warhorse, 4 Line Pikemen, and 2 Crossbow Sergeants.
+- **XP:** 2,900 + (700 + 100) + 4 × 200 + 2 × 450 = 5,400 XP. A **Low**
+  encounter for four characters, with a task.
+- **The task:** win without slaughter. Each character can say, when an
+  enemy Pikeman drops to 0 Hit Points, that the blow knocks it out and
+  does not kill it. If the characters end the fight with the Templar
+  beaten or surrendered, the levy lays down its spears.
+- **Lenna:** she is one of the four Pikemen. If the Shield knows who she
+  is, the Shield sees her in the line. Give the Shield's player the
+  choice: what does the Shield do?
+
+**The Toll:** if the characters kill more than half the Pikemen, or if
+Lenna dies, the Toll goes up by 1. If the levy surrenders, the Toll does
+not go up.
+
+#### The Stone Version (the Characters Stop the War)
+
+> You ride down into the valley as the lines move. You reach the stone at
+> the same moment as the first riders of Gaunt on one side and the first
+> knights of the Church on the other. You plant yourselves between them,
+> with the stream at your boots and the stone at your backs.
+>
+> For one long moment, both lines slow. They see you. Then someone on the
+> south slope shouts, "It is a trick of the priests!" and someone on the
+> north slope shouts, "Gaunt has taken them!" and both lines come on.
+
+The characters hold the stone between the armies. They do not have to beat
+the soldiers. They have to stop them for 3 rounds, until the leaders see
+what happens and call their lines back. The soldiers of both sides attack
+the characters, and sometimes each other.
+
+- **Creatures:** from Gaunt, 1 Shield-Wall Captain and 2 Line Pikemen; from
+  the Church, 1 Templar of the Sun and 2 Line Pikemen.
+- **XP:** 1,800 + 400 + 2,900 + 400 = 5,500 XP. A **Low** encounter for
+  four characters, with a task.
+- **The task:** stand at the stone for 3 rounds. At the end of each round,
+  if at least one character stands within 10 feet of the stone and has not
+  dropped to 0 Hit Points in that round, mark one round of holding. After
+  3 rounds of holding, the horns of both sides blow the halt, and the
+  soldiers pull back.
+- **The two sides fight each other too:** on its turn, each soldier
+  attacks the nearest enemy, character or soldier of the other side. The
+  Captain and the Templar attack the characters first.
+- **The Dawn Banner:** if a character plants the Dawn Banner at the stone,
+  the soldiers of both sides see it. Each soldier must succeed on a DC 13
+  Wisdom saving throw at the start of its turn, or it does nothing that
+  turn but stare. (The banner of the Dawnwatch, at the stone of peace, in
+  front of both armies: the old soldiers know what it means.) After the
+  first round, the Captain and the Templar are immune to this.
+- **Words at the stone:** a character within 10 feet of the stone can use
+  an action to shout to the lines. Charisma (Persuasion or Intimidation),
+  DC 15. On a success, mark one extra round of holding. A character who
+  shouts the old words, "No blood at the stone!", has Advantage.
+
+**The Toll:** if the characters hold for 3 rounds, the Toll does not go
+up. If they fail to hold, the lines crash together at the stone, and the
+Toll goes up by 2.
+
+> **Scaling (all three versions):** The budget for this encounter is Low:
+> 1,300 XP for each character. The task makes it harder than its XP.
+>
+> - **3 characters (3,900 XP):** remove one Mounted Lancer on its horse
+>   and three Line Pikemen, or, in the stone version, both Pikemen of
+>   Gaunt and one of the Church (each version is then about 3,900 to
+>   4,600 XP).
+> - **4 characters (5,200 XP):** as written.
+> - **5 characters (6,500 XP):** add one Mounted Lancer on a Warhorse
+>   (800) and one Crossbow Sergeant (450), so about 6,500 XP.
+> - **6 characters (7,800 XP):** add two Mounted Lancers on Warhorses and
+>   two Crossbow Sergeants (2,500), so about 7,800 XP. In the stone
+>   version, put one lancer and one sergeant on each side.
+>
+> **Optional systems:** with Techniques on, add one Line Pikeman for each
+> four characters, or give the Captain and the Templar 10% more Hit
+> Points.
+
+### The Optional Duel: The Marshal
+
+Use this on the Church path, or on any path if the Shield, or another
+character, challenges the Marshal. Marshal Ide Gauntry rides at the front
+of her army. She is proud, and the old books of Ostrey that she loves are
+full of champions who fought for their armies.
+
+> Through the dust, a rider in plain steel comes straight at you, with
+> two guards in tall helmets behind her. She reins in ten feet away and
+> lifts her visor. It is the Marshal. Her face is grey with dust and very
+> calm.
+>
+> "The books say that the Dawnwatch never lost a fight," she says. "I
+> would like to know if the books are wrong."
+
+The characters can fight her with her Royal Guards, or one character can
+take a duel, one against one, with the guards and the armies watching.
+
+{{statblock: Marshal Ide Gauntry}}
+
+- **The full fight:** Marshal Ide Gauntry and 2 Royal Guards. The guards
+  protect her: the Marshal is their charge, for their Sworn Protector and
+  Take the Blow features. **XP:** 3,900 + 2 × 2,300 = 8,500 XP, a
+  **Moderate** encounter for four characters (8,000), a little over.
+- **The duel:** one character against the Marshal alone. She fights to
+  first blood: the duel ends when one of them is Bloodied, or yields. She
+  keeps her word. If she loses, she pulls her army back to the south slope
+  and does not attack again today. If she wins, she does not kill the
+  character. She says, "The books are wrong," and rides on, and the Toll
+  goes up by 1.
+- **Injuries:** the Marshal is a person who matters. If a Critical Hit lands
+  on her, roll an injury. She carries it for the rest of the book.
+
+> **Scaling:** The budget for the full fight is Moderate: 2,000 XP for
+> each character.
+>
+> - **3 characters (6,000 XP):** the Marshal and 1 Royal Guard (3,900 +
+>   2,300 = 6,200).
+> - **4 characters (8,000 XP):** as written (8,500).
+> - **5 characters (10,000 XP):** the Marshal, 2 Royal Guards, and 1
+>   Shield-Wall Captain (3,900 + 4,600 + 1,800 = 10,300).
+> - **6 characters (12,000 XP):** the Marshal, 3 Royal Guards, and 1
+>   Shield-Wall Captain (3,900 + 6,900 + 1,800 = 12,600).
+>
+> **Optional systems:** with Techniques on, give the Marshal 10% more Hit
+> Points.
+
+### The Second Lull
+
+> The charge breaks, or halts, or turns. The horns blow again, ragged now.
+> Between the lines, the grass is torn into mud. The stream runs brown.
+> The wounded call for water in two accents.
+>
+> And from the west, from the hollow, the hum begins again. Louder.
+
+The characters have about one hour again. A Short Rest, care for the
+wounded, and a plan. Everyone who has found a clue now knows where to go:
+the hollow. If the characters do not see it, Brother Cade or Captain Ilse
+Varro brings it to them: "Ansel ran to the hollow." "Roe is gone from the
+command tent. His horse went west."
