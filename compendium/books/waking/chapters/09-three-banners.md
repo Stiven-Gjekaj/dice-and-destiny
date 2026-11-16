@@ -624,3 +624,113 @@ cook fire, or when the crowd presses in.
 
 Lenna stays with the levy. She does not leave her squad, even for the
 Dawnwatch. "I made a promise too," she says, if anyone asks her to.
+
+---
+
+## Scene 6: The Dead Envoy
+
+**Goal:** Turn the clock. Give the players the last clue and the last
+night to choose.
+
+On the first night that the characters spend at Ashby Field, the Hush
+strikes. If the characters accused Roe or Ansel with no proof, it happens
+on the night that they arrive, wherever they are.
+
+> In the middle of the night, a horn blows in the camp of Gaunt. Then
+> another. Torches run between the tents. From the north slope, the Church
+> bells answer, wild and out of time.
+>
+> A rider comes to you at a gallop. "The envoy," the rider says. "Sir
+> Oswin. He went to the stone to meet a priest of the Church, under a white
+> flag. They found him in the stream. There is a knife in his back."
+
+Sir Oswin was an old knight of Gaunt, and one of Captain Ilse Varro's
+people. A letter called him to the stone at midnight, to talk peace with
+"a friend in the Church". The letter came by Lieutenant Roe. Roe killed
+him at the stone, with a knife from the Church armory that Ansel stole for
+him. Blood at the stone: the Hush chose the place on purpose.
+
+### The Body at the Stone
+
+The body still lies by the stone when the characters arrive. Soldiers of
+both sides stand on the two banks of the stream with torches, and shout.
+Nobody has crossed yet. The characters have a few minutes.
+
+| Check | DC | Result |
+|---|---|---|
+| Wisdom (Medicine) | 13 | Sir Oswin died from one thrust, from behind, by someone taller than him. He did not fight. He knew his killer, or he did not see him. |
+| Intelligence (Investigation) of the knife | 12 | A plain knife of the Church armory, with the five stars on the pommel. It is clean. Nobody wiped it. It was put there after the wound bled out. |
+| Wisdom (Survival) | 15 | Boot prints come from the south, from the Gaunt camp, and go back the same way. Nobody came from the north. |
+| Wisdom (Perception) | 14 | In the envoy's glove: a folded note. "Midnight at the stone. Come alone. A friend in the Church." The hand is the same as the hand of the report about Wenlow in the Marshal's tent. |
+| Intelligence (Arcana) or a Detect Magic spell | 15 | Around the stone, the grass is cold and grey in a ring 10 feet wide. Something put out every light here, with magic, before the killing. |
+
+> **GM tip:** Do not hide the clues here. The Hush expects the armies to
+> look at the knife and nothing else. The characters are the only ones who
+> look at everything. This scene rewards them for being the only careful
+> people in a valley full of angry ones.
+
+### The Clue Path
+
+By now the characters can have many clues. Use this list to check what
+they have, and to point them at what they miss.
+
+| Clue | Where | Points at |
+|---|---|---|
+| The lamps go out before each attack | Sister Orla (Scene 1), Wenlow (Scene 2) | The Hush |
+| Grey mail under Gaunt tabards | Wenlow (Scene 2) | The Hush, not Gaunt |
+| The coded letter: "R. and A. are in place. Let them meet in the grey." | Wenlow (Scene 2) | Roe and Ansel, and the fog of the battle |
+| The report about Wenlow, dated before the fire | Marshal's tent (Scene 4) | Roe |
+| The black candle in Roe's boot | Roe's tent (Scene 4) | Roe |
+| "Bring a spear", added after the signature | Ansel's desk (Scene 5) | Ansel |
+| Tracks to the hollow | Ansel (Scene 5) | The hidden choir |
+| The note in the envoy's glove, in Roe's hand | The stone (Scene 6) | Roe |
+| The black stone hums near Roe and Ansel | Any time | Both |
+
+### The Last Night
+
+The Marshal and the Abbess both send for the characters before dawn. Both
+say the same thing in different words: "Tomorrow you stand with us, or you
+stand aside."
+
+Now the characters choose. Give the players time. Let them argue. This is
+the big decision of the chapter. There are three paths, and all three go
+to the battle in Scene 7.
+
+**Path 1: With Gaunt.** The characters ride with the Marshal. The Marshal
+plans a fast charge at dawn, to break the levies before they can form.
+With the Dawnwatch at the front, she thinks that the farmers run before
+the lances touch them. In the battle, the characters fight in the Charge
+against the Church line (Phase 2, the Church version), and they must stop
+the charge from becoming a massacre.
+
+**Path 2: With the Church.** The characters stand on the hill with the
+Abbess. The levies hold the slope and pray. In the battle, the characters
+face the charge of Gaunt (Phase 2, the Gaunt version), and Corporal Lenna
+stands in its path. If they fight the Marshal herself, use the optional
+duel.
+
+**Path 3: Stop the war.** The characters take the evidence to both camps
+in the night, or ride down to the stone at dawn with the Dawn Banner, or
+both. Neither leader fully believes them. Both agree to hold their troops
+for one hour after dawn, "to see". The Hush, seeing its war slip away,
+strikes early with everything it has. In the battle, the characters hold
+the stone between the two lines (Phase 2, the stone version).
+
+> **GM tip:** No path is wrong. A party that sides with Gaunt is not evil,
+> and a party that sides with the Church is not foolish. The Hush gets its
+> fight on every path. What changes is who dies, how many, and what the
+> two powers think of the Dawnwatch afterwards. Do not punish a choice.
+> Let it have weight.
+
+**Proof changes the battle.** If the characters gave real evidence to a
+leader (see the Persuasion rows in Scenes 4 and 5), that leader acts on it
+in the battle:
+
+- **The Marshal, with proof,** orders her riders to hold, not charge, when
+  the grey comes. In Phase 2, the Gaunt line moves only at half its speed.
+  And Ilse Varro arrests Roe before dawn, so that only Ansel is in Phase 3.
+  (Remove one Hush Dusk Priest from Phase 3, and add one Hush Night Warden.)
+- **The Abbess, with proof,** keeps the levies on the hill. In Phase 2, the
+  Church line does not come down to the stream. And Brother Cade watches
+  Ansel, so that Ansel must flee to the hollow early. (Ansel still fights
+  in Phase 3, but the characters choose where they meet him.)
