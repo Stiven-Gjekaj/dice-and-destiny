@@ -167,3 +167,137 @@ a d6 or choose.
 > Varro will use that in Scene 6. If a character has renown with the Church,
 > the small chapel of the Five Sleepers on the Tey side gives the party beds
 > for free.
+
+---
+
+## Scene 3: The Hall of the Lampwrights
+
+**Goal:** the party meets Perrin Hale and sees the First Lamp. Perrin finds
+the maker's mark on Wick.
+
+### The Hall
+
+The hall of the Lampwrights stands on the Corrin side, near the Long Bridge.
+It is the oldest building in the city: a square stone hall with a round tower
+at one corner. The tower was a lighthouse once. Now the city has grown past
+it.
+
+> The great doors of the hall are open, and warm light pours out. Inside, a
+> hundred lanterns hang from the beams on chains: lanterns of brass and tin,
+> of red and blue and green glass, round ones, square ones, one in the shape
+> of a ship. Apprentices in leather aprons climb ladders to clean them.
+>
+> At each side of the hall, three tall figures of brass stand against the
+> wall, like knights in a chapel. Each one has a lamp where its heart should
+> be. The lamps are dark.
+>
+> At the far end, behind an iron rail, there is a stone plinth. On it stands
+> a small, plain lamp of thick green glass on a brass foot. Its flame is no
+> bigger than your thumb. It does not flicker.
+>
+> Wick goes very still in your hands. "That," he whispers, "smells like the
+> chapel. Like the fire in the chapel."
+
+An apprentice stops the party at the rail. The hall is open to visitors in
+the day, but nobody goes past the rail. If the party asks for the master, or
+if Wick says anything at all, the apprentice runs to get him.
+
+### Perrin Hale
+
+Perrin Hale is the master of the Lampwrights. He is in his sixties, thin,
+with ink on his fingers and a pair of small round spectacles that he pushes
+up his nose when he thinks. He wears a leather apron over a very fine coat.
+
+- **He is proud.** The Lampwrights are the oldest guild in the city, and the
+  First Lamp is the oldest flame in the land. He says both things often.
+- **He is practical.** He does not believe in the Five Sleepers. "A good
+  story. The Church sells it well. I sell lanterns."
+- **He loves good work.** Show him something well made and he forgets to be
+  proud. A talking lantern made three hundred years ago is the best thing he
+  has ever seen.
+- **He is afraid.** He knows that Gaunt wants the First Lamp. He knows that
+  the council will not fight Gaunt for it. He does not yet know about the
+  Hush.
+
+> A thin man in a leather apron comes down the hall fast, wiping his hands on
+> a rag. He looks at you. Then he looks at the lantern in your hands, and he
+> stops.
+>
+> "Who made that?" he says. "No. Don't tell me. Let me look." He takes a
+> lens out of his apron, bends close to Wick, and turns him gently toward the
+> light. Wick opens his mouth to complain, and the man says, "Hush, please. I
+> mean, be quiet, please. Sorry. Hold still."
+>
+> He tilts Wick back. On the bottom of the brass, under three hundred years of
+> soot, there is a tiny stamp. A flame inside a ring.
+>
+> The man takes off his spectacles. His hands shake a little. "That is the
+> mark of Master Orme," he says. "That is the mark of the first master. Nobody
+> has seen a new piece with that mark for three hundred years."
+
+### The Mark of Haskel Orme
+
+Perrin explains, quickly and with a lot of pride:
+
+- The Lampwrights started with three apprentices of a master called **Haskel
+  Orme**. He was a steward of the old kingdom, and the best maker of lamps
+  that ever lived. The apprentices came west after the war of the Unlit King,
+  and they opened a shop in Corrin.
+- Each piece that Orme made has his mark: a flame inside a ring. The guild
+  still uses the mark, with a small line under it, to show that a piece comes
+  from his school.
+- The six brass figures in the hall carry the mark on their heels. So does
+  the brass foot of the First Lamp.
+- The guild has the old ledgers of the first apprentices. They are in the
+  tower, and nobody reads them, because they are written in the old speech
+  of Ostrey and nobody can read it well. (The Dawnwatch can. See Scene 4.)
+
+> **GM tip:** Let the players connect the dots. Wick said in the tutorial
+> that "the steward" made him on the last night. Now they hear that a
+> steward called Haskel Orme was a maker of lamps. A player who remembers
+> this should say it aloud. If no player does, Wick does, after a long
+> silence: "The steward. My steward. His name was Haskel?"
+
+> **Thread (Wick):** Wick never knew the name of his maker. The steward made
+> him on one night, taught him to count and to talk, and told him one thing:
+> "Do not let them oversleep." Then the steward closed the door of the Hall
+> of Sleepers and never came back. Wick waited three hundred years and never
+> knew whom he waited for.
+>
+> Play this scene slowly. Wick is proud first ("A master! I was made by a
+> master!"), then very quiet. If a player asks Wick what he remembers about
+> the steward, give Wick these memories, one at a time:
+>
+> - "He hummed when he worked. Always the same song. Badly."
+> - "He smelled of lamp oil and ink. His hands were cold."
+> - "He talked to me while he made me. He said sorry. He said it many times.
+>   I did not know why. I still don't."
+>
+> The last memory matters later. Chapter 7 and chapter 10 tell why the
+> steward was sorry. Do not explain it now. If a player asks, Wick says, "I
+> don't know. I was very new. I thought everyone said sorry to lanterns."
+
+### Checks with Perrin Hale
+
+| Check | DC | Result |
+|---|---|---|
+| Charisma (Persuasion) | 12 | Perrin believes that the party are who they say. "A Sleeper. In my hall. The council will never believe me." He offers the party rooms in the guild house. |
+| Intelligence (History) | 14 | The character knew Haskel Orme by sight: the steward of Dawnwatch Keep, a quiet man with ink on his hands. Nobody in the Dawnwatch knew that he made lamps. |
+| Intelligence (Arcana) | 15 | The First Lamp is not a lamp with a spell on it. The flame is the spell. It is the same kind of fire as the fire in the chapel of the keep: a piece of the Dawnfire. |
+| Wisdom (Insight) | 13 | Perrin is scared of something. If the party asks, he admits it: "Gaunt. The marshal sends me letters. Polite ones. Each one is less polite." |
+
+### What Perrin Knows About the First Lamp
+
+- The first apprentices brought the Lamp from the north, in the year of the
+  long sleep. The master told them to keep it lit, and to keep it where
+  everyone could see it. "Nobody steals a thing that the whole city watches,"
+  he wrote.
+- The flame needs no oil. It never goes out. Rain, wind, and sea water do not
+  touch it. One master tried to put it out with a bucket, two hundred years
+  ago, for a bet. The water boiled.
+- The guild does not know what the Lamp is for. "It is a lamp. It gives
+  light. That is what lamps are for."
+
+If the party tells Perrin what the Lamp really is, a piece of the Dawnfire,
+and that the Hush wants to put it out, he goes pale. "Then it is not safe
+here. And it is not safe with Gaunt." He asks for one night to think.
