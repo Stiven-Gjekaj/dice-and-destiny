@@ -55,4 +55,6 @@ NPCS = [
 ("The leader of a troupe of actors who play the Dawnwatch. Chapter 3.", "Garret Pell"),
 ("The son of Marshal Ide Gauntry. He does not want a war. Chapters 5 and 9.", "Tobin Gauntry"),
 ("The first war mage of Gaunt, who teaches a \"Dawnwatch spell\" that is wrong. Chapter 5.", "Magister Aud Brennet"),
+("The captain of the honor guard of Gaunt at the feast of Saint Ivo's. He makes the party the Marshal's offer. Chapters 3 and 5.", "Captain Joss Marrick"),
+("An actress of Pell's Players. She plays the Shadow. Chapter 3.", "Tilly Ashe"),
 ]
