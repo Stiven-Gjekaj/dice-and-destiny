@@ -181,6 +181,7 @@ REGISTRY = {
     "items": lambda m: [e[0] for e in m.ITEMS],
     "downtime": lambda m: [],
     "classes": lambda m: [e["name"] for e in m.CLASSES],
+    "systems": lambda m: [e["name"] for e in m.MARKS + m.BONDS],
 }
 
 
