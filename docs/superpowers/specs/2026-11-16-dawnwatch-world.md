@@ -156,7 +156,9 @@ Stannard, as the border and Wendle are.
 
 - A city of free merchants. A council of guilds rules it.
 - The **Lampwrights**, the guild of lantern makers, is the oldest guild.
-  It started with the apprentices of Haskel Orme. It keeps the First Lamp,
+  It started with the apprentices of Haskel Orme. Orme made the First Lamp
+  in the first winter of the war. The piece of the Dawnfire went into it
+  after the war, from the fire in the chapel of the keep. It keeps the First Lamp,
   a piece of the Dawnfire, in its hall.
 
 ### The Hush

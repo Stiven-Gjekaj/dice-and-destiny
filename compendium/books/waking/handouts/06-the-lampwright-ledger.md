@@ -17,7 +17,9 @@ no questions. We ask them anyway, but only in this book.
 He also gave us the Lamp.
 
 It is the small one of green glass that he made in the first winter of the
-war. It needs no oil and it does not go out. The master said: "Keep it lit.
+war. It stood dark on his bench all through the war. After the war, he lit
+it from the fire in the chapel of the keep. Since then it needs no oil and
+it does not go out. The master said: "Keep it lit.
 Keep it where everyone can see it. Nobody steals a thing that the whole town
 watches. And if anyone ever comes to put it out, do not let them touch it."
 
