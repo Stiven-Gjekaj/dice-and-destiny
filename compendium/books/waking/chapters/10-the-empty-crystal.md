@@ -477,3 +477,181 @@ old kingdom broke his face out, the stories say. And the Hush ties ribbons
 under it, and cries. I never understood that."
 
 ---
+
+## Scene 4: The Throne Hall (1 session)
+
+**Goal:** The victory. The party defeats Mother Sallow, and the Hush breaks.
+
+### The rite
+
+> The throne hall of Ostrey has no roof. Above it, where the sky should be,
+> the grey dome turns slowly, like smoke in a jar. The floor is covered with
+> people in grey, kneeling in rows, a hundred of them, humming. At the end of
+> the hall stands the old throne, cracked down the middle. In front of the
+> throne is a table of black stone. On the table lies a small light.
+>
+> Next to it stands a thin woman in grey. You know her. But her eyes are
+> black now, all black, from edge to edge, and when she breathes out, her
+> breath is dark, like ink in water.
+>
+> "Dawnwatch," says Mother Sallow. She does not raise her voice. Every person
+> in the hall hears it. "You came. Good. I wanted you to see this."
+
+The small light on the table is the piece of the Dawnfire that the Hush
+holds: the Ember of Saint Ivo, if the Hush still has it. If the party took
+the Ember back, the table is empty, and Mother Sallow wants the First Lamp
+or the Fennick Candle from the party.
+
+### Mother Sallow speaks
+
+Mother Sallow does not attack at once. She talks first. She has waited a
+long time to say these things, and she says them to the Dawnwatch, not to
+her followers. Play her calm, tired, and sure. She is not cruel. She thinks
+that she is the only honest person in the hall.
+
+Use some of these lines, or all of them:
+
+- "The days are shorter. You have seen it. Your little lantern counts it.
+  Eleven minutes this year. Twenty next year. The sun is dying, sleepers.
+  Nobody in Gaunt or in Saint Ivo's will say it, because there is nothing
+  that they can do about it."
+- "There was one man who tried to do something about it. Only one. Ostrey
+  called him a demon for it, and put him in a box under this hill."
+- "He was a man once. Did you know that? A knight. They don't teach that in
+  the songs." She smiles. "I went down to see him. The box is empty. I
+  drank what he left behind. It is cold, and it is very strong."
+- "A fire that goes out can be lit again. A fire that burns down to nothing
+  cannot. Let it go out. Let him light it again. That is all the Hush has
+  ever wanted."
+- "Give me the stone. Give me the light. Kneel with us. You can be the
+  first to see the new dawn."
+
+> **GM tip:** Mother Sallow is partly right, and the players may feel it.
+> That is good. Do not argue for her, and do not argue against her. If a
+> player asks a good question, answer as she would. The one thing that she
+> cannot answer is this: "What happens to all the people under the sun
+> while it is out?" Her answer is a long silence, and then: "He will know."
+
+### Ways to stop the rite
+
+The rite ends when the piece of the Dawnfire is safe, or when Mother Sallow
+falls. The party can do it in several ways at once.
+
+| What the party does | Check | Result |
+|---|---|---|
+| Takes the piece from the table | DC 16 Dexterity (Sleight of Hand), or just grab it in the fight | The rite stops. Mother Sallow can't put out the piece while a member of the Dawnwatch holds it. She attacks at once. |
+| Talks to the kneeling Hush | DC 17 Charisma (Persuasion), as an action, once per round | Ten of the kneeling Hush stop humming and get up. On three successes, the hum breaks: the Hush Grey Choir loses its Song of the Long Night trait for the rest of the fight. |
+| Shows them the light | The First Lamp, the Fennick Candle, or Wick, held high | Advantage on the Persuasion check above. Many of the Hush have not seen a clean flame in years. |
+| Waits too long | No check | At the end of the third round of talk, Mother Sallow puts out the piece on the table (if there is one), and the fight starts. A piece that she puts out is gone for good. |
+
+> **GM tip:** The party should not lose the Ember of Saint Ivo by accident.
+> If the players are slow, let Wick shout: "The light! Somebody get the
+> light!" Losing the Ember is a real cost, so it is fine if it happens, but
+> only because the players chose to talk too long.
+
+### Encounter: Mother Sallow, Unbound (High)
+
+> Mother Sallow sighs. "Then you will see it from the floor." She opens her
+> hand, and the dark pours out of it like water. Around you, the grey robes
+> rise.
+
+This is the victory of Book One. Make it big.
+
+- **Budget:** High, for 4 characters of level 10: 3,100 × 4 = 12,400 XP.
+- **Monsters:** Mother Sallow, Unbound (7,200 XP), 1 Hush Grey Choir (2,300
+  XP), and 2 Hush Night Wardens (2,200 XP). Total: 11,700 XP.
+
+{{statblock: Mother Sallow, Unbound}}
+
+The kneeling Hush are not part of the fight. They scatter to the walls when
+it starts. They do not attack the party, and the party should not attack
+them.
+
+**The battlefield.** The hall is 120 feet long and 60 feet wide, with no
+roof. It is dark, except for the party's lights. The cracked throne is on a
+dais, 5 feet high, at the north end. Six broken pillars give Half Cover.
+Around the edge of the hall, iron braziers burn with a cold grey fire that
+gives no light; a creature that touches one takes 2d6 Cold damage.
+
+**Tactics.**
+
+- **Mother Sallow** opens with The Long Night on the most characters that she
+  can catch. Then she uses Word of Ending on a spellcaster and Grey Knife on
+  anyone who comes close. She uses Fade to stay in the dark and out of
+  reach. She uses Hold Monster on the strongest fighter. She spends her
+  legendary actions on Snuff when the party has more than one light.
+- **The choir** stays near Mother Sallow, so that its song makes her harder
+  to see and her enemies worse at Concentration.
+- **The wardens** guard Mother Sallow with Close the Ranks.
+- **When Mother Sallow is Bloodied,** her Unbound trait goes off. Describe
+  it: the dark bursts out of her like a flock of black birds, and for one
+  moment the whole hall is black. Then it is her own voice, very small:
+  "Oh. It's taking more than I thought."
+
+> **Scaling:** The budget is 3,100 XP for each character.
+>
+> - **3 characters (9,300 XP):** Mother Sallow, Unbound and 2 Hush Night
+>   Wardens (9,400 XP). No choir.
+> - **4 characters (12,400 XP):** as written (11,700 XP).
+> - **5 characters (15,500 XP):** add 1 Hush Dusk Priest (14,600 XP).
+> - **6 characters (18,600 XP):** add 1 Hush Dusk Priest, 1 Hush Night
+>   Warden, and a second Hush Grey Choir (18,000 XP).
+> - **With Techniques on:** add one Hush Night Warden for each four
+>   characters, or give Mother Sallow 10% more Hit Points (205 in all).
+
+> **GM tip:** If the fight goes very badly, the kneeling Hush can save the
+> party without meaning to. One of them, the woman with the baby from the
+> Grey Camp, stands up between Mother Sallow and a fallen character and
+> says "No." Mother Sallow hesitates for one round. It is the first time
+> anybody in the Hush has said no to her.
+
+### The fall of Mother Sallow
+
+When Mother Sallow drops to 0 Hit Points, she does not die at once, unless
+the players want her dead. Ask the player who struck the last blow: "Do you
+kill her, or do you leave her alive?" Both are fine.
+
+> The dark goes out of Mother Sallow all at once, the way the air goes out
+> of a bellows. She sits down on the step of the throne. Her eyes are grey
+> again, an ordinary, tired grey. She looks very old.
+>
+> "It's empty," she says. "Down there. Go and look. Go and look, and then
+> tell me who the monster is."
+
+If she lives, Mother Sallow is a broken old woman. She does not fight
+again. She can go to the Church in Saint Ivo's, to Gaunt for a trial, or
+to the keep as a prisoner. Book Two does not need her.
+
+### The Hush breaks
+
+When Mother Sallow falls, the hum stops. Each creature of the Hush that is
+still in the fight drops its weapon or runs. The kneeling Hush look at
+each other, as if they have just woken up.
+
+Then the grey dome breaks.
+
+> A sound like a sheet of ice that cracks on a lake. Above the hall, the
+> grey splits open, and light falls through the crack. Not lamplight. Not
+> the light of a spell. Sunlight, thin and white and winter-cold, the first
+> sunlight in Kingsholm for a month.
+>
+> It falls across the throne and the floor and the faces of the Hush. Some
+> of them cover their eyes. Some of them cry. A child somewhere starts to
+> laugh, and cannot stop.
+>
+> "Oh," says Wick, very quietly. "Oh, look at that."
+
+This is the victory. Stop for a moment and let the players enjoy it. The
+Hush is broken. Most of its people will go home in the next days, and the
+lights will come back on in the villages of the land. Give each player a
+moment to say what their character does in the first minute of sunlight.
+
+> **GM tip:** If your group stops here because of time, this is a fine
+> place to end a session. Do not go down into the vault in the last ten
+> minutes of a session. The truth deserves a fresh start.
+
+The party can take a Short Rest in the throne hall. Brother Cade and his
+healers come up from the bridge, if they came to Kingsholm. Nobody
+attacks the party here any more.
+
+---
