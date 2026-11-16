@@ -268,6 +268,16 @@ of old Ostrey above. Each writer uses them.
   Ostrey fell. The inn is the Ferry Bell. The old barrow of the road
   wardens of Ostrey is on Ferry Hill, a mile north.
 
+- **Saint Ivo's:** a town of about five thousand people inside a wall of
+  yellow stone. The Cathedral of the Five stands over the old shrine. The
+  Ember lives on its high altar. The Feast of the Sleepers lasts three
+  days, and ends with the Waking Service, when the Abbess carries the
+  Ember out to the people. Pell's Players perform in the Players' Yard of
+  the inn called the Lamb and Lantern.
+- **The Ember glows:** for two hundred years, the Ember was a dull red
+  coal. On the night that the Dawnwatch woke, it started to burn gold
+  (chapter 3).
+
 ## The creatures of Book One
 
 The statblocks are in `compendium/content/dawnwatch/creatures_*.py`.
@@ -294,6 +304,7 @@ the person in more than one scene.
 | Brother Cade | A priest who thinks that the party are impostors. Later an ally. | 3, 4, 9 | Yes |
 | Corvin Lisle | An antiquary from Corrantey who buys old things of Ostrey. He offers a lot of money for the thing that the Shadow stole. | 2, 3 | No |
 | Garret Pell | The leader of a troupe of actors who play the Dawnwatch. | 3 | No |
+| Captain Joss Marrick | The captain of the honor guard of Gaunt at the feast of Saint Ivo's. He reports to the Marshal and makes the party her offer. | 3, 5 | No |
 | Mother Sallow | The leader of the Hush. | 4, 7, 10 | Yes |
 | Osk | The enforcer of Mother Sallow. Big, and he does not speak. | 4, 7 | Yes |
 | Marshal Ide Gauntry | The ruler of Gaunt. | 5, 9 | Yes |
