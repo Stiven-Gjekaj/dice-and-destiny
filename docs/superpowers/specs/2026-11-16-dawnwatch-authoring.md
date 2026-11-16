@@ -56,7 +56,9 @@ The chapters use the same Markdown as the tutorial. Read
       > **Teach: Journeys.** "Each of you takes a role for the day."
       > **Thread (the Shadow):** The collector offers 500 GP.
 
-  The labels are `GM tip`, `Teach`, `Thread (...)`, and `Scaling`.
+  The labels are `GM tip`, `Teach`, `Thread (...)`, `Scaling`, and
+  `Secret (chapter N)`. A secret box holds a fact that a later chapter
+  shows. The GM must not tell it before that chapter.
 - Each chapter starts with a short table: the levels, the time at the
   table, the places, and the system that starts.
 - Each chapter ends with a section `## Rewards`, and with the milestone:
