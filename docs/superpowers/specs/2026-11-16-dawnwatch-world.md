@@ -145,6 +145,28 @@ road and about 16 miles off the road.
 - They look for the pieces of the Dawnfire, to put them out and wake their
   king. They put out the piece in the chapel of the keep.
 
+## Small facts of today
+
+The gazetteer sets these facts. Each writer uses them.
+
+- **The greeting today:** "Lightye." The answer is "Dawn." The small curse
+  is "Darkit."
+- **The coins today:** gold, silver, and copper pieces. Corrantey stamps a
+  lamp on its coins. Gaunt stamps a mailed fist. A collector pays 5 GP or
+  more for a gold sun of Ostrey.
+- **The Church art:** the Five are tall, golden, and human. The faces are
+  wrong. Nobody knows that the Spark is an elf.
+- **The holy days:** the Longest Night is now the Vigil of the Five. The
+  great feast is the Feast of the Five Sleepers in Saint Ivo's.
+- **The Church books** say that the Five sleep "under a hill in the east".
+  The Church does not know about Dawnwatch Keep.
+- **The Lampwrights** keep a book of the times of sunrise and sunset. They
+  know that the days become shorter.
+- **The sky at noon:** on the day of the Waking, the sky over the Grey
+  Teeth went black for a moment. All the land saw it.
+- **Kingsholm** burned in the civil war of the Grey Winter. A forest grows
+  around it now.
+
 ## Old Ostrey
 
 The player's guide tells these facts. They are the world of year 0, as

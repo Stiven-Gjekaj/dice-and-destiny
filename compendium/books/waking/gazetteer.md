@@ -239,3 +239,163 @@ The people of the land saw something too. On the day that the characters
 woke, the sky over the Grey Teeth went black at noon, for the time it
 takes to say a prayer. Every village has a story about it now. Most say it
 was a sign. Nobody agrees what of.
+
+## The Land Today
+
+There is no kingdom now. People call it "the land", and they mean
+everything between the Grey Teeth and the southern hills, from the
+Western Sea to the edge of the Low Fen. Nobody rules all of it. Three
+powers hold the parts that matter, and a fourth works in the dark.
+
+| Region | Who holds it | What it is like |
+|---|---|---|
+| The south | Gaunt, from Stannard | Good roads, toll gates, soldiers, order. |
+| The middle | The Church, from Saint Ivo's | Pilgrims, shrines, farms that pay tithes. |
+| The west coast | Corrantey, by its council of guilds | Ships, trade, money, and arguments. |
+| The Wolds and the east | Nobody | Sheep, small villages, old ruins. |
+| The north and the Dunn | Nobody | Forest, ruins, and the old capital. |
+| The Low Fen | Nobody | Marsh, black water, and the drowned town. |
+| Past the Grey Teeth | Nobody alive | The dark country. Coldharrow. |
+
+Most people live in villages of fifty to three hundred souls and never go
+more than a day from home. A village has a headman or a headwoman, a
+shrine of the Five Sleepers, and an opinion about the next village.
+
+### The shorter days
+
+The days are a little shorter each year. Since the Waking, they are
+shorter each month. In Book One, the change is small. Show it with
+small things:
+
+- Shepherds bring the flocks in earlier. The light goes before the work
+  is done.
+- A sundial in a town square is wrong, and the town argues about who
+  moved it.
+- An old woman says that she has never needed a lamp at supper in
+  summer, and this summer she does.
+- Candles and lamp oil cost a little more each season. Corrantey grows
+  rich on it.
+- In the Wolds, the shadows at noon are a hand longer than an old
+  shepherd remembers.
+
+Toward the end of Book One, after chapter 7, let the characters notice
+that the dawn comes late. Wick notices first. He counts.
+
+### The faith of today
+
+The Morning Flame is still the god of the dawn, but most people pray to
+the Five Sleepers now. The Church teaches that the Five sleep in the light
+of the Morning Flame, and that they will wake on the day of the last dark
+to save the land. Every village has a shrine of the Five: five candles in
+a niche, and five small figures in wood or clay.
+
+- **The faces are wrong.** The Church art shows the Five as tall, golden,
+  calm, and young. A character who sees a figure of the Five sees a
+  stranger with the badge of the Dawnwatch on the chest. The Shield is
+  always a tall man with a beard. The Light is always a human woman. The
+  Shadow is always tall. Nobody knows that the Spark is an elf. The Storm
+  is shown as a human with a big axe.
+- **The relics are fake.** Pilgrims buy bones, hair, teeth, and scraps of
+  cloth "from the Five". There are enough teeth of the Captain in the land
+  to fill three mouths. Dace, the pedlar of chapter 2, sells them.
+- **The holy days are new.** The Longest Night is now the Vigil of the
+  Five. The great feast of the Church is the Feast of the Five Sleepers in
+  Saint Ivo's, in chapter 3.
+
+### Speech
+
+The language is the same, but three hundred years wore it down. The people
+of today speak faster, drop the ends of words, and use new words that the
+characters do not know. The characters sound old-fashioned and very
+formal, like a priest reading from an old book.
+
+| Old Ostrey | Today |
+|---|---|
+| "Light to you." "And dawn to you." | "Lightye." "Dawn." |
+| "Dark take it." | "Darkit." |
+| A sun, a star, a bit | A gold piece, a silver, a copper |
+| The March of Gauntry | Gaunt |
+| Corrin and Tey | Corrantey |
+| The shrine of Saint Ivo | Saint Ivo's |
+| Caer Dunholm | Coldharrow |
+| The Dawnwatch | The Five, or the Five Sleepers |
+
+When a character speaks to a person of today for the first time, describe
+the reaction: a long look, a smile, a question. "You talk like a
+churchman." In Gaunt, people think that the characters are nobles. In
+Corrantey, people think that they are actors.
+
+### Money
+
+Most coins today come from Corrantey, which stamps a lamp on them, or from
+Gaunt, which stamps a mailed fist. Both are good gold, silver, and copper,
+and everybody takes both. Use the normal prices of the Player's
+Compendium.
+
+The old coins of Ostrey are rare now. A gold sun of King Aldwin is still
+gold, and any merchant takes it as 1 GP. A collector in Corrantey or a
+priest in Saint Ivo's pays 5 GP or more for one in good condition. A coin
+with the badge of the Dawnwatch on it would be priceless, if one existed.
+
+### Travel
+
+The old stone road of Ostrey is broken. Gaunt keeps its own roads in good
+repair and charges a toll on each one. The pilgrim road west to Corrantey
+is safe in summer and muddy the rest of the year. Everywhere else, the
+roads are tracks.
+
+Use these days for the Journeys system. A day is about 24 miles on a
+road and about 16 miles off the road.
+
+| From | To | Days | Road |
+|---|---|---|---|
+| Dawnwatch Keep | Brannock's Ford | 1 | A sheep track |
+| Brannock's Ford | Saint Ivo's | 3 | The old road of Ostrey, broken in places |
+| Saint Ivo's | The shrine at Kell | 2 | Off the road |
+| Saint Ivo's | Stannard | 3 | A good road, made by Gaunt |
+| Saint Ivo's | Corrantey | 5 | The pilgrim road west |
+| Saint Ivo's | Fennick | 4 | Off the road, through the Low Fen |
+| Dawnwatch Keep | Kingsholm | 3 | Off the road, along the Dunn |
+
+For a trip that is not on the table, measure it on the map of the land
+and use the miles per day above.
+
+#### The dangers of the road
+
+The land is not safe, but it is not a war. Most trouble on a road is
+people: bandits in the Broken Years style, toll men who want more than
+the toll, and pilgrims who want to touch the characters' cloaks. Wolves
+come down from the north in winter. Since the Waking, more of them come,
+and some of them are not wolves.
+
+### The Dawnwatch in the eyes of the land
+
+The characters are the Five Sleepers. The land prayed for them for one
+hundred and sixty years. Nobody expects them to be real.
+
+When the characters say who they are, people react in one of four ways.
+Use the place to choose:
+
+| Reaction | Who | What they do |
+|---|---|---|
+| Belief | Pilgrims, the poor, children, the old | Kneel, weep, ask for a blessing or a healing. Follow the party. |
+| Doubt | Priests, soldiers, merchants | Laugh, or ask for proof. "Everybody says that they are the Five." |
+| Use | Abbess Merrow, Marshal Ide Gauntry, the council of Corrantey | Want the party on their side, with a title, a banner, or a contract. |
+| Fear | The Hush, and people who heard the Hush | The Five are the enemy of the coming dark. Kill them, or make them sleep again. |
+
+Impostors are common. In each town, somebody claims to be one of the Five,
+or to have met them. Garret Pell's troupe of actors plays the Five in
+Saint Ivo's every feast day. A character's word is not proof.
+
+#### What counts as proof
+
+- **The Ember of Saint Ivo glows near the characters.** This is the proof
+  that convinces the Church, in chapter 3.
+- **Knowledge of old Ostrey.** The characters know things that are not in
+  any book: the words of the old oath, the plan of Kingsholm, where the
+  well was at the shrine of Saint Ivo. A scholar can check some of it.
+- **Wick.** A talking lantern is strange enough to make people listen.
+  The Lampwrights see the mark of their founder on him, in chapter 6.
+- **The old gear.** The badge of the Dawnwatch on a shield is not proof by
+  itself. Fakes are everywhere. But the steel of Ostrey is better than the
+  steel of today, and a smith can see it.
