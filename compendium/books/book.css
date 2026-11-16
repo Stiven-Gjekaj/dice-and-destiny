@@ -142,3 +142,5 @@ table.trinkets { font-size: 7.4pt; }
 .compendium > *, .cols2.compendium > * { break-inside: auto; }
 .compendium .entry, .compendium .mitem { break-inside: auto; }
 .compendium .sp-name, .compendium .mon-name, .compendium .ft h4 { break-after: avoid; }
+/* Traps and hazards: keep the table of level bands in one piece. */
+.trap-bands { break-inside: avoid; }

@@ -12,6 +12,7 @@ CH_ICONS = {
     "Treasure &amp; Magic Items": "chest", "Session Prep": "scroll", "Cheat Sheets &amp; Templates": "d20",
     "Using the Bestiary": "eye", "Monsters A–Z": "dragon", "Magic Items by Rarity": "spark",
     "Magic Items A–Z": "chest", "Poisons": "skull",
+    "Traps &amp; Hazards": "warn",
     # Player
     "Welcome to the Table": "d20", "The Six Abilities": "sheet", "Skills, Proficiency &amp; Rolling": "dice",
     "Creating a Character": "quill", "Reading a Character Sheet": "eye", "Your Turn in Combat": "swords",
@@ -148,6 +149,8 @@ def expand(name):
         "{{O_CLASSES}}": lambda: __import__("render_classes").classes_html(),
         "{{SYS_MARKS}}": lambda: __import__("render_systems").player_marks_html(),
         "{{SYS_TAINTS}}": lambda: __import__("render_systems").gm_marks_html(),
+        "{{O_TRAPS_IDX}}": lambda: __import__("render_traps").all_traps_index_html(),
+        "{{O_TRAPS}}": lambda: __import__("render_traps").all_traps_html(),
     }
     for k, f in reps.items():
         if k in s:
