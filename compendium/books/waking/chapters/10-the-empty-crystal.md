@@ -984,6 +984,29 @@ that fit your game, and change them to fit what your party did.
 | The pieces of the Dawnfire | The party keeps them, or gives them to people that it trusts. They are the last lights that the Hush could not put out. |
 | Wick | Wick stays with the Dawnwatch. He counts the minutes of each day, out loud, every morning. He does not like the numbers. |
 
+### Book One at a glance
+
+Before the After moment, it helps the players to see how far they came.
+Read this list aloud, or let Wick read it. Change each line to fit what
+happened at your table.
+
+| Chapter | What the Dawnwatch did |
+|---|---|
+| The Last Watch | Woke in the crystal, after three hundred years, and walked out into a world that forgot them. |
+| Brannock's Ford | Learned that Ostrey fell, and that their names are a song with the facts wrong. |
+| Saint Ivo's | Met the Church that prays to them, and proved who they are. |
+| The Hush | Met the cult of the Unlit King, and the leader who wanted their stone. |
+| Gaunt | Met the Marshal, who wanted them as banners. |
+| Corrantey | Found the First Lamp, and learned the name of the man who made Wick. |
+| The Keep Again | Took back the hall where they slept, and made it a home. |
+| Fennick Under the Water | Found the candle under the water, and let an old soldier go off watch. |
+| Three Banners | Stood between two armies, and carried the first scars. |
+| The Empty Crystal | Broke the Hush, and learned what the Dawnwatch really is. |
+
+> Wick listens to the whole list with his eyes closed. "That is a lot," he
+> says, "for people who were asleep three hundred years ago." Then, very
+> quietly: "I counted every day of it. Every single one."
+
 ### Telling the truth, or keeping it
 
 The party knows a truth that nobody else in the land knows. Ask the players:
