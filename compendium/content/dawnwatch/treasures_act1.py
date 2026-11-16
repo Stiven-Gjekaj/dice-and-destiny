@@ -9,7 +9,7 @@ W = "Wondrous Item"
 ITEMS = [
 ("The Black Stone", W, "Artifact", None,
  "A smooth black stone as big as a plum. It is always cold, and it hums against the skin. It is a piece of the crystal of the Unlit King. "
- "It hums louder when a member of the Hush is within 300 feet, and it speaks one word or two when the Unlit King wants it to. "
+ "It hums louder when a member of the Hush is within 300 feet. Very rarely, the Unlit King speaks through it. "
  "The Mark. A creature that carries the stone for one day takes the open Curse of the Black Stone, with its track at 0. "
  "Benefit. You have Darkvision out to 60 feet, or 30 feet more if you already have it. As a Bonus Action, you can draw on the stone for 1 minute. "
  "For that time, your weapon attacks and your cantrips deal an extra 1d6 Necrotic damage on a hit, and magical Darkness doesn't stop your Darkvision. "
@@ -18,7 +18,7 @@ ITEMS = [
  "You have Disadvantage on saving throws against the Charmed and Frightened conditions from a member of the Hush. "
  "A piece of the Dawnfire burns you: when you touch one, you take 1d6 Radiant damage. "
  "Grows. Each time you draw on the stone. "
- "Thresholds. At 2, the voice of the stone speaks to you once each day, in a dream or in a quiet moment. It tells you one true and useful thing, and it asks for one small thing in return. "
+ "Thresholds. At 2, you dream of cold crystal each night. Once between Long Rests, you can hold the stone and learn the direction to the nearest piece of the Dawnfire within 10 miles. "
  "The extra damage becomes 1d8. At 4, your shadow falls a moment late. A member of the Hush thinks that you are one of them until you attack it, "
  "and you have Disadvantage on attack rolls while you are in the Bright Light of a piece of the Dawnfire. "
  "Crisis. At 5, you choose. Give in: you can draw on the stone twice between rests, the extra damage becomes 2d8, and as a Bonus Action while you draw on it, "
