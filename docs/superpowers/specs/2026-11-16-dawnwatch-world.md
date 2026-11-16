@@ -58,6 +58,7 @@ east, y goes south. The maps lane uses these numbers.
 | Ashby Field | 140 | 250 | Open land on the border of Gaunt and Saint Ivo's. Chapter 9. |
 | Stannard | 130 | 285 | The seat of the Gauntry family. Chapter 5. |
 | Wenlow | 148 | 200 | A small village of the Church on the old road, three days south of the keep. The Hush burned its chapel. Chapter 9. |
+| Wendle | 144 | 256 | A village of farms on the border, in Gaunt by a mile, on the good road south. Chapters 5 and 9. |
 | Corrantey | 35 | 200 | The city on the west coast, at the mouths of the Corrin and the Tey. Chapter 6. |
 | Fennick | 205 | 245 | A drowned town in the Low Fen. Chapter 8. |
 | The Low Fen | 185 to 235 | 225 to 275 | Marsh and black water in the south-east. |

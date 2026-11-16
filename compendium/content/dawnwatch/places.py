@@ -48,6 +48,10 @@ PLACES = [
          summary="Low hills with sheep and old stones around Dawnwatch Keep."),
     dict(name="Brannock's Ford", kind="town", x=160, y=172, era="now", chapters=(2,),
          summary="A village at a ford of the River Brann, one day from the keep."),
+    dict(name="Wenlow", kind="town", x=148, y=200, era="now", chapters=(9,),
+         summary="A small village of the Church on the old road, one day north of Saint Ivo's. The Hush burned its chapel."),
+    dict(name="Wendle", kind="town", x=144, y=256, era="now", chapters=(5, 9),
+         summary="A village of farms on the border, in Gaunt by a mile, on the good road south."),
 
     # ---- The Church ----
     dict(name="Saint Ivo's", kind="town", x=150, y=220, era="now", chapters=(3, 9),

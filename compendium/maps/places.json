@@ -132,6 +132,31 @@
    "y": 172
   },
   {
+   "name": "Wenlow",
+   "kind": "town",
+   "era": "now",
+   "old_names": [],
+   "maps": [
+    "land-today",
+    "act-1",
+    "act-2"
+   ],
+   "x": 148,
+   "y": 200
+  },
+  {
+   "name": "Wendle",
+   "kind": "town",
+   "era": "now",
+   "old_names": [],
+   "maps": [
+    "land-today",
+    "act-2"
+   ],
+   "x": 144,
+   "y": 256
+  },
+  {
    "name": "Saint Ivo's",
    "kind": "town",
    "era": "now",
