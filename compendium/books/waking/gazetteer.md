@@ -1194,10 +1194,11 @@ is not in the Book of the Vigil, the priests grow cold. If the party sides
 with Gaunt, the Abbess says that the true Five would never side with
 soldiers.
 
-> **Secret (chapter 3):** The Book of the Vigil has a chapter on the Five
-> that no priest reads aloud. It says that the Five will "judge the land"
-> when they wake. The Abbess fears this chapter. She hopes that the Five
-> will judge the land the way that she would.
+> **GM note (a seed for later books):** The Book of the Vigil has a
+> chapter on the Five that no priest reads aloud. It says that the Five
+> will "judge the land" when they wake. The Abbess fears this chapter. She
+> hopes that the Five will judge the land the way that she would. Book One
+> does not use this chapter.
 
 ### Corrantey and the Lampwrights
 
