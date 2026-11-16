@@ -340,7 +340,19 @@ def mention_pattern(names):
     names = sorted({n for n in names if n}, key=len, reverse=True)
     if not names:
         return None
-    return re.compile(r"(?<![\w])(" + "|".join(re.escape(n) for n in names) + r")(?![\w])")
+    return re.compile(r"(?<![\w])(" + "|".join(_name_regex(n) for n in names) + r")(?![\w])")
+
+
+def _name_regex(name):
+    """A name that starts with "The" also matches with "the", as in "they carry the Fennick Candle"."""
+    if name.startswith("The "):
+        return "[Tt]he " + re.escape(name[4:])
+    return re.escape(name)
+
+
+def canonical(text):
+    """The stored form of a matched name: a first "the" becomes "The"."""
+    return "The " + text[4:] if text.startswith("the ") else text
 
 
 def named_in(name, chs):
@@ -443,7 +455,7 @@ def mark_mentions(h, es, screen=False):
     out, skip, spans = [], 0, []
 
     def rep(m):
-        name, anchor = names[m.group(1)]
+        name, anchor = names[canonical(m.group(1))]
         word = f'<a class="xref" href="#{anchor}">{m.group(1)}</a>' if screen else m.group(1)
         return word + idx_mark(name)
     for tok in re.split(r"(<[^>]*>)", h):

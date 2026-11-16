@@ -423,3 +423,13 @@ def test_hide_marks_puts_the_rule_into_the_head():
     assert W.hide_marks("<head><title>x</title></head><body>@@T0@@</body>") == (
         "<head><title>x</title>" + W.HIDE_MARKS + "</head><body>@@T0@@</body>")
     assert W.hide_marks("<p>x</p>").startswith(W.HIDE_MARKS)
+
+
+def test_a_name_with_the_also_matches_a_lowercase_the():
+    chs = [(10, "ch10", "They lift the Fennick Candle."), (11, "ch11", "Other text. Then the end.")]
+    assert W.named_in("The Fennick Candle", chs) == [10]
+    es = [dict(kind="treasure", name="The Fennick Candle", anchor="t-the-fennick-candle", obj=None)]
+    h = W.mark_mentions("<p>They lift the Fennick Candle. The Fennick Candle glows.</p>", es, screen=True)
+    assert [n for n, _, _ in W.IDX] == ["The Fennick Candle", "The Fennick Candle"]
+    assert '<a class="xref" href="#t-the-fennick-candle">the Fennick Candle</a>' in h
+    assert W.mention_pattern(["The Wolds"]).search("THE Wolds") is None
