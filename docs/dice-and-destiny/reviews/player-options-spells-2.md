@@ -49,7 +49,7 @@ Original spells now: 94.
 | 4 | Masquerade | B, K, W | Seeming (fewer creatures, 1 hour) |
 | 4 | Wolfpack Hunt | R, D | Faerie Fire (Advantage) plus Longstrider, for 5 creatures |
 | 4 | Mantle of the Martyr | C, P | Warding Bond for the party |
-| 4 | Hungering Rift | K, W | Evard-type area control (4d10, pull) |
+| 4 | Hungering Rift | K, W | Black Tentacles (area control, 4d10, pull) |
 | 4 | Falcon's Sight | R, D | Swift Quiver (range, not attacks) |
 | 5 | Grand Finale | B, S | Flame Strike (7d8, with temp HP for allies) |
 | 5 | Ambush Veil | R, D | Pass without Trace plus Greater Invisibility (only when still) |
@@ -64,7 +64,7 @@ Original spells now: 94.
 | 7 | Great Renewal | C, D | Mass Cure Wounds scaled up (7d8, 8 creatures) |
 | 8 | Storm of Glass | S, D, W | Incendiary Cloud (8d6) |
 | 8 | Peace Unbroken | B, C | Antipathy / Mass Suggestion |
-| 8 | Stormborne Form | S, D | Investiture-type self buff (fly, 4d10 Bonus Action) |
+| 8 | Stormborne Form | S, D | Fly plus Call Lightning (self buff, 4d10 Bonus Action) |
 | 9 | Absolute Zero | S, K, W | Meteor Swarm (20d6, one Sphere) |
 | 9 | Entombing Root | D, C | Imprisonment |
 | 9 | Unwritten Fate | B, S, K | Foresight / Wish-lite (3 reversals in 1 hour) |
