@@ -15,6 +15,7 @@ CLASSES = [dict(
     tools="Choose one Gaming Set",
     armor="Light, Medium, and Heavy armor and Shields",
     equipment="Choose A or B: (A) Chain Mail, Longsword, Shield, 4 Javelins, Signal Whistle, Explorer's Pack, and 8 GP; or (B) 155 GP.",
+    also_at={"Ability Score Improvement": [8, 12, 16]},
     subclass_levels=[3, 7, 11, 15],
     columns=[
         ("Command Dice", [2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6]),

@@ -14,7 +14,8 @@ CLASSES = [dict(
     weapons="Simple weapons",
     tools="Herbalism Kit and Alchemist's Supplies",
     armor="Light armor",
-    equipment="Choose A or B: (A) Leather Armor, Dagger, Light Crossbow, 20 Bolts, Herbalism Kit, Alchemist's Supplies, a bandolier of empty vials, Explorer's Pack, and 5 GP; or (B) 110 GP.",
+    equipment="Choose A or B: (A) Leather Armor, Dagger, Light Crossbow, 20 Bolts, Herbalism Kit, Alchemist's Supplies, 5 Vials, Explorer's Pack, and 5 GP; or (B) 110 GP.",
+    also_at={"Ability Score Improvement": [8, 12, 16]},
     subclass_levels=[3, 6, 10, 14],
     columns=[
         ("Reagents", [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12]),

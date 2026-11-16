@@ -15,6 +15,7 @@ CLASSES = [dict(
     tools="None",
     armor="Light armor",
     equipment="Choose A or B: (A) Leather Armor, Quarterstaff, 2 Daggers, Explorer's Pack, and 25 GP; or (B) 50 GP.",
+    also_at={"Ability Score Improvement": [8, 12, 16]},
     subclass_levels=[3, 6, 10, 14],
     columns=[
         ("Strain Limit", [2, 3, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 13, 13, 14, 14, 16, 16, 17, 18]),
@@ -30,6 +31,7 @@ CLASSES = [dict(
         (2, "Empowered Bolt", "When a Bolt of your Elemental Bolt hits, add your Wisdom modifier to its damage."),
         (3, "Shaper Subclass", "Choose a Shaper subclass. A subclass gives you features at Shaper levels 3, 6, 10, and 14."),
         (4, "Ability Score Improvement", "You gain the Ability Score Improvement feat or another feat for which you qualify. You gain this feature again at Shaper levels 8, 12, and 16."),
+        (5, "Rising Power", "You can now use Tier 3 Surges, and your Elemental Bolt makes two Bolts. Your Strain Limit, Highest Tier, and Bolts keep growing as the Shaper Features table shows."),
         (7, "Second Element", "Choose a second element from Attunement. You gain its benefit, and you can change your element damage and your Bolt rider between your two elements as a Bonus Action."),
         (9, "Shaped Surge", "When you use a Surge that affects an area, you can choose a number of creatures up to your Proficiency Bonus. The chosen creatures automatically succeed on their saving throws against it and take no damage from it."),
         (11, "Cataclysm", "You learn a Surge that you can use only through this feature. [[Cataclysm:]] Each creature in a 40-foot-radius Sphere centered on a point within 300 feet of you makes a Dexterity saving throw, taking 11d6 element damage on a failed save or half as much on a successful one. The area is Difficult Terrain for 1 minute. Using Cataclysm gives you no Strain. Once you use it, you can't use it again until you finish a Long Rest."),

@@ -15,6 +15,7 @@ CLASSES = [dict(
     tools="Choose one: Herbalism Kit or one musical instrument",
     armor="Light and Medium armor",
     equipment="Choose A or B: (A) Scale Mail, Spear, Light Crossbow, 20 Bolts, a carved spirit token, Explorer's Pack, and 10 GP; or (B) 90 GP.",
+    also_at={"Ability Score Improvement": [8, 12, 16]},
     subclass_levels=[3, 6, 10, 14],
     columns=[
         ("Bond Points", ["–", 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]),
