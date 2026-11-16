@@ -1,12 +1,11 @@
-"""The people with statblocks of The Dawnwatch, Book One, Act II (chapters 6 to 10).
+"""The people of The Dawnwatch, Book One, Act II (chapters 6 to 10).
 
-The format is the same as in content/npcs: a pair (role, M(...)). The role is
-one of the keys of ROLES in build/render_npcs.py. Each person is a Humanoid.
+A person who fights is a pair (role, M(...)). A person with no statblock is a pair (role, "Name").
+The role is one free line of text. The statblock of Marshal Ide Gauntry is in people_act1.py.
 Sergeant Maud Kettle is a ghost, so she is in creatures_act2.py.
 """
 from monster_engine import M
 R = lambda **k: "; ".join(f"<b>{a}</b> {b}" for a, b in k.items())
-G, C, K = "Guards and Soldiers", "Criminals and Spies", "Cultists"
 HUM = "Humanoid"
 
 
@@ -15,7 +14,8 @@ def legres(n):
 
 
 NPCS = [
-(C, M("Captain Ilse Varro", "M", HUM, "Lawful Neutral", 6, "12 18 14 14 14 16", ac=16, saves="Dex, Int",
+("The spymaster of Gaunt in Corrantey. She works for Marshal Ide Gauntry. Chapters 6 and 9.",
+ M("Captain Ilse Varro", "M", HUM, "Lawful Neutral", 6, "12 18 14 14 14 16", ac=16, saves="Dex, Int",
   skills="Deception, Insight, Perception, Stealth*", lang="Common, and the trade speech of Corrantey",
   traits=[("Quiet Work", "Once on each of her turns, Ilse deals an extra {3d6} damage to a creature that she hits with a weapon attack "
                          "if she has Advantage on the attack roll, or if an ally of hers is within 5 feet of the target.")],
@@ -26,18 +26,9 @@ NPCS = [
   react=[("Turn Aside", "When an attacker that Ilse can see hits her with an attack, she halves the damage that she takes from it.")],
   desc="The quiet hand of Marshal Gauntry in the city of Corrantey. She buys what she can, steals what she must, "
        "and keeps a list of the people who owe her.")),
-(G, M("Marshal Ide Gauntry", "M", HUM, "Lawful Neutral", 8, "18 12 16 14 16 18", ac=19, saves="Str, Con, Wis",
-  skills="Athletics, History, Insight, Intimidation", lang="Common, and the old speech of Ostrey",
-  traits=[("Iron Will (2/Day)", "If the marshal fails a saving throw, she can reroll it, and she must use the new roll."),
-          ("The Banner of Gaunt", "Allies within 30 feet of the marshal that can see her have Advantage on saving throws against the Frightened condition.")],
-  attacks=[("Gauntry Longsword", "m", "2d8", "Slashing"),
-           ("Shield Bash", "m", "1d6", "Bludgeoning", "and the target has the Prone condition if it is Large or smaller")], multi=3,
-  bonus=[("Hold the Line", "Up to three allies within 30 feet that can hear the marshal each gain {2d6} Temporary Hit Points.")],
-  react=[("Parry", "The marshal adds 3 to her AC against one melee attack that would hit her. To do so, she must see the attacker.")],
-  desc="The ruler of Gaunt, in plain steel and a grey cloak. She has read every book about old Ostrey. "
-       "She believes that a land needs a strong hand, and that her hand is the strongest.")),
-(K, M("Mother Sallow, Unbound", "M", HUM, "Neutral Evil", 11, "10 14 16 16 20 18", ac=17, saves="Con, Wis, Cha",
-  skills="Deception, Insight, Religion, Stealth", senses="Darkvision 120 ft.", lang="Common, and the old speech of Ostrey",
+("The leader of the Hush at the end of Book One, after she drinks the dark of the empty crystal. Chapter 10.",
+ M("Mother Sallow, Unbound", "M", HUM, "Lawful Evil", 11, "10 14 16 16 20 18", ac=17, saves="Con, Wis, Cha",
+  skills="Deception, Insight, Religion, Stealth", senses="Darkvision 120 ft.", lang="Common, Hush Sign, and the old speech of Ostrey",
   res=R(Resistances="Necrotic, Psychic"),
   traits=[legres(2),
           ("Grey Sight", "Mother Sallow sees normally in Dim Light and in darkness, magical darkness included, out to 120 feet."),
@@ -56,4 +47,15 @@ NPCS = [
                            "One creature that she can see within 60 feet makes a {dc:wis} Constitution saving throw or takes {3d10} Necrotic damage.")],
   desc="The leader of the Hush, at the end of her road. She drank the dark of the empty crystal, and now it drinks her. "
        "Use this statblock in place of Mother Sallow in the last chapter of Book One.")),
+
+# ================= THE PEOPLE WITH NO STATBLOCK =================
+("The steward of Dawnwatch Keep, 300 years ago. He made Wick and wrote the lie. His letters are handouts. Chapters 1, 6, 7, and 10.", "Haskel Orme"),
+("The sister of Haskel Orme, in Kingsholm, 300 years ago. His letters are to her. Chapter 7.", "Wenna Orme"),
+("The master of the Lampwrights in Corrantey. He finds the mark of Haskel Orme on Wick. Chapters 6 and 7.", "Perrin Hale"),
+("A young Lampwright who becomes the steward of Dawnwatch Keep. Chapters 7 and 10.", "Hesper Wren"),
+("An old shepherd of the Wolds. The Hush burned his farm. Chapter 7.", "Edric Pole"),
+("An old eel catcher of the Low Fen. She takes the party to Fennick. Chapter 8.", "Ada Ferrow"),
+("The aide of Marshal Gauntry, and a secret agent of the Hush. Use the Hush Dusk Priest when he is unmasked. Chapter 9.", "Lieutenant Roe"),
+("The secretary of Abbess Merrow, and a secret agent of the Hush. Use the Hush Dusk Priest when he is unmasked. Chapter 9.", "Brother Ansel"),
+("A young soldier of the levy of Saint Ivo's, of the family of the Shield's promise. Use the Line Pikeman. Chapter 9.", "Corporal Lenna"),
 ]
