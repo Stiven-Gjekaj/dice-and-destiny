@@ -319,6 +319,7 @@ the person in more than one scene.
 | Perrin Hale | The master of the Lampwrights in Corrantey. | 6, 7 | No |
 | Edric Pole | An old shepherd of the Wolds. The Hush burned his farm. He can keep the gate of the keep. | 7 | No |
 | Hesper Wren | A young Lampwright, sent by Perrin Hale. She becomes the steward of Dawnwatch Keep when the party takes it back. | 7, 10 | No |
+| Ada Ferrow | An old eel catcher of the Low Fen. She takes the party to Fennick by boat. Her brother Tam died there. | 8 | No |
 | Sergeant Maud Kettle | The ghost of a soldier of Ostrey in Fennick. She teaches the old fighting ways. | 8 | Yes |
 | Sir Garrath (Malgrath) | The first Dawnwatch. The Unlit King. Only his voice in Book One. | 1, 4, 10 | No (Book Two) |
 
