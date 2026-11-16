@@ -57,7 +57,7 @@ east, y goes south. The maps lane uses these numbers.
 | The shrine at Kell | 110 | 205 | An old shrine of Ostrey on a hill. Chapter 4. |
 | Ashby Field | 140 | 250 | Open land on the border of Gaunt and Saint Ivo's. Chapter 9. |
 | Stannard | 130 | 285 | The seat of the Gauntry family. Chapter 5. |
-| Wenlow | 148 | 200 | A small village of the Church, two days south of the keep. The Hush burned its chapel. Chapter 9. |
+| Wenlow | 148 | 200 | A small village of the Church on the old road, three days south of the keep. The Hush burned its chapel. Chapter 9. |
 | Corrantey | 35 | 200 | The city on the west coast, at the mouths of the Corrin and the Tey. Chapter 6. |
 | Fennick | 205 | 245 | A drowned town in the Low Fen. Chapter 8. |
 | The Low Fen | 185 to 235 | 225 to 275 | Marsh and black water in the south-east. |
@@ -110,11 +110,27 @@ road and about 16 miles off the road.
 |---|---|---|---|
 | Dawnwatch Keep | Brannock's Ford | 1 | A sheep track |
 | Brannock's Ford | Saint Ivo's | 3 | The old road of Ostrey, broken in places |
-| Saint Ivo's | The shrine at Kell | 2 | Off the road |
+| Brannock's Ford | Wenlow | 2 | The old road of Ostrey |
+| Wenlow | Saint Ivo's | 1 | The old road of Ostrey |
+| Dawnwatch Keep | Saint Ivo's | 4 | The sheep track, then the old road through Brannock's Ford |
+| Dawnwatch Keep | Wenlow | 3 | The sheep track, then the old road |
+| Saint Ivo's | The shrine at Kell | 3 | Off the road |
 | Saint Ivo's | Stannard | 3 | A good road, made by Gaunt |
+| Saint Ivo's | Wendle and the border of Gaunt | 2 | A good road, made by Gaunt |
+| Saint Ivo's | Ashby Field | 2 | A good road, made by Gaunt |
+| Wenlow | Ashby Field | 3 | The old road to Saint Ivo's, then the road of Gaunt |
+| Dawnwatch Keep | Ashby Field | 6 | By Wenlow and Saint Ivo's |
 | Saint Ivo's | Corrantey | 5 | The pilgrim road west |
 | Saint Ivo's | Fennick | 4 | Off the road, through the Low Fen |
 | Dawnwatch Keep | Kingsholm | 3 | Off the road: north-west over the Wolds to the Dunn, then up its bank |
+| Kingsholm | Saint Ivo's | 7 | By Dawnwatch Keep |
+
+The roads do not go in straight lines. The old road from Brannock's Ford
+to Saint Ivo's is about 72 miles long (49 miles in a straight line). Wenlow
+is on it, about 20 miles north of Saint Ivo's. The shrine at Kell is about
+43 miles from Saint Ivo's, all off the road. Ashby Field is on the road of
+Gaunt, about 32 miles south of Saint Ivo's, on day 2 of the road to
+Stannard, as the border and Wendle are.
 
 ## The powers of today
 

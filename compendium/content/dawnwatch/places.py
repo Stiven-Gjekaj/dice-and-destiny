@@ -56,7 +56,7 @@ PLACES = [
          now_name="Saint Ivo's",
          summary="A shrine of Ostrey. The town of Saint Ivo's grew around it."),
     dict(name="The shrine at Kell", kind="shrine", x=110, y=205, era="both", chapters=(4,),
-         summary="An old shrine of Ostrey on a hill, two days west of Saint Ivo's."),
+         summary="An old shrine of Ostrey on a hill, three days west of Saint Ivo's."),
 
     # ---- The south ----
     dict(name="Gaunt", kind="region", x=128, y=290, area=(70, 255, 190, 320),

@@ -243,7 +243,7 @@ Cade comes to the cathedral with a book under his arm, out of breath.
 
 Cade knows the facts in "The Hush" at the start of this chapter, except
 for the black stone and the rite. He knows that Kell is an old shrine of
-Ostrey on a hill, two days west, off the road: a ring of standing stones
+Ostrey on a hill, three days west, off the road: a ring of standing stones
 with a chapel inside. Nobody goes there. "The shepherds say the stones are
 cold even in summer."
 
@@ -409,7 +409,7 @@ story of this chapter works the same.
 **Goal:** A short journey with the Journeys rules. The Hush come for the
 stone on the road. The second fight.
 
-Kell is two days west of Saint Ivo's, off the road, in the low hills
+Kell is three days west of Saint Ivo's, about 43 miles, off the road, in the low hills
 between the River Brann and the River Dunn. There is no road. There is a
 sheep track for half a day, and then only the hills.
 
@@ -421,7 +421,8 @@ them. Ask the players to choose their roles and their pace, and go.
 | Day | Where | Navigation DC | Foraging DC | Event |
 |---|---|---|---|---|
 | 1 | The sheep track, then open hills | 12 | 12 | The ambush (at night) |
-| 2 | The high hills, the ring on the skyline | 12 | 12 | Kell |
+| 2 | Open hills and old stone walls | 12 | 12 | None |
+| 3 | The high hills, the ring on the skyline | 12 | 12 | Kell |
 
 The hills use the Hill biome of the Journeys chapter in the Game Master's
 Compendium: its weather table and its encounter table. If the roll gives
@@ -439,7 +440,7 @@ an encounter, use the table there, or use one of these:
 
 > **GM tip:** If the party took horses from the Abbey, it can travel at a
 > Fast pace with no Disadvantage for the guide and the scout on day 1,
-> because the horses know the track. Off the track, on day 2, the horses
+> because the horses know the track. Off the track, on days 2 and 3, the horses
 > are slower than feet on the steep ground. Use the normal rules.
 
 ### The ambush

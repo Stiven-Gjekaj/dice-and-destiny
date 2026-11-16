@@ -171,7 +171,7 @@ Both riders say that the other side started it. Both believe it.
 |---|---|---|
 | Why is there a war? | "The Church burned its own chapel at Wenlow and blamed us. Then it closed the pilgrim road to Gaunt traders." | "Gaunt soldiers burned the chapel at Wenlow. We saw the tabards. Now Gaunt sends an army north." |
 | Who burned the chapel? | "Monks in disguise. Or a mob of their pilgrims." | "Soldiers in grey and steel. Eleven of them, on foot." |
-| Where are the armies? | "At Ashby Field, on the border. Four days to the south." | "At Ashby Field. Ten thousand faithful, the abbess says. Perhaps two thousand." |
+| Where are the armies? | "At Ashby Field, on the border. Six days to the south." | "At Ashby Field. Ten thousand faithful, the abbess says. Perhaps two thousand." |
 | When will they fight? | "When the Marshal decides. Soon." | "When Gaunt attacks. We will not attack first." |
 | What do they want from us? | "To ride with the Marshal. Your banner beside hers." | "To stand with the faithful. Your faces, in the light." |
 
@@ -218,8 +218,8 @@ Whichever road they take, the road passes Wenlow. Go to Scene 2.
 **Goal:** Catch the Hush at work. Give the players the first hard proof
 that a third hand stirs the war.
 
-The village of Wenlow lies two days south of the keep, on the land of the
-Church. Its chapel already burned, ten days ago. But the Hush is thorough.
+The village of Wenlow lies three days south of the keep, on the old road
+between Brannock's Ford and Saint Ivo's, on the land of the Church. Its chapel already burned, ten days ago. But the Hush is thorough.
 Tonight a second band comes to burn the inn, where the people of Wenlow now
 pray, and to leave a few Gaunt badges in the ashes.
 
@@ -319,7 +319,8 @@ Remind the bearer of this. It is useful later.
 **Goal:** Show the scale of the war. Show the place where the battle will
 happen.
 
-Two days after Wenlow, the road comes over a low ridge.
+Three days after Wenlow, by Saint Ivo's and the good road of Gaunt, the
+road comes over a low ridge.
 
 > Below you, the land opens into a long, shallow valley of grass and
 > stone walls. A stream runs down the middle, so small that you could jump

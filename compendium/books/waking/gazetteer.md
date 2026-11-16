@@ -354,11 +354,20 @@ road and about 16 miles off the road.
 |---|---|---|---|
 | Dawnwatch Keep | Brannock's Ford | 1 | A sheep track |
 | Brannock's Ford | Saint Ivo's | 3 | The old road of Ostrey, broken in places |
-| Saint Ivo's | The shrine at Kell | 2 | Off the road |
+| Brannock's Ford | Wenlow | 2 | The old road of Ostrey |
+| Wenlow | Saint Ivo's | 1 | The old road of Ostrey |
+| Dawnwatch Keep | Saint Ivo's | 4 | The sheep track, then the old road through Brannock's Ford |
+| Dawnwatch Keep | Wenlow | 3 | The sheep track, then the old road |
+| Saint Ivo's | The shrine at Kell | 3 | Off the road |
 | Saint Ivo's | Stannard | 3 | A good road, made by Gaunt |
+| Saint Ivo's | Wendle and the border of Gaunt | 2 | A good road, made by Gaunt |
+| Saint Ivo's | Ashby Field | 2 | A good road, made by Gaunt |
+| Wenlow | Ashby Field | 3 | The old road to Saint Ivo's, then the road of Gaunt |
+| Dawnwatch Keep | Ashby Field | 6 | By Wenlow and Saint Ivo's |
 | Saint Ivo's | Corrantey | 5 | The pilgrim road west |
 | Saint Ivo's | Fennick | 4 | Off the road, through the Low Fen |
 | Dawnwatch Keep | Kingsholm | 3 | Off the road, along the Dunn |
+| Kingsholm | Saint Ivo's | 7 | By Dawnwatch Keep |
 
 For a trip that is not on the table, measure it on the map of the land
 and use the miles per day above.
