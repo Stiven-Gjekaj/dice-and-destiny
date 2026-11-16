@@ -23,9 +23,9 @@ than you need my good name.
 His name was Garrath.
 
 Sir Garrath, first knight of the sun. The first of the Dawnwatch. He wrote
-the oath that you swore. The words that I carved over the door of your hall
-are his: *we sleep so that the dawn can wake.* He meant something else by
-them, when he wrote them. We all did.
+the oath that you swore, and the motto of the order: *we watch so that the
+dawn can wake.* I carved his words over the door of your hall, and I
+changed one of them. *We sleep.* He would have hated that.
 
 He was the first to see that the sun was failing. A little weaker each
 winter, a little later each spring. The scholars laughed at him. I laughed

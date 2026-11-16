@@ -119,8 +119,8 @@ M("The Unlit Knight", "M", "Undead", "Lawful Neutral", 12, "22 12 20 14 16 18", 
   res=R(Resistances="Cold, Psychic", Immunities="Necrotic, Poison; " + UNDEAD),
   traits=[legres(2),
           ("Unlit", "Bright Light within 30 feet of the knight becomes Dim Light. Sunlight is not affected."),
-          ("Last Words", "When the knight drops to 0 Hit Points, its armor falls empty, and a voice in it says the oath of the Dawnwatch: "
-                         "\"We sleep so that the dawn can wake.\"")],
+          ("Last Words", "When the knight drops to 0 Hit Points, its armor falls empty, and a voice in it says the old motto of the Dawnwatch: "
+                         "\"We watch so that the dawn can wake.\"")],
   attacks=[("Black Greatsword", "m", "2d10", "Slashing", "plus {2d8} Necrotic damage")], multi=3,
   actions=[("Eclipse (Recharge 5–6)", "Darkness pours out of the knight's visor. Each creature within 30 feet of it makes a {dc:con} Constitution saving throw. "
                                       "On a failed save, the creature takes {8d8} Necrotic damage and can't regain Hit Points until the start of the knight's next turn. "

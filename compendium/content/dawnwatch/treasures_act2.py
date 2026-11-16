@@ -41,7 +41,7 @@ ITEMS = [
  "and you have Advantage on the Wisdom (Medicine) check. Once per dawn, when you tend a Serious injury with it, that injury needs one Long Rest fewer to heal. "
  "The injury still heals with rest and care, so the character still gains its scar."),
 ("The Badge of Sir Garrath", W, "Rare", A,
- "A brass badge in the shape of a rising sun, black with age. It was pinned to the crystal under Kingsholm. It is the badge of the first knight of the Dawnwatch. "
+ "A brass badge of the Dawnwatch, black with age: a half sun on a straight line, with seven rays. It was pinned to the crystal under Kingsholm. It is the badge of the first knight of the Dawnwatch. "
  "While you wear it, you have a +1 bonus to Armor Class and to saving throws. "
  "While you are attuned to it, you sometimes dream of a cold hall and a sun that grows weaker each winter. "
  "A black stone of the crystal of the Unlit King hums when it is within 30 feet of the badge."),

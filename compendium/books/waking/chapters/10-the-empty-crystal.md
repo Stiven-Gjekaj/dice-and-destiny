@@ -267,8 +267,9 @@ king. She came back different. Her eyes are all black now."
 
 Kingsholm was the capital of Ostrey. It stands on both banks of the River
 Dunn, at a bend where the river runs fast and deep. The palace stood on a
-hill on the north bank. Three hundred years of weather, a civil war, and a
-long time with nobody to fix the roofs have made it a ruin. Nobody lives
+hill on the north bank. The city burned in the civil war of the Grey
+Winter, two hundred years ago, and nobody came back to build it again. A
+forest has grown up around it and into it since. Nobody lives
 here now. The people of today say that the place is bad luck, and they are
 right.
 
@@ -277,7 +278,8 @@ right.
 > sun. The light goes grey and then goes out, as if you walk into the
 > evening in the middle of the day.
 >
-> Inside the dome, the city is very quiet. Broken towers. A bridge of white
+> Inside the dome, the city is very quiet. Bare black trees between the
+> walls. Broken towers. A bridge of white
 > stone across a black river. On the hill above it, a palace with no roof,
 > and over the palace the bell towers, with no bells in them. Somewhere,
 > very far away, many people hum one long note.
@@ -311,16 +313,18 @@ which the party usually finds them.
 
 #### K1. The Market of Statues
 
-A wide square on the south bank, full of statues of the knights of the sun.
-Most of them stand, with snow on their shoulders from before the dome came.
-One statue lies face down in the square. Its name was cut off the base with
-a chisel, long ago. Only four letters are left: **...RATH**.
+The old square of the city, on the south bank, with young trees growing
+between its stones. In the middle stands one statue: a knight in the armor
+of the Dawnwatch, taller than life, with a sword point down in front of
+him. Someone cut away the face with a chisel, long ago, and the name on the
+base too. The cuts are neat and careful. Whoever did it took their time.
 
 | Check | DC | Result |
 |---|---|---|
-| Intelligence (History) | 15 | The statue is the oldest in the square, and the base is the biggest. Whoever it was, it was the first knight that the city honored. |
-| Wisdom (Perception) | 13 | Someone put a grey ribbon on the fallen statue's hand. The Hush comes here to pray. |
-| Intelligence (Investigation) | 18 | On the back of the base, under the moss, the chisel missed one word: **GAR**. The rest is gone. |
+| Wisdom (Perception) | 10 | On the breastplate of the statue is the badge of the Dawnwatch: a half sun of gold on a straight line, with seven rays. It is the badge that each character wears. |
+| Intelligence (History) | 15 | The statue is older than the characters' own time in the Dawnwatch. Whoever it was, it was one of the first of the order, and the city honored him above the others. |
+| Wisdom (Perception) | 13 | Someone tied a grey ribbon to the statue's hand. The Hush comes here to pray. |
+| Intelligence (Investigation) | 18 | The chisel marks on the base are the same age as the base. The name was cut away when the statue was new, or very soon after. |
 
 Do not explain the statue. Let the players think about it. It pays off in
 Scene 6.
@@ -809,7 +813,9 @@ flees.
 
 **A way to end it with no fight.** The knight is a watch that never ended.
 A character who stands in front of it, with no weapon in hand, and speaks
-the oath of the Dawnwatch ("We sleep so that the dawn can wake") makes it
+the words of the Dawnwatch (the end of the oath, "I swear to wake the
+dawn", the words over the door, or the old motto, "We watch so that the
+dawn can wake") makes it
 stop for one round. A character who then says the words of the end of a
 watch, in their own words ("Your watch is over. We have it now.") and
 succeeds on a DC 20 Charisma (Persuasion) check makes it kneel. Its armor
@@ -835,8 +841,9 @@ for this.
 >   give the knight 10% more Hit Points (219 in all).
 
 When the knight falls, its armor falls apart, piece by piece, and it is
-empty. From inside the helmet, a voice says: "We sleep so that the dawn can
-wake." It is a man's voice. It is tired. It is kind. The players have never
+empty. From inside the helmet, a voice says: "We watch so that the dawn
+can wake." It is the old motto of the Dawnwatch, the one from before the
+sleep. It is a man's voice. It is tired. It is kind. The players have never
 heard it before. They will hear it again in the last scene.
 
 ---
@@ -854,8 +861,8 @@ When the knight is gone, the party can look at the crystal at last.
 > Only the shape of a man, pressed into the crystal, the way a body leaves
 > its shape in snow.
 >
-> On the lid, someone has pinned a badge. It is brass, black with age, in
-> the shape of a rising sun.
+> On the lid, someone has pinned a badge. It is brass, black with age: a
+> half sun on a straight line, with seven rays.
 >
 > You know that badge. You each wore one. You still do.
 
@@ -1145,7 +1152,8 @@ of Book One.
 >
 > "They put me in the crystal so that I would stop. They put you in the
 > crystal so that you would be there when I woke. Two halls. One spell.
-> One oath. We sleep so that the dawn can wake."
+> One oath. I wrote it: we watch so that the dawn can wake. Old Haskel
+> changed one word, and carved it over your door."
 >
 > The stone is warm in your hand. It has never been warm before.
 >
