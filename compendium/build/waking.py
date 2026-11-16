@@ -350,10 +350,21 @@ def named_in(name, chs):
 
 
 def chapters_line(nums):
+    """The chapters that name an entry, for example "Named in chapters 2, 3, and 9"."""
     if not nums:
         return ""
-    word = "Chapter" if len(nums) == 1 else "Chapters"
-    return f'<div class="named-in">{word} {", ".join(str(n) for n in nums)}</div>'
+    n = [str(x) for x in nums]
+    text = f"chapter {n[0]}" if len(n) == 1 else f"chapters {n[0]} and {n[1]}" if len(n) == 2 else \
+        "chapters " + ", ".join(n[:-1]) + f", and {n[-1]}"
+    return f'<div class="named-in">Named in {text}</div>'
+
+
+AUTHORED_CHAPTERS = re.compile(r"\s*\bChapters?\s+\d+(?:\s*(?:,\s*and|,|and)\s*\d+)*\.?\s*$")
+
+
+def without_chapters(text):
+    """Remove a last sentence such as "Chapters 2 and 3." The build shows the chapters itself."""
+    return AUTHORED_CHAPTERS.sub("", text)
 
 
 def entry_html(e, chs):
@@ -366,9 +377,11 @@ def entry_html(e, chs):
         return f"{head}{_orig_item_html(obj)}{line}</div>"
     if kind == "person":
         role, m = obj
+        role = without_chapters(role) if line else role
         stat = "" if isinstance(m, str) else m.html()
         return f'{head}<h4 class="sp-name">{E(name)}</h4><div class="role">{E(role)}</div>{line}{stat}</div>'
     text = place_text(obj)
+    text = without_chapters(text) if line else text
     return f'{head}<h4 class="sp-name">{E(name)}</h4>{f"<p>{E(text)}</p>" if text else ""}{line}</div>'
 
 

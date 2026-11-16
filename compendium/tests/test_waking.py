@@ -253,7 +253,7 @@ def test_the_appendices_list_each_entry_with_its_chapters():
     assert 'id="c-zzyx-lurker"' in h and 'id="p-old-bren"' in h and 'id="l-brannocks-ford"' in h
     assert "A ferryman" in h and "A village." in h
     bren = h[h.index('id="p-old-bren"'):h.index('id="p-zzyx-smith"')]
-    assert '<div class="named-in">Chapters 1, 3</div>' in bren and 'class="monster"' not in bren
+    assert '<div class="named-in">Named in chapters 1 and 3</div>' in bren and 'class="monster"' not in bren
     smith = h[h.index('id="p-zzyx-smith"'):]
     assert 'class="monster"' in smith and "named-in" not in smith.split("</div></div>")[0]
     assert [(n, main) for n, _, main in W.IDX] == [("Zzyx Lurker", True), ("Old Bren", True), ("Zzyx Smith", True), ("Brannock's Ford", True)]
@@ -397,3 +397,23 @@ def test_the_marker_of_a_handout_is_in_the_box_with_the_page_break():
 
 def test_a_marker_on_two_pages_belongs_to_the_last_one():
     assert W.marks_in_pages(["a @@T1@@ @@I2@@", "@@T1@@ b", "@@I3@@"]) == {"@@T1@@": 2, "@@I2@@": 1, "@@I3@@": 3}
+
+
+def test_the_chapters_line_reads_as_a_sentence():
+    assert W.chapters_line([]) == ""
+    assert ">Named in chapter 9<" in W.chapters_line([9])
+    assert ">Named in chapters 2 and 3<" in W.chapters_line([2, 3])
+    assert ">Named in chapters 2, 3, 5, and 9<" in W.chapters_line([2, 3, 5, 9])
+
+
+def test_an_authored_chapter_sentence_goes_out_when_the_build_shows_the_chapters():
+    assert W.without_chapters('A pedlar who sells bones. Chapters 2 and 3.') == "A pedlar who sells bones."
+    assert W.without_chapters("A priest. Chapters 3, 4, and 9.") == "A priest."
+    assert W.without_chapters("The ferry woman. Chapter 2.") == "The ferry woman."
+    assert W.without_chapters("The keep of Chapter House Ward.") == "The keep of Chapter House Ward."
+    d = dw(npcs=[("A ferryman. Chapters 1 and 3.", "Old Bren"), ("A ghost. Chapter 8.", "Zzyx Nobody")],
+           places=[{"name": "Kell", "summary": "A shrine. Chapter 4."}])
+    h = W.appendices_html(d, CHS + [(4, "ch4", "Kell is far.")])
+    assert ">A ferryman.</div>" in h and "Chapters 1 and 3." not in h
+    assert ">A ghost. Chapter 8.</div>" in h  # no chapter names it, so the authored sentence stays
+    assert "<p>A shrine.</p>" in h and "Named in chapter 4" in h
