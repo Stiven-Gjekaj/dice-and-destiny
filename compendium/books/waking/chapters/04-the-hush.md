@@ -443,7 +443,7 @@ The Hush can feel the stone. On the first night, they know exactly where
 the party camps. Mother Sallow sends Osk to take the stone and bring it to
 her.
 
-If the lookout succeeded, the camp can't be Surprised, and the lookout sees
+If the lookout succeeded, the camp can't be surprised, and the lookout sees
 the grey shapes on the hillside first. If the scout succeeded on day 1,
 the party knows that someone followed them all day. Give the party a round
 to get ready.
@@ -568,7 +568,7 @@ Let the players plan. These are good plans. Each one works.
 
 | Plan | Check | DC | Result |
 |---|---|---|---|
-| Sneak up the west side at night | Dexterity (Stealth), for each character | 12 | On a success for all, the party reaches the ring unseen. Skip the guards at the gap. In Scene 6, the party acts in a surprise round, with the Hush Surprised. |
+| Sneak up the west side at night | Dexterity (Stealth), for each character | 12 | On a success for all, the party reaches the ring unseen. Skip the guards at the gap. In Scene 6, the Hush are surprised: they have Disadvantage on their Initiative rolls. |
 | Free Pell from the tents first | Dexterity (Stealth) | 12 | The three Snuffers at the tents do not see the party. Pell is tied up, gagged, and very glad. He can walk. He cannot fight. |
 | Fight the guards at the gap | None | None | Two Snuffers. A Low fight for level 4. When the fight starts, Mother Sallow knows. She starts the rite at once. |
 | Walk up the path openly, with the stone | None | None | The guards let the party pass. Mother Sallow waits in the chapel. She wants to talk first. See "The talk" in Scene 6. |
