@@ -24,7 +24,7 @@ Master's Compendium.
 ## Get the books
 
 Go to [Releases](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases).
-Each release has four files for each book. Choose the files for what you
+Each release has five files for each book. Choose the files for what you
 want to do:
 
 | Use | File | What it is |
@@ -32,6 +32,7 @@ want to do:
 | Read on a screen | `...-screen.pdf` | Color, with a front cover. The contents link to the chapters, and the bookmarks list the parts and chapters. |
 | Print at home | `...-home-print.pdf` | A4, black and white, with a front page and a blank back. Print it on both sides. The wide inside margin has space for punched holes. |
 | Print a hardcover at Lulu | `...-lulu-interior.pdf` and `...-lulu-cover.pdf` | The interior with no cover, and the wraparound cover for a Lulu A4 casewrap hardcover. Upload the two files to Lulu. |
+| Print a paperback | `...-lulu-interior.pdf` and `...-paperback-cover.pdf` | The same interior, and a full color A4 paperback cover with 3 mm bleed. Check the spine width with the cover template of your printer. |
 
 - A **preview** release comes from each change to the books.
 - An **edition** release is a finished edition.
