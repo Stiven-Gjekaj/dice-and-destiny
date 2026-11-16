@@ -61,7 +61,7 @@ SPELLS = [
 ("Gravebind", 2, "Necromancy", [C, K, W], "Action", "60 feet", "V, S", "1 minute", True, False,
  "Skeletal hands rise beneath a creature. It makes a Strength save or has the Restrained condition and takes 1d8 Necrotic damage at the start of each of its turns. It repeats the save at the end of each turn.",
  "Affect one extra creature per slot level above 2."),
-("Silver Tongue", 2, "Enchantment", [B, K, W], "Action", "Self", "V", "10 minutes", True, False,
+("Honeyed Words", 2, "Enchantment", [B, K, W], "Action", "Self", "V", "10 minutes", True, False,
  "Your voice becomes impossibly persuasive. You have Advantage on Charisma checks, and creatures you speak to can't tell you're lying by nonmagical means.",
  None),
 ("Mirror Ward", 2, "Abjuration", [W, S, C], "Reaction, when you are targeted by a spell attack", "Self", "S", "Instantaneous", False, False,
