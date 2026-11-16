@@ -138,8 +138,8 @@ there.
 > "Riders on the road. Two groups. One from the south, one from the west.
 > They are racing each other."
 >
-> From the wall you see them: four riders in grey and steel, under a black
-> banner with a white gauntlet. Behind them, three riders in white, under a
+> From the wall you see them: four riders in grey and steel, under a red
+> banner with an iron gauntlet. Behind them, three riders in white, under a
 > blue banner with five gold stars. The grey riders reach the gate first.
 > The white riders shout at them. Somebody's horse bites somebody else's
 > horse.
@@ -232,7 +232,7 @@ pray, and to leave a few Gaunt badges in the ashes.
 > pinching each candle.
 >
 > In the dark, someone screams. A torch flares at the door of the inn.
-> In its light you see soldiers in grey and steel tabards, with the white
+> In its light you see soldiers in grey and steel tabards, with the iron
 > gauntlet of Gaunt on their chests. They are nailing the door shut. People
 > are inside.
 
@@ -375,7 +375,7 @@ Find clues.
 
 > The camp of Gaunt is quiet. Soldiers clean armor in rows. Sergeants walk
 > between them and say little. Every tent has the same shape, the same
-> distance from the next one, the same black flag.
+> distance from the next one, the same red flag.
 >
 > In the center is a large tent with its walls rolled up. A woman in plain
 > steel stands over a table with a map. She is about fifty, with grey hair
