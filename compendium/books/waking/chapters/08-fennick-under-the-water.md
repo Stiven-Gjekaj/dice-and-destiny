@@ -414,8 +414,8 @@ fight, and that is the point. It is a lesson, not a threat.
 
 **Tactics:** Maud uses her own techniques to show how they work. In round 1,
 she uses Driving Strike on the first character that she hits, and pushes
-them toward the edge of the planks (not into the water). When a character
-hits her hard, she uses Turn the Blade as a Reaction and says so out loud.
+them toward the edge of the planks (not into the water). When a melee attack
+would hit her, she uses Turn the Blade as a Reaction and says so out loud.
 She uses On Your Feet on her own squad when one of them falls Prone. The
 drowned are slow and clumsy. Two of them hit each other by mistake.
 
@@ -578,7 +578,7 @@ feet, down to the street, 20 feet below.
 |-------|----|--------|
 | Dexterity (Acrobatics) | 12 | The character jumps a gap and lands well. On a failure, the character slips and falls into the street below. It is a slow fall in water, so no damage, but the character is now 20 feet under the surface. |
 | Wisdom (Perception) | 14 | A slate on the roof of the bakery is loose. Under it is a small tin box. In it are 30 GP of old Ostrey coins and a child's tin soldier. |
-| Wisdom (Survival) | 13 | The character finds the best way to the market: along the roof of the long weavers' hall. The party arrives without a sound and has Advantage on Stealth checks there. |
+| Wisdom (Survival) | 13 | The character finds the best way to the market: along the roof of the long weavers' hall. The party arrives without a sound and has Advantage on Dexterity (Stealth) checks there. |
 
 ### F3. The market square
 
@@ -601,7 +601,7 @@ through the market without a fight.
 | Check | DC | Result |
 |-------|----|--------|
 | Charisma (Deception) | 15 | The character plays a buyer and pays with a real coin. The drowned at that stall lets the character pass. A group of three characters who each succeed can cross the market. |
-| Charisma (Persuasion) | 17 | The character talks to the drowned like a neighbor. They listen. They stop. Then one of them reaches out to touch the warm face. The encounter starts with the party in the middle of the square, but the drowned are Surprised. |
+| Charisma (Persuasion) | 17 | The character talks to the drowned like a neighbor. They listen. They stop. Then one of them reaches out to touch the warm face. The encounter starts with the party in the middle of the square, but the drowned are surprised: they have Disadvantage on Initiative. |
 | Dexterity (Stealth) | 14 | The party sneaks around the edge of the square. If all succeed, they reach F4 or F5 with no fight. The swarms in the gutters still smell them (see below). |
 
 If the party fails, or attacks, or simply walks in with light, the fight
@@ -999,7 +999,7 @@ with the Grief begins.
 
 The black stone hums so loud that its bearer feels it in the teeth.
 
-The Hush has drunk potions of water breathing, and the priest wears a grey
+The Hush has drunk Potions of Water Breathing, and the priest wears a grey
 amulet that does the same. They want one thing: to put the candle out. The
 priest needs to use Snuff the Sun with the candle inside the Sphere four
 times, or to hold the candle in her hand for 1 minute. Each time, the candle flickers lower, and the Grief howls.
