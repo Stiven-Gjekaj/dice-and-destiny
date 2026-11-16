@@ -462,8 +462,8 @@ goliaths. See the adventure seeds.
 
 > **Secret (Book Two):** The goliath name is closer to the truth than the
 > word "demon". Garrath tried to take the fire of the sun into himself.
-> The goliaths saw it from the mountains, three hundred years ago, and
-> remembered it in a song.
+> The goliaths saw it from the mountains, more than three hundred years
+> ago, and remembered it in a song.
 
 ### The River Dunn
 
@@ -479,8 +479,9 @@ fishers and trappers live along it. Since the Waking, they say that the
 river runs cold even in summer.
 
 **What the party finds.** The way to Kingsholm. From Dawnwatch Keep, the
-party follows the Dunn for three days, off the road, through forest that
-was farmland. See Kingsholm.
+party goes north-west over the Wolds to the Dunn, then up its bank, for
+three days in all, off the road, through forest that was farmland. See
+Kingsholm.
 
 ### Kingsholm
 
@@ -491,10 +492,10 @@ with the palace on a hill and the great bridge below it. Ten thousand
 people, bells at every hour, and the best pies in the kingdom.
 
 **Now.** Kingsholm burned in the civil war of the Grey Winter, and nobody
-came back. In two hundred years, the forest took the city. Oaks grow in
-the great hall of the palace. The great bridge fell into the Dunn and made
-a ford of white stones. Ivy covers the walls, and the streets are paths
-between mounds of rubble.
+came back. In two hundred years, the forest took the city. Trees grow in
+the streets and in the squares. The great bridge of white stone still
+stands over the Dunn, the last whole thing in the city. Ivy covers the
+walls, and the streets are paths between mounds of rubble.
 
 The land avoids Kingsholm. The stories say that the dead walk there, that
 the old king sits on his throne under the moss, and that anybody who takes
@@ -504,8 +505,8 @@ come back.
 
 What is in the ruins:
 
-- **The palace hill.** The palace is a shell. Its great hall has no roof,
-  and an oak grows in the place of the throne.
+- **The palace hill.** The palace is a shell. Its throne hall has no roof.
+  The old throne still stands in it, cracked down the middle.
 - **The temples of the Morning Flame.** Burned. In one of them, the altar
   bowl is still there, cold, with a ring of stones around it that somebody
   set in the last few years.
@@ -1453,8 +1454,8 @@ the players feel that something is there.
 | 6 | "The wolves came south early this year, and some of them had no eyes." | True. |
 | 7 | "The dwarf gates under the Grey Teeth opened for one night after the black noon." | Partly. A dwarf gate opened. Nobody saw who came out. See the seeds. |
 | 8 | "The River Dunn runs cold in summer now." | True. |
-| 9 | "The old king of Ostrey sits on his throne under the moss and waits for an heir." | False. An oak grows where the throne was. |
-| 10 | "Under the palace hill of Kingsholm is a door that no army could open." | True. Chapter 10. |
+| 9 | "The old king of Ostrey sits on his throne under the moss and waits for an heir." | False. The throne is still there, cracked and empty. |
+| 10 | "Under the palace hill of Kingsholm is a door that no army could open." | Partly. The door is real, but it is not locked. Chapter 10. |
 
 ## Encounters on the Road
 
@@ -1547,7 +1548,7 @@ or a chase.
 | 4 | Scavengers (no fight) | Three tired people with a cart of lead from Kingsholm. They warn the party about the grey folk. |
 | 5 | Weeping Shade (2) or Hungry Shadow (1) | Near the ruins of Kingsholm. More of them since the black noon. |
 | 6 | Wolf of the Long Winter (4) | Down from the Grey Teeth, in the snow. |
-| 7 | Bridge Troll (5) | At the ford of white stones, where the great bridge of Kingsholm fell. |
+| 7 | Bridge Troll (5) | Under the great white bridge of Kingsholm. |
 | 8 | Hush Lightless (4) with Hush Snuffers (1/2) | A patrol of the Hush around Kingsholm, with no lights. |
 
 ## Adventure Seeds
