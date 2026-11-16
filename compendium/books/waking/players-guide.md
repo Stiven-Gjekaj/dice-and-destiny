@@ -53,7 +53,7 @@ night the crystal closed.*
 
 ### How big it is
 
-> From the sea to the eastern fens is about eighty leagues, which is two
+> From the sea to the eastern border is about eighty leagues, which is two
 > hundred and forty miles. From the Grey Teeth to the bottom of the March
 > is more. A rider on the king's road makes the trip from Kingsholm to the
 > south in a week if the horse is good and the rain is not. A shepherd
@@ -120,21 +120,22 @@ night the crystal closed.*
 
 > The River Brann starts in the Wolds, below the keep. It is a small,
 > friendly river. It has fords where a cart can cross in summer. It runs
-> south and gets lazy and wide, and at the end it spreads out into the
-> Low Fen: a flat green country of reeds and water and long dikes of
-> earth that keep the sea of mud out of the fields.
+> south and gets lazy and wide, through the flattest, richest farmland in
+> Ostrey: long straight fields of barley and beans, with ditches between
+> them and dikes of earth along the river to keep the spring floods out.
 
 ### Fennick
 
-> The town of the Low Fen. It stands on a rise in the marsh, with dikes
-> all around it and a church with a tall square tower that you can see
-> from a day away. The people of Fennick catch eels, cut reeds, and grow
-> barley on land that was water a hundred years ago. They are proud of
-> their dikes. They talk about their dikes a lot. Do not ask about the
-> dikes unless you have an afternoon.
+> The market town of the south-east, in the low farmland by the Brann. It
+> stands on a small rise, with dikes all around it and a church with a
+> tall square tower that you can see from a day away. The people of
+> Fennick grow the best barley in Ostrey, brew the best ale, and catch
+> eels in the ditches. They are proud of their dikes. They talk about
+> their dikes a lot. Do not ask about the dikes unless you have an
+> afternoon.
 >
 > Fennick sent good soldiers to the war. Fen folk are stubborn. They do
-> not run, because there is nowhere dry to run to.
+> not run, because the ground is too flat to hide on.
 
 ### The Shrine at Kell
 
@@ -157,22 +158,23 @@ night the crystal closed.*
 > It is a quiet place. A very quiet place. You could go there for a rest
 > and nothing would ever happen to you. I like that in a place.
 
-### Ashby Field
+### The Field of the Five
 
-> Open land on the road south of Saint Ivo's shrine, where the hills stop
-> and the March starts. Grass and wind and nothing else. In the war, the
-> army of the king stopped the hounds of the Unlit King on Ashby Field,
-> in the snow, at dawn. The Dawnwatch held the center. Some of you were
+> On the road south of Saint Ivo's shrine, where the hills stop and the
+> March starts, there is open land. Grass and wind and nothing else. In
+> the war, the army of the king stopped the hounds of the Unlit King
+> there, in the snow, at dawn. People call it the Field of the Five now,
+> after the song. The Dawnwatch held the center. Some of you were
 > there. You will remember it better than I do. I only know the song.
 
-### The March of Gauntry and Stannard
+### The March of Gauntry
 
 > The March is the south border of Ostrey: the hard country, with the
 > long walls and the watchtowers. The Gauntry family holds it for the
 > king. They are soldiers, all of them, the grandmothers too. They ride
 > well, they fight well, and they tell you about it at dinner.
 >
-> Their seat is Stannard, a fortress-town on a rock above the road. The
+> Their seat is a fortress on a rock above the south road. The
 > Gauntrys are loyal to the crown. They say so often. Some people at court
 > think they say it a little too often. The steward says that a loyal
 > sword is still a sword.
@@ -252,8 +254,9 @@ night the crystal closed.*
 ### Work and Food
 
 > Most people in Ostrey work the land. In the Wolds, they keep sheep. In
-> the river valleys, they grow barley, oats, and beans. In the fens, they
-> catch eels. On the coast, they catch fish and argue about fish. In the
+> the river valleys, they grow barley, oats, and beans. By the Brann,
+> they catch eels in the ditches. On the coast, they catch fish and argue
+> about fish. In the
 > towns, they make cloth, pots, barrels, nails, candles, and lanterns.
 > Lantern makers are the most important craft. I may be a little proud
 > about that.
@@ -272,7 +275,7 @@ night the crystal closed.*
 > from the other side.
 >
 > The king's road goes from Kingsholm south through the Wolds, past Saint
-> Ivo's shrine, to Stannard. It is paved with stone. Other roads are mud.
+> Ivo's shrine, to the March. It is paved with stone. Other roads are mud.
 > In the war, soldiers guarded the roads. Before the war, everybody did,
 > because of wolves.
 
@@ -299,7 +302,7 @@ night the crystal closed.*
 ### Songs and Stories
 
 > Everybody in Ostrey knows "The Five at the Gate", a song about the
-> Dawnwatch at Ashby Field. It has nine verses and the fifth verse is
+> Dawnwatch at the Field of the Five. It has nine verses and the fifth verse is
 > wrong, because the man who wrote it was not there. You were there. You
 > can tell him. Well. You could have.
 >
@@ -414,7 +417,7 @@ night the crystal closed.*
 >
 > The Dawnwatch fought in every year of the war. The knights held the
 > bridge at Kingsholm when the shadows came over the ice. They carried the
-> Dawnfire through the snow to Ashby Field. They went into the dark of
+> Dawnfire through the snow to the Field of the Five. They went into the dark of
 > the north, again and again, and came back with fewer each time.
 
 ### How It Ended
@@ -545,9 +548,9 @@ night the crystal closed.*
 | Ostrey | The kingdom, from the Grey Teeth to the March. |
 | Kingsholm | The capital, on the River Dunn. |
 | The Wolds | The sheep hills east of Kingsholm. Dawnwatch Keep is there. |
-| The March | The south border, held by the Gauntry family from Stannard. |
+| The March | The south border, held by the Gauntry family. |
 | Corrin and Tey | The two port towns on the west coast. |
-| The Low Fen | The marsh country of the south-east. Fennick is its town. |
+| Fennick | The market town of the low farmland in the south-east. |
 | The Morning Flame | The god of the dawn. |
 | The Dawnfire | The holy flame of Ostrey. It burns over the sleepers. |
 | The Longest Night | The winter vigil, when nobody sleeps until the dawn. |

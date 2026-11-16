@@ -172,19 +172,21 @@ the Dawnwatch know it. Each writer uses them.
   The Dawnwatch marched at night and arrived at dawn.
 - **The Dawnfire in the war:** it went in front of the army in a bronze
   bowl on a wagon. After the war, it burned in the chapel of the keep.
-- **Ashby Field:** the army of the king stopped the hounds of the Unlit
-  King there, in the snow, at dawn. The song "The Five at the Gate" tells
-  of it.
+- **The Field of the Five:** the old name of Ashby Field. The army of the
+  king stopped the hounds of the Unlit King there, in the snow, at dawn.
+  The song "The Five at the Gate" tells of it. The old map does not show
+  it.
 - **Saint Ivo:** a healer of the Morning Flame. He stayed with the sick in
   a hard winter and did not catch the sickness. His shrine was a chapel,
   a well, and a guesthouse.
 - **The shrine at Kell:** a ring of standing stones with a small chapel
   inside it.
-- **Fennick:** a town on a rise in the Low Fen, with dikes and a church
-  with a square tower.
+- **Fennick:** a market town on a small rise in the farmland by the
+  Brann, with dikes and a church with a square tower.
 - **Corrin and Tey:** two rival port towns, about a mile apart.
 - **The March of Gauntry:** the south border. The Gauntry family held it
-  for the king from Stannard.
+  for the king from a fortress on a rock above the south road. Stannard
+  grew around that fortress later.
 - **The homes of the pregens:** the Shield is a human soldier of Ostrey.
   The Light came from the dwarf holds under the Grey Teeth. The Spark is
   an elf scholar. The Shadow was a thief in Kingsholm. The Storm was a
