@@ -55,9 +55,9 @@ MAPS = {
         title="The Wolds and Saint Ivo's", sub="Book One, chapters 2 to 5",
         title_at="ne", tools_at="se", capital=None, label_at={}),
     "act-2": dict(
-        era="now", size="page", bounds=(0, 104, 240, 312), scale_miles=50, ticks=20,
+        era="now", size="half", bounds=(0, 112, 240, 296), scale_miles=50, ticks=20,
         title="The South", sub="Book One, chapters 5 to 10",
-        title_at="ne", tools_at="se", capital=None, label_at={}, legend_at=(30, 262)),
+        title_at="ne", tools_at="se", capital=None, label_at={"The Low Fen": (210, 236)}),
 }
 
 MAP_IDS = list(MAPS)
@@ -482,7 +482,7 @@ class _Map:
             y = self.Y(p["area"][3]) + s * 1.1
         # Try the centre first, then move up and down in steps of one line.
         tries = [(0, dy) for dy in (0, -1.5, 1.5, -3, 3, -4.5, 4.5)]
-        tries += [(sx * (w / 2 + 2), dy) for dy in (0, -1.5, 1.5) for sx in (1, -1)]
+        tries += [(sx * (w / 2 + 2), dy) for dy in (0, -1.5, 1.5, -3, 3, 4.5) for sx in (1, -1)]
         for dx, dy in tries:
             xx, yy = x + dx, y + dy * s
             box = (xx - w / 2 - .5, yy - s * .8, xx + w / 2 + .5, yy + s * .3)
