@@ -2,7 +2,12 @@ import sys
 from playwright.sync_api import sync_playwright
 f = sys.argv[1]
 with sync_playwright() as p:
-    b = p.chromium.launch(args=["--no-sandbox"])
+    try:
+        b = p.chromium.launch(args=["--no-sandbox"])
+    except Exception:
+        # In the cloud container, the pip Playwright and the installed browser can differ.
+        # Then use the browser that the container provides.
+        b = p.chromium.launch(args=["--no-sandbox"], executable_path="/opt/pw-browsers/chromium")
     pg = b.new_page(viewport={"width": 650, "height": 1000})
     pg.goto(f"file://{__import__("os").path.abspath(f)}")
     pg.emulate_media(media="print")
