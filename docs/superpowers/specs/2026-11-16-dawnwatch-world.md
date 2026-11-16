@@ -179,6 +179,11 @@ The gazetteer sets these facts. Each writer uses them.
 - **The statue in Kingsholm:** a knight in the armor of the Dawnwatch in
   the old square, with the face and the name cut away. It was Garrath.
   Orme had them cut. Chapter 10.
+- **The door of the vault under Kingsholm** opens only for the Dawnwatch.
+  The badge of the order opens it, and so does the black stone. The Hush
+  cannot open it. This is why the Hush needs the party and the stone in
+  Kingsholm (chapter 10). Mother Sallow drank the dark that seeps out under
+  the shut door.
 - **The mark of Haskel Orme:** a small sun inside a square. The
   Lampwrights put it on every lamp. It is on Wick.
 - **The council of Corrantey:** twelve guild masters, one seat each, at a

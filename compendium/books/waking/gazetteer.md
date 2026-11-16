@@ -1346,6 +1346,11 @@ fights to keep the Ember. From chapter 7, it fights to kill.
 > can the Hush, within a mile. A character who carries the stone is a
 > lamp in the dark for both of them.
 
+> **Secret (chapter 10):** The door of the vault under the palace hill
+> opens only for the Dawnwatch: the badge of the order or the black stone
+> opens it. The Hush cannot open it. This is why the Hush needs the party
+> and the stone in Kingsholm.
+
 > **Secret (chapter 10):** The Hush is in Kingsholm at the end of Book
 > One. The party breaks it there and defeats Mother Sallow. To the end,
 > she believes that the dawn will come again, and she is right, in a way
@@ -1458,7 +1463,7 @@ the players feel that something is there.
 | 7 | "The dwarf gates under the Grey Teeth opened for one night after the black noon." | Partly. A dwarf gate opened. Nobody saw who came out. See the seeds. |
 | 8 | "The River Dunn runs cold in summer now." | True. |
 | 9 | "The old king of Ostrey sits on his throne under the moss and waits for an heir." | False. The throne is still there, cracked and empty. |
-| 10 | "Under the palace hill of Kingsholm is a door that no army could open." | Partly. The door is real, but it is not locked. Chapter 10. |
+| 10 | "Under the palace hill of Kingsholm is a door that no army could open." | True. The door opens only for the Dawnwatch: the badge of the order or the black stone opens it. Chapter 10. |
 
 ## Encounters on the Road
 

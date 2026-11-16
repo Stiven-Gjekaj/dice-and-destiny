@@ -60,9 +60,16 @@ thinks that the vault under Kingsholm is a door: if the cult puts out a
 piece of the Dawnfire on the crystal, the king will hear, and the Long
 Night will come early, and the sun will go out and burn again, new.
 
-Mother Sallow has gone further than her followers know. She went down into
-the vault and drank the dark that the sleeper left in the crystal. It made
-her strong. It is also killing her. In this chapter she is **Mother Sallow,
+The door of the vault opens only for the Dawnwatch. The badge of the order
+opens it, and so does the black stone, which is a piece of the same spell.
+The Hush has neither. Its picks and its prayers did nothing to the door.
+This is why the Hush needs the party, and the stone, in Kingsholm: the
+Dawnwatch must open the door for the rite.
+
+Mother Sallow has gone further than her followers know. She went down the
+Stair of Bells and knelt at the shut door of the vault. The dark that the
+sleeper left in the crystal seeps out under that door like a cold breath,
+and she drank it. It made her strong. It is also killing her. In this chapter she is **Mother Sallow,
 Unbound**, a stronger form of the leader of the Hush.
 
 The rite is on the shortest day of the year. On that day, the Hush puts out
@@ -526,8 +533,9 @@ Use some of these lines, or all of them:
 - "There was one man who tried to do something about it. Only one. Ostrey
   called him a demon for it, and put him in a box under this hill."
 - "He was a man once. Did you know that? A knight. They don't teach that in
-  the songs." She smiles. "I went down to see him. The box is empty. I
-  drank what he left behind. It is cold, and it is very strong."
+  the songs." She smiles. "I went down to see him. His door would not open
+  for me. It opens for you. But his breath comes out under it, and I drank
+  what he left behind. It is cold, and it is very strong."
 - "A fire that goes out can be lit again. A fire that burns down to nothing
   cannot. Let it go out. Let him light it again. That is all the Hush has
   ever wanted."
@@ -773,7 +781,12 @@ tutorial. Wick knows them too.
 | Intelligence (History) | 13 | Halls like this were made for the Dawnwatch, and only for the Dawnwatch. Nobody else in Ostrey slept in crystal. |
 | Wisdom (Insight), about Wick | 10 | Wick is not only scared. He is starting to understand something, and he does not want to. |
 
-The door is not locked. It opens at a push. Beyond it is the vault.
+The door has no lock and no handle. It opens only for the Dawnwatch. When
+a character who wears the badge of the Dawnwatch, or who carries the black
+stone, touches it, the carved roots glow gold for a moment, and the door
+swings open. For anyone else, it is a wall of stone. Fresh marks of picks
+scar the stone at its foot: the Hush tried, and failed. Beyond the door is
+the vault.
 
 ### The vault
 
