@@ -449,8 +449,8 @@ them, but he thinks that they might be useful.
 > "Someone is selling real bones at the feast," says Cade. "Human bones.
 > Old ones. Not from the hill in the north. From under my feet." He
 > points at the floor. "Our ossuary is under the cathedral, around the old
-> shrine. The deep part has been closed since the Grey Winter. Something
-> is going in and out of it. I want to know what. And I want it stopped."
+> shrine. The deep part is older than the Church: an old crypt of Ostrey.
+> We found it, and we sealed it. Something is going in and out of it. I want to know what. And I want it stopped."
 >
 > He looks at you. "If you are the Sleepers, the old shrine was your
 > shrine. You know the way. Show me."
@@ -539,13 +539,15 @@ chapter 2, Cade has questions about that too.
 ### The map of the old shrine
 
 The old shrine of Saint Ivo is under the floor of the cathedral. The
-Church built the cathedral over it, and dug an ossuary around it, to keep
-the bones of the faithful near the saint. It has four parts.
+Church built the cathedral over it. Around the shrine lies an old crypt of
+Ostrey. The Church found the crypt and made its upper galleries into an
+ossuary, to keep the bones of the faithful near the saint. It has four
+parts.
 
 | Area | What it is |
 |---|---|
 | **1. The bone galleries** | Long passages with walls made of skulls and bones, stacked neatly. Candles in niches. The Church still uses this part. |
-| **2. The deep ossuary** | Older galleries, closed by an iron gate since the Grey Winter. Dace found a way in. So did something else. |
+| **2. The deep ossuary** | The deep galleries of the old crypt of Ostrey. People hid here in the Grey Winter. The Church found them later and sealed them with an iron gate. Dace found a way in. So did something else. |
 | **3. The well of Saint Ivo** | A round room around the old well. The well goes down to water, 60 feet below. |
 | **4. The old chapel** | The chapel of the shrine, as it was three hundred years ago. Closed with a door of stone. Two guards of Ostrey stand at the door. |
 
@@ -578,8 +580,9 @@ feet, with long nails.
 > summer. The town hid down here from the cold. Not all of them came up."
 
 **The truth:** In the Grey Winter, the starving people of the shrine hid in
-the ossuary. Some of them ate the dead. They became ghouls. The Church
-sealed the deep ossuary and forgot them. They sleep in the dark, and they
+the old crypt. Some of them ate the dead. They became ghouls. Years later,
+the Church found the crypt, saw what was in it, sealed it with an iron
+gate, and forgot them. They sleep in the dark, and they
 wake when something warm comes near. Dace came near.
 
 > **GM tip:** This scene is dark in tone. Keep it short and spooky, not
@@ -677,8 +680,9 @@ the sun on their breastplates and halberds in their hands. They have stood
 here for three hundred years. Nobody is inside the armor.
 
 > Cade stops at a safe distance. "The guards of the shrine," he says. "They
-> were here before the Church. Nobody has opened this door in two hundred
-> years. When anyone comes near, they speak in the old tongue, and when
+> were here before the Church. The Church took the Ember out of the
+> chapel about a hundred and fifty years ago and sealed the door. Nobody
+> has opened it since. When anyone comes near, they speak in the old tongue, and when
 > nobody understands, they push them back. We gave up asking."
 >
 > As you come near, the two helmets turn, together, with a sound of old
@@ -709,17 +713,17 @@ answer.
 
 ### Inside the old chapel
 
-> The chapel is small and plain, and nothing in it has moved in two
-> hundred years. Four benches. A bowl of stone on a low altar, black inside
+> The chapel is small and plain, and nothing in it has moved in a hundred
+> and fifty years. Four benches. A bowl of stone on a low altar, black inside
 > with old soot. A shelf of books. On the wall, a faded painting of the
 > Morning Flame, in red and gold.
 >
 > It is exactly as you remember it. Except for the dust. Except for
 > everything.
 
-- **The bowl on the altar** is where the Ember of Saint Ivo burned for
-  two hundred years, before the Church moved it upstairs, into the
-  cathedral. A character who makes a DC 12 Intelligence (Religion) check
+- **The bowl on the altar** is where the Ember of Saint Ivo burned until
+  about year 150. Then the Church moved it upstairs, into the cathedral,
+  and sealed the chapel. A character who makes a DC 12 Intelligence (Religion) check
   understands: the shrine kept a piece of a holy fire, given by the king.
   The Dawnwatch remember a coal in this bowl. Nobody told them what it
   was.

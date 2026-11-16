@@ -219,7 +219,7 @@ The gazetteer sets these facts. Each writer uses them.
   Hall of the Lampwrights, and the Council House on the bridge between the
   two halves. In Stannard, the Marshal's Hall, the College of War, and the
   Gate of the Five. In Saint Ivo's, the Church of the Five with five
-  towers, and the old chapel of Saint Ivo inside it.
+  towers, and the sealed old chapel of Saint Ivo under it.
 - **The goliath name for the Unlit King:** "the one who ate the fire". A
   hint for chapter 10.
 - **Kell** had its own piece of the Dawnfire after the war. It went out in
@@ -238,6 +238,12 @@ The gazetteer sets these facts. Each writer uses them.
   days, and ends with the Waking Service, when the Abbess carries the
   Ember out to the people. Pell's Players perform in the Players' Yard of
   the inn called the Lamb and Lantern.
+- **Under Saint Ivo's:** around the old shrine lies an old crypt of
+  Ostrey. In the Grey Winter, people hid in it, and some became ghouls.
+  The Church found the crypt later, made its upper galleries an ossuary,
+  and sealed the deep part. The Ember burned in the bowl of the old chapel
+  until about year 150. Then the Church moved it up to the high altar and
+  sealed the chapel. Nobody opened the chapel again until chapter 3.
 - **The Ember glows:** for two hundred years, the Ember was a dull red
   coal. On the night that the Dawnwatch woke, it started to burn gold
   (chapter 3).

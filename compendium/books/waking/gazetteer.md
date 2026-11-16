@@ -726,11 +726,13 @@ pilgrims, then the market, then everybody else. A low wall goes around it
 all.
 
 - **The Church of the Five.** A great church of yellow stone with five
-  towers, one for each Sleeper. Inside, the old chapel of Saint Ivo stands
-  in the middle like a toy in a box. The windows of colored glass tell the
+  towers, one for each Sleeper. Under its floor, the old chapel of Saint
+  Ivo lies sealed. The Church closed it about 150 years ago, and nobody
+  has opened it since. The windows of colored glass tell the
   story of the Long War and the Five. They are about a hundred years old.
-- **The Ember of Saint Ivo.** In a case of gold and glass on the altar of
-  the old chapel is the holiest relic of the Church: a small coal that
+- **The Ember of Saint Ivo.** In a case of gold and glass on the high
+  altar is the holiest relic of the Church. The Church moved it up out of
+  the old chapel about 150 years ago. It is a small coal that
   never goes cold. The Church does not know what it is. It knows that it
   is holy, and that it is very old.
 - **The well of Saint Ivo.** Still there, in a courtyard of the church.
