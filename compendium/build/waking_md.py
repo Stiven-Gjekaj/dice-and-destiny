@@ -5,7 +5,7 @@ The Markdown is the Markdown of the tutorial adventure:
   ##  a scene, ###  a part of a scene
   >   a block quote is read-aloud text
   > **Label:** a block quote that starts with a bold label is a box for the GM.
-      The labels are "GM tip", "Teach", "Thread (...)", and "Scaling".
+      The labels are "GM tip", "Teach", "Thread (...)", "Scaling", and "Secret (chapter N)".
 
 A directive is a line with only the directive on it:
   {{statblock: Name}}   {{treasure: Name}}   {{map: id}}   {{handout: NN-name}}
@@ -22,8 +22,8 @@ DIRECTIVE = re.compile(r"^[ \t]*\{\{\s*(statblock|treasure|map|handout)\s*:\s*(.
 TOKEN = "WAKINGDIRECTIVE{}X"
 # A link to another Markdown file or to an anchor does not work in a book. Keep the text only.
 LOCAL_LINK = re.compile(r"\[([^\]]+)\]\((?!https?:|mailto:)[^)]*\)")
-GM_LABEL = re.compile(r"<blockquote>\s*<p>\s*<strong>\s*(GM tip|Teach|Thread \(|Scaling)")
-GM_KIND = {"GM tip": "tip", "Teach": "teach", "Thread (": "thread", "Scaling": "scaling"}
+GM_LABEL = re.compile(r"<blockquote>\s*<p>\s*<strong>\s*(GM tip|Teach|Thread \(|Scaling|Secret \()")
+GM_KIND = {"GM tip": "tip", "Teach": "teach", "Thread (": "thread", "Scaling": "scaling", "Secret (": "secret"}
 
 
 def slug(text):

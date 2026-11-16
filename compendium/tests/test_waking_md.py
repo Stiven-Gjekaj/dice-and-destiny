@@ -9,7 +9,8 @@ def test_a_plain_block_quote_is_read_aloud():
 
 
 def test_each_label_makes_its_own_gm_box():
-    cases = {"GM tip": "gm-tip", "Teach": "gm-teach", "Thread (the Shadow)": "gm-thread", "Scaling": "gm-scaling"}
+    cases = {"GM tip": "gm-tip", "Teach": "gm-teach", "Thread (the Shadow)": "gm-thread", "Scaling": "gm-scaling",
+             "Secret (chapter 7)": "gm-secret"}
     for label, cls in cases.items():
         h = wm.render(f"> **{label}:** Some text.\n", {})
         assert f'<blockquote class="gm-box {cls}">' in h, label
@@ -89,3 +90,7 @@ def test_drop_section_removes_only_that_section():
 def test_slug():
     assert wm.slug("Brannock's Ford") == "brannocks-ford"
     assert wm.slug("<b>Saint</b> Ivo&#39;s") == "saint-ivos"
+
+
+def test_the_word_secret_with_no_chapter_is_not_a_secret_box():
+    assert '<blockquote class="read-aloud">' in wm.render("> **Secret** door!\n", {})

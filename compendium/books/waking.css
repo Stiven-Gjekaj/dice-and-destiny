@@ -22,6 +22,8 @@ blockquote.gm-box > p:first-child > strong:first-child {
 blockquote.gm-teach { border-left-color: var(--red); }
 blockquote.gm-thread { border-left-style: double; border-left-width: 4pt; }
 blockquote.gm-scaling { border-left-style: dashed; }
+/* A secret: a fact that a later chapter shows. A full frame marks it, so the GM does not read it aloud. */
+blockquote.gm-secret { background: var(--paper); border: 1pt dashed var(--red); border-left: 4pt solid var(--red); }
 
 /* A statblock or a treasure inside a chapter. */
 .inline-stat { margin: 3mm 0; padding: 0 3mm 1mm; border: .6pt solid var(--line); font-size: 8.6pt; break-inside: avoid; }
