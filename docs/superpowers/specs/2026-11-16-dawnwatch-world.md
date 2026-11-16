@@ -345,6 +345,11 @@ tells which lane owns the creature.
 | Mask of the Fifth Sleeper | A painted mask from the play of the troupe of Garret Pell. The unique item of chapter 3. Uncommon. | 3 |
 | Kell Warden's Shield | A shield of oak and bronze from the shrine at Kell. The unique item of chapter 4. Uncommon. | 4 |
 | Gauntry War Banner | The red banner with the iron gauntlet of the house of Gauntry. The unique item of chapter 5. Rare. | 5 |
-| The First Lamp | A piece of the Dawnfire. A lamp with a flame that needs no oil. | 6 |
-| The piece in Fennick | A piece of the Dawnfire, under the water, in the old church of Fennick. | 8 |
+| The First Lamp | A piece of the Dawnfire. A lamp with a flame that needs no oil. Very Rare (`treasures_act2.py`). | 6 |
+| The Fennick Candle (the piece in Fennick) | A piece of the Dawnfire, under the water, in the old church of Fennick. A candle that burns under water. Very Rare (`treasures_act2.py`). | 8 |
+| Storm Lantern of Corrantey | The unique item of chapter 6. The Lampwrights make it from the materials of the party. Rare. | 6 |
+| The Dawn Banner | The unique item of chapter 7. The last war banner of the Dawnwatch, in the keep. Rare. | 7, 9 |
+| Maud Kettle's Whistle | The unique item of chapter 8. The drill whistle of Sergeant Maud Kettle. Uncommon. | 8 |
+| The Bonesetter's Needle | The unique item of chapter 9. A healer's needle from the field of Ashby. Uncommon. | 9 |
+| The Badge of Sir Garrath | The unique item of chapter 10. The badge of the first Dawnwatch, on the empty crystal. Rare. | 10 |
 | The letters of Haskel Orme | Handouts. They show the lie, step by step. | 7, 10 |
