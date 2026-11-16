@@ -55,7 +55,7 @@ Original spells now: 191.
 | 3 | Bond of the Wild | D, R | Animal Friendship plus beast senses |
 | 3 | Spirit Shield | C, P | Shield for an ally (3d8 + mod temp HP) |
 | 4 | Black Flame | K, S, W | Fire damage over time (6d6, then 2d6 each turn) |
-| 4 | Binding Roots | D, R | Grasping Vine / Hold Monster for Restrained (2d8 each turn) |
+| 4 | Binding Roots | D, R | Entangle at level 4 / Hold Monster for Restrained (2d8 each turn) |
 | 4 | Oasis | D, C, R | Create or Destroy Water plus a short rest place (ritual) |
 | 5 | Body Swap | B, K, W | Magic Jar for willing Humanoids (no spells) |
 | 5 | Cleansing Fire | C, P | Flame Strike (6d8 Radiant, enemies only) |
