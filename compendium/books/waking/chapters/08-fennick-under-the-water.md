@@ -760,3 +760,170 @@ cleans the spears. They are clean. They are also two hundred years old.
 > her post." If the party goes to Lantern Row (F6), they find the house of
 > the Storm thread. Next door is a house with a small blue door and three
 > cups on the table. Let the players decide what to do with that.
+
+### F6. The house on Lantern Row
+
+> Lantern Row is a short street of tall, narrow houses near the church. The
+> houses are painted, or they were: blue, yellow, red. Now they are all the
+> same green. On each door is a small iron lantern, the sign of the street.
+> All of them are dark. One house is bigger than the others, with a carved
+> door, and the door is shut.
+
+This is the house of the Storm thread. Ostrey paid each family of a sleeper
+when the Dawnwatch went into the crystal. The price that the Storm asked
+for was a house in Fennick, for the people that the Storm cared about. Use
+the answer of the player to tell what is here.
+
+> **Thread (the Storm):** In the tutorial, the player of the Storm answered
+> the "Before" question: "You did not want to go into the crystal. Why did
+> you agree at the end?" The answer is here, in Fennick. Use what the
+> player said. Choose one of these, or mix them.
+>
+> - **A house.** The Storm agreed to sleep because Ostrey promised to look
+>   after someone: a sibling, a child, an old friend, a whole family. That
+>   promise was this house. Over the door is carved the name of the family
+>   and a small sun, the sign of a Dawnwatch family. Inside, the table is
+>   still laid. On the wall is a painting, faded and green, of the person
+>   that the Storm cared about, and beside it a younger person who has the
+>   same eyes. The family lived. They had children. Then the water came.
+> - **A letter.** In a jar sealed with wax, on the shelf over the fire, is
+>   a letter. The person that the Storm agreed to sleep for wrote it forty
+>   years after the sleep, as an old person. "You will wake one day, and I
+>   will not be here. I want you to know that it worked. We had a good
+>   life. You gave us that." The jar has a stamp of the Lampwrights on its
+>   lid. They kept the letters of the Dawnwatch families and sent them to
+>   the shrines.
+> - **A grave.** The graveyard (F8) has a stone with the name of the
+>   person. It is not a stone of the flood. It is older. The person died
+>   long before the flood, old, in bed. On the stone: "Who waited, and was
+>   not sorry."
+> - **A child of the family.** On the roll of the squad (F5), one of the
+>   six lost names has the family name of the person. A descendant of the
+>   person stood in the watch of Fennick, and died with Maud. Maud
+>   remembers them. "Good soldier. Too brave. Always the first on the
+>   wall." If the party can calm the Grief (Scene 5), the Storm hears that
+>   name in its hundred voices, and it is quiet.
+>
+> Give the player a real moment here. Let them say what the character does.
+> If the player is happy, give that player Heroic Inspiration.
+
+**Treasure:** If the house is the house of the Storm's family, a chest under
+the stairs holds the old family savings: 250 GP in old coins, a silver
+brooch with a small sun (worth 50 GP), and a pair of Boots of the
+Winterlands that the family kept "for when you come back". The Storm
+traveled the high passes. The family remembered.
+
+### F7. The sluice gate
+
+> The great dike rises out of the water on the east side of the town. Here,
+> against its inner wall, stands the sluice house: a square tower of stone
+> with three iron gates in its base. The gates are open. They have been
+> open for two hundred years. Black water moves through them slowly, in
+> and out with the fen. Above, half out of the water, an iron wheel as big
+> as a cart stands on a stone platform. Rust covers it like red moss.
+
+The wheel works the gates. With the gates open, the water inside the dike is
+as high as the fen outside. If the party closes two of the gates and opens
+the drain gate under the church, the water in the church drops by 10 feet.
+That makes the fight in Scene 5 much easier (see there).
+
+Things in the sluice house have lived here a long time, and they do not want
+the wheel to turn.
+
+### Encounter: The Sluice Gate (Moderate)
+
+**Creatures:** Two Chuuls and two Giant Crocodiles. With Techniques on, add
+one more Chuul.
+
+- The crocodiles lie on the platform under the wheel, half out of the
+  water. They look like logs. They are not.
+- The chuuls live in the dark tunnel of the drain under the platform. They
+  come out when anything touches the wheel, or when a creature swims in
+  the current near the gates.
+
+**XP:** for 4 characters at level 8, the Moderate budget is 1,700 × 4 =
+6,800 XP. Two Chuuls (2 × 1,100 = 2,200) and two Giant Crocodiles (2 ×
+1,800 = 3,600) make 5,800 XP. With Techniques on, add one Chuul (1,100).
+Total: 6,900 XP. A Moderate fight.
+
+**Terrain and hazards:**
+
+- **The current.** Near the open gates, the water pulls. A creature that
+  starts its turn within 10 feet of a gate makes a DC 13 Strength
+  (Athletics) check. On a failure, the current pulls it 10 feet toward the
+  gate. A creature pulled into a gate is stuck against the bars and has
+  the Restrained condition until it uses an action to pull free (DC 13
+  Strength (Athletics)).
+- **The platform.** The platform under the wheel is above the water. It is
+  slick with weed. It is Difficult Terrain.
+- **The wheel.** See below. A creature at the wheel is on the platform,
+  and the crocodiles are there too.
+
+**Turning the wheel:** Closing the gates takes three successful Strength
+(Athletics) checks, DC 18, each one an action. With the silver key from the
+hall of the dike wardens (F4), the DC is 14: the key opens the lock that
+holds the wheel. Two creatures can work the wheel together; each one makes
+its own check. After the third success, the gates close with a great sound,
+and the drain under the church opens. Over the next 10 minutes, the water in
+the church drops by 10 feet.
+
+> **GM tip:** Turning the wheel in the middle of the fight is a great
+> moment. One character turns, the others hold off the chuuls. Let the
+> players plan it. A Chuul that grabs the character at the wheel is a good
+> scare. If the party clears the room first, they can turn the wheel at
+> their own pace with no checks at all. Only the key matters then: without
+> it, three DC 18 checks still apply, but a failure only costs time.
+
+> **Scaling:** The Moderate budgets are 5,100 (3 characters), 6,800 (4),
+> 8,500 (5), and 10,200 (6). The extra Chuul for Techniques is in each line
+> for 4 or more characters.
+>
+> - **3 characters:** one Chuul and two Giant Crocodiles. 1,100 + 3,600 =
+>   4,700 XP.
+> - **4 characters:** three Chuuls and two Giant Crocodiles. 3,300 + 3,600
+>   = 6,900 XP.
+> - **5 characters:** four Chuuls and two Giant Crocodiles. 4,400 + 3,600
+>   = 8,000 XP.
+> - **6 characters:** four Chuuls and three Giant Crocodiles. 4,400 + 5,400
+>   = 9,800 XP.
+
+**Treasure:** In the drain tunnel, among the bones of the chuuls' meals, is
+the body of a man in old fen leathers, with a rusty knife and a locket. In
+the locket is a lock of hair and a scratched name: TAM FERROW. This is the
+brother of Ada Ferrow (Scene 1), who came for the light twenty years ago.
+The bones also hold 180 GP in coins of today, a Potion of Greater Healing,
+and a Lantern of Small Hours that still burns on its last drop of oil.
+
+### F8. The graveyard
+
+> Around the hill of the church lies the old graveyard. The stones lean in
+> the mud like crooked teeth. Weed grows thick between them. The mud here
+> is soft and deep, and it smells of old things.
+>
+> In the side of the hill, between two big tombs, is a low iron door. It
+> stands open a hand's width. A faint pale light comes from inside.
+
+**The mud.** The ground of the graveyard is deep mud under the water. It is
+Difficult Terrain. A creature that stands still in it at the end of its turn
+sinks: it makes a DC 13 Strength saving throw, and on a failure it has the
+Restrained condition (escape DC 13). A creature that walks on the
+gravestones does not sink. The stones are slippery; a creature that moves
+on them more than 10 feet in a turn makes a DC 10 Dexterity (Acrobatics)
+check or falls into the mud.
+
+**The crypt door.** The iron door leads into the crypt under the church.
+A narrow stair goes up from the crypt into the church (F9), behind the
+altar. This is the side way in. A party that uses it arrives behind the
+Grief and has Advantage on Initiative.
+
+| Check | DC | Result |
+|-------|----|--------|
+| Wisdom (Perception) | 14 | The character sees the crypt door before anyone steps into the mud near it. |
+| Intelligence (Religion) | 13 | Churches of Ostrey had a stair from the crypt to the altar, for the priest to tend the flame. |
+| Strength (Athletics) | 15 | The character forces the iron door open wide enough for a Medium creature. |
+| Dexterity (Sleight of Hand) | 12 | The character slips through the gap of the door with no need to force it (a Small creature needs no check). |
+
+> **GM tip:** If the party has heard Maud's story and found the town roll in
+> the watch house (F5), a few drowned stand in the graveyard with flowers
+> that are only stems. They do not attack. They are visiting their dead.
+> A good place for a quiet moment before the last fight.
