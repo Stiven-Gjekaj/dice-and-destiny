@@ -369,3 +369,414 @@ brave.
 > **GM tip:** Dace returns in chapter 3. Do not let the party kill him or send him to prison here. If they want justice,
 > let him run. He takes the road south, with the pilgrims. He will be in
 > Saint Ivo's before them, selling bones at the feast.
+
+---
+
+## Scene 4: Tamsin's Questions (20 minutes)
+
+**Goal:** Give the party a friend in the new world. Give a clue that the
+keep was not always empty.
+
+Tamsin finds the party when they are alone: at the ferry, on the bench in
+front of the inn, or at breakfast. She sits down without asking. She
+brings bread and cheese.
+
+> "I have a question," says Tamsin. "I have a lot of questions, but I will
+> start with one." She points her pipe at the badge on your coat: the
+> rising sun, with seven rays. "Where did you get that?"
+
+Tamsin asks one question after another, and each question is a little
+sharper. Let the players answer as they want. They can lie. Tamsin knows a
+lie when she hears one (her Wisdom (Insight) is +4).
+
+- "Where did you sleep last night?"
+- "Why do you talk like the priest at the feast play?"
+- "Why does your lamp have a face?"
+- "How old are you? No. How old are you really?"
+
+### What Tamsin knows
+
+If the characters tell her the truth, Tamsin believes them. She is the only
+person in the village who does. She says so in one sentence and then she
+cries, quietly, for about ten seconds. Then she tells them this:
+
+> "My family kept that keep. Not the Dawnwatch, mind. The doors. The roof.
+> The well. My great-great-granny was the last of us to do it. When the
+> Grey Winter came, the steward's people were all dead, and the soldiers
+> were gone, and she kept the door shut for three years on her own. Then
+> she came down the hill and married a ferryman. She said the Sleepers were
+> under the hill, and that somebody had to remember. So we remembered.
+> Nobody believed us. My granddad had a coin like yours in the wall."
+
+Tamsin has two gifts, if the party earns her trust:
+
+- **The coin from the wall.** Her granddad's old gold sun. She gives it
+  to the character who told her the truth. "It should go back to its own
+  time."
+- **A ferry token.** A bone disk carved with a boat. Any ferry on the River
+  Brann carries the party for free if they show it. It is not magic. Every
+  ferryman on the river knows Tamsin.
+
+> **GM tip:** Tamsin is the first person who believes the Dawnwatch. Make
+> her matter. If a player's After answer was "everything is gone", Tamsin
+> is the proof that something remained. Let that player see it.
+
+### Tamsin's warning
+
+Before she leaves, Tamsin says one more thing:
+
+> "Grey folk came through last month. Five of them, in grey cloaks, with
+> no lamp, at night. They bought my cousin's boat and paid in old coins,
+> like yours. They asked if anyone had come down from the north hill. Not
+> if anyone would. If anyone had." She looks at you. "Somebody knew you
+> were waking before you did."
+
+The grey folk are the Hush. The party meets them in chapter 4. Do not name
+them here. If the party asks what the grey folk wanted, Tamsin does not
+know. If the bearer of the black stone touches it while Tamsin talks about
+them, it hums.
+
+---
+
+## Scene 5: The Dead at the Ford (40 minutes)
+
+**Goal:** The first fight of the chapter. Show that the past is not quiet.
+
+This scene happens on the second night in Brannock's Ford, or on the first
+night if the party wants to leave in the morning. It does not matter if
+the party learned where Dace got his bones. The dead come anyway.
+
+> In the middle of the night, a dog barks. Then every dog in the village
+> barks. Then they all stop at once.
+>
+> Fog lies on the river. In the fog, on the far bank, a blue light comes
+> down the hill, slow and steady, like a lantern carried by someone who is
+> not in a hurry. Then a second light. Then the shapes under them: tall,
+> thin shapes in old helmets, that walk into the river and do not stop.
+>
+> The bell of the church starts to ring.
+
+The dead of the barrow on Ferry Hill want their bones back. They walk
+across the ford, through the water, and up into the village. They go to
+the place where the bones are: Dace's cart on the green, or the room of a
+character who bought the tooth or the thigh bone.
+
+### The fight
+
+{{statblock: Skeleton}}
+
+{{statblock: Warhorse Skeleton}}
+
+{{statblock: Barrow Light}}
+
+The dead are **Skeletons** in the rusty helmets of Ostrey road wardens. A
+**Warhorse Skeleton** carries the warden captain's banner. Two **Barrow
+Lights** float over them and give them their blue light.
+
+| Party size | Monsters | XP |
+|---|---|---|
+| 4 characters | 4 Skeletons, 1 Warhorse Skeleton, 2 Barrow Lights | 500 |
+
+> **Scaling:** This is a Moderate fight for level 2 (150 XP for each
+> character).
+>
+> - **3 characters (450 XP):** 2 Skeletons, 1 Warhorse Skeleton, 2 Barrow
+>   Lights (400 XP).
+> - **4 characters (600 XP):** as in the table (500 XP). Add 2 Skeletons
+>   if the party is strong (600 XP).
+> - **5 characters (750 XP):** 4 Skeletons, 2 Warhorse Skeletons, 3 Barrow
+>   Lights (700 XP).
+> - **6 characters (900 XP):** 6 Skeletons, 2 Warhorse Skeletons, 4 Barrow
+>   Lights (900 XP).
+
+### The map
+
+- The village green is 60 feet across, with the church on one side and
+  the inn on the other. Dace's cart stands in the middle.
+- The ford is 60 feet north of the green. The dead come from there, two
+  rounds after the bell starts.
+- Fog covers the green. It is Lightly Obscured. Wick's light pushes the
+  fog back: in Wick's Bright Light, the fog has no effect.
+- Villagers run out of their houses with lamps and pitchforks. In the first
+  round, three villagers stand in the way of the dead.
+
+### Running the fight
+
+- **The dead want the bones.** A skeleton attacks a creature that stands
+  between it and the bones. It does not chase a creature that steps aside.
+  A creature that carries a stolen bone is always its first target.
+- **Give back the bones.** A character can throw a stolen bone or ring to
+  the dead as a Utilize action. One skeleton picks it up and walks back to
+  the river. It is out of the fight. If the dead get all the stolen things
+  back, the rest of them stop, turn, and walk home. A character who
+  makes a DC 12 Intelligence (History) or Wisdom (Religion) check knows that
+  this will work. Wick knows it too, if a player asks him: "They are road
+  wardens. They want their things, and then they want to go back to work."
+- **The villagers.** A villager is a **Commoner**. A skeleton hits a
+  villager that does not move. Give the players a reason to protect them:
+  little Wenna from the inn runs out to see the Sleepers fight.
+- **The bell.** The priest of the village rings the church bell for the
+  whole fight. A character who makes a DC 12 Intelligence (Religion) check
+  knows that the bell does nothing to the dead. It makes the villagers
+  feel better.
+
+> **Teach: the fight with a goal.** This is the first fight where the
+> enemies want something other than to kill. Say: "Look at what the dead
+> do. They walk past people who step aside. What do they want?" A good
+> answer can end a fight with no damage at all.
+
+### After the fight
+
+If the party won by force, the bones of the dead lie on the green, and the
+village is very grateful and very scared. If the party gave back the
+bones, the dead walk back across the river, and the village is very
+grateful and even more scared.
+
+Either way, Dace confesses. He stands in his nightshirt on the green, in
+front of the whole village, and tells where the bones came from. He says
+that a body in the barrow sat up when he touched its sword. "It looked at
+me. It had no eyes. It looked at me anyway."
+
+> "Somebody has to go up there," says Tamsin, "and put things right. And
+> somebody," she looks at Dace, "has to carry the bones."
+
+---
+
+## Scene 6: Into the Barrow (45 minutes)
+
+**Goal:** A short dungeon, a fight or a talk, and the unique treasure of
+the chapter.
+
+The barrow is on Ferry Hill, a mile north of the village, on the far side
+of the river. It is a long, low mound of earth with a door of stone at one
+end. Dace comes along if the party makes him. He carries the bones and
+complains the whole way.
+
+> The barrow is a long green hill with a mouth of stone. Someone dug a
+> hole in the side of it, not long ago, and filled it in badly. The great
+> stone door at the end stands open a hand's width. Cold air comes out of
+> it, and a smell of earth and old iron.
+>
+> Over the door is a carving that you know: a road, a sun over the road,
+> and words in the old letters. KEEP THE ROAD.
+
+A character who makes a DC 10 Intelligence (History) check knows the
+words. They are the motto of the road wardens of Ostrey. The wardens kept
+the roads safe, and they were buried by the road, so that they could keep
+it after death. The Dawnwatch marched past barrows like this one a hundred
+times.
+
+### The rooms of the barrow
+
+The barrow is dark. It has three rooms in a line. The ceiling is low: 7
+feet. Characters who are tall must stoop.
+
+**1. The passage.** A stone passage 30 feet long and 5 feet wide. On each
+side, in niches, lie the bones of wardens, each with a bronze ring on one
+leg. Three niches are empty: Dace's work. A character who makes a DC 12
+Wisdom (Perception) check sees the trap before it works.
+
+- **The trap: the warden's gate.** A flagstone in the middle of the
+  passage sinks when a creature steps on it. A bronze grille drops behind
+  the creature and closes the passage. The grille is not a danger. It
+  keeps thieves in until the warden comes. A character can lift it with a
+  DC 15 Strength (Athletics) check, or open its lock with Thieves' Tools
+  and a DC 13 Dexterity check. The grille opens by itself when the warden
+  of the barrow lets the party go.
+- A character who puts the stolen bones back in their niches, with the
+  rings, makes the barrow quiet. The next room is easier: see "The talk"
+  below.
+
+**2. The hall of shields.** A round room 20 feet across. Bronze shields
+hang on the walls, green with age. Each shield has the name of a warden
+and a road: "Aske, the north road. Tobry, the Wolds road." Under the
+shields are grave goods: cups and pins of bronze, beads of amber, and old
+coins, worth 40 GP in all.
+
+> **GM tip:** If a character takes the grave goods, the warden in room 3
+> knows it at once. Its Grave Goods trait gives it Advantage against that
+> character. Let the players decide. Do not warn them, but let Wick say,
+> "Are we sure about this? I have a bad feeling about this. I have bad
+> feelings about most things, but this one is special."
+
+**3. The tomb of the captain.** A long room 30 feet by 15 feet. At the far
+end, a stone chair. In the chair sits a dead warden in bronze armor, with
+a sword across its knees and a brass compass on a chain around its neck.
+
+> The dead warden in the chair lifts its head. There is nothing in its
+> helmet but dark. A cold voice comes out of the dark, in the old speech
+> of Ostrey, the speech of your own time. It is the first time since you
+> woke that you hear it.
+>
+> "Who walks my road?"
+
+This is the warden captain, **Aske**, a **Barrow Thane**. Aske died in the
+war of the Unlit King, a few years before the Dawnwatch slept, and it has
+kept this road ever since. It is not evil. It is very, very tired, and it
+has a job.
+
+### The talk
+
+Aske speaks the old speech of Ostrey. The characters speak it too. It is
+the first time since the tutorial that somebody talks to them like a
+person of their own time. Let it matter.
+
+If the stolen bones are back in their niches, Aske starts calm. If the
+bones are not back, or if a character carries grave goods, Aske starts
+angry. Use the table.
+
+| What the party does | Check | DC | Result |
+|---|---|---|---|
+| Shows the badge of the Dawnwatch | None | None | Aske knows it. It stands up. "The sun with seven rays. The king's own watch. Is the war over? Is the road safe?" |
+| Tells Aske the truth: three hundred years, the king is gone | Charisma (Persuasion) | 12 | Aske believes it. It is quiet for a long time. Then it asks one question: "Who keeps the road now?" |
+| Lies to Aske that the road is kept | Charisma (Deception) | 15 | On a success, Aske is at peace and lies down. The compass stays on its neck. On a failure, Aske knows, and it fights. |
+| Promises to keep the road | None | None | See "The promise" below. |
+| Threatens Aske, or attacks | None | None | Aske fights. See "The fight". |
+| Brings Dace forward to say sorry | Charisma (Persuasion), made by Dace with Advantage if a character helps | 10 | Aske looks at Dace for a long time. "Thief. You will carry no more bones." Dace never sells a real bone again. He still sells sheep bones. |
+
+### The promise
+
+If a character promises to keep the road, Aske takes the compass from its
+neck and holds it out.
+
+> "Then keep it," says Aske. "This was the compass of my road. It knows
+> every road that Ostrey built. Some of them are still there, under the
+> grass. When you walk them, think of the wardens. That is all we ever
+> wanted. Somebody to think of the road."
+>
+> The dead captain sits down in its chair. The cold goes out of the room.
+> The grille in the passage opens with a rusty sound. Somewhere, far away,
+> you think you hear a horn.
+
+Aske gives the party the **Compass of the Old Road**. The Treasures
+appendix has its full entry. The compass helps the guide on the journey
+to Saint Ivo's, so let the party have it before they leave.
+
+{{treasure: Compass of the Old Road}}
+
+### The fight
+
+If the talk fails, or if the party attacks, Aske stands and draws its
+sword. Two **Skeletons** (their statblock is in Scene 5) climb out of the
+niches in the walls of the room.
+
+{{statblock: Barrow Thane}}
+
+| Party size | Monsters | XP |
+|---|---|---|
+| 4 characters | 1 Barrow Thane, 2 Skeletons | 800 |
+
+> **Scaling:** This is a High fight for level 2 (200 XP for each
+> character). The Barrow Thane is CR 3, above the party's level, so play
+> it with care.
+>
+> - **3 characters (600 XP):** the Barrow Thane alone (700 XP). It starts
+>   with 15 fewer Hit Points, and it doesn't use Oath of the Barrow.
+> - **4 characters (800 XP):** as in the table.
+> - **5 characters (1,000 XP):** the Barrow Thane, 2 Skeletons, 2 Barrow
+>   Lights (1,000 XP).
+> - **6 characters (1,200 XP):** the Barrow Thane, 4 Skeletons, 2 Barrow
+>   Lights (1,100 XP).
+
+- **Aske fights to drive thieves out, not to kill.** It doesn't attack a
+  creature at 0 Hit Points. When all the living creatures leave its tomb,
+  it sits down again.
+- **It can still stop.** At the start of each round, a character can try
+  the talk again, as an action. Aske stops fighting on a success, and the
+  table above applies.
+- **When Aske drops to 0 Hit Points,** it falls apart in its chair. The
+  compass falls at its feet. The party can take it. The barrow is quiet,
+  but it is not at peace. On the road south, the lookout sees a blue light
+  follow the party for a mile each night. It does nothing. It watches.
+
+---
+
+## Scene 7: The Collector (20 minutes)
+
+**Goal:** The thread of the Shadow. The past comes back as a treasure, and
+the player chooses what to do with it.
+
+> **Thread (the Shadow):** In the tutorial, the player of the Shadow said
+> what the character stole on the night before the long sleep. It is still
+> in the character's pocket. Today, it is a treasure of old Ostrey, and a
+> collector wants it.
+
+Tell the player before the session: "Your stolen thing comes back this
+week." The How to Run This Book section explains why.
+
+This scene happens on the morning after the barrow, at the Ferry Bell. A
+fine coach with two grey horses stands in the yard. Hob the innkeeper sent
+word about the old coins, and a buyer came at once.
+
+> A man sits at the best table in the inn with a cup of tea and a book.
+> He is about fifty, round and neat, in a green coat with silver buttons.
+> His spectacles are on a ribbon. When you come in, he stands up and
+> bows, very low.
+>
+> "Corvin Lisle, of Corrantey," he says. "I buy old things. I am told that
+> you have some. I am told," and his eyes shine, "that you have quite a
+> lot."
+
+**Corvin Lisle** is an antiquary. He collects things from old Ostrey, and
+he sells some of them to the rich families of Corrantey. He is on his way
+to the feast at Saint Ivo's, to buy relics. He is honest, in his way: he
+never pays less than a thing is worth to him. He is also a little mad
+about old things. He touches an old coin like a man touches a sleeping
+cat.
+
+### The coins
+
+Corvin pays 5 GP for each old gold sun. He offers this at once. The party
+has 15 suns from the armory in the tutorial, and maybe Tamsin's coin. He
+pays 1 GP for an old silver star, and 1 SP for a copper bit.
+
+### The stolen thing
+
+When the Shadow (or any character) shows Corvin the thing that the Shadow
+stole, Corvin sits down very suddenly.
+
+> He does not touch it. He opens his book to a page near the back, and he
+> turns the book around so that you can read it. It is a list, in neat
+> handwriting: THINGS OF OSTREY THAT ARE LOST. Halfway down the page is a
+> drawing of the thing in your hand.
+>
+> "It went missing," says Corvin, "on the night the Dawnwatch went to
+> sleep. The story says a thief of the Dawnwatch took it. Everybody says
+> that the story is a joke." He looks up at you. "Where did you get it?"
+
+Use the words of the player. If the Shadow stole a silver comb from a
+duchess, the book has a drawing of the comb, and the duchess has a page of
+her own. The family of the duchess is gone, or it is a family of today
+that has forgotten her. Do not change the answer of the player. Change the
+book.
+
+Corvin offers 300 GP for the thing, at once. If a character bargains with
+him (Charisma (Persuasion) or Charisma (Deception), DC 15), he goes up to
+500 GP. He has a letter of credit from a bank in Corrantey, and enough gold
+in his coach for half the price.
+
+### The choice
+
+The player of the Shadow chooses. Give the scene time. Each choice is a
+good story.
+
+- **Sell it.** The party has money for the journey, a mule, and good gear.
+  Corvin is happy. He gives his card: a white card with a lamp on it. "If
+  you find more, send word to Corrantey." He goes south to the feast.
+- **Keep it.** Corvin is sad, but polite. He asks the party to think about
+  it, and he says that he will be at the feast in Saint Ivo's. He will ask
+  again, with a better offer.
+- **Give it back.** The player may want to return the thing to its owner.
+  Corvin can tell the party who the owner's family is today, if any. This
+  is a good seed for a side trip later in the book.
+
+> **GM tip:** Corvin's book is useful in chapter 3. The party must prove
+> who they are to the Church. A thing that was "stolen by a thief of the
+> Dawnwatch" on the night of the sleep, in the hand of a halfling in old
+> armor, is very good proof. If the party keeps the thing, Corvin can tell
+> the Abbess what it is. If the party sold it, Corvin still has it, and he
+> still has the book.
+
+If no character has a stolen thing, Corvin finds something else: the
+badge of the Dawnwatch, the Scroll of the Last Watch, or Wick himself.
+Corvin offers 1,000 GP for Wick. Wick is insulted that it is so little.
