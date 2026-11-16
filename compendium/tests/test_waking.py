@@ -449,3 +449,29 @@ def test_names_sort_without_the_first_article():
     assert [e["name"] for e in es] == ["Amulet", "The Black Stone", "Candle"]
     ih = W.index_html({}, es)
     assert re.findall(r'<div class="letter">(\w)</div>', ih) == ["A", "B", "C"]
+
+
+def boss(name, typ="Monstrosity"):
+    return M(name, "L", typ, "Neutral", 5, "18 12 16 8 12 10", multi=2,
+             attacks=[("Claw", "m", "2d6", "Slashing"), ("Bite", "m", "2d8", "Piercing")],
+             leg=[("Move", "The creature moves.")])
+
+
+def test_a_dawnwatch_creature_keeps_the_capitals_of_its_name():
+    h = W.dw_stat_html(boss("Hush Night Warden"), "creature")
+    assert "The Hush Night Warden makes two attacks" in h and "the Hush Night Warden can expend a use" in h
+    assert "hush night warden" not in h
+
+
+def test_a_dawnwatch_person_is_named_with_no_article():
+    h = W.dw_stat_html(boss("Mother Sallow, Unbound", "Humanoid"), "person")
+    assert "Mother Sallow, Unbound makes two attacks" in h and "the Mother Sallow" not in h.replace("The Mother", "")
+    assert "Mother Sallow, Unbound can expend a use" in h
+    h = W.statblock_html("Osk", dw(npcs=[("A brute", boss("Osk", "Humanoid"))]))
+    assert "Osk makes two attacks" in h and "The osk" not in h
+
+
+def test_a_compendium_monster_keeps_the_text_of_the_compendium():
+    from content.monsters import MON
+    m = next(x for x in MON if x.multi > 1)
+    assert W.statblock_html(m.name, dw()) == f'<div class="inline-stat">{m.html()}</div>'

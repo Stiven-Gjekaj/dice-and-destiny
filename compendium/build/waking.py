@@ -132,16 +132,27 @@ def _orig_item_html(item):
             f'<div class="sp-meta"><i>{E(cat)}, {E(rar)}{a}</i></div><p>{E(tx)}</p></div>')
 
 
+def dw_stat_html(m, kind):
+    """The statblock of a Dawnwatch creature or person. The engine writes the name in lower case in the
+    Multiattack and Legendary Actions text ("The hush night warden"). A Dawnwatch name is a proper name,
+    so it keeps its capitals: "The Hush Night Warden makes two attacks", "Osk makes two attacks"."""
+    h, low = m.html(), E(m.ref())
+    proper = E(re.sub(r"^The\s+", "", m.name))
+    if kind == "person":
+        return h.replace(f"The {low} ", f"{proper} ").replace(f"the {low} ", f"{proper} ")
+    return h.replace(f"The {low} ", f"The {proper} ").replace(f"the {low} ", f"the {proper} ")
+
+
 def statblock_html(name, dw):
     """The statblock of a creature or a person. Look in the Dawnwatch content, then in the
     original Compendium content, then in the SRD bestiary."""
     from content.monsters import MON
     from content.npcs import NPCS
     people = [e[1] for e in dw.NPCS if not isinstance(e[1], str)]
-    for group in (dw.MON, people, MON, [e[1] for e in NPCS]):
+    for group, kind in ((dw.MON, "creature"), (people, "person"), (MON, None), ([e[1] for e in NPCS], None)):
         m = _find(name, group, lambda x: x.name)
         if m:
-            return f'<div class="inline-stat">{m.html()}</div>'
+            return f'<div class="inline-stat">{dw_stat_html(m, kind) if kind else m.html()}</div>'
     import compendium as comp
     c = _find(name, comp.creatures(), lambda x: x["name"])
     if c:
@@ -396,13 +407,13 @@ def entry_html(e, chs):
     head = f'<div class="entry" id="{e["anchor"]}">{idx_mark(name, main=True)}'
     line = chapters_line(named_in(name, chs))
     if kind == "creature":
-        return f"{head}{obj.html()}{line}</div>"
+        return f"{head}{dw_stat_html(obj, 'creature')}{line}</div>"
     if kind == "treasure":
         return f"{head}{_orig_item_html(obj)}{line}</div>"
     if kind == "person":
         role, m = obj
         role = without_chapters(role) if line else role
-        stat = "" if isinstance(m, str) else m.html()
+        stat = "" if isinstance(m, str) else dw_stat_html(m, "person")
         return f'{head}<h4 class="sp-name">{E(name)}</h4><div class="role">{E(role)}</div>{line}{stat}</div>'
     text = place_text(obj)
     text = without_chapters(text) if line else text
