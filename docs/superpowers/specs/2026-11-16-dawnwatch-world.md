@@ -318,6 +318,22 @@ the person in more than one scene.
 | Sergeant Maud Kettle | The ghost of a soldier of Ostrey in Fennick. She teaches the old fighting ways. | 8 | Yes |
 | Sir Garrath (Malgrath) | The first Dawnwatch. The Unlit King. Only his voice in Book One. | 1, 4, 10 | No (Book Two) |
 
+## The creatures of Book One
+
+Each new creature of the content files has a row here. The file column
+tells which lane owns the creature.
+
+| Name | What it is | Chapters | File |
+|---|---|---|---|
+| Hush Night Warden | A soldier of the Hush in grey mail. CR 4. | 7, 9, 10 | `creatures_act2.py` |
+| Hush Grey Choir | A crowd of Hush singers that acts as one swarm. CR 6. | 7, 9, 10 | `creatures_act2.py` |
+| Hush Dusk Priest | A priest of the Hush who puts out lights. CR 7. | 7, 8, 10 | `creatures_act2.py` |
+| Brass Lamp Warden | A brass guardian of the hall of the Lampwrights, with the maker's mark of Haskel Orme. CR 5. | 6 | `creatures_act2.py` |
+| Fennick Drowned | A drowned townsperson of Fennick. CR 2. | 8 | `creatures_act2.py` |
+| Grief of Fennick | The sorrow of the drowned town, in the old church. CR 8. | 8 | `creatures_act2.py` |
+| Sergeant Maud Kettle | See the people. CR 5. | 8 | `creatures_act2.py` |
+| The Unlit Knight | The empty armor that guards the crystal under Kingsholm. The creature of the end of Act II. CR 12. | 10 | `creatures_act2.py` |
+
 ## The things of Book One
 
 | Thing | What it is | Chapters |
