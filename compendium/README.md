@@ -57,6 +57,7 @@ right-hand page. The full build takes some minutes.
 | `books/` | The chapters that a human writes (`player.src.html`, `gm.src.html`) and the styles (`style.css` for the design, `book.css` for the page layout, `bw.css` for print, `screen.css` for the screen). A `{{PLACEHOLDER}}` marks a section that the build makes. |
 | `content/` | The original content. Each category is a folder: `classes/`, `subclasses/`, `species/`, `backgrounds/`, `feats/`, `spells/`, `monsters/`, `npcs/`, `items/`, `traps/`, `tables/`, `pantheons/`, `downtime/` (with the strongholds), `systems/`, `injuries/`, and `crafting/`. The `__init__.py` of each folder collects the entries of all its files. |
 | `build/` | The build code. `build.py` fills the placeholders, adds the chapter headings, makes the table of contents, and makes the PDFs. `cover.py` makes the hardcover and paperback covers. `editions.py` makes the front pages and joins the screen and home-print PDFs. `classes.py` and `compendium.py` make the SRD sections. `orig_render.py` and the `render_*.py` files make the original content sections (one renderer for each new category). `check_content.py` checks the content, and `check_fonts.py` checks the fonts of the PDFs. `monster_engine.py` calculates the monster statistics. `icons.py` holds the icons. |
+| `maps/` | The final maps of The Dawnwatch (`<id>.svg`) and `places.json`, the places for the map tool. See [The maps of The Dawnwatch](#the-maps-of-the-dawnwatch). |
 | `data/` | The SRD 5.2 data in JSON, and `fetch.py`, which downloads the data again. |
 | `build.sh` | Builds the print and screen interiors, the hardcover covers, and the editions of both books, and copies the 10 PDFs into `dist/`. |
 
@@ -85,6 +86,57 @@ monster outside the AC and hit point limits, and a spell above the damage
 limit. A new category folder needs one line in `REGISTRY` in that file.
 
 To change a chapter, edit `books/player.src.html` or `books/gm.src.html`.
+
+## The maps of The Dawnwatch
+
+A chapter puts a map in the book with the directive `{{map: id}}`.
+`build/maps.py` gives the SVG of each map.
+
+| Id | Map | Size (mm) |
+|---|---|---|
+| `ostrey-then` | Ostrey, 300 years ago. A player handout. | 167 x 250 (page) |
+| `land-today` | The land of today. For the GM. | 167 x 250 (page) |
+| `act-1` | The Wolds and Saint Ivo's, chapters 2 to 5. | 167 x 120 (half page) |
+| `act-2` | The south, chapters 5 to 10. | 167 x 120 (half page) |
+
+### Final maps
+
+- Put the final map of an id in `maps/<id>.svg`, for example `maps/act-1.svg`.
+- When the file exists, the build uses it. When the file does not exist, the
+  build draws a simple preview.
+- Give the file the size of its id in the table. Set `width` and `height` in
+  mm, and set the `viewBox` in mm, for example
+  `width="167mm" height="250mm" viewBox="0 0 167 250"`.
+- Use only black and white: `#000`, `#000000`, `black`, `#fff`, `#ffffff`,
+  `white`, or `none`. Do not use grey or colour.
+- Do not use transparency, an opacity, a filter, a mask, a gradient, or an
+  image. Lulu prints the interior in black and white and warns about
+  transparency.
+- Do not give a text an outline (`stroke`). Chrome prints outlined text as a
+  Type 3 font.
+- Use the book fonts for the labels: Caladea and Inter.
+- The build refuses a file that breaks these rules.
+
+### The places for the map tool
+
+- `content/dawnwatch/places.py` is the single source of the places and their
+  positions in miles.
+- `maps/places.json` holds the same places for the map tool. It also holds
+  the areas, the rivers, the roads, the coast, and the bounds of each map in
+  miles. The map tool does not move a place.
+- After a change to `places.py`, write the file again:
+
+      python3 build/maps.py --places-json
+
+  A test fails when the file does not match `places.py`.
+
+### Look at the maps, and the release check
+
+- `python3 build/maps.py FOLDER --png` writes each map as an SVG, an HTML
+  page, and a PNG into `FOLDER`.
+- `maps.missing_maps()` lists the ids with no final map in `maps/`. A
+  preview build can use the previews. A Dawnwatch release stops while this
+  list is not empty.
 
 ## Print
 
