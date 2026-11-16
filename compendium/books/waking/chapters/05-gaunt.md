@@ -268,3 +268,287 @@ surrender when Hask falls or when half of them are down.
 > level. Let the players feel strong: their second attack, their new
 > spells. A *Fireball* on soldiers of Gaunt in a village green is a very
 > big choice, and the whole village sees it.
+
+---
+
+## Scene 2: Stannard (30 minutes)
+
+**Goal:** Show the town of soldiers. Meet the people who will look after
+the party.
+
+> On the third day, the road climbs out of the farms, and you see
+> Stannard. A great rock stands over the south road, and on the rock is a
+> fortress that you know: the old seat of the Gauntry family, where the
+> March held the border for the king. New walls ring it now, three of
+> them, each lower than the last, and inside them a whole town climbs the
+> slope in neat streets.
+>
+> Below the town, on a wide field, an army drills. Thousands of soldiers
+> in red coats, in blocks, all in step. A drum beats, and they turn, all
+> together, like one animal. The sound of their feet comes to you a moment
+> late.
+>
+> The Shield of the Dawnwatch knows that drill. It is the drill of Ostrey.
+> Nobody has used it in two hundred years. Somebody kept it.
+
+### The Gate of the Five
+
+The main gate of Stannard has five statues on top of it, as tall as two
+men: the Five Sleepers, in the armor of Gaunt, with the iron gauntlet on
+their shields. Under them, words cut in the stone: THE FIVE WERE OF THE
+MARCH.
+
+They were not. None of the Dawnwatch came from the March of Gauntry. A
+character who makes a DC 10 Intelligence (History) check knows it. Wick
+says it out loud: "That is a lie. That is a lie carved in stone. Who
+carves a lie in stone? It takes so long!"
+
+> **GM tip:** This is the lesson of Gaunt in one picture. Gaunt honors the
+> Dawnwatch, and it uses them. The Church did the same with halos. Gaunt
+> does it with shields. Let the players see that each power makes the
+> Dawnwatch into what it needs.
+
+### The welcome
+
+At the gate, Captain Joss Marrick waits for the party with a guard of
+honor, twenty soldiers in perfect lines. He salutes. The soldiers salute.
+The crowd behind them cheers, but not like the pilgrims in Saint Ivo's.
+These people cheer like soldiers cheer a general.
+
+Captain Marrick takes the party up through the town to the Marshal's Hall.
+On the way, he introduces their aide.
+
+> A young officer jogs up beside you with a big smile and a stack of
+> papers. "Lieutenant Roe," he says, and bows to each of you, and to Wick,
+> very seriously. "I am to look after you while you are in Stannard. Rooms,
+> food, passes, anything. If you need something, ask me. If you need
+> something you should not have, also ask me." He winks. "Only not in
+> front of the captain."
+
+### Stannard
+
+The party has a day before the Marshal sees them. Let them walk the town.
+Choose two or three of these.
+
+- **The market** closes at sunset by law. At the last bell, every stall
+  shuts at once, and the square is empty in a minute.
+- **Every street has a number.** The party lodges at "Third Wall, Street of
+  the Lancers, Number Nine". Lieutenant Roe found it. It has the best
+  baths in Stannard.
+- **The children drill.** On a small square, twenty children with wooden
+  spears march in step. A girl of ten shouts the orders.
+- **The forges** never stop. They make spearheads, horseshoes, and helmets,
+  day and night. A smith shows the party a helmet: it is the shape of a
+  helmet of Ostrey, exactly. "We kept the patterns," he says proudly.
+- **The shrine of the Church** in Stannard is small and quiet. Its priest,
+  an old woman, is nervous. She asks if it is true that the Sleepers will
+  march with the army. "Against whom?" she asks.
+
+> **GM tip:** Show that Gaunt works. The streets are clean, the people are
+> fed, and the children are safe. In a land with short summers, that is a
+> lot. A player who likes order may like Gaunt very much. That is fine.
+> The chapter does not tell the players that Gaunt is wrong. It shows them
+> what it costs.
+
+---
+
+## Scene 3: The Marshal's Hall (45 minutes)
+
+**Goal:** Meet the Marshal. Hear her offer. Teach Factions and renown.
+
+> The great hall of the fortress is long and high, and cold. Banners hang
+> from the beams, a hundred of them, faded and torn and stained: the
+> banners of every war of Gaunt. At the far end, one pole stands empty,
+> taller than the others, with a gold sun on top.
+>
+> Under the empty pole, a woman stands with her hands behind her back. She
+> is tall, sixty, with grey braids and a soldier's back, in a plain red
+> coat with no gold on it at all. She looks at each of you in turn, the way
+> a sergeant looks at new recruits.
+>
+> "Light to you," says Marshal Ide Gauntry.
+
+**Marshal Ide Gauntry** is the ruler of Gaunt. She is direct, sharp,
+proud, and honest in her way. She has ruled for twenty years and never
+lost a battle. Play her as the opposite of the Abbess: she says exactly
+what she thinks, at once.
+
+{{statblock: Marshal Ide Gauntry}}
+
+### What the Marshal knows and wants
+
+- **She knows that the party is real.** Captain Marrick saw the Ember
+  flare. She believes her captain.
+- **She wants them as banners.** "Stand with Gaunt at the spring muster,
+  under the banner of Ostrey, and every soldier in the land will know who
+  the heir of Ostrey is."
+- **She wants the pieces of the Dawnfire.** "The Hush wanted the Ember. If
+  the Hush want it, it is a weapon. A weapon should be with soldiers, not
+  priests." If the party has the Ember, she asks for it, plainly. If the
+  party says no, she accepts it, for now.
+- **She does not want a war with the Church.** She says so, and she means
+  it. She also says: "The Church cannot protect the Ember, or the pilgrims,
+  or itself. Somebody must. If the Abbess asks for my help, she will have
+  it."
+- **She offers a lot.** Titles: "Knights of the March". Land: a manor each
+  in Gaunt. Soldiers: a company of fifty to command. Money: 500 GP each,
+  now, as a gift.
+
+> **GM tip:** The Marshal is not lying. She believes that Gaunt is the
+> best hope of the land. She is ready to take Saint Ivo's "to protect it".
+> She has not said so, even to herself. Tobin shows the party in Scene 4.
+
+### The Proving
+
+The Marshal does not give titles for stories. "I know what the Church says
+about you. Tomorrow, my army will see for itself." She asks the party to
+take part in the Proving, on the drill field, in front of the army. That
+is Scene 6.
+
+### Teach: Factions and renown
+
+This is the moment to teach the system. The Marshal just made an offer
+that has numbers in it.
+
+> **Teach: Factions and renown.** "The big powers of the land are
+> factions: Gaunt, the Church, later others. Each of you has a renown
+> score with each faction, from 0 to 50. Deeds for a faction raise it.
+> Deeds against it lower it. At 3, 10, 20, 35, and 50, you reach a new
+> rank, and the faction gives you more: help, gear, soldiers, a seat at
+> its table. From the third rank on, the faction asks for a special task
+> first."
+
+> **Teach: rivals.** "Gaunt and the Church are rivals. A faction watches
+> its rival closely. When you reach the third rank with one of them, the
+> other treats you as an enemy. You can be friends with both for a long
+> time. You cannot be a leader in both."
+
+Give each player a small card, or a corner of the character sheet, for
+renown. Tell each player the score that they have from Act I (see "Renown
+from Act I", above). The players can see their scores at all times. Renown
+is never a secret.
+
+> **GM tip:** Use the table rule from the Compendium if your players want
+> it: Party Renown, one score for the whole party with each faction. It is
+> simpler. This book gives renown to each character, but it works the same
+> with one score for the party.
+
+### Gaunt
+
+| | |
+|---|---|
+| **Summary** | The state of soldiers in the south. It keeps the roads, the law, and the drill of Ostrey. |
+| **Goal** | Be the heir of Ostrey. One strong hand over the land, and an army that can face the long winters. |
+| **Gain renown** | Fight beside its soldiers. Keep its law. Teach its war mages. Stand with it in public. Bring it a weapon or a secret. |
+| **Lose renown** | Break its law. Fight its soldiers. Shame it in front of the army. Choose the Church over it in public. |
+| **Rival** | The Church of the Five Sleepers. |
+
+| Renown | Rank | Reward |
+|---|---|---|
+| 3 | Friend of the March | Free passes, free tolls on the roads of Gaunt, a bed in any barracks, and news. |
+| 10 | Sword of the March | Arms and armor at a fifth less from the forges of Stannard. Lieutenant Roe, or another officer, arranges meetings. |
+| 20 | Knight of the March | A manor in Gaunt, two soldiers as hirelings, and the loan of an Uncommon magic item from the armory for a mission. |
+| 35 | Captain of the March | A company of fifty soldiers to command, a war mage's spell of level 5 or lower at no cost, or the gift of a Rare magic item. |
+| 50 | The Marshal's Hand | A seat at the Marshal's council, a fortress on the border, or the gift of a Very Rare magic item. Every enemy of Gaunt knows your face. |
+
+**The promotion tasks of Gaunt.** For the third rank, the Marshal asks the
+character to carry the banner of Gaunt at the head of a muster. For the
+fourth, to lead soldiers of Gaunt into a real battle. For the fifth, to
+swear an oath to the house of Gauntry, before the whole army.
+
+### The Church of the Five Sleepers
+
+| | |
+|---|---|
+| **Summary** | The Church that prays for the return of the Five. Its seat is Saint Ivo's. It keeps the Ember of Saint Ivo. |
+| **Goal** | Keep the faith of the Five alive, keep the pilgrims safe, and keep the Church free of Gaunt. |
+| **Gain renown** | Protect pilgrims. Bless the faithful. Fight the Hush. Return holy things. Speak for the Church in public. |
+| **Lose renown** | Shame the Church. Keep a holy relic from it. Serve Gaunt in public. Mock the faith. |
+| **Rival** | Gaunt. |
+
+| Renown | Rank | Reward |
+|---|---|---|
+| 3 | Friend of the Church | A bed and a meal at any shrine or abbey of the Church, and the prayers of its priests. |
+| 10 | Keeper of the Vigil | Healing at the Abbey at a fifth less (Potions of Healing, and spells). Brother Cade opens the archives for you. |
+| 20 | Warden of the Ember | A room in the Abbey, two priests as hirelings, and the loan of an Uncommon item from the treasury for a mission. |
+| 35 | Lamp of the Five | A company of the Church's guard to command, a spell of level 5 or lower at no cost (*Raise Dead* among them), or the gift of a Rare magic item. |
+| 50 | Voice of the Five | A seat at the Abbess's council, an abbey of your own, or the gift of a Very Rare magic item. The faithful of the whole land know your face. |
+
+**The promotion tasks of the Church.** For the third rank, the Abbess asks
+the character to stand on the balcony of the cathedral at dawn on a holy
+day, and bless the pilgrims. For the fourth, to bring back a holy thing
+that was lost. For the fifth, to speak for the Church at the council of a
+rival power.
+
+> **GM tip:** The Sleepers are the saints of the Church. That makes
+> renown with the Church strange, and funny. A living saint is a Friend of
+> the Church at 3 renown. Lean into it. "You are the Sleepers. You are also,
+> technically, at the rank of Friend."
+
+### The boys of Wendle
+
+If the party asked Sergeant Hask to wait (Scene 1), it can ask the Marshal
+to free the boys of Wendle. She thinks about it.
+
+> "The law is the law," she says. "But the law says sixteen, and my
+> sergeant took boys of thirteen. That is his shame and mine." She writes
+> an order. "The young ones go home. The others serve, as the law says.
+> And you owe me a favor, Sleepers. I always collect."
+
+The party can argue for all twelve. A character who makes a DC 18 Charisma
+(Persuasion) check wins all of them, and the Marshal laughs for the first
+time. "You argue like my son."
+
+---
+
+## Scene 4: Tobin (30 minutes)
+
+**Goal:** Meet the Marshal's son. Show the war that is coming.
+
+Tobin Gauntry finds the party on the first evening, in the baths, in the
+stables, or on the wall. He comes alone, without guards.
+
+> A young man of twenty climbs up beside you. He wears the red coat of
+> Gaunt, but it does not fit him well, and his armor is very new. He has
+> his mother's grey eyes and none of her certainty.
+>
+> "Tobin," he says. "Her son. You met her. I am sorry." He looks out over
+> the drill field, where the torches of the night watch march in lines.
+> "Can I ask you something? Did the old kingdom have a lot of wars?"
+
+**Tobin Gauntry** is the Marshal's son and heir. He is kind, clever,
+nervous, and very brave in a quiet way. He has read every book in the
+College of War. He does not want a war. He has never been in one.
+
+### What Tobin knows
+
+Tobin tells the party one thing at a time, as he learns to trust them. Use
+the table.
+
+| What the party does | Check | DC | What Tobin says |
+|---|---|---|---|
+| Answers his question about the wars honestly | None | None | He relaxes. He asks what a real battle is like. A character who tells him the truth has a friend for life. |
+| Asks him what his mother plans | Charisma (Persuasion) | 12 | The spring muster is not a muster. It is a march. The army goes north to Saint Ivo's in the spring, "to protect the Church from the Hush". |
+| Asks him if that is true | Wisdom (Insight) on Tobin | 10 | Tobin does not believe it. He thinks that his mother believes it. |
+| Asks to see the plans | Charisma (Persuasion) | 15 | Tobin takes the party to the map room of the hall at night. On the big table, small wooden blocks show the army on the road north, and a red block on Saint Ivo's. The blocks are dated: the first week of spring. |
+| Asks what he wants | None | None | "I want to find another way. I do not know one. I thought perhaps you might." |
+
+> **GM tip:** Tobin is the best friend the party can have in Gaunt. In
+> chapter 9, he begs the party to stop the war. Make him real now: let him
+> ask questions about Ostrey, let him be bad at riding, let him laugh at
+> Wick's songs. If the players like Tobin, chapter 9 has a heart.
+
+### What the party can do with it
+
+- **Tell the Abbess.** A letter to Saint Ivo's, by a fast rider. +1
+  renown with the Church. If Gaunt learns of the letter, -2 renown with
+  Gaunt. Lieutenant Roe offers to send it for them. He does. He also reads
+  it first. Do not tell the players.
+- **Talk to the Marshal.** She does not deny it. "The Church cannot
+  protect itself. The Hush walked into its holiest place and walked out
+  with its holiest thing. In the spring, I will protect it, whether it
+  wants protection or not." A character can make her doubt (DC 20 Charisma
+  (Persuasion)). On a success, she promises to wait until the party has
+  dealt with the Hush. She keeps the promise until chapter 9.
+- **Keep it secret, for now.** Tobin asks them to. "Give me time. I will
+  talk to her. She listens to me, sometimes."
