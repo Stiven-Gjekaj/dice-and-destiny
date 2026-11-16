@@ -579,8 +579,8 @@ Elemental Mote from a free elemental.
 >   3,600 XP.
 > - **5 characters (5,000 XP):** add two Merrow and one Hunter Shark in the
 >   pool. The total is 4,950 XP.
-> - **6 characters (6,000 XP):** add three Merrow and one Hunter Shark. The
->   total is 5,850 XP.
+> - **6 characters (6,000 XP):** add three Merrow and two Hunter Sharks.
+>   The total is 5,850 XP.
 
 **After the fight:** the characters can harvest the Water Elemental if it
 fell (see the table above). When the elemental drops to 0 Hit Points, it
