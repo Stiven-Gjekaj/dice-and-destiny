@@ -71,6 +71,7 @@ class M:
         if kind == "m": m, lab, rng = s, "Melee Attack Roll", f"reach {reach or '5 ft'}"
         elif kind == "f": m, lab, rng = max(s, d), "Melee Attack Roll", f"reach {reach or '5 ft'}"
         elif kind == "r": m, lab, rng = d, "Ranged Attack Roll", f"range {reach or '80/320 ft'}"
+        elif kind == "t": m, lab, rng = s, "Ranged Attack Roll", f"range {reach or '20/60 ft'}"  # thrown, uses Strength
         else:  # spell attack by casting ability e.g. "s:cha"
             m, lab, rng = mod(self.sc[AKEY[kind.split(':')[1]]]), "Ranged Attack Roll", f"range {reach or '120 ft'}"
         dmg_bonus = 0 if kind.startswith("s") else m
