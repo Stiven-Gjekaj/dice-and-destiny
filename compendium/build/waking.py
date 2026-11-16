@@ -129,7 +129,15 @@ def _orig_item_html(item):
     n, cat, rar, att, tx = item
     a = f" ({E(att)})" if att else ""
     return (f'<div class="mitem"><h4 class="sp-name">{E(n)}</h4>'
-            f'<div class="sp-meta"><i>{E(cat)}, {E(rar)}{a}</i></div><p>{E(tx)}</p></div>')
+            f'<div class="sp-meta"><i>{E(cat)}, {E(rar)}{a}</i></div><p>{item_text(tx)}</p></div>')
+
+
+INLINE_TAG = re.compile(r"&lt;(/?)(b|i|em|strong)&gt;")
+
+
+def item_text(text):
+    """Escape the text of a treasure. Keep the bold and italic tags, as in "<b>Daylight</b> (1 charge)"."""
+    return INLINE_TAG.sub(r"<\1\2>", E(text))
 
 
 def dw_stat_html(m, kind):

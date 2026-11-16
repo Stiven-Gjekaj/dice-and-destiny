@@ -475,3 +475,10 @@ def test_a_compendium_monster_keeps_the_text_of_the_compendium():
     from content.monsters import MON
     m = next(x for x in MON if x.multi > 1)
     assert W.statblock_html(m.name, dw()) == f'<div class="inline-stat">{m.html()}</div>'
+
+
+def test_a_treasure_keeps_bold_and_italic_and_escapes_the_rest():
+    d = dw(items=[("Zzyx Lamp", "Wondrous Item", "Rare", None,
+                   "<b>Daylight</b> (1 charge). <i>Dawn's Answer.</i> A & B <script>x</script>")])
+    h = W.treasure_html("Zzyx Lamp", d)
+    assert "<b>Daylight</b> (1 charge). <i>Dawn&#x27;s Answer.</i> A &amp; B &lt;script&gt;x&lt;/script&gt;" in h
