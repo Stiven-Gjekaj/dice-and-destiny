@@ -37,7 +37,7 @@ CLASSES = [dict(
         (15, "Hardened Will", "When you Overstrain, you can make a DC 15 Constitution saving throw. On a success, you don't gain the Exhaustion level."),
         (17, "Twin Cataclysm", "You can use Cataclysm twice, and you regain all expended uses when you finish a Long Rest."),
         (18, "Effortless", "Your Tier 1 Surges give you no Strain."),
-        (19, "Epic Boon", "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Fortitude is recommended."),
+        (19, "Epic Boon", "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Irresistible Offense is recommended."),
         (20, "Living Element", "As a Bonus Action, you become your element for 1 minute. For the duration, you have a Fly Speed of 60 feet and can hover, you have Immunity to your element damage, and each Surge gives you 1 less Strain (minimum 0). Once you use this feature, you can't use it again until you finish a Long Rest."),
     ],
     lists=[
@@ -56,6 +56,6 @@ CLASSES = [dict(
     ],
     guide=dict(
         play="Your Elemental Bolt is always there, so most turns you throw Bolts. Save your Strain for the moment that matters: a Burst on a crowd, a Bind on the brute, or a Ward when the axe comes down. Strain comes back on a Short Rest, so a Shaper likes to rest often. You can push past your Strain Limit once between rests when you must, but it costs an Exhaustion level, so do it to win a fight, not to start one.",
-        build="Wisdom 15, Constitution 14, Dexterity 13. Choose Flame for damage or Frost for control. Leather Armor and a Quarterstaff. Background: Sage or Hermit.",
+        build="Wisdom 15, Constitution 14, Dexterity 13. Choose Flame for damage or Frost for control. Leather Armor and a Quarterstaff. Background: Sage.",
     ),
 )]

@@ -35,7 +35,7 @@ CLASSES = [dict(
         (15, "Unbroken Bond", "When you take damage while your spirit is within 10 feet of you, you can take a Reaction to have the spirit take half of the damage (round down) instead of you."),
         (17, "Third Strike", "Your spirit makes three attacks when it takes the Attack action (see the Spirit Attacks column)."),
         (18, "Joined Souls", "As a Bonus Action, you can merge with your spirit for 1 minute. It vanishes into you, and you gain Temporary Hit Points equal to half its current Hit Points (round down). For the duration, you can make the spirit's attacks yourself (using its attack bonus and damage) in place of your own weapon attacks when you take the Attack action, and you have the special trait of its form. When the merge ends, the spirit appears in an unoccupied space within 5 feet of you with the Hit Points it had. Once you use this feature, you can't use it again until you finish a Long Rest."),
-        (19, "Epic Boon", "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Fortitude is recommended."),
+        (19, "Epic Boon", "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Fate is recommended."),
         (20, "One Soul", "When you roll Initiative and have fewer than 4 Bond Points, you regain Bond Points until you have 4. Your spirit's attacks deal an extra 2d8 Force damage instead of 1d8."),
     ],
     lists=[
@@ -55,6 +55,6 @@ CLASSES = [dict(
     ],
     guide=dict(
         play="Your spirit does most of the fighting. Each turn, take a Bonus Action to command it, then attack with a spear or a crossbow, or help an ally. Keep your spirit between the enemy and the softer members of the party, and spend Bond Points on Mend when it gets low. If your spirit falls, it isn't lost: call it back with a Hit Point Die, or rest.",
-        build="Charisma 15, Constitution 14, Dexterity 13. Claw form for damage, Shell form to guard the party. Scale Mail and a Spear. Background: Acolyte or Hermit.",
+        build="Charisma 15, Constitution 14, Dexterity 13. Claw form for damage, Shell form to guard the party. Scale Mail and a Spear. Background: Acolyte.",
     ),
 )]
