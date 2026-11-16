@@ -780,3 +780,356 @@ good story.
 If no character has a stolen thing, Corvin finds something else: the
 badge of the Dawnwatch, the Scroll of the Last Watch, or Wick himself.
 Corvin offers 1,000 GP for Wick. Wick is insulted that it is so little.
+
+---
+
+## Scene 8: Ready for the Road (30 minutes)
+
+**Goal:** Teach the Journeys system before the trip starts: the roles, the
+pace, and the supply die.
+
+The party has a reason to go south: the feast at Saint Ivo's, the Church
+that prays to them, the troupe that plays them, Corvin, Dace, and the grey
+folk who asked about the north hill. Saint Ivo's is three days south on
+the old road of Ostrey, 72 miles. If the players do not want to go, let
+Tamsin push them: "You want to know what the world made of you? It is all
+in Saint Ivo's. Go and look."
+
+> **Teach: Journeys.** "This is a long trip, so we use the Journeys rules.
+> Each day of travel has four steps. I roll the weather. Each of you takes
+> a role and makes one check. I roll to see if you meet something on the
+> road. Then I roll your supply die, to see how long the food lasts. It
+> takes a minute for each day, and the road becomes part of the story."
+
+Then explain the four roles. Each character can take one role each day.
+Give each player the Journeys page of the Player's Compendium, or say it
+in your own words:
+
+| Role | The check | On a success |
+|---|---|---|
+| **Guide** | Wisdom (Survival) against the Navigation DC of the day | The party keeps its way. On a failure, it gets lost. |
+| **Scout** | Wisdom (Perception) or Dexterity (Stealth), DC 12 | If there is an encounter, the party sees it first. It can avoid it, or start the fight with the other side Surprised. |
+| **Quartermaster** | Wisdom (Survival) against the Foraging DC of the day | The party finds food and water. Do not roll the supply die today. |
+| **Lookout** | Intelligence (Nature), DC 12 | The party knows tomorrow's weather tonight, and the camp can't be surprised tonight. |
+
+> **Teach: the rules of the roles.** "A role that nobody takes simply
+> fails. One character can take two roles, but the second roll has
+> Disadvantage. Choose for tomorrow now."
+
+With the pregens, these roles fit well:
+
+- **The Shadow** is a good scout (Perception and Stealth).
+- **The Storm** is a mountain guide. The Storm is a good guide or
+  quartermaster.
+- **The Spark** is a good lookout (Nature, if the player chose it, or
+  Intelligence).
+- **The Light** is a good quartermaster (Wisdom).
+- **The Shield** can take any role. A role with no bonus still has a
+  chance.
+
+Wick cannot take a role. "I am a lantern," he says. "I am a very good
+lantern. That is my role." In a party of three, Wick can give a +2 bonus
+to the lookout's check, because he never sleeps.
+
+### The pace
+
+The party chooses a pace each day:
+
+| Pace | Miles each day | Effect |
+|---|---|---|
+| Fast | 30 | The guide and the scout have Disadvantage. An encounter happens on a 1 or a 2. |
+| Normal | 24 | No effect. |
+| Slow | 18 | The guide and the scout have Advantage. |
+
+At a Normal pace, the trip takes three days. At a Slow pace, it takes four.
+At a Fast pace, it takes a little more than two days, so the party arrives
+in the morning of the third day.
+
+### The supply die
+
+> **Teach: the supply die.** "Your food and water is one die, from a d4 to
+> a d12. At the end of each day of travel, I roll it. On a 1 or a 2, it
+> gets one size smaller: d12, then d10, then d8, then d6, then d4. If a
+> d4 rolls a 1 or a 2, the food is gone."
+
+The party starts with no supplies. In Brannock's Ford, the party can buy
+them:
+
+- **Each step up the die costs 5 GP for each traveler.** For four
+  characters, a d4 costs 20 GP, a d6 costs 40 GP, and so on. Wick does not
+  eat.
+- **Without a mule or a cart, the largest die is a d10.** Hob sells a mule
+  for 8 GP. Tamsin lends the party her old mule, Patience, for free if they
+  helped the village in Scene 5. "Send her back with the pilgrims after the
+  feast. She knows the way. She knows it better than you do."
+- **Tamsin gives a d4 for free** if the party told her the truth in Scene 4.
+  It is bread, cheese, apples, and a jar of honey. Then the party buys the
+  steps above it.
+
+> **GM tip:** The old coins matter here. If the party sold its suns to
+> Corvin (Scene 7), it can buy a d8 or a d10 easily. If it did not, it may
+> start with a d4 or a d6 and depend on the quartermaster. Both are fine.
+> The road is three days, and the land is not empty. A party that runs out
+> of food buys more from a farm for twice the price.
+
+---
+
+## Scene 9: The Old Road (1 to 2 hours)
+
+**Goal:** Run three days of travel with the Journeys rules. Fight one
+encounter. Show the land between the village and the town.
+
+The old road of Ostrey runs south along the River Brann for the first day,
+crosses a moor where the road is broken for the second day, and joins the
+pilgrim road for the third day. Each day has a Navigation DC, a Foraging
+DC, and one event that always happens. Roll the weather, the roles, the
+encounter, and the supply die as the Journeys rules say.
+
+| Day | Where | Navigation DC | Foraging DC | Event |
+|---|---|---|---|---|
+| 1 | The road along the river | 5 | 8 | The milestone |
+| 2 | The broken road across the moor | 12 | 12 | The bridge and the toll |
+| 3 | The pilgrim road | 5 | 8 | The pilgrims, and Saint Ivo's |
+
+The first and third days use the Roads and Farmland biome of the Journeys
+chapter. The second day is open moor and grass, like the Grassland biome,
+but harder to find the way on, because the road is gone under the grass.
+
+> **GM tip:** If the guide has the Compass of the Old Road, the guide has
+> Advantage on the check on each day. On day 2, that is the difference
+> between a good day and a lost one. Point it out. The dead warden's gift
+> already helps.
+
+### Weather on the old road
+
+Roll a d6 each morning, or use the lookout's roll from the night before.
+It is autumn. The days are short.
+
+| d6 | Weather | Effect |
+|---|---|---|
+| 1 | Clear and cold | No effect. A good day to make up lost time. |
+| 2 | Rain | The road is mud. Travel at a Normal pace counts as Difficult Terrain (the party goes half as far), unless the party goes at a Slow pace. |
+| 3 | Fog in the morning | The area is Lightly Obscured until midday. The scout has Disadvantage. |
+| 4 | Wind from the north | Cold and loud. Wisdom (Perception) checks that rely on hearing have Disadvantage. Fires are hard to light. |
+| 5 | Early frost | The night is very cold. A traveler with no blanket or cold-weather clothes makes a DC 10 Constitution saving throw at dawn. On a failure, the traveler gains 1 Exhaustion level. |
+| 6 | Golden day | No effect. The country is beautiful, and the quartermaster has Advantage. |
+
+> **Teach: weather.** "The weather lasts until the next morning. It can
+> change what you do. In the rain, do you go slower, or do you get muddy
+> and go less far?"
+
+### Encounters on the old road
+
+Roll a d6 each day. On a 1 (or a 1 or a 2 at a Fast pace), roll a d8 on
+this table. If the scout succeeded, the party sees the encounter first.
+It can avoid it, or start a fight with the other side Surprised.
+
+| d8 | Encounter |
+|---|---|
+| 1 | Four **Wolves** (CR 1/4) follow the party at a distance all day. The early frosts drove them out of the hills. At night, they test the camp. If the lookout failed, they attack the mule. |
+| 2 | A family of pilgrims with a broken cart. A character who fixes the wheel (DC 12 Strength (Athletics) or Dexterity check with tools) is invited to share their food. Do not roll the supply die today. |
+| 3 | A **Barrow Light** (CR 1/2) floats over the road at night. It follows the party for a mile and then goes out. If the party fought Aske, it is his. If they made peace, it is a stranger, and it attacks the first creature that goes near it. |
+| 4 | At night, the lookout sees a line of figures in grey crossing the moor, far away, with no lamp. They do not come near. The black stone hums. In the morning, there are footprints in the frost, going south. |
+| 5 | A **Giant Boar** (CR 2) in the oak wood by the road. It does not like the mule. A character who makes a DC 12 Wisdom (Animal Handling) check calms it. |
+| 6 | A **Priest Acolyte** (CR 1/4) and two **Guards** (CR 1/8) from Saint Ivo's, sent to meet the pilgrims and keep the road. They ask for news, and they warn the party about "bandits who say they are tax men" on the moor. |
+| 7 | Two **Swarms of Ravens** (CR 1/4) over a dead horse by the road. The horse has a saddle of Gaunt, with a black gauntlet on red. Its rider is gone. A letter in the saddlebag is addressed to "the Abbess, Saint Ivo's". It is sealed. |
+| 8 | A **Scarecrow Watcher** (CR 1) stands in a field by the road. A farmer made it to keep thieves out of the turnips. It cannot tell a thief from a traveler who picks one apple. |
+
+> **GM tip:** An encounter is not always a fight. Entries 2, 4, 6, and 7
+> are people, signs, and places. The letter in entry 7 is a seed for
+> chapter 5: it is from Marshal Ide Gauntry to the Abbess, about the
+> feast. Its wax seal is the gauntlet. If the party opens it, it is polite
+> and cold: "Gaunt will send a guard of honor for the Feast of the
+> Sleepers. Gaunt honors the Five as the heroes of Ostrey, whose true heir
+> Gaunt is." Nothing more.
+
+### Getting lost
+
+On day 2, the road is gone under the grass, and the guide may fail. When
+the guide fails, the party is lost.
+
+- **The party travels the day's distance, but in the wrong direction.**
+  On the moor, it goes west, toward the hills, away from the river.
+- **The next morning, the guide repeats the check with Advantage.** On a
+  success, the guide knows the party went wrong, and roughly where it is.
+  The party loses one day.
+- **If the guide failed by 5 or more,** the party does not even know that
+  it is lost until the next check succeeds. Describe the moor as if all is
+  well. Then describe the hills in the west, where the hills should not be.
+
+> **Teach: getting lost.** "You are lost. You do not know it yet. Or you
+> do: the river was on your left this morning, and now it is nowhere. What
+> do you do?" A lost day costs one more roll of the supply die. That is the
+> real price.
+
+### Day 1: The milestone
+
+On the first day, the road is good. It follows the River Brann south,
+past farms and orchards. The harvest is late, and the farmers are worried.
+At midday, the party passes an old milestone of Ostrey by the road.
+
+> The stone is as tall as a child, and green with moss. On one side are
+> the words: KINGSHOLM 75 MILES. On the other side: SAINT IVO 60 MILES.
+> Under the words, someone carved the sun of Ostrey, and someone else,
+> much later, carved five little sleeping figures, with halos.
+>
+> Wick looks at the stone for a long time. "Seventy-five miles to the
+> capital," he says. "I always wanted to see the capital. The steward said
+> he would take me one day." He is quiet. Then: "I suppose it is a ruin
+> now. I suppose everyone in it is dead." Then, much smaller: "I suppose
+> the steward is dead."
+
+> **GM tip:** This is Wick's first real sad moment. Let it breathe. Do not
+> fill the quiet. If a player comforts Wick, Wick tells one story about the
+> steward: how Haskel Orme sat up all night to make him, the last night
+> before the sleep, and sang to him while he worked. The steward could not
+> sing. Wick loved it. This makes chapter 7 hit harder.
+
+### Day 2: The bridge and the toll
+
+On the second day, the old road crosses a moor called the Wending. The
+road is broken: its stones are gone under the grass, or pulled up for
+walls. At midday, the road comes to a stream in a deep gully. The old
+bridge of Ostrey still stands, one stone arch, cracked but whole.
+
+On the bridge, a man in a red coat sits on a barrel. A sign on a pole
+says: GAUNT ROAD TOLL. SLEEPERS' TITHE. 1 GP A HEAD.
+
+These are bandits. They are not from Gaunt, and nobody in Gaunt sent
+them. The red coats came from a dead soldier. The tithe goes in their
+pockets.
+
+> "Wake well, friends!" says the man on the barrel. He has a good smile and
+> a bad sword. "The road toll of the Marshal of Gaunt, for the upkeep of
+> this fine old road. One gold a head. For the Sleepers, you understand.
+> The mule goes free."
+
+The party can pay, talk, or fight.
+
+| What the party does | Check | DC | Result |
+|---|---|---|---|
+| Pays | None | None | The bandits let them cross, and laugh behind them. If the party meets the Priest Acolyte of encounter 6 later, the acolyte is angry: "You paid them? Now they will stay all winter." |
+| Calls the lie | Wisdom (Insight) | 10 | The red coat is too big for the man, and the gauntlet badge is sewn on upside down. |
+| Talks them out of it | Charisma (Persuasion) | 15 | The leader is impressed. He lets the party go for free, "this once". |
+| Scares them off | Charisma (Intimidation) | 13 | Two of the bandits run. The rest fight. Take two Bandits away from the encounter. |
+| Says that the road belongs to Ostrey and the Dawnwatch keeps it | Charisma (Intimidation) | 13, with Advantage if the party has the Compass of the Old Road | The bandits laugh, and then they see the badge of the Dawnwatch. One of them touches two fingers to his eyelids, the sign of the Sleepers. The rest fight, but they flee when their leader falls. |
+
+### The fight at the bridge
+
+{{statblock: Bandit Captain}}
+
+{{statblock: Scout}}
+
+The bandit leader is a **Bandit Captain** called Red Hollis. Two **Scouts**
+with bows hide in the rocks on the far side of the gully, 60 feet from the
+bridge. Two **Bandits** stand at the near end of the bridge.
+
+| Party size | Monsters | XP |
+|---|---|---|
+| 4 characters | 1 Bandit Captain, 1 Scout, 2 Bandits | 600 |
+
+> **Scaling:** This is a Moderate fight for level 2 (150 XP for each
+> character).
+>
+> - **3 characters (450 XP):** 1 Bandit Captain (450 XP). The two
+>   Bandits flee at once.
+> - **4 characters (600 XP):** as in the table.
+> - **5 characters (750 XP):** 1 Bandit Captain, 2 Scouts, 2 Bandits
+>   (700 XP).
+> - **6 characters (900 XP):** 1 Bandit Captain, 3 Scouts, 2 Bandits
+>   (850 XP).
+
+- **The map:** the bridge is 30 feet long and 10 feet wide, with no wall.
+  The gully below is 20 feet deep, with a fast stream at the bottom. A
+  creature that falls off the bridge takes 2d6 Bludgeoning damage from
+  the fall and lands in the water.
+- **The scouts** in the rocks have Half Cover. A character must climb the
+  side of the gully (DC 12 Strength (Athletics) check) to reach them, or
+  cross the bridge.
+- **The bandits want money, not death.** When Red Hollis drops to half
+  his Hit Points, he offers to give back the tolls of the week and leave.
+  When he falls, the others run.
+
+**Treasure:** In the barrel are the tolls of the week: 32 GP, 140 SP, and
+a Potion of Healing that a pilgrim paid in place of gold.
+
+### Day 3: The pilgrims
+
+On the third day, the old road joins the pilgrim road from the west, and
+the road is full. Pilgrims walk south in families and groups, with
+banners, songs, and carts. Some walk with bare feet for penance. They all
+go to the feast. The party is one group among many.
+
+Choose two or three of these meetings.
+
+- **Dace** is on the road with his cart, if he got away. He waves. He has
+  new bones. "Sheep," he says, before anyone asks. "I am a changed man."
+- **A pilgrim mother** asks the party to bless her baby. "You look like
+  the Sleepers in the play." If a character does it, the baby stops crying.
+  It is a coincidence. The mother does not think so.
+- **A group of pilgrims** sing "The Five at the Gate". All of it. Twice.
+- **An old man** walks with a stick, very slowly. He is going to the feast
+  to ask the Sleepers to wake before he dies. He is ninety. "My father
+  asked too," he says. "And his."
+- **A cart** with the painted sign: PELL'S PLAYERS. THE FIVE SLEEPERS, AS
+  THEY TRULY WERE. The cart is empty. The troupe went ahead.
+
+---
+
+## Scene 10: Saint Ivo's (10 minutes)
+
+**Goal:** End the chapter. Show the town of the Church, and lead into
+chapter 3.
+
+> At the end of the third day, the road comes over a low hill, and there it
+> is.
+>
+> You knew the shrine of Saint Ivo: a chapel, a well, and a guesthouse in a
+> green valley, where tired soldiers stopped for a night. It is gone. In
+> its place is a town of a thousand roofs, inside a wall of yellow stone.
+> In the middle of the town stands a church so big that the town looks
+> small around it. Its tower has a gold sun on top. Lamps burn in every
+> window. Bells ring for the evening prayer, and the sound comes up the
+> hill like water.
+>
+> Over the gate, a banner as long as a ship moves in the wind. On it are
+> five figures in white, asleep, with gold halos. Under them, in letters
+> as tall as a man: THEY WILL WAKE.
+>
+> Wick says nothing at all. Then: "Well," he says. "They did wake. Somebody
+> should tell them."
+
+The chapter ends here. Chapter 3 starts at the gate of Saint Ivo's, the
+next morning.
+
+---
+
+## Rewards
+
+The characters can end this chapter with these things.
+
+- **The Compass of the Old Road**, from Aske in the barrow (Scene 6). It is
+  an Uncommon magic item. The Treasures appendix has its full entry.
+- **Money:** up to 75 GP for the old suns from Corvin Lisle (Scene 7), and
+  up to 500 GP more if the Shadow sold the stolen thing. The tolls at the
+  bridge give 32 GP and 140 SP (Scene 9). The grave goods in the barrow
+  are worth 40 GP, if the party took them.
+- **A Potion of Healing**, from the barrel on the bridge (Scene 9).
+- **A friend:** Tamsin believes the party. Her ferry token carries them
+  across the River Brann for free, for the rest of their lives.
+- **A name in a book:** Corvin Lisle knows that something strange is going
+  on. In chapter 3, he is a witness, if the party wants one.
+
+> **Teach: the system stays.** "You now know the Journeys rules. Each time
+> you take a long trip in this book, we use them. The next one is in
+> chapter 4."
+
+### Level up
+
+The characters go to level 3.
+
+They go up at the next Long Rest, in Saint Ivo's. Level 3 is a big level:
+each character chooses a subclass. Give the players time. The class
+chapters of the Player's Compendium give the subclasses and their
+features. Help each player of a pregen choose one that fits the character:
+the Shield, for example, fits a subclass that protects its friends.
