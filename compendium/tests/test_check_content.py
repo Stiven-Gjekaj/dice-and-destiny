@@ -164,3 +164,23 @@ def test_background_with_an_unknown_feat_fails():
 
 def test_srd_origin_feats_include_the_four_srd_feats():
     assert {"Alert", "Magic Initiate", "Savage Attacker", "Skilled"} <= srd_origin_feats()
+
+
+from check_content import spell_class_level_errors
+
+
+def _spell(name, level, classes):
+    return (name, level, "Evocation", classes, "Action", "60 feet", "V", "Instantaneous", False, False, "text", None)
+
+
+def test_half_caster_spell_above_level_5_fails():
+    errors = spell_class_level_errors([_spell("Big Wall", 6, ["Druid", "Ranger"])])
+    assert len(errors) == 1 and "Big Wall" in errors[0] and "Ranger" in errors[0]
+
+
+def test_half_caster_spell_at_level_5_passes():
+    assert spell_class_level_errors([_spell("Small Wall", 5, ["Paladin", "Ranger"])]) == []
+
+
+def test_full_caster_spell_above_level_5_passes():
+    assert spell_class_level_errors([_spell("Big Wall", 9, ["Wizard"])]) == []

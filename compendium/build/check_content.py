@@ -207,6 +207,20 @@ def srd_origin_feats():
         return {e["name"] for e in json.load(f) if e.get("type") == "Origin"}
 
 
+# Half casters learn spells up to level 5 only.
+HALF_CASTER_MAX = {"Paladin": 5, "Ranger": 5}
+
+
+def spell_class_level_errors(spells):
+    """A spell above level 5 can't be on the Paladin or the Ranger list."""
+    errors = []
+    for sp in spells:
+        for cls, top in HALF_CASTER_MAX.items():
+            if cls in sp[3] and sp[1] > top:
+                errors.append(f"spells: {sp[0]} (level {sp[1]}) is on the {cls} list, which stops at level {top}")
+    return errors
+
+
 def check_all_content():
     import importlib
     import os
@@ -234,6 +248,7 @@ def check_all_content():
     errors += background_feat_errors(mods["backgrounds"].BACKGROUNDS, origin)
     for m in mods["monsters"].MON:
         errors += monster_out_of_band(m)
+    errors += spell_class_level_errors(mods["spells"].SPELLS)
     for sp in mods["spells"].SPELLS:
         name, level, desc = sp[0], sp[1], sp[10]
         errors += spell_damage_too_high(name, level, desc, is_area(desc))
