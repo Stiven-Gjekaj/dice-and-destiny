@@ -476,3 +476,287 @@ What Maud tells the party about the town:
 - **The graveyard and the church** (F8 and F9): "Stay out of the church.
   The Weeping's there. And the candle. You want the candle, you get past
   the Weeping. You can't fight it. I've seen people try."
+
+---
+
+## Scene 4: The Drowned Town (2 to 3 hours)
+
+**Goal:** A dungeon. Let the party explore at their own pace, find the
+truth of the flood, and get ready for the church.
+
+### Fighting under the water
+
+Read this box before you run this scene. Copy it for the players if they
+want it.
+
+> **Teach: under the water.** These are the rules for a fight under water,
+> from the core rules. Teach them the first time the party goes under.
+>
+> - **Swimming.** A creature without a Swim Speed spends 1 extra foot of
+>   movement for each foot that it swims. Fennick is calm water, so no
+>   Strength (Athletics) check is needed, except to swim against the
+>   current at the sluice gate (F7).
+> - **Melee attacks.** A creature without a Swim Speed has Disadvantage on
+>   melee attack rolls with a weapon under water, unless the weapon deals
+>   Piercing damage (a Dagger, a Spear, a Trident, a Rapier, and so on).
+> - **Ranged attacks.** A ranged attack roll with a weapon under water
+>   misses at once beyond the weapon's normal range. Inside the normal
+>   range, it has Disadvantage.
+> - **Fire.** A creature or object that is fully under water has
+>   Resistance to Fire damage.
+> - **Breath.** A creature can hold its breath for a number of minutes
+>   equal to 1 plus its Constitution modifier (minimum 30 seconds). When
+>   it runs out of breath, it gains 1 Exhaustion level at the end of each
+>   of its turns. When it can breathe again, it removes the Exhaustion
+>   levels that it gained this way. A Potion of Water Breathing, the
+>   *Water Breathing* spell, or the Fennick Candle (Scene 5) stops all of
+>   this.
+> - **Light in Fennick.** This one is not a core rule. It is a rule of
+>   this town: the water is dark and full of silt, so light from a lantern
+>   or a spell reaches half its usual distance under the water. Wick's
+>   light is the same. The light of the First Lamp is sunlight, and it is
+>   not reduced.
+
+> **GM tip:** The watch house (F5) has spears and tridents in a dry chest.
+> Tell the players this before they go into the market. A fighter with a
+> longsword or a mace who has Disadvantage on every attack is no fun. A fighter who
+> finds a good spear in the armory of the old watch is a story.
+
+### The town in short
+
+The town sits on a low island inside the dike. The water over the streets
+is 15 to 25 feet deep. The roofs are 5 to 10 feet under the surface. The
+tower and the church are in the middle, on a small hill.
+
+| Area | Name | What is there |
+|------|------|---------------|
+| F1 | The bell tower | Maud and her squad. A safe place to rest above the water. |
+| F2 | The roofs | A path over the roofs. Slippery. |
+| F3 | The market square | The drowned at the market. An encounter. |
+| F4 | The hall of the dike wardens | The books, and the order that drowned the town. |
+| F5 | The watch house | The armory, the roll of the squad, Maud's own room. |
+| F6 | The house on Lantern Row | The house of the Storm thread. |
+| F7 | The sluice gate | The great wheel. An encounter. Lowers the water in the church. |
+| F8 | The graveyard | Old stones in the mud. A hazard. A side way into the church. |
+| F9 | The church of Fennick | The Grief, the candle, and the Hush. Scene 5. |
+
+The party can go in any order. A good order is F2, F3, F5, F4, F6, F7, F8,
+then F9. If the party goes straight to the church, let them. The church is
+much harder if they did not open the sluice (F7) or learn the bell trick.
+
+> **GM tip:** Keep the pace up. Give each area two or three sentences of
+> read-aloud text, one choice, and one thing to find. Do not describe every
+> house. The town has hundreds of houses. Most of them are only mud, fish,
+> and broken cups.
+
+### F1. The bell tower
+
+Described in Scenes 2 and 3. Maud stays here. The party can come back to
+rest. The tower top is dry, and Maud keeps watch. A Short Rest here is safe.
+A Long Rest is safe too, but the drowned squad snores. ("They don't
+breathe," says Wick. "How do they snore?")
+
+The bell has three ropes. A creature can pull one rope with the Utilize
+action. The bell rings once for each rope that is pulled. When three ropes
+are pulled in the same round, that is the all-clear. See Scene 5.
+
+### F2. The roofs
+
+> Under the water, the roofs of Fennick are a road of green stone and black
+> slate. Weed grows on them in long, slow ribbons. Small silver fish hide in
+> the chimneys. When you step on a roof, a cloud of mud rises up and
+> swallows your feet.
+
+A character can walk on the roofs with the water to the chest or the neck.
+The roofs are Difficult Terrain. Between the houses are gaps of 5 to 10
+feet, down to the street, 20 feet below.
+
+| Check | DC | Result |
+|-------|----|--------|
+| Dexterity (Acrobatics) | 12 | The character jumps a gap and lands well. On a failure, the character slips and falls into the street below. It is a slow fall in water, so no damage, but the character is now 20 feet under the surface. |
+| Wisdom (Perception) | 14 | A slate on the roof of the bakery is loose. Under it is a small tin box. In it are 30 GP of old Ostrey coins and a child's tin soldier. |
+| Wisdom (Survival) | 13 | The character finds the best way to the market: along the roof of the long weavers' hall. The party arrives without a sound and has Advantage on Stealth checks there. |
+
+### F3. The market square
+
+> The street opens into a wide square. Under the green water, the stalls
+> still stand: a fish stall, a bread stall, a stall of pots. At each one
+> stands a figure. They are pale and bloated, with weed in their hair. One
+> holds up a fish that is only bones. One counts coins that are not there.
+> One turns slowly toward you. Then all of them turn toward you.
+>
+> "Fresh," says the drowned woman at the fish stall, in a voice full of
+> water. "Fresh today. Come closer."
+
+The drowned of Fennick still do what they did on the last morning of their
+lives. They are not evil. They are lonely, and they are hungry for warmth.
+They want company. They take it by force.
+
+**Talking first.** A character who acts like a customer can try to walk
+through the market without a fight.
+
+| Check | DC | Result |
+|-------|----|--------|
+| Charisma (Deception) | 15 | The character plays a buyer and pays with a real coin. The drowned at that stall lets the character pass. A group of three characters who each succeed can cross the market. |
+| Charisma (Persuasion) | 17 | The character talks to the drowned like a neighbor. They listen. They stop. Then one of them reaches out to touch the warm face. The encounter starts with the party in the middle of the square, but the drowned are Surprised. |
+| Dexterity (Stealth) | 14 | The party sneaks around the edge of the square. If all succeed, they reach F4 or F5 with no fight. The swarms in the gutters still smell them (see below). |
+
+If the party fails, or attacks, or simply walks in with light, the fight
+starts.
+
+### Encounter: The Market of the Drowned (Low)
+
+**Creatures:** Six Fennick Drowned, one Swarm of Bloodleeches, and one
+Spearjaw Gar. All of them are in the Original Bestiary of the Game Master's
+Compendium, except the drowned, which are in this chapter.
+
+- The drowned stand at the stalls. They move toward the nearest warm
+  creature. They grab and drag. A drowned that grabs a character tries to
+  swim it down into the deep street, 10 feet below the square.
+- The Swarm of Bloodleeches lives in the gutter on the north side. It
+  comes out on round 2, when blood is in the water.
+- The Spearjaw Gar is a fish as long as a boat. It hides in the broken
+  window of the weavers' hall (it is hidden at the start). It attacks the
+  first character who swims, not walks.
+
+**XP:** for 4 characters at level 8, the Low budget is 4,000 XP. Five
+drowned (2,250), one Swarm of Bloodleeches (450), and one Spearjaw Gar
+(450) make 3,150 XP. With Techniques on, add one more drowned (450). Total:
+six drowned, 3,600 XP. A Low fight, but a messy one in the water.
+
+**Terrain:**
+
+- The stalls give Half Cover.
+- The square is 15 feet under the water. The deep street on the south side
+  is 25 feet under the water and very dark.
+- A broken well in the middle of the square is a shaft 40 feet deep. A
+  creature that is dragged into it is 40 feet under the surface and in
+  darkness.
+
+**Tactics:** The drowned do not use smart tactics. They come in a slow wave,
+two or three at each character. They hold on with Clutching Hands and swim
+their prey down and away. Their trait Still Here makes them hard to put
+down in the water. Radiant damage (the First Lamp, a cleric's spell) puts
+them down for good. Let the players find that out.
+
+> **GM tip:** If the party has the First Lamp, the drowned hate and want its
+> light at the same time. They come toward it, and then they stop at the
+> edge of the Bright Light, and they moan. Use that. It is a good moment
+> for the players to see what the Lamp is.
+
+> **Scaling:** The Low budgets are 3,000 (3 characters), 4,000 (4), 5,000
+> (5), and 6,000 (6). The extra monster for Techniques is in each line for
+> 4 or more characters.
+>
+> - **3 characters:** four drowned, one Swarm of Bloodleeches, one
+>   Spearjaw Gar. 1,800 + 450 + 450 = 2,700 XP.
+> - **4 characters:** six drowned, one swarm, one gar. 2,700 + 450 + 450 =
+>   3,600 XP.
+> - **5 characters:** six drowned, two swarms, two gars. 2,700 + 900 + 900
+>   = 4,500 XP.
+> - **6 characters:** eight drowned, two swarms, two gars. 3,600 + 900 +
+>   900 = 5,400 XP. Bring the drowned in waves of two each round, so that
+>   you can run them.
+
+**Treasure:** At the money changer's stall, under a stone, is a lead box with
+120 GP in old coins and a silver scale that weighs true (worth 25 GP). On
+the drowned fishwife is a necklace of river pearls (worth 100 GP).
+
+### F4. The hall of the dike wardens
+
+> A tall stone hall with a bronze door, half open, stuck in the mud. Over
+> the door, carved in the stone: a dike, a wave, and a key. Inside, the
+> water is very still. Shelves of rotten books line the walls. In the
+> middle stands a table of black oak, and on it, under a cover of glass, a
+> book. The glass held. The book is dry.
+
+The dike wardens were the officers who kept the dike and the sluices. The
+glass case kept their last book dry for two hundred years. The case is
+sealed with wax. A character who opens it under the water ruins the book in
+1 minute, unless the character carries the case up to the air first. The
+case is heavy (60 pounds) but it floats once it is free of the table.
+
+| Check | DC | Result |
+|-------|----|--------|
+| Intelligence (Investigation) | 13 | The character sees that the case is sealed, and that the book will be ruined in the water. The party knows to take it up first. |
+| Strength (Athletics) | 14 | The character frees the case from the table and swims it up. |
+| Intelligence (History) | 15 | The character knows the seal on the last page: it is the seal of a lord of the civil war, not of the king. Ostrey had no king at that time. |
+
+The book is the log of the wardens. Most of it is about the water level,
+the eels, and the price of stone. The last three pages tell the story of the
+last night. Read it to the players, or tell it in your own words.
+
+> *The 3rd day of the deep frost. The rebel host is camped on the low
+> ground east of the dike, some four thousand. We closed the gates and set
+> the watch.*
+>
+> *The 4th day. A rider came with a written order and his lordship's seal.
+> The order says to open all the gates at the turn of the tide, "to deny
+> the low ground to the enemy". I said the water will come over the island.
+> The rider said the island is to be cleared first. Nobody has come to
+> clear it.*
+>
+> *The 4th day, night. We have asked for the order to be confirmed. The
+> rider says it is confirmed. His men stand at the wheel. They have the
+> keys. I have sent the boy to the watch house to tell Sergeant Kettle.
+> God keep us.*
+
+The rest of the page is blank.
+
+> **GM tip:** This is the truth of the flood. It is not a monster. It is a
+> person who gave an order. Do not name the lord. In the land today, many
+> families say that they come from the lords of old Ostrey, and the name
+> would only start an argument at the table. What matters is this: nobody
+> warned Fennick, and Maud knows it. If the party shows the book to Maud,
+> she reads it, and then she sits down on the floor of the tower for a long
+> time. "The boy never came," she says at last. "I saw the water first. I
+> rang the bell. That's all. I thought I was late."
+
+Showing the book to Maud changes something. She does not feel guilty
+anymore. She is only angry, and anger is easier to carry. In Scene 6, this
+matters: she can go off watch in peace.
+
+**Treasure:** In a drawer of the table is the silver key of the sluice gate
+(F7). With it, the wheel is much easier to turn (see F7).
+
+### F5. The watch house
+
+> A squat building with thick walls and narrow windows, next to the old town
+> gate. A bell hangs over the door, smaller than the one in the tower, green
+> with age. Inside, the water is cold. Spears stand in a rack on the wall,
+> straight and neat, as if someone still cleans them every day.
+
+Someone does. Maud's squad comes here after the drill each morning and
+cleans the spears. They are clean. They are also two hundred years old.
+
+**What is here:**
+
+- **The armory.** A chest of tarred oak, still dry inside. It holds six
+  spears, two tridents, four daggers, and a heavy crossbow with 20 bolts,
+  all in good condition. The spears, tridents, and daggers deal Piercing
+  damage, so they work well under the water. Remind the players of the box "Fighting under the water".
+- **The roll of the squad.** A slate board on the wall with the names of
+  the third watch of Fennick, chalked and chalked again. There are twelve
+  names. Six have a line through them: the ones Maud lost in the flood and
+  never found. The other six are her squad. The first name at the top is
+  KETTLE, M., SGT.
+- **Maud's room.** A small room with a cot, a table, and a sea chest.
+  On the table is half a letter to someone named Wil: "The dike wardens are
+  nervous. I don't like it. The lords' war is close. Kiss the girls for me.
+  Back at..." It ends there.
+- **The town roll.** A big book in a lead box, with the names of every
+  household of Fennick. The watch used it to count the people at the
+  muster. It is the list of the dead. In Scene 5, it can help to calm the
+  Grief.
+
+| Check | DC | Result |
+|-------|----|--------|
+| Wisdom (Perception) | 13 | Under the cot is Maud's own treasure: a pair of Gauntlets of Ogre Power, in a box of oiled leather. She took them from a troll in the war. A note in the box says, "For the next good sergeant." |
+| Intelligence (Investigation) | 15 | The character finds the names of the six lost members of the watch in the town roll too. Each one has a family on the island. None of them were found. |
+| Wisdom (Insight) | 12 | The letter to Wil tells the character that Maud had a family. They are not on the squad. If they died in the flood, they are somewhere in the town. Maud does not talk about it. |
+
+> **GM tip:** If the players ask Maud about Wil and the girls, she says only:
+> "They lived on Lantern Row. I never went to look. A sergeant stays at
+> her post." If the party goes to Lantern Row (F6), they find the house of
+> the Storm thread. Next door is a house with a small blue door and three
+> cups on the table. Let the players decide what to do with that.
