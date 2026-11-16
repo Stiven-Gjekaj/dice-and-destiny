@@ -618,7 +618,7 @@ player one question. Choose the one that matches the "Before" answer:
   it worth it?"
 
 > **Teach: the story belongs to the players.** "Your answers become the
-> story. A DM uses what you say to build the next adventure."
+> story. A GM uses what you say to build the next adventure."
 
 Give Heroic Inspiration again for the best answer, if the player does not
 have it.

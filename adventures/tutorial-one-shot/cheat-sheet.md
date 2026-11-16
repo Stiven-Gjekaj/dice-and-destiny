@@ -4,7 +4,7 @@ Print one copy for each player. Everything here is in the 2024 rules.
 
 ## The one rule
 
-You tell the DM what your character does. The DM tells you if you must roll.
+You tell the GM what your character does. The GM tells you if you must roll.
 
 ## Distances
 
@@ -18,7 +18,7 @@ The game gives distances in feet. You do not need to count them exactly:
 
 1. Roll a d20 (the big die with 20 sides).
 2. Add the number from your sheet.
-3. Tell the DM the total.
+3. Tell the GM the total.
 4. If the total is equal to or more than the target number, you succeed.
 
 There are three types of d20 tests:
@@ -39,7 +39,7 @@ There are three types of d20 tests:
 
 ## Heroic Inspiration
 
-The DM gives you Heroic Inspiration for good roleplay or a great idea. When
+The GM gives you Heroic Inspiration for good roleplay or a great idea. When
 you roll any die, you can use it to roll that die again. You must use the new
 roll. You can have only one at a time.
 

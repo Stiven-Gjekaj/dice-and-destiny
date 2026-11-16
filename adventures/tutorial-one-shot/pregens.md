@@ -23,7 +23,7 @@ template. The player writes in a name and keeps the rest.
 
 - **Ability scores:** The score is in front. The modifier is in brackets. You
   add the modifier to a d20 roll.
-- **Save:** You add this number when the DM asks for a saving throw of that
+- **Save:** You add this number when the GM asks for a saving throw of that
   ability.
 - **Attack:** You add the first number to the d20. If you hit, you roll the
   damage dice and add the second number.
@@ -312,7 +312,7 @@ captain gave you a second chance. You find traps, open locks, and hit hard
 when an enemy does not see you.
 
 **Before question:** "You stole one last thing on the night before the long
-sleep. What was it?" (DM: it is still in your pocket.)
+sleep. What was it?" (GM: it is still in your pocket.)
 
 ### Your best moves
 
@@ -320,7 +320,7 @@ sleep. What was it?" (DM: it is still in your pocket.)
   (d20 + 5, damage 1d6 + 3, range 80 feet).
 - **Sneak Attack:** one time on each of your turns, add 1d6 damage if you have
   advantage, or if an ally stands next to the target.
-- **Skills:** you are the best at Stealth (+7) and Perception (+5). Ask the DM
+- **Skills:** you are the best at Stealth (+7) and Perception (+5). Ask the GM
   if you can search for traps.
 
 ### Numbers
