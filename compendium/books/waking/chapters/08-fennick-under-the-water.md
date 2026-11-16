@@ -927,3 +927,204 @@ Grief and has Advantage on Initiative.
 > the watch house (F5), a few drowned stand in the graveyard with flowers
 > that are only stems. They do not attack. They are visiting their dead.
 > A good place for a quiet moment before the last fight.
+
+---
+
+## Scene 5: The Church of Fennick (60 to 90 minutes)
+
+**Goal:** The climax of the chapter. The party gets the candle. The Grief
+guards it. The Hush comes to put it out.
+
+### The church
+
+> The church of Fennick is long and dark under the water. Its tall windows
+> are broken, and weed hangs in them like curtains. The roof is half gone,
+> and the water above is grey with morning light. Rows of benches lean in
+> the mud. Fish move between them like the last people at a service.
+>
+> At the far end, on a stone altar, a candle burns.
+>
+> It is a thick white candle in a plain iron dish. Its flame is small and
+> steady and gold. It burns under the water as if the water was air. Around
+> it, the water is warm. Weed grows toward it. Every fish in the church
+> stays near it.
+>
+> And around it, something moves. A cold grey shape, bigger than a horse,
+> drifts in a slow circle around the altar. Faces come and go in it. A man.
+> A child. An old woman. A dog. A girl with a ribbon. They open their
+> mouths, all at once, and they scream with no sound.
+
+{{statblock: Grief of Fennick}}
+
+The Grief does not attack at once. It circles the candle. It attacks any
+creature that comes within 30 feet of the altar, or that attacks it, or
+that brings a light into the church that is not the candle. (The First
+Lamp, Wick, or any spell of light makes it attack at once. It wants no
+other warm thing near its candle.)
+
+### The water in the church
+
+The church is 30 feet deep under the water at the doors, and the altar
+stands on a step, 25 feet deep.
+
+- **If the party turned the wheel at the sluice gate (F7):** the water is
+  10 feet lower. The top of the nave is now air. The benches and the altar
+  are still under the water, but the party can swim up to breathe at any
+  time, and a character on the top of the old organ loft (20 feet above
+  the floor) is out of the water. This also gives ranged attacks a clear
+  line from the loft.
+- **If not:** the church is fully under the water. The rules of "Fighting
+  under the water" apply everywhere.
+
+### The Hush arrives
+
+Start this when the party first comes close to the candle, or when the fight
+with the Grief begins.
+
+> A sound comes through the water: a low hum, many voices, with the mouths
+> closed. Grey shapes come in through the broken windows on the north side.
+> Divers, with weighted belts and grey hoods, and in the middle a woman in
+> a long grey robe with an iron censer on a chain. The censer gives out
+> black smoke that does not mix with the water. Where it goes, the light
+> goes out.
+>
+> She looks at the candle. She looks at you. She lifts a hand, palm down,
+> the sign of the Hush.
+>
+> "Let it go," she says, and her voice is in your head, not your ears. "It
+> has burned long enough. Everything that burns must rest."
+
+The black stone hums so loud that its bearer feels it in the teeth.
+
+The Hush has drunk potions of water breathing, and the priest wears a grey
+amulet that does the same. They want one thing: to put the candle out. The
+priest needs to use Snuff the Sun with the candle inside the Sphere four
+times, or to hold the candle in her hand for 1 minute. Each time, the candle flickers lower, and the Grief howls.
+
+### Encounter: Three Sides at the Altar (High)
+
+{{statblock: Hush Dusk Priest}}
+
+{{statblock: Hush Night Warden}}
+
+**Creatures:** the Grief of Fennick, one Hush Dusk Priest, and two Hush
+Night Wardens. The Grief fights everyone who comes near the candle,
+including the Hush. The Hush fights the party, and the Grief when they must.
+
+**XP:** for 4 characters at level 8, the High budget is 2,100 × 4 = 8,400
+XP. The Grief (3,900), the priest (2,900), and one Night Warden (1,100)
+make 7,900 XP. With Techniques on, add one more Night Warden, the monster of
+the lowest CR (1,100). Total: 9,000 XP. That is over the High budget, but
+the Grief and the Hush also fight each other, so the party never faces all
+of it at once. This fight is hard. It is the climax of the chapter.
+
+**The three sides:**
+
+- **The Grief** attacks the nearest creature to the candle, whatever its
+  side. On each of its turns, roll a d6. On a 1 to 3, it attacks a member
+  of the party. On a 4 to 6, it attacks a member of the Hush. If no one is
+  within 30 feet of the altar, it circles and waits. It uses Call the
+  Drowned on each turn: the drowned of the graveyard come in through the
+  windows, one each round, from round 2. They are part of the Grief, not
+  extra monsters, so they do not count for the XP. Use the statblock of
+  the Fennick Drowned. No more than three are in the church at one time.
+- **The Hush** goes for the candle. The Night Wardens hold the party off
+  with Close the Ranks and their maces. The priest casts Darkness on the
+  party first, then Silence on the casters, then goes to the altar and uses
+  Snuff the Sun as soon as it recharges. When the Grief attacks the
+  priest, the wardens turn to protect her.
+- **The candle.** Track the candle. It starts at full flame. Each time the
+  priest uses Snuff the Sun with the altar in the Sphere, the flame
+  drops one step: full, low, a spark. A fourth time puts it out. If the
+  priest holds the candle for 1 minute (10 rounds), it goes out too. A
+  character who takes the candle from the altar ends all of this: the
+  candle is safe in a hand that cares for it. To take it, a character must
+  reach the altar and use the Utilize action. The Grief attacks that
+  character on its next turn, always.
+
+**The bell trick:** Maud told the party about the all-clear. If three
+creatures pull the three ropes of the bell in the tower (F1) in the same
+round, the bell rings the all-clear over the town. The Grief loses its trait
+The Bell: it no longer regains 10 Hit Points each turn. It also stops for a
+moment and turns its hundred faces up toward the sound. It has the
+Incapacitated condition until the end of its next turn.
+
+How the party can do it:
+
+- Three characters leave the fight, swim up to the tower, and pull the
+  ropes together. The tower is 30 feet above the church floor, straight up
+  through the hole of the bell rope in the vault. A character with water
+  breathing swims up in one or two turns.
+- Maud can pull one rope. If the party asked her, she is at the tower,
+  ready. Her squad can pull a second rope if the party showed them the
+  drill card, and if a character at the tower uses an action to shout the
+  order (a DC 12 Charisma (Intimidation) or (Persuasion) check). So one
+  character with Maud and one drowned is enough.
+- A spell or a trick that pulls a rope from far away also counts (for
+  example *Mage Hand*).
+
+> **GM tip:** The bell trick is not a secret door. It is a reward for
+> players who listen. If they forget it, Maud shouts from the tower after
+> round 3: "The BELL, recruits! The all-clear! Three ropes!" If the party
+> did not meet Maud as a friend, the Grief simply fights on, and the party
+> needs more damage. The fight is still winnable.
+
+**Calming the Grief:** The party can end the Grief without destroying it. A
+character who holds the town roll from the watch house (F5), or the warden's
+book from F4, can use an action to read names aloud to the Grief, or to tell
+it the truth of the flood. Make a DC 16 Charisma (Persuasion) or
+Intelligence (Religion) check. After three successes, the Grief stops. Its
+faces turn calm, one by one, and it sinks into the floor of the church like
+mist. It is gone. If the all-clear has rung, each success counts as two.
+
+> **Scaling:** The High budgets are 6,300 (3 characters), 8,400 (4), 10,500
+> (5), and 12,600 (6). The extra monster for Techniques is in each line for
+> 4 or more characters. Because the Grief and the Hush fight each other too,
+> each line is a little over the budget on paper. That is on purpose.
+>
+> - **3 characters:** the Grief and the priest. 3,900 + 2,900 = 6,800 XP.
+> - **4 characters:** the Grief, the priest, and two Night Wardens. 3,900 +
+>   2,900 + 2,200 = 9,000 XP.
+> - **5 characters:** the Grief, the priest, and three Night Wardens. 3,900
+>   + 2,900 + 3,300 = 10,100 XP.
+> - **6 characters:** the Grief, the priest, and four Night Wardens, and
+>   the Grief has 10% more Hit Points (156). 3,900 + 2,900 + 4,400 =
+>   11,200 XP.
+>
+> **If the party is in trouble:** Maud comes down from the tower. She is
+> bound to the tower, but the church is under the tower, and she decides
+> that counts. She takes the place of one Night Warden in the fight and
+> fights it, and she shouts techniques at the party.
+
+### When the candle is safe
+
+The fight ends when the Hush is beaten or flees and the Grief is destroyed or
+calmed. A Hush that loses its priest flees through the windows. A captured
+warden says nothing at all, ever. A captured priest says only this:
+
+> "You can carry the light. You cannot carry the sun. It is dying, little
+> sleepers. Ask your lantern. Ask the old man who made it what he did."
+
+On the priest is a letter in a code of the Hush. A DC 15 Intelligence
+(Investigation) check breaks it. It says: "When the third light is out,
+come north. Mother calls the choir to the old city. The king's bed is
+waiting." This points to Kingsholm (chapter 10), and to the gathering of
+the Hush there.
+
+When a character takes the candle:
+
+> The candle is warm in your hand. Not hot. Warm, like a cup of tea, like
+> a hand. The water around you changes. You breathe in, and it is not
+> water anymore. It is cold, clean air. All around you, the people of the
+> party gasp, and laugh, and breathe.
+>
+> Wick looks at the candle. Then he looks at it again. "Oh," he says, in a
+> very small voice. "Oh. It's like looking in a mirror. A very old mirror.
+> Hello. Hello, cousin."
+
+{{treasure: The Fennick Candle}}
+
+> **GM tip:** Wick does not know that he is the last true piece of the
+> Dawnfire. Nobody knows that in Book One. But Wick feels something when he
+> is near the pieces. Play it as a small, warm, strange feeling. Do not
+> explain it. Book Two explains it.
