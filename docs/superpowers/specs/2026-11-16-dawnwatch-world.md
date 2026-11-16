@@ -152,7 +152,7 @@ The gazetteer sets these facts. Each writer uses them.
 - **The greeting today:** "Wake well." The answer is "And see the
   morning." It comes from the Sleepers. The small curse is "Darkit."
 - **The coins today:** gold, silver, and copper pieces. Corrantey stamps a
-  lamp on its coins. Gaunt stamps a mailed fist. A collector pays 5 GP or
+  lamp on its coins. Gaunt stamps the iron gauntlet of the Gauntry family. A collector pays 5 GP or
   more for a gold sun of Ostrey.
 - **The Church art:** the Five are tall, golden, and human. The faces are
   wrong. Nobody knows that the Spark is an elf.
@@ -171,6 +171,19 @@ The gazetteer sets these facts. Each writer uses them.
 - **The statue in Kingsholm:** a knight in the armor of the Dawnwatch in
   the old square, with the face and the name cut away. It was Garrath.
   Orme had them cut. Chapter 10.
+- **The mark of Haskel Orme:** a small sun inside a square. The
+  Lampwrights put it on every lamp. It is on Wick.
+- **The council of Corrantey:** twelve guild masters, one seat each, at a
+  round table in the Council House.
+- **The Book of the Vigil:** the holy book of the Church, with the stories
+  of the Five. Most of the stories are wrong.
+- **The strength of the powers:** Gaunt has about three thousand soldiers
+  and twenty war mages. The Church has a guard of about four hundred. The
+  city watch of Corrantey is about five hundred. The Hush has a few
+  hundred members.
+- **The sizes of the towns:** Brannock's Ford about two hundred people,
+  Saint Ivo's about four thousand, Stannard about six thousand, Corrantey
+  about fifteen thousand.
 - **Kell** had its own piece of the Dawnfire after the war. It went out in
   the Broken Years.
 - **Sergeant Maud Kettle** was a sergeant of the last garrison of the king

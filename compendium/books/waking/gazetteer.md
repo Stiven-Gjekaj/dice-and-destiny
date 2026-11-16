@@ -330,7 +330,7 @@ Corrantey, people think that they are actors.
 ### Money
 
 Most coins today come from Corrantey, which stamps a lamp on them, or from
-Gaunt, which stamps a mailed fist. Both are good gold, silver, and copper,
+Gaunt, which stamps the iron gauntlet of the Gauntry family. Both are good gold, silver, and copper,
 and everybody takes both. Use the normal prices of the Player's
 Compendium.
 
@@ -1010,3 +1010,343 @@ fighting ways, and the Techniques system starts here.
 > **Secret (chapter 8):** The reason why the Storm agreed to sleep is in
 > Fennick. Use the words of the player of the Storm. See the thread in
 > chapter 8.
+
+## The Powers of the Land
+
+Four powers move the story of Book One. Three of them want the Dawnwatch
+on their side. The fourth wants the Dawnwatch asleep again, or dead.
+
+| Power | Seat | Leader | What it wants from the Dawnwatch |
+|---|---|---|---|
+| Gaunt | Stannard | Marshal Ide Gauntry | Living banners for its army. |
+| The Church of the Five Sleepers | Saint Ivo's | Abbess Merrow | Living saints for its altar. |
+| Corrantey and the Lampwrights | Corrantey | The council of guilds; Perrin Hale | A good deal, and the secret of Wick. |
+| The Hush | Hidden; Kell, then Kingsholm | Mother Sallow | The black stone. Then the dark. |
+
+### How the powers see each other
+
+| | Gaunt | The Church | Corrantey | The Hush |
+|---|---|---|---|---|
+| **Gaunt** | | Rivals for the middle land. "Priests with too many fields." | Trade partners who charge too much. | Does not know that it exists. |
+| **The Church** | Soldiers who want its tithes. "A sword with a crown on it." | | Sinners with good ships. Useful. | Heretics, if it hears of them. It has not, yet. |
+| **Corrantey** | A good customer, and a danger. | A good customer, and a bore. | | A rumor. The Lampwrights fear it more than they say. |
+| **The Hush** | Fools with candles. | Fools with candles, and the keepers of the Ember. | Fools with lamps, and the keepers of the First Lamp. | |
+
+All three open powers believe the lie about the Unlit King. So does the
+Hush. Nobody in the land knows the truth.
+
+### Gaunt
+
+*A state of soldiers in the south. The Gauntry family rules it from
+Stannard.*
+
+Gaunt is the strongest power in the land. It has the only real army, the
+only good roads, and the only law that reaches farther than a day's walk
+from where it is made. Its people are proud, tough, and well fed. Its
+roads are safe, if you pay the toll. Its towns are clean, if you obey the
+curfew.
+
+Gaunt says that it is the true heir of Ostrey. Its banner is red, with the
+iron gauntlet of the house of Gauntry, and its coins carry the same
+gauntlet. In the hall at Stannard, an empty pole waits for the banner of
+Ostrey, on the day that a Gauntry takes the crown.
+
+#### What Gaunt wants
+
+- **The crown.** Not in name yet. In fact: all the land between the hills
+  of the south and the Grey Teeth, under one law, its law.
+- **The middle land.** The farms around Saint Ivo's pay tithes to the
+  Church. Gaunt wants those tithes, and the road through Ashby Field.
+- **The Dawnwatch.** Five living heroes of Ostrey, riding in front of the
+  army of Gaunt, prove the claim of the Gauntry family better than any
+  ring or letter. With them, Gaunt can march on Saint Ivo's and say that
+  it does the will of the Five.
+- **The Dawnfire.** The war mages read that the Dawnfire was a weapon of
+  the Long War. Gaunt wants every piece. Its agents go after the First
+  Lamp in chapter 6.
+
+#### Who leads it
+
+- **Marshal Ide Gauntry.** A tall woman of sixty with grey braids and a
+  soldier's back. She has ruled Gaunt for twenty years and has never lost
+  a battle. She is not cruel and not a fool. She believes that the land
+  needs one strong hand, and that hers is the strongest. She respects
+  courage, plain speech, and results. She does not respect priests.
+- **Tobin Gauntry.** Her son and heir, about thirty. He is a good soldier
+  and a better thinker, and he does not want a war with the Church. He has
+  seen what a war costs. He cannot say so to his mother in public.
+- **Magister Aud Brennet.** The first war mage of Gaunt, head of the
+  College of War. She keeps "the spells of Ostrey" and teaches them to the
+  army. Most of them are wrong. She is proud of every one.
+
+#### Its strength
+
+- An army of about three thousand soldiers, well trained, with a militia
+  of every adult behind them.
+- Twenty war mages, half of them good.
+- Forts and toll gates on every road in the south.
+- Gold from the tolls, and iron from the hills.
+
+#### How Gaunt treats the Dawnwatch
+
+Gaunt treats the characters as officers. A soldier salutes them. The
+Marshal offers them a title, a uniform in the colors of Gaunt with the
+badge of the Dawnwatch on it, a company of soldiers each, and a place at
+her table. She is generous and direct. She expects an answer.
+
+If the party says yes, Gaunt gives it everything that it promised, and
+uses the party as a banner at every chance: in parades, at the border, in
+letters to the Church. If the party says no, the Marshal does not take it
+badly at first. She waits. If the party works against Gaunt, she says in
+public that the characters are impostors, and that the true Five would
+never side with priests.
+
+> **Secret (chapter 9):** The Marshal will march on Saint Ivo's whatever
+> the party does. The Dawnwatch only changes how she does it, and how
+> many die. Tobin knows this and wants the party to stop her.
+
+### The Church of the Five Sleepers
+
+*The faith of the land, with its seat in Saint Ivo's.*
+
+The Church gave the land hope in the Broken Years, and the land loves it
+for that. Every village has a shrine of the Five. Every family has a
+figure of the Five on a shelf. Pilgrims walk to Saint Ivo's from all over
+the land, and every pilgrim brings a coin.
+
+The Church teaches that the Five Sleepers sleep in the light of the
+Morning Flame, and that they will wake on the day of the last dark to save
+the land. It teaches mercy, patience, and the keeping of lights. Its
+priests wear grey and blue. Its holy book is the Book of the Vigil, which
+holds the stories of the Five. Most of the stories are wrong.
+
+#### What the Church wants
+
+- **Faith.** The Church sincerely wants to help the land through the dark.
+  Most of its priests are good people who look after the poor and the
+  sick.
+- **Power.** The Church holds the farms of the middle land, and it takes
+  tithes from them. It wants to keep them, and it wants Gaunt to stay in
+  the south.
+- **The Five.** For one hundred and sixty years, the Church said that the
+  Five would come back. Now they have, and they are not what the Church
+  said. They are short, or old, or not human, and they swear. The Church
+  needs them to be saints, and it needs them to say what the Church says.
+- **The Ember.** The Church keeps the Ember of Saint Ivo as its holiest
+  relic. It does not know what the Ember does. It knows that the Ember
+  glows near the Five, and after chapter 3, it wants the Five near the
+  Ember.
+
+#### Who leads it
+
+- **Abbess Merrow.** The head of the Church in Saint Ivo's, and so the
+  head of the Church in fact. She is about fifty, warm, clever, and
+  certain. She believes in the Five with her whole heart, and she believes
+  that she knows better than they do what the Five should do. She wants
+  the party as living saints: blessing pilgrims, leading processions, and
+  standing with the Church against Gaunt.
+- **Brother Cade.** A broad, tired priest with ink on his fingers and a
+  mace on his belt. He has seen a hundred false saints. He thinks that the
+  party is one more group of impostors, and he says so. He is honest,
+  stubborn, and brave, and when he sees the truth, he is the best friend
+  that the party has in the Church.
+
+#### Its strength
+
+- The love of the people. A word from the Abbess can fill a road with
+  pilgrims, or empty a market.
+- The tithes of the middle land, and the gifts of every pilgrim.
+- A guard of about four hundred, most of them pilgrims who took up a
+  spear. Brave, but not trained.
+- Priests in every village. They hear everything.
+
+#### How the Church treats the Dawnwatch
+
+At first, the Church does not believe the party. In chapter 3, the Ember
+glows, and everything changes. The Abbess kneels. The town goes wild.
+From then on, the Church treats the characters as holy: pilgrims kneel to
+them, priests ask for blessings, and children follow them through the
+streets.
+
+The Church gives the party gifts, rooms, healing, and honor. It also gives
+them a role, and it does not like it when they leave it. If a character
+says that the Five were not saints, or tells a story of the Long War that
+is not in the Book of the Vigil, the priests grow cold. If the party sides
+with Gaunt, the Abbess says that the true Five would never side with
+soldiers.
+
+> **Secret (chapter 3):** The Book of the Vigil has a chapter on the Five
+> that no priest reads aloud. It says that the Five will "judge the land"
+> when they wake. The Abbess fears this chapter. She hopes that the Five
+> will judge the land the way that she would.
+
+### Corrantey and the Lampwrights
+
+*A free city of merchants on the west coast, ruled by a council of
+guilds.*
+
+Corrantey is the richest place in the land. Its ships carry the trade of
+the coast, and its guilds make most of the things that the land buys:
+cloth, glass, rope, tools, and above all, light. It has no army, only a
+city watch and a lot of money, which is often better.
+
+The city is free, and it means to stay free. It sells to Gaunt and to the
+Church, and it smiles at both. It wants neither of them to win.
+
+#### What Corrantey wants
+
+- **Trade.** Open roads, open seas, and nobody strong enough to tax it.
+- **Balance.** If Gaunt takes Saint Ivo's, Corrantey is next. The council
+  wants the war in chapter 9 to stop, or to last a long time.
+- **The Dawnwatch.** As a business. Five heroes of Ostrey can sell a lot of
+  plays, badges, and lanterns. The council offers the party contracts.
+- **Light.** The days become shorter, and the city sells light. Corrantey
+  grows rich on the dark, and it does not want to ask why.
+
+#### The Lampwrights
+
+The Lampwrights are the guild of lantern makers, the oldest guild of the
+city. They started with the apprentices of Haskel Orme, the steward of
+Dawnwatch Keep, who came west after his death. The guild keeps his mark,
+a small sun inside a square, on every lamp it makes. It keeps the First
+Lamp in the inner room of its hall: a lamp with a flame that needs no oil,
+which the founders brought from the east. The guild does not show it to
+outsiders.
+
+The Lampwrights are careful, curious, and proud. They know more about
+light than anybody in the land. They keep a book of the times of sunrise
+and sunset, because their trade lives on the dark, and their book shows
+that the days are shorter each year.
+
+#### Who leads it
+
+- **The council of guilds.** Twelve guild masters, each with one seat,
+  around a round table in the Council House. They argue about everything.
+  On anything that matters, they vote with their purses.
+- **Perrin Hale.** The master of the Lampwrights, and the most respected
+  voice on the council. He is about sixty, thin, with burned fingers and
+  very good eyes. He is careful, curious, and a little greedy. He knows
+  more than he says, and he says less than he wants to. When he sees the
+  mark of his founder on Wick, he is shaken to the bone.
+
+#### Its strength
+
+- Money. More than Gaunt and the Church together.
+- Ships, and the news that comes with them.
+- The city watch, about five hundred, and hired swords when needed.
+- The best crafters in the land. In chapter 6, the Lampwrights make items
+  for the party with the Crafting and Gathering system.
+
+#### How Corrantey treats the Dawnwatch
+
+Corrantey does not kneel. It does not salute. It shakes hands, offers a
+drink, and asks what the party wants. The council treats the characters as
+important guests, and as a good opportunity. The theaters want them on the
+stage. The merchants want their names on things.
+
+The Lampwrights are different. To them, Wick is a holy object: a lamp made
+by the founder's own hand, that talks. They want to study him, to keep
+him, and to learn how the founder made him. Perrin Hale asks the party to
+leave Wick with the guild "for a few weeks". Wick is against this.
+
+> **Secret (chapter 6):** The guild knows the name of its founder, Haskel
+> Orme, and his mark. It has a few of his notes on the making of lamps. It
+> does not know what he did on the last night, and it does not know about
+> the lie. Perrin Hale suspects that Wick holds a flame like the First
+> Lamp. He is right, but he does not know what that means.
+
+### The Hush
+
+*The cult of the Unlit King.*
+
+The Hush started about thirty years ago, when the days started to become
+shorter. Its members think that the sun is dying, and that only the Unlit
+King can save the world. They are partly correct.
+
+They speak little, and they wear grey. They put out lights. They talk to
+each other with signs of the hand, and a member of the Hush can read the
+signs across a dark room. They look for the pieces of the Dawnfire, to put
+them out and wake their king. They put out the piece in the chapel of the
+keep, and the crystal cracked.
+
+#### What the Hush believes
+
+The Hush tells the same story as everybody else, with one change. The
+Unlit King came out of the dark, and Ostrey pushed him back. But the Hush
+says that he did not come to kill the sun. He came to save it. The sun is
+old and tired, and the days are shorter each year. The Unlit King knows
+the dark, and only the dark can rest the sun. When he returns, the sun
+will go out, rest, and burn again, and the land will live. The people who
+help him will see the new dawn.
+
+This belief is close to the truth, closer than anybody knows. The Hush
+does not know who the king was. It does not know where he slept. It only
+knows that the pieces of the Dawnfire hold him back, and that the black
+stones are his.
+
+#### What the Hush wants
+
+- **The pieces of the Dawnfire.** To put each one out. The Hush has a rite
+  for this, done in the dark, in silence. In Book One, it goes after the
+  Ember of Saint Ivo (chapters 3 and 4), the First Lamp (chapter 6), and
+  the piece in Fennick (chapter 8).
+- **The black stones.** The Hush wants every piece of the crystal of its
+  king. It wants the stone that the party carries.
+- **The keep.** In chapter 7, the Hush holds Dawnwatch Keep and searches
+  the Hall of Sleepers.
+- **The war.** In chapter 9, the Hush helps Gaunt and the Church to fight
+  each other. A land at war keeps no lights.
+
+#### Who leads it
+
+- **Mother Sallow.** A small grey woman with a kind face and cold hands.
+  She speaks softly, like a nurse at a sickbed, and she believes every
+  word that she says. She is not cruel. She is sure. She thinks that the
+  Dawnwatch are good people who sleep on the wrong side, and she would
+  rather convert them than kill them. She escapes in chapter 4 and returns
+  in chapters 7 and 10.
+- **Osk.** The enforcer of Mother Sallow. A grey giant of a man, eight feet
+  tall, with a shaved head and a sewn-up mouth. Nobody knows if the Hush
+  did it, or if he did it himself. He stands between Mother Sallow and
+  every danger.
+
+#### Its members
+
+The Hush has three tiers. The statblocks are in the appendix of
+creatures.
+
+| Tier | Who | What they do |
+|---|---|---|
+| Hush Snuffer | New members. Farmers who lost a harvest, apprentices who saw the sunrise book, the poor and the frightened. | Carry brass snuffers on poles. Put out lights. Watch and report. |
+| Hush Shroud | Priests of the Hush, in grey veils. | Pray in silence. Their prayers make the air cold. They lead the rites. |
+| Hush Lightless | Warriors who drank the black water at the secret rite of the cult. | Fight. Their skin is the color of ash, and their eyes have no white. |
+
+The Hush has a few hundred members in all the land. Most of them live
+normal lives, in normal villages, and nobody knows. A miller in Brannock's
+Ford, a pilgrim at the feast, a clerk in Stannard, an apprentice on
+Lantern Street: any of them can be the Hush.
+
+#### How the Hush treats the Dawnwatch
+
+To the Hush, the Dawnwatch are the jailers of the king: five soldiers of
+the lie, woken by mistake. The Hush wants the black stone that the party
+carries, and it can feel where the stone is.
+
+The Hush does not attack without a reason. It watches. It sends a member
+to talk, softly, about the short days and the tired sun. It steals at
+night. When it fights, it puts out the lights first. In chapter 4, it
+fights to keep the Ember. From chapter 7, it fights to kill.
+
+> **Secret (chapter 4):** Malgrath can feel where the black stone is. So
+> can the Hush, within a mile. A character who carries the stone is a
+> lamp in the dark for both of them.
+
+> **Secret (chapter 10):** The Hush is in Kingsholm at the end of Book
+> One. The party breaks it there and defeats Mother Sallow. To the end,
+> she believes that the dawn will come again, and she is right, in a way
+> that Book Two tells.
+
+> **Secret (Book Two):** The Hush is right that the sun is dying. It is
+> wrong that the Unlit King only wants to rest it. Garrath thinks that a
+> sun that goes out and burns again can last. The cost is each living
+> thing under the sun.
