@@ -1,0 +1,299 @@
+"""Build The Dawnwatch, Book One: Waking.
+
+The book has these sources:
+  books/waking/how-to-run.md, players-guide.md, gazetteer.md
+  books/waking/chapters/NN-name.md          chapters 2 to 10
+  books/waking/handouts/NN-name.md          one handout on each page
+  adventures/tutorial-one-shot/             chapter 1 (the build reads it from there)
+  content/dawnwatch/                        the creatures, people, treasures, and places
+
+A source that does not exist yet is left out. The book builds with the files that exist.
+
+Usage: python3 build/waking.py [--screen]   (run it in the compendium folder)
+"""
+import glob
+import html
+import importlib.util
+import inspect
+import os
+import re
+import sys
+
+import build as B
+import waking_md as wm
+from icons import big_d20, divider, icon
+
+NAME = "waking"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # the compendium folder
+BOOK = os.path.join(ROOT, "books", "waking")
+TUTORIAL = os.path.join(ROOT, "..", "adventures", "tutorial-one-shot")
+E = html.escape
+
+WARNINGS = []      # the problems that do not stop the build, for example a statblock that is not found
+ANCHOR_MARK = {}   # an anchor id, to the marker of the page that holds it
+
+
+def warn(text):
+    WARNINGS.append(text)
+
+
+def read(path):
+    with open(path, encoding="utf-8") as f:
+        return f.read()
+
+
+# ------------------------------------------------------------------ sources
+
+TUTORIAL_PARTS = ["README.md", "sessions/01-the-last-watch/README.md", "statblocks.md", "pregens.md", "cheat-sheet.md"]
+MD_FILE_LINK = re.compile(r"^- \[[^\]]+\]\([^)]*\.md[^)]*\)\s*\n", re.M)
+
+
+def tutorial_text(root=TUTORIAL, title="The Last Watch"):
+    """Chapter 1 from the tutorial adventure, as one Markdown text.
+
+    The overview comes first, then the scenes, then the statblocks, the pregenerated
+    characters, and the cheat sheet. The list of files and the links to them go out."""
+    readme, session, *rest = [read(os.path.join(root, p)) for p in TUTORIAL_PARTS]
+    readme = wm.drop_section(wm.drop_title(readme), "Files")
+    session = MD_FILE_LINK.sub("", wm.drop_title(session))
+    return "\n\n".join([f"# {title}", readme, session] + [wm.demote(t) for t in rest])
+
+
+def chapters(book=BOOK, tutorial=TUTORIAL):
+    """The chapters in order, as (number, key, Markdown). Chapter 1 is the tutorial.
+
+    A chapter file has a name such as 02-brannocks-ford.md. The number comes from the name."""
+    out = [(1, "ch1", tutorial_text(tutorial))] if os.path.isdir(tutorial) else []
+    for path in sorted(glob.glob(os.path.join(book, "chapters", "[0-9][0-9]-*.md"))):
+        num = int(os.path.basename(path)[:2])
+        if num != 1:
+            out.append((num, f"ch{num}", read(path)))
+    return out
+
+
+def handouts(book=BOOK):
+    """The handouts in order, as (id, title, Markdown). The id is the file name with no .md."""
+    out = []
+    for path in sorted(glob.glob(os.path.join(book, "handouts", "*.md"))):
+        hid = os.path.basename(path)[:-3]
+        text = read(path)
+        out.append((hid, wm.title_of(text, hid), text))
+    return out
+
+
+def section_file(name, book=BOOK):
+    path = os.path.join(book, name)
+    return read(path) if os.path.isfile(path) else None
+
+
+def content():
+    import content.dawnwatch as dw
+    return dw
+
+
+# ------------------------------------------------------------------ names
+
+def person_name(entry):
+    """A person is (role, M(...)), or (role, "Name") for a person with no statblock."""
+    return entry[1] if isinstance(entry[1], str) else entry[1].name
+
+
+def place_name(p):
+    if isinstance(p, str):
+        return p
+    if isinstance(p, dict):
+        return p["name"]
+    if isinstance(p, (tuple, list)):
+        return p[0]
+    return p.name
+
+
+def place_text(p):
+    """The short text of a place, if the place has one."""
+    if isinstance(p, dict):
+        return p.get("text") or p.get("desc") or p.get("description") or ""
+    if isinstance(p, (tuple, list)):
+        return p[1] if len(p) > 1 and isinstance(p[1], str) else ""
+    return getattr(p, "text", "") if not isinstance(p, str) else ""
+
+
+# ------------------------------------------------------------------ directives
+
+def _find(name, items, key):
+    low = name.strip().lower()
+    return next((x for x in items if key(x).strip().lower() == low), None)
+
+
+def _orig_item_html(item):
+    n, cat, rar, att, tx = item
+    a = f" ({E(att)})" if att else ""
+    return (f'<div class="mitem"><h4 class="sp-name">{E(n)}</h4>'
+            f'<div class="sp-meta"><i>{E(cat)}, {E(rar)}{a}</i></div><p>{E(tx)}</p></div>')
+
+
+def statblock_html(name, dw):
+    """The statblock of a creature or a person. Look in the Dawnwatch content, then in the
+    original Compendium content, then in the SRD bestiary."""
+    from content.monsters import MON
+    from content.npcs import NPCS
+    people = [e[1] for e in dw.NPCS if not isinstance(e[1], str)]
+    for group in (dw.MON, people, MON, [e[1] for e in NPCS]):
+        m = _find(name, group, lambda x: x.name)
+        if m:
+            return f'<div class="inline-stat">{m.html()}</div>'
+    import compendium as comp
+    c = _find(name, comp.creatures(), lambda x: x["name"])
+    if c:
+        return f'<div class="inline-stat">{comp.creature_html(c)}</div>'
+    warn(f"statblock not found: {name}")
+    return f'<div class="missing">Statblock not found: {E(name)}</div>'
+
+
+def treasure_html(name, dw):
+    """The full entry of a treasure: a Dawnwatch treasure, an original magic item, or an SRD magic item."""
+    from content.items import ITEMS
+    for group in (dw.ITEMS, ITEMS):
+        it = _find(name, group, lambda x: x[0])
+        if it:
+            return f'<div class="inline-stat">{_orig_item_html(it)}</div>'
+    import compendium as comp
+    low = name.strip().lower()
+    it = next((i for i in comp.magic_items_grouped()
+               if i["title"].lower() == low or low in (n.lower() for n in i["names"])), None)
+    if it:
+        return f'<div class="inline-stat">{comp.magic_item_html(it)}</div>'
+    warn(f"treasure not found: {name}")
+    return f'<div class="missing">Treasure not found: {E(name)}</div>'
+
+
+def map_html(map_id, screen=False):
+    """A map from build/maps.py. The contract: maps.map_html(map_id, screen=False) returns HTML or SVG,
+    and raises KeyError for an id that it does not know. With no maps.py, the book shows a placeholder."""
+    if importlib.util.find_spec("maps") is not None:
+        import maps
+        f = getattr(maps, "map_html", None)
+        if f:
+            try:
+                kw = {"screen": screen} if "screen" in inspect.signature(f).parameters else {}
+                return f'<figure class="map" id="map-{wm.slug(map_id)}">{f(map_id, **kw)}</figure>'
+            except KeyError:
+                pass
+    warn(f"map not drawn: {map_id}")
+    return f'<div class="map-placeholder">Map: {E(map_id)}</div>'
+
+
+def handout_ref_html(hid, known, screen=False):
+    """A note that the handout is in the appendix, with its page number.
+    known maps a handout id to its title. The page comes from the marker of the handout."""
+    hid = hid.strip()
+    if hid not in known:
+        warn(f"handout not found: {hid}")
+        return f'<div class="missing">Handout not found: {E(hid)}</div>'
+    title = E(known[hid])
+    t = f'<a href="#handout-{hid}">{title}</a>' if screen else title
+    return (f'<p class="handout-ref">{icon("scroll", 14)}<b>Handout:</b> {t}. '
+            f'It is in the Handouts appendix, on page @@PAGE:handout-{hid}@@.</p>')
+
+
+def handlers(dw, known_handouts, screen=False):
+    return {
+        "statblock": lambda a: statblock_html(a, dw),
+        "treasure": lambda a: treasure_html(a, dw),
+        "map": lambda a: map_html(a, screen),
+        "handout": lambda a: handout_ref_html(a, known_handouts, screen),
+    }
+
+
+# ------------------------------------------------------------------ sections
+
+CHAPTER_PREFIX = re.compile(r"^Chapter\s+\d+\s*[:.]\s*", re.I)
+
+
+def chapter_head(name, num=None, ic="d20", newpage=True, anchor=None):
+    """The head of a chapter, as build.chapter_heads makes it, with the given number."""
+    kicker = f'<div class="ch-num">Chapter {num}</div>' if num else ""
+    mk = B.marker("ch", (f"{num}. " if num else "") + name)
+    if anchor:
+        ANCHOR_MARK[anchor] = B.TOC[-1][2]
+    aid = f' id="{anchor}"' if anchor else ""
+    return (f'<div class="ch-head{" newpage" if newpage else ""}"{aid}>{mk}<span class="ch-badge">{icon(ic, 26, B.ICON_COLOR, 1.5)}</span>'
+            f'<div>{kicker}<h1 class="chapter">{name}</h1></div></div>{divider()}')
+
+
+def section_html(text, hs, prefix, num=None, ic="d20"):
+    """One Markdown file as HTML. Its first # heading is the chapter head. In a chapter, it has the number."""
+    h = wm.render(text, hs, prefix)
+    first = [True]
+
+    def head(m):
+        name = CHAPTER_PREFIX.sub("", m.group(1).strip())
+        is_first, first[0] = first[0], False
+        return chapter_head(name, num if is_first else None, ic, anchor=prefix if is_first and prefix else None)
+    return re.sub(r"<h1>(.*?)</h1>", head, h, flags=re.S)
+
+
+def part(num, title, desc):
+    return f"{{{{PART:{num}|{title}|{desc}}}}}"
+
+
+FRONT = dict(
+    title="The Dawnwatch", sub_title="Book One: Waking",
+    sub="Five heroes wake after three hundred years. The world forgot them. Their enemy did not.",
+    compat="A campaign for levels 1 to 10. Requires the Dice &amp; Destiny Compendiums, Edition 2.",
+)
+
+
+def front(screen=False):
+    f = FRONT
+    d20 = big_d20(150, flat=True) if screen else B._dark_text(B.gray(big_d20(150, "#000", flat=True)))
+    full = f'{f["title"]}, {f["sub_title"]}'
+    return f'''<section class="titlepage">
+<div class="kicker">Dice &amp; Destiny</div>
+<h1>{f["title"]}<br>{f["sub_title"]}</h1><div class="rule"></div>
+<div>{d20}</div>
+<div class="sub" style="margin-top:8mm">{f["sub"]}</div>
+<div class="compat">{f["compat"]}</div></section>
+<section class="credits">
+<p><b>Dice &amp; Destiny: {full}</b></p>
+<p>Copyright © 2026 Stiven Gjekaj. The original text and content of this book are licensed under CC BY-NC-SA 4.0 (creativecommons.org/licenses/by-nc-sa/4.0). You can share and adapt them for non-commercial use if you give credit and share your changes under the same license.</p>
+<p>An independent work. Not affiliated with, endorsed, sponsored, or approved by Wizards of the Coast. Dungeons &amp; Dragons is a trademark of Wizards of the Coast LLC.</p>
+<p>This work includes material from the System Reference Document 5.2 ("SRD 5.2") by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode. The statblocks of SRD 5.2 monsters in this book are laid out again.</p>
+<p>The story, the places, the people, the new creatures, the treasures, the maps, and the handouts are original to this book. They are not part of the SRD 5.2. The rules that this book uses are in Dice &amp; Destiny: The Player's Compendium and The Game Master's Compendium, Edition 2.</p>
+<p>{"A4 edition for reading on a screen." if screen else "Printed in black and white on A4 paper."}</p>
+</section>'''
+
+
+STYLES = {
+    False: '<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="book.css"><link rel="stylesheet" href="waking.css"><link rel="stylesheet" href="bw.css">',
+    True: '<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="book.css"><link rel="stylesheet" href="waking.css"><link rel="stylesheet" href="screen.css">',
+}
+
+
+def body_parts(dw, book=BOOK, tutorial=TUTORIAL, screen=False):
+    """The sections of the book in order, as HTML with placeholders. The order:
+    front matter, how to run, the player's guide, chapters 1 to 10, the gazetteer,
+    the appendices, the handouts, and the index."""
+    hs_list = handouts(book)
+    hs = handlers(dw, {h[0]: h[1] for h in hs_list}, screen)
+    out = [front(screen), "{{TOC}}"]
+    before = [(n, p, ic) for n, p, ic in (("how-to-run.md", "run", "crown"), ("players-guide.md", "guide", "sheet"))
+              if section_file(n, book) is not None]
+    if before:
+        out.append(part("I", "Before You Play", "How to run this book, and the guide to give to the players."))
+        out += [section_html(section_file(n, book), hs, p, ic=ic) for n, p, ic in before]
+    chs = chapters(book, tutorial)
+    if chs:
+        out.append(part("II", "The Adventure", "The story of Book One, from the waking in the crypt to the empty crystal in the old capital."))
+        out += [section_html(text, hs, key, num=num) for num, key, text in chs]
+    gaz = section_file("gazetteer.md", book)
+    if gaz is not None:
+        out.append(part("III", "The World", "The land of today: its regions, its towns, and the ruins of the old kingdom."))
+        out.append(section_html(gaz, hs, "gazetteer", ic="compass"))
+    return out, hs_list, hs
+
+
+def page_html(body, screen=False, inside_mm=None):
+    style = STYLES[screen] + (B.margin_css(inside_mm) if inside_mm else "")
+    title = f'{FRONT["title"]}, {FRONT["sub_title"]}'
+    return (f'<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>{title}</title>\n'
+            f'{style}\n</head>\n<body class="{"screen" if screen else "print"}">\n{body}\n</body>\n</html>\n')
