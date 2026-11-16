@@ -8,9 +8,14 @@ cd "$(dirname "$0")"
 export PYTHONPATH="$PWD:$PWD/build${PYTHONPATH:+:$PYTHONPATH}"
 python3 -m pytest -q
 python3 build/check_content.py content
-python3 build/build.py player gm
+# The print and screen interiors do not depend on each other. Build them in two lanes at the same time.
+python3 build/build.py player gm > print.log 2>&1 & print_lane=$!
+python3 build/build.py --screen player gm > screen.log 2>&1 & screen_lane=$!
+print_ok=0; wait "$print_lane" || print_ok=$?
+screen_ok=0; wait "$screen_lane" || screen_ok=$?
+cat print.log screen.log
+if [ "$print_ok" -ne 0 ] || [ "$screen_ok" -ne 0 ]; then echo "BUILD ERROR: an interior did not build"; exit 1; fi
 python3 build/check_content.py pages player.pdf gm.pdf
-python3 build/build.py --screen player gm
 python3 build/cover.py player gm
 python3 build/editions.py player gm
 rm -rf dist
