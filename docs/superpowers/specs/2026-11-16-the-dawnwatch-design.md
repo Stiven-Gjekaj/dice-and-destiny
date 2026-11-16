@@ -48,22 +48,39 @@ The tutorial already starts the story:
 The campaign starts at that moment. The finale is the fight against
 Malgrath for the sun.
 
-## The world (decided by the agent)
+## The world (approved by the human)
 
-- **Aubade** is the old kingdom. The word is an old name for a song at
-  dawn. The Dawnwatch knew Aubade. It fell 200 years ago.
-- **The Vesperlands** is the world of today. "Vesper" is an old word for
-  the evening, and the sun is dying. Three powers hold the land:
-  - **The Ember Marches.** A state of soldiers in the south. Its lords say
-    that they are the true heirs of Aubade.
-  - **Vesperhold.** The seat of the **Church of the Five Sleepers**. The
-    Church prays for the return of the Dawnwatch.
-  - **The Lantern Coast.** Free cities on the sea. The guild of lantern
-    makers lives here. It kept the craft of Wick alive.
-- **The Unlit Crown** is the fortress of Malgrath, in the north, at the edge
-  of the world.
+The names of today are worn-down forms of the old names. The Dawnwatch half
+know them. This shows the 300 years at the table, with no explanation.
 
-The names are new. Check each name against the anti-goals before use.
+| Role | Old name (time of the Dawnwatch) | Name today |
+|---|---|---|
+| The old kingdom | **Ostrey** | People still say "old Ostrey". |
+| The state of soldiers in the south | The March of Gauntry | **Gaunt**, after the family that rules it |
+| The seat of the Church | The shrine of Saint Ivo | **Saint Ivo's**, a town that grew around the shrine |
+| The free cities on the sea | Corrin and Tey | **Corrantey**, two towns that grew into one |
+| The fortress of Malgrath, in the north | Caer Dunholm | **Coldharrow**, from the old name |
+| The world | None | People say "the land". |
+
+- **Ostrey** fell 200 years ago.
+- **Gaunt** is a state of soldiers. Its lords say that they are the true
+  heirs of Ostrey.
+- **Saint Ivo's** is the seat of the **Church of the Five Sleepers**. The
+  Church prays for the return of the Dawnwatch.
+- **Corrantey** is a city of free merchants. The guild of lantern makers
+  lives there. It kept the craft of Wick alive.
+- **Coldharrow** is the fortress of Malgrath, at the edge of the world.
+
+These names stay as they are, because the tutorial already uses them:
+Malgrath, Wick, Dawnwatch Keep, and the Dawnfire.
+
+Rules for new names:
+
+- A name must not explain itself. Use names from people, rivers, saints,
+  and old words. Do not join two English words into one name.
+- A name must not come from a book or a game that a publisher owns. For
+  example, "Hollin" is a region in the books of Tolkien, so the old kingdom
+  is not Hollin.
 
 ## The story (approved by the human)
 
@@ -83,7 +100,7 @@ The tutorial already gives three hooks. The campaign uses all three:
 #### Act I: Waking (levels 1 to 4, chapters 1 to 4)
 
 - Chapter 1 is the tutorial. It ends with the cliffhanger, as it does now.
-- In the first town, the Dawnwatch learn that Aubade fell 200 years ago.
+- In the first town, the Dawnwatch learn that Ostrey fell 200 years ago.
   Their names are now a religion: the **Church of the Five Sleepers**
   prays for their return. The Church does not know that they are real.
   Some people want to worship them. Some want to use them. Some say that
@@ -106,7 +123,7 @@ The tutorial already gives three hooks. The campaign uses all three:
   - **A victory.** The party breaks the cult and holds the keep.
   - **The twist.** The history in the player's guide is a lie. **Malgrath
     was the first Dawnwatch.** He was a knight of the sun. He tried to save
-    a sun that was dying, and he lost himself. Aubade did not defeat him.
+    a sun that was dying, and he lost himself. Ostrey did not defeat him.
     It put him to sleep with the same crystal spell. The black stones are
     pieces of his crystal. "I also slept" is the truth.
 
@@ -114,7 +131,7 @@ The tutorial already gives three hooks. The campaign uses all three:
 
 Book Two starts with a summary of Book One for the GM. It also has a way to
 start at level 11 with new characters: a second group of sleepers that
-Aubade hid in a different place.
+Ostrey hid in a different place.
 
 #### Act III: The Long Night (levels 11 to 16, chapters 1 to 6)
 
@@ -130,7 +147,7 @@ Aubade hid in a different place.
 
 #### Act IV: The Last Dawn (levels 17 to 20, chapters 7 to 9)
 
-- The party attacks the Unlit Crown.
+- The party attacks Coldharrow.
 - **The finale is a choice, not only a fight.** The players choose one end:
   - **Defeat Malgrath.** The sun continues to die, slowly. That is a
     problem for the next age.
@@ -210,7 +227,7 @@ Aubade hid in a different place.
    story needs it (for example Journeys for a long road, Strongholds for a
    base). So the campaign teaches the full game, step by step, as the
    tutorial teaches the core rules. In Book One, chapter 1 is the tutorial.
-3. **The gazetteer.** Book One has the full gazetteer of the Vesperlands.
+3. **The gazetteer.** Book One has the full gazetteer of the land.
    Book Two has the changes of the Long Night: the regions in darkness and
    the new powers.
 
@@ -219,13 +236,13 @@ Aubade hid in a different place.
 The Dawnwatch slept for 300 years. They know the old world only. The
 campaign uses this gap:
 
-- **The player's guide shows Aubade as it was 300 years ago.** The old
+- **The player's guide shows Ostrey as it was 300 years ago.** The old
   kingdom, the Dawnwatch oath, the first war against Malgrath, and
   backgrounds from that time. It cannot spoil the campaign, because the
   campaign is about how much that picture is now wrong. It is in Book One.
 - **Wick tells the player's guide**, in his own voice. The GM can read it
   aloud, or the players can read it.
-- **The gazetteer shows the Vesperlands of today.** It is in the GM's part
+- **The gazetteer shows the land of today.** It is in the GM's part
   only. The players find it at the table. It has the regions, the powers,
   the history of the 300 lost years, and the maps. A GM can also run new
   stories in it.
@@ -257,8 +274,8 @@ can print or copy it.
 - The style is a line-drawn atlas: ink lines, hatching for mountains and
   sea, and labels in the book fonts. It prints well in black and white.
 - Book One has two world maps:
-  - **Aubade, 300 years ago.** A player handout, with the player's guide.
-  - **The Vesperlands of today.** For the GM, with the gazetteer.
+  - **Ostrey, 300 years ago.** A player handout, with the player's guide.
+  - **The land of today.** For the GM, with the gazetteer.
 - Each act has a regional map for its chapters.
 - Book Two has a map of the Long Night, with the regions in darkness.
 
