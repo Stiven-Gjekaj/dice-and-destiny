@@ -334,7 +334,7 @@ that is true, and the characters cannot yet understand why it is true.
 The twist works only if the players believe the lie. Some rules help:
 
 - **Everybody in the land believes the lie.** The Church, Gaunt, the
-  Lampwrights, and even the Hush tell the story of the demon king. The
+  Lampwrights, and even the Hush tells the story of the demon king. The
   Hush worships him, but it does not know who he was.
 - **Wick believes the lie.** Wick learned it from the steward himself.
 - **Hint, but do not tell.** These hints are safe: the black stone feels

@@ -53,7 +53,7 @@ This chapter has two jobs:
    fight.
 6. **The Proving (Scene 6).** The Marshal tests the party on the drill
    field, in front of her army.
-7. **The night of the knives (Scene 7).** The Hush try to kill Tobin, and
+7. **The night of the knives (Scene 7).** The Hush tries to kill Tobin, and
    to make it look like the Church did it. This is the last fight.
 8. **The banner (Scene 8).** The party chooses what to be in Gaunt.
 
@@ -383,7 +383,7 @@ what she thinks, at once.
   under the banner of Ostrey, and every soldier in the land will know who
   the heir of Ostrey is."
 - **She wants the pieces of the Dawnfire.** "The Hush wanted the Ember. If
-  the Hush want it, it is a weapon. A weapon should be with soldiers, not
+  the Hush wants it, it is a weapon. A weapon should be with soldiers, not
   priests." If the party has the Ember, she asks for it, plainly. If the
   party says no, she accepts it, for now.
 - **She does not want a war with the Church.** She says so, and she means
@@ -777,7 +777,7 @@ takes damage. A hit is a touch.
 
 ## Scene 7: The Night of the Knives (1 hour)
 
-**Goal:** The Hush try to start a war. The last fight. A false clue that
+**Goal:** The Hush tries to start a war. The last fight. A false clue that
 blames the Church.
 
 This scene happens on the night after the Proving. Run it in the map room
@@ -793,7 +793,7 @@ and talk.
 > The candles in the room go out, all at once. In the dark, Tobin says,
 > "Who is there?" and a knife comes out of the shadow behind his chair.
 
-The Hush want Tobin dead, and they want Gaunt to blame the Church. A dead
+The Hush wants Tobin dead, and it wants Gaunt to blame the Church. A dead
 heir, killed by "priests", gives the Marshal her reason to march north
 this winter, not in the spring. The killers are **Hush Lightless** and
 **Hush Shrouds**. They wear cords of grey and blue around their waists:
@@ -831,10 +831,10 @@ appendix.
 
 ### Running the fight
 
-- **The goal is Tobin.** The Hush ignore anyone who does not stand
-  between them and Tobin. Tobin is a **Noble** with a longsword. He fights
+- **The goal is Tobin.** The Hush ignores anyone who does not stand
+  between it and Tobin. Tobin is a **Noble** with a longsword. He fights
   bravely and badly. If he drops to 0 Hit Points, he is dying, not dead.
-  The Hush try to finish him on their next turn.
+  The fighters of the Hush try to finish him on their next turns.
 - **Tobin must live.** He returns in chapter 9. If he is dying when the
   fight ends, a character can save him with the usual rules, or he is saved
   by the guards who run in a moment after the end. Do not kill Tobin.
@@ -842,7 +842,7 @@ appendix.
   bearer may stop to stare, as the Snuffer did in chapter 3. Then it
   remembers its job.
 - **The guards.** At the end of round 4, ten guards of the fortress burst
-  in with torches. The Shrouds drop their *Darkness*, and the Hush flee
+  in with torches. The Shrouds drop their *Darkness*, and the Hush flees
   down the servants' stair. A Hush that cannot flee fights to the death. It does not
   surrender. It does not speak.
 

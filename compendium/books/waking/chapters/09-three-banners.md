@@ -465,7 +465,7 @@ look):
   of the circle of the lamp.
 - He flinches from the light of the First Lamp, and he does not look at
   Wick.
-- He does not drink the wine. (The Hush keep a fast before their great
+- He does not drink the wine. (The Hush keeps a fast before its great
   works.)
 - The black stone hums when he is within 30 feet.
 
@@ -1242,7 +1242,7 @@ Shield's player may have something to say.)
 
 If either agent is alive, the characters can question them. If both are
 dead, a captured Hush Night Warden from the hollow takes their place. The
-prisoner is calm. The Hush fear nothing that the characters can do.
+prisoner is calm. The Hush fears nothing that the characters can do.
 
 > The prisoner sits in the dirt with chained hands and looks at you
 > without hate. "You won a field," the prisoner says. "Good for you. It

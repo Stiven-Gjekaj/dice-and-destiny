@@ -35,7 +35,7 @@ This chapter has two jobs:
 
 ### What happens
 
-1. **The night of the theft (Scene 1).** The Hush attack the Saints' House
+1. **The night of the theft (Scene 1).** The Hush attacks the Saints' House
    to take the black stone, while other members steal the Ember from the
    cathedral. This is the first fight.
 2. **The morning after (Scene 2).** The town is in shock. Brother Cade
@@ -46,7 +46,7 @@ This chapter has two jobs:
    The Hush can feel the stone, so they set an ambush. Osk comes for it.
    This is the second fight.
 5. **The shrine at Kell (Scene 5).** A ring of standing stones on a hill,
-   with a small chapel inside it. The Hush camp there. The party scouts
+   with a small chapel inside it. The Hush camps there. The party scouts
    it and finds a way in.
 6. **The rite (Scene 6).** Mother Sallow tries to put out the Ember. A
    shadow steps out of the black stone. This is the last fight of Act I.
@@ -85,7 +85,7 @@ Creatures appendix.
 
 ### The pace
 
-The Hush have a day's start. The party can catch them at Kell on the
+The Hush has a day's start. The party can catch it at Kell on the
 second night if it travels fast, or on the third night at a normal pace.
 It does not matter much: Mother Sallow waits for the party. She needs the
 black stone, and she knows that the party will bring it to her. The real
@@ -101,7 +101,7 @@ clock is in Scene 6.
 
 ## Scene 1: The Night of the Theft (45 minutes)
 
-**Goal:** The Hush come out of the dark. The first fight of the chapter.
+**Goal:** The Hush comes out of the dark. The first fight of the chapter.
 
 This scene happens on the night after the Waking Service, or the night
 after that, if the party left the town for a day. The party sleeps in the
@@ -124,7 +124,7 @@ once. The others wake when the first one shouts, or when the fight starts.
 
 ### The attack
 
-The Hush want the black stone. They know where it is: the stone glows in
+The Hush wants the black stone. It knows where it is: the stone glows in
 the dark for them, like a lamp. A **Hush Lightless** leads them. With it
 are **Hush Snuffers**. They come in through the garden door and up the
 stair.
@@ -156,7 +156,7 @@ chapter 3, and in the Creatures appendix.
   blocks it.
 - The ground floor has a hall, a big room with a long table, and a kitchen
   that opens to the garden.
-- **It is dark.** The Hush put out every lamp. Only Wick gives light,
+- **It is dark.** The Hush puts out every lamp. Only Wick gives light,
   unless a character lights something. A Hush Lightless has Darkvision and
   deals extra Necrotic damage in Dim Light and Darkness.
 - **The windows** of the bedrooms open on the garden, 15 feet below.
@@ -168,10 +168,10 @@ chapter 3, and in the Creatures appendix.
 - **The goal is the stone.** A Snuffer that reaches the stone takes it as
   a Utilize action and runs for the garden. If a Snuffer holds the stone,
   the others cover its escape.
-- **The Hush flee** when the Lightless falls, or when they have the stone
-  and reach the garden wall. Nobody stops a running Snuffer in the dark
-  streets. If the Hush escape with the stone, they take it to Kell, and the
-  party must take it back there. See "If the Hush have the stone" in
+- **The Hush flees** when the Lightless falls, or when it has the stone
+  and reaches the garden wall. Nobody stops a running Snuffer in the dark
+  streets. If the Hush escapes with the stone, it takes it to Kell, and the
+  party must take it back there. See "If the Hush has the stone" in
   Scene 6.
 - **The servant** of the house, an old man called Wat, hides under the
   kitchen table and prays very loudly.
@@ -349,7 +349,7 @@ The table after it is the short form, to explain at the table.
 | **Cost** | A member of the Hush within 1 mile knows the direction to you. You have Disadvantage on saves against the Charmed and Frightened conditions from the Hush. Touching a piece of the Dawnfire deals 1d6 Radiant damage to you. |
 | **Grows** | Each time you draw on the stone. |
 | **At 2** | You dream of cold crystal. Once between Long Rests, you can learn the direction to the nearest piece of the Dawnfire within 10 miles. The extra damage becomes 1d8. |
-| **At 4** | Your shadow falls a moment late. The Hush think that you are one of them until you attack. You have Disadvantage on attack rolls in the Bright Light of a piece of the Dawnfire. |
+| **At 4** | Your shadow falls a moment late. A member of the Hush thinks that you are one of them until you attack. You have Disadvantage on attack rolls in the Bright Light of a piece of the Dawnfire. |
 | **Crisis (5)** | Give in, or break free. See the full entry. |
 | **Ending** | Hold the stone in the light of a piece of the Dawnfire from dusk to dawn, and take the burn every hour. |
 
@@ -406,7 +406,7 @@ story of this chapter works the same.
 
 ## Scene 4: The Hills (1 hour)
 
-**Goal:** A short journey with the Journeys rules. The Hush come for the
+**Goal:** A short journey with the Journeys rules. The Hush comes for the
 stone on the road. The second fight.
 
 Kell is three days west of Saint Ivo's, about 43 miles, off the road, in the low hills
@@ -557,7 +557,7 @@ the dead bowl of Kell, the black stone near it, and her voice.
 
 | Area | What is there |
 |---|---|
-| **The tents** | A dozen grey tents at the foot of the hill, on the east side. Most are empty: the Hush are on the hill. Three Snuffers guard them. In one tent, the Hush keep Garret Pell, if they took him. |
+| **The tents** | A dozen grey tents at the foot of the hill, on the east side. Most are empty: the Hush is on the hill. Three Snuffers guard them. In one tent, the Hush keeps Garret Pell, if it took him. |
 | **The path** | A path goes up the hill from the tents, 300 feet, to a gap in the ring. Two Snuffers stand at the gap. |
 | **The ring** | Thirteen standing stones, each as tall as two men, in a circle 120 feet across. The stones are cold to the touch, even in the sun. |
 | **The chapel** | In the middle of the ring. Four walls of grey stone, 30 feet by 20 feet, with no roof and one door on the east side. Inside is the dead bowl, on a low altar. |
@@ -573,11 +573,11 @@ Let the players plan. These are good plans. Each one works.
 
 | Plan | Check | DC | Result |
 |---|---|---|---|
-| Sneak up the west side at night | Dexterity (Stealth), for each character | 12 | On a success for all, the party reaches the ring unseen. Skip the guards at the gap. In Scene 6, the Hush are surprised: they have Disadvantage on their Initiative rolls. |
+| Sneak up the west side at night | Dexterity (Stealth), for each character | 12 | On a success for all, the party reaches the ring unseen. Skip the guards at the gap. In Scene 6, the Hush is surprised: its members have Disadvantage on their Initiative rolls. |
 | Free Pell from the tents first | Dexterity (Stealth) | 12 | The three Snuffers at the tents do not see the party. Pell is tied up, gagged, and very glad. He can walk. He cannot fight. |
 | Fight the guards at the gap | None | None | Two Snuffers (200 XP), an easy fight below the Low budget for level 4. When the fight starts, Mother Sallow knows. She starts the rite at once. |
 | Walk up the path openly, with the stone | None | None | The guards let the party pass. Mother Sallow waits in the chapel. She wants to talk first. See "The talk" in Scene 6. |
-| Use the stone as bait | Charisma (Deception) | 13 | One character carries the stone up the path, and the others go up the west side. The Hush watch the stone, not the hill. The others get Advantage on their Stealth checks. |
+| Use the stone as bait | Charisma (Deception) | 13 | One character carries the stone up the path, and the others go up the west side. The Hush watches the stone, not the hill. The others get Advantage on their Stealth checks. |
 
 > **GM tip:** The bearer cannot sneak up on the Hush. They feel the stone.
 > If the bearer goes with the sneaking group, the group fails, unless the
@@ -765,7 +765,7 @@ dawn, when the sun touches the black coal, a red spark wakes in it. Over
 seven days in the sun, it grows back to its gold. Until then, it has none
 of its properties. The Hush failed. It was very close.
 
-### If the Hush have the stone
+### If the Hush has the stone
 
 If the Hush took the stone in Scene 1 or Scene 4, Mother Sallow has it at
 the altar, and the Long Shadow rises from her own shadow. It is tied to
@@ -844,7 +844,7 @@ After the fight, the party can search the chapel and the tents.
   character what they would like their actor to look like.
 - **The Kell Warden's Shield.** Under the altar, in the dust, lies a round
   shield of oak and bronze with a rising sun on its face. The wardens of
-  the shrine carried it three hundred years ago. When the Hush are near,
+  the shrine carried it three hundred years ago. When the Hush is near,
   the sun on the shield glows.
 - **The grey ledger.** In the tent of Mother Sallow, under her blanket, is
   a small book bound in grey cloth. Most of it is prayers, in a hand that
@@ -871,7 +871,7 @@ II.
 
 The party walks back to Saint Ivo's in two days. Do not use the Journeys
 rules for the way home, unless the players want to. The road is quiet.
-The Hush are gone.
+The Hush is gone.
 
 > The bells of Saint Ivo's ring for you before you reach the gate. The
 > whole town comes out to see the Ember come home. The Abbess comes out
@@ -929,7 +929,7 @@ The characters can end this chapter with these things.
 - **The grey ledger** of the Hush, with the list of the pieces of the
   Dawnfire.
 - **Money and gear:** the tents of the Hush hold 60 GP in old coins of
-  Ostrey (the Hush pay with them; nobody knows where they find them),
+  Ostrey (the Hush pays with them; nobody knows where it finds them),
   three Potions of Healing, and twelve brass snuffers. The Abbess gives a
   purse of 250 GP when the Ember comes home, or when the party promises to
   guard it.

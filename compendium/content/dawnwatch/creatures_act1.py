@@ -8,7 +8,7 @@ from monster_engine import M
 
 R = lambda **k: "; ".join(f"<b>{a}</b> {b}" for a, b in k.items())
 
-HUSH_SIGN = ("Hush Sign", "The Hush speak little. Its members talk to each other with signs of the hand, "
+HUSH_SIGN = ("Hush Sign", "The Hush speaks little. Its members talk to each other with signs of the hand, "
              "and a creature that knows the signs can read them across a dark room.")
 
 MON = [

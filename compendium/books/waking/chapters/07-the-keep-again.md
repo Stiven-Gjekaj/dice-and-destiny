@@ -16,7 +16,7 @@ that forgot them. Since then they have slept in inns, in tents, and in the guest
 rooms of people who wanted something from them. In this chapter they go back
 to the keep, and they find the Hush in it.
 
-The Hush hold the keep. They camp in the ruins on the hill, and they dig in
+The Hush holds the keep. Its people camp in the ruins on the hill, and they dig in
 the Hall of Sleepers, where the characters slept for three hundred years.
 They smash the crystal coffins and carry away the shards. They also try to
 open a door that nobody has opened since the long sleep: the closed study of
@@ -38,13 +38,13 @@ attack by the Hush.
 
 | Scene | What happens | Encounter |
 |---|---|---|
-| 1. The Road Home | The party hears that the Hush hold the keep, and crosses the Wolds. | None |
+| 1. The Road Home | The party hears that the Hush holds the keep, and crosses the Wolds. | None |
 | 2. Watchers on the Hill | The party scouts the keep and chooses a way in. | None (a trap is possible) |
 | 3. Into the Keep | The party fights the main force of the Hush. | Encounter 1 (Moderate) |
 | 4. The Hall of Sleepers | Osk, a Hush Dusk Priest, and Mother Sallow. | Encounter 2 (High) |
 | 5. The Steward's Study | Wick opens the study. The letters. | None |
 | 6. A Home | Strongholds starts. Hesper Wren and Perrin Hale. | None |
-| 7. The Grey Night | The Hush attack the keep at night. | Encounter 3 (Low to Moderate) |
+| 7. The Grey Night | The Hush attacks the keep at night. | Encounter 3 (Low to Moderate) |
 
 ### Before you run this chapter
 
@@ -61,7 +61,7 @@ attack by the Hush.
 > The bowl in the chapel has a grey cloth over it. When players know a place,
 > small changes feel big.
 
-### What the Hush want here
+### What the Hush wants here
 
 The Hush came to the keep about two weeks before the party arrives. Mother
 Sallow believes two things:
@@ -132,7 +132,7 @@ for ending things." They break each lamp that they find.
 
 > **Thread (the black stone):** The black stone hums softly from here on,
 > and it hums louder as the party gets closer to the keep. Tell the bearer
-> each time it changes. It is a clock: when it hums loudly, the Hush are
+> each time it changes. It is a clock: when it hums loudly, the Hush is
 > near.
 
 ### The shepherds
@@ -200,10 +200,10 @@ each success.
 |---|---|---|
 | Dexterity (Stealth) to get close | 14 | The character counts the Hush: about thirty in all. Twenty are initiates who carry baskets and tools. About ten are fighters: Hush Night Wardens in grey mail and Hush Shrouds in grey robes. |
 | Wisdom (Perception) | 13 | Hush soldiers come and go through the white stone door on the hilltop: the Dawn Door. That is the main way in. Four guards stand at it day and night. |
-| Wisdom (Survival) | 14 | Tracks lead to the far side of the hill. A landslip opened a crack in the old wall there. The Hush use it to throw out dirt and broken crystal. It leads down into the Stair of Teeth. |
+| Wisdom (Survival) | 14 | Tracks lead to the far side of the hill. A landslip opened a crack in the old wall there. The Hush uses it to throw out dirt and broken crystal. It leads down into the Stair of Teeth. |
 | Wisdom (Insight), watching the camp | 15 | The character sees the pattern of the camp. At dawn, most Hush go inside to sleep. The best time to attack is just after sunrise, when the camp is sleepy. |
 | Intelligence (History) or Wick | 12 | The well house. A stone hut in the old courtyard has a shaft that goes 60 feet down into the armory. Wick: "The steward told me about it. He sent soup down that shaft, he said. Cold soup, usually." |
-| Intelligence (Investigation), at night | 15 | A cart leaves the hill each night with baskets of broken blue crystal, going north-west toward the Dunn. The Hush send the shards away. (This is a hint for chapter 10. The cart goes toward Kingsholm.) |
+| Intelligence (Investigation), at night | 15 | A cart leaves the hill each night with baskets of broken blue crystal, going north-west toward the Dunn. The Hush sends the shards away. (This is a hint for chapter 10. The cart goes toward Kingsholm.) |
 
 > **Thread (the black stone):** If the bearer of the black stone comes
 > within 300 feet of the Dawn Door, the stone hums so loud that the bearer
@@ -228,7 +228,7 @@ middle of the armory.
 **The broken wall.** On the far side of the hill, the crack in the wall
 leads into a tunnel of fallen stone, and then onto the Stair of Teeth, near
 the top. This way skips the main force. It goes straight down to the Bell
-Gate and up to the Hall of Sleepers. The Hush know the crack, so they put a
+Gate and up to the Hall of Sleepers. The Hush knows the crack, so it puts a
 trap in it (see "The new teeth" in Scene 3).
 
 > **GM tip:** Each way in is good. None is a trick. The Dawn Door gives a
@@ -248,7 +248,7 @@ What the alarm does:
 
 | Alarm | Effect |
 |---|---|
-| 0 | The Hush are surprised: in encounter 1, they have Disadvantage on Initiative. |
+| 0 | The Hush is surprised: in encounter 1, its members have Disadvantage on Initiative. |
 | 1 | No surprise. Encounter 1 is normal. |
 | 2 | The Hush in the Hall of Sleepers hear the fight. In encounter 2, they are ready, and Mother Sallow starts to leave sooner (see Scene 4). |
 | 3 | As alarm 2. Also, two of the initiates in the hall run to the study door with hammers. The party has 3 rounds before they crack the stone around the door. (The door still does not open. But Wick is very angry.) |
@@ -263,19 +263,19 @@ What the alarm does:
 
 The players know these rooms from the tutorial. Here is what changed.
 
-**The Chapel of Dawn.** The Hush camp here. Bedrolls lie on the floor. A
+**The Chapel of Dawn.** The Hush camps here. Bedrolls lie on the floor. A
 grey cloth covers the stone bowl of the Dawnfire, like a shroud on a body.
 The crack in the roof is blocked with a tent cloth, so the thin line of
 light is gone. The room is dark.
 
-**The armory.** The Hush use it as a store. Baskets of broken blue crystal
+**The armory.** The Hush uses it as a store. Baskets of broken blue crystal
 stand in rows between the old weapon racks. Picks and shovels lean against
 the well.
 
 **The Bell Gate.** The Hush cut the ropes of the three bells. The gate
 stands open.
 
-**The Stair of Teeth.** The Hush put new teeth on the stair (see below).
+**The Stair of Teeth.** The Hush puts new teeth on the stair (see below).
 
 **The Hall of Sleepers.** See Scene 4.
 
@@ -357,7 +357,7 @@ characters of level 7 (the budget is 4 × 1,300 = 5,200 XP).
   drops its weapon, kneels, and waits in silence. It does not fight again.
   The party can take it prisoner.
 
-> **GM tip:** The Hush are not monsters. They are people who are afraid that
+> **GM tip:** The members of the Hush are not monsters. They are people who are afraid that
 > the world is ending. Play their silence. They do not taunt and they do not
 > beg. When one falls, the others do not look. This is scarier than any
 > battle cry, and it makes Mother Sallow more interesting in Scene 4.
@@ -385,14 +385,14 @@ the tents or run away into the Wolds. Let them go. They are farmers and
 clerks who joined a cult because the winters got longer.
 
 If the party took a prisoner, it can ask questions. The prisoner does not
-speak at first. The Hush value silence.
+speak at first. The Hush values silence.
 
 | Check | DC | Result |
 |---|---|---|
 | Charisma (Intimidation) | 15 | The prisoner says one sentence and no more: "Mother is at the door, and the big one is with her." |
-| Charisma (Persuasion) | 14 | The prisoner talks. The Hush dig for shards because "the sleepers and the king were put to sleep by the same hand". Mother Sallow wants the key of the king's sleep, which is behind the door that has no lock. |
+| Charisma (Persuasion) | 14 | The prisoner talks. The Hush digs for shards because "the sleepers and the king were put to sleep by the same hand". Mother Sallow wants the key of the king's sleep, which is behind the door that has no lock. |
 | Wisdom (Insight) | 13 | The prisoner is not afraid of death. The prisoner is afraid of the dark that comes after the sun dies, and really believes that it comes soon. |
-| Wick talks to the prisoner | No roll | Wick asks why the Hush hate lights. The prisoner answers: "We do not hate them. We are saving them. A fire that burns all night is gone by morning." Wick has no answer, and that bothers him. |
+| Wick talks to the prisoner | No roll | Wick asks why the Hush hates lights. The prisoner answers: "We do not hate them. We are saving them. A fire that burns all night is gone by morning." Wick has no answer, and that bothers him. |
 
 > **Thread (the steward):** "The same hand." If the players ask Wick, he
 > says that the steward made the spell of the coffins. "The steward could
@@ -1011,8 +1011,8 @@ Strongholds defense roll and a fight.
 ### The warning
 
 Run this scene a few days after Scene 6, on the first night when the
-party's first room is not yet finished. The Hush want the keep back, or at
-least they want to show the party that it is not safe.
+party's first room is not yet finished. The Hush wants the keep back, or at
+least it wants to show the party that it is not safe.
 
 > It is a clear night with no moon. Hesper is still up, working by the light
 > of Wick, who sits on her table and reads her lists upside down. Then Wick's
@@ -1049,8 +1049,8 @@ sees the grey shapes on the hill in time and rings the old bell. The party
 meets the Hush at the gate. Use the smaller group below. The keep loses
 nothing.
 
-**On a failure:** the Hush get inside the walls before anyone sees them.
-The party meets them in the courtyard, among the half-built rooms. Use the
+**On a failure:** the Hush gets inside the walls before anyone sees it.
+The party meets it in the courtyard, among the half-built rooms. Use the
 larger group below. After the fight, the keep also loses something: the
 players choose either 1d6 × 100 GP (stolen or burned) or one room out of
 use for a month. A room that is still being built takes one month more.
@@ -1102,8 +1102,8 @@ gate, and the party has the high ground: the Hush must climb the rubble of the g
   reach the chapel and cover the bowl again. If a Warden reaches its goal and
   stays there for a full round, the keep loses as if the defense roll had
   failed (if it did not fail already).
-- **Retreat.** When the Choir drops to half its Hit Points, the Hush retreat
-  into the dark. They do not chase. They made their point.
+- **Retreat.** When the Choir drops to half its Hit Points, the Hush retreats
+  into the dark. It does not chase. It made its point.
 
 > **Scaling:** The budgets at level 7 are Low 750 XP and Moderate 1,300 XP
 > for each character. On a failed defense roll, add 1 Hush Night Warden

@@ -828,8 +828,8 @@ of this, and very scared.
   their Speed (15 feet each round). The Shroud uses Shush on a spellcaster.
 - **Round 3 and later:** The Snuffers with Pell keep going. When they
   reach the gate, they throw him in the cart and drive away.
-- **The goal is Pell, not the party.** The Hush flee when the Shroud
-  falls, or when Pell is free. They do not fight to the death. A Snuffer
+- **The goal is Pell, not the party.** The Hush flees when the Shroud
+  falls, or when Pell is free. Its members do not fight to the death. A Snuffer
   who is caught says nothing at all.
 - **The black stone** hums all through the fight, loud enough for its
   bearer to feel it in the teeth. A Snuffer that sees the stone stops for

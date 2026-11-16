@@ -223,7 +223,7 @@ The gazetteer sets these facts. Each writer uses them.
 - **The goliath name for the Unlit King:** "the one who ate the fire". A
   hint for chapter 10.
 - **Kell** had its own piece of the Dawnfire after the war. It went out in
-  the Broken Years. The Hush use its dead bowl for the rite that puts out
+  the Broken Years. The Hush uses its dead bowl for the rite that puts out
   a living piece (chapter 4).
 - **The song:** "The Five at the Gate" is sung on the pilgrim road. In it,
   seven heroes hold the gate at Ashby Field, and they sleep under Saint
