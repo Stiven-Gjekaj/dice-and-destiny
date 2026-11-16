@@ -31,7 +31,7 @@ INFO = {
     feats={
         "Rage": "Bonus action, no heavy armor. Lasts until end of your next turn and is extended by attacking or forcing a save (up to 10 minutes). While raging: resistance to Bludgeoning/Piercing/Slashing, +Rage Damage on Strength attacks, advantage on Strength checks and saves, no spellcasting or concentration.",
         "Unarmored Defense": "No armor: AC = 10 + Dex mod + Con mod (shield allowed).",
-        "Weapon Mastery": "Use the mastery property of a number of weapon types (see the Weapons chapter).",
+        "Weapon Mastery": "Use the mastery property of a number of weapon types (see the Weapons &amp; Armor chapter).",
         "Danger Sense": "Advantage on Dexterity saving throws unless Incapacitated.",
         "Reckless Attack": "On your first attack of a turn, choose to get advantage on Strength attacks this turn; attacks against you have advantage until your next turn.",
         "Primal Knowledge": "One extra Barbarian skill. While raging, Acrobatics, Intimidation, Perception, Stealth and Survival checks can use Strength.",
@@ -139,7 +139,7 @@ INFO = {
     feats={
         "Fighting Style": "Gain a Fighting Style feat (Defense, Great Weapon Fighting, Archery, Dueling, etc.). Can swap it on level up.",
         "Second Wind": "Bonus action: heal 1d10 + Fighter level. Limited uses; regain one on a short rest, all on a long rest.",
-        "Weapon Mastery": "Use the mastery property of several weapon types (see the Weapons chapter).",
+        "Weapon Mastery": "Use the mastery property of several weapon types (see the Weapons &amp; Armor chapter).",
         "Action Surge": "Once per short rest: take one extra action on your turn (not Magic). Twice per rest at level 17.",
         "Tactical Mind": "When you fail an ability check, spend a Second Wind use to add 1d10 instead of healing.",
         "Fighter Subclass": "Choose your martial archetype.",
