@@ -412,7 +412,9 @@ cries, quietly, for about ten seconds. Then she tells them this:
 > The well. A granny of mine, six grannies back, was the last of us to do
 > it. When the Grey Winter came, the last steward went off to the war of
 > the lords, and the soldiers were gone, and she kept the door shut for
-> three years on her own. Then she came down the hill and married a ferryman. She said the Sleepers were
+> three years on her own. Then she came down the hill and married the
+> ferryman at the ford. There was no village then, only his boat and his
+> hut. Brannock built the first house fifty years later. She said the Sleepers were
 > under the hill, and that somebody had to remember. So we remembered.
 > Nobody believed us. My granddad had a coin like yours in the wall."
 

@@ -230,7 +230,9 @@ The gazetteer sets these facts. Each writer uses them.
   Ivo's. Almost every fact is wrong (chapter 2 handout).
 - **Brannock's Ford:** a village of about two hundred people. Brannock, a
   ferryman, built the first house about 150 years ago, after the bridge of
-  Ostrey fell. The inn is the Ferry Bell. The old barrow of the road
+  Ostrey fell. The ferry is older: after the Grey Winter, an ancestor of
+  Tamsin married the ferryman at the ford, and her family ran the ferry
+  before Brannock built the first house (year 150). The inn is the Ferry Bell. The old barrow of the road
   wardens of Ostrey is on Ferry Hill, a mile north.
 - **Saint Ivo's:** a town of about four thousand people inside a wall of
   yellow stone. The Church of the Five stands over the old shrine. The

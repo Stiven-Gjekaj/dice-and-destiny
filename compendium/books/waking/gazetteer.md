@@ -649,7 +649,9 @@ bridge.
 
 **Now.** The bridge of Ostrey fell in the Broken Years. A ferryman named
 Brannock built a house by the ford about a hundred and fifty years ago,
-and a village grew around the ferry. Today it is about two hundred people
+and a village grew around the ferry. The ferry is older than the village:
+Tamsin's family ran it from a hut on the bank for fifty years before
+Brannock came. Today it is about two hundred people
 in forty houses of grey stone with roofs of reed, a mill, a small church
 of the Five with a bell, an inn with a lamp over the door, and a well with
 a stone from the old bridge in its wall.
