@@ -131,7 +131,8 @@ def toc_html(pages):
 
 def expand(name):
     s = open(f"books/{name}.src.html").read()
-    s = s.replace('<link rel="stylesheet" href="style.css">', '<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="book.css">')
+    s = s.replace('<link rel="stylesheet" href="style.css">', '<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="book.css">'
+                  '<link rel="stylesheet" href="bw.css">')
     s = s.replace("{{FRONT}}", front(name))
     reps = {
         "{{CLASSES}}": lambda: classes.all_classes(),

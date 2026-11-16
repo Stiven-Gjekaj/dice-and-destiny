@@ -1,7 +1,5 @@
-/* ================= PAPERBACK / BLACK & WHITE OVERRIDES ================= */
-:root {
-  --ink: #000; --red: #000; --gold: #6a6a6a; --paper: #fff; --soft: #efefef; --line: #b9b9b9;
-}
+/* ================= PRINT AND SCREEN LAYOUT =================
+   Loaded after style.css. bw.css (print) or screen.css (screen) comes after it. */
 
 /* mirrored margins: wide inside (spine) margin, page numbers on outer corners */
 @page {
@@ -39,42 +37,6 @@
 .titlepage .rule { width: 60mm; border-top: 1pt solid #000; margin: 10mm auto; }
 .credits { page: front; break-after: page; font-size: 8.4pt; color: #222; padding-top: 150mm; }
 .credits p { margin-bottom: 3mm; }
-
-/* headings & accents in grayscale */
-h1, h2, h3, h4 { color: #000; }
-h2 { border-bottom-color: #999; }
-svg.divider path, svg.divider circle { stroke: #000 !important; }
-svg.divider path[fill], svg.divider circle { fill: #000 !important; }
-.crest { color: #000; }
-.ch-badge { background: #fff !important; border: 1.3pt solid #000 !important; color: #000 !important; box-shadow: none !important; }
-.ch-num { color: #555; }
-h2 .ic, h4 .ic, caption .ic { color: #000; }
-.box { background: #f0f0f0; border-left-color: #444; }
-.box.red { background: #f0f0f0; border-left: 3pt double #000; }
-.box.dark { background: #e6e6e6; color: #000; border-left-color: #000; }
-.box.dark b, .box.dark strong { color: #000; }
-.box.dark h4, .box.dark h4 .ic, .box h4, .box h4 .ic { color: #000; }
-.example { border-color: #777; background: #fff; }
-.example::before { color: #555; }
-th { background: #2a2a2a; color: #fff; }
-tbody tr:nth-child(even) td { background: #f2f2f2; }
-.traits { background: #ececec; color: #000; border: 0.8pt solid #999; }
-.traits b { color: #444; }
-.class-banner { background: #ececec; color: #000; border-top: 2pt solid #000; border-bottom: 2pt solid #000; }
-.class-banner h1.classname { color: #000; }
-.class-banner .tagline { color: #333; }
-.class-banner .ch-num { color: #555; }
-.crest { background: #fff !important; border: 1.3pt solid #000 !important; color: #000 !important; }
-.tag { background: #f0f0f0; color: #000; border-color: #aaa; }
-dl.feat dt { color: #000; }
-dl.feat dt .lv, .lv { background: #333 !important; color: #fff !important; }
-.abil-card .ab { background: #222; border-color: #555; }
-.abil-card .ab small { color: #ddd; }
-.stat .m { color: #333; }
-.note { color: #333; }
-.toc li span.n { color: #555; }
-.card { border-color: #aaa; }
-.sheet, .stat { border-color: #000; }
 
 /* ---------------- parts ---------------- */
 .part {
