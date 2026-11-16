@@ -31,6 +31,13 @@ TECHNIQUES is a list of Technique entries. A Technique entry is a dict with thes
   timing: when you use it, for example "Bonus Action" or "Reaction"
   text: what it does
 
+LEGENDS is a list of Legend path entries. A Legend entry is a dict with these keys:
+  name: the name of the path, for example "Dragonslayer"
+  summary: one or two sentences that tell what the path is
+  deeds: the deeds that give legend points on this path
+  fall: what makes the character lose legend points on this path
+  tiers: a list of 5 (title, benefit), one for each tier from I to V
+
 In all text, [[label]] shows the label in bold.
 """
 from content.collect import collect_list
@@ -38,3 +45,4 @@ from content.collect import collect_list
 MARKS = collect_list(__name__, "MARKS")
 BONDS = collect_list(__name__, "BONDS")
 TECHNIQUES = collect_list(__name__, "TECHNIQUES")
+LEGENDS = collect_list(__name__, "LEGENDS")

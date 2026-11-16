@@ -1,9 +1,9 @@
 """Tests for render_systems. Each test builds its own entries."""
 import pytest
 
-from render_systems import (bond_errors, bond_html, bonds_html, mark_errors, mark_html,
-                            marks_html, technique_errors, technique_html, techniques_html,
-                            track_html)
+from render_systems import (bond_errors, bond_html, bonds_html, legend_errors, legend_html,
+                            legends_html, mark_errors, mark_html, marks_html, technique_errors,
+                            technique_html, techniques_html, track_html)
 
 
 def make_mark(**changes):
@@ -192,3 +192,36 @@ def test_techniques_html_is_empty_with_no_techniques_and_stops_on_a_bad_one():
     assert techniques_html([]) == ""
     with pytest.raises(ValueError):
         techniques_html([make_tech(cost=9)])
+
+
+def make_legend(**changes):
+    p = dict(name="Test Path", summary="A path for the tests.", deeds="Do [[great]] things.",
+             fall="Run & hide.", tiers=[(f"Title {i}", f"Benefit {i}.") for i in range(1, 6)])
+    p.update(changes)
+    return p
+
+
+def test_a_correct_legend_has_no_errors():
+    assert legend_errors(make_legend()) == []
+
+
+def test_legend_errors_find_the_wrong_number_of_tiers_and_bad_keys():
+    assert legend_errors(make_legend(tiers=[("A", "a")] * 4))
+    assert legend_errors(make_legend(tiers=[("A",)] * 5))
+    assert any("unknown key 'colour'" in e for e in legend_errors(make_legend(colour="red")))
+
+
+def test_legend_html_shows_each_tier_with_its_points_and_level():
+    out = legend_html(make_legend())
+    assert out.count('<span class="lv">') == 5
+    assert "Title 1 <span" in out and "(1 point, level 1+)" in out
+    assert "(15 points, level 17+)" in out and "Benefit 5." in out
+    assert "Do <b>great</b> things." in out and "Run &amp; hide." in out
+
+
+def test_legends_html_sorts_by_name_and_is_empty_with_no_paths():
+    assert legends_html([]) == ""
+    out = legends_html([make_legend(name="Zealot"), make_legend(name="Archer")])
+    assert out.index("Archer") < out.index("Zealot")
+    with pytest.raises(ValueError):
+        legends_html([make_legend(tiers=[])])

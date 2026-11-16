@@ -2,7 +2,7 @@
 
 The Player's Compendium shows the Blessings, the Curses, and the Bonds.
 The Game Master's Compendium shows the Taints with their hidden prices.
-The Player's Compendium also shows the Techniques.
+The Player's Compendium also shows the Techniques and the Legend paths.
 """
 import html
 
@@ -22,6 +22,9 @@ TECH_TYPES = {"Stance": "Stances", "Maneuver": "Maneuvers", "Shaping": "Spell Sh
 TECH_KEYS = {"name", "type", "cost", "level", "timing", "text"}
 TECH_LEVELS = (1, 5, 11, 17)
 TECH_COST = (1, 3)
+LEGEND_KEYS = {"name", "summary", "deeds", "fall", "tiers"}
+# The legend points and the character level that each tier needs.
+LEGEND_TIERS = [("I", 1, 1), ("II", 3, 5), ("III", 6, 9), ("IV", 10, 13), ("V", 15, 17)]
 
 
 def mark_errors(m):
@@ -190,3 +193,46 @@ def techniques_html(techs):
 def all_techniques_html():
     from content.systems import TECHNIQUES
     return techniques_html(TECHNIQUES)
+
+
+def legend_errors(p):
+    """Return a list of the problems of one Legend path entry. An empty list means no problem."""
+    name = p.get("name", "?")
+    errors = [f"Legend '{name}': missing key '{k}'" for k in sorted(LEGEND_KEYS - set(p))]
+    errors += [f"Legend '{name}': unknown key '{k}'" for k in sorted(set(p) - LEGEND_KEYS)]
+    if errors:
+        return errors
+    if len(p["tiers"]) != len(LEGEND_TIERS):
+        errors.append(f"Legend '{name}': needs exactly {len(LEGEND_TIERS)} tiers")
+    elif any(len(t) != 2 for t in p["tiers"]):
+        errors.append(f"Legend '{name}': each tier must be (title, benefit)")
+    return errors
+
+
+def legend_html(p):
+    """One Legend path: the summary, the deeds, the fall, then the five tiers with their points and levels."""
+    _stop_on(legend_errors(p))
+    out = [f'<div class="entry sys-legend"><h4 class="sp-name">{E(p["name"])}</h4>',
+           f'<p><i>{feature_text(p["summary"])}</i></p><dl class="feat">',
+           f'<dt>Deeds</dt><dd>{feature_text(p["deeds"])}</dd>',
+           f'<dt>The fall</dt><dd>{feature_text(p["fall"])}</dd>']
+    for (num, pts, lv), (title, text) in zip(LEGEND_TIERS, p["tiers"]):
+        word = "point" if pts == 1 else "points"
+        out.append(f'<dt><span class="lv">{num}</span>{E(title)} <span class="small muted">({pts} {word}, level {lv}+)</span></dt>'
+                   f'<dd>{feature_text(text)}</dd>')
+    out.append("</dl></div>")
+    return "\n".join(out)
+
+
+def legends_html(paths):
+    """All Legend paths, in the order of the names. Return "" if there are none."""
+    _stop_on([e for p in paths for e in legend_errors(p)])
+    if not paths:
+        return ""
+    group = sorted(paths, key=lambda p: p["name"])
+    return '<div class="cols2 compendium">' + "\n".join(legend_html(p) for p in group) + "</div>"
+
+
+def all_legends_html():
+    from content.systems import LEGENDS
+    return legends_html(LEGENDS)
