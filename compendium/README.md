@@ -6,8 +6,13 @@ that builds them:
 - *Dice & Destiny: The Player's Compendium*
 - *Dice & Destiny: The Game Master's Compendium*
 
-The build makes four print-ready PDFs: an A4 black and white interior and a
-full color wraparound cover with 3 mm bleed for each book.
+The build makes four PDFs for each book:
+
+- **Screen:** color, with a front cover, links in the contents, and bookmarks.
+- **Home print:** A4, black and white, with a front page and a blank back.
+- **Lulu interior:** A4, black and white, with no cover.
+- **Lulu hardcover cover:** the full color wraparound cover for a Lulu A4
+  casewrap hardcover.
 
 You do not have to build the books to read them. Each push to `main` that
 changes this folder makes a preview release with the PDFs. See
@@ -47,11 +52,11 @@ right-hand page. The full build takes some minutes.
 
 | Path | Contents |
 |---|---|
-| `books/` | The chapters that a human writes (`player.src.html`, `gm.src.html`) and the styles (`style.css`, `book.css`). A `{{PLACEHOLDER}}` marks a section that the build makes. |
+| `books/` | The chapters that a human writes (`player.src.html`, `gm.src.html`) and the styles (`style.css` for the design, `book.css` for the page layout, `bw.css` for print, `screen.css` for the screen). A `{{PLACEHOLDER}}` marks a section that the build makes. |
 | `content/` | The original content: `orig_mon*.py` (monsters), `orig_items*.py` (magic items), `orig_sub*.py` (subclasses), `orig_spells.py` (spells), and `orig_options.py` (backgrounds, species, feats). The strongholds are in `orig_items3.py`. |
-| `build/` | The build code. `build.py` fills the placeholders, adds the chapter headings, makes the table of contents, and makes the PDFs. `cover.py` makes the covers. `classes.py` and `compendium.py` make the SRD sections. `orig_render.py` makes the original content sections. `monster_engine.py` calculates the monster statistics. `icons.py` holds the icons. |
+| `build/` | The build code. `build.py` fills the placeholders, adds the chapter headings, makes the table of contents, and makes the PDFs. `cover.py` makes the hardcover covers. `editions.py` makes the front pages and joins the screen and home-print PDFs. `classes.py` and `compendium.py` make the SRD sections. `orig_render.py` makes the original content sections. `monster_engine.py` calculates the monster statistics. `icons.py` holds the icons. |
 | `data/` | The SRD 5.2 data in JSON, and `fetch.py`, which downloads the data again. |
-| `build.sh` | Builds both books and both covers, and copies the PDFs into `dist/`. |
+| `build.sh` | Builds the print and screen interiors, the hardcover covers, and the editions of both books, and copies the 8 PDFs into `dist/`. |
 
 ## Add your own content
 
@@ -73,11 +78,15 @@ To change a chapter, edit `books/player.src.html` or `books/gm.src.html`.
 ## Print
 
 - Interior: A4, black and white, with mirrored margins (22 mm inside and
-  14 mm outside).
-- Cover: full color with 3 mm bleed. The spine width uses 0.0572 mm for each
-  page. Use the spine calculator of your printer, and change `MM_PER_PAGE` in
-  `build/cover.py` if necessary.
+  14 mm outside). The home-print PDF and the Lulu interior use it.
+- Screen: the same text in color, with the same margin on each side and no
+  blank pages before the parts.
+- Hardcover cover: the spine width comes from a table of Lulu spine widths
+  (`HC_SPINE_IN` in `build/cover.py`). Check it against the Lulu cover
+  template for the page count of the book.
 - The back cover has a white box for a barcode.
+- The build does not make a paperback cover any more. `cover_html` in
+  `build/cover.py` can still make one.
 
 ## Check the layout
 

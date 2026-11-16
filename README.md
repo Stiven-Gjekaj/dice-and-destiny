@@ -16,8 +16,14 @@ Dice & Destiny has two books:
 ## Get the books
 
 Go to [Releases](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases).
-Each release has four PDFs: the A4 black and white interior and the full
-color cover of each book.
+Each release has four files for each book. Choose the files for what you
+want to do:
+
+| Use | File | What it is |
+|---|---|---|
+| Read on a screen | `...-screen.pdf` | Color, with a front cover. The contents link to the chapters, and the bookmarks list the parts and chapters. |
+| Print at home | `...-home-print.pdf` | A4, black and white, with a front page and a blank back. Print it on both sides. The wide inside margin has space for punched holes. |
+| Print a hardcover at Lulu | `...-lulu-interior.pdf` and `...-lulu-cover.pdf` | The interior with no cover, and the wraparound cover for a Lulu A4 casewrap hardcover. Upload the two files to Lulu. |
 
 - A **preview** release comes from each change to the books.
 - An **edition** release is a finished edition.
