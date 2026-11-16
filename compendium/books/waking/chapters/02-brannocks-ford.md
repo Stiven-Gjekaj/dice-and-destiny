@@ -251,7 +251,7 @@ the people of today know" for the easy answers. For more, use this table.
 | Asks about the keep in the north | Charisma (Persuasion) | 12 | Nobody goes there. The sheep go there. "My nan said the Sleepers sleep under that hill. My nan also said a frog was her husband." |
 | Asks about Ostrey | Intelligence (History) | 10 | The character hears the story of the fall and understands it: the Grey Winter, the king with no heir, the civil war. The character knows that the order of events is right, but the people in it are wrong. |
 | Asks about the shorter days | Wisdom (Insight) | 12 | Everybody jokes about the long winters. Nobody likes the joke. Two farmers lost their harvest last year to an early frost. |
-| Tells the truth about who they are | Charisma (Persuasion) | 20 | No adult believes it, on any roll. On a 20 or more, one pilgrim child believes it, and she stays close to the party all night. Her name is Wenna. She wants to know if the Unlit King is real. |
+| Tells the truth about who they are | Charisma (Persuasion) | 20 | No adult believes it, on any roll. On a 20 or more, one pilgrim child believes it, and she stays close to the party all night. Her name is Bree. She wants to know if the Unlit King is real. |
 
 > **GM tip:** The DCs are low. This scene is not a puzzle. It is a window.
 > Give the information freely. Save the rolls for when a player wants to
@@ -522,7 +522,7 @@ Lights** float over them and give them their blue light.
   wardens. They want their things, and then they want to go back to work."
 - **The villagers.** A villager is a **Commoner**. A skeleton hits a
   villager that does not move. Give the players a reason to protect them:
-  little Wenna from the inn runs out to see the Sleepers fight.
+  little Bree from the inn runs out to see the Sleepers fight.
 - **The bell.** The priest of the village rings the church bell for the
   whole fight. A character who makes a DC 12 Intelligence (Religion) check
   knows that the bell does nothing to the dead. It makes the villagers
