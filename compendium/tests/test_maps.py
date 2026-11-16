@@ -137,3 +137,12 @@ def test_has_name_matches_whole_words_only():
     svg = '<svg xmlns="http://www.w3.org/2000/svg"><text>THE MARCH OF GAUNTRY</text></svg>'
     assert not has_name(svg, "Gaunt")
     assert has_name(svg, "March of Gauntry")
+
+
+def test_write_previews_writes_each_map(tmp_path):
+    maps.write_previews(str(tmp_path))
+    for map_id in maps.MAP_IDS:
+        svg = (tmp_path / f"{map_id}.svg").read_text()
+        assert svg == maps.map_svg(map_id)
+        assert (tmp_path / f"{map_id}.html").exists()
+    assert (tmp_path / "index.html").read_text().count("<svg") == len(maps.MAP_IDS)

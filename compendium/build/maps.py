@@ -8,10 +8,18 @@ because Chrome prints outlined text as a Type 3 font.
 
 The places come from content/dawnwatch/places.py. A map changes when a
 place in that list changes.
+
+To look at the maps, write them to a folder:
+
+    python3 build/maps.py /tmp/maps
+
+The command writes one SVG for each map and an HTML page with all of them.
+Open the HTML page in Chrome, or add --png to write a PNG of each map.
 """
 import math
 import os
 import random
+import subprocess
 import sys
 from xml.sax.saxutils import escape
 
@@ -760,3 +768,49 @@ def map_svg(map_id, size=None):
     if size is not None and size not in SIZES:
         raise ValueError(f"unknown map size {size!r}")
     return _Map(map_id, size).render()
+
+
+def write_previews(folder, png=False):
+    """Write each map as an SVG, and an HTML page with all maps, into the folder."""
+    os.makedirs(folder, exist_ok=True)
+    here = os.path.dirname(os.path.abspath(__file__))
+    fonts = os.path.join(here, "..", "books", "fonts")
+    face = "".join(
+        f'@font-face {{ font-family: "Inter"; src: url("file://{os.path.abspath(fonts)}/Inter-{n}.ttf"); '
+        f"font-weight: {wt}; }}\n" for n, wt in (("Regular", 400), ("SemiBold", 600)))
+    pages = []
+    for map_id in MAP_IDS:
+        svg = map_svg(map_id)
+        path = os.path.join(folder, f"{map_id}.svg")
+        with open(path, "w") as f:
+            f.write(svg)
+        html = (f"<!doctype html><meta charset='utf-8'><style>{face} body {{ margin: 0; "
+                f"background: #fff; }} svg {{ display: block; }}</style>{svg}")
+        hpath = os.path.join(folder, f"{map_id}.html")
+        with open(hpath, "w") as f:
+            f.write(html)
+        pages.append(f"<h2>{map_id}</h2>{svg}")
+        if png:
+            w, h = (round(float(v.split('"')[1].rstrip("m")) * 96 / 25.4) for v in
+                    (svg.split('width=', 2)[1], svg.split('height=', 2)[1]))
+            subprocess.run([_chrome(), "--headless=new", "--disable-gpu", "--hide-scrollbars",
+                            "--force-device-scale-factor=2", f"--window-size={w},{h}",
+                            f"--screenshot={os.path.join(folder, map_id + '.png')}",
+                            f"file://{os.path.abspath(hpath)}"],
+                           check=True, capture_output=True)
+    with open(os.path.join(folder, "index.html"), "w") as f:
+        f.write(f"<!doctype html><meta charset='utf-8'><style>{face} body {{ font-family: Inter; "
+                f"background: #fff; }} svg {{ display: block; margin: 0 0 12mm; }}</style>"
+                + "".join(pages))
+
+
+def _chrome():
+    for c in ("google-chrome", "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"):
+        if os.path.exists(c) or subprocess.run(["which", c], capture_output=True).returncode == 0:
+            return c
+    raise SystemExit("Chrome is not installed")
+
+
+if __name__ == "__main__":
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    write_previews(args[0] if args else "maps-preview", png="--png" in sys.argv)
