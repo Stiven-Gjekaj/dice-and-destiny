@@ -69,7 +69,7 @@ def big_d20(size=260, stroke="#d6aa55", flat=False):
 <defs>
  <linearGradient id="face" x1="0.2" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#e2604f"/><stop offset="1" stop-color="#9c2a1f"/></linearGradient>
 </defs>{body}
-<text x="50" y="59" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="19" fill="#f8e6c0" stroke="#5a120c" stroke-width=".4">20</text>
+<text x="50" y="59" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="19" fill="#f8e6c0">20</text>
 <text x="31" y="23" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="7" fill="#f8e6c0" transform="rotate(-30 31 23)">8</text>
 <text x="69" y="23" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="7" fill="#f8e6c0" transform="rotate(30 69 23)">14</text>
 <text x="50" y="84" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="7" fill="#f8e6c0" transform="rotate(180 50 82)">2</text>
@@ -84,7 +84,7 @@ def big_d20(size=260, stroke="#d6aa55", flat=False):
 <polygon points="{poly([(T[0],T[1]+4),(UR[0]+1,UR[1]+4),(LR[0]+1,LR[1]+4),(B[0],B[1]+4),(LL[0]-1,LL[1]+4),(UL[0]-1,UL[1]+4)])}" fill="#000" opacity=".35"/>{body}
 <polygon points="{poly((T, UL, ct))}" fill="#fff" opacity=".10"/>
 
-<text x="50" y="59" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="19" fill="#f8e6c0" stroke="#5a120c" stroke-width=".4">20</text>
+<text x="50" y="59" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="19" fill="#f8e6c0">20</text>
 <text x="31" y="23" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="7" fill="#f8e6c0" opacity=".85" transform="rotate(-30 31 23)">8</text>
 <text x="69" y="23" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="7" fill="#f8e6c0" opacity=".7" transform="rotate(30 69 23)">14</text>
 <text x="50" y="84" text-anchor="middle" font-family="Caladea, serif" font-weight="bold" font-size="7" fill="#f8e6c0" opacity=".6" transform="rotate(180 50 82)">2</text>

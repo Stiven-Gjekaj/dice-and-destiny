@@ -109,6 +109,8 @@ h1 {{ font-family: "GFS Baskerville", Caladea, serif; font-weight: normal; font-
 .spine .st {{ position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%) rotate(90deg); white-space: nowrap;
   font-family: Caladea, serif; font-size: {min(11, spine * 1.6):.1f}pt; color: #f6e2b8; letter-spacing: .06em; }}
 .spine .st span {{ color: #c99a3e; margin: 0 3mm; }}
+/* A drawn diamond, not the character: Chrome prints a rotated symbol glyph as a Type 3 font. */
+.spine .st .dia {{ display: inline-block; width: 1.5mm; height: 1.5mm; background: #c99a3e; transform: rotate(45deg); vertical-align: middle; }}
 .spine::before, .spine::after {{ content: ""; position: absolute; left: 0; right: 0; border-top: .8pt solid #c99a3e; }}
 .spine::before {{ top: 18mm; }} .spine::after {{ bottom: 18mm; }}
 </style></head><body>
@@ -118,7 +120,7 @@ h1 {{ font-family: "GFS Baskerville", Caladea, serif; font-weight: normal; font-
   <div class="small">Includes material from the System Reference Document 5.2 by Wizards of the Coast LLC, licensed under CC-BY-4.0. Not affiliated with or endorsed by Wizards of the Coast. Original content © 2026 Stiven Gjekaj, licensed under CC BY-NC-SA 4.0.</div>
   {barcode_in}
 </div>{barcode_out}</div>
-<div class="panel spine"><div class="st">Dice &amp; Destiny<span>◆</span>{b["title"]}</div></div>
+<div class="panel spine"><div class="st">Dice &amp; Destiny<span class="dia"></span>{b["title"]}</div></div>
 <div class="panel front"><div class="frame"></div><div class="inner">
   <div class="kicker">Dice &amp; Destiny</div>
   <h1>{b["t1"]}<br>{b["t2"]}</h1>

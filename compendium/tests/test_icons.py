@@ -10,3 +10,9 @@ def test_flat_d20_has_no_transparency():
 
 def test_cover_d20_keeps_its_glow():
     assert "glow" in big_d20(230)
+
+
+def test_d20_numbers_have_no_outline():
+    # Chrome prints outlined text as a Type 3 font, and Lulu warns about Type 3 fonts.
+    for svg in (big_d20(230), big_d20(150, "#111", flat=True)):
+        assert 'stroke-width=".4">20' not in svg
