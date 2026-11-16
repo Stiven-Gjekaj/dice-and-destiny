@@ -745,3 +745,321 @@ takes it to the Abbess himself.
 If the party now has 5 Proof or more, Cade believes them fully. If not,
 he believes that they are not liars, which is not the same thing. He wants
 to see the Ember.
+
+---
+
+## Scene 7: Lights Out (45 minutes)
+
+**Goal:** The second fight of the chapter. The grey folk act. The party
+saves Garret Pell, or fails to.
+
+This scene happens on the second night, during the play in the Players'
+Yard. Run it after Scene 6 if you can, so that the party has the snuffer
+from the well. If the party is not at the play, a child runs to find them:
+"Master Pell asks for you. He says please. He says it twice."
+
+> The yard is full again, three hundred people shoulder to shoulder. The
+> lamps on the stage burn bright. Garret Pell lifts his sword and starts
+> his speech.
+>
+> Then a lamp at the back of the yard goes out. Then the one next to it.
+> Then a whole row, one after the other, quick and quiet, like someone
+> walking along the wall and pinching each flame.
+>
+> The crowd laughs, a little. Part of the show? Then the stage lamps go
+> out, all at once, and the yard is black, and somebody screams.
+>
+> In the dark, one light still burns: the small orange flame of Wick.
+
+The grey folk are here. They are **Hush Snuffers**, led by a **Hush
+Shroud**. They want Garret Pell. They believe that he is a Sleeper, and
+they want to take him to their leader. They put out every lamp in the
+yard. They cannot put out Wick, because Wick is magic. Wick is very proud
+of this, and very scared.
+
+{{statblock: Hush Snuffer}}
+
+{{statblock: Hush Shroud}}
+
+| Party size | Monsters | XP |
+|---|---|---|
+| 4 characters | 1 Hush Shroud, 4 Hush Snuffers | 850 |
+
+> **Scaling:** This is a Moderate fight for level 3 (225 XP for each
+> character).
+>
+> - **3 characters (675 XP):** 1 Hush Shroud, 2 Hush Snuffers (650 XP).
+> - **4 characters (900 XP):** as in the table (850 XP).
+> - **5 characters (1,125 XP):** 1 Hush Shroud, 6 Hush Snuffers (1,050
+>   XP).
+> - **6 characters (1,350 XP):** 2 Hush Shrouds, 4 Hush Snuffers (1,300
+>   XP).
+
+### The map
+
+- The yard is 80 feet by 60 feet. The stage is at the north end, 5 feet
+  high, 30 feet wide. The inn is on the east side. A back gate is on the
+  south side, 70 feet from the stage. A cart with a grey cover waits
+  outside the gate.
+- **The crowd.** In the first two rounds, the crowd fills the yard. Each
+  square of the yard that is not the stage is Difficult Terrain. In round
+  3, the crowd has run into the inn and the street, and the yard is clear.
+- **The dark.** All the lamps are out. The yard is Darkness, except for
+  Wick's light: Bright Light for 30 feet and Dim Light for 30 feet more,
+  around the character who carries him. The Snuffers have Advantage on
+  Stealth in the dark, and they deal extra Cold damage to targets in Dim
+  Light or Darkness.
+- **Relight the lamps.** A character next to a lamp can light it as an
+  action, with a tinderbox, or with a cantrip such as *Light* or
+  *Produce Flame*. A lit lamp gives Bright Light for 15 feet. On its next
+  turn, a Snuffer may use its Snuff to put it out again. This is a good
+  fight to teach the value of light.
+
+### Running the fight
+
+- **Round 1:** The Shroud casts *Darkness* on the stage. Two Snuffers
+  climb up and grab Pell. They tie his hands. The other Snuffers attack
+  anyone who comes near the stage, or anyone who carries a light.
+- **Round 2:** The two Snuffers carry Pell toward the back gate, at half
+  their Speed (15 feet each round). The Shroud uses Shush on a spellcaster.
+- **Round 3 and later:** The Snuffers with Pell keep going. When they
+  reach the gate, they throw him in the cart and drive away.
+- **The goal is Pell, not the party.** The Hush flee when the Shroud
+  falls, or when Pell is free. They do not fight to the death. A Snuffer
+  who is caught says nothing at all.
+- **The black stone** hums all through the fight, loud enough for its
+  bearer to feel it in the teeth. A Snuffer that sees the stone stops for
+  a moment and stares at it. If you want, one Snuffer leaves Pell and tries
+  to grab the stone. Chapter 4 makes this the main goal of the Hush.
+
+> **GM tip:** The players do not know who these people are. Do not name
+> the Hush in this chapter. If a character asks a captured Snuffer who it
+> serves, it says one sentence, softly: "The sun is dying, and only the
+> king can save it." Then it says nothing more, ever. On its wrist, inside,
+> is a small tattoo: a grey circle. The party learns the name of the Hush
+> in chapter 4.
+
+### If Pell is saved
+
+Garret Pell sits on the edge of the stage with a cup of wine in his
+shaking hands. He looks at the party for a long time.
+
+> "They came for me," he says, "because they thought I was you." He
+> laughs, and it is not his stage laugh. "I wanted to be you. For one
+> feast. I think I am cured."
+
+The next morning, Pell stands on the stage in front of a crowd and tells
+the truth: that his players are actors, that he lied, and that the real
+Sleepers saved him from the dark. He makes it a very good speech. It is
+the best performance of his life, and he knows it. **1 Proof.**
+
+Pell gives the party his most precious thing: the **Mask of the Fifth
+Sleeper**, the mask that the actor of the Fifth Sleeper wears in the last
+scene of the play. "Every pilgrim on the road touched it for luck," says
+Pell. "Some of the luck stayed. I think it should go home."
+
+{{treasure: Mask of the Fifth Sleeper}}
+
+### If Pell is taken
+
+The cart drives off into the night with Pell. The town is in an uproar:
+somebody stole a Sleeper. The Abbess is furious and frightened. Without
+Pell's confession, the party has one less way to get Proof.
+
+Pell is not dead. The Hush takes him to the shrine at Kell, and the party
+finds him there in chapter 4. Tilly Ashe, the actress who plays the
+Shadow, gives the party the Mask of the Fifth Sleeper. "Bring him back,"
+she says. "He is an idiot, but he is our idiot."
+
+---
+
+## Scene 8: The Trial at the Gate (optional, 30 minutes)
+
+**Goal:** A last way to get Proof, for a party that has less than 3 on the
+third day.
+
+Use this scene only if the party has fewer than 3 Proof on the morning of
+the third day. If the party has 3 or more, skip it.
+
+> "There is an old rite," says the Abbess. "Older than the Church. When a
+> soldier of the old kingdom claimed to be of the King's Watch, the
+> captains tested the claim at a gate. Hold the gate of the cathedral
+> until the bell has rung five times. If you are the Five at the Gate,
+> it should not be hard."
+
+The trial is a contest, not a battle. The party holds the great door of
+the cathedral, which is 10 feet wide, against Brother Cade and the guards
+of the Abbey. The party wins if at least one character still stands in
+the doorway at the end of round 5.
+
+- **Nobody dies.** The guards use clubs, and the party must use the flat
+  of their blades. A creature that drops to 0 Hit Points is unconscious
+  and stable. Spells that deal damage are allowed, but the Abbess frowns
+  at fire.
+- **The crowd watches.** Captain Marrick of Gaunt watches too, with great
+  interest.
+
+{{statblock: Guard}}
+
+| Party size | Opponents | XP |
+|---|---|---|
+| 4 characters | Brother Cade, 8 Guards | 650 |
+
+> **Scaling:** This is between a Low and a Moderate fight for level 3,
+> because the party only needs to hold, not to win.
+>
+> - **3 characters:** Brother Cade, 6 Guards (600 XP).
+> - **4 characters:** as in the table.
+> - **5 characters:** Brother Cade, 10 Guards (700 XP).
+> - **6 characters:** Brother Cade, 12 Guards, 1 Priest Acolyte (800
+>   XP).
+
+If the party holds the gate, it gets **1 Proof**, and the Abbess lets it
+stand at the Waking Service even if it has only 2 Proof in all. If the
+party fails, the Abbess still lets it stand at the service, at the back of
+the crowd, "where the Ember can find you, if it wants to". The Ember finds
+them anyway. It is not a test of the party. It never was.
+
+---
+
+## Scene 9: The Waking Service (30 minutes)
+
+**Goal:** The Ember knows the Dawnwatch. The town knows them too. Every
+power in the land starts to make plans.
+
+On the third night of the feast, the whole town stands in the square in
+front of the cathedral, with candles. The cathedral doors open. The
+Abbess comes out with the Ember in its gold cage, on its gold pole, and
+the bells ring.
+
+The party stands where the Proof put it: next to the Abbess, at the front,
+or at the back of the crowd.
+
+> The Abbess lifts the Ember high. Ten thousand candles answer it. She
+> speaks, and her soft voice carries over the whole square.
+>
+> "For two hundred years, this light has burned for the Sleepers. For two
+> hundred years, we asked it: when? This week, it answered." She turns,
+> slowly, with the Ember held out in front of her. She turns toward you.
+>
+> The Ember flares.
+>
+> It is not a glow. It is a dawn. Gold light pours out of the little coal
+> and over the square, over the faces of ten thousand people, over the
+> cathedral and the tower and the sun on top of the tower. It is warm, like
+> the first warm day of spring. For one moment, there is no night at all.
+>
+> In the hands of a character, Wick's flame turns gold, and leans toward
+> the Ember so hard that the lantern tips over.
+
+The square is silent. Then somebody starts to cry, and then everybody
+does, and the bells ring and ring.
+
+### What each character feels
+
+Go around the table. Tell each player one thing.
+
+- **The bearer of the black stone** feels the stone go cold. Very cold,
+  so cold that it hurts, and it hums, a long low note of anger. When the
+  bearer comes within 5 feet of the Ember, the stone burns against the
+  skin. Nobody else notices. Chapter 4 gives the stone its rules.
+- **The Light** feels warm all through, as at the moment of the sign.
+- **The Shield, the Storm, the Spark, and the Shadow** each remember one
+  dawn from the war: a dawn after a long night, when they were still
+  alive and did not expect to be.
+- **Wick** says, very quietly, so that only the party hears: "I know that
+  light. I do not know how I know it. I think I was made from something
+  like it."
+
+> **GM tip:** Wick's flame is the last true piece of the Dawnfire. Nobody
+> knows this in Book One, not even Wick. This moment is a hint. Do not
+> explain it. Do not let the players dwell on it, either: the crowd pushes
+> forward, and the moment is gone.
+
+### Living saints
+
+The Abbess kneels in front of the party, with the Ember in her hands. All
+of Saint Ivo's kneels with her. Brother Cade kneels too, if the party has
+5 Proof. If not, he stands at the back, with his arms folded, and he looks
+at the Ember, not at the party.
+
+> "The Sleepers are awake," says the Abbess. "Wake well, and see the
+> morning."
+
+Ten thousand voices answer: "And see the morning."
+
+From now on, the party is famous. Everybody in Saint Ivo's knows their
+faces. Pilgrims follow them in the street, ask for blessings, and touch
+their cloaks. Children follow them everywhere. The Abbess gives them the
+Saints' House, a fine stone house next to the Abbey, with servants, and
+asks them to bless the pilgrims from her balcony at dawn tomorrow.
+
+> **GM tip:** Let the players enjoy this, and let them feel the cost. A
+> living saint cannot buy a drink in peace. A living saint cannot leave the
+> house at night without a crowd. The Abbess means well, and she means to
+> keep them. The players will want to leave soon. Chapter 4 gives them a
+> reason.
+
+### The offer from Gaunt
+
+Late that night, Captain Joss Marrick of Gaunt comes to the Saints' House.
+He bows, very correctly.
+
+> "The Marshal of Gaunt sends her greetings to the heroes of Ostrey," he
+> says. "Gaunt is the heir of Ostrey. It honors the soldiers of Ostrey.
+> When you are rested from your long sleep, and when the Church can spare
+> you, the Marshal asks you to visit her at Stannard. She has much to show
+> you." He smiles, a little. "She has an army. The Church has candles."
+
+The captain leaves before anyone can answer. This is the seed of chapter
+5. The party does not have to answer now.
+
+### The watcher in the crowd
+
+When the party goes back to the Saints' House, after the service, the
+bearer of the black stone feels it hum, sharp and sudden.
+
+> At the edge of the square, where the candles end, a small woman in grey
+> stands alone. She is old, with a kind face, like somebody's grandmother.
+> She is the only person in the square with no candle. She looks at you,
+> and she smiles, warmly, as if she is very happy to see you.
+>
+> Then she lifts one hand and pinches out a candle that somebody left on a
+> step. She walks away into the dark.
+
+This is **Mother Sallow**, the leader of the Hush. She came to see the
+Sleepers for herself, and the Ember. She has seen enough. If the party
+follows her, she is gone: the street is empty, and the cold of the stone
+fades. Chapter 4 starts the next night.
+
+---
+
+## Rewards
+
+The characters can end this chapter with these things.
+
+- **The Mask of the Fifth Sleeper**, from Garret Pell or Tilly Ashe (Scene
+  7). It is an Uncommon magic item. The Treasures appendix has its full
+  entry.
+- **The brass snuffer** from the well (Scene 6). It is not magic. It is a
+  clue. Chapter 4 explains it.
+- **The gifts of the Church.** The Abbess gives the party a purse of 150
+  GP "for the needs of the saints", and the Saints' House to live in, for as
+  long as they stay in Saint Ivo's. Brother Cade gives each character a
+  Potion of Healing from the stores of the Abbey, if he believes them.
+- **Money:** Corvin Lisle's offer for the thing that the Shadow stole, if
+  the party sells it now (600 GP).
+- **Friends and rivals:** the Abbess, who wants to keep the party. Brother
+  Cade, who believes them, or almost does. Garret Pell, who owes them his
+  life, or who waits for them at Kell. Captain Marrick, who wants them for
+  Gaunt.
+- **An enemy, with no name yet:** the grey folk, and the small grey woman
+  with no candle.
+
+### Level up
+
+The characters go to level 4.
+
+They go up at the next Long Rest, in the Saints' House. At level 4, each
+character gets an Ability Score Improvement or a feat. The Player's
+Compendium has the feats. Give the players time to choose.

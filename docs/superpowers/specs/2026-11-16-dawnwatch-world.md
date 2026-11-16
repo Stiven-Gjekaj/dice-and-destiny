@@ -288,7 +288,7 @@ The statblocks are in `compendium/content/dawnwatch/creatures_*.py`.
 | Name | What it is | CR | Chapters |
 |---|---|---|---|
 | Hush Snuffer | The first tier of the Hush. A cultist with a brass snuffer on a pole. | 1/2 | 3, 4 |
-| Hush Shroud | The second tier of the Hush. A priest in a grey veil who prays in silence. | 2 | 4, 5 |
+| Hush Shroud | The second tier of the Hush. A priest in a grey veil who prays in silence. | 2 | 3, 4, 5 |
 | Hush Lightless | The third tier of the Hush. A warrior who drank the black water at the rite of the cult. | 4 | 4, 5 |
 | The Long Shadow | The shadow of the Unlit King. Mother Sallow calls it through the black stone at Kell. The creature at the end of Act I. | 5 | 4 |
 
@@ -308,7 +308,8 @@ the person in more than one scene.
 | Corvin Lisle | An antiquary from Corrantey who buys old things of Ostrey. He offers a lot of money for the thing that the Shadow stole. | 2, 3 | No |
 | Garret Pell | The leader of a troupe of actors who play the Dawnwatch. | 3 | No |
 | Captain Joss Marrick | The captain of the honor guard of Gaunt at the feast of Saint Ivo's. He reports to the Marshal and makes the party her offer. | 3, 5 | No |
-| Mother Sallow | The leader of the Hush. | 4, 7, 10 | Yes |
+| Tilly Ashe | An actress of Pell's Players. She plays the Shadow. | 3 | No |
+| Mother Sallow | The leader of the Hush. She watches the Waking Service at the end of chapter 3, with no candle. | 3, 4, 7, 10 | Yes |
 | Osk | The enforcer of Mother Sallow. Big, and he does not speak. | 4, 7 | Yes |
 | Marshal Ide Gauntry | The ruler of Gaunt. | 5, 9 | Yes |
 | Tobin Gauntry | Her son. He does not want a war. | 5, 9 | No |
