@@ -1,118 +1,96 @@
 # Statblocks
 
-These statblocks use the 2024 rules. They are short so that you can read them
-at the table. For the numbers of enemies and the hit points for each party
-size, see the scaling table in the [overview](README.md#scaling).
+The adventure uses two monsters from the books. The numbers here are copies
+of the books. For the number of monsters for each party size, see
+[Scaling](README.md#scaling).
 
-## Ash Mite
+| Monster | Book | Chapter | Scene |
+|---------|------|---------|-------|
+| Giant Rat | Game Master's Compendium | Monsters A–Z | Scene 4 |
+| Brimstone Pup | Game Master's Compendium | Original Bestiary | Scene 6 |
 
-*Small fiend (demon). Challenge 1/8 (25 XP).*
+## Giant Rat
 
-Ash mites are small demons of the Unlit King. They look like rats made of
-burnt paper with coal eyes. They squeak, and they bite.
+*Small Beast, Unaligned. CR 1/8 (XP 25; PB +2).*
+
+Rats as big as dogs moved into the keep many years ago. They nest in the old
+armory.
 
 | AC | HP | Speed | Initiative |
 |----|----|-------|------------|
-| 12 | 5 | 30 ft, climb 30 ft | +2 |
+| 13 | 7 (2d6) | 30 ft., Climb 30 ft. | +3 |
 
 | STR | DEX | CON | INT | WIS | CHA |
 |-----|-----|-----|-----|-----|-----|
-| 6 (-2) | 14 (+2) | 8 (-1) | 3 (-4) | 10 (+0) | 5 (-3) |
+| 7 (-2) | 16 (+3) | 11 (+0) | 2 (-4) | 10 (+0) | 4 (-3) |
 
-**Senses:** darkvision 60 ft, passive Perception 10.
+**Senses:** Darkvision 60 ft., Passive Perception 12.
 
 **Traits**
 
-- **Pop.** When the mite drops to 0 HP, it bursts into a cloud of harmless
-  ash. Describe it. This has no rule effect.
-- **Pack Bite.** The mite has advantage on its attack roll if another mite is
-  within 5 feet of the target.
+- **Pack Tactics.** The rat has Advantage on an attack roll against a
+  creature if at least one of the rat's allies is within 5 feet of the
+  creature and the ally doesn't have the Incapacitated condition.
 
 **Actions**
 
-- **Bite.** Melee attack: +4 to hit, reach 5 ft. Hit: 4 (1d4 + 2) piercing
+- **Bite.** Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing
   damage.
 
-**Tactics:** Mites swarm the closest target. They flee from bright fire for
-one turn, if a character uses fire in a scary way. Let the players find this.
+**Tactics:** The rats attack in pairs, so that Pack Tactics gives them
+Advantage. A rat flees when it is the last one left.
 
-## Ash Hound
+## Brimstone Pup
 
-*Medium fiend (demon). Challenge 1 (200 XP).*
+*Small Fiend, Lawful Evil. CR 1/2 (XP 100; PB +2).*
 
-The Ash Hound is a scout of the Unlit King. It is a large dog of grey ash
-around a red coal heart. Smoke comes out of its mouth. It sleeps in the
-chapel and guards the way to the surface.
+The puppy of a burning hound, with a sulfur smell and a wagging tail of fire.
+The Unlit King sends them ahead of his army as scouts.
 
 | AC | HP | Speed | Initiative |
 |----|----|-------|------------|
-| 13 | 30 (see scaling) | 40 ft | +2 |
+| 13 | 22 (5d6 + 5) | 40 ft. | +2 |
 
 | STR | DEX | CON | INT | WIS | CHA |
 |-----|-----|-----|-----|-----|-----|
-| 16 (+3) | 14 (+2) | 14 (+2) | 4 (-3) | 12 (+1) | 6 (-2) |
+| 12 (+1) | 14 (+2) | 12 (+1) | 4 (-3) | 12 (+1) | 6 (-2) |
 
-**Resistances:** fire.
+**Immunities:** Fire.
 
-**Senses:** darkvision 60 ft, passive Perception 13.
+**Senses:** Darkvision 60 ft., Passive Perception 11.
+
+**Languages:** understands Infernal but can't speak.
 
 **Traits**
 
-- **Cracked Heart.** When the hound is Bloodied (half of its HP or less), its
-  body cracks. Red light shows through the cracks. Tell the players. This
-  teaches them to watch for signs that an enemy is weak.
+- **Keen Smell.** The pup has Advantage on Wisdom (Perception) checks that
+  rely on smell.
 
 **Actions**
 
-- **Bite.** Melee attack: +5 to hit, reach 5 ft. Hit: 8 (1d10 + 3) piercing
-  damage. For a solo player, use 6 (1d6 + 3).
-- **Ash Breath (Recharge 5 or 6).** The hound breathes hot ash in a 15-foot
-  cone. Each creature in the cone makes a Dexterity saving throw (DC 12). It
-  takes 7 (2d6) fire damage on a fail, or half on a success.
-
-**Recharge:** At the start of each of the hound's turns, roll a d6. On a 5 or
-6, it can use Ash Breath again. It can use Ash Breath on its first turn.
+- **Bite.** Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing
+  damage plus 2 (1d4) Fire damage.
 
 **Tactics**
 
-- Round 1: It uses Ash Breath on as many characters as it can. This teaches
-  saving throws in combat.
-- Then it bites the character who hurt it most.
-- It does not attack a character at 0 HP. It is an animal. It wants the
-  creatures that still fight.
-- It fights to the death. It is a servant of the Unlit King, and it fears him
-  more than it fears death.
+- The pups attack the character who hurt them last.
+- A pup does not attack a character at 0 HP. It wants the creatures that
+  still fight.
+- The pups fight until they drop. They fear the Unlit King more than they
+  fear death.
 
 ## Wick, the lantern
 
-*Tiny construct. Ally. Wick does not attack.*
+Wick is a character, not a monster. Wick has no statblock, and Wick does not
+attack.
 
-Wick is a brass lantern with a talking flame. The steward of the keep made
-Wick 300 years ago. Wick had one task: wake the Dawnwatch when the Unlit King
-returns. Wick was alone for all that time, and Wick talks a lot.
-
-| AC | HP | Speed | Initiative |
-|----|----|-------|------------|
-| 15 | 4 | 0 ft (a character carries Wick), or fly 10 ft (hover) | +0 |
-
-**Senses:** passive Perception 12.
-
-**Traits**
-
-- **Lantern.** Wick sheds bright light in a 20-foot radius and dim light for
-  20 feet more.
-- **Rules Spirit.** Wick knows the "rules of the Dawnwatch." Use Wick to
-  explain a rule in the world. See the teaching notes in the session.
-- **Not a Target.** Enemies do not attack Wick. If an attack hits Wick by
-  accident, Wick goes dark for one round and complains loudly.
-
-**Actions**
-
-- **Help (solo or two players only).** Wick distracts one enemy within 5
-  feet. The next attack roll of an ally against that enemy has advantage.
-  This also teaches the Help action.
-- **Light Burst (one time only).** Wick flares bright. Each Ash Mite within
-  10 feet takes 2 fire damage. Use this to save a party in trouble.
+- **Light:** Wick gives light as a Hooded Lantern does: Bright Light in a
+  30-foot radius and Dim Light for 30 feet more.
+- **A character carries Wick.** Enemies do not attack Wick.
+- **Solo play:** In a game with one player, Wick takes the Help action on
+  each of its turns. Wick acts right after the player. Wick helps the
+  player's next attack roll against an enemy within 5 feet of Wick. The
+  player has Advantage on that roll.
 
 **Personality**
 

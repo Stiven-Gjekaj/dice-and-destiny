@@ -72,18 +72,25 @@ A battle map with squares is optional. On a map, one square is 5 feet.
 
 ## Scaling
 
-Use this table for the two fights.
+Use this table for the two fights. The XP budgets come from Building
+Encounters in the Game Master's Compendium. At level 1, the budget for each
+character is 50 XP (Low), 75 XP (Moderate), or 100 XP (High).
 
-| Players | Ash Mites (Scene 4) | Ash Hound HP (Scene 6) | Mites with the Hound | Wick helps? |
-|---------|---------------------|------------------------|----------------------|-------------|
-| 1 | 2 | 15 | 0 | Yes. Bite damage is 1d6 + 3 |
-| 2 | 3 | 22 | 0 | Yes |
-| 3 | 4 | 30 | 0 | No |
-| 4 | 5 | 38 | 1 | No |
-| 5 | 6 | 45 | 2 | No |
+| Players | Giant Rats (Scene 4) | Brimstone Pups (Scene 6) | Wick helps? |
+|---------|----------------------|--------------------------|-------------|
+| 1 | 2 | 1 | Yes |
+| 2 | 2 | 2 | No |
+| 3 | 3 | 3 | No |
+| 4 | 4 | 4 | No |
+| 5 | 5 | 5 | No |
 
-**Solo play:** Give the player the Shield. Wick helps in each fight. Wick has a
-Help action for this. In Scene 1, Wick helps the player out of the
+- **Scene 4** is Low or less (25 XP for each rat). The first fight is for
+  practice.
+- **Scene 6** is High (100 XP for each pup). It can drop a character. This
+  is on purpose, because the scene teaches death saving throws.
+
+**Solo play:** Give the player the Shield. Wick helps in each fight with the
+Help action. See Wick in the [statblocks](statblocks.md). In Scene 1, Wick helps the player out of the
 pod.
 
 ## Safety
