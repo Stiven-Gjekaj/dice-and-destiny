@@ -1,7 +1,7 @@
 # A page of the first ledger of the Lampwrights
 
 *The page is brown and soft with age. The ink is faded. At the top, drawn
-with care, is a small flame inside a ring.*
+with care, is a small sun inside a square.*
 
 ---
 

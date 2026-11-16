@@ -1,7 +1,7 @@
 # The Last Letter of Haskel Orme
 
 *Found in a stone box at the foot of the crystal, under Kingsholm. The box
-was sealed with wax. The seal is a flame inside a ring. The letter is
+was sealed with wax. The seal is a sun inside a square. The letter is
 dry, and the ink is still dark.*
 
 ---

@@ -69,7 +69,7 @@ M("Brass Lamp Warden", "L", "Construct", "Unaligned", 5, "18 10 18 3 10 1", ac=1
                                     "On a failed save, it takes {6d6} Fire damage and has the Blinded condition until the end of its next turn. "
                                     "On a successful save, it takes half as much damage only.")],
   desc="A brass figure eight feet tall, with a lamp where its heart should be. The first Lampwrights built six of them "
-       "to guard their hall. Each one carries a small stamp on its heel: a flame inside a ring."),
+       "to guard their hall. Each one carries a small stamp on its heel: a sun inside a square."),
 
 # ================= CHAPTER 8: FENNICK =================
 M("Fennick Drowned", "M", "Undead", "Neutral Evil", 2, "15 8 16 6 8 5", ac=11, speed="20 ft., swim 30 ft.",

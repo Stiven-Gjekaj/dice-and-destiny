@@ -891,7 +891,7 @@ in The Hush, earlier in this book.
 ### The last letter
 
 At the foot of the coffin is a small box of stone, sealed with wax. On the
-wax is the mark of Haskel Orme: a flame inside a ring. Wick knows it at
+wax is the mark of Haskel Orme: a sun inside a square. Wick knows it at
 once. It is the mark that the Lampwrights showed him in Corrantey.
 
 Give the players the handout. Let one player read it aloud to the table,

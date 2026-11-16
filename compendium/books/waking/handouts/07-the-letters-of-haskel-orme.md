@@ -84,7 +84,7 @@ words are still easy to read.*
 
 ## The third letter
 
-*No name on the outside. The seal is a flame inside a ring.*
+*No name on the outside. The seal is a sun inside a square.*
 
 Wen,
 

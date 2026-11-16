@@ -606,13 +606,13 @@ Orme, and the last banner of the Dawnwatch.
 > The door is plain grey stone, the same as the wall. It has no handle, no
 > hinge, and no keyhole. If you did not know that it was a door, you would
 > not see it. The only mark on it is small, at the height of your heart: a
-> flame inside a ring.
+> sun inside a square.
 >
 > Next to the door is the niche where Wick sat when you first woke. It is
 > just big enough for a lantern. At the back of the niche, a brass bracket is
 > set into the stone, shaped like an open hand.
 
-The players saw the mark of the flame inside a ring in chapter 6: it is the
+The players saw the mark of the sun inside a square in chapter 6: it is the
 maker's mark of Haskel Orme, the same mark that is on Wick. The players
 can try to open the door. Nothing works.
 
@@ -645,7 +645,7 @@ works. Then:
 > White and gold light pours into the Hall of Sleepers, and every shard of
 > crystal in the baskets lights up like a star.
 >
-> In the door, the flame inside the ring glows. Then the stone slides back
+> In the door, the sun inside the square glows. Then the stone slides back
 > into the wall without a sound.
 >
 > Wick sits in the brass hand, small again, and very quiet. "He made me to
@@ -764,7 +764,7 @@ Perrin Hale, the master of the Lampwrights, arrives the next day, in a cart
 pulled by a tired mule. With Perrin is a young Lampwright named Hesper Wren.
 
 Perrin goes straight to the study and stands in the door for a long time
-without a word. Then Perrin touches the mark of the flame inside the ring,
+without a word. Then Perrin touches the mark of the sun inside the square,
 very gently.
 
 > "The first master," Perrin says. "We have his mark on our door, our seal,

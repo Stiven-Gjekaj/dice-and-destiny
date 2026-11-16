@@ -229,7 +229,7 @@ up his nose when he thinks. He wears a leather apron over a very fine coat.
 > mean, be quiet, please. Sorry. Hold still."
 >
 > He tilts Wick back. On the bottom of the brass, under three hundred years of
-> soot, there is a tiny stamp. A flame inside a ring.
+> soot, there is a tiny stamp. A small sun inside a square.
 >
 > The man takes off his spectacles. His hands shake a little. "That is the
 > mark of Master Orme," he says. "That is the mark of the first master. Nobody
@@ -243,7 +243,7 @@ Perrin explains, quickly and with a lot of pride:
   Orme**. He was a steward of the old kingdom, and the best maker of lamps
   that ever lived. The apprentices came west after the war of the Unlit King,
   and they opened a shop in Corrin.
-- Each piece that Orme made has his mark: a flame inside a ring. The guild
+- Each piece that Orme made has his mark: a sun inside a square. The guild
   still uses the mark, with a small line under it, to show that a piece comes
   from his school.
 - The six brass figures in the hall carry the mark on their heels. So does
@@ -957,7 +957,7 @@ of the guild open on a table.
 > managed." He turns the book toward you. "Look at the mark at the top of the
 > page."
 >
-> It is a flame inside a ring.
+> It is a sun inside a square.
 
 Give the players the handout.
 
