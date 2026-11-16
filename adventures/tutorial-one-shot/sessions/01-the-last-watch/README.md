@@ -526,41 +526,47 @@ let the players roll Hit Point Dice, and go on.
 
 ## Scene 6: The Chapel of Dawn (25 minutes)
 
-**Goal:** Teach spell slots, reactions, conditions of danger, dropping to 0
-HP, and death saving throws.
+**Goal:** Teach spell slots, reactions, damage types and immunity, dropping
+to 0 HP, and death saving throws.
 
 > The chapel is tall and round. High above, a crack in the roof lets in one
 > thin line of grey light. In the middle of the room is a stone bowl, as big
 > as a cart wheel. It is cold and empty. On the far side, behind the bowl, is
 > a big door of white stone with a sun carved on it: the Dawn Door.
 >
-> In front of the door lies a dog. It is as big as a pony, and it is made of
-> grey ash. In its chest, a red coal glows and fades, glows and fades, like
-> breath. It opens one eye.
+> In front of the door, small dogs sleep in a pile. Their fur is black and
+> red, like coal in a fire. Their tails burn with real flames, and the air
+> smells of rotten eggs. One of them lifts its head. Its eyes glow orange.
 
-Use the [Ash Hound statblock](../../statblocks.md#ash-hound). Use the scaling
-table in the overview for its HP and for extra mites.
+Use the [Brimstone Pup statblock](../../statblocks.md#brimstone-pup). Use the
+scaling table in the overview for the number of pups: one for each player.
 
 ### The map
 
 - A round room, 50 feet across.
 - The characters enter from the armory door, on one side.
-- The stone bowl (the Dawnfire) is in the middle. It is 10 feet wide. It
-  gives cover.
-- The hound lies in front of the Dawn Door, on the far side.
+- The stone bowl (the Dawnfire) is in the middle. It is 10 feet wide. A
+  creature behind it has Half Cover: +2 to its AC.
+- The pups sleep in front of the Dawn Door, on the far side, 40 feet from
+  the characters.
 
 ### Before the fight
 
 Let the players plan. Some good ideas:
 
-- The Shadow tries to sneak around. Dexterity (Stealth) check against the
-  passive Perception of the hound (13). On a success, the Shadow gets one
-  free attack with advantage at the start of the fight.
-- A player who talks to the hound gets nothing. It only growls. It cannot be
-  reasoned with.
-- **The Dawnfire:** A character who studies the bowl (Intelligence
-  (Religion) or Intelligence (Arcana), DC 12) learns that a spell, holy
-  words, or fire can light it again. See "Light the Dawnfire" below.
+- **Sneak up:** The characters can try to sneak closer. Each one makes a
+  Dexterity (Stealth) check against the passive Perception of the pups. The
+  pups have Keen Smell, which gives them Advantage on Perception checks that
+  rely on smell. Advantage adds 5 to a passive score, so their passive
+  Perception is 16 here. If all characters succeed, the pups have the
+  Surprised condition: they have Disadvantage on their Initiative rolls.
+
+> **Teach: advantage on a passive score.** "The pups smell you. That gives
+> them Advantage, and Advantage adds 5 to a passive score. So you need 16 or
+> more to sneak up on them."
+
+- **Talk:** A player who talks to the pups gets nothing. They only growl.
+  They understand Infernal, but they cannot speak.
 
 ### Teaching during the fight
 
@@ -569,24 +575,31 @@ Let the players plan. Some good ideas:
 > When they are gone, they are gone until a Long Rest. Use them when it
 > matters."
 
-> **Teach 2: the saving throw in combat.** When the hound uses Ash Breath,
-> say: "Each of you in the cone makes a Dexterity saving throw. If you fail,
-> you take full damage. If you succeed, you take half." If the Spark casts
-> *Burning Hands* or the Light casts *Sacred Flame*, show that the enemy
-> makes saving throws, too.
+> **Teach 2: damage types and immunity.** The pups have Immunity to Fire
+> damage. Fire Bolt and *Burning Hands* do nothing to them. Before the Spark
+> casts a fire spell, let Wick shout: "Not fire! They are MADE of fire!" Say:
+> "Each kind of damage has a type: Fire, Cold, Piercing, and more. Some
+> creatures have Immunity to a type. Then that damage does nothing. Use
+> *Ray of Frost* or *Magic Missile* on them." The Light's *Sacred Flame*
+> deals Radiant damage, so it works.
 
-> **Teach 3: reactions.** When the hound bites the Spark, say: "You can use
-> a reaction now. Cast *Shield* and get +5 AC. Does the bite still hit?"
-> When the hound bites the Storm, remind the player of Stone's Endurance.
+> **Teach 3: the saving throw in combat.** When the Light casts *Sacred
+> Flame* or the Spark casts *Sleep*, say: "Now the enemy makes a saving
+> throw. Saving throws work for monsters, too."
 
-> **Teach 4: Bloodied.** When the hound drops to half HP, describe the
-> cracks and the red light. Say: "When I describe an enemy like this, it is
-> badly hurt."
+> **Teach 4: reactions.** When a pup bites the Spark, say: "You can use a
+> reaction now. Cast *Shield* and get +5 AC. Does the bite still hit?" When a
+> pup bites the Storm, remind the player of Stone's Endurance.
+
+> **Teach 5: Bloodied.** When a pup drops to half of its HP (11 or less),
+> describe it: its tail flame gets small, and it limps. Say: "When I
+> describe an enemy like this, it is Bloodied. It is badly hurt."
 
 ### Dropping to 0 HP
 
 This is the most important lesson of the scene. Let one character drop to 0
-HP. The best choice is a character with a friend near, who can heal.
+HP. The best choice is a character with a friend near, who can heal. A pup
+does not attack a character at 0 HP.
 
 When a character drops to 0 HP:
 
@@ -597,60 +610,51 @@ When a character drops to 0 HP:
 > you are not dead. At the start of each of your turns, you roll a d20. No
 > modifiers. 10 or more is a success. Less than 10 is a failure. Three
 > successes, and you are stable. Three failures, and your character dies. A
-> 20 means you wake up with 1 HP."
+> 20 means you wake up with 1 HP. A 1 counts as two failures."
 >
 > Then say to the other players: "Your friend is dying. Any healing wakes
-> them up at once. You can also use a Medicine check or the healer's kit to
-> stop the dying, or give them the potion."
+> them up at once. You can also stop the dying with a Medicine check or a
+> Healer's Kit, or give them the potion."
 
 Show the ways to help:
 
-- *Healing Word* from the Light. This is the best way. It is a bonus action,
+- *Healing Word* from the Light. This is the best way. It is a Bonus Action,
   so the Light can also attack.
-- *Spare the Dying* from the Light. The character is stable, but stays at 0
-  HP.
-- The potion of healing from Scene 2. A bonus action to give it.
-- A Wisdom (Medicine) check, DC 10, as an action. On a success, the
-  character is stable.
+- *Spare the Dying* from the Light, within 15 feet. The character becomes
+  Stable, but stays at 0 HP.
+- The Potion of Healing from Scene 2. A Bonus Action to give it.
+- The Light's Healer's Kit. A Utilize action. The character becomes Stable,
+  with no check.
+- The Help action with a DC 10 Wisdom (Medicine) check. On a success, the
+  character becomes Stable.
 
-> **The Dawnwatch Oath (secret safety rule).** No character dies in this
-> tutorial. If a character fails the third death saving throw, read this:
+> **Optional GM tip: the Dawnwatch Oath.** This is a house rule. It is not
+> in the books. Use it if you do not want a new player to lose a character
+> in the first session. Do not tell the players about it before it happens.
+>
+> If a character fails the third death saving throw, read this:
 >
 > > The darkness closes around you. Then, far away, you hear an old voice:
 > > the voice of the steward, from three hundred years ago. "You swore to
 > > wake the dawn. You do not get to sleep yet." Warm light floods your
 > > chest.
 >
-> The character wakes with 1 HP. Say: "In a real game, your character dies
+> The character wakes with 1 HP. Say: "In a normal game, your character dies
 > here. Today the Dawnwatch Oath saves you, one time." This teaches the
 > danger, and nobody loses a character.
 
-### Light the Dawnfire
-
-The Dawnfire is an optional bonus. A character can use an action to light it.
-Any fire works: *Fire Bolt*, a spark from Wick, or a prayer from the Light.
-
-When the Dawnfire burns:
-
-> Gold fire roars up from the bowl. The line of grey light from the roof
-> turns gold. The hound howls in pain.
-
-- The hound has disadvantage on its attack rolls until the end of its next
-  turn.
-- Each character within 10 feet of the bowl regains 1d4 HP. This happens one
-  time only.
-
 ### The end of the fight
 
-> The red coal in the hound's chest cracks in two. The hound falls apart
-> into a pile of ash, and the ash blows away up into the crack in the roof.
+> The last pup yelps, and its tail flame goes out. Its body crumbles into
+> hot cinders, and the smoke drifts up into the crack in the roof.
 >
-> On the floor, where the coal was, lies a small black stone. It is cold, and
-> it hums. When you touch it, you hear a voice far away. It is deep and
-> slow. It says one word: "Awake."
+> In the cinders lies a small black stone. It is cold, and it hums. When you
+> touch it, you hear a voice far away. It is deep and slow. It says one
+> word: "Awake."
 
-The black stone is a hook. It is a shard of the Unlit King's power. He knows
-that the Dawnwatch is awake. Let the players keep it.
+The black stone is a story hook. It has no rules. It is a shard of the Unlit
+King's power, and it tells him that the Dawnwatch is awake. Let the players
+keep it.
 
 ---
 
