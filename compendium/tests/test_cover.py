@@ -29,3 +29,19 @@ def test_hardcover_spine_grows_with_the_page_count():
 def test_hardcover_refuses_a_page_count_that_lulu_does_not_print():
     with pytest.raises(ValueError):
         cover_size(801, "hardcover")
+
+
+def test_fill_counts_puts_each_count_into_the_text():
+    from cover import fill_counts
+    text = fill_counts("Options: {PLAYER_COUNTS} and {SPELL_COUNTS}",
+                       {"{PLAYER_COUNTS}": "2 new classes", "{SPELL_COUNTS}": "9 new spells"})
+    assert text == "Options: 2 new classes and 9 new spells"
+
+
+def test_cover_bullets_have_no_counts_written_by_hand():
+    import re
+    from cover import BOOKS
+    for book in BOOKS.values():
+        for bullet in book["bullets"]:
+            for match in re.finditer(r"\d+ (?:original|new) ", bullet):
+                raise AssertionError(f"a count written by hand: {match.group(0)!r} in {bullet!r}")

@@ -47,7 +47,7 @@ BOOKS = {
    back="Everything you need behind the screen, in one book.",
    bullets=["A plain-language guide to running your first table, and your hundredth", "Combat, conditions, resting, travel and encounter-building, explained with examples",
             "A complete bestiary: all 331 monsters and animals of the 2024 System Reference Document with full stat blocks",
-            "Every SRD magic item with full descriptions, indexed by rarity", "166 original monsters, 250 original magic items and a stronghold system",
+            "Every SRD magic item with full descriptions, indexed by rarity", "{GM_COUNTS}",
             "Poisons, an NPC generator, random complications, trackers and session prep sheets"],
    icons=["crown", "dragon", "chest", "scroll"]),
  "player": dict(title="The Player's Compendium", t1="The Player's", t2="Compendium",
@@ -55,10 +55,24 @@ BOOKS = {
    back="From your first roll to level 20: every rule a player needs.",
    bullets=["A friendly guide to dice, abilities, combat, magic and leveling up", "All twelve classes with level tables, plain-English feature guides and the complete SRD 5.2 rules text",
             "Every species, background and feat of the 2024 System Reference Document", "All 339 spells with full descriptions, plus spell lists for every class",
-            "Expanded options: 36 original subclasses, new species, backgrounds, feats and 47 new spells",
+            "Expanded options: {PLAYER_COUNTS}, new species, backgrounds, feats and {SPELL_COUNTS}",
             "Equipment, the complete rules reference, conditions, a glossary and a blank character sheet"],
    icons=["swords", "spark", "fighter", "book"]),
 }
+
+
+def fill_counts(text, counts):
+    """Put each count into the text. `counts` maps a token such as "{SPELL_COUNTS}" to its words."""
+    for token, words in counts.items():
+        text = text.replace(token, words)
+    return text
+
+
+def content_counts():
+    """The counts of the original content, from the content itself."""
+    import render_counts as rc
+    return {"{GM_COUNTS}": rc.all_gm_counts(), "{PLAYER_COUNTS}": rc.all_player_counts(),
+            "{SPELL_COUNTS}": rc.all_spell_counts()}
 
 
 def cover_html(name, pages, kind="paperback"):
@@ -75,7 +89,8 @@ def cover_html(name, pages, kind="paperback"):
     barcode_out = (f'<div class="barcode" style="right:{safe}mm;bottom:{safe}mm;width:{g["barcode_w_mm"]}mm;'
                    f'height:{g["barcode_h_mm"]}mm"></div>') if hard else ""
     ic = "".join(f'<span class="cb">{icon(i, 22, "#d6aa55", 1.4)}</span>' for i in b["icons"])
-    bl = "".join(f"<li>{x}</li>" for x in b["bullets"])
+    counts = content_counts()
+    bl = "".join(f"<li>{fill_counts(x, counts)}</li>" for x in b["bullets"])
     return f'''<!DOCTYPE html><html><head><meta charset="utf-8"><style>
 @page {{ size: {tw}mm {th}mm; margin: 0; }}
 @font-face {{ font-family: "Inter"; src: url("books/fonts/Inter-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; }}
