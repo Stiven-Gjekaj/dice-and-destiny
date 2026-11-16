@@ -428,7 +428,7 @@ def render_class(c):
     lv, prof = features_by_level(c, d)
     name = d["name"]
     from icons import icon
-    nb = " newpage" if c == ORDER[0] else ""
+    nb = " newpage"
     out = [f'<div class="class-banner{nb}"><div class="ch-num">Class</div><h1 class="classname">{name}</h1>'
            f'<div class="tagline">{info["tag"]}</div><span class="crest">{icon(c, 40, "#c99a3e", 1.4)}</span></div>']
     out.append('<div class="class-head"><div>')
