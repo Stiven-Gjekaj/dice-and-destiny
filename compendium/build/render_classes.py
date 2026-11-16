@@ -65,7 +65,7 @@ def class_html(c, subs=(), newpage=True):
             out.append(f'<div class="avoid"><dt>{E(name)}</dt><dd>{feature_text(text)}</dd></div>')
         out.append('</dl>')
     if subs:
-        out.append(f'<p class="small muted"><b>Subclasses in this book (Chapter 24):</b> {E(", ".join(subs))}.</p>')
+        out.append(f'<p class="small muted"><b>Subclasses in this book (Original Classes &amp; Subclasses):</b> {E(", ".join(subs))}.</p>')
     return "\n".join(out)
 
 

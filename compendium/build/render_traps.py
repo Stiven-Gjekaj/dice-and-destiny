@@ -3,7 +3,7 @@
 Each entry is a dict with the keys in KEYS. The "bands" key holds one row for
 each level band in which the entry is used: (first level of the band, DC, damage).
 The damage of a band must not be above the improvised damage of the entry's
-severity for that band (the table in Chapter 10 of the GM's book).
+severity for that band (the Improvised Damage table in "Exploration, Travel & the World" in the GM's book).
 """
 import html
 import re
