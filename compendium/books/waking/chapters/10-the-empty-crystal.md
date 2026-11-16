@@ -118,8 +118,8 @@ The party has two or three clues by now. Use the ones that your group found:
 
 - **The last letter in the study** (The Keep Again): the steward left the
   rest of the truth "with him, under Kingsholm."
-- **The words of the unmasked agent** (Three Banners): the Hush gathers at
-  Kingsholm, in the old capital.
+- **The words of the prisoner** (Three Banners): the Hush gathers at
+  Kingsholm, in the old capital, where "he" slept.
 - **The black stone.** Since Three Banners, it hums toward the north-west,
   toward the River Dunn, not toward the far north.
 
@@ -198,7 +198,7 @@ Inspiration.
 **Goal:** A short last journey. Show the world getting darker.
 
 Kingsholm is 3 days from the keep, off the road, along the River Dunn (see
-the travel table in the Gazetteer). In midwinter, the road is hard.
+the travel table in the Gazetteer). In midwinter, the way is hard.
 
 If your table uses Journeys, run it as a journey of 3 days. Each character
 takes a role (Guide, Scout, Quartermaster, Lookout). Use the supply die.
@@ -325,7 +325,7 @@ base too. The cuts are neat and careful. Whoever did it took their time.
 | Wisdom (Perception) | 10 | On the breastplate of the statue is the badge of the Dawnwatch: a half sun of gold on a straight line, with seven rays. It is the badge that each character wears. |
 | Intelligence (History) | 15 | The statue is older than the characters' own time in the Dawnwatch. Whoever it was, it was one of the first of the order, and the city honored him above the others. |
 | Wisdom (Perception) | 13 | Someone tied a grey ribbon to the statue's hand. The Hush comes here to pray. |
-| Intelligence (Investigation) | 18 | The chisel marks on the base are the same age as the base. The name was cut away when the statue was new, or very soon after. |
+| Intelligence (Investigation) | 18 | The chisel marks are younger than the statue, but still very old. Someone cut the name away long after the statue was made, about the time of the long sleep. |
 
 Do not explain the statue. Let the players think about it. It pays off in
 Scene 6.
@@ -725,8 +725,10 @@ the crystal. Both are fine.
 ### A character dies
 
 Death in the last chapter matters. If a character dies in Kingsholm, do not
-rush to raise them. Brother Cade can cast a spell of raising if the players
-want it, but ask first: some players want the death to stand. If it stands,
+rush to raise them. If the party has the Fennick Candle, it can cast
+Revivify within 1 minute of the death. Later, Brother Cade can carry the
+body to Saint Ivo's, seven days away, where a priest of the Church can
+cast Raise Dead. Ask the players first: some players want the death to stand. If it stands,
 give the fallen character the first place in the last scene. The voice of
 Malgrath speaks their name first. He knew all five of them, once.
 
@@ -844,8 +846,9 @@ for this.
 When the knight falls, its armor falls apart, piece by piece, and it is
 empty. From inside the helmet, a voice says: "We watch so that the dawn
 can wake." It is the old motto of the Dawnwatch, the one from before the
-sleep. It is a man's voice. It is tired. It is kind. The players have never
-heard it before. They will hear it again in the last scene.
+sleep. It is a man's voice. It is tired. It is kind. The players have heard
+this voice before, from the black stone, but never like this. They will hear
+it again in the last scene.
 
 ---
 
@@ -883,7 +886,7 @@ feels it pull toward the crystal.
 
 If a character puts the stone in the chip, it fits exactly. The stone is a
 piece of this crystal. It broke off when the crystal cracked, and it flew
-three days south, to the chapel of the keep, to the Dawnwatch. The hum
+three days south-east, to the chapel of the keep, to the Dawnwatch. The hum
 stops for a moment. Then it starts again, softer, like something far away
 that breathes.
 
