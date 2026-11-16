@@ -930,3 +930,227 @@ Difficult Terrain for the whole fight.
 > resist the Hush. Make it big. The flame does not care about the dark. The
 > cultist who holds it screams and does not let go, until the party makes
 > them. A player should see this and think: "We need this thing."
+
+---
+
+## Scene 9: The Gift of the Guild
+
+**Goal:** Perrin Hale gives the First Lamp to the party. The guild finishes
+the crafting.
+
+### The Morning After
+
+The morning after Lamplight Night, the council of guilds meets in a hurry.
+Gaunt says that it knows nothing about the raid. The Gaunt ships leave the
+harbor before noon. The council does nothing else, as usual.
+
+Perrin calls the party to the top of the old tower. He has the oldest ledger
+of the guild open on a table.
+
+> The top of the tower is one round room with windows on every side. The
+> whole city lies below, grey and quiet after the festival, with the smoke of
+> a thousand burned-out lamps in the air. Perrin Hale stands at a table with
+> a huge old book. He has not slept. His spectacles are on his forehead, and
+> he has forgotten them.
+>
+> "I read it all night," he says. "The first ledger. The words are old, but I
+> managed." He turns the book toward you. "Look at the mark at the top of the
+> page."
+>
+> It is a flame inside a ring.
+
+Give the players the handout.
+
+{{handout: 06-the-lampwright-ledger}}
+
+### What the Ledger Says
+
+The handout is a page of the first ledger of the guild, written by one of
+the three apprentices. The Dawnwatch can read the old speech easily, so they
+read it better than Perrin did.
+
+The page says that the apprentices carried the First Lamp west on the orders
+of Master Orme, in the year of the long sleep. It also says one strange
+thing: before he sent them away, Master Orme "went north to Kingsholm with a
+lamp and came back without it."
+
+> **GM tip:** Do not explain the line about Kingsholm. The players do not
+> know yet what is under Kingsholm, and Perrin does not know either. Kingsholm
+> was the capital of old Ostrey, and it is ruins now. The steward went there
+> with a lamp, and he came back without it. That is all. It is a seed for
+> chapter 10. If the players ask Wick, he says, "Kingsholm? He went away for
+> three days, once, before the end. When he came back he was very tired, and
+> he did not hum any more."
+
+### Perrin's Choice
+
+> Perrin closes the book. "Master Orme sent the Lamp here to keep it safe.
+> For three hundred years, we kept it safe. We didn't know what it was. We
+> just kept it lit." He looks out of the window at the harbor, where the
+> Gaunt ships are going. "Last night, I learned that this hall is not safe.
+> And I learned what the Lamp is for." He picks up the small green lamp from
+> its box on the table and holds it out to you. "It was made to go back to
+> the Dawnwatch. So it goes back to the Dawnwatch."
+
+The First Lamp is a piece of the Dawnfire. Give it to the party.
+
+{{treasure: The First Lamp}}
+
+> **GM tip:** The First Lamp is a strong item for level 7. That is on
+> purpose. The party fights the Hush for the rest of Book One, and the Lamp is
+> their best answer to the dark. It also makes them a target: any creature
+> that carries a piece of the crystal of the Unlit King can feel the Lamp from
+> a mile away. That includes the Hush, and it includes the party's own black
+> stone, which now hums whenever the Lamp is near. Tell the bearer of the
+> black stone. Let them wonder what that means.
+
+**If Gaunt took the Lamp:** Perrin does not have the Lamp to give. He gives
+the party the ledger page and a letter to the council, and he says that the
+guild will pay the party to get it back. The Lamp goes to Stannard. In
+chapter 9, Marshal Gauntry carries it on the field of Ashby as a banner. The
+party can take it back there.
+
+**If the party helped Gaunt:** the party has the Lamp, or Ilse has it. Perrin
+does not give anything. He closes the doors of the hall to the party, and
+the guild does not finish their crafting. Each character with renown in
+Gaunt gains 5 renown (a great deed for the faction). Perrin does not visit
+the keep in chapter 7.
+
+### Perrin's Promise
+
+Before the party leaves, Perrin makes a promise:
+
+> "You said you have a keep. The keep of the Sleepers, in the Wolds. It needs
+> lamps, I imagine. Three hundred years of dark." He pushes his spectacles
+> up. "When you have taken it back, send me word. I will come and look. And I
+> will bring someone who can stay."
+
+This sets up chapter 7. Perrin comes to Dawnwatch Keep with a young
+Lampwright who stays and runs the keep for the party.
+
+### The Crafting Is Done
+
+The guild finishes the work in the days after the festival:
+
+- **The Potions of Water Breathing** take 5 days. The masters work on all of
+  them at the same time. Roll one DC 13 check with Alchemist's Supplies (+7)
+  for each potion. On a failure, the masters lose half of the gold for that
+  potion and must start it again, but they keep the Kelp Heart.
+- **The Storm Lantern of Corrantey** takes 10 days, with four masters. Roll
+  one DC 15 check with Tinker's Tools (+7). On a failure, the masters lose
+  550 GP and the 10 days, and they start again with the same materials.
+
+If a character works with the masters, that character can make the check in
+place of a master.
+
+> **GM tip:** A failed check is not a disaster. It costs gold and time. If
+> the party is in a hurry to leave, Perrin sends the finished items to the
+> keep with a cart. They arrive at the start of chapter 7.
+
+### Leaving Corrantey
+
+> The road east climbs the hill again. At the top, you look back. In the
+> daylight, Corrantey is just a city, grey and busy, with smoke over the
+> roofs. In your pack, the small green flame burns, warm and still.
+>
+> "Haskel Orme," says Wick, to nobody. He says it again, quietly, as if he is
+> trying out how it sounds. "Haskel Orme. Steward. Master. He made me." A
+> pause. "He could have told me his name."
+
+---
+
+## Downtime in Corrantey
+
+The crafting takes 5 to 10 days. The party may want to stay in the city
+while the masters work. Use this section for those days. Each day, a
+character can do one of the things below, or a downtime activity from the
+Game Master's Compendium.
+
+### Places to Go
+
+| Place | What is there |
+|---|---|
+| **The Council House** | The hall of the council of guilds, on the Corrin side. Nine masters, nine chairs, and one long table with no head. A character who speaks to the council (Charisma (Persuasion), DC 15) can ask it to close the harbor to Gaunt for one month. The council agrees only if the party shows proof of the raid: a captured agent, or the ring of the Gaunt spy service. |
+| **The rope walks** | Long sheds on the Tey side where the ropes of the ships are made. The workers know every ship that comes and goes. A character who buys a round of drinks (5 GP) learns where the Hush slept in the city: an empty fish store near the south quay, now abandoned. In it are grey robes, a map of the coast, and a list of the lighthouses between Corrantey and the Low Fen, each one crossed out. |
+| **The chapel of the Five Sleepers** | A small, poor chapel on the Tey side, with five painted statues. The faces are wrong, as they are in Saint Ivo's. The old priest, Father Dunstan, has never seen a Sleeper. If the party tells him who they are, he does not believe them, and then he cries. A character with renown in the Church gains 1 renown for a kind visit. |
+| **The lighthouse on the point** | The tallest light on the coast, built by the Lampwrights a hundred years ago. Its keeper uses the old Storm Lantern of the guild, the first one ever made. A character who climbs up and studies it (Intelligence (Investigation), DC 12) understands how the new one will work, and has Advantage on the crafting check if they work with the masters. |
+| **The glass market** | Glass of every color, from the furnaces of the Corrin side. A character with Glassblower's Tools can work here for wages: 2 GP a day, and the masters notice good work. |
+
+### Things That Happen in the City
+
+Roll a d6 at the start of each day that the party stays in the city, or
+choose one.
+
+| d6 | Event |
+|---|---|
+| 1 | **A letter from Stannard.** A rider of Gaunt brings a sealed letter for the party. It is from Marshal Ide Gauntry. It is polite and short: she regrets "the misunderstanding" in the hall, and she hopes to see the Dawnwatch in Stannard soon. Ilse Varro wrote it for her, and everyone knows it. |
+| 2 | **An apprentice with questions.** A young Lampwright follows Wick around all day and asks him how he talks. Wick pretends to be annoyed. He is delighted. |
+| 3 | **The grey watcher.** A person in grey stands across the street from the guild house all day and does not move. If the party approaches, the person walks into the crowd and is gone. That night, every lamp in the street goes out at once. |
+| 4 | **A rich buyer.** A merchant of the Corrin side offers the party 5,000 GP for Wick. "A talking lantern of the first master! My collection would be complete!" Wick is insulted, and then he is a little flattered, and then he is insulted again. |
+| 5 | **The black stone hums.** In the night, the black stone hums so loud that it wakes its bearer. In the dream that follows, the bearer stands in a cold, dark hall under the ground, in front of something tall and clear like ice. A voice says: "You have the old fire now. Good. Keep it warm for me." The bearer wakes with frost on their hands. |
+| 6 | **A quiet day.** Nothing happens. The city works, the masters work, and the party can rest. Wick asks to be cleaned and polished by a real Lampwright. It takes all day. He looks wonderful. |
+
+> **GM tip:** Event 5 is a hint for chapter 10. The voice is the voice of the
+> Unlit King. The cold hall is the vault under Kingsholm. The tall clear
+> shape is the crystal where he slept. Do not explain any of it. If the
+> players ask Wick, he only says: "Bad dreams are a bad sign. That is the
+> only thing that I know about dreams. I don't sleep."
+
+### Harvesting in the City
+
+The city has one more source of materials, for players who like to hunt.
+The sewers of the Corrin side are old and deep, and Sewer Lichen (Common,
+Urban, Intelligence (Nature), DC 10) grows on their walls. With a Phase
+Silk, it makes a Lockbreaker's Pick (Thieves' Tools, 140 GP, 10 workdays,
+DC 13), from the recipes of the Crafting and Gathering chapter. The guild
+does not make thieves' tools. A character who has proficiency with Thieves'
+Tools must make it alone.
+
+---
+
+## Rewards
+
+### Treasure
+
+| Where | What |
+|---|---|
+| The Skerrows | 640 GP in coins, a silver compass (50 GP), the logbook of the *Merry Tern* |
+| The Skerrows | Kelp Hearts (up to 8), Storm Pearls (up to 2), an Elemental Mote (if the party fought the elemental) |
+| Lamplight Night | Ilse's purse, if the party catches her: 150 GP and a ring of the Gaunt spy service (worth 100 GP, and it opens doors in Stannard) |
+| The guild | After the raid, the guild pays half of the gold for the Storm Lantern (550 GP back to the party), and 300 GP more for the defense of the hall |
+| The guild | The First Lamp (Very Rare), from Perrin Hale |
+| Crafted | The Storm Lantern of Corrantey (Rare) |
+| Crafted | One Potion of Water Breathing for each Kelp Heart that the party brought |
+
+### Magic Items and the Treasure Budget
+
+Count the crafted items as part of the treasure of this chapter. The party
+gains one Very Rare item (the First Lamp), one Rare item (the Storm Lantern),
+and some Uncommon potions. That is a generous chapter. Give one fewer Rare
+item in the treasure of chapter 7.
+
+If the party also made other items (an Elemental Gem, a Lantern of Small
+Hours), count those too, and give one fewer Uncommon item later.
+
+### Renown
+
+| Faction | Deed | Renown |
+|---|---|---|
+| The Lampwrights | Defend the hall on Lamplight Night | +2 for each character |
+| The Lampwrights | Bring back the Lamp from Ilse or the Hush | +5 (a great deed) |
+| Gaunt | Refuse the offer of Ilse | −1 |
+| Gaunt | Help Ilse take the Lamp | +5 |
+| The Church | Bring the blessing of the Sleepers to Lamplight Night (if Abbess Merrow sent them) | +1 |
+
+The Lampwrights are a new faction. If you use Factions and renown, make them
+a faction with the ladder of the Factions and Renown chapter. Their rival is
+Gaunt. Their reward at the rank of Member (10 renown) is a discount of a fifth
+on all crafting gold. Their reward at the rank of Trusted (20 renown) is one
+master of the guild who comes to work at the keep.
+
+### Milestone
+
+The party found the second piece of the Dawnfire and learned the name of
+the maker of Wick.
+
+The characters go to level 7.
