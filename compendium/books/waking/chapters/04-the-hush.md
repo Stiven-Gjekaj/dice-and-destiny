@@ -487,7 +487,7 @@ Snuffers**.
 - **To get free,** the bearer makes a Strength (Athletics) or Dexterity
   (Acrobatics) check against the escape DC on Osk's statblock, as an
   action. Allies can attack Osk while he runs, or grab the bearer back.
-- **Osk does not die here.** The world bible needs Osk in chapter 7. When
+- **Osk does not die here.** He returns in chapter 7. When
   he drops below a quarter of his Hit Points, he drops the bearer and
   runs into the dark, very fast and very quiet. If the party chases him,
   he is gone at the top of the hill. If a character drops him to 0 Hit
@@ -579,3 +579,361 @@ Let the players plan. These are good plans. Each one works.
 > out to a clever player: "Sallow needs the stone. What if she does not get
 > it?" A party that keeps the stone far away makes the rite fail. Then
 > Sallow sends everything she has to get it. See Scene 6.
+
+---
+
+## Scene 6: The Rite (1 hour)
+
+**Goal:** The last fight of Act I. A fight with a clock. Save the Ember.
+
+> The chapel has no roof. Above it, the stars are hidden by a cold grey
+> haze that was not there a moment ago. The air inside the ring is still,
+> and very quiet. No wind. No crickets. Your own breathing sounds loud.
+>
+> In the chapel, on the low altar, the Ember of Saint Ivo lies in the
+> black bowl of Kell. Its gold light is weak and flickers, like a candle
+> in a draft. Around the altar kneel grey figures, with their hands over
+> their mouths.
+>
+> A small woman in grey stands at the altar. She turns to you, and her
+> face is kind, and very tired, like a nurse at the end of a long night.
+> You saw her in the square at Saint Ivo's, with no candle.
+>
+> "Oh, good," says Mother Sallow. "You brought it."
+
+{{statblock: Mother Sallow}}
+
+### The talk
+
+If the party comes in openly, or if anyone speaks before the fight, Mother
+Sallow talks first. She is calm, gentle, and sure. She believes every
+word. Play her as the most reasonable person on the hill.
+
+> "Have you looked at the sun, Sleepers? Really looked? It rises later
+> every year. It sets earlier. The winters are longer. The children of
+> Brannock's Ford will not see the harvest in thirty years. Your old
+> kingdom saw it coming, three hundred years ago, and it did nothing. It
+> lit little fires in little bowls, and it went to sleep." She touches the
+> Ember, very gently. "I am going to wake the only one who ever tried to
+> save it."
+
+- **She tells the truth as she knows it.** The sun is dying. The Unlit King
+  wants to save it. The pieces of the Dawnfire keep him asleep. Each light
+  that goes out brings him closer to waking. A character who makes a DC 15
+  Wisdom (Insight) check knows that she believes all of it.
+- **She does not know who the king was.** She calls him "the king" or "the
+  Unlit". If a character asks, she smiles. "Does it matter who he was? It
+  matters what he will do."
+- **She wants the stone.** "Give it to me, and walk away. Nobody needs to
+  be hurt. Your friend in the north will thank you." She does not explain
+  what she means by that.
+- **She cannot be talked out of it.** A character can make her doubt for a
+  moment, with a very good argument and a DC 20 Charisma (Persuasion)
+  check. On a success, she hesitates: the party acts first in the fight,
+  with Advantage on its Initiative rolls. She does not stop.
+
+> **GM tip:** Mother Sallow is the face of the enemy for the rest of Book
+> One. Make her memorable. She is not cruel. She is kind to her people,
+> polite to the party, and absolutely sure. The scariest villain is the
+> one who is half right. Do not let the players kill her: she escapes in
+> Scene 7. Her statblock is here so that you can run her spells and her
+> escape.
+
+### The rite
+
+When the talk ends, or when the fight starts, Mother Sallow begins the
+rite. The rite is a clock.
+
+> **Teach: a fight with a clock.** "This is not only a fight. Mother
+> Sallow is doing something at the altar. Each round, it gets closer. I
+> will show you how close." Draw three boxes on the paper. Fill one at the
+> end of each round in which the rite goes on.
+
+- **The rite needs three things:** the Ember on the dead bowl, the black
+  stone within 30 feet of the bowl, and Mother Sallow's voice. She spends
+  her action each round on the rite. She uses her Bonus Action (Put Out
+  the Light) and her Reaction (Into the Dark) as usual.
+- **At the end of each round** in which all three things are true, fill one
+  box.
+- **When the third box fills,** the Ember goes dark. See "If the Ember goes
+  dark" below.
+
+The party can stop the rite. Each of these works. Tell the players none
+of them. Let Wick or Cade guess one, if the players are stuck.
+
+| Way | How |
+|---|---|
+| **Take the Ember.** | A creature next to the altar takes the Ember out of the bowl as a Utilize action. The bearer of the black stone takes 1d6 Radiant damage if it touches the Ember. The rite stops while the Ember is out of the bowl. |
+| **Keep the stone away.** | The stone is more than 30 feet from the bowl. The rite does not advance. But the Long Shadow goes with the stone (see below). |
+| **Silence Mother Sallow.** | She has the Incapacitated condition, can't speak (*Silence*, a gag while Grappled, a Shush of her own), or is more than 30 feet from the bowl. |
+| **Light the stone.** | The bearer holds the stone in the Ember's Bright Light, within 20 feet of it. The rite does not advance this round, and the Long Shadow fades (see below). |
+
+### The Long Shadow
+
+At the end of the first round, Mother Sallow speaks a word that no
+character can hear. The stone in the bearer's hand goes ice cold. And the
+bearer's own shadow stands up.
+
+> Your shadow peels off the ground. It stretches, up and up, taller than a
+> door, in the shape of a knight in old armor with a crown of black fire.
+> It moves a moment late, the way a shadow should. It turns its empty face
+> toward you, and toward the stone in your hand.
+
+The **Long Shadow** is the shadow of the Unlit King, called out of his own
+crystal, through the stone. It fights for the rite. It can't move more
+than 120 feet from the stone.
+
+{{statblock: The Long Shadow}}
+
+| Party size | Monsters | XP |
+|---|---|---|
+| 4 characters | The Long Shadow, 2 Hush Snuffers | 2,000 |
+
+> **Scaling:** This is a High fight for level 4 (500 XP for each
+> character). Mother Sallow is not in the budget: she spends her actions
+> on the rite, and she escapes. Count her only if she attacks.
+>
+> - **3 characters (1,500 XP):** the Long Shadow alone (1,800 XP). It
+>   starts with 20 fewer Hit Points.
+> - **4 characters (2,000 XP):** as in the table.
+> - **5 characters (2,500 XP):** the Long Shadow, 1 Hush Shroud, 2 Hush
+>   Snuffers (2,450 XP).
+> - **6 characters (3,000 XP):** the Long Shadow, 1 Hush Lightless, 1 Hush
+>   Snuffer (3,000 XP).
+>
+> The Long Shadow is CR 5, above the party's level. It is strong in the
+> dark and weak in the light. A party that uses the light wins this fight.
+> A party that does not use the light may lose it.
+
+### The map
+
+- **The chapel** is 30 feet by 20 feet, with the altar at the west end and
+  the door at the east end. Its walls are 10 feet high. The roof is gone.
+- **The ring** around the chapel is open grass. The stones give Half
+  Cover. The gap is on the east side.
+- **The light.** The Ember on the bowl gives only Dim Light, in a 10-foot
+  radius, while the rite goes on. When a creature takes the Ember out of
+  the bowl, it flares to its full light: Bright Light for 20 feet and Dim
+  Light for 20 feet more. Wick gives his usual light. Mother Sallow uses
+  Put Out the Light each round to make Wick's light Dim.
+- **The kneeling Hush** are not in the fight. They are new members of the
+  Hush who pray with their hands over their mouths. They flee in the
+  first round in which a character attacks one of them.
+
+### Running the fight
+
+- **Light is everything.** The Long Shadow has Resistance to Bludgeoning,
+  Piercing, and Slashing damage in Dim Light or Darkness, and
+  Disadvantage on attack rolls in Bright Light. It has Vulnerability to
+  Radiant damage. Point this out with Wick: "It does not like me! Hold me
+  up! Higher! Oh, it really does not like me."
+- **The Ember ends the shadow.** When the stone is in the Bright Light of
+  the Ember, the Long Shadow fades into the floor and is gone. This is the
+  best way to win the fight, and the most dramatic. The bearer must hold
+  the stone near the Ember. It burns.
+- **The black stone.** The bearer can draw on the stone. If the bearer does
+  it now, describe the Long Shadow turning its head toward the bearer, as
+  if it heard a friend.
+- **Mother Sallow** can cast *Hold Person* once, on the character who
+  reaches the altar first. She does not fight to the death. When she takes
+  damage while she is in Dim Light or Darkness, she uses Into the Dark,
+  and she is gone. Osk waits for her outside the ring.
+
+### If the Ember goes dark
+
+If the third box fills, the Ember goes dark. Do not make this the end.
+
+> The gold light shrinks to a red spark. Then to nothing. The coal in the
+> bowl is black. Mother Sallow closes her eyes, and for a moment she looks
+> very happy, and very sad.
+>
+> Far away in the north, something breathes in.
+
+Mother Sallow uses Into the Dark at once, and she is gone. The Long Shadow
+stops, bows to the bearer, and sinks into the ground. The fight is over.
+
+But the Ember is not dead. A piece of the Dawnfire is hard to kill. At
+dawn, when the sun touches the black coal, a red spark wakes in it. Over
+seven days in the sun, it grows back to its gold. Until then, it has none
+of its properties. The Hush failed. It was very close.
+
+### If the Hush have the stone
+
+If the Hush took the stone in Scene 1 or Scene 4, Mother Sallow has it at
+the altar, and the Long Shadow rises from her own shadow. It is tied to
+the stone in her hand. Run the fight the same way, with one change: the
+party must take the stone back from her, or force her to use Into the
+Dark. When she flees, she drops it: the stone burns her hand at the last
+moment, and she screams, the only sound she makes in the whole book. The
+stone goes back to the party. It always comes back.
+
+---
+
+## Scene 7: The Voice in the Stone (20 minutes)
+
+**Goal:** The end of Act I. The Unlit King speaks. The party learns that he
+can feel where the stone is.
+
+When the Long Shadow fades, or when the Ember goes dark, the ring is very
+quiet. Then the stone speaks.
+
+> The stone in your hand hums, one long low note, and the voice comes. You
+> heard it once before, on the hill above the keep. It is deep and slow,
+> like a tired man at the end of a long watch. It does not shout. It
+> speaks as if it sits next to you at a campfire.
+>
+> "Sleeper."
+>
+> A pause, like a breath.
+>
+> "You carry a piece of me. I feel it, as you feel your own hand in the
+> dark. Wherever you take it, I know where you are. I knew at the keep. I
+> knew at the ford. I know now."
+>
+> Another pause.
+>
+> "You were always the careful ones. Be careful now. We kept the same watch
+> once. It was a long one."
+>
+> The stone is cold, and quiet. The haze in the sky is gone. The stars are
+> very bright.
+
+> **GM tip:** This is one of only three times that Malgrath speaks in Book
+> One. Do not add to it. Do not explain it. Every word is true, and the
+> players cannot yet understand why. If a player asks Wick what he meant
+> by "the same watch", Wick says, too fast: "He means the long night. He
+> is the Unlit King. He is a liar. Everybody knows he is a liar." Wick
+> believes it.
+
+### Mother Sallow's last word
+
+If Mother Sallow did not flee already, she flees now, with Into the Dark.
+Before she goes, she looks at the bearer of the stone, and she smiles, as
+if she is proud of a child.
+
+> "You see?" she says. "He knows where you are. He always will. You can
+> run anywhere in the land, and he will know, and I will know." Her voice
+> is soft and kind. "I will see you again, Sleeper. Keep it warm for him."
+>
+> Then she steps back into the shadow of a standing stone, and she is not
+> there.
+
+If the party searches, they find the tracks of Osk going down the west
+side of the hill, very fast, and the marks of a woman's feet next to them.
+The trail ends at a stream. Mother Sallow and Osk return in chapter 7.
+
+### What the party finds at Kell
+
+After the fight, the party can search the chapel and the tents.
+
+- **The Ember of Saint Ivo**, in the bowl, gold again (or dark, if the rite
+  finished). The bearer of the stone cannot carry it without the burn. Let
+  another character carry it. It is warm in the hand. Wick leans toward it
+  all the way home.
+- **Garret Pell**, if the Hush took him, in a tent at the foot of the hill.
+  He is cold, hungry, and very, very grateful. On the way home, he starts
+  to write a new play. It is called "The True Sleepers". He asks each
+  character what they would like their actor to look like.
+- **The Kell Warden's Shield.** Under the altar, in the dust, lies a round
+  shield of oak and bronze with a rising sun on its face. The wardens of
+  the shrine carried it three hundred years ago. When the Hush are near,
+  the sun on the shield glows.
+- **The grey ledger.** In the tent of Mother Sallow, under her blanket, is
+  a small book bound in grey cloth. Most of it is prayers, in a hand that
+  is small and neat. The last page is a list. Give the players the
+  handout.
+
+{{treasure: Kell Warden's Shield}}
+
+{{handout: 04-the-grey-ledger}}
+
+The grey ledger is the first proof that the Hush hunts the pieces of the
+Dawnfire, one by one. It names two more: the lamp of the lantern makers in
+Corrantey, and the church in drowned Fennick. These are the hooks of Act
+II.
+
+> **GM tip:** Let the players read the list and work it out. The keep: the
+> fire in the chapel of the tutorial, out. Kell: dead for two hundred
+> years. Saint Ivo: the Ember, which they just saved. Two more are left.
+> Wick says: "If the fire in the chapel kept him asleep, and this one, and
+> those ones... how many are left before he wakes?" Nobody knows. That is
+> the question for Act II.
+
+### Home to Saint Ivo's
+
+The party walks back to Saint Ivo's in two days. Do not use the Journeys
+rules for the way home, unless the players want to. The road is quiet.
+The Hush are gone.
+
+> The bells of Saint Ivo's ring for you before you reach the gate. The
+> whole town comes out to see the Ember come home. The Abbess comes out
+> barefoot, and she takes the Ember in both hands, and she weeps.
+>
+> Later, when the crowd is gone, Brother Cade sits with you on the steps of
+> the cathedral. He does not say anything for a long time. Then: "They will
+> come back. For the Ember. For the stone. For you." He looks up at the
+> sky, at the sun going down. It is early, for the season. "And it is
+> getting dark sooner, is it not? I did not want to see it. I see it now."
+
+### Who keeps the Ember
+
+The Abbess wants the Ember back on the high altar, with a new cage and
+twenty guards. The party may want to keep it, to protect it from the Hush.
+Both are good choices. Let the players decide, and let it matter.
+
+- **The party gives it back.** The Abbess is deeply grateful. The Church
+  remembers this in chapter 5.
+- **The party keeps it.** A character can attune to it. The Abbess is hurt,
+  and afraid, but she cannot stop the Sleepers. "Then guard it," she says,
+  "as we did, for two hundred years." The Church remembers this too.
+- **The bearer of the stone** may want to use the Ember to end the Mark,
+  from dusk to dawn, in its light. Let the player know that it is possible.
+  The full entry of the black stone has the ending. The stone stays whole
+  and cold, so the Hush still want it, and the Unlit King still feels it.
+
+{{treasure: The Ember of Saint Ivo}}
+
+### The end of Act I
+
+> The Dawnwatch woke into a world that forgot them. In a few weeks, they
+> learned its songs, saw their own faces painted wrong, and became saints.
+> They found the first piece of the old fire, and they saved it.
+>
+> And they learned that the thing in the north is awake, and that it knows
+> where they are.
+>
+> Act I ends here. The world is bigger now, and its powers are watching.
+> In the south, the Marshal of Gaunt is waiting for an answer.
+
+---
+
+## Rewards
+
+The characters can end this chapter with these things.
+
+- **The Kell Warden's Shield**, from the altar at Kell (Scene 7). It is an
+  Uncommon magic item.
+- **The Ember of Saint Ivo**, if the party keeps it. It is an Artifact, a
+  piece of the Dawnfire. If the party gives it back, the Church owes it a
+  great debt.
+- **The black stone** and its Mark. It is an Artifact. Its bearer carries
+  the Curse of the Black Stone.
+- **The grey ledger** of the Hush, with the list of the pieces of the
+  Dawnfire.
+- **Money and gear:** the tents of the Hush hold 60 GP in old coins of
+  Ostrey (the Hush pay with them; nobody knows where they find them),
+  three Potions of Healing, and twelve brass snuffers. The Abbess gives a
+  purse of 250 GP when the Ember comes home, or when the party promises to
+  guard it.
+- **Friends:** Brother Cade believes the party fully now, whatever the
+  Proof was. He is their friend for the rest of the book. Garret Pell owes
+  them his life, if they saved him.
+
+### Level up
+
+The characters go to level 5.
+
+They go up at the next Long Rest. Level 5 is the biggest jump in the game:
+martial characters get a second attack, and spellcasters get spells of
+level 3. Chapter 5 is written for that jump. Give the players time, and
+tell them: "Act II starts now. The world will hit harder."

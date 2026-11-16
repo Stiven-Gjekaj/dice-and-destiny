@@ -284,6 +284,10 @@ of old Ostrey above. Each writer uses them.
   days, and ends with the Waking Service, when the Abbess carries the
   Ember out to the people. Pell's Players perform in the Players' Yard of
   the inn called the Lamb and Lantern.
+- **Kell today:** the ring and the roofless chapel stand on a bare hill.
+  The shrine kept a piece of the Dawnfire. It went out in the Grey Winter,
+  and the stones have been cold since then. The Hush use its dead bowl for
+  the rite that puts out a living piece (chapter 4).
 - **The Ember glows:** for two hundred years, the Ember was a dull red
   coal. On the night that the Dawnwatch woke, it started to burn gold
   (chapter 3).
@@ -366,4 +370,5 @@ tells which lane owns the creature.
 | Maud Kettle's Whistle | The unique item of chapter 8. The drill whistle of Sergeant Maud Kettle. Uncommon. | 8 |
 | The Bonesetter's Needle | The unique item of chapter 9. A healer's needle from the field of Ashby. Uncommon. | 9 |
 | The Badge of Sir Garrath | The unique item of chapter 10. The badge of the first Dawnwatch, on the empty crystal. Rare. | 10 |
+| The grey ledger | The book of prayers of Mother Sallow. Its last page lists the pieces of the Dawnfire that the Hush hunts: the keep, Kell, the Ember, the lamp in Corrantey, and the church in Fennick. A handout. | 4 |
 | The letters of Haskel Orme | Handouts. They show the lie, step by step. | 7, 10 |
