@@ -1454,3 +1454,97 @@ the players feel that something is there.
 | 8 | "The River Dunn runs cold in summer now." | True. |
 | 9 | "The old king of Ostrey sits on his throne under the moss and waits for an heir." | False. An oak grows where the throne was. |
 | 10 | "Under the palace hill of Kingsholm is a door that no army could open." | True. Chapter 10. |
+
+## Encounters on the Road
+
+The Journeys system tells you when the party meets something on the road.
+These tables tell you what. Each region has a d8 table. The creatures come
+from the Game Master's Compendium and from the appendix of creatures of
+this book. The number in brackets is the Challenge Rating.
+
+Choose the number of creatures with the XP budgets of Building Encounters
+in the Game Master's Compendium, for the level of the party. If an entry is
+too weak for the party, add more creatures or use the stronger creature in
+the same row. If it is too strong, the creatures are not hungry, or not
+interested, and the party can avoid the fight with a good idea.
+
+Not every meeting is a fight. Half of the entries can be a talk, a trade,
+or a chase.
+
+### The Wolds
+
+| d8 | Encounter | Notes |
+|---|---|---|
+| 1 | Swarm of Cairn Crows (1/4) | They follow the party and shout. Wick shouts back. |
+| 2 | Hillside Hob (1/4) | Steals one item at night. It can be bought back with milk. |
+| 3 | Prairie Wolf (1/4) | A pack, thin and hungry, down from the north early. |
+| 4 | Barrow Light (1/2) | Above an open barrow. It leads to a grave, not a trap, if the party follows politely. |
+| 5 | Shepherds (no fight) | Two shepherds and a dog. They want news, and they offer cheese. |
+| 6 | Churchyard Grim (1) | At the ruined church of a lost hamlet. It guards the graves. It lets the badge of the Dawnwatch pass. |
+| 7 | Menhir Sentinel (2) or Barrow Thane (3) | A standing stone that wakes, or an old warden in a barrow that someone dug open. |
+| 8 | Hush Snuffer (1/2) | Two or three, on the way to the keep. They run if they are seen. |
+
+### The old road and the middle land
+
+| d8 | Encounter | Notes |
+|---|---|---|
+| 1 | Pilgrims (no fight) | A family on the way to Saint Ivo's. They ask the party to bless their child. |
+| 2 | Road Warden (1) | A toll man who is not a warden of anything. He wants 1 SP from each traveler. |
+| 3 | Tavern Bouncer (1/2) and Pit Brawler (2) | Thugs who rob pilgrims. They think that the party is a group of actors. |
+| 4 | Hedge Witch (2) | Sells charms against the short days. One of them works. |
+| 5 | Mountebank Illusionist (4) | Claims to be one of the Five. He is very convincing, until he meets the real one. |
+| 6 | Sellsword Captain (4) | Hired by Gaunt to watch the road. Polite. Counts the party. |
+| 7 | Hush Snuffer (1/2) and Hush Shroud (2) | At a roadside shrine, putting out the candles of the Five. |
+| 8 | Pilgrim Saint (8) | A holy wanderer, not a fight. She looks at the characters for a long time and says, "You are late." |
+
+### Gaunt and Ashby Field
+
+| d8 | Encounter | Notes |
+|---|---|---|
+| 1 | A patrol of Gaunt (no fight) | Ten soldiers. They ask for passes. A character with Gaunt renown passes free. |
+| 2 | Longhorn Aurochs (2) | A herd crosses the road. Nobody is in charge of it. |
+| 3 | Scarecrow Watcher (1) | In a field by the border. The farmer swears it moves the border stones. |
+| 4 | Field Guardian (1/2) | A small spirit of an old farm. It wants its field plowed straight. |
+| 5 | Squall Kite (4) | Over the open land of Ashby Field, in a storm. |
+| 6 | Smuggler Captain (3) | Moves goods past the tolls. He would rather pay the party than fight. |
+| 7 | Phantom Host (9) | Only on Ashby Field, only at dawn, and only from level 8. The ghosts of the old battle march past. They salute the badge of the Dawnwatch. They fight anybody who attacks them. |
+| 8 | Hush Lightless (4) | Alone, at night. It hunts the bearer of the black stone. |
+
+### Corrantey and the coast
+
+| d8 | Encounter | Notes |
+|---|---|---|
+| 1 | Swarm of Thieving Gulls (1/4) | They take the bread. Then they take the purse. |
+| 2 | Cutpurse Monkey (1/8) or Street Urchin Gang (1) | In the market. A good chase over the roofs. |
+| 3 | Canal Eel (1/4) | In the harbor channels, by the night docks. |
+| 4 | Drowned Sailor (1) or Wreck Ghoul (2) | On the beach after a storm, among the wreckage. |
+| 5 | False Beacon (1) | A light on the cliffs that calls ships to the rocks. See the seeds. |
+| 6 | Rooftop Stalker (2) | Hired to steal Wick. It reports to an agent of Gaunt, or to the Hush. |
+| 7 | Lantern Wight (3) | In the old cellars of the Tey half. A dead apprentice of the first Lampwrights. |
+| 8 | Smoke Assassin (8) | Only from level 7. Sent by somebody on the council who wants the Dawnwatch out of the city. |
+
+### The Low Fen
+
+| d8 | Encounter | Notes |
+|---|---|---|
+| 1 | Swarm of Biting Midges (1/4) | All day. Each character makes a DC 10 Constitution saving throw or gets no sleep tonight. |
+| 2 | Fen Boggart (1/2) | Moves the marker poles. The party gets lost for an hour. |
+| 3 | Fen folk (no fight) | An eel catcher in a flat boat. She trades a safe route for a good knife. |
+| 4 | Spearjaw Gar (2) or Bog Gator (2) | In the deep channels between the dikes. |
+| 5 | Will-o'-the-Wake (3) | One of the lamps of the drowned. It is not a soul of Fennick. |
+| 6 | Bog Mummy (3) or Peat Man (3) | A farmer of old Fennick, preserved in the peat. It still walks the line of its field. |
+| 7 | Marsh Drowner (4) | Under the water by a broken dike. |
+| 8 | Fen Drake (6) or Ague Wraith (6) | Only from level 7. Close to Fennick. |
+
+### The north
+
+| d8 | Encounter | Notes |
+|---|---|---|
+| 1 | Hollow Stag (2) | In the forest that was farmland. It does not run from the party. |
+| 2 | Greyhide Wolf Mother (3) | With her pack. Since the Waking, the wolves come farther south. |
+| 3 | Charcoal Haunt (2) | In a burned village on the Dunn. |
+| 4 | Scavengers (no fight) | Three tired people with a cart of lead from Kingsholm. They warn the party about the grey folk. |
+| 5 | Weeping Shade (2) or Hungry Shadow (1) | Near the ruins of Kingsholm. More of them since the black noon. |
+| 6 | Wolf of the Long Winter (4) | Down from the Grey Teeth, in the snow. |
+| 7 | Bridge Troll (5) | At the ford of white stones, where the great bridge of Kingsholm fell. |
+| 8 | Hush Lightless (4) with Hush Snuffers (1/2) | A patrol of the Hush around Kingsholm, with no lights. |
