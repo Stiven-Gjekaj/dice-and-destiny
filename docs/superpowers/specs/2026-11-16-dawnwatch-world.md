@@ -107,7 +107,7 @@ road and about 16 miles off the road.
 | Saint Ivo's | Stannard | 3 | A good road, made by Gaunt |
 | Saint Ivo's | Corrantey | 5 | The pilgrim road west |
 | Saint Ivo's | Fennick | 4 | Off the road, through the Low Fen |
-| Dawnwatch Keep | Kingsholm | 3 | Off the road, along the Dunn |
+| Dawnwatch Keep | Kingsholm | 3 | Off the road: north-west over the Wolds to the Dunn, then up its bank |
 
 ## The powers of today
 
