@@ -181,6 +181,7 @@ REGISTRY = {
     "items": lambda m: [e[0] for e in m.ITEMS],
     "downtime": lambda m: [e["name"] for e in m.DOWNTIME],
     "classes": lambda m: [e["name"] for e in m.CLASSES],
+    "injuries": lambda m: [e["name"] for e in m.INJURIES],
     "systems": lambda m: [e["name"] for e in m.MARKS + m.BONDS + m.TECHNIQUES + m.LEGENDS],
     "traps": lambda m: [e["name"] for e in m.TRAPS],
     "tables": lambda m: [e["name"] for e in m.TABLE_SETS],
