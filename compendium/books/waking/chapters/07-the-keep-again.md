@@ -329,8 +329,8 @@ and fresh grease.
 > thumb. In the new dark, the grey shapes come on, and you hear only their
 > boots.
 
-**Creatures:** 3 Hush Night Wardens (CR 4, 1,100 XP each) and 4 Cultist
-Shrouds (CR 2, 450 XP each). The Hush Shrouds are senior initiates of
+**Creatures:** 3 Hush Night Wardens (CR 4, 1,100 XP each) and 4 Hush
+Shrouds (CR 2, 450 XP each). The Hush Shrouds are the veiled priests of
 the Hush. They wear grey robes, not mail.
 
 **XP:** 3 × 1,100 + 4 × 450 = 5,100 XP. A Moderate fight for four
@@ -561,7 +561,7 @@ choice of the players. He does not appear again in Book One.
 > **Scaling:** The budget for a High fight at level 7 is 1,700 XP for each
 > character. Osk and the Dusk Priest are always in the fight.
 >
-> - **3 characters** (5,100 XP): Osk, the Dusk Priest, and 2 Cultist
+> - **3 characters** (5,100 XP): Osk, the Dusk Priest, and 2 Hush
 >   Shrouds (1,100 + 2,900 + 900 = 4,900 XP).
 > - **4 characters** (6,800 XP): Osk, the Dusk Priest, 1 Hush Night Warden,
 >   and 4 Hush Shrouds (6,900 XP).
