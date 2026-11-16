@@ -51,13 +51,13 @@
    "era": "now",
    "size_mm": [
     167,
-    120
+    250
    ],
    "bounds_miles": [
-    -9.93,
-    112.0,
-    249.93,
-    296.0
+    10.0,
+    -0.21,
+    230.0,
+    333.21
    ],
    "title": "The South"
   }
@@ -71,7 +71,8 @@
     "Caer Dunholm"
    ],
    "maps": [
-    "land-today"
+    "land-today",
+    "act-2"
    ],
    "x": 120,
    "y": 20
@@ -245,7 +246,8 @@
    "old_names": [],
    "maps": [
     "ostrey-then",
-    "land-today"
+    "land-today",
+    "act-2"
    ],
    "x": 130,
    "y": 50,

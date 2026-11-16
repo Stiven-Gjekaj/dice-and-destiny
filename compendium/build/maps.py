@@ -60,9 +60,9 @@ MAPS = {
         title="The Wolds and Saint Ivo's", sub="Book One, chapters 2 to 5",
         title_at="ne", tools_at="se", capital=None, label_at={}),
     "act-2": dict(
-        era="now", size="half", bounds=(0, 112, 240, 296), scale_miles=50, ticks=20,
+        era="now", size="page", bounds=(10, 0, 230, 333), scale_miles=50, ticks=20,
         title="The South", sub="Book One, chapters 5 to 10",
-        title_at="ne", tools_at="se", capital=None, label_at={"The Low Fen": (210, 236)}),
+        title_at="ne", tools_at="se", capital=None, label_at={}, legend_at=(30, 262)),
 }
 
 MAP_IDS = list(MAPS)

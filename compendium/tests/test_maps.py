@@ -225,8 +225,8 @@ def test_the_committed_places_json_matches_places_py():
 def test_places_json_follows_the_list(monkeypatch):
     import json
     extra = [
-        dict(name="Hollin", kind="town", x=60, y=60, era="now", chapters=(), summary="A test town."),
-        dict(name="Old Hollin", kind="town", x=60, y=60, era="then", chapters=(), now_name="Hollin",
+        dict(name="Hollin", kind="town", x=4, y=60, era="now", chapters=(), summary="A test town."),
+        dict(name="Old Hollin", kind="town", x=4, y=60, era="then", chapters=(), now_name="Hollin",
              summary="A test town."),
         dict(name="Mire", kind="region", x=100, y=150, area=(90, 140, 110, 160), era="now",
              chapters=(), summary="A test marsh."),
@@ -237,7 +237,7 @@ def test_places_json_follows_the_list(monkeypatch):
     monkeypatch.setattr(maps, "ROADS", [])
     data = json.loads(maps.places_json())
     town = next(p for p in data["places"] if p["name"] == "Hollin")
-    assert (town["x"], town["y"], town["old_names"]) == (60, 60, ["Old Hollin"])
+    assert (town["x"], town["y"], town["old_names"]) == (4, 60, ["Old Hollin"])
     assert town["maps"] == ["land-today"]
     old = next(p for p in data["places"] if p["name"] == "Old Hollin")
     assert old["maps"] == ["ostrey-then"] and old["now_name"] == "Hollin"
