@@ -140,3 +140,27 @@ def test_every_srd_spell_passes_the_curve():
     for s in json.load(open(path)):
         failures += spell_damage_too_high(s["name"], s["level"], s["desc"], is_area(s["desc"]))
     assert failures == []
+
+
+from check_content import background_feat_errors, srd_origin_feats
+
+
+def _background(name, feat):
+    return (name, "Strength, Dexterity, Constitution", "Athletics, Stealth", "Gaming Set", feat, "Rope, 10 GP", "flavor")
+
+
+def test_background_with_an_origin_feat_passes():
+    assert background_feat_errors([_background("Diver", "Hardy")], {"Hardy"}) == []
+
+
+def test_background_feat_ignores_the_note_in_parentheses():
+    assert background_feat_errors([_background("Acolyte", "Magic Initiate (Cleric)")], {"Magic Initiate"}) == []
+
+
+def test_background_with_an_unknown_feat_fails():
+    errors = background_feat_errors([_background("Diver", "Deep Breath")], {"Hardy"})
+    assert len(errors) == 1 and "Diver" in errors[0] and "Deep Breath" in errors[0]
+
+
+def test_srd_origin_feats_include_the_four_srd_feats():
+    assert {"Alert", "Magic Initiate", "Savage Attacker", "Skilled"} <= srd_origin_feats()

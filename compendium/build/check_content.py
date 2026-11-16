@@ -185,6 +185,25 @@ REGISTRY = {
 }
 
 
+def background_feat_errors(backgrounds, origin_feats):
+    """Each background names an Origin feat. A note in parentheses, such as "(Cleric)", is not part of the name."""
+    errors = []
+    for b in backgrounds:
+        feat = re.sub(r"\s*\(.*\)$", "", b[4])
+        if feat not in origin_feats:
+            errors.append(f"backgrounds: {b[0]} names the feat {b[4]!r}, which is not an Origin feat")
+    return errors
+
+
+def srd_origin_feats():
+    import json
+    import os
+
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "all_feats.json")
+    with open(path) as f:
+        return {e["name"] for e in json.load(f) if e.get("type") == "Origin"}
+
+
 def check_all_content():
     import importlib
     import os
@@ -208,6 +227,8 @@ def check_all_content():
     errors += unknown_values("subclasses", list(mods["subclasses"].SUBS), SRD_CLASSES | new_classes)
     errors += unknown_values("feats", [e[1] for e in mods["feats"].FEATS], FEAT_TYPES)
     errors += unknown_values("items", [e[2] for e in mods["items"].ITEMS], RARITIES)
+    origin = srd_origin_feats() | {e[0] for e in mods["feats"].FEATS if e[1] == "Origin"}
+    errors += background_feat_errors(mods["backgrounds"].BACKGROUNDS, origin)
     for m in mods["monsters"].MON:
         errors += monster_out_of_band(m)
     for sp in mods["spells"].SPELLS:
