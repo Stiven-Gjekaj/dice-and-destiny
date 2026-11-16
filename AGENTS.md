@@ -43,7 +43,7 @@ em-dash and the emoji still apply to it.
 - The text strings in `compendium/content/`. These are the names and the
   descriptions of the original monsters, items, subclasses, spells, and
   other options.
-- The read-aloud text in `campaigns/` and `adventures/`.
+- The read-aloud text in `adventures/`.
 
 All other text stays in STE. This includes the code, the comments, the
 documentation, the commit messages, and the notes for the DM.

@@ -169,18 +169,13 @@ To build the books yourself, read [`compendium/README.md`](compendium/README.md)
 | Folder | Contents |
 |---|---|
 | [`compendium/`](compendium/) | The source of the two books, the original content, and the build system |
-| [`campaigns/`](campaigns/) | Campaigns that use Dice & Destiny |
 | [`adventures/`](adventures/) | One-shots and short adventures |
 | [`docs/`](docs/) | The style and balance guide, design documents, and plans |
 | [`assets/`](assets/) | The wordmark of this page |
 
-Each campaign and each adventure has its own folder. Each of these folders
-has a `sessions/` folder. Each session has its own folder, with a number in
+Each adventure has its own folder. Each of these folders has a `sessions/`
+folder. Each session has its own folder, with a number in
 front of the name.
-
-### Campaigns
-
-- [The Fountain of Divine](campaigns/the-fountain-of-divine/README.md)
 
 ### Adventures
 
