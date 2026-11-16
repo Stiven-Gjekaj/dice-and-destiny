@@ -85,10 +85,11 @@ jobs:
           home-print|Home Print (A4, B&W)|for printing at home (A4, black and white, with a front page)
           lulu-interior|Lulu Interior (A4, B&W)|Lulu hardcover interior (A4, black and white)
           lulu-cover|Lulu Hardcover Cover|Lulu hardcover cover (A4 casewrap)
+          paperback-cover|Paperback Cover (color, 3 mm bleed)|paperback cover (A4, color, with 3 mm bleed)
           LIST
           done
           cat assets.txt
-          test "$(wc -l < assets.txt)" -eq 8
+          test "$(wc -l < assets.txt)" -eq 10
 
       - name: Publish a preview release
         if: github.ref == 'refs/heads/main'
