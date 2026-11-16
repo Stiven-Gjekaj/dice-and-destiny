@@ -8,6 +8,9 @@ play. Each scene teaches one rule. Then the players use that rule at once.
 - **Time:** about 2 hours.
 - **Tone:** a spooky crypt, with a funny guide.
 - **Characters:** five pregenerated templates. The players give them names.
+- **Content:** only content from the Player's Compendium and the Game
+  Master's Compendium. The monsters, the traps, and the reward come from the
+  books. The story, the places, and Wick are new.
 
 This adventure is not part of a campaign. You can use it again each time that
 you teach a new player.
@@ -36,10 +39,10 @@ world changed while they slept.
 | 0. At the table | The character sheet, the dice | Choose a name |
 | 1. The Hall of Sleepers | Ability checks, DC, advantage and disadvantage | The "Before" flashback, Heroic Inspiration |
 | 2. Wick | Skills, social checks, Insight | Talk to an NPC |
-| 3. The Stair of Teeth | Perception, saving throws, damage and HP | Careful play |
+| 3. The Stair of Teeth | Perception, disadvantage in dim light, saving throws, damage and HP, conditions | Careful play |
 | 4. The Armory | Initiative, turns, actions, movement, attacks, AC | Teamwork |
-| 5. A short rest | Short Rest, Hit Point Dice, recovery of features | Bonds between characters |
-| 6. The Chapel of Dawn | Spell slots, reactions, 0 HP, death saves | Danger has a cost |
+| 5. A short rest | Short Rest, Hit Point Dice, recovery of features, optional Bonds | Bonds between characters |
+| 6. The Chapel of Dawn | Spell slots, reactions, damage types, 0 HP, death saves | Danger has a cost |
 | 7. The Dawn Door | Rewards, level up | The "After" moment |
 
 ## Timing
@@ -97,17 +100,18 @@ pod.
 
 - Before you start, ask the players: "Is there something that you do not want
   in the game?" Spiders and body horror are common answers. The adventure has
-  small demons, fire, and an old crypt. It has no gore.
+  giant rats, small fire dogs, and an old crypt. It has no gore.
 - Tell the players that they can stop a scene at any time. They tap the
   table or say "pause."
-- **No character dies in this tutorial.** The first lesson of the game must not end
-  with a lost character. Scene 6 has a rule for this, the Dawnwatch Oath. Do
-  not tell the players about it before Scene 6.
+- **Losing a character:** The first lesson of the game should not end with a
+  lost character. Scene 6 has an optional GM tip for this, the Dawnwatch
+  Oath. It is a house rule, not a rule from the books. Do not tell the
+  players about it before it happens.
 
 ## Files
 
 - [Session 1: The Last Watch](sessions/01-the-last-watch/README.md): the
   full adventure, scene by scene.
 - [Pregenerated characters](pregens.md): five level 1 characters.
-- [Statblocks](statblocks.md): the Ash Mite, the Ash Hound, and Wick.
+- [Statblocks](statblocks.md): the Giant Rat, the Brimstone Pup, and Wick.
 - [Player cheat sheet](cheat-sheet.md): print one copy for each player.
