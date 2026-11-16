@@ -911,9 +911,9 @@ On the last morning, the Marshal calls the party to the great hall. The
 army stands outside. Under the empty pole, on a table, lies a folded
 banner: red, with the black iron gauntlet of the house of Gauntry.
 
-> "This is the banner of my house," says the Marshal. "My grandmother
-> carried it in the Broken Years, when there was no law in the land but
-> this. I offered you the banner of Ostrey. I see now that you do not
+> "This is the banner of my house," says the Marshal. "The grandmother of
+> my grandmother carried it on the day that Gaunt was founded, when there
+> was no law in the land but this. I offered you the banner of Ostrey. I see now that you do not
 > belong to me, or to anyone." She picks up the red banner and holds it
 > out. "So take this one instead. Not to carry for me. To carry. You saved
 > my son. A Gauntry pays her debts."

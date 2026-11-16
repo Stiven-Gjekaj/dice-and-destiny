@@ -22,7 +22,7 @@ Years count from the long sleep. "Today" is year 300.
 | 0 to 100 | Ostrey splits the Dawnfire into pieces and keeps them in shrines. The pieces keep Garrath asleep. |
 | About 100 | The Grey Winter: three years with almost no summer. The last king of Ostrey dies with no heir. Civil war. A flood covers Fennick. Ostrey falls. |
 | About 140 | Pilgrims tell stories of the five sleepers. The Church of the Five Sleepers starts at the shrine of Saint Ivo. |
-| About 150 | The Gauntry family holds the south with an army. The March of Gauntry becomes the state of Gaunt. |
+| About 150 | The Gauntry family holds the south with an army. The March of Gauntry becomes the state of Gaunt. The grandmother of the grandmother of Marshal Ide Gauntry carries the red banner of the house (chapter 5). |
 | About 210 | The towns of Corrin and Tey grow into one city, Corrantey. |
 | About 270 | The days start to become shorter. Few people see it. The Hush starts, in secret. |
 | 300 | The Hush puts out the Dawnfire in the chapel of the keep. The crystal cracks. The tutorial starts. |
