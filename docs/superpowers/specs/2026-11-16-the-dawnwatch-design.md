@@ -266,11 +266,18 @@ can print or copy it.
 - **Index:** each name, with its page numbers.
 - **Screen edition:** each name is a link to its entry.
 
-## Maps (decided by the agent)
+## Maps (decided by the human)
 
-- The build draws the maps as vector art, in the same way as it draws the
-  covers and the icons. No outside artist is necessary, and a map changes
-  with the text.
+- The final maps come from a map generator that the human makes in Rust
+  (a port of the map generator of Azgaar). The tool writes each map to
+  `compendium/maps/<id>.svg`. The build uses that file when it exists.
+- Until then, the build draws a simple preview of each map. A preview is
+  not good enough for a release: **a Dawnwatch book is not released until
+  each of its maps exists in `compendium/maps/`.**
+- The tool reads the places and their coordinates from
+  `compendium/maps/places.json`, which the build exports from
+  `compendium/content/dawnwatch/places.py`. The places are fixed. The tool
+  does not move them.
 - The style is a line-drawn atlas: ink lines, hatching for mountains and
   sea, and labels in the book fonts. It prints well in black and white.
 - Book One has two world maps:
