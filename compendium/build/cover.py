@@ -150,8 +150,7 @@ h1 {{ font-family: "GFS Baskerville", Caladea, serif; font-weight: normal; font-
 if __name__ == "__main__":
     for n in sys.argv[1:]:
         pages = len(PdfReader(f"{n}.pdf").pages)
-        # Only the Lulu hardcover is printed. cover_size and cover_html still know the paperback.
-        for kind, out in (("hardcover", f"{n}_cover_hardcover"),):
+        for kind, out in (("paperback", f"{n}_cover"), ("hardcover", f"{n}_cover_hardcover")):
             h, spine, tw, th = cover_html(n, pages, kind)
             open(f"{out}.html", "w").write(h)
             subprocess.run(["google-chrome", "--headless=new", "--no-sandbox", "--disable-gpu", "--no-pdf-header-footer",

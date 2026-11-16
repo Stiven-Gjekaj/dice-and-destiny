@@ -2,6 +2,10 @@ __pycache__/
 *.pyc
 /books/player.html
 /books/gm.html
+/player_cover.html
+/gm_cover.html
+/player_cover.pdf
+/gm_cover.pdf
 /player_cover_hardcover.html
 /gm_cover_hardcover.html
 /player.pdf
