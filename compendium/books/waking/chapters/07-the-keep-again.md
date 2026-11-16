@@ -166,3 +166,92 @@ black stone, or whom Wick names, can make him believe.
 
 If the players do not talk to the shepherds, they still find the keep. They
 miss the tip about the well house.
+
+---
+
+## Scene 2: Watchers on the Hill (30 to 45 minutes)
+
+**Goal:** Let the players scout the keep and choose a way in. Reward a good
+plan.
+
+### The keep from outside
+
+> The hill of the keep rises out of the Wolds like the back of a sleeping
+> animal. At the top are the walls that you saw on your first day: broken,
+> grey, with trees growing through them. Then they were empty.
+>
+> Now there are tents in the old courtyard. Grey tents, grey cloth hung
+> between the walls, and grey banners with no sign on them. People walk
+> between the tents. There is no fire, no lamp, not one candle. As the sun
+> goes down, the hill goes dark, and the people on it keep walking in the
+> dark as if it were day.
+>
+> Wick's flame shrinks to the size of a fingernail. "They are in my house,"
+> he whispers.
+
+The Hush have Grey Sight (the statblock of the Hush Night Warden explains
+it), so they do not need lights. Most Hush initiates (Cultists) do not have
+Grey Sight. They walk by memory and move slowly at night.
+
+### Scouting
+
+Let each player say how the character scouts. Use this table. Each check
+takes about an hour, and a character can try one check. Give one fact for
+each success.
+
+| Check | DC | Result |
+|---|---|---|
+| Dexterity (Stealth) to get close | 14 | The character counts the Hush: about thirty in all. Twenty are initiates who carry baskets and tools. About ten are soldiers in grey mail (Hush Night Wardens and Cultist Fanatics). |
+| Wisdom (Perception) | 13 | Hush soldiers come and go through the white stone door on the hilltop: the Dawn Door. That is the main way in. Four guards stand at it day and night. |
+| Wisdom (Survival) | 14 | Tracks lead to the far side of the hill. A landslip opened a crack in the old wall there. The Hush use it to throw out dirt and broken crystal. It leads down into the Stair of Teeth. |
+| Wisdom (Insight), watching the camp | 15 | The character sees the pattern of the camp. At dawn, most Hush go inside to sleep. The best time to attack is just after sunrise, when the camp is sleepy. |
+| Intelligence (History) or Wick | 12 | The well house. A stone hut in the old courtyard has a shaft that goes 60 feet down into the armory. Wick: "The steward sent soup down that shaft. Cold soup, usually." |
+| Intelligence (Investigation), at night | 15 | A cart leaves the hill each night with baskets of broken blue crystal, going north toward the Dunn. The Hush send the shards away. (This is a hint for chapter 10. The cart goes toward Kingsholm.) |
+
+> **Thread (the black stone):** If the bearer of the black stone comes
+> within 300 feet of the Dawn Door, the stone hums so loud that the bearer
+> must hold it to keep it quiet. Each Hush in the keep feels it too. If the
+> bearer comes this close before the attack, add 1 to the alarm (see
+> below).
+
+### Three ways in
+
+**The Dawn Door.** The front door. It leads into the Chapel of Dawn, where
+the main force of the Hush camps. Four guards stand outside it. A fight
+here is loud, and it starts encounter 1 at the door.
+
+**The well house.** A stone hut in the courtyard, with a rotten wooden cover
+over the shaft. The shaft is 60 feet deep, with old iron rungs. Most rungs
+are good. Each character makes a DC 13 Strength (Athletics) check to climb
+down. On a failure, a rung breaks and the character falls the last 20 feet
+(2d6 Bludgeoning damage) into the water of the well, which is 10 feet deep.
+The splash adds 1 to the alarm. The shaft comes out in the well in the
+middle of the armory.
+
+**The broken wall.** On the far side of the hill, the crack in the wall
+leads into a tunnel of fallen stone, and then onto the Stair of Teeth, near
+the top. This way skips the main force. It goes straight down to the Bell
+Gate and up to the Hall of Sleepers. The Hush know the crack, so they put a
+trap in it (see "The new teeth" in Scene 3).
+
+> **GM tip:** Each way in is good. None is a trick. The Dawn Door gives a
+> straight fight. The well gives surprise. The broken wall gives speed. Let
+> the players choose, and then make their choice matter.
+
+### The alarm
+
+Keep a count of the alarm, from 0 to 3. Each of these adds 1:
+
+- A group Dexterity (Stealth) check to get inside fails (DC 13; the group
+  succeeds if at least half of the characters succeed).
+- A loud noise: a fall, a shout, a spell like Thunderwave.
+- The black stone comes close before the attack (see the thread above).
+
+What the alarm does:
+
+| Alarm | Effect |
+|---|---|
+| 0 | The Hush are surprised: in encounter 1, they have Disadvantage on Initiative. |
+| 1 | No surprise. Encounter 1 is normal. |
+| 2 | The Hush in the Hall of Sleepers hear the fight. In encounter 2, they are ready, and Mother Sallow starts to leave sooner (see Scene 4). |
+| 3 | As alarm 2. Also, two of the initiates in the hall run to the study door with hammers. The party has 3 rounds before they break the hinges of the door frame and damage the door. (The door still does not open. But Wick is very angry.) |
