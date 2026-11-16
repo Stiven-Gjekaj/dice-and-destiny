@@ -233,6 +233,9 @@ the Dawnwatch know it. Each writer uses them.
 - **Saint Ivo:** a healer of the Morning Flame. He stayed with the sick in
   a hard winter and did not catch the sickness. His shrine was a chapel,
   a well, and a guesthouse.
+- **The guest master of the shrine** in the year of the sleep was Brother
+  Alys. He had one leg and kept bees. The guest book of the shrine has the
+  names of the Dawnwatch from their last visit (chapter 3).
 - **The shrine at Kell:** a ring of standing stones with a small chapel
   inside it.
 - **Fennick:** a market town on a small rise in the farmland by the

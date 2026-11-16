@@ -369,3 +369,379 @@ character to make Corvin speak with full confidence.
 > in chapter 2, Corvin asks again here, with a better offer: 600 GP, and a
 > place in his collection with a card that says "Returned by the thief,
 > after three hundred years". The player chooses again.
+
+---
+
+## Scene 4: Brother Cade (40 minutes)
+
+**Goal:** Meet the man who does not believe. Let the party answer hard
+questions. Give the party a job that leads under the cathedral.
+
+Brother Cade finds the party, or the Abbess sends them to him. His room is
+at the top of the Abbey: a small room with one window, full of books,
+papers, and boxes of false relics with labels in his neat hand: "Finger of
+the Light (goat)". "Tear of the Spark (glass)". "Shadow's lockpick (nail,
+from the cart of Dace, the third one this year)".
+
+> A broad man in a grey robe stands up from his desk. He has ink on his
+> fingers and a mace on his belt, and he looks very tired.
+>
+> "Brother Cade," he says. "Keeper of the archives. My job is to find out
+> what is true." He looks at each of you for a long moment. "You are the
+> hundred and first. Last year, a man in Corrantey said he was the Storm.
+> He was a very large baker. Sit down. I have questions."
+
+{{statblock: Brother Cade}}
+
+### The questions
+
+Cade asks the party about old Ostrey. He has the archives of the Church:
+two hundred years of notes, stories, and copies of copies. Many of them are
+wrong. When the party gives the true answer, it often does not match the
+archives. That is the point.
+
+Ask three or four of these questions. Each one is a short exchange. The
+party knows the true answers. Let the players answer in character.
+
+| Cade asks | What the archives say | The truth |
+|---|---|---|
+| "How many of the Dawnwatch were there?" | Seven, as in the song. | Forty at the start of the war. Five at the end. |
+| "What were the colors of the Morning Flame?" | White and gold. | Red and gold. |
+| "Where did the Five sleep?" | Under the holy hill of Saint Ivo's. | Under Dawnwatch Keep, in the Wolds. |
+| "What did the soldiers of the king say at the gate?" | "The Sleepers keep you." | "Light to you." "And dawn to you." |
+| "Who was the guest master of the shrine?" | No name. | Brother Alys. One leg, and he kept bees. |
+| "What was carved over the door of the Hall of Sleepers?" | "Here sleep the Holy Five." | "We sleep so that the dawn can wake." |
+
+> **GM tip:** Cade is very good at his job. When the party answers against
+> the archives, he does not say "you are wrong". He writes the answer down,
+> and he goes very quiet. A character who makes a DC 12 Wisdom (Insight)
+> check sees that each true answer worries him more than a lie would. A
+> liar learns the song. These people argue with the song.
+
+After the questions, Cade goes to the oldest shelf in his room. He takes
+down a book with a cracked spine: the diary of a pilgrim from the year
+after the sleep, the oldest thing in the archives. He checks two of the
+party's answers in it. They match. He does not say anything for a long
+time.
+
+**1 Proof** if the party answers at least three questions with the truth.
+If Wick told the Abbess a detail in Scene 3, Cade checks it here too, and
+it matches.
+
+### Zone of Truth
+
+If the party asks Cade to test them with magic, or if he decides to, he
+casts *Zone of Truth* in his room. The party can tell the truth inside it.
+Cade is not convinced.
+
+> "The spell tells me that you believe what you say," says Cade. "It does
+> not tell me that it is true. I once put a man in this zone who believed
+> he was a teapot. He was very sincere."
+
+The spell gives no Proof by itself. It does make Cade respect the party a
+little: they did not refuse the test. Pell refused it, twice.
+
+### Cade's job
+
+At the end of the scene, Cade gives the party a job. He does not trust
+them, but he thinks that they might be useful.
+
+> "Someone is selling real bones at the feast," says Cade. "Human bones.
+> Old ones. Not from the hill in the north. From under my feet." He
+> points at the floor. "Our ossuary is under the cathedral, around the old
+> shrine. The deep part has been closed since the Grey Winter. Something
+> is going in and out of it. I want to know what. And I want it stopped."
+>
+> He looks at you. "If you are the Sleepers, the old shrine was your
+> shrine. You know the way. Show me."
+
+Cade has the keys to the old shrine. He comes with the party (Scene 6).
+If the party met Dace in chapter 2, they already know who sells the bones.
+If not, a character who asks in the Relic Market (DC 10 Charisma
+(Persuasion)) learns that Dace has a stall there with "the best bones on
+the road".
+
+---
+
+## Scene 5: The Window (20 minutes)
+
+**Goal:** The thread of the Light. A sign from three hundred years ago,
+in a window made two hundred years after it.
+
+> **Thread (the Light):** In the tutorial, the player of the Light said what
+> sign the character's god sent when the crystal closed. In the Cathedral
+> of the Five, that sign is in a window of colored glass, made two
+> hundred years after the sleep.
+
+Tell the player before the session: "Your sign comes back this week."
+
+This scene happens any time the party visits the cathedral. The Light
+sees the window first, or another character points it out.
+
+> The cathedral is full of light and the smell of wax. High on the north
+> wall, among windows of the Five Sleepers and saints with sad eyes, one
+> window is different. It has no people in it. It shows only one thing,
+> large and bright in red and gold glass.
+>
+> It is the sign that you saw when the crystal closed over your face. The
+> exact sign. Every detail.
+
+Use the words of the player. If the Light saw "a white bird that flew into
+the sun", the window shows a white bird in front of a gold sun, with its
+wings exactly as the Light remembers. If the sign was a sound or a smell,
+the window shows its source: a bell, or a field of the flower.
+
+### What the window is
+
+A small brass plate under the window says:
+
+> THE WINDOW OF THE SIGN. MADE IN THE YEAR 196 BY MASTER EDRIC GLASS, WHO
+> SAW THIS IN A DREAM ON THE LONGEST NIGHT, AND WAS TOLD: "MAKE THIS, FOR
+> ONE WHO SLEEPS."
+
+Nobody in the cathedral knows what the window means. The priests call it
+"the Mystery Window". Pilgrims pray to it for dreams. A character who asks
+a priest (or Cade) learns that Master Edric made only this window, and
+that he died the next winter. He wrote one more line in his notes: "It was
+a promise."
+
+> **GM tip:** Do not explain the window. The god of the Light sent a sign
+> to the character three hundred years ago, and a sign to a glassmaker two
+> hundred years later, so that the sign would be waiting. Why? That is a
+> question for the Light's player to carry. If the player wants an answer,
+> give one sentence and no more: the character feels, very strongly, that
+> the god has not forgotten.
+
+### The choice
+
+The player of the Light chooses what to do with it.
+
+- **Tell the Church.** The Light can tell a priest, the Abbess, or Cade
+  that the window shows the sign. If the Light describes a detail that is
+  hidden from the floor (Cade climbs a ladder to check), it is **1
+  Proof**. The Abbess is delighted. From now on, the pilgrims pray to the
+  window as "the Window of the Light", and they stare at the character.
+- **Keep it private.** The Light says nothing. The character can come
+  back to the window alone, at night, and pray. Give the character Heroic
+  Inspiration. The window stays a mystery for everybody else.
+
+---
+
+## Scene 6: Under the Cathedral (1 to 1.5 hours)
+
+**Goal:** A short dungeon under the town. The first fight of the chapter.
+Two pieces of proof. A first look at the Ember up close.
+
+Cade takes the party down a stair behind the high altar. He carries a lamp
+and his mace, and he says little. If the party sent Dace to Saint Ivo's in
+chapter 2, Cade has questions about that too.
+
+### The map of the old shrine
+
+The old shrine of Saint Ivo is under the floor of the cathedral. The
+Church built the cathedral over it, and dug an ossuary around it, to keep
+the bones of the faithful near the saint. It has four parts.
+
+| Area | What it is |
+|---|---|
+| **1. The bone galleries** | Long passages with walls made of skulls and bones, stacked neatly. Candles in niches. The Church still uses this part. |
+| **2. The deep ossuary** | Older galleries, closed by an iron gate since the Grey Winter. Dace found a way in. So did something else. |
+| **3. The well of Saint Ivo** | A round room around the old well. The well goes down to water, 60 feet below. |
+| **4. The old chapel** | The chapel of the shrine, as it was three hundred years ago. Closed with a door of stone. Two guards of Ostrey stand at the door. |
+
+### 1. The bone galleries
+
+> The stair goes down into a long passage. Its walls are made of bones:
+> thigh bones stacked like firewood, and rows of skulls between them,
+> looking out. Candles burn in some of the skulls. The air is cold and
+> dry, and smells of wax.
+>
+> Cade lifts his lamp. "Forty thousand of the faithful," he says. "They
+> wanted to sleep near the Sleepers." He glances at you. "You will
+> understand, I am sure."
+
+At the end of the galleries is the iron gate of the deep ossuary. It is
+locked, and Cade has the key. Next to it, low in the wall, a gap where
+bones were pulled out and put back badly. A character who makes a DC 12
+Wisdom (Perception) check sees it. Fresh footprints go in and out of it. A
+character who makes a DC 12 Wisdom (Survival) check knows that one set of
+prints is from a man in good boots (Dace), and the other prints are bare
+feet, with long nails.
+
+### 2. The deep ossuary
+
+> Behind the gate, the bones are not stacked. They lie in heaps. The
+> skulls have no candles. Some of the bones have marks on them, small and
+> neat, like the marks of teeth.
+>
+> Cade stops. "The Grey Winter," he says, very low. "Three years with no
+> summer. The town hid down here from the cold. Not all of them came up."
+
+**The truth:** In the Grey Winter, the starving people of the shrine hid in
+the ossuary. Some of them ate the dead. They became ghouls. The Church
+sealed the deep ossuary and forgot them. They sleep in the dark, and they
+wake when something warm comes near. Dace came near.
+
+> **GM tip:** This scene is dark in tone. Keep it short and spooky, not
+> gory. The ghouls were people, a long time ago. Cade says a prayer for
+> them before the fight, if there is time.
+
+### The fight in the ossuary
+
+{{statblock: Ghast}}
+
+{{statblock: Ghoul}}
+
+In the largest gallery, the party finds Dace, up to his knees in bones,
+with a sack and a candle. He is not alone. Behind him, in the dark, grey
+shapes move.
+
+> Dace looks up. He sees you. He opens his mouth to say something clever.
+> Then he sees what stands behind him, and he says nothing at all.
+>
+> Grey shapes come out of the heaps of bones. They were people once. They
+> are thin, and naked, and their mouths are wrong. The biggest of them
+> wears the rags of a priest's robe. It smells like a grave that was opened
+> on a hot day.
+
+The leader is a **Ghast**. Long ago, it was the cook of the old shrine.
+It still wears the rags of a robe. With it are **Ghouls**.
+
+| Party size | Monsters | XP |
+|---|---|---|
+| 4 characters | 1 Ghast, 2 Ghouls | 850 |
+
+> **Scaling:** This is a Moderate fight for level 3 (225 XP for each
+> character).
+>
+> - **3 characters (675 XP):** 1 Ghast, 1 Ghoul (650 XP).
+> - **4 characters (900 XP):** as in the table (850 XP).
+> - **5 characters (1,125 XP):** 1 Ghast, 3 Ghouls (1,050 XP).
+> - **6 characters (1,350 XP):** 2 Ghasts, 2 Ghouls (1,300 XP).
+
+- **The map:** a long gallery 50 feet by 20 feet, with heaps of bones.
+  The heaps are Difficult Terrain. A creature behind a heap has Half
+  Cover. The ceiling is 8 feet high.
+- **The light:** the gallery is dark. Cade's lamp and Wick give light.
+  The ghouls stay out of Bright Light in the first round, and come in from
+  the sides.
+- **Dace** is a **Commoner**. He hides behind the party. On his first
+  turn, he drops his candle and runs for the gap in the wall. If the party
+  lets him go, they find him later, in the Relic Market, very pale.
+- **Cade fights.** He stands next to the weakest character and uses Stand
+  Between. He casts *Bless* in the first round. Cade does not need to be
+  part of the encounter budget: he is a CR 2 ally for the party, and the
+  fight is built for the party alone. If the party is large, have Cade
+  stay back with Dace.
+- **The paralysis.** A Ghoul's claws can give the Paralyzed condition. If
+  a character is Paralyzed, describe it with care: the cold goes into the
+  bones. Remind the players that the condition ends at the end of the
+  character's next turn.
+
+**After the fight:** Dace confesses everything, again. He found the gap in
+the wall last year, when he was looking for a quiet place to sell bones to
+a priest. He has taken a sack of bones each feast since then. Cade takes
+his sack and his name. "You will sweep the bone galleries," says Cade,
+"every day, for a year. You will learn their names."
+
+### 3. The well of Saint Ivo
+
+> At the center of the old shrine is a round room with a low stone well.
+> The rope is long gone. The stones of the well are worn smooth by the
+> hands of hundreds of years of pilgrims. A cool breath of air comes up
+> from below, with a smell of clean water.
+
+The Dawnwatch drank from this well. A character who makes a DC 10 Wisdom
+check remembers it: the water was cold and sweet, and the guest master
+gave every soldier a cup and a blessing. A character who drinks from it now
+regains 1d4 Hit Points. It is not magic. It is good water, and a good
+memory.
+
+A character who looks down the well, with light, sees something on a
+ledge 20 feet down: a small brass snuffer on a long pole, like the ones
+priests use to put out candles. It is new. It does not belong to the
+Church. A character who climbs down (DC 12 Strength (Athletics) check) can
+bring it up.
+
+> **GM tip:** The snuffer belongs to the Hush. A snuffer of the Hush came
+> down here last week, to look for the way to the Ember from below, and
+> dropped it. Nobody in this chapter can say whose it is. Cade has never
+> seen one like it. If the bearer of the black stone holds the snuffer,
+> the stone hums. Keep the snuffer. Chapter 4 explains it.
+
+### 4. The old chapel
+
+The door of the old chapel is a slab of stone with the sun of Ostrey on it.
+Two figures stand on each side of the door, in full plate of Ostrey, with
+the sun on their breastplates and halberds in their hands. They have stood
+here for three hundred years. Nobody is inside the armor.
+
+> Cade stops at a safe distance. "The guards of the shrine," he says. "They
+> were here before the Church. Nobody has opened this door in two hundred
+> years. When anyone comes near, they speak in the old tongue, and when
+> nobody understands, they push them back. We gave up asking."
+>
+> As you come near, the two helmets turn, together, with a sound of old
+> iron. A voice comes out of both of them, in the speech of your own time.
+>
+> "Light to you."
+
+Every character knows the answer: "And dawn to you." It is the greeting of
+Ostrey. If a character gives it, the guards lift their halberds, step
+aside, and kneel. The door of the chapel opens by itself.
+
+> Behind you, Cade's lamp shakes. He looks at the kneeling armor, and then
+> at you. He opens his mouth, and closes it. Then he says, very quietly:
+> "And dawn to you." He has read the words a hundred times. He has never
+> heard them answered.
+
+**1 Proof**, because Cade saw it.
+
+If the party attacks the guards, or answers wrongly, the guards fight. They
+are two **Animated Armor**. They stop at once if a character gives the
+answer.
+
+{{statblock: Animated Armor}}
+
+> **Scaling:** If the guards fight, it is a Low fight for level 3 (150 XP
+> for each character). Two Animated Armor (400 XP) fit 3 or 4 characters.
+> For 5 or 6 characters, a third guard steps out of a niche (600 XP).
+
+### Inside the old chapel
+
+> The chapel is small and plain, and nothing in it has moved in two
+> hundred years. Four benches. A bowl of stone on a low altar, black inside
+> with old soot. A shelf of books. On the wall, a faded painting of the
+> Morning Flame, in red and gold.
+>
+> It is exactly as you remember it. Except for the dust. Except for
+> everything.
+
+- **The bowl on the altar** is where the Ember of Saint Ivo burned for
+  two hundred years, before the Church moved it upstairs, into the
+  cathedral. A character who makes a DC 12 Intelligence (Religion) check
+  understands: the shrine kept a piece of a holy fire, given by the king.
+  The Dawnwatch remember a coal in this bowl. Nobody told them what it
+  was.
+- **The book on the shelf** is the guest book of the shrine. Give the
+  players the handout.
+
+{{handout: 03-the-guest-book}}
+
+The last page of the guest book has the names of the Dawnwatch, written in
+their own hands on their last visit, the week before the sleep. Ask each
+player to write the character's name on the handout, as the character
+wrote it then. Brother Alys wrote a line under the names in his own hand.
+
+The guest book is **1 Proof**. It is the best proof in the chapter. Cade
+takes it to the Abbess himself.
+
+> **GM tip:** Let the players look at their own names. Ask one of them:
+> "You wrote this a week before the sleep. What were you thinking about
+> that day?" Then let Cade speak. He stands at the door, with his lamp,
+> and he says: "I am sorry. I was wrong. I will say so to the Abbess." He
+> does not say it easily. He means it.
+
+If the party now has 5 Proof or more, Cade believes them fully. If not,
+he believes that they are not liars, which is not the same thing. He wants
+to see the Ember.
