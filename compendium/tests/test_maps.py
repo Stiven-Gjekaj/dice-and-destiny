@@ -201,3 +201,15 @@ def test_each_final_map_in_the_repository_prints(map_id, monkeypatch):
     if not os.path.exists(maps.map_file(map_id)):
         pytest.skip("no final map yet")
     ET.fromstring(maps.map_svg(map_id))
+
+
+def test_missing_maps_lists_each_map_with_no_final_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(maps, "MAP_DIR", str(tmp_path))
+    assert maps.missing_maps() == maps.MAP_IDS
+    (tmp_path / "act-1.svg").write_text(FINAL)
+    (tmp_path / "act-2.svg").write_text(FINAL)
+    assert maps.missing_maps() == ["ostrey-then", "land-today"]
+    assert maps.missing_maps(["act-1", "land-today"]) == ["land-today"]
+    for map_id in maps.MAP_IDS:
+        (tmp_path / f"{map_id}.svg").write_text(FINAL)
+    assert maps.missing_maps() == []

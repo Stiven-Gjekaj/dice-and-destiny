@@ -794,6 +794,15 @@ def map_file(map_id):
     return os.path.join(MAP_DIR, f"{map_id}.svg")
 
 
+def missing_maps(ids=None):
+    """The map ids with no final map in compendium/maps/.
+
+    A preview is good enough for a preview build. A release of a Dawnwatch
+    book stops while this list is not empty.
+    """
+    return [i for i in (MAP_IDS if ids is None else ids) if not os.path.exists(map_file(i))]
+
+
 def map_svg(map_id, size=None):
     """Return the SVG of a map as a string.
 
