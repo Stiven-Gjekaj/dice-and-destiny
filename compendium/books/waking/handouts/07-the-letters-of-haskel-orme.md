@@ -77,7 +77,7 @@ words are still easy to read.*
 
 *In the margin, in the same hand, smaller:*
 
-> They will need a demon. A demon is easier to forgive than a friend.
+> They will need a demon.
 > God forgive me, I am good at this.
 
 ---

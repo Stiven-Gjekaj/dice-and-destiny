@@ -59,7 +59,8 @@ kingdom that held the line, a victory. I wrote it because a kingdom can
 survive a demon. I do not think that it can survive the knowledge that its
 best knight became its worst enemy because he loved the sun too much. And
 I did not want the next frightened man with a good idea to think of
-Garrath as a hero.
+Garrath as a hero. In the margin of my draft I wrote it plainly, so that
+I would not lie to myself: a demon is easier to forgive than a friend.
 
 So I told the world a lie, and I told you only half the truth, and I made
 a lantern that knows neither. Be kind to the lantern. It did nothing wrong.
