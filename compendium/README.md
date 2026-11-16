@@ -88,8 +88,12 @@ To change a chapter, edit `books/player.src.html` or `books/gm.src.html`.
 
 ## Print
 
-- Interior: A4, black and white, with mirrored margins (22 mm inside and
-  14 mm outside). The home-print PDF and the Lulu interior use it.
+- Interior: A4, black and white, with mirrored margins. The outside margin is
+  14 mm. The inside margin comes from the Lulu gutter table, by page count:
+  25 mm for 151 to 400 pages and 29 mm for 401 to 600 pages. Each book has
+  its value in `INSIDE_MM` in `build/build.py`. The build stops if the page
+  count needs a different value. The home-print PDF and the Lulu interior use
+  this interior.
 - Screen: the same text in color, with the same margin on each side and no
   blank pages before the parts.
 - Hardcover cover: the spine width comes from a table of Lulu spine widths

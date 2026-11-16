@@ -27,7 +27,8 @@
 
 /* title page (interior: no heavy ink) */
 /* Title and part pages are right-hand pages (22 mm inside, 14 mm outside).
-   The extra 8 mm on the right puts the centered text in the middle of the paper. */
+   The extra 8 mm on the right puts the centered text in the middle of the paper.
+   The print build replaces the inside margin and this value with margin_css() in build/build.py. */
 .titlepage, .part { margin-right: 8mm; }
 .titlepage { page: front; height: 255mm; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; break-after: page; }
 .titlepage .kicker { font-family: "Inter", sans-serif; letter-spacing: .3em; font-size: 9pt; color: #555; text-transform: uppercase; margin-bottom: 8mm; }
