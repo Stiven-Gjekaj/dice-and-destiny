@@ -402,3 +402,195 @@ speak at first. The Hush value silence.
 > do anything with crystal. He made the coffins, and the coffins worked." He
 > does not know of any other crystal. The players can wonder what other
 > crystal the steward made.
+
+---
+
+## Scene 4: The Hall of Sleepers (60 minutes)
+
+**Goal:** A hard fight in the room where the characters woke. Meet Mother
+Sallow face to face. Let her escape.
+
+### What they see
+
+> The Hall of Sleepers. You know it: the round stone room, the words above
+> the door, WE SLEEP SO THAT THE DAWN CAN WAKE. You woke here.
+>
+> It is not the same room now. The floor is torn up in long trenches. The
+> lines of old light that once ran from the coffins like roots are dug out,
+> stone by stone. And the coffins... Your coffins lie broken. Someone took a
+> pick to the blue crystal, and the pieces lie in baskets, sorted by size.
+>
+> A huge man stands in the trench next to the coffin that was yours. He holds
+> a pick, and he does not look up. He is breaking the last big piece.
+>
+> On the far side of the room, next to the niche in the wall where Wick once
+> sat, a woman in grey stands in front of a plain stone door. She has her
+> hand flat on the door, as if she listens to it. She turns her head and
+> looks at you. She smiles.
+
+Let each player look at the broken coffin of the character. Ask one
+question to each player: "What do you feel when you see it?" Use the
+"Before" answers. A character who said goodbye to someone in the night
+before the long sleep can remember that, here.
+
+> **Teach: the story belongs to the players, again.** This is the second
+> time that the players stand in this hall. Remind them of the first time.
+> "When you woke up here, you told me about [the promise, the stolen thing,
+> the sign]. Look at the place where you lay. What do you think about now?"
+> Give Heroic Inspiration for the best answer, as in the tutorial.
+
+### Mother Sallow speaks
+
+Mother Sallow does not attack at once. If the party attacks at once, go to
+the fight, and let her say her words during the first round, as she moves
+away. If the party waits, she talks.
+
+Play her calm, slow, and almost kind. She speaks softly, so that the party
+has to be quiet to hear her. She is the opposite of a shouting villain.
+
+> "Sleepers." She says it the way a mother says the name of a child who came
+> home late. "Look at what they did to you. Three hundred years in a box, and
+> for what? So that a steward could write a pretty story.
+>
+> "I will not lie to you. I am the only one who will not. The sun is dying.
+> Each winter it stands lower. Each summer is a little shorter. Count the
+> days, if you do not believe me. Your steward counted them. He knew.
+>
+> "Give me the stone, and I will leave your hall. You can keep your broken
+> beds."
+
+What Mother Sallow wants, in order:
+
+1. The black stone. She asks for it once, politely. She knows that the party
+   will say no.
+2. Time. She waits for Osk to break the last coffin, and she waits for the
+   door. She thinks that the door opens if she listens long enough.
+3. The party, if she can have it. She really believes that the Dawnwatch can
+   join the Hush, because the Dawnwatch were also made to wait in the dark.
+
+What she says, if the party asks:
+
+- **"Why do you put out lights?"** "Because a light that burns all night is
+  gone by morning. We are saving the fire for when it matters."
+- **"What is behind the door?"** "The key of the king's sleep. Your steward
+  hid it. Or so I believed. Perhaps your lantern knows. Ask your lantern who
+  made the lock on this door."
+- **"Who is your king?"** "The one who tried to save the sun, and was put in
+  a box for it. Like you." She says no more about this. If the players push,
+  she only smiles.
+- **"Where is the Ember?"** (If the Hush still have the Ember of Saint Ivo
+  from chapter 4.) "Safe. Quiet. Asleep, like a good child."
+
+| Check | DC | Result |
+|---|---|---|
+| Wisdom (Insight) | 14 | Mother Sallow believes each word that she says. She is not a liar. She is also afraid, and she hides it well. |
+| Wisdom (Insight) | 18 | She does not know what is behind the door. She is not sure that the key exists. She came here on a guess, and the guess was wrong, and she knows it. |
+| Intelligence (Arcana) | 15 | Grey smoke curls around the hem of her robe. It is a spell that she prepared earlier, ready to take her away. Nobody can stop her from leaving. |
+| Charisma (Persuasion) | 20 | She answers one more question truly. She says: "Under Kingsholm there is a room that nobody visits. Go there, if you want to know what your steward did." Then the fight starts. |
+
+> **GM tip:** Mother Sallow does not fight in this chapter, and she has no
+> statblock here. She escapes. That is not a trick on the players. It is the
+> story: she is the leader of the Hush, and the players meet her at the end
+> of Book One in Kingsholm. If the players do something clever to stop her
+> (a good grapple, a spell that holds, a door slammed shut), let it cost her
+> something. She drops her grey prayer book (see "She leaves" below), or she
+> leaves her right shoe in the hand of a grappling Storm. She still escapes.
+
+### Encounter 2: Osk and the Priest
+
+The fight starts when the party attacks, when Mother Sallow gives up on the
+stone, or when Osk breaks the last coffin.
+
+> Mother Sallow sighs. "Osk," she says.
+>
+> The huge man puts down his pick. He climbs out of the trench. He picks up
+> a hammer as long as a spear. He still does not look at you. From the dark
+> at the edge of the room, a figure in a long grey robe steps out, swinging
+> an iron censer. No smoke comes out of it. It breathes in.
+
+**Creatures:** Osk (about CR 5, 1,800 XP), 1 Hush Dusk Priest (CR 7, 2,900
+XP), and 4 Cultist Fanatics (CR 2, 450 XP each).
+
+**XP:** 1,800 + 2,900 + 4 × 450 = 6,500 XP. A High fight for four characters
+of level 7 (the budget is 4 × 1,700 = 6,800 XP).
+
+{{statblock: Osk}}
+
+{{statblock: Hush Dusk Priest}}
+
+The statblock of the Cultist Fanatic is in Scene 3.
+
+> **GM tip:** Check the CR of Osk in his statblock. If Osk is CR 6 (2,300
+> XP), use 3 Cultist Fanatics. If Osk is CR 4 (1,100 XP), use 5 Cultist
+> Fanatics. If Osk is CR 7 or more, use no Cultist Fanatics, and give the
+> Dusk Priest the role of the second big threat.
+
+**The room.** The Hall of Sleepers is round, 60 feet across. The trenches
+are 5 feet wide and 4 feet deep. A creature in a trench has Half Cover
+against attacks from outside the trench, and climbing out costs 5 feet of
+extra movement. The five broken coffins give Half Cover. The baskets of
+crystal shards are Difficult Terrain where they spill.
+
+**Tactics:**
+
+- **Osk** goes for the bearer of the black stone. He does not speak, and he
+  does not stop. If the party hides the stone, he goes for the character
+  closest to Mother Sallow.
+- **The Dusk Priest** opens with Snuff the Sun on the biggest group of
+  characters, and puts out their lights. Then it casts Darkness on Wick if it
+  can, or on the character who carries Wick. Then it uses Word of Night.
+  It uses Dim the Flame on the first attack with Radiant damage.
+- **The Fanatics** guard the priest. Two stay next to it. Two try to keep the
+  characters away from the study door.
+
+**Mother Sallow leaves.** She leaves at the end of the first round in which
+Osk or the Dusk Priest is Bloodied. If the alarm was 2 or more, she leaves
+at the end of the first round, whatever happens.
+
+> Mother Sallow looks at the door one last time. Then she looks at you, and
+> the look is sad. "You will see," she says. "You will count the days, and
+> you will see." The grey smoke around her feet rises like water in a well.
+> It covers her to the knees, the waist, the face. Then the smoke falls to
+> the floor, and she is not in it.
+
+**Osk** fights to the end. He does not flee and he does not surrender. If a
+character spares him at the end (he drops to 0 Hit Points from a blow that
+the attacker chooses to make nonlethal, or he is held and cannot fight),
+Osk looks at the place where Mother Sallow stood. Then he sits down on the
+edge of a trench and waits. He does not speak. What happens to him is the
+choice of the players. He does not appear again in Book One.
+
+> **Scaling:** The budget for a High fight at level 7 is 1,700 XP for each
+> character. Osk and the Dusk Priest are always in the fight.
+>
+> - **3 characters** (5,100 XP): Osk, the Dusk Priest, and 2 Cultists
+>   (1,800 + 2,900 + 2 × 25 = 4,750 XP).
+> - **4 characters** (6,800 XP): Osk, the Dusk Priest, and 4 Cultist
+>   Fanatics (6,500 XP).
+> - **5 characters** (8,500 XP): Osk, the Dusk Priest, 2 Hush Night Wardens,
+>   and 3 Cultist Fanatics (1,800 + 2,900 + 2,200 + 1,350 = 8,250 XP).
+> - **6 characters** (10,200 XP): Osk, 2 Hush Dusk Priests, and 2 Hush Night
+>   Wardens (1,800 + 5,800 + 2,200 = 9,800 XP).
+>
+> This fight comes after encounter 1. If the party did not get a Short Rest
+> between the two, use the row for one character fewer.
+
+### She leaves
+
+When Mother Sallow is gone, she leaves something behind. Choose one, or use
+both if the party stopped her for a moment:
+
+- **Her grey prayer book.** It has no prayers in it. Each page is a list of
+  numbers: the length of each day, written down at the same place, year
+  after year, for thirty years. The numbers get smaller. On the last page,
+  in a different hand, someone drew a plan of a round room "under the hall
+  of the king", with a square in the middle labeled "him".
+- **A shard.** On the floor where she stood is a small piece of black
+  crystal, like the black stone of the party. It is dead. It does not hum.
+  If the bearer of the black stone puts the two together, the stone hums
+  once, sadly, like a bell with a crack.
+
+> **Thread (the black stone):** When Mother Sallow leaves, the black stone
+> stops humming. The hall is quiet. Then, very far away, the bearer hears a
+> slow, deep voice: "She does not understand. Not yet. Neither do you." Then
+> nothing. Malgrath says nothing else in this chapter.
