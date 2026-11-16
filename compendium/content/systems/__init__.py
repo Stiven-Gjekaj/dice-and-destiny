@@ -38,6 +38,14 @@ LEGENDS is a list of Legend path entries. A Legend entry is a dict with these ke
   fall: what makes the character lose legend points on this path
   tiers: a list of 5 (title, benefit), one for each tier from I to V
 
+BIOMES is a list of Journey biome entries. A biome entry is a dict with these keys:
+  name: the name of the biome, for example "Forest"
+  summary: one or two sentences about travel in the biome
+  navigate: the DC of the guide's check to keep the way
+  forage: the DC of the quartermaster's check to find food and water
+  weather: a list of 6 (name, effect), one for each roll of a d6
+  encounters: a list of 8 texts, one for each roll of a d8
+
 In all text, [[label]] shows the label in bold.
 """
 from content.collect import collect_list
@@ -46,3 +54,4 @@ MARKS = collect_list(__name__, "MARKS")
 BONDS = collect_list(__name__, "BONDS")
 TECHNIQUES = collect_list(__name__, "TECHNIQUES")
 LEGENDS = collect_list(__name__, "LEGENDS")
+BIOMES = collect_list(__name__, "BIOMES")

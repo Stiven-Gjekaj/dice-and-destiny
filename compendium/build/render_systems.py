@@ -3,6 +3,7 @@
 The Player's Compendium shows the Blessings, the Curses, and the Bonds.
 The Game Master's Compendium shows the Taints with their hidden prices.
 The Player's Compendium also shows the Techniques and the Legend paths.
+The Game Master's Compendium also shows the Journey biomes.
 """
 import html
 
@@ -25,6 +26,8 @@ TECH_COST = (1, 3)
 LEGEND_KEYS = {"name", "summary", "deeds", "fall", "tiers"}
 # The legend points and the character level that each tier needs.
 LEGEND_TIERS = [("I", 1, 1), ("II", 3, 5), ("III", 6, 9), ("IV", 10, 13), ("V", 15, 17)]
+BIOME_KEYS = {"name", "summary", "navigate", "forage", "weather", "encounters"}
+BIOME_DC = (5, 25)
 
 
 def mark_errors(m):
@@ -236,3 +239,48 @@ def legends_html(paths):
 def all_legends_html():
     from content.systems import LEGENDS
     return legends_html(LEGENDS)
+
+
+def biome_errors(b):
+    """Return a list of the problems of one Journey biome entry. An empty list means no problem."""
+    name = b.get("name", "?")
+    errors = [f"Biome '{name}': missing key '{k}'" for k in sorted(BIOME_KEYS - set(b))]
+    errors += [f"Biome '{name}': unknown key '{k}'" for k in sorted(set(b) - BIOME_KEYS)]
+    if errors:
+        return errors
+    for k in ("navigate", "forage"):
+        if not (isinstance(b[k], int) and BIOME_DC[0] <= b[k] <= BIOME_DC[1]):
+            errors.append(f"Biome '{name}': {k} must be a DC from {BIOME_DC[0]} to {BIOME_DC[1]}")
+    if len(b["weather"]) != 6 or any(len(w) != 2 for w in b["weather"]):
+        errors.append(f"Biome '{name}': weather must be 6 rows of (name, effect)")
+    if len(b["encounters"]) != 8:
+        errors.append(f"Biome '{name}': encounters must be 8 rows")
+    return errors
+
+
+def biome_html(b):
+    """One biome: the DCs, the summary, a d6 weather table, and a d8 encounter table."""
+    _stop_on(biome_errors(b))
+    weather = "".join(f'<tr><td class="c">{i}</td><td><b>{E(n)}</b></td><td>{feature_text(t)}</td></tr>'
+                      for i, (n, t) in enumerate(b["weather"], start=1))
+    enc = "".join(f'<tr><td class="c">{i}</td><td>{feature_text(t)}</td></tr>' for i, t in enumerate(b["encounters"], start=1))
+    return (f'<div class="entry sys-biome"><h4 class="sp-name">{E(b["name"])}</h4>'
+            f'<div class="sp-meta"><i>Navigation DC {b["navigate"]} · Foraging DC {b["forage"]}</i></div>'
+            f'<p>{feature_text(b["summary"])}</p>'
+            f'<table class="compact"><caption>{E(b["name"])} Weather</caption><thead><tr><th class="c">d6</th><th>Weather</th><th>Effect</th></tr></thead>'
+            f'<tbody>{weather}</tbody></table>'
+            f'<table class="compact"><caption>{E(b["name"])} Encounters</caption><thead><tr><th class="c">d8</th><th>Encounter</th></tr></thead>'
+            f'<tbody>{enc}</tbody></table></div>')
+
+
+def biomes_html(biomes):
+    """All Journey biomes, in the order of the names. Return "" if there are none."""
+    _stop_on([e for b in biomes for e in biome_errors(b)])
+    if not biomes:
+        return ""
+    return '<div class="cols2 compendium">' + "\n".join(biome_html(b) for b in sorted(biomes, key=lambda b: b["name"])) + "</div>"
+
+
+def all_biomes_html():
+    from content.systems import BIOMES
+    return biomes_html(BIOMES)

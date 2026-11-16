@@ -1,9 +1,10 @@
 """Tests for render_systems. Each test builds its own entries."""
 import pytest
 
-from render_systems import (bond_errors, bond_html, bonds_html, legend_errors, legend_html,
-                            legends_html, mark_errors, mark_html, marks_html, technique_errors,
-                            technique_html, techniques_html, track_html)
+from render_systems import (biome_errors, biome_html, biomes_html, bond_errors, bond_html,
+                            bonds_html, legend_errors, legend_html, legends_html, mark_errors,
+                            mark_html, marks_html, technique_errors, technique_html,
+                            techniques_html, track_html)
 
 
 def make_mark(**changes):
@@ -225,3 +226,38 @@ def test_legends_html_sorts_by_name_and_is_empty_with_no_paths():
     assert out.index("Archer") < out.index("Zealot")
     with pytest.raises(ValueError):
         legends_html([make_legend(tiers=[])])
+
+
+def make_biome(**changes):
+    b = dict(name="Test Wood", summary="Trees & more trees.", navigate=12, forage=10,
+             weather=[(f"Sky {i}", f"Effect {i}.") for i in range(1, 7)],
+             encounters=[f"Meet [[thing {i}]]." for i in range(1, 9)])
+    b.update(changes)
+    return b
+
+
+def test_a_correct_biome_has_no_errors():
+    assert biome_errors(make_biome()) == []
+
+
+@pytest.mark.parametrize("change", [dict(navigate=4), dict(forage=30), dict(navigate="12"),
+                                    dict(weather=[("a", "b")] * 5), dict(weather=[("a",)] * 6),
+                                    dict(encounters=["x"] * 7), dict(colour="red")])
+def test_biome_errors_find_bad_values(change):
+    assert biome_errors(make_biome(**change))
+
+
+def test_biome_html_shows_the_dcs_and_both_tables_with_the_die_rolls():
+    out = biome_html(make_biome())
+    assert "Navigation DC 12 · Foraging DC 10" in out
+    assert '<td class="c">6</td><td><b>Sky 6</b></td><td>Effect 6.</td>' in out
+    assert '<td class="c">8</td><td>Meet <b>thing 8</b>.</td>' in out
+    assert "Trees &amp; more trees." in out
+
+
+def test_biomes_html_sorts_by_name_and_is_empty_with_no_biomes():
+    assert biomes_html([]) == ""
+    out = biomes_html([make_biome(name="Swamp"), make_biome(name="Arctic")])
+    assert out.index("Arctic") < out.index("Swamp")
+    with pytest.raises(ValueError):
+        biomes_html([make_biome(encounters=[])])
