@@ -11,6 +11,8 @@ made him.
 | **Time at the table** | About 3 or 4 sessions |
 | **Places** | The road west, the city of Corrantey, the hall of the Lampwrights, the Skerrows (sea caves under the mouth of the Tey) |
 | **System that starts** | Crafting and gathering |
+| **Thread** | Wick: the name of the person who made him |
+| **People** | Perrin Hale, the master of the Lampwrights; Captain Ilse Varro, the spymaster of Gaunt in the city; Nan Corley, a sea hag in the Skerrows |
 
 ## Running This Chapter
 
