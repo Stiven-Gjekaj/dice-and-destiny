@@ -379,3 +379,21 @@ def test_expand_makes_one_page_of_html_with_links_on_the_screen(tmp_path, tutori
     assert labels.index("1. The Last Watch") < labels.index("2. The Ford") < labels.index("Index")
     hp, _ = W.expand(screen=False, inside_mm=25, book=str(book), tutorial=str(tutorial), dw=d)
     assert "bw.css" in hp and "margin-left: 25mm" in hp and 'class="xref"' not in hp
+
+
+def test_the_passes_stop_if_the_last_render_has_another_page_count():
+    B.TOC[:] = [("ch", "One", "@@T0@@")]
+    body = '{{TOC}}<span class="mark" id="t0">@@T0@@</span>'
+    render, find, seen = fake_press({"@@T0@@": 1})
+    count = lambda out: 10 if "@@T" in seen["s"] else 11
+    with pytest.raises(SystemExit, match="11 pages, not 10"):
+        W.passes("x", body, [], render=render, find=find, count=count)
+
+
+def test_the_marker_of_a_handout_is_in_the_box_with_the_page_break():
+    h = W.handouts_html([("01-map", "The Map", "# The Map\n\nA map.")], {})
+    assert '<div class="handout-top" id="handout-01-map"><span class="mark" id="t1">@@T1@@</span></div>' in h
+
+
+def test_a_marker_on_two_pages_belongs_to_the_last_one():
+    assert W.marks_in_pages(["a @@T1@@ @@I2@@", "@@T1@@ b", "@@I3@@"]) == {"@@T1@@": 2, "@@I2@@": 1, "@@I3@@": 3}

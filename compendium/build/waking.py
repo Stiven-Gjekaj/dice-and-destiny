@@ -405,8 +405,10 @@ def handouts_html(hs_list, hs):
     for hid, title, text in hs_list:
         mk = B.marker("sub", title)
         ANCHOR_MARK[f"handout-{hid}"] = B.TOC[-1][2]
-        out.append(f'<!--PARTSTART--><section class="handout" id="handout-{hid}">{mk}'
-                   f'{wm.render(text, hs, f"handout-{hid}")}</section>')
+        # The page break is on the flex box that holds the marker, as in a chapter head. When the
+        # break is on a parent of the marker, Chrome puts the marker on the page before the break.
+        out.append(f'<!--PARTSTART--><div class="handout-top" id="handout-{hid}">{mk}</div>'
+                   f'<section class="handout">{wm.render(text, hs, f"handout-{hid}")}</section>')
     return "\n".join(out)
 
 
@@ -522,16 +524,25 @@ def expand(screen=False, inside_mm=None, book=BOOK, tutorial=TUTORIAL, dw=None):
 def find_marks(out):
     """The page of each marker in <out>.pdf: the contents markers and the index markers."""
     txt = subprocess.run(["pdftotext", f"{out}.pdf", "-"], capture_output=True, text=True).stdout
+    return marks_in_pages(txt.split("\f"))
+
+
+def marks_in_pages(pages_text):
+    """The page of each marker in the text of the pages. A marker at the top of a page after a page
+    break also shows at the end of the page before it. The last page is the page of the marker."""
     pages = {}
-    for i, pg in enumerate(txt.split("\f")):
+    for i, pg in enumerate(pages_text):
         for m in re.findall(r"@@[TI]\d+@@", pg):
-            pages.setdefault(m, i + 1)
+            pages[m] = i + 1
     return pages
 
 
-def passes(out, body, es, screen=False, render=None, find=None):
+def passes(out, body, es, screen=False, render=None, find=None, count=None):
     """Render the book until the page numbers do not change. In print, each recto chunk starts on a
-    right-hand page. The method is the method of build.build. Return the pages and the contents."""
+    right-hand page. The method is the method of build.build. Return the pages and the contents.
+
+    count(out) gives the page count of a render. With it, the build stops if the last render, with no
+    marker text, does not have the page count of the render that gave the page numbers."""
     render, find = render or B.render, find or find_marks
     toc_entries, rectos = list(B.TOC), recto_marks(body)
     blanks, pages = set(), {}
@@ -559,8 +570,12 @@ def passes(out, body, es, screen=False, render=None, find=None):
         if not moved and new == pages:
             break
         pages = new
+    measured = count(out) if count else None
     s = re.sub(r'(<span class="mark"[^>]*>)@@[TI]\d+@@</span>', r"\1</span>", s)
     render(out, s)
+    if count and count(out) != measured:
+        raise SystemExit(f"{out}: the last render has {count(out)} pages, not {measured}. "
+                         "The text of the markers changes the layout. Check .mark in books/waking.css.")
     return pages, toc_entries
 
 
@@ -574,7 +589,7 @@ def build_book(screen=False):
     inside = None if screen else INSIDE_START_MM
     for _ in range(4):
         body, es = expand(screen, inside)
-        pages, toc_entries = passes(out, body, es, screen)
+        pages, toc_entries = passes(out, body, es, screen, count=lambda o: len(PdfReader(f"{o}.pdf").pages))
         if screen:
             B.add_outline(f"{out}.pdf", B.outline(toc_entries, pages))
             break
