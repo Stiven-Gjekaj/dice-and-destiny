@@ -243,7 +243,7 @@ against it, while the rest watch the street. A priest in a soldier's cloak
 stands back in the dark and watches.
 
 - **Creatures:** 3 Hush Night Wardens, 1 Hush Dusk Priest, and 4 Cultist
-  Fanatics (SRD), all in Gaunt tabards.
+  Shrouds all in Gaunt tabards.
 - **XP:** 3 × 1,100 + 2,900 + 4 × 450 = 8,000 XP. For four characters of
   level 9, this is a **Moderate** encounter (4 × 2,000 = 8,000).
 - **The inn:** eighteen villagers are inside. The straw catches fire on
@@ -256,11 +256,11 @@ stands back in the dark and watches.
   that the characters bring. The Hush have Grey Sight. Light matters here:
   Wick, the First Lamp, and the Storm Lantern all help.
 
-**Tactics:** The Fanatics fight in the street. Two Wardens hold the door of
+**Tactics:** The Shrouds fight in the street. Two Wardens hold the door of
 the inn and use Close the Ranks for each other. The third Warden shoots
 from the mill. The Dusk Priest casts Darkness on the brightest light, then
 uses Word of Night on the character who carries it. When two Wardens fall,
-the priest tries to flee into the dark of the mill race. A Fanatic who is
+the priest tries to flee into the dark of the mill race. A Shroud who is
 alone gives up.
 
 **What the band carries:** Under each tabard is grey mail with no badge.
@@ -273,16 +273,16 @@ no flame.
 > each character.
 >
 > - **3 characters (6,000 XP):** 2 Hush Night Wardens, 1 Hush Dusk Priest,
->   and 2 Cultist Fanatics (2,200 + 2,900 + 900 = 6,000).
+>   and 2 Hush Shrouds (2,200 + 2,900 + 900 = 6,000).
 > - **4 characters (8,000 XP):** as written.
 > - **5 characters (10,000 XP):** 4 Hush Night Wardens, 1 Hush Dusk Priest,
->   and 6 Cultist Fanatics (4,400 + 2,900 + 2,700 = 10,000).
+>   and 6 Hush Shrouds (4,400 + 2,900 + 2,700 = 10,000).
 > - **6 characters (12,000 XP):** 4 Hush Night Wardens, 2 Hush Dusk
->   Priests, and 4 Cultist Fanatics (4,400 + 5,800 + 1,800 = 12,000).
+>   Priests, and 4 Hush Shrouds (4,400 + 5,800 + 1,800 = 12,000).
 >
 > **Optional systems:** Techniques started in chapter 8. At level 5 or
 > more, add one monster of the lowest CR for each four characters (here,
-> one Cultist Fanatic), or give each Warden and the priest 10% more Hit
+> one Hush Shroud), or give each Warden and the priest 10% more Hit
 > Points. If you also use other optional systems, count each one
 > separately, as the Compendium says.
 
@@ -301,7 +301,7 @@ the tabards. Now they are not so sure.
 | Intelligence (Investigation) on the bodies | 12 | The tabards are new. The stitching is cheap. Real Gaunt tabards have the badge of the company on the shoulder. These have none. |
 | Wisdom (Perception) in the ashes of the old chapel | 14 | A cheap Gaunt badge, pressed into the ash on purpose. Nobody drops a badge face up in the exact middle of a floor. |
 | Intelligence (Arcana or Religion) on the coded letter | 16 | The code is simple, once you see it: each line is a word, each dot a letter. It says: "The field in four days. R. and A. are in place. Let them meet in the grey." |
-| Charisma (Intimidation or Persuasion) on a captured Fanatic | 15 | The prisoner says only: "The sun is dying. You will see. Mother Sallow says so." Then the prisoner says nothing more. |
+| Charisma (Intimidation or Persuasion) on a captured Shroud | 15 | The prisoner says only: "The sun is dying. You will see. Mother Sallow says so." Then the prisoner says nothing more. |
 
 > **GM tip:** "R. and A." are Roe and Ansel. The players do not know those
 > names yet. Let them carry the letter into the camps. When they meet a

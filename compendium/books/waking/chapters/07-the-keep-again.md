@@ -198,7 +198,7 @@ each success.
 
 | Check | DC | Result |
 |---|---|---|
-| Dexterity (Stealth) to get close | 14 | The character counts the Hush: about thirty in all. Twenty are initiates who carry baskets and tools. About ten are soldiers in grey mail (Hush Night Wardens and Cultist Fanatics). |
+| Dexterity (Stealth) to get close | 14 | The character counts the Hush: about thirty in all. Twenty are initiates who carry baskets and tools. About ten are soldiers in grey mail (Hush Night Wardens and Hush Shrouds). |
 | Wisdom (Perception) | 13 | Hush soldiers come and go through the white stone door on the hilltop: the Dawn Door. That is the main way in. Four guards stand at it day and night. |
 | Wisdom (Survival) | 14 | Tracks lead to the far side of the hill. A landslip opened a crack in the old wall there. The Hush use it to throw out dirt and broken crystal. It leads down into the Stair of Teeth. |
 | Wisdom (Insight), watching the camp | 15 | The character sees the pattern of the camp. At dawn, most Hush go inside to sleep. The best time to attack is just after sunrise, when the camp is sleepy. |
@@ -285,7 +285,7 @@ Encounter 1 is the fight with the main force. Where it happens depends on
 the way in.
 
 - **The Dawn Door:** at the door and in the chapel. The four guards at the
-  door are two Hush Night Wardens and two Cultist Fanatics. The rest of the
+  door are two Hush Night Wardens and two Hush Shrouds. The rest of the
   force wakes and joins on the second round.
 - **The well:** in the armory. The force is in the chapel, next door, and it
   comes through the big wooden door at the end of the armory. If the alarm
@@ -330,7 +330,7 @@ and fresh grease.
 > boots.
 
 **Creatures:** 3 Hush Night Wardens (CR 4, 1,100 XP each) and 4 Cultist
-Fanatics (CR 2, 450 XP each). The Cultist Fanatics are senior initiates of
+Shrouds (CR 2, 450 XP each). The Hush Shrouds are senior initiates of
 the Hush. They wear grey robes, not mail.
 
 **XP:** 3 × 1,100 + 4 × 450 = 5,100 XP. A Moderate fight for four
@@ -338,7 +338,7 @@ characters of level 7 (the budget is 4 × 1,300 = 5,200 XP).
 
 {{statblock: Hush Night Warden}}
 
-{{statblock: Cultist Fanatic}}
+{{statblock: Hush Shroud}}
 
 **Tactics:**
 
@@ -350,10 +350,10 @@ characters of level 7 (the budget is 4 × 1,300 = 5,200 XP).
   light, the Wardens have Advantage against characters who can't see them.
   Wick and the First Lamp from chapter 6 are the answer. Let the players find
   that out.
-- **Close the Ranks.** The Wardens stand next to the Fanatics and use their
+- **Close the Ranks.** The Wardens stand next to the Shrouds and use their
   Reaction to protect them.
 - **No retreat.** The Hush in this force do not flee. They believe that
-  their deaths feed the long night. A Fanatic at 10 Hit Points or fewer
+  their deaths feed the long night. A Shroud at 10 Hit Points or fewer
   drops its weapon, kneels, and waits in silence. It does not fight again.
   The party can take it prisoner.
 
@@ -365,13 +365,13 @@ characters of level 7 (the budget is 4 × 1,300 = 5,200 XP).
 > **Scaling:** The budget for a Moderate fight at level 7 is 1,300 XP for
 > each character.
 >
-> - **3 characters** (3,900 XP): 2 Hush Night Wardens and 3 Cultist Fanatics
+> - **3 characters** (3,900 XP): 2 Hush Night Wardens and 3 Hush Shrouds
 >   (2 × 1,100 + 3 × 450 = 3,550 XP).
-> - **4 characters** (5,200 XP): 3 Hush Night Wardens and 4 Cultist Fanatics
+> - **4 characters** (5,200 XP): 3 Hush Night Wardens and 4 Hush Shrouds
 >   (5,100 XP).
-> - **5 characters** (6,500 XP): 4 Hush Night Wardens and 4 Cultist Fanatics
+> - **5 characters** (6,500 XP): 4 Hush Night Wardens and 4 Hush Shrouds
 >   (4 × 1,100 + 4 × 450 = 6,200 XP).
-> - **6 characters** (7,800 XP): 5 Hush Night Wardens and 5 Cultist Fanatics
+> - **6 characters** (7,800 XP): 5 Hush Night Wardens and 5 Hush Shrouds
 >   (5 × 1,100 + 5 × 450 = 7,750 XP).
 >
 > If you use other optional systems, make the changes that their chapters
@@ -506,7 +506,7 @@ stone, or when Osk breaks the last coffin.
 > an iron censer. No smoke comes out of it. It breathes in.
 
 **Creatures:** Osk (CR 4, 1,100 XP), 1 Hush Dusk Priest (CR 7, 2,900 XP),
-1 Hush Night Warden (CR 4, 1,100 XP), and 4 Cultist Fanatics (CR 2, 450 XP
+1 Hush Night Warden (CR 4, 1,100 XP), and 4 Hush Shrouds (CR 2, 450 XP
 each).
 
 **XP:** 1,100 + 2,900 + 1,100 + 4 × 450 = 6,900 XP. A High fight for four
@@ -516,7 +516,7 @@ characters of level 7 (the budget is 4 × 1,700 = 6,800 XP).
 
 {{statblock: Hush Dusk Priest}}
 
-The statblock of the Cultist Fanatic is in Scene 3.
+The statblock of the Hush Shroud is in Scene 3.
 
 > **GM tip:** Osk is CR 4, as in The Hush. He is weaker than the party
 > now, and that is fine: he is the old enemy, and the Dusk Priest is the
@@ -538,7 +538,7 @@ crystal shards are Difficult Terrain where they spill.
   characters, and puts out their lights. Then it casts Darkness on Wick if it
   can, or on the character who carries Wick. Then it uses Word of Night.
   It uses Dim the Flame on the first attack with Radiant damage.
-- **The Fanatics** guard the priest. Two stay next to it. Two try to keep the
+- **The Shrouds** guard the priest. Two stay next to it. Two try to keep the
   characters away from the study door.
 
 **Mother Sallow leaves.** She leaves at the end of the first round in which
@@ -562,13 +562,13 @@ choice of the players. He does not appear again in Book One.
 > character. Osk and the Dusk Priest are always in the fight.
 >
 > - **3 characters** (5,100 XP): Osk, the Dusk Priest, and 2 Cultist
->   Fanatics (1,100 + 2,900 + 900 = 4,900 XP).
+>   Shrouds (1,100 + 2,900 + 900 = 4,900 XP).
 > - **4 characters** (6,800 XP): Osk, the Dusk Priest, 1 Hush Night Warden,
->   and 4 Cultist Fanatics (6,900 XP).
+>   and 4 Hush Shrouds (6,900 XP).
 > - **5 characters** (8,500 XP): Osk, the Dusk Priest, 2 Hush Night Wardens,
->   and 4 Cultist Fanatics (1,100 + 2,900 + 2,200 + 1,800 = 8,000 XP).
+>   and 4 Hush Shrouds (1,100 + 2,900 + 2,200 + 1,800 = 8,000 XP).
 > - **6 characters** (10,200 XP): Osk, 2 Hush Dusk Priests, 2 Hush Night
->   Wardens, and 2 Cultist Fanatics (1,100 + 5,800 + 2,200 + 900 = 10,000
+>   Wardens, and 2 Hush Shrouds (1,100 + 5,800 + 2,200 + 900 = 10,000
 >   XP).
 >
 > This fight comes after encounter 1. If the party did not get a Short Rest

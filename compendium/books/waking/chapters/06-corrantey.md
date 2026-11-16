@@ -888,18 +888,18 @@ on the bridge at once.
 > crowd, come people in grey. They don't shout. They don't run. They just
 > come, with their hands open, reaching for the flame.
 
-**Creatures:** one Hush Night Warden, two Cultist Fanatics, and four
-Cultists. The Cultists and the Fanatics are new members of the Hush, who
+**Creatures:** one Hush Night Warden, two Hush Shrouds, and four
+Cultists. The Cultists and the Shrouds are new members of the Hush, who
 joined in the city.
 
 **The budget:** for 4 characters of level 6, a Low fight is 4 × 600 = 2,400
-XP. The Hush Night Warden is 1,100 XP, the two Cultist Fanatics are 900 XP,
+XP. The Hush Night Warden is 1,100 XP, the two Hush Shrouds are 900 XP,
 and the four Cultists are 100 XP. The total is 2,100 XP, a Low fight. It is
 short and fast, after a long night.
 
 {{statblock: Hush Night Warden}}
 
-{{statblock: Cultist Fanatic}}
+{{statblock: Hush Shroud}}
 
 {{statblock: Cultist}}
 
@@ -917,11 +917,11 @@ Difficult Terrain for the whole fight.
 > **Scaling:** The budget for a Low fight at level 6 is 600 XP for each
 > character.
 >
-> - **3 characters (1,800 XP):** remove one Cultist Fanatic. The total is
+> - **3 characters (1,800 XP):** remove one Hush Shroud. The total is
 >   1,650 XP.
 > - **4 characters (2,400 XP):** use the fight as written. The total is
 >   2,100 XP.
-> - **5 characters (3,000 XP):** add one Cultist Fanatic and four Cultists.
+> - **5 characters (3,000 XP):** add one Hush Shroud and four Cultists.
 >   The total is 2,650 XP.
 > - **6 characters (3,600 XP):** add a second Hush Night Warden. The total
 >   is 3,200 XP.

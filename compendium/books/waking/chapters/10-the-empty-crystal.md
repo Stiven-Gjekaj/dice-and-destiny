@@ -83,7 +83,8 @@ Candle, and it will try to take one from the party in Kingsholm.
 
 - The statblocks in this chapter: the Hush Night Warden, the Hush Grey
   Choir, the Hush Dusk Priest, Mother Sallow, Unbound, and the Unlit Knight.
-  The SRD gives the Cultist Fanatic, the Cultist, the Shadow, and the Wraith.
+  The Hush Shroud is in The Hush. The SRD gives the Cultist, the Shadow,
+  and the Wraith.
 - The handout, printed or copied. Fold it, so that the players open it.
 - The answers of the players to the Before questions of the tutorial, and
   your notes on each thread from the chapters before.
@@ -228,26 +229,26 @@ line on the road and try to take one item and ride away.
 
 - **Budget:** Low, for 4 characters of level 10: 1,600 × 4 = 6,400 XP.
 - **Monsters:** 4 Hush Night Wardens (4 × 1,100 = 4,400 XP) and 4 Cultist
-  Fanatics (4 × 450 = 1,800 XP), on horses. Total: 6,200 XP.
+  Shrouds (4 × 450 = 1,800 XP), on horses. Total: 6,200 XP.
 
 {{statblock: Hush Night Warden}}
 
 **Tactics.** The wardens Snuff the party's torches and lanterns first (Wick
 and the pieces of the Dawnfire stay lit, and this scares them). The
-fanatics go for the character who carries the black stone. When half of
+shrouds go for the character who carries the black stone. When half of
 them fall, the rest ride north to warn Kingsholm. If one of them escapes,
 the Hush at the Kings' Bridge is ready (no surprise in Scene 3).
 
 > **Scaling:** The budget is 1,600 XP for each character.
 >
 > - **3 characters (4,800 XP):** 3 Hush Night Wardens and 3 Cultist
->   Fanatics (4,650 XP).
+>   Shrouds (4,650 XP).
 > - **4 characters (6,400 XP):** as written (6,200 XP).
 > - **5 characters (8,000 XP):** 5 Hush Night Wardens and 4 Cultist
->   Fanatics (7,300 XP).
+>   Shrouds (7,300 XP).
 > - **6 characters (9,600 XP):** 5 Hush Night Wardens, 1 Hush Dusk Priest,
->   and 2 Cultist Fanatics (9,300 XP).
-> - **With Techniques on:** add one Cultist Fanatic for each four
+>   and 2 Hush Shrouds (9,300 XP).
+> - **With Techniques on:** add one Hush Shroud for each four
 >   characters.
 
 **After the fight.** A captured outrider does not speak at first. A DC 15
@@ -299,7 +300,7 @@ Bridge and the palace hill.
 
 | Way | What happens |
 |---|---|
-| **The front.** Across the Kings' Bridge, in the open. | The Hush sees the party at once. Run "The Kings' Bridge" with no surprise. If Gaunt soldiers came, they hold the far end of the bridge and fight the Cultist Fanatics there: remove the fanatics from the encounter. |
+| **The front.** Across the Kings' Bridge, in the open. | The Hush sees the party at once. Run "The Kings' Bridge" with no surprise. If Gaunt soldiers came, they hold the far end of the bridge and fight the Hush Shrouds there: remove the shrouds from the encounter. |
 | **Quiet.** Through the drowned streets of the south bank, and over the river on the ice. | A group Dexterity (Stealth) check, DC 15. On a success, the party reaches the bridge from the side and surprises the Hush. On a failure, a sentry hums a warning, and the party fights on the bridge with no surprise. The ice is Difficult Terrain. |
 | **In grey.** In the robes of captured outriders. | A DC 16 Charisma (Deception) check by the leader, with Advantage if the party took an outrider alive. The Hush speaks little, so a character who stays silent does well. On a success, the party walks past the bridge and can skip the fight, or start it with surprise. On a failure, the Hush sees the light of Wick under a robe. |
 
@@ -385,7 +386,7 @@ the rite is done.
 
 - **Budget:** Moderate, for 4 characters of level 10: 2,300 × 4 = 9,200 XP.
 - **Monsters:** 1 Hush Grey Choir (2,300 XP), 2 Hush Night Wardens (2,200
-  XP), 1 Hush Dusk Priest (2,900 XP), and 4 Cultist Fanatics (1,800 XP).
+  XP), 1 Hush Dusk Priest (2,900 XP), and 4 Hush Shrouds (1,800 XP).
   Total: 9,200 XP.
 
 {{statblock: Hush Grey Choir}}
@@ -405,7 +406,7 @@ round. The gatehouse roof is 20 feet up, and the Dusk Priest stands on it.
   three characters in it.
 - The **wardens** stand in front of the choir and protect it with Close the
   Ranks.
-- The **fanatics** try to get around the party and reach the character who
+- The **shrouds** try to get around the party and reach the character who
   carries a piece of the Dawnfire.
 - The **priest** uses Snuff the Sun on the biggest group of characters, then
   Hold Person on a fighter, then Word of Night.
@@ -417,15 +418,15 @@ open.
 > **Scaling:** The budget is 2,300 XP for each character.
 >
 > - **3 characters (6,900 XP):** remove the Dusk Priest, and add 1 Cultist
->   Fanatic (6,750 XP).
+>   Shroud (6,750 XP).
 > - **4 characters (9,200 XP):** as written (9,200 XP).
 > - **5 characters (11,500 XP):** add 1 Hush Night Warden and 1 Cultist
->   Fanatic (10,750 XP).
+>   Shroud (10,750 XP).
 > - **6 characters (13,800 XP):** add 1 Hush Night Warden and 1 Hush Dusk
 >   Priest (13,200 XP).
-> - **With Techniques on:** add one Cultist Fanatic for each four
+> - **With Techniques on:** add one Hush Shroud for each four
 >   characters.
-> - **Gaunt soldiers hold the bridge:** remove all the Cultist Fanatics.
+> - **Gaunt soldiers hold the bridge:** remove all the Hush Shrouds.
 
 ### Encounter: The Cathedral (optional, Low)
 
@@ -446,7 +447,7 @@ plans to "let them see the last dark": to leave them in the vault.
 
 - **Budget:** Low, for 4 characters of level 10: 1,600 × 4 = 6,400 XP.
 - **Monsters:** 1 Hush Dusk Priest (2,900 XP), 1 Hush Night Warden (1,100
-  XP), 4 Cultist Fanatics (1,800 XP), and 8 Cultists (200 XP). Total:
+  XP), 4 Hush Shrouds (1,800 XP), and 8 Cultists (200 XP). Total:
   6,000 XP.
 
 **Not everyone fights.** The eight Cultists are new to the Hush. They are
@@ -465,9 +466,9 @@ Charisma (Persuasion) check makes one Cultist put down its weapon.
 > - **3 characters (4,800 XP):** remove the Night Warden (4,900 XP).
 > - **4 characters (6,400 XP):** as written (6,000 XP).
 > - **5 characters (8,000 XP):** add 1 Hush Night Warden and 2 Cultist
->   Fanatics (8,000 XP).
+>   Shrouds (8,000 XP).
 > - **6 characters (9,600 XP):** add 2 Hush Night Wardens and 3 Cultist
->   Fanatics (9,550 XP).
+>   Shrouds (9,550 XP).
 > - **With Techniques on:** add one Cultist for each four characters.
 
 **After the fight.** The prisoners thank the party. One of them, an old
