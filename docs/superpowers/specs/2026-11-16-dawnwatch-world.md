@@ -337,7 +337,7 @@ the person in more than one scene.
 | Magister Aud Brennet | The first war mage of Gaunt. She teaches a "Dawnwatch spell" that is wrong. | 5 | No |
 | Perrin Hale | The master of the Lampwrights in Corrantey. | 6, 7 | No |
 | Edric Pole | An old shepherd of the Wolds. The Hush burned his farm. He can keep the gate of the keep. | 7 | No |
-| Hesper Wren | A young Lampwright, sent by Perrin Hale. She becomes the steward of Dawnwatch Keep when the party takes it back. | 7, 10 | No |
+| Hesper Wren | A young Lampwright, sent by Perrin Hale. If the party sided with Gaunt in chapter 6, she comes on her own. She becomes the steward of Dawnwatch Keep when the party takes it back. | 7, 10 | No |
 | Ada Ferrow | An old eel catcher of the Low Fen. She takes the party to Fennick by boat. Her brother Tam died there. | 8 | No |
 | Lieutenant Roe | The aide of Marshal Gauntry. A secret agent of the Hush. He is the helpful aide of the party in Stannard (chapter 5). | 5, 9 | Yes (Hush Dusk Priest) |
 | Brother Ansel | The secretary of Abbess Merrow. A secret agent of the Hush. | 9 | Yes (Hush Dusk Priest) |

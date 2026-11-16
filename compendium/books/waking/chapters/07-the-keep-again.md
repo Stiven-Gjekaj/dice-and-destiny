@@ -799,6 +799,24 @@ four slates long.
 >
 > "I will write it down," says Hesper, and she does.
 
+### If the party sided with Gaunt
+
+If the party helped Gaunt in chapter 6, Perrin does not come (see chapter
+6). Hesper Wren comes anyway, on her own, three days after the party takes
+the keep back. She walks up from Brannock's Ford with a pack of tools and
+a stack of slates.
+
+> "The master closed the doors of the hall to you," she says. "I did not.
+> I read everything that the guild has about Haskel Orme. I am not going to
+> miss the only place where his hand is still on the walls." She looks at
+> the floor. "I left a letter. He will be angry for a year. Then he will
+> ask me what I found."
+
+Run the rest of this scene as written, with two changes. Hesper cannot
+promise glass and brass from the guild, but she knows where to buy them at
+a fair price, so the old rooms still cost half. And nobody asks to copy the
+plan of Wick, but Hesper asks to read it, and Wick says yes.
+
 ### Teaching Strongholds
 
 > **Teach: Strongholds.** "This keep is yours now. In this game, a home
