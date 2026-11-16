@@ -4,9 +4,9 @@
 
 > **The lights that keep him sleeping.**
 >
-> ~~The chapel of the keep in the Wolds.~~ Done, on the night of the waking.
+> <del>The chapel of the keep in the Wolds.</del> Done, on the night of the waking.
 >
-> ~~The ring at Kell.~~ Dead since the long winter. A good bowl for the rite.
+> <del>The ring at Kell.</del> Dead since the long winter. A good bowl for the rite.
 >
 > The Ember of the saint. At the feast. Bring it to Kell, with the stone.
 >
