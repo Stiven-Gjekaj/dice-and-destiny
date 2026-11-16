@@ -598,9 +598,9 @@ cook fire, or when the crowd presses in.
 > Choose the thing that fits the answer.
 >
 > Lenna does not know who the Shield is, at first. She knows a family
-> story: "My great-great-something grandmother waited for a soldier who
-> went to sleep under a hill. He promised her that he would come back. He
-> never did. We keep this, so that somebody remembers him."
+> story: "Somebody in my family, a long way back, waited for a soldier who
+> went to sleep under a hill. The soldier promised to come back, and never
+> did. We keep this, so that somebody remembers."
 >
 > Some ideas for the promise:
 >
