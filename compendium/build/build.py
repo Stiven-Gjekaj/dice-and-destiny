@@ -157,6 +157,7 @@ def expand(name):
         "{{CRAFT_BASE}}": lambda: __import__("render_crafting").all_base_html(),
         "{{CRAFT_MATERIALS}}": lambda: __import__("render_crafting").all_materials_html(),
         "{{CRAFT_RECIPES}}": lambda: __import__("render_crafting").all_recipes_html(),
+        "{{CRAFT_GEAR}}": lambda: __import__("render_crafting").all_gear_html(),
         "{{SYS_MARKS}}": lambda: __import__("render_systems").player_marks_html(),
         "{{SYS_TAINTS}}": lambda: __import__("render_systems").gm_marks_html(),
         "{{SYS_BONDS}}": lambda: __import__("render_systems").all_bonds_html(),
