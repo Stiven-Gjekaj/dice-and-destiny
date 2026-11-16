@@ -25,7 +25,7 @@ CH_ICONS = {
     "Tools": "scroll", "Mounts &amp; Vehicles": "compass", "Trade Goods &amp; Trinkets": "chest",
     "Spell Lists": "book", "Original Subclasses": "star", "Original Backgrounds &amp; Species": "people",
     "Original Feats": "star", "Original Spells": "spark", "Original Bestiary": "dragon", "Original Magic Items": "chest",
-    "Strongholds": "shield", "Marks": "star", "Running Marks": "eye", "Bonds": "people", "Running Bonds": "people", "Techniques": "swords", "Running Techniques": "swords", "Spell Descriptions": "spark", "Rules Reference": "scales", "Character Sheet": "sheet",
+    "Strongholds": "shield", "Marks": "star", "Running Marks": "eye", "Bonds": "people", "Running Bonds": "people", "Techniques": "swords", "Running Techniques": "swords", "Legend Paths": "crown", "Running Legend Paths": "crown", "Spell Descriptions": "spark", "Rules Reference": "scales", "Character Sheet": "sheet",
 }
 
 TOC = []  # (kind, label, marker)
@@ -154,6 +154,7 @@ def expand(name):
         "{{SYS_TAINTS}}": lambda: __import__("render_systems").gm_marks_html(),
         "{{SYS_BONDS}}": lambda: __import__("render_systems").all_bonds_html(),
         "{{SYS_TECHNIQUES}}": lambda: __import__("render_systems").all_techniques_html(),
+        "{{SYS_LEGENDS}}": lambda: __import__("render_systems").all_legends_html(),
         "{{O_TRAPS_IDX}}": lambda: __import__("render_traps").all_traps_index_html(),
         "{{O_TRAPS}}": lambda: __import__("render_traps").all_traps_html(),
         "{{O_NPCS_IDX}}": lambda: __import__("render_npcs").all_npcs_index_html(),
