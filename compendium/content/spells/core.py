@@ -119,7 +119,7 @@ SPELLS = [
  "Each creature of your choice in a 30-foot sphere that is a Fiend, Undead, Fey or Celestial makes a Charisma save, taking 6d10 Radiant damage and being banished to its home plane until the end of your next turn on a failure (half damage only on a success).",
  None),
 # ---------- level 6
-("Siege of Thorns", 6, "Conjuration", [D, R], "Action", "120 feet", "V, S", "10 minutes", True, False,
+("Siege of Thorns", 6, "Conjuration", [D], "Action", "120 feet", "V, S", "10 minutes", True, False,
  "A wall of living thorns up to 90 feet long, 15 feet high and 10 feet thick. Creatures moving through it take 6d8 Piercing damage per 5 feet; the wall regrows at the start of your turns.",
  None),
 ("Echo of Death", 6, "Necromancy", [K, W, C], "Action", "60 feet", "V, S", "Instantaneous", False, False,
