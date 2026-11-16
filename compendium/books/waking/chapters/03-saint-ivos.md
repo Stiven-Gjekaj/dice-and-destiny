@@ -81,8 +81,8 @@ of paper that the players can see.
 ### The town of Saint Ivo's
 
 Saint Ivo's is a town of about four thousand people inside a wall of yellow
-stone. During the feast, it holds three times that many. Three hundred years ago,
-it was the shrine of Saint Ivo, a healer of the Morning Flame: a chapel, a
+stone. During the feast, it holds three times that many. Three hundred years
+ago, it was the shrine of Saint Ivo, a healer of the Morning Flame: a chapel, a
 well, and a guesthouse in a green valley. The Dawnwatch stopped here many
 times. Now the shrine is under the floor of the cathedral, and the town
 grew around it.
@@ -192,7 +192,7 @@ quiet. At their head rides a young officer with a cold face: **Captain
 Joss Marrick** of Gaunt. He leads the honor guard that the Marshal sent to
 the feast.
 
-The honor guard camps outside the abbey. It is polite. It is also twenty
+The honor guard camps outside the Abbey. It is polite. It is also twenty
 armed soldiers of a foreign state in the middle of the holy town. Everyone
 watches them. The captain watches the party. If the party has the sealed
 letter from the dead horse (chapter 2, encounter 7 of the old road), they
@@ -469,8 +469,8 @@ the road".
 in a window made two hundred years after it.
 
 > **Thread (the Light):** In the tutorial, the player of the Light said what
-> sign the character's god sent when the crystal closed. In the Cathedral
-> of the Five, that sign is in a window of colored glass, made two
+> sign the character's god sent when the crystal closed. In the Church of
+> the Five, that sign is in a window of colored glass, made two
 > hundred years after the sleep.
 
 Tell the player before the session: "Your sign comes back this week."
@@ -893,8 +893,8 @@ of the Abbey. The party wins if at least one character still stands in
 the doorway at the end of round 5.
 
 - **Nobody dies.** The guards use clubs, and the party must use the flat
-  of their blades. A creature that drops to 0 Hit Points is unconscious
-  and stable. Spells that deal damage are allowed, but the Abbess frowns
+  of their blades. A creature that drops to 0 Hit Points has the
+  Unconscious condition and is Stable. Spells that deal damage are allowed, but the Abbess frowns
   at fire.
 - **The crowd watches.** Captain Marrick of Gaunt watches too, with great
   interest.
@@ -910,8 +910,9 @@ the doorway at the end of round 5.
 >
 > - **3 characters:** Brother Cade, 6 Guards (600 XP).
 > - **4 characters:** as in the table.
-> - **5 characters:** Brother Cade, 10 Guards (700 XP).
-> - **6 characters:** Brother Cade, 12 Guards, 1 Priest Acolyte (800
+> - **5 characters:** Brother Cade, 10 Guards, 2 Priest Acolytes (800
+>   XP).
+> - **6 characters:** Brother Cade, 12 Guards, 4 Priest Acolytes (950
 >   XP).
 
 If the party holds the gate, it gets **1 Proof**, and the Abbess lets it
@@ -946,7 +947,7 @@ or at the back of the crowd.
 >
 > It is not a glow. It is a dawn. Gold light pours out of the little coal
 > and over the square, over the faces of ten thousand people, over the
-> cathedral and the tower and the sun on top of the tower. It is warm, like
+> cathedral and its tallest tower and the sun on top of it. It is warm, like
 > the first warm day of spring. For one moment, there is no night at all.
 >
 > In the hands of a character, Wick's flame turns gold, and leans toward
