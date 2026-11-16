@@ -41,8 +41,9 @@ them the old fighting ways of Ostrey: the Techniques.
 
 ### What the GM knows
 
-- **Fennick** was a busy town of Ostrey on a low island in the fen. A great
-  dike of earth and stone kept the water out. Sluice gates in the dike let
+- **Fennick** was a busy market town of Ostrey on a small rise in the
+  farmland by the River Brann. There was no fen then. A great dike of earth
+  and stone kept the river out. Sluice gates in the dike let
   the water go in and out with the seasons.
 - **The flood** came about two hundred years ago, in the Grey Winter, during
   the civil war after the last king of Ostrey died. A rebel army camped on
@@ -218,7 +219,7 @@ A ledge runs around the outside of the tower, five feet above the water.
 That is where the drowned squad stands for the drill.
 
 The party can reach the tower by boat (Ada Ferrow's, or one they make), by
-swimming (300 feet), or over the roofs of the town under the water. The
+swimming (about half a mile from the dike), or over the roofs of the town under the water. The
 roofs are 5 to 10 feet under the surface. A character can walk on them
 with the water to the chest.
 
@@ -1054,9 +1055,9 @@ Incapacitated condition until the end of its next turn.
 How the party can do it:
 
 - Three characters leave the fight, swim up to the tower, and pull the
-  ropes together. The tower is 30 feet above the church floor, straight up
-  through the hole of the bell rope in the vault. A character with water
-  breathing swims up in one or two turns.
+  ropes together. The top of the tower is 50 feet above the church floor,
+  straight up through the hole of the bell rope in the vault. A character
+  with water breathing swims up in two or three turns.
 - Maud can pull one rope. If the party asked her, she is at the tower,
   ready. Her squad can pull a second rope if the party showed them the
   drill card, and if a character at the tower uses an action to shout the
@@ -1196,7 +1197,8 @@ the first time in twenty years.
 
 With the candle, the Low Fen is easier. Its light keeps the swamp creatures
 away, and the party can cross water that would stop other travelers. The
-trip back to Saint Ivo's, or to Dawnwatch Keep, is four days. Run it with
+trip back to Saint Ivo's is four days. Dawnwatch Keep is four days more,
+by the old road through Brannock's Ford. Run it with
 one journey roll for each day, or skip it.
 
 > **GM tip:** If the party has Dawnwatch Keep as a stronghold (chapter 7),
