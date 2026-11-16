@@ -17,16 +17,14 @@ This is the full adventure. Read it one time before you run it.
 - Teach a rule only when the players need it. Do not explain all rules at the
   start.
 - When a player asks "can I do X?", the answer is usually "yes, roll for it."
-- This adventure uses no distances. It uses "close", "near", and "far". See
-  [Distance](../../README.md#distance) in the overview.
 
 ## Things to prepare
 
 - One character sheet for each player (see the pregens).
 - One cheat sheet for each player.
 - Dice for each player. At least one d20 each.
-- Optional: paper for a quick sketch of the two fights. The sketch shows who
-  stands close to whom. It has no grid.
+- Optional: paper and a pen for a map, or a battle map with tokens for the two
+  fights. On a map, one square is 5 feet.
 
 ---
 
@@ -202,13 +200,13 @@ Before the characters leave, Wick says:
 > hundred years."
 
 In the box is one **potion of healing** (red liquid, a glass bottle). A
-character can drink it or give it to a creature close to them as a bonus
+character can drink it or give it to a creature within 5 feet as a bonus
 action. That creature regains 2d4 + 2 HP.
 
 Wick asks to come with the characters. One character carries Wick. Wick gives
 light.
 
-> **Teach: light and darkvision.** "Wick lights up the area around you. Some
+> **Teach: light and darkvision.** "Wick gives bright light for 20 feet. Some
 > of you have darkvision on your sheet. You see in the dark, but only in grey.
 > The others need Wick to see."
 
@@ -323,12 +321,16 @@ attack rolls, AC, damage, and HP.
 Use the scaling table in the overview for the number of Ash Mites. See the
 [statblocks](../../statblocks.md).
 
-### The room
+### The map
 
-- The characters stand at the gate.
-- The mites are near, around a pile of old shields in the middle of the hall.
-- The well is also in the middle of the hall. A creature can hide behind it.
-- The door to the chapel is far, at the other end of the hall.
+Draw a simple map: a hall 60 feet long and 30 feet wide. One square is 5
+feet.
+
+- The characters stand at the gate, at one end.
+- The mites are in the middle, around the pile of shields, 30 feet away.
+- The well is in the middle of the hall. It is 5 feet wide. A creature can
+  hide behind it.
+- The door to the chapel is at the far end.
 
 ### Step-by-step teaching
 
@@ -342,8 +344,8 @@ players play at normal speed.
 Write the order on paper where all players can see it.
 
 > **Teach 2: your turn.** "On your turn, you can move and take one action.
-> One move takes you to a place near you. For example, you go close to a mite
-> to hit it with your sword. You can move before or after your action."
+> Look at the Speed on your sheet. 30 feet is about six steps. You can move before
+> or after your action, or split the move."
 
 > **Teach 3: the attack roll.** "To attack, roll a d20 and add the attack
 > number for your weapon. If the total is equal to or more than the AC of the
@@ -380,15 +382,14 @@ the Ash Hound in Scene 6, do not tell it.
 - **Pack Bite:** When two mites bite the same character, the second one has
   advantage. Tell the players why. This teaches them to keep enemies apart.
 - **Opportunity attack:** If a character runs away from a mite, the mite
-  bites. Say: "When you move away from an enemy that is close to you, it gets a free
-  attack.
+  bites. Say: "When you leave the reach of an enemy, it gets a free attack.
   This is an opportunity attack. The Disengage action stops it."
 - **Weapon Mastery:** When the Shield hits with Sap, or the Shadow hits with
   Vex, remind the player of the effect.
 - **Sneak Attack:** When an ally stands next to the target of the Shadow,
   remind that player to add 1d6.
 
-**If the fight goes badly:** Wick uses Light Burst. Each mite close to Wick
+**If the fight goes badly:** Wick uses Light Burst. Each mite within 10 feet
 takes 2 fire damage. Use it one time only.
 
 ### After the fight
@@ -471,13 +472,13 @@ HP, and death saving throws.
 Use the [Ash Hound statblock](../../statblocks.md#ash-hound). Use the scaling
 table in the overview for its HP and for extra mites.
 
-### The room
+### The map
 
-- A tall, round room.
+- A round room, 50 feet across.
 - The characters enter from the armory door, on one side.
-- The stone bowl (the Dawnfire) is in the middle. A creature can hide behind
-  it.
-- The hound lies in front of the Dawn Door, on the other side. It is near.
+- The stone bowl (the Dawnfire) is in the middle. It is 10 feet wide. It
+  gives cover.
+- The hound lies in front of the Dawn Door, on the far side.
 
 ### Before the fight
 
@@ -500,9 +501,8 @@ Let the players plan. Some good ideas:
 > matters."
 
 > **Teach 2: the saving throw in combat.** When the hound uses Ash Breath,
-> say: "The ash hits the characters who stand close together. Each of you
-> makes a Dexterity saving throw. If you fail, you take full damage. If you
-> succeed, you take half." This also teaches the players to spread out. If the Spark casts
+> say: "Each of you in the cone makes a Dexterity saving throw. If you fail,
+> you take full damage. If you succeed, you take half." If the Spark casts
 > *Burning Hands* or the Light casts *Sacred Flame*, show that the enemy
 > makes saving throws, too.
 
@@ -568,7 +568,7 @@ When the Dawnfire burns:
 
 - The hound has disadvantage on its attack rolls until the end of its next
   turn.
-- Each character close to the bowl regains 1d4 HP. This happens one
+- Each character within 10 feet of the bowl regains 1d4 HP. This happens one
   time only.
 
 ### The end of the fight

@@ -27,8 +27,6 @@ template. The player writes in a name and keeps the rest.
   ability.
 - **Attack:** You add the first number to the d20. If you hit, you roll the
   damage dice and add the second number.
-- **Distance:** These sheets use no feet. "Close" means next to a creature.
-  "Near" means in the same room. "Far" means you need a Dash to get there.
 
 ---
 
@@ -53,9 +51,9 @@ someone. Who was it, and what did you promise?"
 
 ### Numbers
 
-| AC | HP | Initiative | Passive Perception |
-|----|----|------------|--------------------|
-| 18 | 14 | +1 | 13 |
+| AC | HP | Speed | Initiative | Passive Perception |
+|----|----|-------|------------|--------------------|
+| 18 | 14 | 30 ft | +1 | 13 |
 
 | STR | DEX | CON | INT | WIS | CHA |
 |-----|-----|-----|-----|-----|-----|
@@ -72,7 +70,7 @@ Survival +3.
 | Weapon | Attack | Damage | Notes |
 |--------|--------|--------|-------|
 | Longsword | +5 | 1d8 + 5 slashing | Mastery: Sap |
-| Javelin (4) | +5 | 1d6 + 3 piercing | Thrown, near. Mastery: Slow |
+| Javelin (4) | +5 | 1d6 + 3 piercing | Thrown 30/120 ft. Mastery: Slow |
 
 ### Features
 
@@ -83,8 +81,8 @@ Survival +3.
 - **Weapon Mastery:**
   - *Sap (longsword):* When you hit a creature, it has disadvantage on its
     next attack roll before the start of your next turn.
-  - *Slow (javelin):* When you hit and deal damage, the target cannot take
-    the Dash action until the start of your next turn.
+  - *Slow (javelin):* When you hit and deal damage, the target's speed goes
+    down by 10 feet until the start of your next turn.
 - **Savage Attacker:** One time on each of your turns, when you hit with a
   weapon, you can roll the damage dice two times and use the higher result.
 - **Tough:** Your hit point maximum includes +2 for each level. This is
@@ -96,7 +94,7 @@ Survival +3.
 ### Equipment
 
 Chain mail, shield, longsword, 4 javelins, a set of dice (gaming set), a
-backpack, a bedroll, and a long rope.
+backpack, a bedroll, and a rope (50 feet).
 
 ### At level 2
 
@@ -124,17 +122,17 @@ sign. What did you see?"
 ### Your best moves
 
 - **Healing Word** (bonus action, uses a spell slot): an ally that you can see
-  heals 2d4 + 3. This also wakes up an ally at 0 HP.
-- **Sacred Flame** (action, no slot): one enemy that you can see makes a
+  within 60 feet heals 2d4 + 3. This also wakes up an ally at 0 HP.
+- **Sacred Flame** (action, no slot): one enemy within 60 feet makes a
   Dexterity saving throw (DC 13). On a fail, it takes 1d8 radiant damage.
-- **Spare the Dying** (action, no slot): an ally at 0 HP near you
+- **Spare the Dying** (action, no slot): an ally at 0 HP within 15 feet
   becomes stable and stops making death saving throws.
 
 ### Numbers
 
-| AC | HP | Initiative | Passive Perception |
-|----|----|------------|--------------------|
-| 18 | 11 | +0 | 13 |
+| AC | HP | Speed | Initiative | Passive Perception |
+|----|----|-------|------------|--------------------|
+| 18 | 11 | 30 ft | +0 | 13 |
 
 | STR | DEX | CON | INT | WIS | CHA |
 |-----|-----|-----|-----|-----|-----|
@@ -145,7 +143,7 @@ sign. What did you see?"
 
 **Hit Point Dice:** 1d8.
 
-**Darkvision:** You see in the dark, but only in shades of grey.
+**Darkvision:** 120 feet. You see in the dark as if it is dim light.
 
 ### Attacks
 
@@ -160,15 +158,14 @@ sign. What did you see?"
 - **Cantrips (no slot, use them as often as you want):** Sacred Flame,
   Guidance, Spare the Dying, Light, Thaumaturgy.
 - **Prepared level 1 spells (each cast uses one slot):**
-  - *Healing Word:* bonus action. One creature that you can see regains
+  - *Healing Word:* bonus action, range 60 feet. One creature regains
     2d4 + 3 HP.
-  - *Cure Wounds:* action. One creature close to you regains 2d8 + 3 HP.
-  - *Guiding Bolt:* action. Make a spell attack against a creature that you
-    can see. On a hit,
+  - *Cure Wounds:* action, touch. One creature regains 2d8 + 3 HP.
+  - *Guiding Bolt:* action, range 120 feet. Make a spell attack. On a hit,
     deal 4d6 radiant damage. The next attack roll against the target has
     advantage.
-  - *Shield of Faith:* bonus action, concentration. One creature
-    that you can see gets +2 AC for up to 10 minutes.
+  - *Shield of Faith:* bonus action, range 60 feet, concentration. One
+    creature gets +2 AC for up to 10 minutes.
 - **Free spell (Magic Initiate):** You can cast *Bless* one time without a
   slot. You get this back on a Long Rest. *Bless:* action, concentration. Up
   to 3 creatures add 1d4 to their attack rolls and saving throws for up to 1
@@ -182,8 +179,8 @@ sign. What did you see?"
   advantage on saving throws against the poisoned condition.
 - **Dwarven Toughness:** Your hit point maximum includes +1 for each level.
   This is already in your HP.
-- **Stonecunning:** As a bonus action, you feel through the stone the movement of
-  creatures near you, for 10 minutes. You have 2 uses. You get them back on a
+- **Stonecunning:** As a bonus action, you get tremorsense out to 60 feet for
+  10 minutes, when you stand on stone. You have 2 uses. You get them back on a
   Long Rest.
 
 ### Equipment
@@ -197,7 +194,7 @@ calligrapher's supplies, and a book of prayers.
 - **Spell slots:** 3. You prepare 1 more level 1 spell (for example, *Bless*
   or *Command*).
 - **Channel Divinity (2 uses):** You get 1 use back on a Short Rest.
-  - *Divine Spark:* As a Magic action, one creature that you can see regains
+  - *Divine Spark:* As a Magic action, one creature within 30 feet regains
     1d8 + 3 HP, or makes a Constitution saving throw (DC 13) and takes 1d8
     radiant damage (half on a success).
   - *Turn Undead:* Undead near you can flee from you.
@@ -220,7 +217,7 @@ spell. What happened?"
 ### Your best moves
 
 - **Fire Bolt** (action, no slot): make a spell attack (d20 + 5) against one
-  enemy that you can see. On a hit, deal 1d10 fire damage.
+  enemy within 120 feet. On a hit, deal 1d10 fire damage.
 - **Magic Missile** (action, uses a slot): three darts hit automatically. Each
   dart deals 1d4 + 1 force damage. You can send all darts at one enemy, or
   split them.
@@ -229,9 +226,9 @@ spell. What happened?"
 
 ### Numbers
 
-| AC | HP | Initiative | Passive Perception |
-|----|----|------------|--------------------|
-| 11 (14 with Mage Armor) | 8 | +1 | 13 |
+| AC | HP | Speed | Initiative | Passive Perception |
+|----|----|-------|------------|--------------------|
+| 11 (14 with Mage Armor) | 8 | 30 ft | +1 | 13 |
 
 | STR | DEX | CON | INT | WIS | CHA |
 |-----|-----|-----|-----|-----|-----|
@@ -243,15 +240,15 @@ Perception +3.
 
 **Hit Point Dice:** 1d6.
 
-**Darkvision:** You see in the dark, but only in shades of grey.
+**Darkvision:** 60 feet.
 
 ### Attacks
 
 | Weapon | Attack | Damage | Notes |
 |--------|--------|--------|-------|
-| Dagger | +3 | 1d4 + 1 piercing | Thrown, near |
-| Fire Bolt (cantrip) | +5 | 1d10 fire | Any enemy that you can see |
-| Ray of Frost (cantrip) | +5 | 1d8 cold | The target cannot take the Dash action on its next turn |
+| Dagger | +3 | 1d4 + 1 piercing | Thrown 20/60 ft |
+| Fire Bolt (cantrip) | +5 | 1d10 fire | Range 120 ft |
+| Ray of Frost (cantrip) | +5 | 1d8 cold | Range 60 ft. The target's speed goes down by 10 feet |
 
 ### Spellcasting
 
@@ -260,16 +257,15 @@ Perception +3.
 - **Cantrips (no slot):** Fire Bolt, Ray of Frost, Light, Mage Hand, Minor
   Illusion, Prestidigitation.
 - **Prepared level 1 spells (each cast uses one slot):**
-  - *Magic Missile:* action. Three darts, each 1d4 + 1 force
+  - *Magic Missile:* action, range 120 feet. Three darts, each 1d4 + 1 force
     damage. They always hit.
   - *Shield:* reaction when an attack hits you. +5 AC until the start of your
     next turn.
-  - *Burning Hands:* action. Fire hits up to 3 creatures that stand close
-    together in front of you. Each one makes a
+  - *Burning Hands:* action, 15-foot cone. Each creature in the cone makes a
     Dexterity saving throw (DC 13). It takes 3d6 fire damage on a fail, or
     half on a success.
-  - *Sleep:* action, concentration. Choose up to 2 creatures that
-    stand close together. Each one makes a Wisdom saving throw (DC 13). On
+  - *Sleep:* action, range 60 feet, concentration. Each creature of your
+    choice in a 5-foot-radius sphere makes a Wisdom saving throw (DC 13). On
     a fail, it is incapacitated until the end of its next turn. Then it makes
     the save again. On a second fail, it falls unconscious for up to 1
     minute, until it takes damage or someone shakes it awake.
@@ -321,7 +317,7 @@ sleep. What was it?" (DM: it is still in your pocket.)
 ### Your best moves
 
 - **Attack** with your shortsword (d20 + 5, damage 1d6 + 3) or your shortbow
-  (d20 + 5, damage 1d6 + 3, at any enemy that you can see).
+  (d20 + 5, damage 1d6 + 3, range 80 feet).
 - **Sneak Attack:** one time on each of your turns, add 1d6 damage if you have
   advantage, or if an ally stands next to the target.
 - **Skills:** you are the best at Stealth (+7) and Perception (+5). Ask the DM
@@ -329,9 +325,9 @@ sleep. What was it?" (DM: it is still in your pocket.)
 
 ### Numbers
 
-| AC | HP | Initiative | Passive Perception |
-|----|----|------------|--------------------|
-| 14 | 10 | +5 | 15 |
+| AC | HP | Speed | Initiative | Passive Perception |
+|----|----|-------|------------|--------------------|
+| 14 | 10 | 30 ft | +5 | 15 |
 
 | STR | DEX | CON | INT | WIS | CHA |
 |-----|-----|-----|-----|-----|-----|
@@ -348,15 +344,15 @@ Persuasion +2, Sleight of Hand +5, Stealth +7 (expertise).
 | Weapon | Attack | Damage | Notes |
 |--------|--------|--------|-------|
 | Shortsword | +5 | 1d6 + 3 piercing | Mastery: Vex |
-| Shortbow | +5 | 1d6 + 3 piercing | Ranged. Mastery: Vex |
-| Dagger (2) | +5 | 1d4 + 3 piercing | Thrown, near |
+| Shortbow | +5 | 1d6 + 3 piercing | Range 80/320 ft. Mastery: Vex |
+| Dagger (2) | +5 | 1d4 + 3 piercing | Thrown 20/60 ft |
 
 ### Features
 
 - **Sneak Attack:** One time on each of your turns, you deal 1d6 more damage
   when you hit with a finesse or ranged weapon, if one of these is true:
   - You have advantage on the attack roll.
-  - An ally is close to the target, and you do not have
+  - An ally is within 5 feet of the target, and you do not have
     disadvantage.
 - **Expertise:** You add double your proficiency bonus to Stealth and
   Perception. This is already in your skills.
@@ -413,9 +409,9 @@ agree at the end?"
 
 ### Numbers
 
-| AC | HP | Initiative | Passive Perception |
-|----|----|------------|--------------------|
-| 13 | 16 | +1 | 13 |
+| AC | HP | Speed | Initiative | Passive Perception |
+|----|----|-------|------------|--------------------|
+| 13 | 16 | 35 ft | +1 | 13 |
 
 | STR | DEX | CON | INT | WIS | CHA |
 |-----|-----|-----|-----|-----|-----|
@@ -431,7 +427,7 @@ agree at the end?"
 | Weapon | Attack | Damage | Notes |
 |--------|--------|--------|-------|
 | Greataxe | +5 | 1d12 + 3 slashing | Two hands. Mastery: Cleave |
-| Handaxe (2) | +5 | 1d6 + 3 slashing | Thrown, near. Mastery: Vex |
+| Handaxe (2) | +5 | 1d6 + 3 slashing | Thrown 20/60 ft. Mastery: Vex |
 
 ### Features
 
@@ -449,8 +445,8 @@ agree at the end?"
   Dexterity modifier + your Constitution modifier.
 - **Weapon Mastery:**
   - *Cleave (greataxe):* When you hit a creature, you can make one more
-    attack roll against a second creature that is close to you and
-    to the first one. On a hit, it takes the weapon damage without your
+    attack roll against a second creature within 5 feet of the first one and
+    within your reach. On a hit, it takes the weapon damage without your
     ability modifier. You can do this one time on each of your turns.
   - *Vex (handaxe):* When you hit and deal damage, you have advantage on your
     next attack roll against that creature before the end of your next turn.

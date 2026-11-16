@@ -59,22 +59,16 @@ world changed while they slept.
 If you are late at the halfway mark (one hour), cut the bell puzzle and make
 the short rest quick.
 
-## Distance
+## Distances
 
-This adventure uses no feet, no squares, and no grid. It uses three words:
+The adventure gives distances in feet, as the books do. New players do not
+need to count feet. Use this tip:
 
-| Word | Meaning | Examples |
-|------|---------|----------|
-| Close | Next to a creature. | A melee attack, a touch, a potion that you give to a friend. |
-| Near | In the same room. One move takes you there. | Most movement in a fight. |
-| Far | At the other end of a big hall, or out of the room. | A Dash takes you there. |
+- **5 feet** is next to you. A melee attack needs this.
+- **30 feet** is about six steps. Most characters move this far on a turn.
+- **60 feet or more** is across a big room.
 
-- A ranged attack or a spell can hit any creature that you can see. You, the
-  DM, can say that a target is too far.
-- A spell or a breath that hits an area hits a small number of creatures that
-  stand close together. The text says how many.
-- If a rule in the 2024 books uses feet, use the word that is nearest in
-  meaning.
+A battle map with squares is optional. On a map, one square is 5 feet.
 
 ## Scaling
 
