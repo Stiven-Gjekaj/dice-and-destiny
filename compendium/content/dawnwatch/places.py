@@ -95,7 +95,7 @@ PLACES = [
                  (110, 132), (90, 150), (66, 166), (42, 178), (21, 183)],
          summary="It comes down from the Grey Teeth, passes Kingsholm, and reaches the sea north of Corrantey."),
     dict(name="The River Brann", kind="river", x=160, y=172, era="both", chapters=(2,),
-         course=[(182, 137), (172, 150), (164, 162), (160, 172), (164, 190), (178, 208),
+         course=[(188, 138), (180, 150), (168, 162), (160, 172), (164, 190), (178, 208),
                  (192, 226), (203, 240)],
          summary="It comes from the Wolds, passes Brannock's Ford, and goes south into the Low Fen."),
     dict(name="The Corrin", kind="river", x=55, y=188, era="both", chapters=(6,),
