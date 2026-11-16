@@ -972,8 +972,8 @@ Go around the table. Tell each player one thing.
   light. I do not know how I know it. I think I was made from something
   like it."
 
-> **GM tip:** Wick's flame is the last true piece of the Dawnfire. Nobody
-> knows this in Book One, not even Wick. This moment is a hint. Do not
+> **GM tip:** Wick's flame reacts to the Dawnfire. Nobody knows why in
+> Book One, not even Wick. Book Two tells it. This moment is a hint. Do not
 > explain it. Do not let the players dwell on it, either: the crowd pushes
 > forward, and the moment is gone.
 

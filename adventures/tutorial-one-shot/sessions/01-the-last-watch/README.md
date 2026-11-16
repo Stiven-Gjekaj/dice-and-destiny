@@ -122,7 +122,7 @@ failure is not a stop. It is a funny problem.
 >   one."
 
 **Solo play:** Wick helps the player from outside, so the player rolls with
-advantage. Then Wick introduces itself (go to Scene 2).
+advantage. Then Wick introduces himself (go to Scene 2).
 
 ### What is in the hall
 

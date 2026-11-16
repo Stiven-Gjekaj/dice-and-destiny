@@ -88,7 +88,7 @@ attack.
   30-foot radius and Dim Light for 30 feet more.
 - **A character carries Wick.** Enemies do not attack Wick.
 - **Solo play:** In a game with one player, Wick takes the Help action on
-  each of its turns. Wick acts right after the player. Wick helps the
+  each of his turns. Wick acts right after the player. Wick helps the
   player's next attack roll against an enemy within 5 feet of Wick. The
   player has Advantage on that roll.
 

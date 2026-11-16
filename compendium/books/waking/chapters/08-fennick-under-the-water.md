@@ -1129,10 +1129,11 @@ When a character takes the candle:
 
 {{treasure: The Fennick Candle}}
 
-> **GM tip:** Wick does not know that he is the last true piece of the
-> Dawnfire. Nobody knows that in Book One. But Wick feels something when he
-> is near the pieces. Play it as a small, warm, strange feeling. Do not
-> explain it. Book Two explains it.
+> **GM tip:** Wick's flame reacts to the Dawnfire. Near a piece of it, his
+> flame leans toward it and burns a little brighter, and he feels something
+> that he cannot name. Play it as a small, warm, strange feeling. Do not
+> explain it. Nobody knows why in Book One, not even Wick. Book Two
+> explains it.
 
 ---
 
