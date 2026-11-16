@@ -300,6 +300,7 @@ the person in more than one scene.
 | Name | Role | Chapters | Statblock |
 |---|---|---|---|
 | Haskel Orme | The steward of Dawnwatch Keep, 300 years ago. Dead. He made Wick and wrote the lie. | 1, 7, 10 (letters) | No |
+| Wenna Orme | The sister of Haskel Orme, in Kingsholm, 300 years ago. Dead. His letters in chapter 7 are to her. | 7 (letters) | No |
 | Wick | The talking lantern. The tutorial has his statblock. | All | Yes (tutorial) |
 | Tamsin | The old ferry woman at Brannock's Ford. Kind, and she asks too many questions. | 2 | No |
 | Dace | A pedlar who sells "bones of the Five Sleepers" to pilgrims. | 2, 3 | No |
