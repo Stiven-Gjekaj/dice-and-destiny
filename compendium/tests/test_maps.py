@@ -213,3 +213,36 @@ def test_missing_maps_lists_each_map_with_no_final_file(tmp_path, monkeypatch):
     for map_id in maps.MAP_IDS:
         (tmp_path / f"{map_id}.svg").write_text(FINAL)
     assert maps.missing_maps() == []
+
+
+def test_the_committed_places_json_matches_places_py():
+    # Run "python3 build/maps.py --places-json" after a change to places.py.
+    path = os.path.join(REAL_MAP_DIR, "places.json")
+    with open(path, encoding="utf-8") as f:
+        assert f.read() == maps.places_json()
+
+
+def test_places_json_follows_the_list(monkeypatch):
+    import json
+    extra = [
+        dict(name="Hollin", kind="town", x=60, y=60, era="now", chapters=(), summary="A test town."),
+        dict(name="Old Hollin", kind="town", x=60, y=60, era="then", chapters=(), now_name="Hollin",
+             summary="A test town."),
+        dict(name="Mire", kind="region", x=100, y=150, area=(90, 140, 110, 160), era="now",
+             chapters=(), summary="A test marsh."),
+        dict(name="The Rill", kind="river", x=100, y=210, era="both", chapters=(),
+             course=[(100, 200), (100, 220)], summary="A test river."),
+    ]
+    monkeypatch.setattr(maps, "PLACES", extra)
+    monkeypatch.setattr(maps, "ROADS", [])
+    data = json.loads(maps.places_json())
+    town = next(p for p in data["places"] if p["name"] == "Hollin")
+    assert (town["x"], town["y"], town["old_names"]) == (60, 60, ["Old Hollin"])
+    assert town["maps"] == ["land-today"]
+    old = next(p for p in data["places"] if p["name"] == "Old Hollin")
+    assert old["maps"] == ["ostrey-then"] and old["now_name"] == "Hollin"
+    assert data["areas"] == [dict(name="Mire", kind="region", era="now", old_names=[],
+                                  maps=["land-today", "act-1", "act-2"], x=100, y=150,
+                                  box=[90, 140, 110, 160])]
+    assert data["rivers"][0]["points"] == [[100, 200], [100, 220]]
+    assert data["maps"]["act-1"]["size_mm"] == [167, 120]
