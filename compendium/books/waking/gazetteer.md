@@ -121,8 +121,8 @@ sleepers.
 
 Haskel Orme died some years after the sleep. Nobody knows where. In the
 year of the sleep, on his orders, his apprentices went west to Corrin and
-Tey with the First Lamp, and they started a guild of lantern makers. Later stewards held Dawnwatch Keep for
-the crown until the fall.
+Tey with the First Lamp, and they started a guild of lantern makers. Later
+stewards held Dawnwatch Keep for the crown until the fall.
 
 ### About year 100: the Grey Winter
 
@@ -176,7 +176,8 @@ The town of Saint Ivo's grew around the shrine. The Church of the Five
 Sleepers counts its years from this time.
 
 The Church never knew where the Five slept. Its books say "under a hill
-somewhere in the north". Most priests think that it is a holy story, not a place.
+somewhere in the north". Most priests think that it is a holy story, not a
+place.
 
 ### About year 150: the Founding of Gaunt
 
@@ -330,9 +331,9 @@ Corrantey, people think that they are actors.
 ### Money
 
 Most coins today come from Corrantey, which stamps a lamp on them, or from
-Gaunt, which stamps the iron gauntlet of the Gauntry family. Both are good gold, silver, and copper,
-and everybody takes both. Use the normal prices of the Player's
-Compendium.
+Gaunt, which stamps the iron gauntlet of the Gauntry family. Both are good
+gold, silver, and copper, and everybody takes both. Use the normal prices
+of the Player's Compendium.
 
 The old coins of Ostrey are rare now. A gold sun of King Aldwin is still
 gold, and any merchant takes it as 1 GP. A collector in Corrantey or a
@@ -776,7 +777,7 @@ The standing stones are still there, and one of them has fallen. The
 Church calls Kell "the old shrine" and sends nobody, because it is two
 days from Saint Ivo's with no road, and nothing of the Five is there.
 
-Shepherds and hunters avoid the hill in the last few years. They say that
+In the last few years, shepherds and hunters avoid the hill. They say that
 people in grey go up there at night, and that the night on the hill is
 darker than the night around it.
 
@@ -1212,11 +1213,11 @@ Church, and it smiles at both. It wants neither of them to win.
 
 The Lampwrights are the guild of lantern makers, the oldest guild of the
 city. They started with the apprentices of Haskel Orme, the steward of
-Dawnwatch Keep. He sent them west in the year of the long sleep. The guild keeps his mark,
-a small sun inside a square, on every lamp it makes. It keeps the First
-Lamp in the inner room of its hall: a lamp with a flame that needs no oil,
-which the founders brought from the east. The guild does not show it to
-outsiders.
+Dawnwatch Keep. He sent them west in the year of the long sleep. The guild
+keeps his mark, a small sun inside a square, on every lamp it makes. It
+keeps the First Lamp in the inner room of its hall: a lamp with a flame
+that needs no oil, which the founders brought from the east. The guild
+does not show it to outsiders.
 
 The Lampwrights are careful, curious, and proud. They know more about
 light than anybody in the land. They keep a book of the times of sunrise
@@ -1648,9 +1649,9 @@ my mother."
 
 **What is going on.** The ring is real. It belonged to a princess of
 Ostrey. The letter, which says that she married a Gauntry, is a forgery,
-made in the town of Tey about a hundred and fifty years ago. A Gauntry bought the
-ring from a scavenger. The characters know the hand and the seals of old
-Ostrey better than anybody alive.
+made in the town of Tey about a hundred and fifty years ago. A Gauntry
+bought the ring from a scavenger. The characters know the hand and the
+seals of old Ostrey better than anybody alive.
 
 **How it can go.** The party must decide what to do with the truth. Tell
 Tobin. Tell the Marshal. Tell the Church, which would use it as a weapon.
@@ -1842,20 +1843,19 @@ back. "They went south. That is all we ever knew."
 **What is going on.** The last steward and the watchman died in the war of
 the lords, at a small fight on the old road. Their men buried them
 together under a cairn by a ford, with the steward's sword and the keys of
-the keep. The keys are the keys of the keep. One
-of them opens a door in the lower keep that the tutorial does not open: a
-store room with old supplies of the order, untouched for two hundred
-years.
+the keep. One of the keys opens a door in the lower keep that the tutorial
+does not open: a store room with old supplies of the order, untouched for
+two hundred years.
 
 **How it can go.** A search in old records at Saint Ivo's, a talk with a
 ghost at a ford, and a cairn in a lonely place. Play it gently. It is a
 story about a family that kept a promise for two hundred years with
 nobody to keep it for.
 
-**The reward.** The watchman's bones for Tamsin to bury, the keys, the supplies (food, arrows, oil, and armor for
-the stronghold in chapter 7), and Tamsin's family as the first staff of
-the keep. The keys do not open the steward's study. Nothing does, before
-chapter 7.
+**The reward.** The watchman's bones for Tamsin to bury, the keys, the
+supplies (food, arrows, oil, and armor for the stronghold in chapter 7),
+and Tamsin's family as the first staff of the keep. The keys do not open
+the steward's study. Nothing does, before chapter 7.
 
 ### The Fifth Play
 
@@ -1873,8 +1873,8 @@ show them how quiet the dark can be.
 
 **How it can go.** A mystery in a theater, with actors, jealousy, and
 Garret Pell, who came all the way from Saint Ivo's to see the competition.
-The party can stop the play, change the play, or play itself. Opening night
-is a fight in the dark with an audience.
+The party can stop the play, change the play, or take the stage itself.
+Opening night is a fight in the dark with an audience.
 
 **The reward.** The love of the theaters of Corrantey. A play that tells
 the story of the Five as the party wants it told. Every child in the city
@@ -1906,7 +1906,7 @@ d12, or choose one for each day of a trip.
 
 | d12 | What the party finds | What it was |
 |---|---|---|
-| 1 | A milestone, half sunk in the grass, with a number and the sun of Ostrey. | A mile stone of the king's road. The characters know the number. It is the miles to Kingsholm. |
+| 1 | A milestone, half sunk in the grass, with a number and the sun of Ostrey. | A milestone of the king's road. The characters know the number. It is the miles to Kingsholm. |
 | 2 | A ring of tumbled stones on a hilltop. | A beacon tower. In the war, a chain of fires warned Kingsholm. A character may have lit this one. |
 | 3 | Two stone pillars in a field, with no wall and no gate. | The gate of a lord's house. The house is gone. The family is a name that nobody knows. |
 | 4 | A shrine of the Five with a much older stone bowl in the back of it. | A shrine of the Morning Flame. The new shrine was built around the old one. |
