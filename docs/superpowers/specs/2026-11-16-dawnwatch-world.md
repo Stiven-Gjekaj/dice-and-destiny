@@ -168,6 +168,16 @@ The gazetteer sets these facts. Each writer uses them.
   Teeth went black for a moment. All the land saw it.
 - **Kingsholm** burned in the civil war of the Grey Winter. A forest grows
   around it now.
+- **The statue in Kingsholm:** a knight in the armor of the Dawnwatch in
+  the old square, with the face and the name cut away. It was Garrath.
+  Orme had them cut. Chapter 10.
+- **Kell** had its own piece of the Dawnfire after the war. It went out in
+  the Broken Years.
+- **Sergeant Maud Kettle** was a sergeant of the last garrison of the king
+  in Fennick, in the Grey Winter. She drowned in the flood of year 100.
+- **The keep after the sleep:** later stewards held it until the Grey
+  Winter. Then the last steward left for the war of the lords. Tamsin's
+  family kept the last watch there.
 
 ## Old Ostrey
 
