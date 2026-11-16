@@ -217,6 +217,10 @@ The gazetteer sets these facts. Each writer uses them.
 - **The Ember glows:** for two hundred years, the Ember was a dull red
   coal. On the night that the Dawnwatch woke, it started to burn gold
   (chapter 3).
+- **Wendle:** a village of farms on the border, in Gaunt by a mile. Its
+  people pray at Saint Ivo's. A press gang of Gaunt takes its sons in
+  chapter 5. If the party does not stop it, the boys are soldiers at Ashby
+  Field in chapter 9.
 - **Sergeant Maud Kettle** was a sergeant of the last garrison of the king
   in Fennick, in the Grey Winter. She drowned in the flood of year 100.
 - **The keep after the sleep:** later stewards held it until the Grey
@@ -301,7 +305,7 @@ the person in more than one scene.
 | Edric Pole | An old shepherd of the Wolds. The Hush burned his farm. He can keep the gate of the keep. | 7 | No |
 | Hesper Wren | A young Lampwright, sent by Perrin Hale. She becomes the steward of Dawnwatch Keep when the party takes it back. | 7, 10 | No |
 | Ada Ferrow | An old eel catcher of the Low Fen. She takes the party to Fennick by boat. Her brother Tam died there. | 8 | No |
-| Lieutenant Roe | The aide of Marshal Gauntry. A secret agent of the Hush. | 9 | Yes (Hush Dusk Priest) |
+| Lieutenant Roe | The aide of Marshal Gauntry. A secret agent of the Hush. He is the helpful aide of the party in Stannard (chapter 5). | 5, 9 | Yes (Hush Dusk Priest) |
 | Brother Ansel | The secretary of Abbess Merrow. A secret agent of the Hush. | 9 | Yes (Hush Dusk Priest) |
 | Corporal Lenna | A young soldier of the levy of Saint Ivo's. Her family name is the family of the person of the Shield's promise. | 9 | Yes (Line Pikeman) |
 | Sergeant Maud Kettle | The ghost of a soldier of Ostrey in Fennick. She teaches the old fighting ways. | 8 | Yes |
