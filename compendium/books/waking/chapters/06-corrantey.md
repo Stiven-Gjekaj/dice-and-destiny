@@ -607,3 +607,240 @@ fast. Each character makes a DC 12 Strength (Athletics) check to wade and
 swim out. On a failure, the character takes 2d6 Bludgeoning damage from the
 rocks and gains 1 Exhaustion level, but still gets out. Nobody drowns here.
 The sea only reminds them that it is bigger than they are.
+
+---
+
+## Scene 6: The Offer of Gaunt
+
+**Goal:** Captain Ilse Varro makes the party an offer. The players choose a
+side, or pretend to.
+
+Run this scene the day after the Skerrows, or any time before Lamplight
+Night. Ilse chooses a public place, so that the party can't make trouble: a
+fine eating house on the Corrin side, at a table by the window.
+
+### Captain Ilse Varro
+
+Ilse Varro is the spymaster of Gaunt in Corrantey. She works for Marshal Ide
+Gauntry, and she is very good at her work.
+
+- **She looks harmless.** A woman of about forty in a good grey coat, with
+  short dark hair, reading glasses on a chain, and a cup of tea. She looks
+  like a clerk of a counting house. That is the point.
+- **She is polite and direct.** She does not lie when the truth works better.
+- **She keeps a list.** She knows who owes whom in the city. She knows which
+  guild master drinks, which one gambles, and which one has a son in debt.
+- **She believes in Gaunt.** She thinks that the land needs one strong ruler,
+  and that the marshal is the best one. She thinks that the Hush is a danger,
+  and that the First Lamp is safer in Stannard than in a guild hall with an
+  open door.
+
+> A woman in a grey coat sits alone at the window table. She has a cup of tea
+> and a small book. When you come in, she closes the book and smiles. "Please
+> sit. I have ordered for you. The fish here is the best in the city. I am
+> Ilse Varro. I work for the marshal, as I think you know. I would like to
+> save us all some trouble."
+
+### The Offer
+
+Ilse is clear about what she wants.
+
+- **The marshal wants the First Lamp.** "Gaunt is the heir of old Ostrey. The
+  old fire belongs with the heir. It will be safe in Stannard, behind walls
+  and soldiers, not on a plinth where any fool in grey can walk up to it."
+- **She offers money and friendship.** 2,000 GP, paid in Stannard, and the
+  friendship of Gaunt. A character with renown in Gaunt gains 5 renown (a
+  great deed for the faction).
+- **She asks for one of two things.** Either the party helps her take the
+  Lamp on Lamplight Night, when the hall is full and the guards are busy. Or
+  the party simply stays away from the hall that night. "I don't need your
+  swords. I need you to be somewhere else."
+- **She knows about the Hush.** If the party mentions the people in grey, she
+  nods. "Yes. My people have seen them. Six or seven, on the Tey side. They
+  are why I can't wait. If they put out the Lamp, nobody gets it."
+
+### Checks with Ilse
+
+| Check | DC | Result |
+|---|---|---|
+| Wisdom (Insight) | 15 | Ilse tells the truth about the Hush and about the money. She does not say that her agents will hurt anyone who stands in the way. She will not lose sleep over a few dead apprentices. |
+| Charisma (Persuasion) | 18 | Ilse agrees to wait one week and to talk to the marshal again. She still raids the hall on Lamplight Night, but with fewer agents (remove the two Spies from the fight in Scene 7). |
+| Charisma (Intimidation) | 16 | Ilse smiles. "I am a woman alone with a cup of tea, in a room full of witnesses. Please, go on." It does not work, and she remembers. |
+| Charisma (Deception) | 14 | Ilse believes that the party will stay away. On Lamplight Night, she does not expect them in the hall. The party has Advantage on Initiative in Scene 7. |
+| Wisdom (Perception) | 13 | Two other tables are hers: a young man reading a letter and an old woman who never drinks her wine. Both are agents. |
+
+### What the Players Choose
+
+- **They refuse.** Ilse pays for the meal and leaves. "That is a pity. I
+  liked you." Each character with renown in Gaunt loses 1 renown. The raid
+  happens as written.
+- **They agree to stay away.** The raid happens without them. Perrin sends an
+  apprentice to beg them for help when the alarm sounds, so they can still
+  change their minds. If they don't come, the raid succeeds, and Gaunt has
+  the First Lamp (see "If Gaunt takes the Lamp", below).
+- **They agree to help Ilse.** On Lamplight Night, the party is on the side of
+  the raid. The Brass Lamp Wardens wake and attack everyone who doesn't carry
+  Wick. Perrin sees the party with the agents of Gaunt. He never trusts them
+  again, and he does not come to the keep in chapter 7.
+- **They pretend to agree.** A good plan. Let it work if the Deception check
+  works.
+
+> **GM tip:** The players may want to fight Ilse here and now. Remind them,
+> through Wick if you must, that this is a public room in a city with no
+> love for violence, and that the city watch is two streets away. If they
+> fight anyway, Ilse uses her Smoke Pellet and escapes, and the party spends
+> a night in the cells of the Council House. Perrin pays to get them out, and
+> he is not happy.
+
+---
+
+## Scene 7: Lamplight Night
+
+**Goal:** the agents of Gaunt raid the hall. The Brass Lamp Wardens wake.
+The big fight of the chapter.
+
+### The Festival
+
+> At sunset, the city lights up. It starts at the harbor: one lamp on the
+> highest mast, then ten, then a hundred. The light runs up the streets like
+> water running uphill. Every window has a lamp. Every door. Children carry
+> paper lanterns on sticks. On the Long Bridge, every post burns, and the
+> river below is full of little floating candles.
+>
+> The great doors of the hall of the Lampwrights stand open. The people of
+> the city walk in, slowly, in a long line, to look at the small green lamp
+> on its plinth. Some of them cry. Some of them pray. An old man lifts his
+> grandson onto his shoulders so that he can see.
+>
+> Wick watches all of it from your hands. "They love it," he says. "They
+> don't know what it is, and they love it anyway."
+
+Perrin asks the party to stand near the Lamp, if they agreed to help him.
+The hall is full of people: two hundred visitors in a slow line, twenty
+apprentices, six masters, and four guards of the guild with clubs.
+
+### The Raid
+
+An hour after sunset, the raid starts. Ilse planned it well.
+
+1. **The lights go out.** An agent on the roof cuts the chains of the big
+   lanterns over the door. They fall and smash. The front of the hall goes
+   dark, and people scream and run.
+2. **The agents come in with the crowd.** Ilse and her people wear the plain
+   clothes of the city. They push to the rail in the panic.
+3. **The crossbows cover them.** Two sergeants with crossbows stand on the
+   gallery over the door and shoot anyone who comes near the plinth.
+4. **The Wardens wake.** When the first agent touches the iron rail, the six
+   brass figures in the hall open their eyes. Their heart-lamps light up with
+   a roar. Two of them step down from the wall.
+
+> Glass breaks over the door. The big lanterns fall in a rain of sparks, and
+> half of the hall goes black. People scream. The line breaks. In the dark,
+> you see shapes push against the crowd, toward the plinth: a woman in a grey
+> coat, and people with knives in their hands.
+>
+> Then a sound like a forge door opening. Along the wall, the brass figures
+> lift their heads. Fire blooms in their chests. Two of them step down from
+> their places, and the floor shakes.
+>
+> "Oh," says Wick. "Oh, they're awake. Hello! Hello, brothers! Please don't
+> step on me!"
+
+**Creatures:** Captain Ilse Varro, two Crossbow Sergeants (on the gallery),
+two Spies, and one Brass Lamp Warden.
+
+Two Wardens step down, but only one of them fights in the area of the
+plinth. The other one stands in the door and holds it shut, so that no more
+agents come in and nobody goes out. (Use it for the Scaling box.)
+
+**The budget:** for 4 characters of level 6, a High fight is 4 × 1,400 =
+5,600 XP. Ilse is 2,300 XP, the two Crossbow Sergeants are 900 XP, the two
+Spies are 400 XP, and the Brass Lamp Warden is 1,800 XP. The total is 5,400
+XP, a High fight.
+
+{{statblock: Captain Ilse Varro}}
+
+{{statblock: Crossbow Sergeant}}
+
+{{statblock: Spy}}
+
+{{statblock: Brass Lamp Warden}}
+
+### The Wardens and Wick
+
+The Brass Lamp Warden attacks every creature that does not carry an object
+with the maker's mark of Haskel Orme. Wick carries that mark. So the Warden
+does not attack the character who carries Wick (unless that character
+attacks it first), but it does attack the other characters, the agents of
+Gaunt, and anyone else in its way. It does not attack the visitors who run.
+It only attacks creatures near the plinth or the rail.
+
+This makes the fight a fight with three sides. The Warden is a danger to
+both the party and the agents.
+
+> **GM tip:** Let the players find a way to use Wick. A character who holds
+> Wick up and stands between the Warden and a friend makes the Warden stop
+> and turn away. A clever player can carry Wick to each friend in turn. The
+> Warden is old and simple, and Wick is its little brother.
+>
+> If Wick speaks to the Warden, he can try to order it. Wick makes a
+> Charisma check with a +4 bonus, DC 15, as his action in the round (Wick
+> acts on the turn of the character who carries him). On a success, the
+> Warden stops for 1 round and attacks only the creature that Wick names. On
+> a failure, the Warden looks at Wick, and then goes on.
+
+### The Raid, Round by Round
+
+- **Ilse** goes for the Lamp. On her first turn, she reaches the rail. On her
+  second turn, she lifts the Lamp from the plinth. (It is not hot. It is warm,
+  like a hand.) Then she runs for the side door, which her agents have
+  opened. She uses Gaunt Training to Dash. She uses Smoke Pellet when a
+  character gets close.
+- **The Crossbow Sergeants** shoot from the gallery, 15 feet above the floor.
+  The gallery rail gives them Half Cover. A ladder at each end goes up to the
+  gallery. One sergeant uses Call the Volley on the first character who
+  comes near Ilse.
+- **The Spies** protect Ilse. They fight with shortswords and hand
+  crossbows, and they use Cunning Action to get in the way.
+- **The Warden** walks to the rail and attacks the nearest creature that
+  does not carry Wick. It uses Flare on a group.
+
+**If Ilse gets away with the Lamp:** she runs into the streets of the
+festival (see the rooftop chase, Scene 8). The party can catch her there.
+
+**If Ilse drops to half her Hit Points or fewer:** she drops the Lamp, uses
+Smoke Pellet, and flees. She does not die for the marshal. Her agents
+surrender when she is gone.
+
+**If the party captures Ilse:** she does not talk about her work, but she
+tells the truth about one thing: "You are not the only ones who want that
+fire. The people in grey are out there tonight. I saw them on the bridge."
+
+> **Scaling:** The budget for a High fight at level 6 is 1,400 XP for each
+> character.
+>
+> - **3 characters (4,200 XP):** remove the two Crossbow Sergeants. The
+>   total is 4,500 XP. Ilse's agents are a little thin, and the Warden does
+>   more of the work.
+> - **4 characters (5,600 XP):** use the fight as written. The total is
+>   5,400 XP.
+> - **5 characters (7,000 XP):** add one Veiled Courier (an agent who came in
+>   through the roof) and one more Spy. The total is 6,700 XP.
+> - **6 characters (8,400 XP):** add one Veiled Courier, and the second
+>   Brass Lamp Warden leaves the door and joins the fight. The total is
+>   8,300 XP.
+
+{{statblock: Veiled Courier}}
+
+### After the Raid
+
+When the fight ends, the Wardens go back to their places on the wall. Their
+heart-lamps go dark one by one. The last one to go dark turns its head and
+looks at Wick for a long moment.
+
+> The brass figure climbs back into its place on the wall. The fire in its
+> chest sinks to a coal, then to nothing. Before the light goes, its head
+> turns, slow and stiff, and it looks at the little lantern in your hands.
+>
+> Wick does not say anything for a long time. Then: "It knew me. It didn't
+> know my name. I didn't know its name. But it knew me."
