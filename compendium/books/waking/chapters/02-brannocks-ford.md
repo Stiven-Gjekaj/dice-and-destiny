@@ -805,6 +805,14 @@ the old road of Ostrey, 72 miles. If the players do not want to go, let
 Tamsin push them: "You want to know what the world made of you? It is all
 in Saint Ivo's. Go and look."
 
+> **GM note: the feast countdown.** In the inn, the feast starts "in four
+> days". The road takes three days. Do not count the days against the
+> players. Fix the count to the way that you run the days: if the party
+> stays an extra day at the ford, or the road takes longer, the feast
+> waits. Chapter 3 starts on the day that the party arrives, and the feast
+> opens that day. If the party is quick, it has one quiet evening in Saint
+> Ivo's before the feast. The party never misses the feast.
+
 > **Teach: Journeys.** "This is a long trip, so we use the Journeys rules.
 > Each day of travel has four steps. I roll the weather. Each of you takes
 > a role and makes one check. I roll to see if you meet something on the
