@@ -1,6 +1,7 @@
 # Player cheat sheet
 
-Print one copy for each player. Everything here is in the 2024 rules.
+Print one copy for each player. Everything here is in the rules of Dice &
+Destiny. The full rules are in the Player's Compendium.
 
 ## The one rule
 
@@ -99,6 +100,8 @@ make one melee attack against it.
   - 3 failures: your character dies.
   - A 20: you wake up with 1 HP.
   - A 1: two failures.
+- If you take damage at 0 HP, you get one failure. A critical hit gives two
+  failures.
 - Any healing wakes you up at once.
 
 ## Spells
