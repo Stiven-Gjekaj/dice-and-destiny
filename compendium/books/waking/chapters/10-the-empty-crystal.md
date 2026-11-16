@@ -904,6 +904,11 @@ three days south-east, to the chapel of the keep, to the Dawnwatch. The hum
 stops for a moment. Then it starts again, softer, like something far away
 that breathes.
 
+> **GM note:** The stone points at Garrath, not at a place. On the road, it
+> points at Kingsholm, because the dark that he left in the crystal still
+> fills the vault. After the vault, that dark is broken, and the stone
+> points to the far north, where Garrath is now. This is intended.
+
 If your table uses Marks, the Mark of the stone's bearer does not grow
 here. It aches, like an old scar in the cold. The rules of the stone are
 in The Hush, earlier in this book.
