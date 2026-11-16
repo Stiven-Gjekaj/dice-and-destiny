@@ -35,7 +35,7 @@ NPCS = [
    attacks=[("Grey Hand", "s:wis", "2d8", "Cold", "", "60 ft.")], multi=2,
    actions=[("Spellcasting", "Mother Sallow casts one of the following spells, using Wisdom as the spellcasting ability ({dc:wis}). "
              "At will: Chill Touch, Thaumaturgy. 1/Day each: Darkness, Hold Person, Silence.")],
-   bonus=[("Put Out the Light", "Each nonmagical flame within 30 feet of Mother Sallow goes out. A magical light in that area that comes from a spell of level 3 or lower "
+   bonus=[("Put Out the Light", "Each nonmagical flame within 30 feet of Mother Sallow goes out. A magical light in that area that comes from a spell of level 3 or lower, or from a creature or an object that is not an Artifact, "
            "sheds only Dim Light until the end of her next turn.")],
    react=[("Into the Dark (1/Day)", "When Mother Sallow takes damage while she is in Dim Light or Darkness, she teleports up to 90 feet to an unoccupied space in Dim Light or Darkness that she can see.")],
    desc="A small grey woman with a kind face and cold hands. She speaks softly, like a nurse at a sickbed, and she believes every word she says. The sun is dying. Only the king can save it.")),
