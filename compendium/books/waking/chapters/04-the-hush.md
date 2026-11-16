@@ -265,3 +265,132 @@ If the Hush took Pell in chapter 3, his troupe comes to the party in the
 morning. Tilly Ashe has a note that the Hush left on the stage: grey
 paper, with one line. "The false sleeper waits at Kell for the true ones."
 Now the party knows two reasons to go.
+
+---
+
+## Scene 3: The Weight of the Stone (30 minutes)
+
+**Goal:** Teach Marks. The black stone marks the character who carries it.
+
+This scene happens on the morning after the theft, before the party leaves
+Saint Ivo's, or at the first camp on the road. It starts when the bearer
+of the black stone picks it up.
+
+> The stone is cold, as always. Then it is not. It is warm, like a hand,
+> and for a moment you feel it move in your palm, like a heart.
+>
+> You see a long, cold dark. Crystal on every side. A slow, deep breath,
+> very far away, in and out, once each hour. Then it is gone. The stone is
+> cold again.
+>
+> Wick looks at you. His flame is very small. "You went grey," he says.
+> "Just for a moment. Your whole face went grey."
+
+The Ember flared next to the stone at the Waking Service. Something woke
+in the stone that night. Now it marks its bearer.
+
+### Before you start
+
+Marks are an optional system. Read Running Marks in the Game Master's
+Compendium, and the Marks chapter of the Player's Compendium, before this
+session. Then ask the table the three questions from Before You Start:
+
+- Are hidden Marks allowed? This chapter uses an **open** Mark. The
+  player sees all of its rules. If your table loves secrets, you can keep
+  the track behind your screen instead, and describe its signs.
+- Can the story put a Mark on a character with no choice? Here, the
+  player chooses who carries the stone. That is the choice.
+- Which themes are off the table? This Mark is about cold, the dark, and
+  a voice that wants something. If a player does not want that, the party
+  can skip the Mark: see "If your group does not use Marks" below.
+
+> **Teach: Marks.** "A Mark is a lasting change to your character, from a
+> blessing, a curse, or a power you used. It gives you something and it
+> takes something. It has a track from 0 to 5. Each time its trigger
+> happens, the track grows by 1, but only once each scene. At some
+> numbers, the Mark changes. At 5, you choose: give in to it, or break
+> free."
+
+### Who carries the stone
+
+The stone marks the character who carries it for one day. Let the players
+choose. It can be the character who picked it up in the tutorial, or
+someone else.
+
+- **A character can refuse to carry it.** Then someone else must. The
+  stone cannot be left behind: the Hush can feel it, and they would take
+  it.
+- **Wick cannot carry it.** If a player tries, Wick's flame goes out for a
+  moment, and Wick screams. He is fine. He is not happy.
+- **Cade will not carry it.** "I have read about cursed things," he says.
+  "I have never read a good ending."
+
+### The Curse of the Black Stone
+
+Give the player the handout. It is the Mark card for the stone, with the
+track.
+
+{{handout: 04-the-black-stone}}
+
+The full rules of the stone are in its entry in the Treasures appendix.
+Here is the short form, to explain at the table.
+
+{{treasure: The Black Stone}}
+
+| Part | The black stone |
+|---|---|
+| **Kind** | An open Curse. The bearer chose to carry the stone, but the stone chose what it does. |
+| **Benefit** | Darkvision 60 feet (or 30 feet more). Once each Short or Long Rest, as a Bonus Action, *draw on the stone* for 1 minute: your weapon attacks and cantrips deal an extra 1d6 Necrotic damage, and magical Darkness doesn't stop your Darkvision. |
+| **Cost** | A member of the Hush within 1 mile knows the direction to you. You have Disadvantage on saves against the Charmed and Frightened conditions from the Hush. Touching a piece of the Dawnfire deals 1d6 Radiant damage to you. |
+| **Grows** | Each time you draw on the stone. |
+| **At 2** | You dream of cold crystal. Once between Long Rests, you can learn the direction to the nearest piece of the Dawnfire within 10 miles. The extra damage becomes 1d8. |
+| **At 4** | Your shadow falls a moment late. The Hush think that you are one of them until you attack. You have Disadvantage on attack rolls in the Bright Light of a piece of the Dawnfire. |
+| **Crisis (5)** | Give in, or break free. See the full entry. |
+| **Ending** | Hold the stone in the light of a piece of the Dawnfire from dusk to dawn, and take the burn every hour. |
+
+> **Teach: the track.** "The track starts at 0. Each time you draw on the
+> stone, it grows by 1, but only once in each scene. It never goes down by
+> itself. You decide when to use the stone. The stone decides what it does
+> to you."
+
+> **Teach: the crisis.** "When the track reaches 5, you choose. Give in, and
+> the stone gives you much more power, but at some moments, I tell you
+> what your character does. Or break free: the stone cracks, the Mark
+> ends, and you keep a small scar. Your character is always yours, unless
+> you choose otherwise."
+
+### The cost is the story
+
+The first line of the cost matters most: **the Hush can feel the stone.**
+Say it plainly to the players: "As long as you carry it, the grey folk can
+find you." This is why the Hush found the Saints' House in the dark. It is
+why the trail to Kell is so easy. And at the end of this chapter, the party
+learns that the Hush is not the only one who can feel it.
+
+### Pacing the Mark
+
+Running Marks suggests one threshold every two or three sessions. The
+stone grows only when the bearer chooses to draw on it, so the player
+controls the pace. In this chapter, the bearer can use it in each fight.
+That is up to three points before the end of chapter 4. That is fine: it
+puts the first threshold in this chapter, and the second in chapter 6 or
+7.
+
+> **GM tip:** Do not push the player to use the stone. Offer it. In a hard
+> moment of a fight, the stone hums, and the bearer feels that it would
+> help. "The stone is cold in your hand. It wants to help. Do you let it?"
+> That is all. The choice is the story.
+
+### Power and encounters
+
+Running Marks says that a Mark before its crisis is worth about an
+Uncommon magic item. One Mark in a party of four or five does not change
+the encounters. Build them as written. If a second character takes a Mark
+later in the book, build encounters as if the party had one more
+character.
+
+### If your group does not use Marks
+
+Skip the Teach boxes. The stone still hums, still draws the Hush, and
+still burns near the Dawnfire. It gives no benefit and has no track. The
+story of this chapter works the same.
