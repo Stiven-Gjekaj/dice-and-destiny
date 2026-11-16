@@ -298,14 +298,14 @@ session. Then ask the table the three questions from Before You Start:
 - Are hidden Marks allowed? This chapter uses an **open** Mark. The
   player sees all of its rules. If your table loves secrets, you can keep
   the track behind your screen instead, and describe its signs.
-- Can the story put a Mark on a character with no choice? Here, the
-  player chooses who carries the stone. That is the choice.
+- Can the story put a Curse on a character with no choice? Here, the
+  players choose who carries the stone. That is the choice.
 - Which themes are off the table? This Mark is about cold, the dark, and
   a voice that wants something. If a player does not want that, the party
   can skip the Mark: see "If your group does not use Marks" below.
 
-> **Teach: Marks.** "A Mark is a lasting change to your character, from a
-> blessing, a curse, or a power you used. It gives you something and it
+> **Teach: Marks.** "A Mark is a lasting change to your character: a
+> blessing, a curse, or the taint of a Sin. It gives you something and it
 > takes something. It has a track from 0 to 5. Each time its trigger
 > happens, the track grows by 1, but only once each scene. At some
 > numbers, the Mark changes. At 5, you choose: give in to it, or break
@@ -332,15 +332,15 @@ track.
 
 {{handout: 04-the-black-stone}}
 
-The full rules of the stone are in its entry in the Treasures appendix.
-Here is the short form, to explain at the table.
+Here is the full entry of the stone. It is also in the Treasures appendix.
+The table after it is the short form, to explain at the table.
 
 {{treasure: The Black Stone}}
 
 | Part | The black stone |
 |---|---|
 | **Kind** | An open Curse. The bearer chose to carry the stone, but the stone chose what it does. |
-| **Benefit** | Darkvision 60 feet (or 30 feet more). Once each Short or Long Rest, as a Bonus Action, *draw on the stone* for 1 minute: your weapon attacks and cantrips deal an extra 1d6 Necrotic damage, and magical Darkness doesn't stop your Darkvision. |
+| **Benefit** | Darkvision 60 feet (or 30 feet more). Once between rests, as a Bonus Action, *draw on the stone* for 1 minute (you regain the use when you finish a Short or Long Rest): your weapon attacks and cantrips deal an extra 1d6 Necrotic damage, and magical Darkness doesn't stop your Darkvision. |
 | **Cost** | A member of the Hush within 1 mile knows the direction to you. You have Disadvantage on saves against the Charmed and Frightened conditions from the Hush. Touching a piece of the Dawnfire deals 1d6 Radiant damage to you. |
 | **Grows** | Each time you draw on the stone. |
 | **At 2** | You dream of cold crystal. Once between Long Rests, you can learn the direction to the nearest piece of the Dawnfire within 10 miles. The extra damage becomes 1d8. |
@@ -384,10 +384,12 @@ puts the first threshold in this chapter, and the second in chapter 6 or
 ### Power and encounters
 
 Running Marks says that a Mark before its crisis is worth about an
-Uncommon magic item. One Mark in a party of four or five does not change
-the encounters. Build them as written. If a second character takes a Mark
-later in the book, build encounters as if the party had one more
-character.
+Uncommon magic item, and that a Mark after the bearer gives in is worth
+about a Rare one. One Mark in a party does not change the encounters.
+Build them as written. If the party later carries more Marks than it has
+characters, build encounters as if the party had one more character. If
+two or more characters give in to a Mark, also use monsters of 1 CR more
+where you can.
 
 ### If your group does not use Marks
 
