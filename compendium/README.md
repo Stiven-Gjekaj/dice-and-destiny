@@ -101,7 +101,7 @@ A chapter puts a map in the book with the directive `{{map: id}}`.
 | `ostrey-then` | Ostrey, 300 years ago. A player handout. | 167 x 250 (page) |
 | `land-today` | The land of today. For the GM. | 167 x 250 (page) |
 | `act-1` | The Wolds and Saint Ivo's, chapters 2 to 5. | 167 x 120 (half page) |
-| `act-2` | The south, chapters 5 to 10. | 167 x 120 (half page) |
+| `act-2` | The south, chapters 5 to 10. | 167 x 250 (page) |
 
 ### Final maps
 
