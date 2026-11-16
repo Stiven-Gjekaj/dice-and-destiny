@@ -844,3 +844,89 @@ looks at Wick for a long moment.
 >
 > Wick does not say anything for a long time. Then: "It knew me. It didn't
 > know my name. I didn't know its name. But it knew me."
+
+---
+
+## Scene 8: Through the Festival (optional)
+
+**Goal:** a short, fast scene. Use it if Ilse escapes with the Lamp, or if
+your group wants one more fight with the Hush.
+
+### Option A: The Chase
+
+If Ilse got away with the Lamp, she runs through the festival to a boat at
+the Tey quay. The party chases her. Run a quick chase with these steps. Each
+step, each character who follows makes the check. A character who fails
+falls behind and must catch up with a Dash on the next step.
+
+| Step | What happens | Check | DC |
+|---|---|---|---|
+| 1 | The crowd on the Long Bridge. Hundreds of people and floating candles. | Strength (Athletics) or Dexterity (Acrobatics) | 13 |
+| 2 | Up a drainpipe onto the roofs of the Tey side. Ilse runs along the ridge. | Strength (Athletics) | 14 |
+| 3 | A jump over a narrow street, ten feet, over a line of paper lanterns. | Dexterity (Acrobatics) | 13 |
+| 4 | Down to the quay. Where did she go? | Wisdom (Perception) | 15 |
+
+If at least half of the characters succeed at step 4, they catch Ilse at the
+boat. She fights for 1 round, then gives up the Lamp and jumps into the
+harbor. If they fail, she gets away on the boat, and Gaunt has the Lamp (see
+below).
+
+The light of the Lamp makes it easy to follow. Give Advantage on the step 4
+check to a character who says "I look for the green light".
+
+### Option B: The Grey on the Bridge
+
+Whether the party has the Lamp or not, the Hush tries its own move on the
+same night. Six of them wait on the Long Bridge, where the crowd is thick.
+When the Lamp crosses the bridge (in the hands of the party, of Ilse, or of
+Perrin, who wants to take it to a safe place), the Hush puts out every lamp
+on the bridge at once.
+
+> All the lamps on the bridge go out together, as if someone blew on them.
+> The river of little candles below goes dark. In the sudden black, the only
+> light is the small green flame of the First Lamp. And around it, out of the
+> crowd, come people in grey. They don't shout. They don't run. They just
+> come, with their hands open, reaching for the flame.
+
+**Creatures:** one Hush Night Warden, two Cultist Fanatics, and four
+Cultists. The Cultists and the Fanatics are new members of the Hush, who
+joined in the city.
+
+**The budget:** for 4 characters of level 6, a Low fight is 4 × 600 = 2,400
+XP. The Hush Night Warden is 1,100 XP, the two Cultist Fanatics are 900 XP,
+and the four Cultists are 100 XP. The total is 2,100 XP, a Low fight. It is
+short and fast, after a long night.
+
+{{statblock: Hush Night Warden}}
+
+{{statblock: Cultist Fanatic}}
+
+{{statblock: Cultist}}
+
+**The goal of the Hush:** the Hush does not want to steal the Lamp. It wants
+to put it out. The cultists know that they can't, but they try anyway: a
+cultist who reaches the Lamp holds it in both hands and tries to choke the
+flame. The flame burns the cultist (2d6 Fire damage each turn) and does not
+go out. The Night Warden tries to throw the Lamp into the river. It does not
+go out there either, but the party must dive for it, 20 feet down, in the
+dark, under the bridge.
+
+**The crowd:** the bridge is full of people who panic. The bridge is
+Difficult Terrain for the whole fight.
+
+> **Scaling:** The budget for a Low fight at level 6 is 600 XP for each
+> character.
+>
+> - **3 characters (1,800 XP):** remove one Cultist Fanatic. The total is
+>   1,650 XP.
+> - **4 characters (2,400 XP):** use the fight as written. The total is
+>   2,100 XP.
+> - **5 characters (3,000 XP):** add one Cultist Fanatic and four Cultists.
+>   The total is 2,650 XP.
+> - **6 characters (3,600 XP):** add a second Hush Night Warden. The total
+>   is 3,200 XP.
+
+> **GM tip:** This is the first time the party sees a piece of the Dawnfire
+> resist the Hush. Make it big. The flame does not care about the dark. The
+> cultist who holds it screams and does not let go, until the party makes
+> them. A player should see this and think: "We need this thing."
