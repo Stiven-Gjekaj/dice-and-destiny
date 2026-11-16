@@ -505,9 +505,8 @@ Snuffers**.
 
 A captured Snuffer does not talk. A character who makes a DC 15 Charisma
 (Intimidation) or Charisma (Persuasion) check gets one answer in Hush
-Sign, with the hands: a circle, and a hand that closes over it. A
-character who knows the signs from chapter 3 reads it: "The light goes
-out." If Cade is there, he says the prayer for the dying over the dead
+Sign, with the hands: a circle, and a hand that closes over it. Nobody
+needs to know Hush Sign to read this one: "The light goes out." If Cade is there, he says the prayer for the dying over the dead
 Snuffers, every one of them. "They were somebody's children," he says.
 
 ---
@@ -781,7 +780,7 @@ When the Long Shadow fades, or when the Ember goes dark, the ring is very
 quiet. Then the stone speaks.
 
 > The stone in your hand hums, one long low note, and the voice comes. You
-> heard it once before, on the hill above the keep. It is deep and slow,
+> heard it before, at the keep. It is deep and slow,
 > like a tired man at the end of a long watch. It does not shout. It
 > speaks as if it sits next to you at a campfire.
 >
@@ -801,7 +800,7 @@ quiet. Then the stone speaks.
 > The stone is cold, and quiet. The haze in the sky is gone. The stars are
 > very bright.
 
-> **GM tip:** This is one of only three times that Malgrath speaks in Book
+> **GM tip:** This is one of the few times that Malgrath speaks in Book
 > One. Do not add to it. Do not explain it. Every word is true, and the
 > players cannot yet understand why. If a player asks Wick what he meant
 > by "the same watch", Wick says, too fast: "He means the long night. He
