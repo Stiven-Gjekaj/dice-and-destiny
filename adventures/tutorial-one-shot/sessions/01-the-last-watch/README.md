@@ -470,7 +470,7 @@ Go around the table. Remind each player what comes back:
 
 | Character | What comes back on a Short Rest |
 |-----------|---------------------------------|
-| The Shield | 1 use of Second Wind |
+| The Shield | 1 use of Second Wind. Hardy: roll each 1 on a Hit Point Die again, one time. |
 | The Light | Nothing at level 1. Spell slots need a Long Rest. |
 | The Spark | 1 spell slot (Arcane Recovery) |
 | The Shadow | Nothing special |
@@ -492,8 +492,35 @@ characters. Do not ask for a roll. Choose one:
 > **Teach: the game is not only fights.** "In this game, you can talk as your
 > character, also when nothing happens. This is often the best part."
 
-**To save time:** Skip the questions. Say "An hour passes," let the players
-roll Hit Point Dice, and go on.
+### Optional: Bonds
+
+Bonds are an optional system of Dice & Destiny. Use them only if you want to
+show the players more than the core rules. The player rules are in Bonds in
+the Player's Compendium. The GM advice is in Running Bonds in the Game
+Master's Compendium.
+
+> **Teach: Bonds (optional).** "Sometimes two characters become important to
+> each other. In this game, that can become a Bond. A Bond gives you a die
+> that you share with your partner."
+
+- **Form a Bond:** After the campfire talk, ask if two characters want a Bond.
+  Both players must agree. They choose the kind: Friend, Rival, Debt, or Oath.
+  They write the Bond and the partner's name on both sheets.
+- **The bond die:** A new Bond starts with a d4.
+- **Use it:** Once each Short Rest, either partner can spend the Bond. The use
+  is shared. The partners must be able to see or hear each other. They choose
+  one of these:
+  - Add the bond die to the partner's d20 Test.
+  - Take a Reaction when the partner takes damage. Reduce the damage by the
+    bond die plus your Proficiency Bonus.
+  - Use the special of the kind (for example, *I've Got You* for a Friend).
+- **Encounters:** A d4 Bond does not change the fights. Keep the scaling
+  table as it is.
+- **Solo play:** The player can form a Bond with Wick. You spend the Bond for
+  Wick.
+
+**To save time:** Skip the questions and the Bonds. Say "An hour passes,"
+let the players roll Hit Point Dice, and go on.
 
 ---
 
