@@ -1,5 +1,10 @@
-# Build the Dice & Destiny books and publish the PDFs as a GitHub release.
-# A push to main makes a preview pre-release. A tag edition-N makes a full release.
+# Build the Dice & Destiny books and publish the PDFs as GitHub releases.
+# A push to main makes a preview pre-release with all books.
+# A tag edition-N makes a release of the two Compendiums.
+# A tag dawnwatch-waking-N makes a release of The Dawnwatch, Book One: Waking.
+# Each product release also replaces the files of the rolling release of its product:
+# compendium-latest or dawnwatch-waking-latest. The README links to these files.
+# The workflow does not write commits.
 name: Release
 
 on:
@@ -7,10 +12,12 @@ on:
     branches: [main]
     paths:
       - "compendium/**"
-      - "!compendium/**/*.md"
+      - "!compendium/README.md"
+      - "adventures/**"
       - ".github/workflows/release.yml"
     tags:
       - "edition-*"
+      - "dawnwatch-waking-*"
   workflow_dispatch:
 
 permissions:
@@ -45,6 +52,12 @@ jobs:
       - name: Run the tests
         run: cd compendium && python3 -m pytest -q
 
+      # The design says that a Dawnwatch book is not released until each of its maps
+      # is a final map in compendium/maps/. A preview map is good enough for a preview release only.
+      - name: Check that the maps of Waking are final
+        if: startsWith(github.ref, 'refs/tags/dawnwatch-waking-')
+        run: cd compendium && PYTHONPATH=.:build python3 build/waking.py --check-maps
+
       - name: Build the books
         run: compendium/build.sh
 
@@ -71,15 +84,20 @@ jobs:
 
       # GitHub changes special characters in the names of release files.
       # Give each file a plain name, and keep the full title as its label.
+      # assets-compendium.txt and assets-waking.txt hold the files of each product.
       - name: Name the release files
         run: |
           mkdir -p release
-          : > assets.txt
-          for book in "Player's Compendium:players-compendium" "Game Master's Compendium:game-masters-compendium"; do
-            title="${book%%:*}"; slug="${book##*:}"; src="compendium/dist/Dice & Destiny - ${title}"
+          : > assets-compendium.txt
+          : > assets-waking.txt
+          for book in "Player's Compendium:players-compendium:compendium:The Player's Compendium" \
+                      "Game Master's Compendium:game-masters-compendium:compendium:The Game Master's Compendium" \
+                      "The Dawnwatch, Book One - Waking:the-dawnwatch-waking:waking:The Dawnwatch, Book One: Waking"; do
+            IFS=':' read -r title slug product label_title <<< "$book"
+            src="compendium/dist/Dice & Destiny - ${title}"
             while IFS='|' read -r kind file label; do
               cp "${src} - ${file}.pdf" "release/dice-and-destiny-${slug}-${kind}.pdf"
-              echo "release/dice-and-destiny-${slug}-${kind}.pdf#Dice & Destiny: The ${title}, ${label}" >> assets.txt
+              echo "release/dice-and-destiny-${slug}-${kind}.pdf#Dice & Destiny: ${label_title}, ${label}" >> "assets-${product}.txt"
             done <<'LIST'
           screen|Screen (color)|for reading on a screen (color, with links and bookmarks)
           home-print|Home Print (A4, B&W)|for printing at home (A4, black and white, with a front page)
@@ -88,17 +106,18 @@ jobs:
           paperback-cover|Paperback Cover (color, 3 mm bleed)|paperback cover (A4, color, with 3 mm bleed)
           LIST
           done
-          cat assets.txt
-          test "$(wc -l < assets.txt)" -eq 10
+          cat assets-compendium.txt assets-waking.txt
+          test "$(wc -l < assets-compendium.txt)" -eq 10
+          test "$(wc -l < assets-waking.txt)" -eq 5
 
       - name: Publish a preview release
         if: github.ref == 'refs/heads/main'
         run: |
           day=$(date -u +%Y.%m.%d)
           tag="preview-${day}-${GITHUB_SHA::7}"
-          mapfile -t assets < assets.txt
+          mapfile -t assets < <(cat assets-compendium.txt assets-waking.txt)
           gh release create "$tag" "${assets[@]}" \
-            --target "$GITHUB_SHA" --prerelease \
+            --target "$GITHUB_SHA" --prerelease --latest=false \
             --title "Dice & Destiny preview ${day} (${GITHUB_SHA::7})" \
             --notes "Preview build of commit ${GITHUB_SHA}. This is not an edition."
 
@@ -115,8 +134,42 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/edition-')
         run: |
           n="${GITHUB_REF_NAME#edition-}"
-          mapfile -t assets < assets.txt
+          mapfile -t assets < assets-compendium.txt
           gh release create "$GITHUB_REF_NAME" "${assets[@]}" \
             --verify-tag --latest \
             --title "Dice & Destiny: Edition ${n}" \
             --notes "Edition ${n} of Dice & Destiny."
+          echo "ROLLING=compendium-latest" >> "$GITHUB_ENV"
+          echo "PRODUCT=compendium" >> "$GITHUB_ENV"
+          echo "ROLLING_TITLE=Dice & Destiny: the newest edition" >> "$GITHUB_ENV"
+          echo "ROLLING_NOTES=The files of Edition ${n} (tag ${GITHUB_REF_NAME}). Each edition release replaces them." >> "$GITHUB_ENV"
+
+      # REQUIRES is the Compendium edition that the book needs. Change it when a book needs a new edition.
+      - name: Publish a Waking release
+        if: startsWith(github.ref, 'refs/tags/dawnwatch-waking-')
+        env:
+          REQUIRES: "Edition 2"
+        run: |
+          n="${GITHUB_REF_NAME#dawnwatch-waking-}"
+          mapfile -t assets < assets-waking.txt
+          gh release create "$GITHUB_REF_NAME" "${assets[@]}" \
+            --verify-tag --latest=false \
+            --title "The Dawnwatch, Book One: Waking, version ${n}" \
+            --notes "Version ${n} of The Dawnwatch, Book One: Waking. Requires ${REQUIRES} of the Dice & Destiny Compendiums."
+          echo "ROLLING=dawnwatch-waking-latest" >> "$GITHUB_ENV"
+          echo "PRODUCT=waking" >> "$GITHUB_ENV"
+          echo "ROLLING_TITLE=The Dawnwatch, Book One: Waking: the newest version" >> "$GITHUB_ENV"
+          echo "ROLLING_NOTES=The files of version ${n} (tag ${GITHUB_REF_NAME}). Requires ${REQUIRES} of the Dice & Destiny Compendiums. Each Waking release replaces them." >> "$GITHUB_ENV"
+
+      # The rolling release of a product keeps the same file names, so a link to a file always gives the newest version.
+      # The step makes the release if it does not exist, and replaces its files. It does not move a tag or write a commit.
+      - name: Replace the files of the rolling release
+        if: env.ROLLING != ''
+        run: |
+          mapfile -t assets < "assets-${PRODUCT}.txt"
+          if ! gh release view "$ROLLING" > /dev/null 2>&1; then
+            gh release create "$ROLLING" --target "$GITHUB_SHA" --latest=false \
+              --title "$ROLLING_TITLE" --notes "$ROLLING_NOTES"
+          fi
+          gh release upload "$ROLLING" "${assets[@]}" --clobber
+          gh release edit "$ROLLING" --title "$ROLLING_TITLE" --notes "$ROLLING_NOTES" --latest=false
