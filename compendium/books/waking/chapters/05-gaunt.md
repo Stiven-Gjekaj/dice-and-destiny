@@ -96,9 +96,9 @@ unmasks him.
 
 ### The two factions
 
-This chapter uses two factions from the Factions and Renown chapter of the
-Game Master's Compendium: **Gaunt** and **the Church of the Five
-Sleepers**. Their full entries are in Scene 3. Each character has a
+This chapter uses the rules of the Factions and Renown chapter of the
+Game Master's Compendium, with two factions of its own: **Gaunt** and
+**the Church of the Five Sleepers**. Their full entries are in Scene 3. Each character has a
 renown score with each faction, from 0 to 50.
 
 ### Renown from Act I
@@ -428,8 +428,8 @@ renown. Tell each player the score that they have from Act I (see "Renown
 from Act I", above). The players can see their scores at all times. Renown
 is never a secret.
 
-> **GM tip:** Use the table rule from the Compendium if your players want
-> it: Party Renown, one score for the whole party with each faction. It is
+> **GM tip:** Use the Party Renown option from the Compendium if your
+> players want it: one score for the whole party with each faction. It is
 > simpler. This book gives renown to each character, but it works the same
 > with one score for the party.
 
@@ -942,7 +942,7 @@ the Five, not the swords of the March." She reminds them, gently, of the
 rooms in the Abbey and of the Ember.
 
 > **Teach: the rival.** "Now you see why the rival rule matters. You can be
-> a Friend of Gaunt and a Keeper of the Vigil at the same time. But when you
+> a Friend of the March and a Keeper of the Vigil at the same time. But when you
 > reach the third rank with one of them, the other treats you as an enemy.
 > Most of you are at the first or second rank now. The big choice comes
 > later, in chapter 9. Think about it until then."
