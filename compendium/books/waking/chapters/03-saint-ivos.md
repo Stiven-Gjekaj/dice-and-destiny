@@ -495,13 +495,13 @@ the window shows its source: a bell, or a field of the flower.
 
 A small brass plate under the window says:
 
-> THE WINDOW OF THE SIGN. MADE IN THE YEAR 196 BY MASTER EDRIC GLASS, WHO
+> THE WINDOW OF THE SIGN. MADE IN THE YEAR 196 BY MASTER ULRIC GLASS, WHO
 > SAW THIS IN A DREAM ON THE LONGEST NIGHT, AND WAS TOLD: "MAKE THIS, FOR
 > ONE WHO SLEEPS."
 
 Nobody in the cathedral knows what the window means. The priests call it
 "the Mystery Window". Pilgrims pray to it for dreams. A character who asks
-a priest (or Cade) learns that Master Edric made only this window, and
+a priest (or Cade) learns that Master Ulric made only this window, and
 that he died the next winter. He wrote one more line in his notes: "It was
 a promise."
 
