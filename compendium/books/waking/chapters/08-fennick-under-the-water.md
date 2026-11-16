@@ -826,8 +826,9 @@ traveled the high passes. The family remembered.
 > as a cart stands on a stone platform. Rust covers it like red moss.
 
 The wheel works the gates. With the gates open, the water inside the dike is
-as high as the fen outside. If the party closes two of the gates and opens
-the drain gate under the church, the water in the church drops by 10 feet.
+as high as the fen outside. If the party turns the wheel, it closes the
+gates and opens the drain gate under the church, and the water in the church
+drops by 10 feet.
 That makes the fight in Scene 5 much easier (see there).
 
 Things in the sluice house have lived here a long time, and they do not want
@@ -1097,8 +1098,8 @@ mist. It is gone. If the all-clear has rung, each success counts as two.
 >
 > **If the party is in trouble:** Maud comes down from the tower. She is
 > bound to the tower, but the church is under the tower, and she decides
-> that counts. She takes the place of one Night Warden in the fight and
-> fights it, and she shouts techniques at the party.
+> that counts. She fights one Night Warden, so that the party does not have
+> to, and she shouts techniques at the party.
 
 ### When the candle is safe
 
@@ -1180,7 +1181,7 @@ What else Maud does, if the party has done these things:
 - **If the party found her family's house next to the Storm house (F6):**
   she asks, very quietly, what they saw. Whatever the party says, she
   nods. "Good. Good. I'll go see them now."
-- **If the Storm thread was the descendant in her squad:** she salutes the
+- **If the Storm thread was the descendant on the roll of her watch:** she salutes the
   Storm. "Your family stood the wall, Dawnwatch. Last on the wall. Same as
   you."
 
