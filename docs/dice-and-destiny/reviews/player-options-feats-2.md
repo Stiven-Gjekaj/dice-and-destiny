@@ -33,12 +33,12 @@ within 7 days; Second Sun is Concentration for 1 minute. Spells: 214 of
 | Fighting Style | Braced Shot Style | +2 to attack with Heavy ranged weapons and crossbows if you did not move | Archery (with a condition) |
 | Epic Boon | Boon of the Wilds | never lost, Beasts and Plants friendly, Speak with Animals and Plants at will | Boon of Truesight |
 | Epic Boon | Boon of the Deep Sea | breathe water, Swim Speed x2, Control Water 1/LR | Boon of Dimensional Travel |
-| Epic Boon | Boon of the Storm | Immunity to Lightning and Thunder, 2d10 to melee attackers | Boon of Energy Resistance-type |
+| Epic Boon | Boon of the Storm | Immunity to Lightning and Thunder, 2d10 to melee attackers | Boon of Combat Prowess (defensive) |
 | Epic Boon | Boon of Renown | Advantage on Charisma checks with common folk, one failed Charisma check becomes a success 1/LR | Boon of Fate |
 | Epic Boon | Boon of the Bulwark | Reaction: take an ally's hit within 10 ft, halved | Boon of Combat Prowess |
 | Epic Boon | Boon of the Quarry | track one creature for 24 hours, no Invisible against you, Advantage on attacks | Boon of Irresistible Offense |
 | Epic Boon | Boon of the Lorekeeper | all languages, Legend Lore 1/LR | Boon of Spell Recall |
-| Epic Boon | Boon of the Phoenix | return from death 1/LR with half HP, 6d6 Fire burst | Boon of the Night Spirit (strong survival) |
+| Epic Boon | Boon of the Phoenix | return from death 1/LR with half HP, 6d6 Fire burst | Boon of Recovery |
 | General | Seafarer | ship tools, Swim Speed, no Prone on a ship, faster ship | Skilled-type utility plus +1 |
 | General | Beast Bond | a CR 1/4 Beast companion that Dodges unless commanded with a Bonus Action | Ranger beast companion, much weaker |
 | General | Siege Engineer | double damage to objects and structures, build quickly | Grappler-level niche benefit |
