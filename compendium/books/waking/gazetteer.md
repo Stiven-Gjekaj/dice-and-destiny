@@ -69,27 +69,27 @@ way, and the dates do not agree.
 | About 270 | The days start to become shorter. The Hush starts, in secret. | Few people see it. The Lampwrights do. |
 | 300 | The Hush puts out the Dawnfire in the chapel of the keep. The crystal cracks. | "The Waking", but only after the characters are seen. |
 
-> **Secret (chapter 10):** The first three rows of the table are the
-> truth. Every person in the land believes the lie of row "0". The
-> characters believe it too. See How to Run This Book.
+> **Secret (chapter 10):** The column "What happened" is the truth. The
+> first four rows, from year -40 to year 0, are the twist of Book One.
+> Every person in the land believes the lie of row "0". The characters
+> believe it too. See How to Run This Book.
 
 ### Year 0: the last night
 
-The war of the Unlit King ended with no battle. Steward Haskel Orme of
-Dawnwatch Keep found a way to put Garrath to sleep, in crystal, in a vault
-under Kingsholm. Then he used the same spell on the last five knights of
-the Dawnwatch, under the keep, so that they would wake if Garrath ever
-did. On the last night, he made Wick.
+The history of Ostrey says that the army of the king pushed the demon
+king back into the dark, beyond the Grey Teeth, and that the last five
+knights of the Dawnwatch lay down to sleep under the keep, to wait for
+his return. On the last night, Steward Haskel Orme of Dawnwatch Keep made
+Wick.
 
-Orme wrote the history of the war himself. The king and a handful of
-lords knew the truth, and they all agreed to the lie. They told the
-kingdom that the army of Ostrey pushed the demon king back into the dark,
-beyond the Grey Teeth. Within one lifetime, the lie was the only story
-left.
-
-> **Secret (chapter 10):** The vault under Kingsholm. The name "Mal
-> Garrath", the bad Garrath, that became "Malgrath". Orme's last letter
-> tells it all.
+> **Secret (chapter 10):** The war of the Unlit King ended with no
+> battle. Orme found a way to put Garrath to sleep, in crystal, in a vault
+> under Kingsholm. Then he used the same spell on the last five knights of
+> the Dawnwatch, so that they would wake if Garrath ever did. Orme wrote
+> the history of the war himself. The king and a handful of lords knew the
+> truth, and they all agreed to the lie. Within one lifetime, the lie was
+> the only story left. The name "Mal Garrath", the bad Garrath, became
+> "Malgrath". Orme's last letter tells it all.
 
 ### Years 0 to 100: the Bright Years
 
@@ -115,7 +115,7 @@ sleepers.
 > Garrath asleep. Orme says so in his first letters, in his closed study
 > at the keep.
 
-> **Secret (Book One, never told):** Wick is the last true piece of the
+> **Secret (Book Two):** Wick is the last true piece of the
 > Dawnfire. Orme lit him from it on the last night. Nobody in Book One
 > knows this, Wick included.
 
@@ -227,10 +227,9 @@ the crack in the roof of the chapel, put out the Dawnfire, and left
 hounds of cinder behind to guard the dark (the Brimstone Pups of the
 tutorial). Under the keep, the crystal cracked.
 
-On the same morning, under Kingsholm, the other crystal cracked too.
-
-> **Secret (chapter 10):** Garrath woke on the same morning as the
-> Dawnwatch, and left the vault. When the party reaches it in chapter 10,
+> **Secret (chapter 10):** On the same morning, under Kingsholm, the other
+> crystal cracked too. Garrath woke on the same morning as the Dawnwatch,
+> and left the vault. When the party reaches it in chapter 10,
 > the crystal is empty. The black cloud that the characters see from the
 > Dawn Door at the end of the tutorial is the first sign of him in the
 > north.
@@ -515,13 +514,16 @@ What is in the ruins:
   name on the base is cut away too.
 - **The deep cellars.** The old city has cellars, wine vaults, and drains
   under the whole of the palace hill. Some of them go down a long way.
-- **The camp of the Hush.** In Book One, the Hush hides in Kingsholm. Its
-  people come and go at night, with no lights. The scavengers who know
-  this have stopped coming.
+- **Grey folk.** Since the Waking, people in grey come and go in the
+  ruins at night, with no lights. The scavengers who saw them have stopped
+  coming.
 
-**What the party finds.** In chapter 10, the party attacks the Hush in
-Kingsholm and breaks it. Under the city, it finds the vault where Malgrath
-slept.
+**What the party finds.** In chapter 10, the end of Book One.
+
+> **Secret (chapter 9):** The grey folk are the Hush. It gathers in
+> Kingsholm, at the place where its king slept. A prisoner tells the
+> party in chapter 9. In chapter 10, the party attacks the Hush in
+> Kingsholm and breaks it.
 
 > **Secret (chapter 10):** The vault under the palace hill held the
 > crystal of Garrath. The crystal is empty, and the badge of the Dawnwatch
@@ -1021,7 +1023,7 @@ on their side. The fourth wants the Dawnwatch asleep again, or dead.
 | Gaunt | Stannard | Marshal Ide Gauntry | Living banners for its army. |
 | The Church of the Five Sleepers | Saint Ivo's | Abbess Merrow | Living saints for its altar. |
 | Corrantey and the Lampwrights | Corrantey | The council of guilds; Perrin Hale | A good deal, and the secret of Wick. |
-| The Hush | Hidden; Kell, then Kingsholm | Mother Sallow | The black stone. Then the dark. |
+| The Hush | Hidden | Mother Sallow | The black stone. Then the dark. |
 
 ### How the powers see each other
 
@@ -1303,8 +1305,7 @@ stones are his.
   She speaks softly, like a nurse at a sickbed, and she believes every
   word that she says. She is not cruel. She is sure. She thinks that the
   Dawnwatch are good people who sleep on the wrong side, and she would
-  rather convert them than kill them. She escapes in chapter 4 and returns
-  in chapters 7 and 10.
+  rather convert them than kill them.
 - **Osk.** The enforcer of Mother Sallow. A grey giant of a man, eight feet
   tall, with a shaved head and a sewn-up mouth. Nobody knows if the Hush
   did it, or if he did it himself. He stands between Mother Sallow and
@@ -1330,7 +1331,7 @@ Lantern Street: any of them can be the Hush.
 
 To the Hush, the Dawnwatch are the jailers of the king: five soldiers of
 the lie, woken by mistake. The Hush wants the black stone that the party
-carries, and it can feel where the stone is.
+carries.
 
 The Hush does not attack without a reason. It watches. It sends a member
 to talk, softly, about the short days and the tired sun. It steals at
