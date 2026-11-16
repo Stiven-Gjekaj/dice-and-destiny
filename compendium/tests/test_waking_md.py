@@ -94,3 +94,13 @@ def test_slug():
 
 def test_the_word_secret_with_no_chapter_is_not_a_secret_box():
     assert '<blockquote class="read-aloud">' in wm.render("> **Secret** door!\n", {})
+
+
+def test_struck_out_text_in_both_forms():
+    for line in ("> ~~The chapel of the keep.~~ Done.\n", "> <del>The chapel of the keep.</del> Done.\n"):
+        h = wm.render(line, {})
+        assert "<del>The chapel of the keep.</del> Done." in h and "~~" not in h, line
+
+
+def test_a_single_tilde_stays():
+    assert "about ~5 miles" in wm.render("about ~5 miles\n", {})

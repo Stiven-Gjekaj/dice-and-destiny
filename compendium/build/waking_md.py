@@ -22,6 +22,8 @@ DIRECTIVE = re.compile(r"^[ \t]*\{\{\s*(statblock|treasure|map|handout)\s*:\s*(.
 TOKEN = "WAKINGDIRECTIVE{}X"
 # A link to another Markdown file or to an anchor does not work in a book. Keep the text only.
 LOCAL_LINK = re.compile(r"\[([^\]]+)\]\((?!https?:|mailto:)[^)]*\)")
+# Text between two pairs of tildes is struck out, as in GitHub Markdown. Inline <del> also works.
+STRIKE = re.compile(r"~~(?=\S)(.+?)(?<=\S)~~")
 GM_LABEL = re.compile(r"<blockquote>\s*<p>\s*<strong>\s*(GM tip|Teach|Thread \(|Scaling|Secret \()")
 GM_KIND = {"GM tip": "tip", "Teach": "teach", "Thread (": "thread", "Scaling": "scaling", "Secret (": "secret"}
 
@@ -75,6 +77,7 @@ def render(text, handlers, prefix=""):
         return "\n\n" + TOKEN.format(len(found) - 1) + "\n\n"
     text = DIRECTIVE.sub(keep, text)
     text = LOCAL_LINK.sub(r"\1", text)
+    text = STRIKE.sub(r"<del>\1</del>", text)
     h = mdlib.markdown(text, extensions=["tables", "sane_lists"])
     h = classify_quotes(h)
     h = number_headings(h, prefix)
