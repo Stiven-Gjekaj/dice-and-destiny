@@ -534,8 +534,8 @@ to pray before a long march. In the chapel was a bowl of stone with a
 small fire in it that never went out.
 
 That fire was a piece of the Dawnfire. Ostrey gave it to Kell, as it gave
-the Ember to the shrine of Saint Ivo. In the Grey Winter, two hundred years
-ago, the shrine was empty, and the fire went out. Nobody knows how. The
+the Ember to the shrine of Saint Ivo. In the Broken Years, after the Grey
+Winter, the shrine was empty, and the fire went out. Nobody knows how. The
 stones have been cold since then.
 
 Mother Sallow chose Kell for this reason. "A dead bowl drinks a living
@@ -853,8 +853,8 @@ Corrantey, and the church in drowned Fennick. These are the hooks of Act
 II.
 
 > **GM tip:** Let the players read the list and work it out. The keep: the
-> fire in the chapel of the tutorial, out. Kell: dead for two hundred
-> years. Saint Ivo: the Ember, which they just saved. Two more are left.
+> fire in the chapel of the tutorial, out. Kell: dead since the Broken
+> Years. Saint Ivo: the Ember, which they just saved. Two more are left.
 > Wick says: "If the fire in the chapel kept him asleep, and this one, and
 > those ones... how many are left before he wakes?" Nobody knows. That is
 > the question for Act II.

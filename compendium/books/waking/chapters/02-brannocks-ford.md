@@ -1096,7 +1096,8 @@ chapter 3.
 > green valley, where tired soldiers stopped for a night. It is gone. In
 > its place is a town of a thousand roofs, inside a wall of yellow stone.
 > In the middle of the town stands a church so big that the town looks
-> small around it. Its tower has a gold sun on top. Lamps burn in every
+> small around it. It has five towers, and the tallest has a gold sun on
+> top. Lamps burn in every
 > window. Bells ring for the evening prayer, and the sound comes up the
 > hill like water.
 >

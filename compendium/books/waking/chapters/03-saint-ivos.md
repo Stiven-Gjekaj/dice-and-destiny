@@ -4,7 +4,7 @@
 |---|---|
 | **Levels** | 3 to 4 |
 | **Time at the table** | About 2 to 3 sessions (8 to 12 hours) |
-| **Places** | The town of Saint Ivo's: the Cathedral of the Five, the old shrine under it, the Relic Market, the Players' Yard, the Abbey |
+| **Places** | The town of Saint Ivo's: the Church of the Five, the old shrine under it, the Relic Market, the Players' Yard, the Abbey |
 | **System that starts** | None. This chapter is social. |
 | **Thread** | The Light: a sign from a god |
 | **People** | Abbess Merrow, who wants the party as living saints; Brother Cade, who thinks that they are impostors; Garret Pell, the leader of a troupe of actors who say that they are the Dawnwatch |
@@ -80,8 +80,8 @@ of paper that the players can see.
 
 ### The town of Saint Ivo's
 
-Saint Ivo's is a town of about five thousand people inside a wall of yellow
-stone. During the feast, it holds twice that many. Three hundred years ago,
+Saint Ivo's is a town of about four thousand people inside a wall of yellow
+stone. During the feast, it holds three times that many. Three hundred years ago,
 it was the shrine of Saint Ivo, a healer of the Morning Flame: a chapel, a
 well, and a guesthouse in a green valley. The Dawnwatch stopped here many
 times. Now the shrine is under the floor of the cathedral, and the town
@@ -89,7 +89,7 @@ grew around it.
 
 | Place | What it is |
 |---|---|
-| **The Cathedral of the Five** | A church as big as a castle, built over the old shrine. Its tower has a gold sun on top. Inside, the five Sleepers lie in painted stone, with the wrong faces. The Ember of Saint Ivo lives on the high altar, in a cage of gold. |
+| **The Church of the Five** | The cathedral: a church as big as a castle, built over the old shrine. It has five towers, and the tallest has a gold sun on top. Inside, the five Sleepers lie in painted stone, with the wrong faces. The Ember of Saint Ivo lives on the high altar, in a cage of gold. |
 | **The old shrine** | Under the cathedral. The old chapel, the well of Saint Ivo, and the bones of the saints of the Church. Most of it is closed. |
 | **The Abbey** | The house of the Abbess and the priests, next to the cathedral. Brother Cade has a small room full of books at the top of it. |
 | **The Relic Market** | A square of stalls that sell holy things: candles, badges, little sleeping figures of wood, and bones. Dace has a stall here. |

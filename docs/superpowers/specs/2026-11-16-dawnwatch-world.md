@@ -199,7 +199,24 @@ The gazetteer sets these facts. Each writer uses them.
 - **The goliath name for the Unlit King:** "the one who ate the fire". A
   hint for chapter 10.
 - **Kell** had its own piece of the Dawnfire after the war. It went out in
-  the Broken Years.
+  the Broken Years. The Hush use its dead bowl for the rite that puts out
+  a living piece (chapter 4).
+- **The song:** "The Five at the Gate" is sung on the pilgrim road. In it,
+  seven heroes hold the gate at Ashby Field, and they sleep under Saint
+  Ivo's. Almost every fact is wrong (chapter 2 handout).
+- **Brannock's Ford:** a village of about two hundred people. Brannock, a
+  ferryman, built the first house about 150 years ago, after the bridge of
+  Ostrey fell. The inn is the Ferry Bell. The old barrow of the road
+  wardens of Ostrey is on Ferry Hill, a mile north.
+- **Saint Ivo's:** a town of about four thousand people inside a wall of
+  yellow stone. The Church of the Five stands over the old shrine. The
+  Ember lives on its high altar. The Feast of the Sleepers lasts three
+  days, and ends with the Waking Service, when the Abbess carries the
+  Ember out to the people. Pell's Players perform in the Players' Yard of
+  the inn called the Lamb and Lantern.
+- **The Ember glows:** for two hundred years, the Ember was a dull red
+  coal. On the night that the Dawnwatch woke, it started to burn gold
+  (chapter 3).
 - **Sergeant Maud Kettle** was a sergeant of the last garrison of the king
   in Fennick, in the Grey Winter. She drowned in the flood of year 100.
 - **The keep after the sleep:** later stewards held it until the Grey
@@ -256,53 +273,6 @@ the Dawnwatch know it. Each writer uses them.
   an elf scholar. The Shadow was a thief in Kingsholm. The Storm was a
   goliath guide in the passes of the Grey Teeth.
 
-## Daily life today
-
-These facts are the land of year 300. They are the opposite of the facts
-of old Ostrey above. Each writer uses them.
-
-- **The greeting:** "Wake well." The answer is "And see the morning." The
-  greeting comes from the Five Sleepers.
-- **The coins:** thin new coins from Corrantey (a ship) and Gaunt (a
-  gauntlet). The rules count them in GP, SP, and CP. An old gold sun of
-  Ostrey is an antique. A collector pays 5 GP for one.
-- **The Church:** the priests of the Five Sleepers wear grey and blue. The
-  Morning Flame is now a saint's day, not a god of its own.
-- **The Five Sleepers in art:** five figures in white with gold halos,
-  asleep in a row. Their faces are all wrong.
-- **The song:** "The Five at the Gate" is sung on the pilgrim road. In it,
-  seven heroes hold the gate at Ashby Field, and they sleep under Saint
-  Ivo's. Almost every fact is wrong (chapter 2 handout).
-- **Brannock's Ford:** a village of about two hundred people. Brannock, a
-  ferryman, built the first house about 150 years ago, after the bridge of
-  Ostrey fell. The inn is the Ferry Bell. The old barrow of the road
-  wardens of Ostrey is on Ferry Hill, a mile north.
-
-- **Saint Ivo's:** a town of about five thousand people inside a wall of
-  yellow stone. The Cathedral of the Five stands over the old shrine. The
-  Ember lives on its high altar. The Feast of the Sleepers lasts three
-  days, and ends with the Waking Service, when the Abbess carries the
-  Ember out to the people. Pell's Players perform in the Players' Yard of
-  the inn called the Lamb and Lantern.
-- **Kell today:** the ring and the roofless chapel stand on a bare hill.
-  The shrine kept a piece of the Dawnfire. It went out in the Grey Winter,
-  and the stones have been cold since then. The Hush use its dead bowl for
-  the rite that puts out a living piece (chapter 4).
-- **The Ember glows:** for two hundred years, the Ember was a dull red
-  coal. On the night that the Dawnwatch woke, it started to burn gold
-  (chapter 3).
-
-## The creatures of Book One
-
-The statblocks are in `compendium/content/dawnwatch/creatures_*.py`.
-
-| Name | What it is | CR | Chapters |
-|---|---|---|---|
-| Hush Snuffer | The first tier of the Hush. A cultist with a brass snuffer on a pole. | 1/2 | 3, 4 |
-| Hush Shroud | The second tier of the Hush. A priest in a grey veil who prays in silence. | 2 | 3, 4, 5 |
-| Hush Lightless | The third tier of the Hush. A warrior who drank the black water at the rite of the cult. | 4 | 4, 5 |
-| The Long Shadow | The shadow of the Unlit King. Mother Sallow calls it through the black stone at Kell. The creature at the end of Act I. | 5 | 4 |
-
 ## The people of Book One
 
 Each writer uses these names. Add a new person here before a chapter uses
@@ -344,6 +314,10 @@ tells which lane owns the creature.
 
 | Name | What it is | Chapters | File |
 |---|---|---|---|
+| Hush Snuffer | The first tier of the Hush. A cultist with a brass snuffer on a pole. CR 1/2. | 3, 4 | `creatures_act1.py` |
+| Hush Shroud | The second tier of the Hush. A priest in a grey veil who prays in silence. CR 2. | 3, 4, 5 | `creatures_act1.py` |
+| Hush Lightless | The third tier of the Hush. A warrior who drank the black water at the rite of the cult. CR 4. | 4, 5 | `creatures_act1.py` |
+| The Long Shadow | The shadow of the Unlit King. Mother Sallow calls it through the black stone at Kell. The creature at the end of Act I. CR 5. | 4 | `creatures_act1.py` |
 | Hush Night Warden | A soldier of the Hush in grey mail. CR 4. | 7, 9, 10 | `creatures_act2.py` |
 | Hush Grey Choir | A crowd of Hush singers that acts as one swarm. CR 6. | 7, 9, 10 | `creatures_act2.py` |
 | Hush Dusk Priest | A priest of the Hush who puts out lights. CR 7. | 7, 8, 10 | `creatures_act2.py` |
