@@ -309,9 +309,10 @@ the person in more than one scene.
 | Garret Pell | The leader of a troupe of actors who play the Dawnwatch. | 3 | No |
 | Captain Joss Marrick | The captain of the honor guard of Gaunt at the feast of Saint Ivo's. He reports to the Marshal and makes the party her offer. | 3, 5 | No |
 | Tilly Ashe | An actress of Pell's Players. She plays the Shadow. | 3 | No |
-| Mother Sallow | The leader of the Hush. She watches the Waking Service at the end of chapter 3, with no candle. | 3, 4, 7, 10 | Yes |
+| Mother Sallow | The leader of the Hush. She watches the Waking Service at the end of chapter 3, with no candle. Chapter 10 uses a stronger statblock, "Mother Sallow, Unbound" (`people_act2.py`). | 3, 4, 7, 10 | Yes |
 | Osk | The enforcer of Mother Sallow. Big, and he does not speak. | 4, 7 | Yes |
-| Marshal Ide Gauntry | The ruler of Gaunt. | 5, 9 | Yes |
+| Marshal Ide Gauntry | The ruler of Gaunt. Her statblock is in `people_act2.py`. | 5, 9 | Yes |
+| Captain Ilse Varro | The spymaster of Gaunt in Corrantey. She works for Marshal Gauntry. | 6, 9 | Yes |
 | Tobin Gauntry | Her son. He does not want a war. | 5, 9 | No |
 | Magister Aud Brennet | The first war mage of Gaunt. She teaches a "Dawnwatch spell" that is wrong. | 5 | No |
 | Perrin Hale | The master of the Lampwrights in Corrantey. | 6, 7 | No |
