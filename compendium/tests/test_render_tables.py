@@ -1,7 +1,7 @@
 """Tests for render_tables. Each test builds its own table sets."""
 import pytest
 
-from render_tables import set_errors, set_html, sets_html, table_html
+from render_tables import is_compact, set_errors, set_html, sets_html, table_html
 
 
 def make_set(**changes):
@@ -74,3 +74,24 @@ def test_sets_html_groups_by_theme_in_order_and_sorts_by_name():
 
 def test_sets_html_is_empty_with_no_sets():
     assert sets_html([]) == ""
+
+
+def test_a_long_table_of_short_entries_is_compact_and_a_short_or_wordy_one_is_not():
+    short = [f"Name {i}" for i in range(1, 11)]
+    assert is_compact(short)
+    assert not is_compact(short[:9])
+    assert not is_compact(short[:9] + ["A name of more than three words"])
+
+
+def test_a_compact_table_has_two_results_in_each_row_and_reads_down_each_column():
+    entries = [f"N{i}" for i in range(1, 12)]
+    out = table_html("d12", "Names", entries + ["N12"])
+    assert "two-col" in out
+    assert out.count("<tr><td") == 6
+    assert '<tr><td class="c">1</td><td>N1</td><td class="c">7</td><td>N7</td></tr>' in out
+    assert '<tr><td class="c">6</td><td>N6</td><td class="c">12</td><td>N12</td></tr>' in out
+
+
+def test_a_compact_table_with_an_odd_count_leaves_the_last_cell_empty():
+    out = table_html("d12", "Names", [f"N{i}" for i in range(1, 12)])
+    assert '<td class="c">6</td><td>N6</td><td></td><td></td></tr>' in out

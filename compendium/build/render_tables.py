@@ -48,8 +48,30 @@ def _stop_on(errors):
         raise ValueError("; ".join(errors))
 
 
+# A table with at least this many entries, each of at most SHORT_WORDS words, prints in two columns.
+COMPACT_MIN = 10
+SHORT_WORDS = 3
+
+
+def is_compact(entries):
+    """True if a table is long and all of its entries are short."""
+    return len(entries) >= COMPACT_MIN and all(len(e.split()) <= SHORT_WORDS for e in entries)
+
+
 def table_html(die, title, entries):
-    """One random table: a caption with the die and the title, then one row for each result."""
+    """One random table: a caption with the die and the title, then one row for each result.
+
+    A long table of short entries prints in two columns: results 1 to n/2 on the left,
+    and the other results on the right, so that the order reads down each column.
+    """
+    if is_compact(entries):
+        half = (len(entries) + 1) // 2
+        cells = [f'<td class="c">{i}</td><td>{feature_text(e)}</td>' for i, e in enumerate(entries, 1)]
+        right = cells[half:] + ['<td></td><td></td>'] * (2 * half - len(cells))
+        rows = "".join(f"<tr>{a}{b}</tr>" for a, b in zip(cells[:half], right))
+        head = f'<th class="c">{die}</th><th>Result</th>' * 2
+        return (f'<table class="compact roll-table two-col"><caption>{die} {E(title)}</caption>'
+                f'<thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table>')
     rows = "".join(f'<tr><td class="c">{i}</td><td>{feature_text(e)}</td></tr>' for i, e in enumerate(entries, 1))
     return (f'<table class="compact roll-table"><caption>{die} {E(title)}</caption>'
             f'<thead><tr><th class="c">{die}</th><th>Result</th></tr></thead><tbody>{rows}</tbody></table>')
