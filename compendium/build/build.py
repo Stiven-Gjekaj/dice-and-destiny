@@ -186,6 +186,7 @@ def expand(name):
     s = class_marks(s)
     s = box_icons(s)
     s = comp.no_em_dash(s)
+    s = __import__("keep_tables").keep_small_tables(s)
     TOC.sort(key=lambda t: s.index(t[2]))
     return s
 

@@ -156,3 +156,6 @@ table.downtime-table { break-inside: avoid; }
 
 /* keep the name and the summary of a table set with its first table */
 .compendium .table-set .ts-head { break-inside: avoid; }
+
+/* keep each small table in one piece (the build marks it with "keep") */
+table.keep, div.keep { break-inside: avoid; }
