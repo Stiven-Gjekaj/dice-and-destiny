@@ -15,4 +15,6 @@ cp player_cover.pdf "dist/Dice & Destiny - Player's Compendium - Cover (color, w
 cp gm_cover.pdf "dist/Dice & Destiny - Game Master's Compendium - Cover (color, with bleed).pdf"
 cp player_cover_hardcover.pdf "dist/Dice & Destiny - Player's Compendium - Hardcover Cover (Lulu casewrap).pdf"
 cp gm_cover_hardcover.pdf "dist/Dice & Destiny - Game Master's Compendium - Hardcover Cover (Lulu casewrap).pdf"
+
+python3 build/check_fonts.py dist/*.pdf
 echo "Done. PDFs are in dist/"
