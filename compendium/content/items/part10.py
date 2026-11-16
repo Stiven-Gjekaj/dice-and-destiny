@@ -1,0 +1,52 @@
+# Edition 2, items batch 7: armor, potions, rods, staffs, ammunition, and scrolls, with spells that no item used before.
+# (name, category, rarity, attunement, text)
+A = "Requires Attunement"
+AS = "Requires Attunement by a Spellcaster"
+ITEMS = [
+# ================= ARMOR =================
+("Mummer's Motley", "Armor (Padded)", "Common", None, "As a Bonus Action, you can make this padded armor look like any costume or set of clothes you have seen. It still weighs and works the same."),
+("Scale Mail of the River Pike", "Armor (Scale Mail)", "Uncommon", None, "You have a +1 bonus to AC while wearing this armor. While you wear it, you have a Swim Speed equal to your Speed, and the armor doesn't drag you under water."),
+("Bramble Buckler", "Armor (Shield)", "Uncommon", None, "Thorny vines grow around the rim of this wooden shield. When a creature within 5 feet of you misses you with a melee attack, it takes 1d4 Piercing damage."),
+("Chain Shirt of the Hot Temper", "Armor (Chain Shirt)", "Rare", A, "You have a +1 bonus to AC while wearing this armor. It has 3 charges and regains all expended charges daily at dawn. While you wear it, you can expend 1 charge to cast Hellish Rebuke (save DC 15) from it."),
+("Ring Mail of the Turning Weather", "Armor (Ring Mail)", "Rare", A, "You have a +1 bonus to AC while wearing this armor. Once per dawn, you can cast Protection from Energy from it, targeting only yourself. You choose the damage type when you use it. The effect lasts 1 hour and doesn't require Concentration while you wear the armor."),
+("Hide of the Great Elk", "Armor (Hide)", "Rare", A, "You have a +2 bonus to AC while wearing this armor. While you wear it, you can cast Jump from it at will, targeting only yourself."),
+("Splint of the Sanctified Guard", "Armor (Splint)", "Very Rare", A, "You have a +2 bonus to AC while wearing this armor, and you have Resistance to Necrotic damage. Once per dawn, you can cast Death Ward from it, targeting only yourself."),
+("Studded Leather of the Unseen", "Armor (Studded Leather)", "Very Rare", A, "You have a +2 bonus to AC while wearing this armor. Once per dawn, you can cast Greater Invisibility from it, targeting only yourself."),
+("Plate of the Shining Globe", "Armor (Plate)", "Legendary", A, "You have a +3 bonus to AC while wearing this armor. Once per dawn, you can cast Globe of Invulnerability from it, without material components."),
+("Breastplate of the Second Heart", "Armor (Breastplate)", "Legendary", A, "You have a +3 bonus to AC while wearing this armor. Once per dawn, you can cast Regenerate from it, targeting only yourself and without material components."),
+# ================= POTIONS =================
+("Draught of the Merry Voice", "Potion", "Common", None, "For 1 hour after you drink this draught, your singing voice is clear and lovely, and you can hold any note for as long as you can hold your breath."),
+("Potion of Warm Hands", "Potion", "Common", None, "For 1 hour after you drink this potion, you can make a harmless flame dance in your palm as a Bonus Action. It sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet, and it keeps your hands warm."),
+("Potion of the Borrowed Shape", "Potion", "Uncommon", None, "When you drink this potion, you gain the effect of the Alter Self spell for 1 hour. The effect doesn't require Concentration."),
+("Potion of Spider Feet", "Potion", "Uncommon", None, "For 1 hour after you drink this potion, you can climb walls and ceilings as if under the Spider Climb spell."),
+("Elixir of the Bright Talent", "Potion", "Uncommon", None, "When you drink this elixir, choose Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma. For 1 hour, you have Advantage on ability checks that use the chosen ability."),
+("Potion of the Broken Hex", "Potion", "Rare", None, "When you drink this potion, you gain the benefit of the Remove Curse spell. For 24 hours afterward, you have Advantage on saving throws against curses."),
+("Potion of the Wavewalker", "Potion", "Rare", None, "For 8 hours after you drink this potion, you can breathe underwater, and you can walk on liquid surfaces as if they were solid ground."),
+("Potion of the Wind Road", "Potion", "Very Rare", None, "When you drink this potion, you gain the effect of the Wind Walk spell for up to 8 hours, targeting only yourself."),
+("Potion of the Clear Path", "Potion", "Very Rare", None, "When you drink this potion, name a specific place on the same plane of existence that you know of. For 1 day, you know the shortest and most direct route to it, as if under the Find the Path spell, and the effect doesn't require Concentration."),
+("Potion of the Last Light", "Potion", "Legendary", None, "When you drink this potion, you regain all your Hit Points, and the Charmed, Frightened, Paralyzed, Poisoned, and Stunned conditions end on you. If you have the Prone condition, you can stand up as part of drinking the potion."),
+# ================= RODS =================
+("Rod of the Cautious Step", "Rod", "Uncommon", None, "Once per dawn, you can cast Find Traps from this rod. While you hold it, you also have Advantage on Dexterity saving throws against traps."),
+("Rod of Sending", "Rod", "Rare", A, "This rod has 3 charges and regains all expended charges daily at dawn. While holding it, you can expend 1 charge to cast Sending from it."),
+("Rod of the Iron Hand", "Rod", "Very Rare", A, "Once per dawn, you can cast Arcane Hand from this rod. The hand looks like a gauntlet of black iron."),
+("Rod of Second Thoughts", "Rod", "Very Rare", A, "Once per dawn, you can cast Modify Memory (save DC 17) from this rod."),
+("Rod of the Upside-Down Sky", "Rod", "Legendary", A, "Once per dawn, you can cast Reverse Gravity (save DC 19) from this rod, without material components."),
+# ================= STAFFS =================
+("Staff of the Smith's Apprentice", "Staff", "Uncommon", AS, "This staff can be wielded as a Quarterstaff. It has 4 charges and regains 1d4 expended charges daily at dawn. While holding it, you can expend 2 charges to cast Heat Metal (save DC 13) or Magic Weapon from it."),
+("Staff of the Moonlit Grove", "Staff", "Rare", AS, "This pale staff can be wielded as a Quarterstaff. It has 7 charges and regains 1d6 + 1 expended charges daily at dawn. While holding it, you can expend charges to cast one of the following spells from it (save DC 15): Moonbeam (2 charges), Conjure Animals (3 charges), or Water Walk (3 charges)."),
+("Staff of Old Lore", "Staff", "Very Rare", AS, "This staff is a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. It has 10 charges and regains 1d6 + 4 expended charges daily at dawn. While holding it, you can expend charges to cast one of the following spells from it, without material components: Augury (2 charges), Legend Lore (5 charges), or Contact Other Plane (5 charges)."),
+("Staff of the Wild Elements", "Staff", "Very Rare", AS, "This staff is a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. It has 10 charges and regains 1d6 + 4 expended charges daily at dawn. While holding it, you can expend charges to cast one of the following spells from it (save DC 17): Fireball (3 charges), Conjure Minor Elementals (4 charges), or Vitriolic Sphere (4 charges)."),
+("Staff of the Mirage", "Staff", "Legendary", AS, "This staff is a magic Quarterstaff that grants a +3 bonus to attack rolls and damage rolls made with it. It has 20 charges and regains 2d8 + 4 expended charges daily at dawn. While holding it, you can expend charges to cast one of the following spells from it (save DC 18), without material components: Mislead (5 charges), Programmed Illusion (6 charges), or Mirage Arcane (7 charges)."),
+# ================= AMMUNITION =================
+("Whispering Bolt", "Ammunition", "Common", None, "When you nock this bolt, you can whisper a message of up to ten words to it. When the bolt lands, the message repeats once, loud enough to be heard 30 feet away. Found in bundles of 1d4 + 1."),
+("Frostshard Arrow", "Ammunition", "Uncommon", None, "On a hit, the arrow shatters into shards of ice. The target and each creature within 5 feet of it make a DC 13 Dexterity save, taking 2d6 Cold damage on a failed save or half as much on a successful one. Found in bundles of 1d4."),
+("Arrow of the Red Iron", "Ammunition", "Rare", None, "On a hit, if the target wears or holds a metal object, that object glows red hot for up to 3 rounds. The target takes 2d8 Fire damage at the start of each of its turns while the object glows, and it makes a DC 15 Constitution save at the end of each of its turns, ending the effect on a success. Dropping the object or taking it off also ends the effect."),
+("Bolt of Disintegration", "Ammunition", "Very Rare", None, "On a hit, the target makes a DC 17 Dexterity save as if it were the target of the Disintegrate spell, instead of taking the bolt's normal damage. On a failed save, it takes 10d6 + 40 Force damage. The bolt is then destroyed."),
+("Arrow of the Fire Storm", "Ammunition", "Legendary", None, "When this arrow hits a creature or a point within the weapon's range, it bursts into a Fire Storm (save DC 19) that fills up to ten 10-foot Cubes of your choice, each touching the point of impact or another of the Cubes. The arrow is destroyed."),
+# ================= SCROLLS =================
+("Scroll of the Fresh Spring", "Scroll", "Common", None, "As a Magic action, you read this scroll and point at an open container or the ground. Up to 10 gallons of clean, cool water pour out. The scroll then turns to dust."),
+("Scroll of the Unseen Servant", "Scroll", "Uncommon", None, "As a Magic action, you read this scroll aloud to cast Unseen Servant. The servant lasts for 8 hours instead of 1 hour. The scroll then turns to dust."),
+("Scroll of the Lifted Hearts", "Scroll", "Rare", None, "As a Magic action, you read this scroll aloud to cast Beacon of Hope. The spell doesn't require Concentration. The scroll then turns to dust."),
+("Scroll of the Returning Soul", "Scroll", "Very Rare", None, "As a Magic action, you read this scroll and touch a dead creature to cast Raise Dead on it, without material components. The scroll then turns to dust."),
+("Scroll of the Hidden Vault", "Scroll", "Legendary", None, "As a Magic action, you read this scroll aloud and touch a creature or an object to cast Sequester on it, without material components. The scroll then turns to dust."),
+]
