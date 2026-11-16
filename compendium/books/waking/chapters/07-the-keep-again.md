@@ -50,9 +50,6 @@ attack by the Hush.
 
 - Read Strongholds in the Game Master's Compendium. Scene 6 teaches it, and
   the players use it for the rest of the book.
-- Check the statblock of Osk in chapter 4. This chapter assumes that Osk is
-  about CR 5 (1,800 XP). If his CR is different, change the number of Cultist
-  Fanatics in encounter 2 to keep the XP total near the budget.
 - Print or copy the handout of the letters of Haskel Orme. You give it to the
   players in Scene 5.
 - Look again at the "Before" answers of the players. The Hall of Sleepers is
@@ -508,11 +505,12 @@ stone, or when Osk breaks the last coffin.
 > at the edge of the room, a figure in a long grey robe steps out, swinging
 > an iron censer. No smoke comes out of it. It breathes in.
 
-**Creatures:** Osk (about CR 5, 1,800 XP), 1 Hush Dusk Priest (CR 7, 2,900
-XP), and 4 Cultist Fanatics (CR 2, 450 XP each).
+**Creatures:** Osk (CR 4, 1,100 XP), 1 Hush Dusk Priest (CR 7, 2,900 XP),
+1 Hush Night Warden (CR 4, 1,100 XP), and 4 Cultist Fanatics (CR 2, 450 XP
+each).
 
-**XP:** 1,800 + 2,900 + 4 × 450 = 6,500 XP. A High fight for four characters
-of level 7 (the budget is 4 × 1,700 = 6,800 XP).
+**XP:** 1,100 + 2,900 + 1,100 + 4 × 450 = 6,900 XP. A High fight for four
+characters of level 7 (the budget is 4 × 1,700 = 6,800 XP).
 
 {{statblock: Osk}}
 
@@ -520,10 +518,10 @@ of level 7 (the budget is 4 × 1,700 = 6,800 XP).
 
 The statblock of the Cultist Fanatic is in Scene 3.
 
-> **GM tip:** Check the CR of Osk in his statblock. If Osk is CR 6 (2,300
-> XP), use 3 Cultist Fanatics. If Osk is CR 4 (1,100 XP), use 5 Cultist
-> Fanatics. If Osk is CR 7 or more, use no Cultist Fanatics, and give the
-> Dusk Priest the role of the second big threat.
+> **GM tip:** Osk is CR 4, as in The Hush. He is weaker than the party
+> now, and that is fine: he is the old enemy, and the Dusk Priest is the
+> real threat. Osk's reaction, Her Shield, works only while Mother Sallow
+> stands next to him, so he loses it when she leaves.
 
 **The room.** The Hall of Sleepers is round, 60 feet across. The trenches
 are 5 feet wide and 4 feet deep. A creature in a trench has Half Cover
@@ -563,14 +561,15 @@ choice of the players. He does not appear again in Book One.
 > **Scaling:** The budget for a High fight at level 7 is 1,700 XP for each
 > character. Osk and the Dusk Priest are always in the fight.
 >
-> - **3 characters** (5,100 XP): Osk, the Dusk Priest, and 2 Cultists
->   (1,800 + 2,900 + 2 × 25 = 4,750 XP).
-> - **4 characters** (6,800 XP): Osk, the Dusk Priest, and 4 Cultist
->   Fanatics (6,500 XP).
+> - **3 characters** (5,100 XP): Osk, the Dusk Priest, and 2 Cultist
+>   Fanatics (1,100 + 2,900 + 900 = 4,900 XP).
+> - **4 characters** (6,800 XP): Osk, the Dusk Priest, 1 Hush Night Warden,
+>   and 4 Cultist Fanatics (6,900 XP).
 > - **5 characters** (8,500 XP): Osk, the Dusk Priest, 2 Hush Night Wardens,
->   and 3 Cultist Fanatics (1,800 + 2,900 + 2,200 + 1,350 = 8,250 XP).
-> - **6 characters** (10,200 XP): Osk, 2 Hush Dusk Priests, and 2 Hush Night
->   Wardens (1,800 + 5,800 + 2,200 = 9,800 XP).
+>   and 4 Cultist Fanatics (1,100 + 2,900 + 2,200 + 1,800 = 8,000 XP).
+> - **6 characters** (10,200 XP): Osk, 2 Hush Dusk Priests, 2 Hush Night
+>   Wardens, and 2 Cultist Fanatics (1,100 + 5,800 + 2,200 + 900 = 10,000
+>   XP).
 >
 > This fight comes after encounter 1. If the party did not get a Short Rest
 > between the two, use the row for one character fewer.
