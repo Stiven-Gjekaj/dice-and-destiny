@@ -34,7 +34,7 @@ TOC = []  # (kind, label, marker)
 def marker(kind, label):
     n = len(TOC)
     TOC.append((kind, label, f"@@T{n}@@"))
-    return f'<span class="mark">@@T{n}@@</span>'
+    return f'<span class="mark" id="t{n}">@@T{n}@@</span>'
 
 
 def chapter_heads(s):
@@ -100,12 +100,13 @@ def _dark_text(svg):
     return re.sub(r'(<text[^>]*?)fill="#[0-9a-f]{6}"', r'\1fill="#000"', svg)
 
 
-def front(name):
+def front(name, screen=False):
     f = FRONT[name]
+    d20 = big_d20(150, flat=True) if screen else _dark_text(gray(big_d20(150, "#000", flat=True)))
     return f'''<section class="titlepage">
 <div class="kicker">Dice &amp; Destiny</div>
 <h1>{f["title"]}</h1><div class="rule"></div>
-<div>{_dark_text(gray(big_d20(150, "#000", flat=True)))}</div>
+<div>{d20}</div>
 <div class="sub" style="margin-top:8mm">{f["sub"]}</div>
 <div class="compat">A rules-compatible guide for fifth edition (2024)</div></section>
 <section class="credits">
@@ -114,26 +115,32 @@ def front(name):
 <p>An independent work. Not affiliated with, endorsed, sponsored, or approved by Wizards of the Coast. Dungeons &amp; Dragons is a trademark of Wizards of the Coast LLC.</p>
 <p>This work includes material from the System Reference Document 5.2 ("SRD 5.2") by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode. The SRD 5.2 text in this book is changed: it is reorganized and laid out again, and some sentences no longer name the trademark.</p>
 <p>Explanatory chapters, examples, tips, icons and layout are original to this book, as is everything in the Expanded Options, Expanded Bestiary &amp; Treasure and Optional Rules parts (classes, subclasses, backgrounds, species, feats, spells, monsters, magic items, strongholds and the optional rules systems); that original content is not part of the SRD 5.2. Subclasses, backgrounds and other options mentioned by name but not included in the SRD 5.2 are referenced only; see the Player's Handbook and Dungeon Master's Guide for their rules. The encounter-building and improvised-damage tables follow the 2024 Dungeon Master's Guide. The "Lazy GM" prep checklist is by Michael E. Shea (Sly Flourish).</p>
-<p>Printed in black and white on A4 paper.</p>
+<p>{"A4 edition for reading on a screen." if screen else "Printed in black and white on A4 paper."}</p>
 </section>'''
 
 
-def toc_html(pages):
+def toc_html(pages, links=False):
     items = []
     for i, (kind, label, mk) in enumerate(TOC):
         p = pages.get(mk, "")
         cls = {"part": "part-entry", "ch": "", "sub": "sub"}[kind]
-        items.append(f'<li class="{cls}"><span class="t">{label}</span><span class="dots"></span><span class="p">{p}</span></li>')
+        t = f'<a href="#t{mk[3:-2]}">{label}</a>' if links else label
+        items.append(f'<li class="{cls}"><span class="t">{t}</span><span class="dots"></span><span class="p">{p}</span></li>')
     return (f'<div class="frontmatter"><div class="ch-head"><span class="ch-badge">{icon("book", 26, ICON_COLOR, 1.5)}</span>'
             f'<div><h1 class="chapter" style="string-set:none">Contents</h1></div></div>{divider()}'
             f'<ul class="toc2">{"".join(items)}</ul></div>')
 
 
-def expand(name):
+STYLES = {
+    False: '<link rel="stylesheet" href="book.css"><link rel="stylesheet" href="bw.css">',   # print: black and white
+    True: '<link rel="stylesheet" href="book.css"><link rel="stylesheet" href="screen.css">',  # screen: color
+}
+
+
+def expand(name, screen=False):
     s = open(f"books/{name}.src.html").read()
-    s = s.replace('<link rel="stylesheet" href="style.css">', '<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="book.css">'
-                  '<link rel="stylesheet" href="bw.css">')
-    s = s.replace("{{FRONT}}", front(name))
+    s = s.replace('<link rel="stylesheet" href="style.css">', '<link rel="stylesheet" href="style.css">' + STYLES[screen])
+    s = s.replace("{{FRONT}}", front(name, screen))
     reps = {
         "{{CLASSES}}": lambda: classes.all_classes(),
         "{{CLASS_CARDS}}": lambda: classes.cards(),
@@ -193,6 +200,7 @@ def expand(name):
 
 
 def render(name, s):
+    """Write books/<name>.html and print it to <name>.pdf."""
     open(f"books/{name}.html", "w").write(s)
     subprocess.run(["google-chrome", "--headless=new", "--no-sandbox", "--disable-gpu", "--no-pdf-header-footer",
                     f"--print-to-pdf={os.getcwd()}/{name}.pdf", f"file://{os.getcwd()}/books/{name}.html"],
@@ -208,21 +216,50 @@ def find_pages(name):
     return pages
 
 
-def build(name):
-    body = expand(name)
+def outline(entries, pages):
+    """Bookmarks from the contents: parts at the top, chapters under their part, classes under their chapter.
+    Return a list of (level, title, page) with 0-based pages."""
+    out = []
+    for kind, label, mk in entries:
+        if mk not in pages:
+            continue
+        level = {"part": 0, "ch": 1, "sub": 2}[kind]
+        title = re.sub(r"<[^>]+>", "", label).replace("&amp;", "&")
+        out.append((level, title, pages[mk] - 1))
+    return out
+
+
+def add_outline(pdf, items):
+    from pypdf import PdfReader, PdfWriter
+    w = PdfWriter(clone_from=PdfReader(pdf))
+    parents = {}
+    for level, title, page in items:
+        parent = next((parents[l] for l in range(level - 1, -1, -1) if l in parents), None)
+        parents[level] = w.add_outline_item(title, page, parent=parent)
+        for deeper in [l for l in parents if l > level]:
+            del parents[deeper]
+    w.page_mode = "/UseOutlines"
+    with open(pdf, "wb") as f:
+        w.write(f)
+
+
+def build(name, screen=False):
+    """Build one book. The screen version has color, even margins, no blank pages, links and bookmarks."""
+    out = f"{name}_screen" if screen else name
+    body = expand(name, screen)
     toc_entries = list(TOC)
     blanks = set()
     pages = {}
     for it in range(12):
         TOC[:] = toc_entries
-        s = body.replace("{{TOC}}", toc_html(pages))
+        s = body.replace("{{TOC}}", toc_html(pages, links=screen))
         # parts start on right-hand pages: add a blank page before any part that would land on a left page
         chunks = s.split("<!--PARTSTART-->")
         s = chunks[0] + "".join(("<div class=\"blankpage\"></div>" if i in blanks else "") + c for i, c in enumerate(chunks[1:]))
-        render(name, s)
-        new = find_pages(name)
+        render(out, s)
+        new = find_pages(out)
         moved = False
-        for i, (kind, label, mk) in enumerate([t for t in toc_entries if t[0] == "part"]):
+        for i, (kind, label, mk) in enumerate([t for t in toc_entries if t[0] == "part"] if not screen else []):
             p = new.get(mk)
             if p and p % 2 == 0:
                 if i in blanks:
@@ -236,12 +273,16 @@ def build(name):
             break
         pages = new
     # final: strip markers (zero-size, so layout is unchanged)
-    s = re.sub(r'<span class="mark">@@T\d+@@</span>', '<span class="mark"></span>', s)
-    render(name, s)
+    s = re.sub(r'(<span class="mark" id="t\d+">)@@T\d+@@</span>', r'\1</span>', s)
+    render(out, s)
+    if screen:
+        add_outline(f"{out}.pdf", outline(toc_entries, pages))
     return pages
 
 
 if __name__ == "__main__":
-    for n in sys.argv[1:]:
-        p = build(n)
-        print(n, "done")
+    args = sys.argv[1:]
+    screen = "--screen" in args
+    for n in [a for a in args if a != "--screen"]:
+        p = build(n, screen)
+        print(n, "screen" if screen else "print", "done")

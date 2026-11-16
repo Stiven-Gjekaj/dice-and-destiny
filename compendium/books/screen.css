@@ -1,0 +1,11 @@
+/* ================= SCREEN EDITION =================
+   Loaded after book.css in place of bw.css. The colors of style.css stay.
+   A screen has no binding, so every page has the same margins. */
+@page :left { margin-left: 18mm; margin-right: 18mm; }
+@page :right { margin-left: 18mm; margin-right: 18mm; }
+
+/* Title and part pages: the margins are even, so the text is already in the middle. */
+.titlepage, .part { margin-right: 0; }
+
+/* The contents link to the chapters. Show them as plain text. */
+.toc2 a { color: inherit; text-decoration: none; }
