@@ -92,7 +92,8 @@ Use the hook that fits your campaign. Each of them works.
   said it as if eels were a joke that I would understand one day."
 - **The guild ledger.** In chapter 6, the old books of the Lampwrights list
   the shrines that got a piece of the Dawnfire. One line reads "Fennick, a
-  candle, for the church on the island." A later hand added: "Drowned."
+  candle, for the church on the rise by the Brann." A later hand added:
+  "Drowned."
 - **The Church.** Abbess Merrow, or Brother Cade, tells the party that
   pilgrims who go into the Low Fen see a light under the water near an old
   tower. The Church calls it "the Drowned Saint" and tells pilgrims not to
@@ -527,7 +528,8 @@ want it.
 
 ### The town in short
 
-The town sits on a low island inside the dike. The water over the streets
+The town sits on a small rise in the old farmland by the Brann, inside
+the dike. Before the flood, it was dry land. The flood covered it. The water over the streets
 is 15 to 25 feet deep. The roofs are 5 to 10 feet under the surface. The
 tower and the church are in the middle, on a small hill.
 
@@ -695,8 +697,8 @@ last night. Read it to the players, or tell it in your own words.
 >
 > *The 4th day. A rider came with a written order and his lordship's seal.
 > The order says to open all the gates at the turn of the tide, "to deny
-> the low ground to the enemy". I said the water will come over the island.
-> The rider said the island is to be cleared first. Nobody has come to
+> the low ground to the enemy". I said the water will come over the rise.
+> The rider said the town is to be cleared first. Nobody has come to
 > clear it.*
 >
 > *The 4th day, night. We have asked for the order to be confirmed. The
@@ -755,7 +757,7 @@ cleans the spears. They are clean. They are also two hundred years old.
 | Check | DC | Result |
 |-------|----|--------|
 | Wisdom (Perception) | 13 | Under the cot is Maud's own treasure: a pair of Gauntlets of Ogre Power, in a box of oiled leather. She took them from a troll in the war. A note in the box says, "For the next good sergeant." |
-| Intelligence (Investigation) | 15 | The character finds the names of the six lost members of the watch in the town roll too. Each one has a family on the island. None of them were found. |
+| Intelligence (Investigation) | 15 | The character finds the names of the six lost members of the watch in the town roll too. Each one has a family in the town. None of them were found. |
 | Wisdom (Insight) | 12 | The letter to Wil tells the character that Maud had a family. They are not on the squad. If they died in the flood, they are somewhere in the town. Maud does not talk about it. |
 
 > **GM tip:** If the players ask Maud about Wil and the girls, she says only:
