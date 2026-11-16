@@ -47,8 +47,9 @@ read it themselves at the table.
 > When the Hush put out the Dawnfire in the chapel of the keep, the crystal
 > under Kingsholm cracked. Garrath woke on the same morning as the
 > Dawnwatch, and he left the vault. The black cloud in the north at the end
-> of the tutorial was him. He is in the north now, in Coldharrow. That is Book Two. Under Kingsholm there is only an empty
-> crystal, a guard that he left behind, and the last letter of Haskel Orme.
+> of the tutorial was him. He is in the north now, in Coldharrow. That is
+> Book Two. Under Kingsholm there is only an empty crystal, a guard that he
+> left behind, and the last letter of Haskel Orme.
 
 ### What the Hush wants
 
@@ -270,9 +271,8 @@ Kingsholm was the capital of Ostrey. It stands on both banks of the River
 Dunn, at a bend where the river runs fast and deep. The palace stood on a
 hill on the north bank. The city burned in the civil war of the Grey
 Winter, two hundred years ago, and nobody came back to build it again. A
-forest has grown up around it and into it since. Nobody lives
-here now. The people of today say that the place is bad luck, and they are
-right.
+forest has grown up around it and into it since. Nobody lives here now.
+The people of today say that the place is bad luck, and they are right.
 
 > The grey dome is bigger from close by. It sits over the ruins like a lid.
 > At its edge, the snow stops. Inside, there is no snow, no wind, and no
@@ -280,10 +280,10 @@ right.
 > evening in the middle of the day.
 >
 > Inside the dome, the city is very quiet. Bare black trees between the
-> walls. Broken towers. A bridge of white
-> stone across a black river. On the hill above it, a palace with no roof,
-> and over the palace the bell towers, with no bells in them. Somewhere,
-> very far away, many people hum one long note.
+> walls. Broken towers. A bridge of white stone across a black river. On the
+> hill above it, a palace with no roof, and over the palace the bell towers,
+> with no bells in them. Somewhere, very far away, many people hum one long
+> note.
 
 **Inside the dome.** It is always night inside the dome. The area is in
 darkness, except where there is a light. Nonmagical lights work, but the
@@ -728,8 +728,8 @@ Death in the last chapter matters. If a character dies in Kingsholm, do not
 rush to raise them. If the party has the Fennick Candle, it can cast
 Revivify within 1 minute of the death. Later, Brother Cade can carry the
 body to Saint Ivo's, seven days away, where a priest of the Church can
-cast Raise Dead. Ask the players first: some players want the death to stand. If it stands,
-give the fallen character the first place in the last scene. The voice of
+cast Raise Dead. Ask the players first: some players want the death to
+stand. If it stands, give the fallen character the first place in the last scene. The voice of
 Malgrath speaks their name first. He knew all five of them, once.
 
 ---
@@ -814,13 +814,12 @@ melee attacker. It uses Eclipse when three or more characters stand close
 to it. It uses Dark Step to reach a caster who stays in the dark. It never
 flees.
 
-**A way to end it with no fight.** The knight is a watch that never ended.
-A character who stands in front of it, with no weapon in hand, and speaks
-the words of the Dawnwatch (the end of the oath, "I swear to wake the
-dawn", the words over the door, or the old motto, "We watch so that the
-dawn can wake") makes it
-stop for one round. A character who then says the words of the end of a
-watch, in their own words ("Your watch is over. We have it now.") and
+**A way to end it with no fight.** The knight is a watch that never ended. A
+character who stands in front of it, with no weapon in hand, and speaks the
+words of the Dawnwatch (the end of the oath, "I swear to wake the dawn", the
+words over the door, or the old motto, "We watch so that the dawn can wake")
+makes it stop for one round. A character who then says the words of the end
+of a watch, in their own words ("Your watch is over. We have it now.") and
 succeeds on a DC 20 Charisma (Persuasion) check makes it kneel. Its armor
 falls empty, and it speaks its Last Words. The Shadows fade. Give full XP
 for this.
