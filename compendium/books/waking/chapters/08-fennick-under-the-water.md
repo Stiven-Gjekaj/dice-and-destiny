@@ -438,9 +438,9 @@ drowned are slow and clumsy. Two of them hit each other by mistake.
 >   XP.
 > - **5 characters:** Maud and six Fennick Drowned. 1,800 + 2,700 = 4,500
 >   XP.
-> - **6 characters:** Maud and seven Fennick Drowned, and Maud has 10% more
->   Hit Points (107). 1,800 + 3,150 = 4,950 XP. The drill is still a
->   lesson. It does not have to fill the budget.
+> - **6 characters:** Maud and all six Fennick Drowned of her squad, and
+>   Maud has 10% more Hit Points (107). 1,800 + 2,700 = 4,500 XP. The drill
+>   is still a lesson. It does not have to fill the budget.
 
 ### After the drill
 
@@ -1083,7 +1083,8 @@ mist. It is gone. If the all-clear has rung, each success counts as two.
 > **Scaling:** The High budgets are 6,300 (3 characters), 8,400 (4), 10,500
 > (5), and 12,600 (6). The extra monster for Techniques is in each line for
 > 4 or more characters. Because the Grief and the Hush fight each other too,
-> each line is a little over the budget on paper. That is on purpose.
+> the lines for 3 and 4 characters are a little over the budget on paper.
+> That is on purpose.
 >
 > - **3 characters:** the Grief and the priest. 3,900 + 2,900 = 6,800 XP.
 > - **4 characters:** the Grief, the priest, and two Night Wardens. 3,900 +
