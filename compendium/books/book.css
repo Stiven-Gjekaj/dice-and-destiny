@@ -147,3 +147,6 @@ table.trinkets { font-size: 7.4pt; }
 
 /* keep each random table in one piece */
 .compendium table.roll-table { break-inside: avoid; }
+
+/* keep the overview of a pantheon in one piece */
+table.pantheon-table { break-inside: avoid; }
