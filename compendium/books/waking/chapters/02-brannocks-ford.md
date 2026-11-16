@@ -50,6 +50,14 @@ This chapter has two jobs:
    of Ostrey, with the Journeys rules. The second fight happens on the
    road. At the end of the third day, the party sees Saint Ivo's.
 
+### The map of Act I
+
+This map shows the land of chapters 2, 3, and 4: Dawnwatch Keep, the
+village of Brannock's Ford, the old road south, Saint Ivo's, and the shrine
+at Kell.
+
+{{map: act-1}}
+
 ### The tone
 
 Keep it light, as the tutorial was. The characters are the most famous
