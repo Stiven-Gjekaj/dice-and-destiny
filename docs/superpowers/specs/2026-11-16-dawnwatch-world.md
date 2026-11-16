@@ -226,6 +226,28 @@ the Dawnwatch know it. Each writer uses them.
   an elf scholar. The Shadow was a thief in Kingsholm. The Storm was a
   goliath guide in the passes of the Grey Teeth.
 
+## Daily life today
+
+These facts are the land of year 300. They are the opposite of the facts
+of old Ostrey above. Each writer uses them.
+
+- **The greeting:** "Wake well." The answer is "And see the morning." The
+  greeting comes from the Five Sleepers.
+- **The coins:** thin new coins from Corrantey (a ship) and Gaunt (a
+  gauntlet). The rules count them in GP, SP, and CP. An old gold sun of
+  Ostrey is an antique. A collector pays 5 GP for one.
+- **The Church:** the priests of the Five Sleepers wear grey and blue. The
+  Morning Flame is now a saint's day, not a god of its own.
+- **The Five Sleepers in art:** five figures in white with gold halos,
+  asleep in a row. Their faces are all wrong.
+- **The song:** "The Five at the Gate" is sung on the pilgrim road. In it,
+  seven heroes hold the gate at Ashby Field, and they sleep under Saint
+  Ivo's. Almost every fact is wrong (chapter 2 handout).
+- **Brannock's Ford:** a village of about two hundred people. Brannock, a
+  ferryman, built the first house about 150 years ago, after the bridge of
+  Ostrey fell. The inn is the Ferry Bell. The old barrow of the road
+  wardens of Ostrey is on Ferry Hill, a mile north.
+
 ## The creatures of Book One
 
 The statblocks are in `compendium/content/dawnwatch/creatures_*.py`.
