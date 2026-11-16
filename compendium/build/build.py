@@ -262,6 +262,27 @@ def add_outline(pdf, items):
         w.write(f)
 
 
+def plan_blanks(part_pages):
+    """Find every blank page from one render with no blank pages.
+
+    part_pages holds the page of each part, in order. A part must start on a right-hand (odd) page.
+    A blank page before a part moves that part and every page after it by one page.
+    Return the indexes of the parts that need a blank page before them."""
+    blanks, offset = set(), 0
+    for i, p in enumerate(part_pages):
+        if (p + offset) % 2 == 0:
+            blanks.add(i)
+            offset += 1
+    return blanks
+
+
+def shift_pages(pages, part_pages, blanks):
+    """The page of each marker after the blank pages go in. A marker moves by one page for each blank
+    page before a part that starts on its page or before it."""
+    moves = sorted(part_pages[i] for i in blanks)
+    return {mk: p + sum(1 for m in moves if m <= p) for mk, p in pages.items()}
+
+
 def build(name, screen=False):
     """Build one book. The screen version has color, even margins, no blank pages, links and bookmarks."""
     out = f"{name}_screen" if screen else name
@@ -277,8 +298,17 @@ def build(name, screen=False):
         s = chunks[0] + "".join(("<div class=\"blankpage\"></div>" if i in blanks else "") + c for i, c in enumerate(chunks[1:]))
         render(out, s)
         new = find_pages(out)
+        parts_ = [t for t in toc_entries if t[0] == "part"] if not screen else []
+        if it == 0 and parts_ and all(mk in new for _, _, mk in parts_):
+            # One render with no blank pages is enough to find every blank page and every page number.
+            # The next pass checks the result. If the check fails, the loop below goes on one blank page at a time.
+            part_pages = [new[mk] for _, _, mk in parts_]
+            blanks = plan_blanks(part_pages)
+            pages = shift_pages(new, part_pages, blanks)
+            print(f"  pass {it + 1}: {len(new)}/{len(toc_entries)} markers found, planned blanks={sorted(blanks)}", flush=True)
+            continue
         moved = False
-        for i, (kind, label, mk) in enumerate([t for t in toc_entries if t[0] == "part"] if not screen else []):
+        for i, (kind, label, mk) in enumerate(parts_):
             p = new.get(mk)
             if p and p % 2 == 0:
                 if i in blanks:
