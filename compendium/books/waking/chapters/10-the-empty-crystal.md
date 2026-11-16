@@ -879,3 +879,180 @@ usually ask, and what you can tell them:
 > the nearest Before answer.
 
 ---
+
+## Ending the Book
+
+**Goal:** Close Book One as a full story. Then open the door to Book Two.
+
+Run this part in the last session, after the vault. Take your time. A group
+that stops at level 10 ends its campaign here. A group that goes on to Book
+Two needs this part just as much: it is the rest between two acts.
+
+### Out of the dark
+
+> You climb the Stair of Bells into the light. The grey dome is gone. Over
+> Kingsholm the sky is pale and cold and clean, and the sun is low in the
+> south, a winter sun, small and white.
+>
+> Below the palace hill, the people of the Hush are taking down their grey
+> tents. Nobody tells them to. Somebody has lit a fire in the middle of the
+> camp, a plain wood fire, yellow and noisy, and people stand around it
+> holding out their hands.
+
+### Where everyone ends up
+
+Tell the players what happens to the people of the book. Choose the lines
+that fit your game, and change them to fit what your party did.
+
+| Who | What happens |
+|---|---|
+| The Hush | It is broken. Most of its people go home. A few go north, to look for their king. Book Two meets some of them again. |
+| Mother Sallow | If she lives, she spends her last years in a cell, or a cloister, or the keep. Each morning she asks someone how long the day was. |
+| Gaunt and the Church | What the party did in Three Banners decides this. If the party stopped the war, Marshal Ide Gauntry and Abbess Merrow sign a truce at the Ashby stone, and Tobin Gauntry carries it to Saint Ivo's himself. |
+| The Lampwrights | Perrin Hale writes the true history of the guild, with the name of Haskel Orme on the first page. |
+| Dawnwatch Keep | It holds. Hesper Wren runs it. Each year on the shortest day, the people of the Wolds come up the hill for a feast, and somebody puts a lamp in every window. |
+| The pieces of the Dawnfire | The party keeps them, or gives them to people that it trusts. They are the last lights that the Hush could not put out. |
+| Wick | Wick stays with the Dawnwatch. He counts the minutes of each day, out loud, every morning. He does not like the numbers. |
+
+### Telling the truth, or keeping it
+
+The party knows a truth that nobody else in the land knows. Ask the players:
+"What do you do with it?" There is no wrong answer, and Book Two works with
+each one.
+
+- **Tell everyone.** The party tells the Church, Gaunt, and the Lampwrights
+  that Malgrath was the first of the Dawnwatch. Some people believe it. The
+  Church splits over it. The song about the Dawnwatch gets a new verse, and
+  the new verse is not kind.
+- **Tell a few.** The party tells only the people it trusts. Perrin Hale.
+  Brother Cade. Tobin Gauntry. The secret becomes a burden that a few good
+  people carry together.
+- **Keep it.** The party does what Haskel Orme did. The players can feel how
+  heavy that is. Wick will not lie for them, but he will not tell either.
+
+### The After moment
+
+At the end of the tutorial, each player answered an After question. Now
+ask one last question of each player. Choose the one that fits:
+
+- "You made a promise three hundred years ago. You have kept it, in your
+  way. What do you promise now?"
+- "You stole one last thing on the night before the long sleep. What is the
+  most valuable thing that you have now?"
+- "Your god sent you a sign. Look at the winter sun. What do you see in it
+  now?"
+- "Nobody alive remembered the spell from your first day. Who will remember
+  you?"
+- "You did not want to sleep. You are awake now. What do you want?"
+
+Give Heroic Inspiration for the best answer, as in the tutorial. If your
+table uses Bonds, this is the moment to form one last Bond, or to name the
+Bond that mattered most.
+
+### If you stop here
+
+Book One is a full story. The Dawnwatch woke, found a world that forgot
+them, made a home, broke the Hush, and learned the truth about the enemy
+that they slept to fight. That is an ending.
+
+If your group stops here, read the last words below as the end of the
+campaign. They are not a cliffhanger. They are the last piece of the truth:
+the Dawnwatch and the Unlit King are the same kind of thing. What the
+characters do with that is their story, and they can tell it in one
+sentence each, around the table, after the last roll. Ask each player:
+"Ten years from now, where is your character, and what do they think when
+the days get shorter?"
+
+### If you go on
+
+Book Two, The Last Dawn, starts at level 11 with the characters that the
+players have now. It starts with the days getting shorter, and with a
+question that Book One raised and did not answer: is Garrath right about
+the sun? Before you start Book Two, read its first chapter, and give the
+characters a month at the keep to rest, heal their injuries, and gain their
+scars.
+
+## Rewards
+
+### Experience
+
+This book uses milestone levels. The characters go up a level at the end of
+this chapter, whatever XP the fights gave.
+
+### Treasure
+
+- **The Badge of Sir Garrath** (Rare, requires attunement). On the crystal.
+  It belongs to the Dawnwatch now.
+- **The hoard of the Hush.** The Hush took the gold of its members when they
+  joined. In the throne hall, in iron boxes behind the throne, the party
+  finds 4,000 GP in coins of every kind, and a chest of silver and jewels
+  worth 3,000 GP. Most of it belonged to the people in the Grey Camp. A
+  party that gives it back gains renown with the Church and the
+  Lampwrights (+2 with each, as a great deed for the people), and the
+  thanks of a hundred families. A party that keeps it keeps it.
+- **The weapons of the Hush:** 20 sets of grey mail (as chain mail), a cart
+  of maces and crossbows. They are good steel, if the keep needs an armory.
+- **The Ember of Saint Ivo,** if the party saved it. The Church wants it
+  back. A character who returns it gains 5 renown with the Church.
+- **Mother Sallow's knife.** A plain grey knife, cold to the touch. It is
+  not magic any more. It is the only thing that she asks for, if she lives.
+
+### Renown
+
+If your table uses Factions, each character gains 5 renown (a great deed
+that changes the faction's fortunes) with each faction that fought the
+Hush with them: Gaunt, the Church, the Lampwrights, or all three.
+
+### The keep
+
+If your table uses Strongholds, the keep gains 1 Renown (maximum 5). The
+people of the Wolds know who broke the Hush. Two new followers ask to join
+the keep: a veteran of the Kings' Bridge, and one of the Hush who put down
+their weapon in the cathedral.
+
+### Scars
+
+If a character carries an injury from this chapter or the last, and it
+heals at the keep with rest and care, the character gains its scar. Most
+characters end Book One with a scar or two. Ask each player to tell where
+their scar came from, in one sentence.
+
+### Level
+
+The characters go to level 11.
+
+## The Last Words
+
+Read this last, after the rewards, when the table is quiet. It is the end
+of Book One.
+
+> **GM tip:** This scene is after the Rewards on purpose. The rewards are
+> the end of the game. This is the end of the story. Wait until the dice are
+> put away. Dim the lights, as you did on the first night of the tutorial,
+> when the Dawnwatch slept.
+
+> That night, at the keep, you stand on the wall and look north. The sky
+> is clear. The stars are very bright and very cold. Far away, over the
+> Grey Teeth, there is a darkness where no stars are.
+>
+> The black stone in your pocket hums.
+>
+> A voice speaks in your head. You have heard it before: in the chapel, the
+> day you woke, and from inside an empty helmet, under Kingsholm. Deep and
+> slow and tired. Kind.
+>
+> "Brothers. Sisters. You read his letter. Old Haskel always did write a
+> good letter." A breath, like a laugh with no joy in it. "He told you that
+> I loved the sun too much. He was right. He told you that I failed. He was
+> right about that too."
+>
+> "But look at the sky, and count, as your little lantern counts. The days
+> are shorter. The winters are longer. I saw it first. Now you see it too."
+>
+> "They put me in the crystal so that I would stop. They put you in the
+> crystal so that you would be there when I woke. Two halls. One spell.
+> One oath. We sleep so that the dawn can wake."
+>
+> The stone is warm in your hand. It has never been warm before.
+>
+> "Now you know what we are."
