@@ -650,6 +650,82 @@
      200
     ]
    ]
+  },
+  {
+   "start": "Kingsholm",
+   "end": "Brannock's Ford",
+   "kind": "old road",
+   "era": "then",
+   "points": [
+    [
+     125,
+     120
+    ],
+    [
+     140,
+     140
+    ],
+    [
+     152,
+     158
+    ],
+    [
+     160,
+     172
+    ]
+   ]
+  },
+  {
+   "start": "Kingsholm",
+   "end": "Corrin",
+   "kind": "old road",
+   "era": "then",
+   "points": [
+    [
+     125,
+     120
+    ],
+    [
+     105,
+     142
+    ],
+    [
+     80,
+     162
+    ],
+    [
+     55,
+     182
+    ],
+    [
+     40,
+     190
+    ],
+    [
+     33,
+     193
+    ]
+   ]
+  },
+  {
+   "start": "Kingsholm",
+   "end": "The shrine at Kell",
+   "kind": "old road",
+   "era": "then",
+   "points": [
+    [
+     125,
+     120
+    ],
+    [
+     118,
+     165
+    ],
+    [
+     110,
+     205
+    ]
+   ]
   }
  ],
  "coast": [

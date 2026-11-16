@@ -82,6 +82,12 @@ maps.
 - Before the flood of the Grey Winter, the Low Fen was the farmland of
   Fennick. The flood made the marsh.
 - Brannock's Ford, Stannard, and Ashby Field are not on the old map.
+- The old roads of Ostrey lead to Kingsholm. One goes south-east to the
+  ford of the Brann, and then south to the shrine of Saint Ivo. Today only
+  the part from Brannock's Ford to Saint Ivo's is left, broken in places.
+  One goes south-west along the Dunn to Corrin. One goes south to the shrine
+  at Kell. The roads of today to Stannard and Corrantey are not on the old
+  map.
 - Gaunt has the same land as the March of Gauntry: x 70 to 190, y 255 to
   320. Ashby Field is on its north border.
 

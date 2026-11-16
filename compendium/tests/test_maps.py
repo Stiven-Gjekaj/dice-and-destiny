@@ -246,3 +246,20 @@ def test_places_json_follows_the_list(monkeypatch):
                                   box=[90, 140, 110, 160])]
     assert data["rivers"][0]["points"] == [[100, 200], [100, 220]]
     assert data["maps"]["act-1"]["size_mm"] == [167, 120]
+
+
+def test_each_map_draws_only_the_roads_of_its_era(monkeypatch):
+    def roads(svg):
+        return len(re.findall(r'<path d="[^"]*" fill="none" stroke="#000" stroke-width="[\d.]+" '
+                              r'stroke-dasharray', svg))
+
+    monkeypatch.setattr(maps, "ROADS", [])
+    base_then, base_now = roads(maps.map_svg("ostrey-then")), roads(maps.map_svg("land-today"))
+    monkeypatch.setattr(maps, "ROADS", [
+        ("Kingsholm", "Dawnwatch Keep", "old road", "then", []),
+        ("Kingsholm", "Fennick", "old road", "both", []),
+        ("Kingsholm", "The shrine at Kell", "road", "now", []),
+        ("Kingsholm", "Stannard", "road", "now", []),
+    ])
+    assert roads(maps.map_svg("ostrey-then")) - base_then == 2
+    assert roads(maps.map_svg("land-today")) - base_now == 3

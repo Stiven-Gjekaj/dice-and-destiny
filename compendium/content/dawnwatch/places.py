@@ -106,14 +106,19 @@ PLACES = [
          summary="A short river. It reaches the sea at Corrantey."),
 ]
 
-# The roads of the Travel table in the world bible. The off-road journeys
-# have no line. Each road is (from, to, kind, era, via), where via is a list
-# of (x, y) points in miles between the two places.
+# The roads of the Travel table in the world bible, and the old roads of
+# Ostrey to Kingsholm. The off-road journeys have no line. Each road is
+# (from, to, kind, era, via), where via is a list of (x, y) points in miles
+# between the two places. A road uses the position of each end, also when
+# the place at that end has another era.
 ROADS = [
     ("Dawnwatch Keep", "Brannock's Ford", "track", "now", [(160, 161)]),
     ("Brannock's Ford", "Saint Ivo's", "old road", "both", [(156, 196)]),
     ("Saint Ivo's", "Stannard", "road", "now", [(138, 252)]),
     ("Saint Ivo's", "Corrantey", "road", "now", [(110, 222), (72, 202), (50, 200)]),
+    ("Kingsholm", "Brannock's Ford", "old road", "then", [(140, 140), (152, 158)]),
+    ("Kingsholm", "Corrin", "old road", "then", [(105, 142), (80, 162), (55, 182), (40, 190)]),
+    ("Kingsholm", "The shrine at Kell", "old road", "then", [(118, 165)]),
 ]
 
 KINDS = ("city", "town", "ruin", "shrine", "fortress", "region", "mountains", "river", "sea")

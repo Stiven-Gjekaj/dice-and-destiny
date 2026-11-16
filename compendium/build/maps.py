@@ -327,8 +327,7 @@ class _Map:
 
     def roads(self):
         for a, b, kind, era, via in ROADS:
-            ends = (place(a)["era"], place(b)["era"])
-            if era not in ("both", self.era) or any(e not in ("both", self.era) for e in ends):
+            if era not in ("both", self.era):
                 continue
             pa, pb = self.road_end(a), self.road_end(b)
             pts = [self.P(pa)] + [self.P(v) for v in via] + [self.P(pb)]
