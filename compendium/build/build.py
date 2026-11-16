@@ -21,7 +21,7 @@ CH_ICONS = {
     "Tools": "scroll", "Mounts &amp; Vehicles": "compass", "Trade Goods &amp; Trinkets": "chest",
     "Spell Lists": "book", "Original Subclasses": "star", "Original Backgrounds &amp; Species": "people",
     "Original Feats": "star", "Original Spells": "spark", "Original Bestiary": "dragon", "Original Magic Items": "chest",
-    "Strongholds": "shield", "Spell Descriptions": "spark", "Rules Reference": "scales", "Character Sheet": "sheet",
+    "Strongholds": "shield", "Marks": "star", "Running Marks": "eye", "Spell Descriptions": "spark", "Rules Reference": "scales", "Character Sheet": "sheet",
 }
 
 TOC = []  # (kind, label, marker)
@@ -146,6 +146,8 @@ def expand(name):
         "{{O_BEST}}": lambda: orig.bestiary_html(), "{{O_ITEMS_IDX}}": lambda: orig.items_index_html(),
         "{{O_ITEMS}}": lambda: orig.items_html(), "{{O_STRONG}}": lambda: orig.strongholds_html(),
         "{{O_CLASSES}}": lambda: __import__("render_classes").classes_html(),
+        "{{SYS_MARKS}}": lambda: __import__("render_systems").player_marks_html(),
+        "{{SYS_TAINTS}}": lambda: __import__("render_systems").gm_marks_html(),
     }
     for k, f in reps.items():
         if k in s:
