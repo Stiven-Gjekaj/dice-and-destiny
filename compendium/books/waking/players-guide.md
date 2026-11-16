@@ -256,8 +256,7 @@ night the crystal closed.*
 > Most people in Ostrey work the land. In the Wolds, they keep sheep. In
 > the river valleys, they grow barley, oats, and beans. By the Brann,
 > they catch eels in the ditches. On the coast, they catch fish and argue
-> about fish. In the
-> towns, they make cloth, pots, barrels, nails, candles, and lanterns.
+> about fish. In the towns, they make cloth, pots, barrels, nails, candles, and lanterns.
 > Lantern makers are the most important craft. I may be a little proud
 > about that.
 >
@@ -302,8 +301,8 @@ night the crystal closed.*
 ### Songs and Stories
 
 > Everybody in Ostrey knows "The Five at the Gate", a song about the
-> Dawnwatch at the Field of the Five. It has nine verses and the fifth verse is
-> wrong, because the man who wrote it was not there. You were there. You
+> Dawnwatch at the Field of the Five. It has nine verses, and the fifth
+> verse is wrong, because the man who wrote it was not there. You were there. You
 > can tell him. Well. You could have.
 >
 > Children play "King in the Dark": one child is the king, and hides, and
@@ -417,8 +416,8 @@ night the crystal closed.*
 >
 > The Dawnwatch fought in every year of the war. The knights held the
 > bridge at Kingsholm when the shadows came over the ice. They carried the
-> Dawnfire through the snow to the Field of the Five. They went into the dark of
-> the north, again and again, and came back with fewer each time.
+> Dawnfire through the snow to the Field of the Five. They went into
+> the dark of the north, again and again, and came back with fewer each time.
 
 ### How It Ended
 
