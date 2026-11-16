@@ -110,7 +110,7 @@ M("Sergeant Maud Kettle", "M", "Undead", "Lawful Good", 5, "16 14 14 10 14 12", 
   attacks=[("Ghostly Halberd", "m", "1d10", "Slashing", "plus {1d8} Cold damage", "10 ft.")], multi=2,
   bonus=[("On Your Feet", "Maud barks an order at one creature within 60 feet that can hear her. If it has the Prone condition, it can stand up "
                           "without spending movement, and it has Advantage on its next attack roll before the end of its next turn.")],
-  desc="The last sergeant of the town watch of Fennick. She died on the bell tower, ringing the bell as the water came. "
+  desc="A sergeant of the last garrison of the king in Fennick, in the Grey Winter. She died on the bell tower, ringing the bell as the water came. "
        "She has drilled her drowned squad every morning for two hundred years. They are not getting any better."),
 
 # ================= CHAPTER 10: KINGSHOLM =================

@@ -56,8 +56,9 @@ them the old fighting ways of Ostrey: the Techniques.
 - **The Grief of Fennick** is the scream of the whole town at the moment of
   the flood. It never stopped. It became a ghost, and it clings to the only
   warm thing left in Fennick: the candle.
-- **Maud Kettle** was the sergeant of the town watch. She died on the bell
-  tower as she rang the alarm. Her duty was to keep the watch until the
+- **Maud Kettle** was a sergeant of the last garrison of the king in
+  Fennick, in the Grey Winter. Her squad kept the watch of the town. She
+  died on the bell tower as she rang the alarm. Her duty was to keep the watch until the
   all-clear. Nobody ever rang the all-clear. So she stays.
 - **The Hush** follows the party. A creature that carries a piece of the
   crystal of the Unlit King can feel where the First Lamp is from 1 mile
@@ -281,7 +282,7 @@ When the party says how long it has been, Maud is quiet for a long moment.
 | Charisma (Persuasion) | 14 | Maud trusts the party. She tells them about the Weeping, and that it "goes quiet for a moment when the bell rings". |
 | Charisma (Intimidation) | 18 | Maud laughs. "You think you can scare me? I'm DEAD." She likes the party a little more for trying. |
 | Wisdom (Insight) | 12 | Maud is not angry. She is lonely, and she is ashamed. She thinks the flood was her fault, because she did not see it soon enough. |
-| Intelligence (History) | 16 | The character remembers the watch of Fennick. They were good soldiers. They held the dike in the war against the Unlit King. |
+| Intelligence (History) | 16 | The character remembers that the king kept a garrison in Fennick, to guard the dike. Its soldiers kept the watch of the town. In the time of the characters, they were good soldiers. |
 | A Dawnwatch oath, or a salute of the old army (no roll) | | Maud salutes back, very straight, and calls the character "sir" or "ma'am" from now on. |
 
 > **GM tip:** Maud is not a quest giver who stands still. She wants

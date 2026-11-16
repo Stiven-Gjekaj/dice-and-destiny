@@ -45,8 +45,9 @@ read it themselves at the table.
 > three hundred years, the name wore down to "Malgrath".
 >
 > When the Hush put out the Dawnfire in the chapel of the keep, the crystal
-> under Kingsholm cracked. Garrath woke, and he left. He is in the north now,
-> in Coldharrow. That is Book Two. Under Kingsholm there is only an empty
+> under Kingsholm cracked. Garrath woke on the same morning as the
+> Dawnwatch, and he left the vault. The black cloud in the north at the end
+> of the tutorial was him. He is in the north now, in Coldharrow. That is Book Two. Under Kingsholm there is only an empty
 > crystal, a guard that he left behind, and the last letter of Haskel Orme.
 
 ### What the Hush wants

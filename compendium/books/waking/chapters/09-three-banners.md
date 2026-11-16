@@ -182,7 +182,7 @@ Let the characters ask questions. Use this table for checks.
 | Wisdom (Insight) on Ensign Varne | 12 | He is afraid. He has never been in a battle. He believes the story about the monks, because his lieutenant told it to him. "Lieutenant Roe saw the reports himself." |
 | Wisdom (Insight) on Sister Orla | 12 | She is honest, and she is angry. She saw the burned chapel herself. Something about it bothers her, but she does not want to say it in front of Gaunt. |
 | Charisma (Persuasion) on Sister Orla, in private | 14 | "The soldiers at Wenlow did not shout. Gaunt soldiers always shout. And they put out every lamp in the village before they lit the fire. Why would you do that?" |
-| Intelligence (History) | 15 | Ashby Field is old. The kings of Ostrey met their rivals there, at a standing stone, to swear treaties. "No blood at the stone" was the rule. |
+| Intelligence (History) | 15 | Ashby Field is old. The kings of Ostrey met their rivals there, at a standing stone, to swear treaties. "No blood at the stone" was the rule. In the time of the characters, it had another name: the Field of the Five, where the army of the king stopped the hounds of the Unlit King, in the snow, at dawn. The song "The Five at the Gate" tells of that day, and gets almost all of it wrong. |
 
 > **GM tip:** Sister Orla's detail is the first clue. People who put out
 > the lights before they act: the players have seen that before. If no

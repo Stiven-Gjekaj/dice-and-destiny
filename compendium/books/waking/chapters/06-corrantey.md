@@ -105,13 +105,13 @@ the player answer. Then show how it changed.
 
 | Old Ostrey (300 years ago) | Corrantey today |
 |---|---|
-| **Corrin**, a town of wool merchants on the north river, with one stone quay. | The north half of the city. Stone houses, counting halls, and the Council House of the guilds. |
+| **Corrin**, a town of wool merchants on the north river, with one stone quay. | The north half of the city. Stone houses, counting halls, and the guild halls. |
 | **Tey**, a fishing village on the south river, built of wood. | The south half. Shipyards, fish markets, rope walks, and narrow streets that smell of tar. |
-| A ferry between the two towns. | A wide stone bridge over the mouth of the Corrin, with a lamp on each post. People call it the Long Bridge. |
+| A ferry between the two towns. | A wide stone bridge over the mouth of the Corrin, with a lamp on each post. People call it the Long Bridge. The Council House of the guilds stands on it, between the two halves. |
 
 > **GM tip:** Let the players feel small here. In Brannock's Ford the
 > Dawnwatch were strangers with old coins. In Corrantey nobody looks at them
-> twice. A city of thirty thousand people has seen stranger things than five
+> twice. A city of fifteen thousand people has seen stranger things than five
 > people in old armor and a talking lantern.
 
 ---
@@ -1070,7 +1070,7 @@ Game Master's Compendium.
 
 | Place | What is there |
 |---|---|
-| **The Council House** | The hall of the council of guilds, on the Corrin side. Nine masters, nine chairs, and one long table with no head. A character who speaks to the council (Charisma (Persuasion), DC 15) can ask it to close the harbor to Gaunt for one month. The council agrees only if the party shows proof of the raid: a captured agent, or the ring of the Gaunt spy service. |
+| **The Council House** | The hall of the council of guilds, on the Long Bridge between the two halves of the city. Twelve guild masters, one seat each, at a round table. A character who speaks to the council (Charisma (Persuasion), DC 15) can ask it to close the harbor to Gaunt for one month. The council agrees only if the party shows proof of the raid: a captured agent, or the ring of the Gaunt spy service. |
 | **The rope walks** | Long sheds on the Tey side where the ropes of the ships are made. The workers know every ship that comes and goes. A character who buys a round of drinks (5 GP) learns where the Hush slept in the city: an empty fish store near the south quay, now abandoned. In it are grey robes, a map of the coast, and a list of the lighthouses between Corrantey and the Low Fen, each one crossed out. |
 | **The chapel of the Five Sleepers** | A small, poor chapel on the Tey side, with five painted statues. The faces are wrong, as they are in Saint Ivo's. The old priest, Father Dunstan, has never seen a Sleeper. If the party tells him who they are, he does not believe them, and then he cries. A character with renown in the Church gains 1 renown for a kind visit. |
 | **The lighthouse on the point** | The tallest light on the coast, built by the Lampwrights a hundred years ago. Its keeper uses the old Storm Lantern of the guild, the first one ever made. A character who climbs up and studies it (Intelligence (Investigation), DC 12) understands how the new one will work, and has Advantage on the crafting check if they work with the masters. |
