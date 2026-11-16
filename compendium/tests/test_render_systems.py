@@ -2,7 +2,8 @@
 import pytest
 
 from render_systems import (bond_errors, bond_html, bonds_html, mark_errors, mark_html,
-                            marks_html, track_html)
+                            marks_html, technique_errors, technique_html, techniques_html,
+                            track_html)
 
 
 def make_mark(**changes):
@@ -22,6 +23,13 @@ def make_bond(**changes):
              strain="Leave the friend.", example="Ana takes the hit.")
     b.update(changes)
     return b
+
+
+def make_tech(**changes):
+    t = dict(name="Test Step", type="Maneuver", cost=1, level=1, timing="Reaction",
+             text="You step [[aside]] & strike.")
+    t.update(changes)
+    return t
 
 
 def test_a_correct_mark_has_no_errors():
@@ -141,3 +149,46 @@ def test_entries_do_not_use_the_class_of_the_page_markers():
     out = mark_html(make_mark(), gm=True) + bond_html(make_bond())
     classes = [c for attr in re.findall(r'class="([^"]*)"', out) for c in attr.split()]
     assert "mark" not in classes
+
+
+def test_a_correct_technique_has_no_errors():
+    assert technique_errors(make_tech()) == []
+
+
+@pytest.mark.parametrize("change", [dict(type="Spell"), dict(cost=0), dict(cost=4), dict(cost=1.5),
+                                    dict(level=3), dict(colour="red")])
+def test_technique_errors_find_bad_values(change):
+    assert technique_errors(make_tech(**change))
+
+
+def test_technique_errors_find_a_missing_key():
+    t = make_tech()
+    del t["timing"]
+    assert any("missing key 'timing'" in e for e in technique_errors(t))
+
+
+def test_technique_html_shows_the_meta_line_and_escapes_the_text():
+    out = technique_html(make_tech())
+    assert "Maneuver · 1 point · Reaction</i>" in out
+    assert "You step <b>aside</b> &amp; strike." in out
+
+
+def test_technique_html_shows_points_and_the_level_only_above_1():
+    out = technique_html(make_tech(cost=2, level=5))
+    assert "2 points" in out and "level 5+" in out
+    assert "level" not in technique_html(make_tech())
+
+
+def test_techniques_html_groups_by_type_in_name_order():
+    techs = [make_tech(name="Zed", type="Stance"), make_tech(name="Ash", type="Stance"),
+             make_tech(name="Bolt", type="Shaping"), make_tech(name="Cut")]
+    out = techniques_html(techs)
+    assert out.index("<h2>Stances</h2>") < out.index("Ash") < out.index("Zed")
+    assert out.index("Zed") < out.index("<h2>Maneuvers</h2>") < out.index("Cut")
+    assert out.index("Cut") < out.index("<h2>Spell Shapings</h2>") < out.index("Bolt")
+
+
+def test_techniques_html_is_empty_with_no_techniques_and_stops_on_a_bad_one():
+    assert techniques_html([]) == ""
+    with pytest.raises(ValueError):
+        techniques_html([make_tech(cost=9)])

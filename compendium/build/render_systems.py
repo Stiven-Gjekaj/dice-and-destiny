@@ -2,6 +2,7 @@
 
 The Player's Compendium shows the Blessings, the Curses, and the Bonds.
 The Game Master's Compendium shows the Taints with their hidden prices.
+The Player's Compendium also shows the Techniques.
 """
 import html
 
@@ -16,6 +17,11 @@ MARK_KEYS = {"name", "kind", "hidden", "summary", "benefit", "cost", "grows", "t
              "give_in", "scar", "ends", "ends_after", "secret", "blocks_bonds"}
 BOND_KEYS = {"name", "summary", "special", "strain", "example"}
 TRACK_TOP = 5
+# The types of Techniques, in the order of the book.
+TECH_TYPES = {"Stance": "Stances", "Maneuver": "Maneuvers", "Shaping": "Spell Shapings"}
+TECH_KEYS = {"name", "type", "cost", "level", "timing", "text"}
+TECH_LEVELS = (1, 5, 11, 17)
+TECH_COST = (1, 3)
 
 
 def mark_errors(m):
@@ -139,3 +145,48 @@ def gm_marks_html():
 def all_bonds_html():
     from content.systems import BONDS
     return bonds_html(BONDS)
+
+
+def technique_errors(t):
+    """Return a list of the problems of one Technique entry. An empty list means no problem."""
+    name = t.get("name", "?")
+    errors = [f"Technique '{name}': missing key '{k}'" for k in sorted(TECH_KEYS - set(t))]
+    errors += [f"Technique '{name}': unknown key '{k}'" for k in sorted(set(t) - TECH_KEYS)]
+    if errors:
+        return errors
+    if t["type"] not in TECH_TYPES:
+        errors.append(f"Technique '{name}': type '{t['type']}' is not one of {list(TECH_TYPES)}")
+    if not (isinstance(t["cost"], int) and TECH_COST[0] <= t["cost"] <= TECH_COST[1]):
+        errors.append(f"Technique '{name}': cost must be a whole number from {TECH_COST[0]} to {TECH_COST[1]}")
+    if t["level"] not in TECH_LEVELS:
+        errors.append(f"Technique '{name}': level must be one of {list(TECH_LEVELS)}")
+    return errors
+
+
+def technique_html(t):
+    """One Technique: the name, a line with the type, the cost, the timing and the level, then the text."""
+    _stop_on(technique_errors(t))
+    pts = "1 point" if t["cost"] == 1 else f'{t["cost"]} points'
+    meta = f'{t["type"]} · {pts} · {E(t["timing"])}'
+    if t["level"] > 1:
+        meta += f' · level {t["level"]}+'
+    return (f'<div class="entry sys-tech"><h4 class="sp-name">{E(t["name"])}</h4>'
+            f'<div class="sp-meta"><i>{meta}</i></div><p>{feature_text(t["text"])}</p></div>')
+
+
+def techniques_html(techs):
+    """All Techniques, grouped by type, each group in the order of the names. Return "" if there are none."""
+    _stop_on([e for t in techs for e in technique_errors(t)])
+    out = []
+    for ty, plural in TECH_TYPES.items():
+        group = sorted((t for t in techs if t["type"] == ty), key=lambda t: t["name"])
+        if group:
+            out.append(f'<h2>{plural}</h2><div class="cols2 compendium">')
+            out += [technique_html(t) for t in group]
+            out.append("</div>")
+    return "\n".join(out)
+
+
+def all_techniques_html():
+    from content.systems import TECHNIQUES
+    return techniques_html(TECHNIQUES)

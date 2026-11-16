@@ -23,9 +23,18 @@ BONDS is a list of Bond kinds. A Bond entry is a dict with these keys:
   strain: what strains a Bond of this kind
   example: a short example of play
 
+TECHNIQUES is a list of Technique entries. A Technique entry is a dict with these keys:
+  name: the name of the technique
+  type: "Stance", "Maneuver", or "Shaping"
+  cost: the technique points that it costs, from 1 to 3
+  level: the lowest character level to learn it (1, 5, 11, or 17)
+  timing: when you use it, for example "Bonus Action" or "Reaction"
+  text: what it does
+
 In all text, [[label]] shows the label in bold.
 """
 from content.collect import collect_list
 
 MARKS = collect_list(__name__, "MARKS")
 BONDS = collect_list(__name__, "BONDS")
+TECHNIQUES = collect_list(__name__, "TECHNIQUES")
