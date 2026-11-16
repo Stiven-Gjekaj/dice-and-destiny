@@ -594,3 +594,145 @@ both if the party stopped her for a moment:
 > stops humming. The hall is quiet. Then, very far away, the bearer hears a
 > slow, deep voice: "She does not understand. Not yet. Neither do you." Then
 > nothing. Malgrath says nothing else in this chapter.
+
+---
+
+## Scene 5: The Steward's Study (30 to 45 minutes)
+
+**Goal:** Wick opens the study. The party gets the first letters of Haskel
+Orme, and the last banner of the Dawnwatch.
+
+### The door with no lock
+
+> The door is plain grey stone, the same as the wall. It has no handle, no
+> hinge, and no keyhole. If you did not know that it was a door, you would
+> not see it. The only mark on it is small, at the height of your heart: a
+> flame inside a ring.
+>
+> Next to the door is the niche where Wick sat when you first woke. It is
+> just big enough for a lantern. At the back of the niche, a brass bracket is
+> set into the stone, shaped like an open hand.
+
+The players saw the mark of the flame inside a ring in chapter 6: it is the
+maker's mark of Haskel Orme, the same mark that is on Wick. The players
+can try to open the door. Nothing works.
+
+| What the players try | Result |
+|---|---|
+| Force, magic, a Knock spell, a tool | Nothing. The door is not locked. It is a wall that remembers that it is a door. |
+| Intelligence (Arcana), DC 15 | The door is held by an old spell. It waits for one thing: a certain light. |
+| Intelligence (Investigation), DC 13 | The bracket in the niche is warm. It is the only warm thing in the room. It is made to hold a lantern of exactly Wick's size. |
+| Wick in the niche, but sad and small | The bracket glows a little. The door does not move. |
+
+The answer: Wick must sit in the bracket and burn as bright as he can. In
+three hundred years, Wick never burned bright. He was lonely and sad, and
+his flame was small. He sat in front of this door for three hundred years,
+and it never opened.
+
+Let the players find it. If they need help, Wick finds it himself:
+
+> Wick looks at the niche for a long time. "I sat there," he says. "Right
+> there. For three hundred years. The steward put me there on the last
+> night, and he said, 'Wait for them, little light. When they come back,
+> burn as bright as you like.'" His flame wobbles. "I never did. There was
+> nothing to be bright about."
+
+When a character puts Wick in the bracket, ask the players: "What do you
+say to Wick?" A kind word, a joke, a memory of the road. Any honest answer
+works. Then:
+
+> Wick's flame grows. It grows past the size of a candle, past the size of a
+> torch. It fills the niche, and the brass hand closes softly around him.
+> White and gold light pours into the Hall of Sleepers, and every shard of
+> crystal in the baskets lights up like a star.
+>
+> In the door, the flame inside the ring glows. Then the stone slides back
+> into the wall without a sound.
+>
+> Wick sits in the brass hand, small again, and very quiet. "He made me to
+> open it," he says at last. "I was the key. I was the key the whole time."
+
+> **Thread (Wick):** Wick is moved, and a little hurt. The steward made Wick
+> to wait here, but never told him why. Give Wick a moment. If the players
+> comfort him, Wick says: "He could have told me. I would have kept the
+> secret. I am very good at secrets. I kept the secret of the dogs for a
+> whole hour." Wick trusts the party a little more after this, and the
+> steward a little less.
+
+### Inside the study
+
+> The study is small and dry. No dust: the air is sealed and still, as if
+> the steward stepped out a minute ago. A desk stands under a shelf of books.
+> On the desk are a pen, a pot of ink gone to powder, and a neat bundle of
+> letters tied with a blue ribbon. A cold hearth. A chair with a worn
+> cushion. On the wall hangs a painting of a knight in the blue and gold of
+> the Dawnwatch. Someone cut the face out of it with a knife, many years ago.
+>
+> In the corner stands a long wooden chest with a sun painted on the lid.
+
+**The letters.** Give the players the handout.
+
+{{handout: 07-the-letters-of-haskel-orme}}
+
+The letters are from Haskel Orme to his sister, Wenna Orme. He wrote them
+in the last months before the long sleep, and he never sent them. Let the
+players read them aloud. Do not explain them. The players can talk about
+what they mean as long as they want.
+
+The last of the letters ends with a line that matters: the rest of the
+truth is "with him, under Kingsholm". The players do not know who "him" is.
+Do not tell them. Wick does not know either.
+
+> **GM tip:** The letters show that the steward lied about something, and
+> that he felt bad about it. They do not say what the lie is. If the players
+> ask Wick, he says: "The steward did not lie. The steward was the most
+> honest person in the keep." Then, after a moment: "Probably." This is the
+> first time that Wick is not sure of the steward.
+
+**The painting.** The knight in the painting wears the badge of the
+Dawnwatch: a rising sun. The brass plate on the frame is scraped away. Only
+two letters are left: "Sir G". A character who makes a DC 15 Intelligence
+(History) check knows that the painting is old, older than the Dawnwatch of
+the characters, and that the knight was important: he stands in front of
+the sun, not under it.
+
+> **GM tip:** The painting shows Sir Garrath, the first of the Dawnwatch,
+> who became Malgrath. Do not say this. If the players ask who it is, Wick
+> says: "I do not know. The steward never talked about it. He used to sit in
+> that chair and look at it." Chapter 10 tells the truth. A player who
+> remembers the painting then will have a great moment.
+
+**The chest.** It holds the last war banner of the Dawnwatch, folded with
+care, and wrapped in waxed cloth.
+
+{{treasure: The Dawn Banner}}
+
+> The banner is dark blue, with a gold sun. It is faded, and someone patched
+> it in three places with careful small stitches. Under the banner is a card
+> in the steward's hand: "For the day they come home."
+
+### Other things in the study
+
+Let the players search. Each check takes 10 minutes.
+
+| Check | DC | Result |
+|---|---|---|
+| Intelligence (Investigation) | 12 | A drawing of a lantern with a face, with notes: "voice: cheerful", "teach to count", "must not fear the dark". It is the plan of Wick. Wick is delighted and embarrassed at once. |
+| Intelligence (Investigation) | 15 | A ledger of the keep. The last page is a list of five names in the steward's hand: the names of the characters. Under each name is a short line. Use the "Before" answers: "Promised to come back." "Took something from the treasury; let it go." Choose a line for each character. |
+| Intelligence (Arcana) | 15 | Notes on the crystal spell. The writing is too old and too careful to understand fully, but one note is clear: "The spell holds a sleeper, not a prisoner. It cannot tell the difference. Neither, the gods help me, can I." |
+| Wisdom (Perception) | 13 | Under the cushion of the chair: a small brass key. It opens nothing in the study. (It is the key to the strongroom of the keep. In Scene 6, it lets the party build a Vault for half the cost, if they want one.) |
+| Intelligence (History) | 18 | A book of the official history of Ostrey, a fresh copy, never read. On the first page, the steward wrote: "Forgive me." |
+
+> **Thread (the steward):** Here is what the players can learn about Haskel
+> Orme in this chapter:
+>
+> - He made the coffins, the crystal spell, the study, and Wick.
+> - He loved the Dawnwatch. He wrote their names down and remembered small
+>   things about each of them.
+> - He wrote something that he was ashamed of, and he asked his sister to
+>   forgive him.
+> - He knew that the sun was getting weaker (the letters say so).
+> - He put the rest of the truth "under Kingsholm", with someone he calls
+>   "him".
+>
+> That is enough. Do not add more. Chapter 10 gives the last letter.
