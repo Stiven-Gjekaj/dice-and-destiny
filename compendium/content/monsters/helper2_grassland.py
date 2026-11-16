@@ -131,6 +131,28 @@ M("Ancient Horizon Dragon", "G", "Dragon", "Chaotic Neutral", 24, "28 14 28 18 1
        ("Tailwind", "The dragon flies up to half its Fly Speed."),
        ("Downdraft (Costs 2)", "Each creature within 30 feet of the dragon makes a {dc:str} Strength saving throw. On a failed save, a creature takes {4d8} Bludgeoning damage and has the Prone condition. A flying creature that fails falls 60 feet.")],
   desc="An old dragon the color of a summer sky, almost invisible against it. It claims everything as far as the horizon, and it moves its horizon when it likes."),
+
+# ================= BATCH 2 =================
+M("Thunder Hare", "S", "Beast", "Unaligned", 0.25, "4 16 10 2 14 5", speed="50 ft.", skills="Perception, Stealth",
+  traits=[("Alarm Stamp", "When the hare sees a predator, it stamps the ground hard enough to be heard 300 feet away. Other hares that hear it run.")],
+  attacks=[("Kick", "f", "1d6", "Bludgeoning")],
+  bonus=[("Bolt", "The hare takes the Dash or Disengage action.")],
+  desc="A hare as big as a dog, with feet like drums. Steppe children learn its warning stamp before they can ride."),
+M("Grass-Sea Serpent", "G", "Monstrosity", "Unaligned", 15, "24 18 22 3 14 5", saves="Dex, Con", skills="Stealth", speed="60 ft.", senses="Tremorsense 120 ft.",
+  traits=[("Through the Grass", "While the serpent is in tall grass, it can take the Hide action as a Bonus Action, and it is Heavily Obscured to creatures more than 10 feet away from it."),
+          ("Swift Strike", "The serpent doesn't provoke Opportunity Attacks when it moves.")],
+  attacks=[("Bite", "m", "3d12", "Piercing", "plus {3d6} Poison damage", "15 ft."), ("Coil", "m", "3d8", "Bludgeoning", "and the target has the Grappled condition (escape {dc:str}) if it is Huge or smaller. Until the grapple ends, the target has the Restrained condition", "15 ft.")], multi=2,
+  actions=[("Wave Through the Grass (Recharge 5–6)", "The serpent moves up to its Speed in a straight line. Each creature in its path makes a {dc:str} Dexterity saving throw, taking {9d10} Bludgeoning damage and having the Prone condition on a failed save, or taking half as much damage only on a successful one.")],
+  desc="The plains move like the sea when the wind blows. When there is no wind and the grass still moves in a long line, ride the other way."),
+M("Sky Khan", "H", "Giant", "Lawful Neutral", 23, "29 12 28 16 20 20", ac=21, saves="Str, Con, Wis, Cha", skills="Athletics, Intimidation, Perception", speed="50 ft.", senses="Truesight 60 ft.", lang="Common, Giant, Primordial (Auran)",
+  res=R(Immunities="Lightning, Thunder"),
+  traits=[legres(4), ("Storm Mount", "The khan rides a storm cloud that is part of its magic. While it rides, it has a Fly Speed of 80 feet and can hover.")],
+  attacks=[("Lance of Lightning", "m", "3d10", "Piercing", "plus {4d8} Lightning damage", "15 ft."), ("Thunder Arrow", "r", "3d10", "Piercing", "plus {4d8} Thunder damage", "300/1,200 ft.")], multi=3,
+  actions=[("Call the Storm (Recharge 5–6)", "Lightning falls on up to six points the khan can see within 300 feet. Each creature within 10 feet of a point makes a {dc:con} Dexterity saving throw, taking {12d10} Lightning damage on a failed save or half as much on a successful one. A creature in more than one area is affected only once.")],
+  leg=[("Strike", "The khan makes one Lance of Lightning or Thunder Arrow attack."),
+       ("Ride the Wind", "The khan flies up to half its Fly Speed without provoking Opportunity Attacks."),
+       ("War Drum (Costs 2)", "Each creature of the khan's choice within 120 feet makes a {dc:cha} Wisdom saving throw or has the Frightened condition until the end of its next turn.")],
+  desc="The giant who rules the sky over the steppe. The horse clans send it a white mare each spring, and in return the summer storms fall on their enemies."),
 ]
 
 # The shared traits say "The creature". Put the name of each monster in its place.
