@@ -8,7 +8,7 @@ R = lambda **k: "; ".join(f"<b>{a}</b> {b}" for a, b in k.items())
 UNDEAD = "Charmed, Exhaustion, Frightened, Poisoned"
 GHOST = "Charmed, Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained"
 CONSTRUCT = "Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned"
-GREY_SIGHT = ("Grey Sight", "The creature sees normally in Dim Light and in darkness, magical darkness included, out to 30 feet.")
+GREY_SIGHT = ("Grey Sight", "The creature sees normally in Dim Light and in Darkness, magical Darkness included, out to 30 feet.")
 INCORPOREAL = ("Incorporeal Movement", "The creature can move through other creatures and objects as if they were Difficult Terrain. "
                "It takes {1d10} Force damage if it ends its turn inside an object.")
 
@@ -68,8 +68,8 @@ M("Brass Lamp Warden", "L", "Construct", "Unaligned", 5, "18 10 18 3 10 1", ac=1
   actions=[("Flare (Recharge 5–6)", "The flame in the warden's chest roars out in a 15-foot Cone. Each creature in the Cone makes a {dc:con} Dexterity saving throw. "
                                     "On a failed save, it takes {6d6} Fire damage and has the Blinded condition until the end of its next turn. "
                                     "On a successful save, it takes half as much damage only.")],
-  desc="A brass figure eight feet tall, with a lamp where its heart should be. The first Lampwrights built six of them "
-       "to guard their hall. Each one carries a small stamp on its heel: a sun inside a square."),
+  desc="A brass figure eight feet tall, with a lamp where its heart should be. Haskel Orme made six of them "
+       "to guard the hall that his apprentices would build. Each one carries a small stamp on its heel: a sun inside a square."),
 
 # ================= CHAPTER 8: FENNICK =================
 M("Fennick Drowned", "M", "Undead", "Neutral Evil", 2, "15 8 16 6 8 5", ac=11, speed="20 ft., swim 30 ft.",
@@ -105,7 +105,7 @@ M("Sergeant Maud Kettle", "M", "Undead", "Lawful Good", 5, "16 14 14 10 14 12", 
           ("Bound to the Tower", "Maud can't go more than 1 mile from the bell tower of Fennick. If she is destroyed while her duty is not done, "
                                  "she forms again in the tower at the next dusk."),
           ("Old Drill", "Maud uses Techniques as a character does. She has 3 technique points and regains them when she finishes a Short Rest. "
-                        "She knows Driving Strike and Turn the Blade (both in the Techniques chapter of the Player's Compendium). Her technique DC is {dc:str}."),
+                        "She knows Driving Strike and Turn the Blade (both in the Techniques chapter of the Player's Compendium). Her techniques use {dc:str}."),
           ("Only Sparring", "When Maud reduces a creature to 0 Hit Points in a fight that she calls a drill, the creature drops to 1 Hit Point instead.")],
   attacks=[("Ghostly Halberd", "m", "1d10", "Slashing", "plus {1d8} Cold damage", "10 ft.")], multi=2,
   bonus=[("On Your Feet", "Maud barks an order at one creature within 60 feet that can hear her. If it has the Prone condition, it can stand up "
@@ -125,7 +125,7 @@ M("The Unlit Knight", "M", "Undead", "Lawful Neutral", 12, "22 12 20 14 16 18", 
   actions=[("Eclipse (Recharge 5–6)", "Darkness pours out of the knight's visor. Each creature within 30 feet of it makes a {dc:con} Constitution saving throw. "
                                       "On a failed save, the creature takes {8d8} Necrotic damage and can't regain Hit Points until the start of the knight's next turn. "
                                       "On a successful save, it takes half as much damage only.")],
-  bonus=[("Dark Step", "The knight teleports up to 30 feet to an unoccupied space in Dim Light or darkness that it can see.")],
+  bonus=[("Dark Step", "The knight teleports up to 30 feet to an unoccupied space in Dim Light or Darkness that it can see.")],
   react=[("Parry", "The knight adds 4 to its AC against one melee attack that would hit it. To do so, it must see the attacker.")],
   leg=[("Strike", "The knight makes one Black Greatsword attack."),
        ("Advance", "The knight moves up to half its Speed. It doesn't provoke Opportunity Attacks."),

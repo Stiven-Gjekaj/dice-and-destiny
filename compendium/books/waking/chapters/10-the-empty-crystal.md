@@ -295,7 +295,7 @@ The people of today say that the place is bad luck, and they are right.
 > note.
 
 **Inside the dome.** It is always night inside the dome. The area is in
-darkness, except where there is a light. Nonmagical lights work, but the
+Darkness, except where there is a light. Nonmagical lights work, but the
 Hush puts them out (see the Snuff bonus action of the Hush Night Warden).
 Wick, the First Lamp, the Fennick Candle, and the lamps of the Lampwrights
 burn normally. Spells that make light work, but Hush Grey Choirs dim them.
@@ -817,7 +817,7 @@ speak. It attacks anyone who comes close to the crystal: the Hush too.
 
 **The battlefield.** The vault is a circle 80 feet across, with a domed
 roof 40 feet high. The broken coffin stands on a step 2 feet high in the
-middle. The carved lines on the floor are dark. The room is in darkness,
+middle. The carved lines on the floor are dark. The room is in Darkness,
 except for the party's lights, and the Unlit trait of the knight makes
 those lights dim within 30 feet of it. The light of the First Lamp and the
 Fennick Candle is sunlight, so the knight can't dim it.

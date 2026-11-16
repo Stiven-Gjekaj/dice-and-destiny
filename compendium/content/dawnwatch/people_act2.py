@@ -31,7 +31,7 @@ NPCS = [
   skills="Deception, Insight, Religion, Stealth", senses="Darkvision 120 ft.", lang="Common, Hush Sign, and the old speech of Ostrey",
   res=R(Resistances="Necrotic, Psychic"),
   traits=[legres(2),
-          ("Grey Sight", "Mother Sallow sees normally in Dim Light and in darkness, magical darkness included, out to 120 feet."),
+          ("Grey Sight", "Mother Sallow sees normally in Dim Light and in Darkness, magical Darkness included, out to 120 feet."),
           ("Unbound", "The first time Mother Sallow is Bloodied, darkness bursts from her. Each creature within 20 feet of her makes a {dc:wis} "
                       "Constitution saving throw, taking {4d10} Necrotic damage on a failed save or half as much on a success.")],
   attacks=[("Grey Knife", "f", "2d6", "Piercing", "plus {3d8} Necrotic damage"),
@@ -42,7 +42,7 @@ NPCS = [
                                              "{dc:wis} Wisdom saving throw. On a failed save, it takes {8d8} Psychic damage and has the Frightened condition "
                                              "until the end of its next turn. On a successful save, it takes half as much damage only.")],
   leg=[("Knife", "Mother Sallow makes one Grey Knife attack."),
-       ("Fade", "Mother Sallow teleports up to 30 feet to an unoccupied space in Dim Light or darkness that she can see."),
+       ("Fade", "Mother Sallow teleports up to 30 feet to an unoccupied space in Dim Light or Darkness that she can see."),
        ("Snuff (Costs 2)", "Each light within 60 feet of Mother Sallow goes out, except sunlight and the pieces of the Dawnfire. "
                            "One creature that she can see within 60 feet makes a {dc:wis} Constitution saving throw or takes {3d10} Necrotic damage.")],
   desc="The leader of the Hush, at the end of her road. She drank the dark that seeps from the empty crystal, and now it drinks her. "

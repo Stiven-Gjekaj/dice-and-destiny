@@ -636,7 +636,7 @@ six drowned, 3,600 XP. A Low fight, but a messy one in the water.
   is 25 feet under the water and very dark.
 - A broken well in the middle of the square is a shaft 40 feet deep. A
   creature that is dragged into it is 40 feet under the surface and in
-  darkness.
+  Darkness.
 
 **Tactics:** The drowned do not use smart tactics. They come in a slow wave,
 two or three at each character. They hold on with Clutching Hands and swim
