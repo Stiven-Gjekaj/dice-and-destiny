@@ -145,6 +145,51 @@ road and about 16 miles off the road.
 - They look for the pieces of the Dawnfire, to put them out and wake their
   king. They put out the piece in the chapel of the keep.
 
+## Old Ostrey
+
+The player's guide tells these facts. They are the world of year 0, as
+the Dawnwatch know it. Each writer uses them.
+
+- **The king at the time of the sleep:** King Aldwin. He was young when
+  the war started. He is not in Book One.
+- **The faith:** the Morning Flame, the god of the dawn. The priests wear
+  red and gold and pray at dawn. The symbol is a sun disk.
+- **The greeting:** "Light to you." The answer is "And dawn to you." The
+  small curse is "Dark take it."
+- **The coins:** a gold **sun**, a silver **star**, and a copper **bit**.
+  Ten bits make a star. Ten stars make a sun. The coins of the tutorial
+  are suns.
+- **The Longest Night:** the winter vigil. Each house keeps one candle
+  until dawn.
+- **The badge of the Dawnwatch:** a rising sun, a half circle of gold on a
+  straight line, with seven rays.
+- **The oath of the Dawnwatch** ends with "I swear to wake the dawn." The
+  player's guide has the full text.
+- **The motto:** before the sleep, "We watch so that the dawn can wake."
+  On the last night, the steward carved "We sleep so that the dawn can
+  wake."
+- **The order:** forty knights at the start of the war. Five at the end.
+  The Dawnwatch marched at night and arrived at dawn.
+- **The Dawnfire in the war:** it went in front of the army in a bronze
+  bowl on a wagon. After the war, it burned in the chapel of the keep.
+- **Ashby Field:** the army of the king stopped the hounds of the Unlit
+  King there, in the snow, at dawn. The song "The Five at the Gate" tells
+  of it.
+- **Saint Ivo:** a healer of the Morning Flame. He stayed with the sick in
+  a hard winter and did not catch the sickness. His shrine was a chapel,
+  a well, and a guesthouse.
+- **The shrine at Kell:** a ring of standing stones with a small chapel
+  inside it.
+- **Fennick:** a town on a rise in the Low Fen, with dikes and a church
+  with a square tower.
+- **Corrin and Tey:** two rival port towns, about a mile apart.
+- **The March of Gauntry:** the south border. The Gauntry family held it
+  for the king from Stannard.
+- **The homes of the pregens:** the Shield is a human soldier of Ostrey.
+  The Light came from the dwarf holds under the Grey Teeth. The Spark is
+  an elf scholar. The Shadow was a thief in Kingsholm. The Storm was a
+  goliath guide in the passes of the Grey Teeth.
+
 ## The people of Book One
 
 Each writer uses these names. Add a new person here before a chapter uses
