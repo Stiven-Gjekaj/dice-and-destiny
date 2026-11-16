@@ -69,10 +69,13 @@ a lantern that knows neither. Be kind to the lantern. It did nothing wrong.
 Here is what I could not say to your faces.
 
 You did not sleep to guard the world from a stranger. You slept so that,
-if he woke, someone would be awake with him who remembered who he was. You
-are his brothers and sisters of the watch. You might be the only people
-left in the land who can look at Malgrath and see Garrath. I do not know if
-that is a weapon. It might be the only one.
+if he woke, someone of his own order would be awake with him. You never
+met him. He founded the watch a generation before you, and he was gone
+north before you took the oath. But you swore his words, and you are his
+brothers and sisters of the watch. When the rest of us are dust, you will
+be the only people left in the land who can look at Malgrath and know
+that a knight of the Dawnwatch stands there. I do not know if that is a
+weapon. It might be the only one.
 
 And there is one more thing, the worst thing. He was right about the sun.
 I have watched it for twenty years now, and he was right. I do not know

@@ -14,8 +14,9 @@ Years count from the long sleep. "Today" is year 300.
 
 | Year | Event |
 |---|---|
+| About -45 | Sir Garrath, the first knight of the sun, founds the Dawnwatch and writes its oath. |
 | About -40 | Sir Garrath, the first knight of the sun, sees that the sun is weaker each winter. |
-| About -20 | Garrath tries to take the fire of the sun into himself, to save it. He becomes the Unlit King. |
+| About -20 | Garrath goes north and tries to take the fire of the sun into himself, to save it. He becomes the Unlit King. The five sleepers swear the oath after he goes. They never meet him. |
 | -20 to 0 | The war of the Unlit King. Ostrey cannot kill him. |
 | 0 | Steward Haskel Orme puts Garrath to sleep in crystal under Kingsholm. Then he puts the five Dawnwatch to sleep under Dawnwatch Keep, to wait. Orme writes the official history: Ostrey "pushed the king back into the dark". He makes Wick on the last night. |
 | 0 to 100 | Ostrey splits the Dawnfire into pieces and keeps them in shrines. The pieces keep Garrath asleep. |
@@ -309,7 +310,7 @@ the person in more than one scene.
 | Brother Ansel | The secretary of Abbess Merrow. A secret agent of the Hush. | 9 | Yes (Hush Dusk Priest) |
 | Corporal Lenna | A young soldier of the levy of Saint Ivo's. Her family name is the family of the person of the Shield's promise. | 9 | Yes (Line Pikeman) |
 | Sergeant Maud Kettle | The ghost of a soldier of Ostrey in Fennick. She teaches the old fighting ways. | 8 | Yes |
-| Sir Garrath (Malgrath) | The first Dawnwatch. The Unlit King. Only his voice in Book One. | 1, 4, 10 | No (Book Two) |
+| Sir Garrath (Malgrath) | The first Dawnwatch. He founded the order a generation before the five sleepers, and they never met him. "Brothers. Sisters." is the kinship of the order. The Unlit King. Only his voice in Book One. | 1, 4, 10 | No (Book Two) |
 
 ## The creatures of Book One
 

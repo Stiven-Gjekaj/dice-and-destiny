@@ -37,7 +37,9 @@ read it themselves at the table.
 > became the Unlit King. Ostrey could not kill him. Steward Haskel Orme put
 > him to sleep in crystal under Kingsholm. Then Orme put five more of the
 > Dawnwatch to sleep under Dawnwatch Keep, with the same spell, so that
-> someone who remembered Garrath would wake if he woke. Orme wrote the lie
+> knights of his own order would wake if he woke. The five never met
+> Garrath. He founded the order a generation before them, and he was gone
+> before they swore its oath. Orme wrote the lie
 > that the world knows: a demon came from the dark, and Ostrey pushed him
 > back.
 >
@@ -730,7 +732,7 @@ Revivify within 1 minute of the death. Later, Brother Cade can carry the
 body to Saint Ivo's, seven days away, where a priest of the Church can
 cast Raise Dead. Ask the players first: some players want the death to
 stand. If it stands, give the fallen character the first place in the last scene. The voice of
-Malgrath speaks their name first. He knew all five of them, once.
+Malgrath speaks their name first. He never met them, but he wrote the oath that they swore.
 
 ---
 
@@ -934,7 +936,7 @@ usually ask, and what you can tell them:
 | Is the Unlit King really Sir Garrath? | Yes. He was the first knight of the sun and the first of the Dawnwatch. He wrote their oath. |
 | Was he evil? | He tried to save the sun, and the dark took him. Whether he is evil now is the question of Book Two. |
 | Were we lied to? | Yes. The history that the characters know, and that the world knows, is the story that Haskel Orme wrote. Ostrey did not push him back. It put him to sleep. |
-| Why did we sleep? | To wake when he woke, and to be the people who remember who he was. |
+| Why did we sleep? | To wake when he woke. You are knights of his own order, the last people who swore his oath. |
 | Is the sun really dying? | The letter says that Garrath was right. Wick has counted the days. They are shorter. |
 | Where is he? | Gone north. The black stone, when it hums, points to the far north now, to the Grey Teeth, and past them. |
 
