@@ -1548,3 +1548,348 @@ or a chase.
 | 6 | Wolf of the Long Winter (4) | Down from the Grey Teeth, in the snow. |
 | 7 | Bridge Troll (5) | At the ford of white stones, where the great bridge of Kingsholm fell. |
 | 8 | Hush Lightless (4) with Hush Snuffers (1/2) | A patrol of the Hush around Kingsholm, with no lights. |
+
+## Adventure Seeds
+
+These are short adventures for one or two sessions. Use them between
+chapters, when the players want to go somewhere that no chapter covers, or
+after Book One. Each seed gives the levels, the place, the hook, what is
+really going on, and a reward.
+
+A seed does not give a level by itself. If you run three or four seeds in
+a row, give the party a level, as for a chapter.
+
+### The Barrow Wardens
+
+*Levels 2 to 4. The Wolds. After chapter 2.*
+
+**The hook.** A shepherd comes to the party at night, white in the face.
+His flock is gone. He followed the tracks to a barrow on the high Wolds,
+and the stone door of the barrow was open, and something inside said his
+name.
+
+**What is going on.** Treasure hunters dug into a barrow of the road
+wardens of Ostrey, as Dace did on the hill by the ford. They took a bronze
+horn. Without it, the wardens cannot sleep. The dead wardens walk out
+each night to look for it, and they drive anything they find back into the
+barrow, sheep included.
+
+**How it can go.** The party can track the treasure hunters to Brannock's
+Ford, or to the road south, and get the horn back. It can go into the
+barrow and fight the wardens: a Barrow Thane and its guards. Or it can
+talk to them. The wardens know the badge of the Dawnwatch, and they will
+listen to a knight who swears to return the horn.
+
+**The reward.** The sheep, the thanks of the Wolds, and the bronze horn. A
+warden gives the party one gift from the barrow: an old sword of Ostrey
+(a +1 weapon from the Game Master's Compendium). From then on, the
+shepherds of the Wolds are friends of the party, which matters in chapter
+7.
+
+### A Saint in Every Village
+
+*Levels 3 to 5. The middle land. After chapter 3.*
+
+**The hook.** News comes to Saint Ivo's: in a village two days west, one
+of the Five has woken. She heals the sick with a touch. Pilgrims are
+leaving the feast to see her.
+
+**What is going on.** The "saint" is a young hedge witch who learned one
+true healing spell and found that people pay more for a saint than for a
+witch. She is not evil. She is scared. Now the village depends on her, a
+priest of the Church is on the way to judge her, and a Hush Shroud has
+come to her in the night with an offer: "Put out the candles of the Five
+in your village, and we will teach you a spell that really works."
+
+**How it can go.** The party can expose her, protect her, or turn her into
+a true healer of the Church. Brother Cade can come along and argue about
+what a saint is. The Hush Shroud returns on the third night, and it does
+not come alone.
+
+**The reward.** A friend in the village, or an enemy. If the party saves
+her from the Hush, she gives them a list of the people who came to her
+with grey offers. Three of the names are in Saint Ivo's.
+
+### The Toll at Ashby
+
+*Levels 4 to 6. Ashby Field. Before chapter 5, or between 5 and 9.*
+
+**The hook.** A patrol of Gaunt and a patrol of the Church meet at a
+border stone on Ashby Field. In the morning, a soldier of Gaunt is dead in
+the grass, with a pilgrim's knife in his back. Both sides send for the
+Five to judge.
+
+**What is going on.** Neither side did it. A Hush Snuffer killed the
+soldier and left the knife, to start the war early. The killer is still
+close: a pilgrim in the Church patrol, who joined two weeks ago.
+
+**How it can go.** A mystery on open land. Tracks in the dew, a knife from
+the wrong market, a patrol member who does not speak, and two angry
+captains who want a name before sunset. If the party finds the killer,
+both sides calm down, for now. If it does not, the border gets worse, and
+chapter 9 starts sooner.
+
+**The reward.** Renown with both Gaunt and the Church, if the Factions and
+Renown system is in use. The first clear proof, for the powers, that the
+Hush exists.
+
+### The Gauntry Ring
+
+*Levels 5 to 7. Stannard and Corrantey. After chapter 5.*
+
+**The hook.** Tobin Gauntry asks the party, in private, to look at the
+proof of his family's claim: a ring and a letter of the last royal house
+of Ostrey. "I want to know if it is true. I do not want to know in front of
+my mother."
+
+**What is going on.** The ring is real. It belonged to a princess of
+Ostrey. The letter, which says that she married a Gauntry, is a forgery,
+made in the town of Tey about a hundred and fifty years ago. A Gauntry bought the
+ring from a scavenger. The characters know the hand and the seals of old
+Ostrey better than anybody alive.
+
+**How it can go.** The party must decide what to do with the truth. Tell
+Tobin. Tell the Marshal. Tell the Church, which would use it as a weapon.
+Or keep it. A trip to Corrantey can find the family of the forger, who
+still keeps the old copy book. Each choice changes chapter 9.
+
+**The reward.** The trust of Tobin, which is worth more than gold in
+chapter 9. Or the anger of the Marshal. Or a weapon to stop the war.
+
+### The Sunrise Book
+
+*Levels 5 to 7. Corrantey. Before or after chapter 6.*
+
+**The hook.** Perrin Hale asks the party for a quiet favor. An apprentice
+of the Lampwrights ran away with a book that belongs to the guild. The
+guild wants it back before the council hears of it.
+
+**What is going on.** The book is the record of sunrise and sunset that
+the guild has kept for a hundred years. It shows, clearly, that the days
+are shorter each year. The apprentice saw it, and it frightened her, and
+the Hush found her when she was frightened. She is with a cell of the Hush
+in the cellars of the Corrin half, about to give them the book. The Hush
+wants it as proof for new members.
+
+**How it can go.** A hunt through the docks, a talk with a frightened young
+woman, and a fight in the dark with Hush Snuffers and a Hush Shroud. The
+apprentice can be saved, if the party can answer one question: "Is the sun
+dying?" The party does not know. That is the point.
+
+**The reward.** The thanks of the Lampwrights, which makes the crafting of
+chapter 6 cheaper. A long look at the book. Wick reads the numbers and
+goes quiet for an hour.
+
+### The False Beacon
+
+*Levels 4 to 6. The coast south of Corrantey.*
+
+**The hook.** Three ships went onto the rocks south of Corrantey this
+season, on clear nights, at the same place. The sailors say that they
+followed a lighthouse, and there is no lighthouse there.
+
+**What is going on.** A False Beacon has nested in the ruin of an old
+watchtower of Ostrey on the cliffs. Wreckers from a fishing village use it
+to bring the ships in, and they share the cargo with it. The wreckers are
+poor, and the fish are fewer each year.
+
+**How it can go.** A night on the cliffs, a fight with the beacon and its
+Wreck Ghouls, and a hard talk with a village that did a terrible thing to
+live. The village headwoman will beg the party not to tell the council.
+
+**The reward.** The guild of shipmasters pays 200 GP. The village can be
+saved or ruined. The old watchtower has a cellar, and the cellar has a
+chest with the badge of the Dawnwatch on it: the supplies of a patrol of
+the order that never came back for them.
+
+### The Lamps of the Drowned
+
+*Levels 6 to 8. The Low Fen. Before chapter 8.*
+
+**The hook.** A girl of the fen folk followed the lights over the water
+three nights ago, and she did not come back. Her mother asks the party,
+because the fen folk will not.
+
+**What is going on.** Most of the lights in the Low Fen are the dead of
+Fennick, who mean no harm. This one is a Will-o'-the-Wake, and it is
+hungry. It led the girl to an island of willow where an old dike meets the
+river, and she is alive, hiding in a drowned farmhouse with only the roof
+above the water.
+
+**How it can go.** A night chase through the reeds, a choice between two
+lights, and a rescue from a house that is mostly under water. A ghost of
+Fennick, a farmer, helps the party if it is kind to him. He tells them that
+"the sergeant" keeps the watch on the tower.
+
+**The reward.** The trust of the fen folk. In chapter 8, they guide the
+party to Fennick by the safe dikes, and the Journeys trip is one day
+shorter.
+
+### The Wolf Winter
+
+*Levels 4 to 7. The Wolds and the north.*
+
+**The hook.** Winter comes early, and the wolves come with it. They kill
+sheep in the Wolds, a dog in Brannock's Ford, and a shepherd on the high
+ground. The people say that some of the wolves have no eyes.
+
+**What is going on.** The cloud over the Grey Teeth drives the beasts of
+the north south. The wolves are a normal pack, led by a Greyhide Wolf
+Mother, hungry and afraid. Among them run two things that are not wolves:
+creatures of the dark that came down with the cloud. They are the wolves
+with no eyes, and they are what the pack is afraid of.
+
+**How it can go.** Hunt the pack, and find that it is running from
+something. Track the eyeless ones to a ruined farm, and fight them in the
+snow. Or drive the wolves back north, and know that something worse waits
+for them there.
+
+**The reward.** The thanks of the Wolds. A pelt for the stronghold. And
+the first sign, after chapter 4, that the dark in the north is sending
+things south.
+
+> **Secret (Book Two):** The eyeless wolves are the first of the
+> creatures of the Long Night. Book Two has many more.
+
+### The Gate under the Mountain
+
+*Levels 7 to 9. The Grey Teeth. After chapter 7.*
+
+**The hook.** A rumor reaches the keep: on the night of the black noon, a
+dwarf gate under the Grey Teeth opened, for the first time in two hundred
+years. The Light knows that gate.
+
+**What is going on.** The dwarves of the holds closed their gates in the
+Grey Winter and lived on, underground, smaller each year. On the night of
+the black noon, their priests felt something wake in the north. They
+opened the gate to send one messenger to the land: an old dwarf priest of
+the Morning Flame, who has not seen the sun in his life. He is lost
+somewhere in the high passes, in the snow.
+
+**How it can go.** A journey into the mountains, with the Storm as the
+guide. Find the messenger before the cold or the things of the cloud find
+him. Bring him to the keep, or to the gate. The holds will open to the
+party if it brings him home, and the Light is welcome among the dwarves.
+
+**The reward.** An ally under the mountains for Book Two. The messenger
+knows the old prayers of the Morning Flame, as Ostrey knew them. The
+Light can learn one new spell from him, if the GM allows.
+
+### The Song of the Goliaths
+
+*Levels 8 to 10. The Grey Teeth. After chapter 8.*
+
+**The hook.** The Storm hears that a goliath family still lives in a high
+valley. The goliaths will not come down. The Storm can go up.
+
+**What is going on.** The family keeps the old ways. They have a song
+about the Unlit King that they sing only to their own. They will sing it
+to a goliath who climbs to them and wins a contest of strength, of
+endurance, and of honesty.
+
+**How it can go.** A climb, a storm, a contest, and a night by a goat-dung
+fire. The song is long and strange. It calls the Unlit King "the one who
+ate the fire". It says that he came up out of the south, not down out of
+the north, and that he wore a sun on his chest.
+
+**The reward.** The friendship of the goliaths, and a song that does not
+fit the story that everybody knows. Do not explain it. Let the players
+carry it to chapter 10.
+
+> **Secret (chapter 10):** The song is a true memory of Garrath. The
+> goliaths saw him from the mountains when he took the fire of the sun.
+> "Came out of the south" is the truth: he came from Ostrey. "A sun on
+> his chest" is the badge of the Dawnwatch. Use this seed only if you
+> want the players to guess before chapter 10. It is a strong hint.
+
+### The Smugglers of the Dunn
+
+*Levels 6 to 8. The mouth of the Dunn and Kingsholm. After chapter 6.*
+
+**The hook.** Corvin Lisle, the antiquary, buys a lot of old things of
+Ostrey from smugglers who land at the mouth of the Dunn. This month, he
+bought a helmet with the badge of the Dawnwatch on it, and the name of a
+knight that one of the characters knew is scratched inside.
+
+**What is going on.** Scavengers bring metal down the Dunn from Kingsholm.
+The helmet came from the ruins, from the old hall of the Dawnwatch in the
+capital. The scavengers are scared: their last trip, grey folk took half
+of them, and they will not go back. They will sell the party a map of the
+ruins, as far as they dared to go.
+
+**How it can go.** A smugglers' cove at night, a deal with frightened
+people, and a map. If the party goes up the Dunn, it can see the edge of
+Kingsholm. Do not let it go in. The forest is thick, the Hush is watching,
+and Wick refuses to go another step. Save the city for chapter 10.
+
+**The reward.** The helmet, which is a story for the player whose
+character knew the knight. A map of Kingsholm, which makes chapter 10
+easier. The knowledge that the Hush is in the old capital.
+
+### The Last Steward
+
+*Levels 3 to 5, or 7 to 9. Brannock's Ford and the keep.*
+
+**The hook.** Tamsin asks the party to find her great-great-grandfather.
+He was the last watchman of Dawnwatch Keep. In the Grey Winter, he left
+with the last steward for the war of the lords, and neither of them came
+back. "They went south. That is all we ever knew."
+
+**What is going on.** The last steward and the watchman died in the war of
+the lords, at a small fight on the old road. Their men buried them
+together under a cairn by a ford, with the steward's sword and the keys of
+the keep. The keys are the keys of the keep. One
+of them opens a door in the lower keep that the tutorial does not open: a
+store room with old supplies of the order, untouched for two hundred
+years.
+
+**How it can go.** A search in old records at Saint Ivo's, a talk with a
+ghost at a ford, and a cairn in a lonely place. Play it gently. It is a
+story about a family that kept a promise for two hundred years with
+nobody to keep it for.
+
+**The reward.** The watchman's bones for Tamsin to bury, the keys, the supplies (food, arrows, oil, and armor for
+the stronghold in chapter 7), and Tamsin's family as the first staff of
+the keep. The keys do not open the steward's study. Nothing does, before
+chapter 7.
+
+### The Fifth Play
+
+*Levels 5 to 8. Corrantey or Saint Ivo's.*
+
+**The hook.** A theater in Corrantey asks the party to watch the
+rehearsal of its new play about the Five, and to say if it is true. The
+pay is good. The play is terrible.
+
+**What is going on.** The writer of the play is a member of the Hush. The
+last act shows the Five putting out the Dawnfire to let the sun rest, and
+it ends in the dark. It is very beautiful. The Hush plans to put out every
+light in the theater on opening night, in front of a thousand people, to
+show them how quiet the dark can be.
+
+**How it can go.** A mystery in a theater, with actors, jealousy, and
+Garret Pell, who came all the way from Saint Ivo's to see the competition.
+The party can stop the play, change the play, or play itself. Opening night
+is a fight in the dark with an audience.
+
+**The reward.** The love of the theaters of Corrantey. A play that tells
+the story of the Five as the party wants it told. Every child in the city
+knows the real faces of the Five after this.
+
+## After Book One
+
+After chapter 10, the Hush is broken, the party holds the keep, and the
+characters know the truth. The land does not, yet. These are seeds for a
+group that wants to play on before Book Two, or instead of it.
+
+- **The truth and the powers.** What do the characters tell the Church,
+  Gaunt, and Corrantey about Malgrath? The Church built its faith on the
+  lie. Gaunt built its claim on it. Each will fight to keep the old story.
+- **The other pieces.** Book One finds three pieces of the Dawnfire. There
+  were more. Each one that still burns somewhere is worth a quest.
+- **The last of the Hush.** The Hush is broken, but some of its members
+  are still in the villages. And they were right about the sun.
+- **The short days.** By the end of Book One, the land sees it. Fear makes
+  people do strange things. A prophet in every town, a riot in every
+  market, a new cult every season.
+- **The cloud in the north.** It grows. Book Two starts there.
