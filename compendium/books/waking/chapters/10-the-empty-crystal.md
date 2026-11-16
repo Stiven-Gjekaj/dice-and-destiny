@@ -655,3 +655,227 @@ healers come up from the bridge, if they came to Kingsholm. Nobody
 attacks the party here any more.
 
 ---
+
+## Scene 5: The Stair of Bells (half a session)
+
+**Goal:** The last fight of Book One, against the guard that the sleeper
+left behind.
+
+### Down
+
+Behind the cracked throne, a stair goes down into the hill. In the days of
+Ostrey, the great bells of the palace hung in the towers above it, and the
+ropes ran down through the stair. The ropes are gone. The holes in the
+roof of the stair are still there.
+
+> The stair goes down and down. The air gets colder, and drier, and very
+> still. The sunlight from the hall does not follow you. After two hundred
+> steps, the walls change. They are not rough stone any more. They are
+> smooth and carved, and the carving is one you know.
+>
+> Roots of light, carved in the stone. Lines that go out from one point,
+> across the floor and up the walls, like the roots of a tree. You have
+> seen this before. You woke up in the middle of it.
+>
+> At the foot of the stair is a door. Over the door, words are carved in
+> the stone: "WE SLEEP SO THAT THE DAWN CAN WAKE."
+
+Let the players react. They know these words: they are over the door of
+the Hall of Sleepers, under Dawnwatch Keep, where they woke in the
+tutorial. Wick knows them too.
+
+> Wick's flame goes very small. "That's our door," he says. "That's the
+> door of our hall. Why is our door here?"
+
+| Check | DC | Result |
+|---|---|---|
+| Intelligence (Arcana) | 15 | The carvings are the same spell as in the Hall of Sleepers, the same lines, the same hand. Whoever made the hall under the keep made this one too. |
+| Intelligence (History) | 13 | Halls like this were made for the Dawnwatch, and only for the Dawnwatch. Nobody else in Ostrey slept in crystal. |
+| Wisdom (Insight), about Wick | 10 | Wick is not only scared. He is starting to understand something, and he does not want to. |
+
+The door is not locked. It opens at a push. Beyond it is the vault.
+
+### The vault
+
+> A round hall of stone, very like the one where you woke. In the middle,
+> on a low step, lies one coffin of blue crystal, bigger than yours. The
+> crystal is broken open. Not cracked: broken, from the inside, the way an
+> egg breaks when the chick comes out.
+>
+> In front of the broken coffin, a knight stands guard. Black plate,
+> black as wet slate. A greatsword, point down, both hands on the hilt. It
+> does not move. The light of your lamps goes dim around it, as if the
+> knight drinks it.
+>
+> Then the visor turns toward you.
+
+### Encounter: The Unlit Knight (the end of Act II)
+
+The Unlit Knight is the creature of the end of Act II. It is not Garrath. It
+is the dark that the sleeper left behind in the crystal when he woke, in
+the shape of the knight that he was, still keeping watch. It does not
+speak. It attacks anyone who comes close to the crystal: the Hush too.
+
+- **Budget:** Moderate, for 4 characters of level 10: 2,300 × 4 = 9,200 XP.
+- **Monsters:** the Unlit Knight (8,400 XP) and 3 Shadows (300 XP), that
+  rise from the corners of the vault on the first round. Total: 8,700 XP.
+
+{{statblock: The Unlit Knight}}
+
+**The battlefield.** The vault is a circle 80 feet across, with a domed
+roof 40 feet high. The broken coffin stands on a step 2 feet high in the
+middle. The carved lines on the floor are dark. The room is in darkness,
+except for the party's lights, and the Unlit trait of the knight makes
+those lights dim within 30 feet of it. The light of the First Lamp and the
+Fennick Candle is sunlight, so the knight can't dim it.
+
+**Tactics.** The knight fights like a trained knight, not like a monster.
+It stands between the party and the crystal. It attacks the closest
+character three times each turn, and it uses Parry against the strongest
+melee attacker. It uses Eclipse when three or more characters stand close
+to it. It uses Dark Step to reach a caster who stays in the dark. It never
+flees.
+
+**A way to end it with no fight.** The knight is a watch that never ended.
+A character who stands in front of it, with no weapon in hand, and speaks
+the oath of the Dawnwatch ("We sleep so that the dawn can wake") makes it
+stop for one round. A character who then says the words of the end of a
+watch, in their own words ("Your watch is over. We have it now.") and
+succeeds on a DC 20 Charisma (Persuasion) check makes it kneel. Its armor
+falls empty, and it speaks its Last Words. The Shadows fade. Give full XP
+for this.
+
+> **GM tip:** Do not tell the players about this way. Let them find it. A
+> player who thinks of the oath on the door has earned the moment. If the
+> players have the Dawn Banner, a character who plants it in front of the
+> knight has Advantage on the Persuasion check.
+
+> **Scaling:** The budget is 2,300 XP for each character.
+>
+> - **3 characters (6,900 XP):** the Unlit Knight alone (8,400 XP), with 30
+>   fewer Hit Points and no Legendary Resistance. This is a hard fight for
+>   three characters. Let them take a Short Rest first.
+> - **4 characters (9,200 XP):** as written (8,700 XP).
+> - **5 characters (11,500 XP):** the Unlit Knight, 1 Wraith, and 3 Shadows
+>   (10,500 XP).
+> - **6 characters (13,800 XP):** the Unlit Knight, 2 Wraiths, and 2
+>   Shadows (12,200 XP).
+> - **With Techniques on:** add one Shadow for each four characters, or
+>   give the knight 10% more Hit Points (219 in all).
+
+When the knight falls, its armor falls apart, piece by piece, and it is
+empty. From inside the helmet, a voice says: "We sleep so that the dawn can
+wake." It is a man's voice. It is tired. It is kind. The players have never
+heard it before. They will hear it again in the last scene.
+
+---
+
+## Scene 6: The Empty Crystal (half a session)
+
+**Goal:** The truth.
+
+### The crystal
+
+When the knight is gone, the party can look at the crystal at last.
+
+> The coffin is bigger than yours, and older. The crystal is thick and
+> blue, and it is broken open from the inside. There is nothing in it now.
+> Only the shape of a man, pressed into the crystal, the way a body leaves
+> its shape in snow.
+>
+> On the lid, someone has pinned a badge. It is brass, black with age, in
+> the shape of a rising sun.
+>
+> You know that badge. You each wore one. You still do.
+
+The badge is the badge of the Dawnwatch: the same badge that each character
+wears (or wore, before the long sleep). It is **the Badge of Sir Garrath**.
+
+{{treasure: The Badge of Sir Garrath}}
+
+### The black stone
+
+The black stone hums so loudly that the whole party can hear it. Its bearer
+feels it pull toward the crystal.
+
+> At the edge of the broken lid, there is a small chip, a little gap in the
+> crystal, the size of a thumb. The black stone in your hand is the size of
+> a thumb. You know, before you try it, that it will fit.
+
+If a character puts the stone in the chip, it fits exactly. The stone is a
+piece of this crystal. It broke off when the crystal cracked, and it flew
+three days south, to the chapel of the keep, to the Dawnwatch. The hum
+stops for a moment. Then it starts again, softer, like something far away
+that breathes.
+
+If your table uses Marks, the Mark of the stone's bearer does not grow
+here. It aches, like an old scar in the cold. The rules of the stone are
+in The Hush, earlier in this book.
+
+> **GM tip:** Let the players put the pieces together themselves: the door,
+> the carvings, the badge, the stone. Some groups say "He was one of us"
+> before they read the letter. That is the best moment of the chapter. If
+> they do, do not confirm it. Just hand them the letter.
+
+### The last letter
+
+At the foot of the coffin is a small box of stone, sealed with wax. On the
+wax is the mark of Haskel Orme: a flame inside a ring. Wick knows it at
+once. It is the mark that the Lampwrights showed him in Corrantey.
+
+Give the players the handout. Let one player read it aloud to the table,
+or let each player read it alone, in silence. Do not hurry this.
+
+{{handout: 10-the-last-letter-of-haskel-orme}}
+
+### After the letter
+
+When the players finish, it is quiet. Let it be quiet.
+
+Then Wick speaks. He says the name slowly, the way you sound out a word in
+a language that you are learning.
+
+> "Mal... Garrath." A pause. "Mal Garrath. Malgarrath. Malgrath." Wick's
+> flame shakes. "Three hundred years. Three hundred years I sat in the dark
+> and counted, and I was afraid of a name, and it was only a man's name
+> with a joke in front of it."
+>
+> He looks up at you. "He made me not to know. So that I couldn't tell you.
+> So that I couldn't lie to you." A long pause. "I think he loved you. I
+> think that's why he was such a coward about it."
+
+Let each player answer, if they want to. Then give the players time to talk
+about what the letter means. Here are the questions that the players
+usually ask, and what you can tell them:
+
+| The players ask | What they know now |
+|---|---|
+| Is the Unlit King really Sir Garrath? | Yes. He was the first knight of the sun and the first of the Dawnwatch. He wrote their oath. |
+| Was he evil? | He tried to save the sun, and the dark took him. Whether he is evil now is the question of Book Two. |
+| Were we lied to? | Yes. The history that the characters know, and that the world knows, is the story that Haskel Orme wrote. Ostrey did not push him back. It put him to sleep. |
+| Why did we sleep? | To wake when he woke, and to be the people who remember who he was. |
+| Is the sun really dying? | The letter says that Garrath was right. Wick has counted the days. They are shorter. |
+| Where is he? | Gone north. The black stone, when it hums, points to the far north now, to the Grey Teeth, and past them. |
+
+> **Thread (all characters):** Each character slept in crystal to wait for
+> Malgrath. Each character now knows that Malgrath slept in crystal too,
+> and that he was one of them. Ask each player one question about it.
+> Choose the one that fits the character's Before answer from the tutorial:
+>
+> - **The Shield (a promise):** "You swore the oath that Garrath wrote. Do
+>   you still keep it? What does it mean now?"
+> - **The Light (a sign from a god):** "Your god sent you a sign before the
+>   sleep. Do you think the god knew about Garrath? What does that mean for
+>   your faith?"
+> - **The Spark (a spell on the first day):** "You learned your first spells
+>   in a Dawnwatch that Garrath built. Is there anything of his in your
+>   magic?"
+> - **The Shadow (one last thing stolen):** "You know what it is to take a
+>   thing that isn't yours to save it. Do you understand him, a little?"
+> - **The Storm (why you agreed to sleep):** "You didn't want to sleep. Now
+>   you know why they needed you to. Would you still have agreed?"
+>
+> For a character that the players made themselves, use the question with
+> the nearest Before answer.
+
+---
