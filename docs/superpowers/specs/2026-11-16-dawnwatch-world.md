@@ -256,8 +256,10 @@ The gazetteer sets these facts. Each writer uses them.
 - **Sergeant Maud Kettle** was a sergeant of the last garrison of the king
   in Fennick, in the Grey Winter. She drowned in the flood of year 100.
 - **The keep after the sleep:** later stewards held it until the Grey
-  Winter. Then the last steward left for the war of the lords. Tamsin's
-  family kept the last watch there.
+  Winter. Then the last steward left for the war of the lords. The last
+  watchman, an ancestor of Tamsin six generations back, left with him.
+  Neither came back. The watchman's family stayed and kept the watch: his
+  wife kept the door shut for three years, then went down to the ford.
 
 ## Old Ostrey
 

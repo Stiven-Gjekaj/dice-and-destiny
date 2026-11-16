@@ -1854,10 +1854,12 @@ easier. The knowledge that the Hush is in the old capital.
 
 *Levels 3 to 5, or 7 to 9. Brannock's Ford and the keep.*
 
-**The hook.** Tamsin asks the party to find her great-great-grandfather.
-He was the last watchman of Dawnwatch Keep. In the Grey Winter, he left
-with the last steward for the war of the lords, and neither of them came
-back. "They went south. That is all we ever knew."
+**The hook.** Tamsin asks the party to find an ancestor of hers, six
+generations back. He was the last watchman of Dawnwatch Keep. In the Grey
+Winter, he left with the last steward for the war of the lords, and
+neither of them came back. His family stayed and kept the watch: his wife
+kept the door shut for three more years. "They went south. That is all we
+ever knew."
 
 **What is going on.** The last steward and the watchman died in the war of
 the lords, at a small fight on the old road. Their men buried them

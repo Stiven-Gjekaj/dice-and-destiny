@@ -411,7 +411,8 @@ cries, quietly, for about ten seconds. Then she tells them this:
 > "My family kept that keep. Not the Dawnwatch, mind. The doors. The roof.
 > The well. A granny of mine, six grannies back, was the last of us to do
 > it. When the Grey Winter came, the last steward went off to the war of
-> the lords, and the soldiers were gone, and she kept the door shut for
+> the lords, and her man went with him, for he was the watchman. The
+> soldiers were gone, and she kept the door shut for
 > three years on her own. Then she came down the hill and married the
 > ferryman at the ford. There was no village then, only his boat and his
 > hut. Brannock built the first house fifty years later. She said the Sleepers were
