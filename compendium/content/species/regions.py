@@ -11,7 +11,7 @@ SPECIES = [
   ("Amphibious", "You can breathe air and water, and you have a Swim Speed equal to your Speed."),
   ("Salt Blood", "You have Advantage on saving throws to avoid or end the Poisoned condition, and you can drink salt water as if it were fresh."),
   ("Undertow", "When you hit a Large or smaller creature with a melee attack roll, you can pull at it like a falling tide. It makes a Strength saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, you pull it up to 10 feet toward you, and its Speed is 0 until the start of your next turn. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."),
-  ("Tidecaller", "You know the Elementalism cantrip. At level 3, you can cast Fog Cloud once without a spell slot; at level 5, Water Walk. You regain the ability to cast each of these spells this way when you finish a Long Rest, and you can also cast them using spell slots you have. " + SPELL_ABILITY)]),
+  ("Tidecaller", "You know the Elementalism cantrip. At level 3, you can cast Fog Cloud once without a spell slot; at level 5, Gust of Wind. You regain the ability to cast each of these spells this way when you finish a Long Rest, and you can also cast them using spell slots you have. " + SPELL_ABILITY)]),
 
 ("Kilnborn", "Medium (about 5–7 feet tall)", "30 feet",
  "Kilnborn live on the slopes of fire mountains and across the black ash plains below them. Their skin is the color and texture of fired clay, crossed with fine cracks that glow when they are angry or afraid. They are makers above all, and a Kilnborn judges a life by the work that outlasts it.",
@@ -20,7 +20,7 @@ SPECIES = [
   ("Fired Clay", "You have Resistance to Fire damage. You are naturally adapted to hot climates, and you can handle hot coals and fresh-forged metal without harm."),
   ("Maker's Hands", "You gain proficiency with one type of Artisan's Tools of your choice."),
   ("Kiln Flare", "As a Bonus Action, you let the fire inside you blaze through the cracks in your skin for 1 minute. For the duration, you shed Bright Light in a 10-foot radius and Dim Light for an additional 10 feet, and when a creature within 5 feet of you hits you with a melee attack, it takes Fire damage equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."),
-  ("Forge Gift", "You know the Produce Flame cantrip. At level 3, you can cast Heat Metal once without a spell slot, and you regain the ability to cast it this way when you finish a Long Rest. You can also cast it using spell slots you have. " + SPELL_ABILITY)]),
+  ("Forge Gift", "You know the Produce Flame cantrip. At level 3, you can cast Burning Hands once without a spell slot; at level 5, Heat Metal. You regain the ability to cast each of these spells this way when you finish a Long Rest, and you can also cast them using spell slots you have. " + SPELL_ABILITY)]),
 
 ("Sporekin", "Medium (about 4–6 feet tall)", "30 feet",
  "Sporekin grow in the deep caverns, in lightless forests of fungus that stretch for miles beneath the surface. Fine pale threads run through their bodies, and they drift a faint haze of spores when they speak. A Sporekin colony shares its memories through those spores, so the Sporekin value patience, consensus, and the slow, careful choice that every member can live with.",
@@ -37,7 +37,7 @@ SPECIES = [
   ("Storm-Fused", "You have Resistance to Lightning damage."),
   ("Desert Born", "You need only half the water that other creatures need, and you are naturally adapted to hot climates. You have Advantage on saving throws to avoid or end the Blinded condition."),
   ("Mirage", "When a creature you can see makes an attack roll against you, you can take a Reaction to bend the light around you, giving that roll Disadvantage. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."),
-  ("Shimmer Gift", "You know the Minor Illusion cantrip. At level 3, you can cast Blur once without a spell slot, and you regain the ability to cast it this way when you finish a Long Rest. You can also cast it using spell slots you have. " + SPELL_ABILITY)]),
+  ("Shimmer Gift", "You know the Minor Illusion cantrip. At level 3, you can cast Silent Image once without a spell slot; at level 5, Blur. You regain the ability to cast each of these spells this way when you finish a Long Rest, and you can also cast them using spell slots you have. " + SPELL_ABILITY)]),
 
 ("Windkin", "Medium (about 5–6 feet tall)", "30 feet",
  "Windkin live on the high peaks, in aeries cut into cliffs where the air is thin and the wind never stops. They are light of bone, and a membrane of skin stretches from each wrist to the hip. They build no walls they can't leave, and they say that a promise made on the ground weighs nothing in the sky.",
@@ -70,5 +70,5 @@ SPECIES = [
   ("Deep Roots", "You have Advantage on saving throws to avoid being moved against your will or knocked Prone."),
   ("Sunfed", "If you spend at least 4 hours of a day in sunlight, you need only half the food that other creatures need. Once per Short Rest, when you spend Hit Point Dice to regain Hit Points, you regain extra Hit Points equal to your Proficiency Bonus."),
   ("Grasping Roots", "As a Bonus Action, you call roots up from the ground around you. For 1 minute, the ground within 10 feet of you is Difficult Terrain for creatures of your choice, and the roots move with you. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."),
-  ("Grove Gift", "You know the Druidcraft cantrip. At level 3, you can cast Barkskin once without a spell slot; at level 5, Speak with Plants. You regain the ability to cast each of these spells this way when you finish a Long Rest, and you can also cast them using spell slots you have. " + SPELL_ABILITY)]),
+  ("Grove Gift", "You know the Druidcraft cantrip. At level 3, you can cast Entangle once without a spell slot; at level 5, Barkskin. You regain the ability to cast each of these spells this way when you finish a Long Rest, and you can also cast them using spell slots you have. " + SPELL_ABILITY)]),
 ]
