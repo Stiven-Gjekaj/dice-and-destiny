@@ -331,7 +331,7 @@ the person in more than one scene.
 | Tilly Ashe | An actress of Pell's Players. She plays the Shadow. | 3 | No |
 | Mother Sallow | The leader of the Hush. She watches the Waking Service at the end of chapter 3, with no candle. Chapter 10 uses a stronger statblock, "Mother Sallow, Unbound" (`people_act2.py`). | 3, 4, 7, 10 | Yes |
 | Osk | The enforcer of Mother Sallow. Big, and he does not speak. | 4, 7 | Yes |
-| Marshal Ide Gauntry | The ruler of Gaunt. Her statblock is in `people_act1.py`. | 5, 9 | Yes |
+| Marshal Ide Gauntry | The ruler of Gaunt. Her statblock is in `people_act1.py`: CR 8, about 52 damage each round (three longsword attacks). | 5, 9 | Yes |
 | Captain Ilse Varro | The spymaster of Gaunt in Corrantey. She works for Marshal Gauntry. | 6, 9 | Yes |
 | Tobin Gauntry | Her son. He does not want a war. | 5, 9 | No |
 | Magister Aud Brennet | The first war mage of Gaunt. She teaches a "Dawnwatch spell" that is wrong. | 5 | No |

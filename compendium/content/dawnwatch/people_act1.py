@@ -42,7 +42,7 @@ NPCS = [
 ("The ruler of Gaunt, who wants the Dawnwatch as banners for her army. Chapters 5 and 9.",
  M("Marshal Ide Gauntry", "M", "Humanoid", "Lawful Neutral", 8, "17 12 16 14 15 17", ac=18, saves="Str, Con, Wis", skills="Athletics, History, Insight, Intimidation", lang="Common",
    traits=[("Gauntry Command", "Each ally of the marshal within 30 feet of her that can see her has Advantage on saving throws against the Frightened condition.")],
-   attacks=[("Longsword", "m", "2d6", "Slashing", "plus {1d8} Slashing damage if the marshal has Advantage on the attack roll")], multi=3,
+   attacks=[("Longsword", "m", "2d8", "Slashing", "plus {1d10} Slashing damage, or {2d10} Slashing damage if the marshal has Advantage on the attack roll")], multi=3,
    bonus=[("Orders", "One ally that the marshal can see within 30 feet of her can take a Reaction to move up to half its Speed or to make one weapon attack.")],
    react=[("Parry", "The marshal adds 3 to her AC against one melee attack roll that would hit her. She must see the attacker and hold a weapon.")],
    desc="A tall woman of sixty with grey braids and a soldier's back. She has ruled Gaunt for twenty years, and she has never lost a battle. She does not intend to start now.")),
