@@ -112,7 +112,7 @@ def place_name(p):
 def place_text(p):
     """The short text of a place, if the place has one."""
     if isinstance(p, dict):
-        return p.get("text") or p.get("desc") or p.get("description") or ""
+        return p.get("summary") or p.get("text") or p.get("desc") or p.get("description") or ""
     if isinstance(p, (tuple, list)):
         return p[1] if len(p) > 1 and isinstance(p[1], str) else ""
     return getattr(p, "text", "") if not isinstance(p, str) else ""
@@ -168,19 +168,28 @@ def treasure_html(name, dw):
 
 
 def map_html(map_id, screen=False):
-    """A map from build/maps.py. The contract: maps.map_html(map_id, screen=False) returns HTML or SVG,
-    and raises KeyError for an id that it does not know. With no maps.py, the book shows a placeholder."""
+    """A map from build/maps.py: maps.map_svg(map_id) gives the final map in compendium/maps/ or a preview.
+    An id that maps.py does not know, or no maps.py, gives a placeholder. The maps are black and white,
+    so the screen edition uses the same map."""
     if importlib.util.find_spec("maps") is not None:
         import maps
-        f = getattr(maps, "map_html", None)
-        if f:
-            try:
-                kw = {"screen": screen} if "screen" in inspect.signature(f).parameters else {}
-                return f'<figure class="map" id="map-{wm.slug(map_id)}">{f(map_id, **kw)}</figure>'
-            except KeyError:
-                pass
+        try:
+            return f'<figure class="map" id="map-{wm.slug(map_id)}">{maps.map_svg(map_id.strip())}</figure>'
+        except KeyError:
+            pass
     warn(f"map not drawn: {map_id}")
     return f'<div class="map-placeholder">Map: {E(map_id)}</div>'
+
+
+def missing_maps(book=BOOK):
+    """The ids of the maps that the book uses or that maps.py knows, with no final map in compendium/maps/.
+    A Dawnwatch book is not released while this list is not empty."""
+    import maps
+    texts = [t for _, _, t in chapters(book, TUTORIAL)] + [t for _, _, t in handouts(book)]
+    texts += [section_file(n, book) or "" for n in ("how-to-run.md", "players-guide.md", "gazetteer.md")]
+    used = {a.strip() for t in texts for k, a in wm.directives(t) if k == "map"}
+    ids = sorted(set(maps.MAP_IDS) | used)
+    return [i for i in ids if i not in maps.MAP_IDS or i in maps.missing_maps([i])]
 
 
 def handout_ref_html(hid, known, screen=False):
@@ -590,5 +599,11 @@ def page_html(body, screen=False, inside_mm=None):
 
 
 if __name__ == "__main__":
+    if "--check-maps" in sys.argv[1:]:
+        gone = missing_maps()
+        if gone:
+            raise SystemExit("waking: these maps have no final file in compendium/maps/: " + ", ".join(gone))
+        print("waking: each map is final")
+        sys.exit(0)
     build_book("--screen" in sys.argv[1:])
     print(NAME, "screen" if "--screen" in sys.argv[1:] else "print", "done")

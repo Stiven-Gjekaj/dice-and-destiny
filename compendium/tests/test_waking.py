@@ -126,25 +126,39 @@ def test_a_treasure_from_each_source():
     assert W.WARNINGS == ["treasure not found: No Such Thing"]
 
 
-def test_a_map_uses_maps_py_when_it_exists(monkeypatch):
+def fake_maps(monkeypatch, ids, final=()):
     fake = types.ModuleType("maps")
-    fake.map_html = lambda map_id, screen=False: f"<svg data-id='{map_id}' data-screen='{screen}'></svg>"
+    fake.MAP_IDS = list(ids)
+
+    def map_svg(map_id):
+        if map_id not in ids:
+            raise KeyError(map_id)
+        return f"<svg data-id='{map_id}'></svg>"
+    fake.map_svg = map_svg
+    fake.missing_maps = lambda only=None: [i for i in (only or ids) if i not in final]
     monkeypatch.setitem(sys.modules, "maps", fake)
     monkeypatch.setattr(W.importlib.util, "find_spec", lambda name: object())
-    h = W.map_html("act1", screen=True)
-    assert "data-id='act1'" in h and "data-screen='True'" in h and h.startswith('<figure class="map"')
+
+
+def test_a_map_uses_maps_py_when_it_exists(monkeypatch):
+    fake_maps(monkeypatch, ["act-1"])
+    h = W.map_html(" act-1")
+    assert "data-id='act-1'" in h and h.startswith('<figure class="map" id="map-act-1">') and not W.WARNINGS
 
 
 def test_a_map_id_that_maps_py_does_not_know_is_a_placeholder(monkeypatch):
-    fake = types.ModuleType("maps")
-
-    def unknown(map_id):
-        raise KeyError(map_id)
-    fake.map_html = unknown
-    monkeypatch.setitem(sys.modules, "maps", fake)
-    monkeypatch.setattr(W.importlib.util, "find_spec", lambda name: object())
+    fake_maps(monkeypatch, ["act-1"])
     assert 'class="map-placeholder"' in W.map_html("nowhere")
     assert W.WARNINGS == ["map not drawn: nowhere"]
+
+
+def test_missing_maps_lists_the_maps_with_no_final_file_and_unknown_ids(monkeypatch, tmp_path):
+    book = tmp_path / "book"
+    write(book / "chapters/02-a.md", "# A\n\n{{map: act-1}}\n\n{{map: old-map}}\n")
+    write(book / "gazetteer.md", "# G\n\n{{map: land-today}}\n")
+    fake_maps(monkeypatch, ["act-1", "land-today", "act-2"], final=["act-1", "land-today"])
+    monkeypatch.setattr(W, "TUTORIAL", str(tmp_path / "none"))
+    assert W.missing_maps(str(book)) == ["act-2", "old-map"]
 
 
 def test_with_no_maps_py_a_map_is_a_placeholder(monkeypatch):
@@ -226,8 +240,9 @@ def test_entries_are_a_to_z_in_each_kind_and_a_shared_name_keeps_one_kind():
 
 def test_the_place_formats():
     assert [W.place_name(p) for p in ("Ash", ("Kell", "A shrine."), {"name": "Gaunt"})] == ["Ash", "Kell", "Gaunt"]
-    assert [W.place_text(p) for p in ("Ash", ("Kell", "A shrine."), {"name": "Gaunt", "desc": "A state."}, ("X", 3))] == [
-        "", "A shrine.", "A state.", ""]
+    assert [W.place_text(p) for p in ("Ash", ("Kell", "A shrine."), {"name": "Gaunt", "desc": "A state."}, ("X", 3),
+                                      {"name": "Kell", "summary": "An old shrine."})] == [
+        "", "A shrine.", "A state.", "", "An old shrine."]
 
 
 def test_the_appendices_list_each_entry_with_its_chapters():
