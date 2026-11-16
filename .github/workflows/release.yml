@@ -76,16 +76,19 @@ jobs:
           mkdir -p release
           : > assets.txt
           for book in "Player's Compendium:players-compendium" "Game Master's Compendium:game-masters-compendium"; do
-            title="${book%%:*}"; slug="${book##*:}"
-            cp "compendium/dist/Dice & Destiny - ${title} - Interior (A4, B&W).pdf" "release/dice-and-destiny-${slug}-interior.pdf"
-            cp "compendium/dist/Dice & Destiny - ${title} - Cover (color, with bleed).pdf" "release/dice-and-destiny-${slug}-cover.pdf"
-            echo "release/dice-and-destiny-${slug}-interior.pdf#Dice & Destiny: The ${title}, interior (A4, black and white)" >> assets.txt
-            echo "release/dice-and-destiny-${slug}-cover.pdf#Dice & Destiny: The ${title}, cover (color, with bleed)" >> assets.txt
-            cp "compendium/dist/Dice & Destiny - ${title} - Hardcover Cover (Lulu casewrap).pdf" "release/dice-and-destiny-${slug}-cover-hardcover.pdf"
-            echo "release/dice-and-destiny-${slug}-cover-hardcover.pdf#Dice & Destiny: The ${title}, hardcover cover (Lulu A4 casewrap)" >> assets.txt
+            title="${book%%:*}"; slug="${book##*:}"; src="compendium/dist/Dice & Destiny - ${title}"
+            while IFS='|' read -r kind file label; do
+              cp "${src} - ${file}.pdf" "release/dice-and-destiny-${slug}-${kind}.pdf"
+              echo "release/dice-and-destiny-${slug}-${kind}.pdf#Dice & Destiny: The ${title}, ${label}" >> assets.txt
+            done <<'LIST'
+          screen|Screen (color)|for reading on a screen (color, with links and bookmarks)
+          home-print|Home Print (A4, B&W)|for printing at home (A4, black and white, with a front page)
+          lulu-interior|Lulu Interior (A4, B&W)|Lulu hardcover interior (A4, black and white)
+          lulu-cover|Lulu Hardcover Cover|Lulu hardcover cover (A4 casewrap)
+          LIST
           done
           cat assets.txt
-          test "$(wc -l < assets.txt)" -eq 6
+          test "$(wc -l < assets.txt)" -eq 8
 
       - name: Publish a preview release
         if: github.ref == 'refs/heads/main'
