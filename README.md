@@ -27,12 +27,12 @@ _The free rules of the SRD 5.2, and thousands of original options, in one Player
 ---
 
 > [!NOTE]
-> **Edition 2 is written.**
-> Each content target of Edition 2 is complete: 4 new classes, 651 monsters,
-> 822 magic items, 220 spells, 8 optional systems, and more.
-> Each change to the books makes a preview release with 10 PDFs.
-> The `edition-2` release comes after a check of the hardcover covers
-> against the cover template of the printer.
+> **Edition 2 is out.**
+> It has 4 new classes, 651 monsters, 822 magic items, 220 spells,
+> 8 optional systems, and more.
+> Download the PDFs from the
+> [`edition-2` release](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/tag/edition-2),
+> or [buy the two hardcovers](#buy-a-printed-hardcover) on the Lulu Bookstore.
 > [The Edition 2 design](docs/superpowers/specs/2026-11-15-edition-2-expansion-design.md)
 > holds each decision and the reason behind it.
 
