@@ -394,3 +394,188 @@ character.
 Skip the Teach boxes. The stone still hums, still draws the Hush, and
 still burns near the Dawnfire. It gives no benefit and has no track. The
 story of this chapter works the same.
+
+---
+
+## Scene 4: The Hills (1 hour)
+
+**Goal:** A short journey with the Journeys rules. The Hush come for the
+stone on the road. The second fight.
+
+Kell is two days west of Saint Ivo's, off the road, in the low hills
+between the River Brann and the River Dunn. There is no road. There is a
+sheep track for half a day, and then only the hills.
+
+### The journey
+
+Use the Journeys rules again, as in chapter 2. This time, do not teach
+them. Ask the players to choose their roles and their pace, and go.
+
+| Day | Where | Navigation DC | Foraging DC | Event |
+|---|---|---|---|---|
+| 1 | The sheep track, then open hills | 12 | 12 | The ambush (at night) |
+| 2 | The high hills, the ring on the skyline | 12 | 12 | Kell |
+
+The hills use the Hill biome of the Journeys chapter in the Game Master's
+Compendium: its weather table and its encounter table. If the roll gives
+an encounter, use the table there, or use one of these:
+
+- Shepherds who left the high pastures early this year. "The stones of
+  Kell are cold," they say. "Colder every year. And there are grey folk up
+  there now. They pay for sheep in old coins."
+- A flock of crows that follows the party all day, at a distance. In the
+  evening they fly west, toward Kell. If the bearer draws on the stone,
+  the crows turn and look at the bearer, all together.
+- An old milestone of Ostrey, fallen in the grass: KELL 12 MILES. A
+  character with the Compass of the Old Road finds the line of the old
+  road under the grass. The guide has Advantage for the rest of the day.
+
+> **GM tip:** If the party took horses from the Abbey, it can travel at a
+> Fast pace with no Disadvantage for the guide and the scout on day 1,
+> because the horses know the track. Off the track, on day 2, the horses
+> are slower than feet on the steep ground. Use the normal rules.
+
+### The ambush
+
+The Hush can feel the stone. On the first night, they know exactly where
+the party camps. Mother Sallow sends Osk to take the stone and bring it to
+her.
+
+If the lookout succeeded, the camp can't be Surprised, and the lookout sees
+the grey shapes on the hillside first. If the scout succeeded on day 1,
+the party knows that someone followed them all day. Give the party a round
+to get ready.
+
+> The fire is low. The hills are black, and the sky is full of stars. The
+> stone hums, and it does not stop.
+>
+> Then the fire goes out. Not low. Out, as if a hand closed over it. In
+> the starlight, grey shapes come over the top of the hill, quiet as snow.
+> In the middle of them walks a man so big that he blocks the stars. He
+> carries an iron maul, and he makes no sound at all.
+
+This is **Osk**, the enforcer of Mother Sallow. With him are **Hush
+Snuffers**.
+
+{{statblock: Osk}}
+
+| Party size | Monsters | XP |
+|---|---|---|
+| 4 characters | Osk, 4 Hush Snuffers | 1,500 |
+
+> **Scaling:** This is a Moderate fight for level 4 (375 XP for each
+> character).
+>
+> - **3 characters (1,125 XP):** Osk, 1 Hush Snuffer (1,200 XP).
+> - **4 characters (1,500 XP):** as in the table.
+> - **5 characters (1,875 XP):** Osk, 1 Hush Shroud, 3 Hush Snuffers
+>   (1,850 XP).
+> - **6 characters (2,250 XP):** Osk, 2 Hush Shrouds, 2 Hush Snuffers
+>   (2,200 XP).
+
+### Running the ambush
+
+- **The camp** is in a hollow between two hills, 40 feet across. The fire
+  is in the middle. The horses or the mule are tied at one side.
+- **It is dark.** The Snuffers put out the fire at once. Starlight is Dim
+  Light only at the top of the hills. In the hollow, it is Darkness,
+  except for Wick.
+- **Osk wants the bearer.** He walks straight at the bearer of the stone.
+  He uses Carry Off to grab the bearer, and then he runs west with the
+  bearer under one arm, at his full Speed. The Snuffers try to stop the
+  others from following.
+- **To get free,** the bearer makes a Strength (Athletics) or Dexterity
+  (Acrobatics) check against the escape DC on Osk's statblock, as an
+  action. Allies can attack Osk while he runs, or grab the bearer back.
+- **Osk does not die here.** The world bible needs Osk in chapter 7. When
+  he drops below a quarter of his Hit Points, he drops the bearer and
+  runs into the dark, very fast and very quiet. If the party chases him,
+  he is gone at the top of the hill. If a character drops him to 0 Hit
+  Points with a melee attack, the character can choose to knock him out
+  instead: then he wakes in the night and is gone, with the ropes cut.
+  Nobody saw him go. The Snuffers flee when Osk flees.
+
+> **GM tip:** This is a good fight for the bearer to draw on the stone for
+> the first time. The bearer is in the dark, under one arm of a giant. The
+> stone hums. "It would help," you say. "Do you let it?"
+
+### After the ambush
+
+A captured Snuffer does not talk. A character who makes a DC 15 Charisma
+(Intimidation) or Charisma (Persuasion) check gets one answer in Hush
+Sign, with the hands: a circle, and a hand that closes over it. A
+character who knows the signs from chapter 3 reads it: "The light goes
+out." If Cade is there, he says the prayer for the dying over the dead
+Snuffers, every one of them. "They were somebody's children," he says.
+
+---
+
+## Scene 5: The Shrine at Kell (45 minutes)
+
+**Goal:** Show the end of the trail. Let the party scout, plan, and find a
+way in.
+
+> On the second evening, you see it from far away: a ring of standing
+> stones on the top of a bare hill, black against a red sky. Inside the
+> ring is a small chapel of grey stone with no roof. Around the foot of
+> the hill, a dozen grey tents. No fires. No lights at all.
+>
+> As the sun goes down, the stones of the ring do not get dark. They are
+> already dark. It is as if they drink the light.
+>
+> "I know this place," says Wick, very quietly. "The steward talked about
+> it. There was a fire here once. Like the one in the chapel at home."
+
+### What Kell is
+
+Three hundred years ago, the shrine at Kell was a ring of standing stones
+with a small chapel inside it. The Dawnwatch know it: soldiers went there
+to pray before a long march. In the chapel was a bowl of stone with a
+small fire in it that never went out.
+
+That fire was a piece of the Dawnfire. Ostrey gave it to Kell, as it gave
+the Ember to the shrine of Saint Ivo. In the Grey Winter, two hundred years
+ago, the shrine was empty, and the fire went out. Nobody knows how. The
+stones have been cold since then.
+
+Mother Sallow chose Kell for this reason. "A dead bowl drinks a living
+flame," she tells her people. Her rite needs three things: the Ember on
+the dead bowl of Kell, the black stone near it, and her voice.
+
+> **GM tip:** The players may now guess that there were many pieces of the
+> Dawnfire, in many shrines, and that the Hush hunts them. That is right.
+> Let them guess. The ledger of the Hush, in Scene 7, confirms it.
+
+### The camp of the Hush
+
+| Area | What is there |
+|---|---|
+| **The tents** | A dozen grey tents at the foot of the hill, on the east side. Most are empty: the Hush are on the hill. Three Snuffers guard them. In one tent, the Hush keep Garret Pell, if they took him. |
+| **The path** | A path goes up the hill from the tents, 300 feet, to a gap in the ring. Two Snuffers stand at the gap. |
+| **The ring** | Thirteen standing stones, each as tall as two men, in a circle 120 feet across. The stones are cold to the touch, even in the sun. |
+| **The chapel** | In the middle of the ring. Four walls of grey stone, 30 feet by 20 feet, with no roof and one door on the east side. Inside is the dead bowl, on a low altar. |
+
+The other sides of the hill are steep and bare, with grass and loose
+stones. A character can climb them with a DC 12 Strength (Athletics) or
+Dexterity (Stealth) check, to come into the ring from the west, far from
+the gap.
+
+### Ways in
+
+Let the players plan. These are good plans. Each one works.
+
+| Plan | Check | DC | Result |
+|---|---|---|---|
+| Sneak up the west side at night | Dexterity (Stealth), for each character | 12 | On a success for all, the party reaches the ring unseen. Skip the guards at the gap. In Scene 6, the party acts in a surprise round, with the Hush Surprised. |
+| Free Pell from the tents first | Dexterity (Stealth) | 12 | The three Snuffers at the tents do not see the party. Pell is tied up, gagged, and very glad. He can walk. He cannot fight. |
+| Fight the guards at the gap | None | None | Two Snuffers. A Low fight for level 4. When the fight starts, Mother Sallow knows. She starts the rite at once. |
+| Walk up the path openly, with the stone | None | None | The guards let the party pass. Mother Sallow waits in the chapel. She wants to talk first. See "The talk" in Scene 6. |
+| Use the stone as bait | Charisma (Deception) | 13 | One character carries the stone up the path, and the others go up the west side. The Hush watch the stone, not the hill. The others get Advantage on their Stealth checks. |
+
+> **GM tip:** The bearer cannot sneak up on the Hush. They feel the stone.
+> If the bearer goes with the sneaking group, the group fails, unless the
+> bearer gives the stone to someone else for this scene, or stays behind.
+> But the stone must be within 30 feet of the bowl for the rite. Point it
+> out to a clever player: "Sallow needs the stone. What if she does not get
+> it?" A party that keeps the stone far away makes the rite fail. Then
+> Sallow sends everything she has to get it. See Scene 6.
