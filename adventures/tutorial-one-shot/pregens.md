@@ -1,7 +1,8 @@
 # Pregenerated characters
 
-These are five level 1 characters for the 2024 rules. Each one is a
-template. The player writes in a name and keeps the rest.
+These are five level 1 characters for Dice & Destiny. They use only content
+from the Player's Compendium. Each one is a template. The player writes in a
+name and keeps the rest.
 
 ## How to use these sheets
 
@@ -44,16 +45,16 @@ someone. Who was it, and what did you promise?"
 
 ### Your best moves
 
-- **Attack** with your longsword: roll d20 + 5. On a hit, deal 1d8 + 5.
+- **Attack** with your longsword: roll d20 + 5. On a hit, deal 1d8 + 3.
 - **Second Wind** (bonus action, 2 uses): heal 1d10 + 1 hit points.
-- Your armor is heavy. Enemies need a high roll (18) to hit you. Stand
+- Your armor is heavy. Enemies need a high roll (19) to hit you. Stand
   between them and your friends.
 
 ### Numbers
 
 | AC | HP | Speed | Initiative | Passive Perception |
 |----|----|-------|------------|--------------------|
-| 18 | 14 | 30 ft | +1 | 13 |
+| 19 | 13 | 30 ft | +1 | 13 |
 
 | STR | DEX | CON | INT | WIS | CHA |
 |-----|-----|-----|-----|-----|-----|
@@ -69,13 +70,13 @@ Survival +3.
 
 | Weapon | Attack | Damage | Notes |
 |--------|--------|--------|-------|
-| Longsword | +5 | 1d8 + 5 slashing | Mastery: Sap |
+| Longsword | +5 | 1d8 + 3 slashing | Mastery: Sap |
 | Javelin (4) | +5 | 1d6 + 3 piercing | Thrown 30/120 ft. Mastery: Slow |
 
 ### Features
 
-- **Fighting Style (Dueling):** When you hold a melee weapon in one hand and no
-  other weapon, you add +2 to its damage. This is already in the table.
+- **Fighting Style (Defense):** While you wear armor, you get +1 AC. This is
+  already in your AC.
 - **Second Wind:** As a bonus action, you regain 1d10 + 1 hit points. You have
   2 uses. You get 1 use back on a Short Rest, and all uses on a Long Rest.
 - **Weapon Mastery:**
@@ -84,9 +85,10 @@ Survival +3.
   - *Slow (javelin):* When you hit and deal damage, the target's speed goes
     down by 10 feet until the start of your next turn.
 - **Savage Attacker:** One time on each of your turns, when you hit with a
-  weapon, you can roll the damage dice two times and use the higher result.
-- **Tough:** Your hit point maximum includes +2 for each level. This is
-  already in your HP.
+  weapon, you can roll the damage dice two times and use either roll.
+- **Hardy (Origin feat, from Versatile):** Your hit point maximum includes
+  +1 for each level. This is already in your HP. When you spend Hit Point Dice
+  to heal, you can roll each 1 again, one time.
 - **Resourceful (Human):** You get Heroic Inspiration each time you finish a
   Long Rest.
 - **Skillful (Human):** You are proficient in Insight.
@@ -98,7 +100,7 @@ backpack, a bedroll, and a rope (50 feet).
 
 ### At level 2
 
-- **HP:** +10 (new maximum 24). Hit Point Dice: 2d10.
+- **HP:** +9 (new maximum 22). Hit Point Dice: 2d10.
 - **Action Surge:** One time per Short or Long Rest, you take one more action
   on your turn.
 - **Tactical Mind:** When you fail an ability check, you can use one Second
@@ -195,7 +197,7 @@ calligrapher's supplies, and a book of prayers.
   or *Command*).
 - **Channel Divinity (2 uses):** You get 1 use back on a Short Rest.
   - *Divine Spark:* As a Magic action, one creature within 30 feet regains
-    1d8 + 3 HP, or makes a Constitution saving throw (DC 13) and takes 1d8
+    1d8 + 3 HP, or makes a Constitution saving throw (DC 13) and takes 1d8 + 3
     radiant damage (half on a success).
   - *Turn Undead:* Undead near you can flee from you.
 
@@ -331,7 +333,7 @@ sleep. What was it?" (GM: it is still in your pocket.)
 
 | STR | DEX | CON | INT | WIS | CHA |
 |-----|-----|-----|-----|-----|-----|
-| 8 (-1) | 17 (+3) | 14 (+2) | 12 (+1) | 13 (+1) | 10 (+0) |
+| 8 (-1) | 17 (+3) | 14 (+2) | 13 (+1) | 13 (+1) | 10 (+0) |
 | Save -1 | Save +5 | Save +2 | Save +3 | Save +1 | Save +0 |
 
 **Skills:** Acrobatics +5, Investigation +3, Perception +5 (expertise),
@@ -389,11 +391,11 @@ a dark hooded cloak, a backpack, and a crowbar.
 
 **Name:** ______________ (suggestions: Oska, Thrund, Vala)
 
-Goliath Barbarian 1. Background: Farmer.
+Goliath Barbarian 1. Background: Mountain Guide.
 
-You were the muscle of the Dawnwatch. Before that, you worked on a farm in the
-mountains. You did not want to sleep for a long time. Battle makes you angry,
-and anger makes you strong.
+You were the muscle of the Dawnwatch. Before that, you led travelers over the
+high mountain passes. You did not want to sleep for a long time. Battle makes
+you angry, and anger makes you strong.
 
 **Before question:** "You did not want to go into the crystal. Why did you
 agree at the end?"
@@ -411,14 +413,14 @@ agree at the end?"
 
 | AC | HP | Speed | Initiative | Passive Perception |
 |----|----|-------|------------|--------------------|
-| 13 | 16 | 35 ft | +1 | 13 |
+| 13 | 14 | 35 ft | +1 | 13 |
 
 | STR | DEX | CON | INT | WIS | CHA |
 |-----|-----|-----|-----|-----|-----|
 | 17 (+3) | 13 (+1) | 15 (+2) | 8 (-1) | 12 (+1) | 10 (+0) |
 | Save +5 | Save +1 | Save +4 | Save -1 | Save +1 | Save +0 |
 
-**Skills:** Animal Handling +3, Athletics +5, Nature +1, Perception +3.
+**Skills:** Athletics +5, Intimidation +2, Perception +3, Survival +3.
 
 **Hit Point Dice:** 1d12.
 
@@ -427,7 +429,7 @@ agree at the end?"
 | Weapon | Attack | Damage | Notes |
 |--------|--------|--------|-------|
 | Greataxe | +5 | 1d12 + 3 slashing | Two hands. Mastery: Cleave |
-| Handaxe (2) | +5 | 1d6 + 3 slashing | Thrown 20/60 ft. Mastery: Vex |
+| Handaxe (4) | +5 | 1d6 + 3 slashing | Thrown 20/60 ft. Mastery: Vex |
 
 ### Features
 
@@ -450,8 +452,8 @@ agree at the end?"
     ability modifier. You can do this one time on each of your turns.
   - *Vex (handaxe):* When you hit and deal damage, you have advantage on your
     next attack roll against that creature before the end of your next turn.
-- **Tough:** Your hit point maximum includes +2 for each level. This is
-  already in your HP.
+- **Pack Mule (Origin feat):** You can carry two times the normal load. You
+  can travel 2 more hours each day before you risk Exhaustion.
 - **Stone's Endurance (Goliath):** When you take damage, you can use your
   reaction to roll 1d12 + 2. You reduce the damage by that number. You have 2
   uses. You get them back on a Long Rest.
@@ -461,12 +463,12 @@ agree at the end?"
 
 ### Equipment
 
-Greataxe, 2 handaxes, carpenter's tools, a sickle, a backpack, a bedroll, and
-a wool cloak.
+Greataxe, 4 handaxes, navigator's tools, a rope (50 feet), traveler's
+clothes, and an explorer's pack.
 
 ### At level 2
 
-- **HP:** +11 (new maximum 27). Hit Point Dice: 2d12.
+- **HP:** +9 (new maximum 23). Hit Point Dice: 2d12.
 - **Reckless Attack:** On your turn, you can attack with advantage on
   Strength attacks. Until your next turn, attack rolls against you also have
   advantage.
