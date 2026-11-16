@@ -8,7 +8,7 @@ license.
 | Part | License |
 |---|---|
 | Code: `compendium/build/`, `compendium/build.sh`, `compendium/data/fetch.py`, `.github/`. Two files in `compendium/build/` are not in this part: `icons.py` and `cover.py`. | MIT. See [`LICENSE`](LICENSE). |
-| Original text and content: `compendium/books/`, `compendium/content/`, `campaigns/`, `adventures/`, and the art and the text of the icons (`compendium/build/icons.py`) and the covers (`compendium/build/cover.py`) | CC BY-NC-SA 4.0. See [`LICENSE-CONTENT.md`](LICENSE-CONTENT.md). |
+| Original text and content: `compendium/books/`, `compendium/content/`, `campaigns/`, `adventures/`, the wordmark in `assets/`, and the art and the text of the icons (`compendium/build/icons.py`) and the covers (`compendium/build/cover.py`) | CC BY-NC-SA 4.0. See [`LICENSE-CONTENT.md`](LICENSE-CONTENT.md). |
 | SRD 5.2 material: the data in `compendium/data/` and the SRD text in the books | CC BY 4.0. See the attribution below. |
 
 ## System Reference Document 5.2
