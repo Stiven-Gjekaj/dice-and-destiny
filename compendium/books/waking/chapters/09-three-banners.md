@@ -40,7 +40,7 @@ their first true battle, and they carry its marks for a long time.
 8. **After the battle.** A truce at the stone, or a victory, or a grave.
    The first scars at the fire. A prisoner names Kingsholm.
 
-### What Is Really Going on
+### What Is Really Going On
 
 Read this part before you run the chapter. The players learn it slowly.
 
@@ -1285,8 +1285,9 @@ Then teach the rest of the system.
 
 > **Teach: healing and scars.** "Your injuries heal with time and care.
 > A Minor injury heals when you finish a Long Rest. Some need someone to
-> tend them first: a Healer's Kit, or a Wisdom (Medicine) check. A Serious
-> injury needs three Long Rests, each after someone tends it. A Lasting
+> tend them first: a Healer's Kit, or a Wisdom (Medicine) check. Most
+> Serious injuries need three Long Rests, each after someone tends it. A
+> Broken Arm needs seven. A Lasting
 > injury needs a month of rest. Magic can heal an injury at once: a Lesser
 > Restoration spell ends a Serious one, and stronger spells end a Lasting
 > one.
@@ -1407,7 +1408,7 @@ stronghold run, and the allies of this chapter come to help (see chapter
   garrison", and the Abbess sends a cart of food and wine and a healer
   for a month (the next monthly turn of the stronghold, the party pays no
   upkeep).
-- **A Potion of Healing (Greater)** for each character, from the stores of
+- **A Potion of Greater Healing** for each character, from the stores of
   the army that they helped.
 - **Renown,** as in the table in Scene 8.
 
