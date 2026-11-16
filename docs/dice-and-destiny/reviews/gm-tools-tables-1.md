@@ -37,3 +37,9 @@ Power: tables have no rules power. No entry gives a game bonus. The Toolkit chap
 3. Size: a set with 4 tables is about half a page. 50 sets add about 25 pages.
 
 Tell me to commit, or what to change.
+
+## Addition after the rebase
+
+The treasure traps review (treasure-traps-1.md) adds Part VII "The GM's Workshop" with Chapter 23 Traps & Hazards. I propose this: the tables chapter becomes Chapter 24 in that part, after the traps chapter. If the traps batch lands first, I move my chapter there before I commit. If my batch lands first, my chapter stays at the end of Part VI as Chapter 23, and the treasure session moves it. Tell me which you prefer.
+
+After the rebase on 555f409, build.sh passes again with the batch in place (96 tests, GM book 244 pages).
