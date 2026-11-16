@@ -158,6 +158,8 @@ def expand(name):
         "{{O_TRAPS}}": lambda: __import__("render_traps").all_traps_html(),
         "{{O_NPCS_IDX}}": lambda: __import__("render_npcs").all_npcs_index_html(),
         "{{O_NPCS}}": lambda: __import__("render_npcs").all_npcs_html(),
+        "{{O_COUNTS_GM}}": lambda: __import__("render_counts").all_gm_counts(),
+        "{{O_COUNTS_PLAYER}}": lambda: __import__("render_counts").all_player_counts(),
         "{{TABLE_SETS}}": lambda: __import__("render_tables").all_tables_html(),
         "{{PANTHEONS}}": lambda: __import__("render_pantheons").all_pantheons_html(),
         "{{DOWNTIME}}": lambda: __import__("render_downtime").all_downtime_html(),
