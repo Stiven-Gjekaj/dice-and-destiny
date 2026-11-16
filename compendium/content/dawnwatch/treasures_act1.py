@@ -10,7 +10,7 @@ ITEMS = [
 ("The Black Stone", W, "Artifact", None,
  "A smooth black stone as big as a plum. It is always cold, and it hums against the skin. It is a piece of the crystal of the Unlit King. "
  "It hums louder when a member of the Hush is within 300 feet. Very rarely, the Unlit King speaks through it. "
- "The Mark. A creature that carries the stone for one day takes the open Curse of the Black Stone, with its track at 0. "
+ "The Mark. A creature that carries the stone for one day takes the open Taint of the Black Stone, with its track at 0. "
  "Benefit. You have Darkvision out to 60 feet, or 30 feet more if you already have it. As a Bonus Action, you can draw on the stone for 1 minute. "
  "For that time, your weapon attacks and your cantrips deal an extra 1d6 Necrotic damage on a hit, and magical Darkness doesn't stop your Darkvision. "
  "You can do this once, and you regain the use when you finish a Short or Long Rest. "

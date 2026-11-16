@@ -295,11 +295,16 @@ Marks are an optional system. Read Running Marks in the Game Master's
 Compendium, and the Marks chapter of the Player's Compendium, before this
 session. Then ask the table the three questions from Before You Start:
 
-- Are hidden Marks allowed? This chapter uses an **open** Mark. The
-  player sees all of its rules. If your table loves secrets, you can keep
-  the track behind your screen instead, and describe its signs.
-- Can the story put a Curse on a character with no choice? Here, the
-  players choose who carries the stone. That is the choice.
+- Are hidden Marks allowed? This chapter uses a Taint, and a Taint is
+  usually hidden. But the Game Master's Compendium lets a table make any
+  Mark open, and this one is **open**: the player sees all of its rules.
+  If your table loves secrets, keep it hidden, as a Taint usually is. Keep
+  the track behind your screen, describe its signs, and give the handout
+  at the crisis.
+- Can the story put a Curse on a character with no choice? This Mark is
+  not a Curse. It is a Taint: it comes in through power that the bearer
+  accepts. The players choose who carries the stone, and the bearer
+  chooses each time to draw on it. That is the choice.
 - Which themes are off the table? This Mark is about cold, the dark, and
   a voice that wants something. If a player does not want that, the party
   can skip the Mark: see "If your group does not use Marks" below.
@@ -325,7 +330,7 @@ someone else.
 - **Cade will not carry it.** "I have read about cursed things," he says.
   "I have never read a good ending."
 
-### The Curse of the Black Stone
+### The Taint of the Black Stone
 
 Give the player the handout. It is the Mark card for the stone, with the
 track.
@@ -339,7 +344,7 @@ The table after it is the short form, to explain at the table.
 
 | Part | The black stone |
 |---|---|
-| **Kind** | An open Curse. The bearer chose to carry the stone, but the stone chose what it does. |
+| **Kind** | An open Taint. It is not one of the seven Sins: it is the cold of the Unlit King. It comes in through the power that the bearer accepts, and it grows when the bearer uses that power. As with each Taint, a partner can spend a Bond to stop the track from growing. |
 | **Benefit** | Darkvision 60 feet (or 30 feet more). Once between rests, as a Bonus Action, *draw on the stone* for 1 minute (you regain the use when you finish a Short or Long Rest): your weapon attacks and cantrips deal an extra 1d6 Necrotic damage, and magical Darkness doesn't stop your Darkvision. |
 | **Cost** | A member of the Hush within 1 mile knows the direction to you. You have Disadvantage on saves against the Charmed and Frightened conditions from the Hush. Touching a piece of the Dawnfire deals 1d6 Radiant damage to you. |
 | **Grows** | Each time you draw on the stone. |
@@ -919,7 +924,7 @@ The characters can end this chapter with these things.
   piece of the Dawnfire. If the party gives it back, the Church owes it a
   great debt.
 - **The black stone** and its Mark. It is an Artifact. Its bearer carries
-  the Curse of the Black Stone.
+  the Taint of the Black Stone.
 - **The grey ledger** of the Hush, with the list of the pieces of the
   Dawnfire.
 - **Money and gear:** the tents of the Hush hold 60 GP in old coins of

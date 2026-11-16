@@ -4,7 +4,7 @@
 
 **Bearer:** ________________________________
 
-**Kind:** Curse (open)
+**Kind:** Taint (open)
 
 > A smooth black stone as big as a plum. It is always cold, and it hums against the skin. Sometimes, when you hold it, you feel it breathe.
 
@@ -20,7 +20,7 @@ Once between Short or Long Rests, as a Bonus Action, you can **draw on the stone
 - You have Disadvantage on saving throws against the Charmed and Frightened conditions from the Hush.
 - A piece of the Dawnfire burns you. When you touch one, you take 1d6 Radiant damage.
 
-**Grows.** Each time you draw on the stone. At most once each scene.
+**Grows.** Each time you draw on the stone. At most once each scene. A partner can spend a Bond to stop it from growing, as with each Taint.
 
 **Track:** [ 0 ] [ 1 ] [ **2** ] [ 3 ] [ **4** ] [ **5** ]
 

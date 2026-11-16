@@ -341,7 +341,7 @@ tells which lane owns the creature.
 
 | Thing | What it is | Chapters |
 |---|---|---|
-| The black stone | A piece of the crystal of Garrath. It hums near the Hush and when Malgrath speaks. Chapter 4 gives it rules with the Marks system: the open Curse of the Black Stone. Artifact. | 1, 4, 10 |
+| The black stone | A piece of the crystal of Garrath. It hums near the Hush and when Malgrath speaks. Chapter 4 gives it rules with the Marks system: the open Taint of the Black Stone (a Taint, not a Curse: it grows when the bearer uses its power). Artifact. | 1, 4, 10 |
 | The Ember of Saint Ivo | A piece of the Dawnfire. A small coal that never goes cold, in a cage of old gold. Artifact. | 3, 4 |
 | Compass of the Old Road | A brass compass of Ostrey that points along the old roads. The unique item of chapter 2. Uncommon. | 2 |
 | Mask of the Fifth Sleeper | A painted mask from the play of the troupe of Garret Pell. The unique item of chapter 3. Uncommon. | 3 |

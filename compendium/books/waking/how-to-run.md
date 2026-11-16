@@ -293,8 +293,8 @@ improvise.
 
 The party finds one black stone in the tutorial. It is a piece of the
 crystal of Garrath. It hums near the Hush and when Malgrath speaks. In
-chapter 4 it gets rules: the bearer gets a Mark that grows each time the
-bearer uses the stone. The Hush wants it. Malgrath can feel where it is.
+chapter 4 it gets rules: the bearer gets a Mark, the open Taint of the
+Black Stone, that grows each time the bearer uses the stone. The Hush wants it. Malgrath can feel where it is.
 Chapter 10 tells what it is. Do not let the party lose the stone before
 chapter 10.
 
