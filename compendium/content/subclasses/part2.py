@@ -18,7 +18,7 @@ SUBS["fighter"] = [
  (15, "Immovable Object", "When you take the Dodge action, you can also make one weapon attack as part of it, and creatures within 5 feet of you have Disadvantage on attack rolls against targets other than you until the start of your next turn."),
  (18, "Last Bastion", "When an ally within 30 feet would drop to 0 Hit Points, you can take a Reaction to move up to your Speed to a space within 5 feet of it and take the damage instead. If this drops you to 0 Hit Points, you drop to 1 instead. Once per Long Rest."),
 ]),
-("Gladiator", "Fighters who learned their craft before a roaring crowd.", [
+("Arena Blade", "Fighters who learned their craft before a roaring crowd.", [
  (3, "Crowd Pleaser", "When you score a Critical Hit or reduce a creature to 0 Hit Points, you gain Heroic Inspiration, and each ally within 30 feet who can see you gains Temporary Hit Points equal to your Proficiency Bonus."),
  (3, "Showboat", "You gain proficiency in Performance. As a Bonus Action you can taunt a creature within 30 feet that can hear you: it makes a Wisdom saving throw (DC 8 + your Strength or Charisma modifier + your Proficiency Bonus) or has Disadvantage on attack rolls against creatures other than you until the end of its next turn."),
  (7, "Arena Footwork", "Your Speed increases by 10 feet, and when a creature misses you with a melee attack you can move up to half your Speed as a Reaction without provoking Opportunity Attacks."),
