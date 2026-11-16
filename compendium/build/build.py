@@ -153,6 +153,7 @@ def expand(name):
         "{{O_BEST}}": lambda: orig.bestiary_html(), "{{O_ITEMS_IDX}}": lambda: orig.items_index_html(),
         "{{O_ITEMS}}": lambda: orig.items_html(), "{{O_STRONG}}": lambda: orig.strongholds_html(),
         "{{O_CLASSES}}": lambda: __import__("render_classes").classes_html(),
+        "{{INJURIES}}": lambda: __import__("render_injuries").all_injuries_html(),
         "{{SYS_MARKS}}": lambda: __import__("render_systems").player_marks_html(),
         "{{SYS_TAINTS}}": lambda: __import__("render_systems").gm_marks_html(),
         "{{SYS_BONDS}}": lambda: __import__("render_systems").all_bonds_html(),
