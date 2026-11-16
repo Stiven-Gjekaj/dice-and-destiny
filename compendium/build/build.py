@@ -137,10 +137,28 @@ STYLES = {
     True: '<link rel="stylesheet" href="book.css"><link rel="stylesheet" href="screen.css">',  # screen: color
 }
 
+# The Lulu gutter table: the recommended interior margin in mm (no bleed), by the highest page count of each step.
+# https://help.lulu.com/en/support/solutions/articles/64000255590-interior-formatting-the-basics
+LULU_INSIDE_MM = [(60, 13), (150, 16), (400, 25), (600, 29), (800, 32)]
+OUTSIDE_MM = 14  # the outside margin in book.css
+# The inside margin of each printed book. build() stops if the page count needs a different value.
+INSIDE_MM = {"player": 25, "gm": 29}
+
+
+def lulu_inside_mm(pages):
+    return next(mm for top, mm in LULU_INSIDE_MM if pages <= top)
+
+
+def margin_css(mm):
+    """Override the inside margin of book.css. Title and part pages move by the difference, so they stay centered."""
+    return (f"<style>@page :right {{ margin-left: {mm}mm; }} @page :left {{ margin-right: {mm}mm; }} "
+            f".titlepage {{ margin-right: {mm - OUTSIDE_MM}mm; }} .part {{ margin-right: {mm - OUTSIDE_MM}mm; }}</style>")
+
 
 def expand(name, screen=False):
     s = open(f"books/{name}.src.html").read()
-    s = s.replace('<link rel="stylesheet" href="style.css">', '<link rel="stylesheet" href="style.css">' + STYLES[screen])
+    style = STYLES[screen] + ("" if screen else margin_css(INSIDE_MM[name]))
+    s = s.replace('<link rel="stylesheet" href="style.css">', '<link rel="stylesheet" href="style.css">' + style)
     s = s.replace("{{FRONT}}", front(name, screen))
     reps = {
         "{{CLASSES}}": lambda: classes.all_classes(),
@@ -278,6 +296,12 @@ def build(name, screen=False):
     render(out, s)
     if screen:
         add_outline(f"{out}.pdf", outline(toc_entries, pages))
+    else:
+        from pypdf import PdfReader
+        n = len(PdfReader(f"{out}.pdf").pages)
+        if lulu_inside_mm(n) != INSIDE_MM[name]:
+            raise SystemExit(f"{name}: {n} pages needs a {lulu_inside_mm(n)} mm inside margin, "
+                             f"not {INSIDE_MM[name]} mm. Change INSIDE_MM in build/build.py.")
     return pages
 
 
