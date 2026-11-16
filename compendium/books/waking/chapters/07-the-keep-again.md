@@ -12,7 +12,7 @@
 **Goal:** a home.
 
 The Dawnwatch woke under Dawnwatch Keep and walked out of it into a world
-that forgot them. Since then they slept in inns, in tents, and in the guest
+that forgot them. Since then they have slept in inns, in tents, and in the guest
 rooms of people who wanted something from them. In this chapter they go back
 to the keep, and they find the Hush in it.
 
@@ -251,7 +251,7 @@ What the alarm does:
 | 0 | The Hush are surprised: in encounter 1, they have Disadvantage on Initiative. |
 | 1 | No surprise. Encounter 1 is normal. |
 | 2 | The Hush in the Hall of Sleepers hear the fight. In encounter 2, they are ready, and Mother Sallow starts to leave sooner (see Scene 4). |
-| 3 | As alarm 2. Also, two of the initiates in the hall run to the study door with hammers. The party has 3 rounds before they break the hinges of the door frame and damage the door. (The door still does not open. But Wick is very angry.) |
+| 3 | As alarm 2. Also, two of the initiates in the hall run to the study door with hammers. The party has 3 rounds before they crack the stone around the door. (The door still does not open. But Wick is very angry.) |
 
 ---
 
@@ -303,11 +303,11 @@ the way in.
 
 If the party goes down the Stair of Teeth, the trap waits halfway down. The
 Hush know the old trap of the steward. They made it again, with new teeth
-and fresh grease.
+and fresh grease. If a character finds the trap, read:
 
 > Halfway down the stair, Wick's light falls on something new: a bright
 > copper wire across the steps, and above it, on the old shelf, a new
-> barrel. Or it would, if anyone looked.
+> barrel.
 
 - **Find it:** DC 15 Wisdom (Perception). A character who remembers the old
   trap from the tutorial has Advantage. Say: "You were here before. You know
@@ -764,23 +764,23 @@ Perrin Hale, the master of the Lampwrights, arrives the next day, in a cart
 pulled by a tired mule. With Perrin is a young Lampwright named Hesper Wren.
 
 Perrin goes straight to the study and stands in the door for a long time
-without a word. Then Perrin touches the mark of the sun inside the square,
+without a word. Then he touches the mark of the sun inside the square,
 very gently.
 
 > "The first master," Perrin says. "We have his mark on our door, our seal,
 > and our oldest tools. Three hundred years, and I never saw a thing that
-> his own hand made, except your lantern. And now this." Perrin looks at the
+> his own hand made, except your lantern. And now this." He looks at the
 > broken coffins in the hall. "What a waste. What a terrible waste."
 
-Perrin does not stay long. Perrin has a guild to run, and Gaunt watches the
-hall in Corrantey. Before Perrin leaves:
+Perrin does not stay long. He has a guild to run, and Gaunt watches the
+hall in Corrantey. Before he leaves:
 
-- Perrin offers to send glass and brass for the repair of the keep at the
+- He offers to send glass and brass for the repair of the keep at the
   cost of the materials. (This is part of the half cost of the old rooms,
   below.)
-- Perrin asks to copy the plan of Wick for the archive of the guild. Wick
+- He asks to copy the plan of Wick for the archive of the guild. Wick
   says no. Then Wick says yes, if he gets to approve the copy.
-- Perrin leaves Hesper Wren behind. "She asked to come. She is the best
+- He leaves Hesper Wren behind. "She asked to come. She is the best
   young hand that I have, and she writes lists in her sleep. Your keep needs
   someone to keep it, and she needs a place to be useful."
 
