@@ -56,6 +56,7 @@ way, and the dates do not agree.
 
 | Year | What happened | What people say today |
 |---|---|---|
+| About -45 | Sir Garrath, the first knight of the sun, founds the Dawnwatch and writes its oath. | "The Dawnwatch is as old as Ostrey." Nobody remembers the founder. |
 | About -40 | Sir Garrath, the first knight of the sun, sees that the sun is weaker each winter. | Nothing. Nobody remembers. |
 | About -20 | Garrath tries to take the fire of the sun into himself. He becomes the Unlit King. | "Malgrath came out of the dark beyond the mountains." |
 | -20 to 0 | The war of the Unlit King. | "The Long War." Many songs, all of them wrong. |
@@ -70,7 +71,7 @@ way, and the dates do not agree.
 | 300 | The Hush puts out the Dawnfire in the chapel of the keep. The crystal cracks. | "The Waking", but only after the characters are seen. |
 
 > **Secret (chapter 10):** The column "What happened" is the truth. The
-> first four rows, from year -40 to year 0, are the twist of Book One.
+> first five rows, from year -45 to year 0, are the twist of Book One.
 > Every person in the land believes the lie of row "0". The characters
 > believe it too. See How to Run This Book.
 
