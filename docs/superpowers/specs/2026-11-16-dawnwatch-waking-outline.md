@@ -1,7 +1,8 @@
 # Outline: The Dawnwatch, Book One: Waking
 
 Date: 2026-11-16.
-Status: draft. The human reviews it before the chapters are written.
+Status: the chapters of Book One are written, and the book
+builds. The tag `dawnwatch-waking-1` releases it.
 
 Parent design: [The Dawnwatch](2026-11-16-the-dawnwatch-design.md).
 

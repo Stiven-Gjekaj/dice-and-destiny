@@ -1,7 +1,8 @@
 # Design: The Dawnwatch
 
 Date: 2026-11-16.
-Status: draft. The human reviews it before work starts.
+Status: Book One is written and builds. The tag `dawnwatch-waking-1`
+releases it. Work on Book Two has not started.
 
 Related designs: [Dice & Destiny](2026-11-15-dice-and-destiny-design.md),
 [Edition 2 expansion](2026-11-15-edition-2-expansion-design.md).
