@@ -392,9 +392,18 @@ def canonical(text):
     return "The " + text[4:] if text.startswith("the ") else text
 
 
+# Other forms of an entry name in the text. The text calls the black stone "the black stone", in lower case.
+EXTRA_FORMS = {"The Black Stone": ["black stone"]}
+
+
+def forms_of(e):
+    """The forms of an entry or a term in the text: its own forms or its name, and the extra forms."""
+    return list(e.get("forms") or [e["name"]]) + EXTRA_FORMS.get(e["name"], [])
+
+
 def named_in(name, chs):
     """The numbers of the chapters whose text names `name`."""
-    pat = mention_pattern([name])
+    pat = mention_pattern([name] + EXTRA_FORMS.get(name, []))
     return [num for num, _, text in chs if pat.search(text)]
 
 
@@ -489,7 +498,7 @@ def mark_mentions(h, es, screen=False):
     The text of headings, links, SVG, and markers does not change."""
     names = {}
     for e in es:
-        for form in e.get("forms") or [e["name"]]:
+        for form in forms_of(e):
             names.setdefault(E(form, quote=False), (e["name"], e["anchor"]))
     pat = mention_pattern(names)
     if not pat:

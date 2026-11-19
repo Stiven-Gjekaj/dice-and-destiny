@@ -529,3 +529,10 @@ def test_a_name_that_wraps_over_a_line_break_gets_a_marker():
     W.mark_mentions("<p>says Old\nBren, and lifts the\nFennick  Candle.</p>", es)
     assert [n for n, _, _ in W.IDX] == ["Old Bren", "The Fennick Candle"]
     assert W.named_in("Old Bren", [(4, "ch4", "Then Old\nBren goes.")]) == [4]
+
+
+def test_the_black_stone_in_lower_case_gets_a_marker():
+    es = [dict(kind="treasure", name="The Black Stone", anchor="t-the-black-stone", obj=None)]
+    W.mark_mentions("<p>The black stone hums. She wants the Black Stone. Two black stones.</p>", es)
+    assert [n for n, _, _ in W.IDX] == ["The Black Stone", "The Black Stone"]
+    assert W.named_in("The Black Stone", [(4, "ch4", "the black stone hums"), (5, "ch5", "a stone")]) == [4]
