@@ -7,7 +7,7 @@
 | **Places** | The road south from the keep, the village of Wenlow, Ashby Field on the border of Gaunt and Saint Ivo's, the two camps, the Ashby stone |
 | **System that starts** | Injuries and scars |
 
-Two armies march to the same field. One flies the grey and steel of Gaunt.
+Two armies march to the same field. One flies the red of Gaunt.
 One flies the five gold stars of the Church. Both say that the Dawnwatch
 march with them. Neither asked.
 
@@ -138,9 +138,9 @@ there.
 > "Riders on the road. Two groups. One from the south, one from the west.
 > They are racing each other."
 >
-> From the wall you see them: four riders in grey and steel, under a red
+> From the wall you see them: four riders in red coats and steel, under a red
 > banner with an iron gauntlet. Behind them, three riders in white, under a
-> blue banner with five gold stars. The grey riders reach the gate first.
+> blue banner with five gold stars. The red riders reach the gate first.
 > The white riders shout at them. Somebody's horse bites somebody else's
 > horse.
 >
@@ -170,7 +170,7 @@ Both riders say that the other side started it. Both believe it.
 | Question | The rider of Gaunt says | The rider of the Church says |
 |---|---|---|
 | Why is there a war? | "The Church burned its own chapel at Wenlow and blamed us. Then it closed the pilgrim road to Gaunt traders." | "Gaunt soldiers burned the chapel at Wenlow. We saw the tabards. Now Gaunt sends an army north." |
-| Who burned the chapel? | "Monks in disguise. Or a mob of their pilgrims." | "Soldiers in grey and steel. Eleven of them, on foot." |
+| Who burned the chapel? | "Monks in disguise. Or a mob of their pilgrims." | "Soldiers in the red of Gaunt. Eleven of them, on foot." |
 | Where are the armies? | "At Ashby Field, on the border. Six days to the south." | "At Ashby Field. Ten thousand faithful, the abbess says. Perhaps two thousand." |
 | When will they fight? | "When the Marshal decides. Soon." | "When Gaunt attacks. We will not attack first." |
 | What do they want from us? | "To ride with the Marshal. Your banner beside hers." | "To stand with the faithful. Your faces, in the light." |
@@ -232,7 +232,7 @@ pray, and to leave a few Gaunt badges in the ashes.
 > pinching each candle.
 >
 > In the dark, someone screams. A torch flares at the door of the inn.
-> In its light you see soldiers in grey and steel tabards, with the iron
+> In its light you see soldiers in red tabards, with the iron
 > gauntlet of Gaunt on their chests. They are nailing the door shut. People
 > are inside.
 
@@ -324,7 +324,7 @@ road comes over a low ridge.
 
 > Below you, the land opens into a long, shallow valley of grass and
 > stone walls. A stream runs down the middle, so small that you could jump
-> it. On the south slope stands a city of tents in grey and black, with
+> it. On the south slope stands a city of tents in red and black, with
 > thin columns of smoke and the flash of steel. On the north slope stands
 > a second city, larger and messier, of white tents and wagons, with a
 > hundred blue banners and a sound of singing.
@@ -460,7 +460,7 @@ and she can arrest Roe if the proof is good enough.
 
 ### Lieutenant Roe
 
-> At the Marshal's shoulder stands a slim man in a grey officer's coat, so
+> At the Marshal's shoulder stands a slim man in a red officer's coat, so
 > neat that he looks drawn with a ruler. He bows to you, low and correct.
 > "Lieutenant Roe, at your service. If you need anything at all, you ask
 > me first."
@@ -858,7 +858,7 @@ Remember these rules during the battle:
 ### Phase 1: The Grey (Encounter 2)
 
 > The dawn comes up red over the east ridge. On both slopes, horns blow.
-> The lines form: grey squares of pikes on the south slope, a crowd of
+> The lines form: red squares of pikes on the south slope, a crowd of
 > spears under blue banners on the north slope. Between them, by the
 > stream, the stone stands alone.
 >
@@ -949,7 +949,7 @@ characters are depends on their path. Run one of the three versions.
 
 #### The Gaunt version (the characters stand with the Church)
 
-> On the south slope, the grey squares turn as one. Then the riders come
+> On the south slope, the red squares turn as one. Then the riders come
 > out between them, three hundred lances, and start down the hill at a
 > walk. Then a trot. The ground shakes under your boots.
 >
@@ -1139,7 +1139,7 @@ command tent. His horse went west."
 >
 > In the middle of the bowl, around a ring of black candles that burn with
 > no light at all, stand the singers: rows of grey hoods, swaying. In front
-> of them stand two figures who do not sing. One wears the grey coat of a
+> of them stand two figures who do not sing. One wears the red coat of a
 > Gaunt officer. One wears the brown robe of a monk of the Church. Both
 > have taken off their masks of politeness, and their faces are calm and
 > happy.
