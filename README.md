@@ -97,7 +97,7 @@ files for a hardcover or a paperback.
 
 ### The Dawnwatch, Book One: Waking
 
-310 pages, A4. A campaign for levels 1 to 10. It needs Edition 2 of the two
+312 pages, A4. A campaign for levels 1 to 10. It needs Edition 2 of the two
 Compendiums.
 
 - Ten chapters. Chapter 1 is the tutorial adventure.
