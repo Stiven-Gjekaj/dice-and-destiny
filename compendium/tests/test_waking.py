@@ -521,3 +521,11 @@ def test_a_longer_entry_name_wins_over_a_term_inside_it():
 def test_a_term_with_the_name_of_an_entry_is_left_out():
     es = [dict(kind="person", name="Wick", anchor="p-wick", obj=None)]
     assert W.index_terms(es, [("Wick", ["Wick"]), ("Marks", ["Marks"])])[0]["name"] == "Marks"
+
+
+def test_a_name_that_wraps_over_a_line_break_gets_a_marker():
+    es = [dict(kind="person", name="Old Bren", anchor="p-old-bren", obj=None),
+          dict(kind="treasure", name="The Fennick Candle", anchor="t-the-fennick-candle", obj=None)]
+    W.mark_mentions("<p>says Old\nBren, and lifts the\nFennick  Candle.</p>", es)
+    assert [n for n, _, _ in W.IDX] == ["Old Bren", "The Fennick Candle"]
+    assert W.named_in("Old Bren", [(4, "ch4", "Then Old\nBren goes.")]) == [4]

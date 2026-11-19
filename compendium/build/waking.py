@@ -375,14 +375,20 @@ def mention_pattern(names):
 
 
 def _name_regex(name):
-    """A name that starts with "The" also matches with "the", as in "they carry the Fennick Candle"."""
+    """A name that starts with "The" also matches with "the", as in "they carry the Fennick Candle".
+    A space in a name matches any white space, so a name can wrap over a line break of the source."""
     if name.startswith("The "):
-        return "[Tt]he " + re.escape(name[4:])
-    return re.escape(name)
+        return r"[Tt]he\s+" + _words(name[4:])
+    return _words(name)
+
+
+def _words(name):
+    return r"\s+".join(re.escape(w) for w in name.split(" "))
 
 
 def canonical(text):
-    """The stored form of a matched name: a first "the" becomes "The"."""
+    """The stored form of a matched name: one space between the words, and a first "the" becomes "The"."""
+    text = re.sub(r"\s+", " ", text)
     return "The " + text[4:] if text.startswith("the ") else text
 
 
