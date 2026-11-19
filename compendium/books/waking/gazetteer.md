@@ -2011,6 +2011,7 @@ appendix of people.
 | Tamsin | The old ferry woman. Kind, and she asks too many questions. | Brannock's Ford | None | 2 |
 | Tilly Ashe | An actress of Pell's Players. She plays the Shadow. | Saint Ivo's | None | 3 |
 | Tobin Gauntry | The son of the Marshal. He does not want a war. | Stannard | Gaunt | 5, 9 |
+| Wenna Orme | The sister of Haskel Orme, in Kingsholm, 300 years ago. Dead. His letters are to her. | Letters | Old Ostrey | 7 |
 | Wick | The talking lantern. | With the party | The Dawnwatch | All |
 
 > **Secret (chapter 10):** Do not show this table to the players. The
