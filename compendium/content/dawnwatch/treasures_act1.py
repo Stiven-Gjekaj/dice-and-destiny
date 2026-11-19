@@ -43,7 +43,7 @@ ITEMS = [
  "Once, when the party is lost, you can open the compass and know at once the way back to the last road that you traveled. You regain the use at dawn."),
 ("Mask of the Fifth Sleeper", W, "Uncommon", A,
  "A painted mask of wood and gold leaf, made for a play about the Dawnwatch. A thousand pilgrims touched it for luck, and some of their faith stayed in it. "
- "While you wear it, you have Advantage on Charisma (Performance) checks, and once you can cast Disguise Self from it, with no spell slot. You regain the use at dawn. "
+ "While you wear it, you have Advantage on Charisma (Performance) checks, and you can cast Disguise Self from it once, with no spell slot. You regain the use at dawn. "
  "When you take the mask off, the face of the person who wore it last is on the inside for a moment, and then it is gone."),
 ("Kell Warden's Shield", "Armor (Shield)", "Uncommon", None,
  "A round shield of oak and bronze with a rising sun on its face, from the shrine at Kell. While you hold this shield, you have a +1 bonus to Armor Class. "
