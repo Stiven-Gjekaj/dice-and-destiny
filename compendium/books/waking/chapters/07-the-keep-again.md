@@ -296,8 +296,11 @@ the way in.
   bottom of the stair, two rounds after the party gets there. The narrow
   gate is a good place to hold. If the party wants, it can go on to the Hall
   of Sleepers first. Then the force arrives in the hall at the start of the
-  third round of encounter 2. In that case, use only half of the force
-  (round down), so the two fights together are not too much.
+  third round of encounter 2. In that case, use only half of the force,
+  rounded down (1 Hush Night Warden and 2 Hush Shrouds, 2,000 XP), and
+  remove the Hush Night Warden and 2 Hush Shrouds from the start of
+  encounter 2. Then the two fights together are 6,900 XP, as the High
+  budget allows.
 
 ### The new teeth
 
