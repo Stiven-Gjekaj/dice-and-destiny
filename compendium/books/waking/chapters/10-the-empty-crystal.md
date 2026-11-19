@@ -73,10 +73,11 @@ and she drank it. It made her strong. It is also killing her. In this chapter sh
 Unbound**, a stronger form of the leader of the Hush.
 
 The rite is on the shortest day of the year. On that day, the Hush puts out
-whatever piece of the Dawnfire it holds. If the Hush still has the Ember of
-Saint Ivo (see The Hush, earlier in this book), that is the piece. If the
-party took the Ember back, the Hush wants the First Lamp or the Fennick
-Candle, and it will try to take one from the party in Kingsholm.
+whatever piece of the Dawnfire it holds. If Brother Ansel stole the Ember
+of Saint Ivo from the Church (see "The Ember in the camp" in Three
+Banners), that is the piece. If the party keeps the Ember, the Hush holds
+no piece. Then it wants the First Lamp or the Fennick Candle, and it will
+try to take one from the party in Kingsholm.
 
 ### Threads that end here
 
@@ -503,7 +504,13 @@ under it, and cries. I never understood that."
 > the grey dome turns slowly, like smoke in a jar. The floor is covered with
 > people in grey, kneeling in rows, a hundred of them, humming. At the end of
 > the hall stands the old throne, cracked down the middle. In front of the
-> throne is a table of black stone. On the table lies a small light.
+> throne is a table of black stone.
+>
+> *(If the Hush has the Ember:)* On the table lies a small light, a coal
+> that glows gold in a cage of old gold.
+>
+> *(If the party keeps the Ember:)* The table is empty. It waits for a
+> light.
 >
 > Next to it stands a thin woman in grey. You know her. But her eyes are
 > black now, all black, from edge to edge, and when she breathes out, her
@@ -513,9 +520,9 @@ under it, and cries. I never understood that."
 > in the hall hears it. "You came. Good. I wanted you to see this."
 
 The small light on the table is the piece of the Dawnfire that the Hush
-holds: the Ember of Saint Ivo, if the Hush still has it. If the party took
-the Ember back, the table is empty, and Mother Sallow wants the First Lamp
-or the Fennick Candle from the party.
+holds: the Ember of Saint Ivo, if Brother Ansel stole it in Three Banners.
+If the party keeps the Ember, the table is empty, and Mother Sallow wants
+the First Lamp or the Fennick Candle from the party.
 
 ### Mother Sallow speaks
 

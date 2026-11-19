@@ -574,6 +574,31 @@ suggested the call for spears. He is a member of the Hush.
 | Charisma (Persuasion) with the Abbess | 16 | She agrees to keep her levies on the hill one more day, whatever Gaunt does, if the characters bring her proof. (Only with real evidence.) |
 | Charisma (Persuasion) with Cade | 10 | He helps the characters in any way that he can. He can take them into the Abbess's tent at night, or speak for them to her. |
 
+### The Ember in the camp
+
+Use this part only if the party gave the Ember of Saint Ivo back to the
+Church after chapter 4. If the party kept the Ember, skip it: the Ember is
+with the party.
+
+The Abbess brought the Ember to Ashby Field, in its cage of old gold, so
+that the faithful can see it. It hangs on a pole in front of her tent.
+
+It is not the Ember. Before the army marched, Brother Ansel used the keys
+of the secretary to open the cage on the high altar of Saint Ivo's. He took
+the Ember out and put a coal painted gold in its place. Then he sent the
+true Ember north to Mother Sallow, in a box of lead. In chapter 3, the
+Ember glowed when the Dawnwatch came near it. This coal does nothing.
+
+| Check | DC | Result |
+|---|---|---|
+| Wisdom (Perception), near the cage | 12 | The coal in the cage does not glow brighter when the characters come close. In Saint Ivo's, it did. |
+| Intelligence (Investigation), at the cage | 15 | Gold paint flakes off the coal. Under the paint, the coal is black and cold. |
+| Wick | No roll | Wick's flame does not lean toward the cage. "That is not it," he whispers. "That is a rock in a nice coat." |
+
+If the characters tell the Abbess, she goes white. Only she and her
+secretary have the keys of the cage. This is a clue against Ansel. The
+prisoner in Scene 8 says where the Ember went.
+
 ### Corporal Lenna
 
 Somewhere in the camp of the Church, the characters meet a young soldier
@@ -685,6 +710,7 @@ they have, and to point them at what they miss.
 | The black candle in Roe's boot | Roe's tent (Scene 4) | Roe |
 | "Bring a spear", added after the signature | Ansel's desk (Scene 5) | Ansel |
 | Tracks to the hollow | Ansel (Scene 5) | The hidden choir |
+| The false Ember in its cage (if the Church kept the Ember) | The Abbess's tent (Scene 5) | Ansel |
 | The note in the envoy's glove, in Roe's hand | The stone (Scene 6) | Roe |
 | The black stone hums near Roe and Ansel | Any time | Both |
 
@@ -1257,9 +1283,10 @@ prisoner is calm. The Hush fears nothing that the characters can do.
 | Charisma (Persuasion) | 15 | The prisoner speaks almost kindly: "The sun is dying. You know it. You have seen the days. He tried to save it once. He will try again. We help him. What do you help?" |
 | Wisdom (Insight) | 14 | The prisoner believes every word. And the prisoner is not sure that the characters are wrong, either. |
 
-The prisoner says "the coal": if the Hush still has the Ember of Saint Ivo
-from chapter 4, the prisoner means the Ember. If the characters already got
-it back, the prisoner means the pieces of the Dawnfire in general.
+The prisoner says "the coal": if Brother Ansel stole the Ember (see "The
+Ember in the camp", Scene 5), the prisoner means the Ember, and it is in
+Kingsholm now. If the party keeps the Ember, the prisoner means the pieces
+of the Dawnfire in general.
 
 > **GM tip:** This scene points at chapter 10. Make sure that the players
 > leave with three facts: the Hush gathers at Kingsholm; Mother Sallow
@@ -1419,6 +1446,8 @@ stronghold run, and the allies of this chapter come to help (see chapter
   stone, both powers will send help to Kingsholm in chapter 10.
 - The characters know that the Hush gathers at Kingsholm, led by Mother
   Sallow, at the place where "he" slept.
+- If Brother Ansel stole the Ember of Saint Ivo, the Hush has it in
+  Kingsholm. Chapter 10 uses this.
 - The characters carry their injuries, and perhaps their first scars, into
   the end of Book One.
 

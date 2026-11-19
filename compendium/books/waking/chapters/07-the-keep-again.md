@@ -475,8 +475,11 @@ What she says, if the party asks:
 - **"Who is your king?"** "The one who tried to save the sun, and was put in
   a box for it. Like you." She says no more about this. If the players push,
   she only smiles.
-- **"Where is the Ember?"** (If the Hush still have the Ember of Saint Ivo
-  from chapter 4.) "Safe. Quiet. Asleep, like a good child."
+- **"Where is the Ember?"** If the party gave the Ember back to the
+  Church: "In a cage of gold. The Church thinks that a cage keeps a light
+  safe." She smiles, and says no more. (This is a seed for chapter 9, where
+  the Hush steals the Ember from its cage.) If the party keeps the Ember:
+  "With you. For now."
 
 | Check | DC | Result |
 |---|---|---|
