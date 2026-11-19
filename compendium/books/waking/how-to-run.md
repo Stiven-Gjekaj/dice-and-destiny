@@ -325,8 +325,9 @@ love him a little. It makes the letters hit harder.
 ### The voice in the north
 
 Malgrath speaks only through the black stone in Book One. He speaks
-rarely, three or four times in the whole book: in the tutorial, in chapter
-4, and in chapter 10. He is never cruel and never loud. He speaks like a
+rarely, four or five times in the whole book: in the tutorial, in chapter
+4, in a dream in chapter 6 (if you roll that event), in chapter 7, and in
+chapter 10. He is never cruel and never loud. He speaks like a
 tired older knight who knows the characters. Each time, he says something
 that is true, and the characters cannot yet understand why it is true.
 
