@@ -383,10 +383,10 @@ learns that the Hush is not the only one who can feel it.
 
 Running Marks suggests one threshold every two or three sessions. The
 stone grows only when the bearer chooses to draw on it, so the player
-controls the pace. In this chapter, the bearer can use it in each fight.
-That is up to three points before the end of chapter 4. That is fine: it
-puts the first threshold in this chapter, and the second in chapter 6 or
-7.
+controls the pace. The stone wakes after the fight of Scene 1, so the
+bearer can use it in the ambush and in the rite. That is up to two points
+before the end of chapter 4. That is fine: it puts the first threshold at
+the rite, and the second in chapter 6 or 7.
 
 > **GM tip:** Do not push the player to use the stone. Offer it. In a hard
 > moment of a fight, the stone hums, and the bearer feels that it would
