@@ -51,6 +51,9 @@ figure.map svg, figure.map img { max-width: 100%; height: auto; }
 /* Each handout is on its own page. */
 .handout-top { break-before: page; display: flex; height: 0; }
 .handout { break-after: page; }
+/* A letter keeps its last line and its signature on one page. */
+.handout p:nth-last-of-type(2) { break-after: avoid; }
+.handout p:last-of-type { break-inside: avoid; }
 .handout h1 { font-size: 18pt; margin: 0 0 4mm; string-set: chapter content(); }
 
 /* The appendices: one entry for each name, from A to Z. */
