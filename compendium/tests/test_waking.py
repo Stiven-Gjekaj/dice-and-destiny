@@ -367,13 +367,13 @@ def test_on_the_screen_the_passes_add_no_blank_pages():
 
 def test_expand_makes_one_page_of_html_with_links_on_the_screen(tmp_path, tutorial):
     book = tmp_path / "book"
-    write(book / "chapters/02-ford.md", "# The Ford\n\nOld Bren waits at Kell — alone.\n\n{{handout: 01-map}}\n")
+    write(book / "chapters/02-ford.md", "# The Ford\n\nOld Bren waits at Kell \u2014 alone.\n\n{{handout: 01-map}}\n")
     write(book / "handouts/01-map.md", "# The Map\n")
     d = dw(npcs=[("A ferryman", "Old Bren")], places=["Kell"])
     h, es = W.expand(screen=True, book=str(book), tutorial=str(tutorial), dw=d)
     assert h.startswith("<!DOCTYPE html>") and "waking.css" in h and "screen.css" in h
     assert '<a class="xref" href="#p-old-bren">Old Bren</a>' in h
-    assert "—" not in h
+    assert "\u2014" not in h
     assert "{{TOC}}" in h and "{{INDEX}}" in h and "@@PAGE:handout-01-map@@" in h
     assert {e["name"] for e in es if e["kind"] != "term"} == {"Old Bren", "Kell"}
     assert "Wick" in {e["name"] for e in es if e["kind"] == "term"}
