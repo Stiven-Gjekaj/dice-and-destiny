@@ -1029,11 +1029,12 @@ of it at once. This fight is hard. It is the climax of the chapter.
 - **The Grief** attacks the nearest creature to the candle, whatever its
   side. On each of its turns, roll a d6. On a 1 to 3, it attacks a member
   of the party. On a 4 to 6, it attacks a member of the Hush. If no one is
-  within 30 feet of the altar, it circles and waits. It uses Call the
-  Drowned on each turn: the drowned of the graveyard come in through the
-  windows, one each round, from round 2. They are part of the Grief, not
-  extra monsters, so they do not count for the XP. Use the statblock of
-  the Fennick Drowned. No more than three are in the church at one time.
+  within 30 feet of the altar, it circles and waits. From round 2, one
+  drowned of the graveyard comes in through the windows at the start of
+  each round. No more than three are in the church at one time. Each turn,
+  the Grief uses its Call the Drowned bonus action on one of them. They are
+  part of the Grief, not extra monsters, so they do not count for the XP.
+  Use the statblock of the Fennick Drowned.
 - **The Hush** goes for the candle. The Night Wardens hold the party off
   with Close the Ranks and their maces. The priest casts Darkness on the
   party first, then Silence on the casters, then goes to the altar and uses
