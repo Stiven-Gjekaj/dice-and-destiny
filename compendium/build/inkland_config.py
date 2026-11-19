@@ -56,8 +56,9 @@ CHARACTER_AREAS = [
     {"id": "gaunt-farmland", "character": "flat", "box": [40, 235, 185, 320], "strength": 0.7},
 ]  # the generated rivers with the most water that the maps keep
 # The print maps keep this part of the relief symbols. The marsh symbols stand only
-# in the Low Fen, not on the wet strips of the coast.
-RELIEF = {"density": 0.6, "only_in": {"marsh": ["low-fen"]}}
+# in the Low Fen, not on the wet strips of the coast. The fields stand only in the
+# lowland, not in the mountains around Coldharrow.
+RELIEF = {"density": 0.6, "only_in": {"marsh": ["low-fen"], "field": ["lowland"]}}
 # The regions that did not exist 300 years ago. The old map shows no symbols in them.
 THEN_HIDE_RELIEF = ["low-fen", "kingsholm-wood"]
 

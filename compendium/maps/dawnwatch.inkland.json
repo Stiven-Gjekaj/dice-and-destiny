@@ -3203,6 +3203,9 @@
       "only_in": {
         "marsh": [
           "low-fen"
+        ],
+        "field": [
+          "lowland"
         ]
       }
     },
