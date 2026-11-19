@@ -51,8 +51,8 @@
         "id": "kell-hill",
         "kind": "hills",
         "height": [
-          34,
-          40
+          42,
+          48
         ],
         "edge": 4,
         "circle": {
@@ -103,8 +103,8 @@
           165
         ],
         "height": [
-          33,
-          41
+          42,
+          52
         ],
         "edge": 10,
         "roughness": 6
@@ -232,6 +232,16 @@
         "strength": 0.7
       },
       {
+        "id": "north-upland",
+        "character": "rough",
+        "box": [
+          0,
+          0,
+          240,
+          42
+        ]
+      },
+      {
         "id": "wolds-country",
         "character": "rolling",
         "box": [
@@ -239,8 +249,7 @@
           115,
           215,
           185
-        ],
-        "strength": 0.8
+        ]
       },
       {
         "id": "dunn-wood",

@@ -40,6 +40,7 @@ ROAD_TOLERANCE = 0.1
 RIVER_LIMIT = 8
 MAIN_RIVERS = ("The River Dunn",)  # drawn at least as wide as the largest other river
 COAST_ROUGHNESS = 14  # miles; inkland keeps the coast towns on the coast
+HILL_LOW = 42  # the lowest height with a hill symbol on a print map (inkland docs/TERRAIN.md)
 LOWLAND_TOP = 76  # miles: the lowland starts south of the soft edge of the Grey Teeth
 
 # The character of the land outside the named regions. An area steers the heights,
@@ -48,7 +49,10 @@ LOWLAND_TOP = 76  # miles: the lowland starts south of the soft edge of the Grey
 # and the farmland of Gaunt. The other woods are free.
 CHARACTER_AREAS = [
     {"id": "foothills", "character": "rough", "box": [50, 28, 210, 78], "strength": 0.7},
-    {"id": "wolds-country", "character": "rolling", "box": [125, 115, 215, 185], "strength": 0.8},
+    # Coldharrow stands in high, wild land behind the mountains. This upland also
+    # keeps the low Wolds out of the highest land, where inkland draws peaks.
+    {"id": "north-upland", "character": "rough", "box": [0, 0, 240, 42]},
+    {"id": "wolds-country", "character": "rolling", "box": [125, 115, 215, 185]},
     {"id": "dunn-wood", "character": "wooded", "circle": {"at": [70, 140], "r": 26}, "strength": 0.8},
     {"id": "east-wood", "character": "wooded", "circle": {"at": [215, 195], "r": 20}, "strength": 0.7},
     {"id": "gaunt-farmland", "character": "flat", "box": [40, 235, 185, 320], "strength": 0.7},
@@ -180,7 +184,7 @@ def build(places):
     regions = [{"id": "lowland", "kind": "plains", "height": [21, 38], "priority": -1,
                 "edge": 12, "roughness": 0, "box": [0, LOWLAND_TOP, width, height]},
                # The world bible puts the shrine at Kell on a hill. The hill has no name.
-               {"id": "kell-hill", "kind": "hills", "height": [34, 40], "edge": 4,
+               {"id": "kell-hill", "kind": "hills", "height": [HILL_LOW, HILL_LOW + 6], "edge": 4,
                 "circle": {"at": [110, 205], "r": 6}},
                # The forest grew around Kingsholm after it burned. It is a region, so
                # that the map of the old age can leave out its trees.
@@ -196,7 +200,7 @@ def build(places):
             regions.append({"id": rid, "kind": "mountains", "name": a["name"], "box": a["box"],
                             "edge": 10, "roughness": 8})
         elif a["name"] == "The Wolds":
-            regions.append({"id": rid, "kind": "hills", "name": a["name"], "box": a["box"], "height": [33, 41],
+            regions.append({"id": rid, "kind": "hills", "name": a["name"], "box": a["box"], "height": [HILL_LOW, HILL_LOW + 10],
                             "edge": 10, "roughness": 6})
         elif a["name"] == "The Low Fen":
             # The fen is terrain, so it is in both eras. Before the flood it was farmland,
