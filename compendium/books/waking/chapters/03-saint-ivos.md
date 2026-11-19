@@ -109,7 +109,7 @@ grew around it.
   false saints and false relics, and he thinks that the party are number
   one hundred and one. He believes in the true Sleepers too much to let a
   fake one pass. He becomes an ally, but not easily.
-- **Garret Pell** is the leader of Pell's Players, a troupe of five actors.
+- **Garret Pell** is the leader of Pell's Players, a troupe of six actors.
   He is about forty, handsome, loud, and good at his job. He plays the
   Shield. This year, he told the town that his players are the Five
   Sleepers, awake at last. He is not a bad man. He thought that it was a
@@ -274,7 +274,7 @@ when other people are not acting.
 |---|---|---|---|
 | Asks Pell why he says that he is a Sleeper | Wisdom (Insight) | 12 | Pell is scared. He did not expect the Abbess to take him seriously. Now he cannot stop, or the crowd will tear him apart. |
 | Tells Pell the truth and asks him to stop | Charisma (Persuasion) | 15 | Pell believes them, in private. He says that he cannot stop in public. "If I say I lied, on the feast of the Sleepers, they will hang me from the tower." He asks for time. |
-| Threatens Pell | Charisma (Intimidation) | 12 | Pell is scared, but the four other actors stand with him. The yard's two bouncers come over. Pell says nothing useful. |
+| Threatens Pell | Charisma (Intimidation) | 12 | Pell is scared, but the five other actors stand with him. The yard's two bouncers come over. Pell says nothing useful. |
 | Talks to the other actors | Charisma (Persuasion) | 10 | The actor who plays the Shadow, a young woman called Tilly, says that Pell got a letter before the feast. It said that the Sleepers would wake this week, and that he should "be ready". It was not signed. The paper was grey. |
 | Shows the badge of the Dawnwatch | None | None | Pell knows it. The real badge has seven rays. His costumes have five, "because there are five of them". He goes pale. |
 
