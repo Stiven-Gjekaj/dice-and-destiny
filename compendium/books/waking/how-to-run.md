@@ -71,13 +71,13 @@ characters go up one level at the end of each chapter.
 | 3 | Saint Ivo's | 3 to 4 | The town of the Church | None (a social chapter) | 2 to 3 |
 | 4 | The Hush | 4 to 5 | The old shrine at Kell | Marks | 2 to 3 |
 | 5 | Gaunt | 5 to 6 | Stannard and the land of Gaunt | Factions and Renown | 3 |
-| 6 | Corrantey | 6 to 7 | The city of merchants | Crafting and Gathering | 3 |
+| 6 | Corrantey | 6 to 7 | The city of merchants | Crafting and Gathering | 3 to 4 |
 | 7 | The Keep Again | 7 to 8 | Dawnwatch Keep | Strongholds | 3 |
-| 8 | Fennick Under the Water | 8 to 9 | A drowned town in the Low Fen | Techniques | 3 to 4 |
-| 9 | Three Banners | 9 to 10 | Ashby Field | Injuries and Scars | 3 |
+| 8 | Fennick Under the Water | 8 to 9 | A drowned town in the Low Fen | Techniques | 2 to 3 |
+| 9 | Three Banners | 9 to 10 | Ashby Field | Injuries and Scars | 3 to 4 |
 | 10 | The Empty Crystal | 10 | Kingsholm, the old capital | None (the end) | 3 to 4 |
 
-A session in this table is about four hours. The full book is about 25 to
+A session in this table is about four hours. The full book is about 24 to
 30 sessions. Most groups need a year of play, one session each week or two.
 
 ### The two acts
