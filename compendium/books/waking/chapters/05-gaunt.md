@@ -857,10 +857,11 @@ the clue first.
 > must see this," he says. "It is from Saint Ivo's."
 
 The letter is short: "The boy first, then the mother. The Church will
-thank you. A." It is on the paper of the Abbey. It is false. Roe wrote it.
-The Marshal reads "A." as the Abbess. It is Brother Ansel, the secretary
-of the Abbess and a member of the Hush, who sent Roe the paper. Chapter 9
-tells this. Nobody in this chapter knows it.
+thank you. A." It is on the paper of the Abbey. It is false. Brother
+Ansel, the secretary of the Abbess and a member of the Hush, wrote it in
+his own hand and sent it to Roe. Roe put it on the body. The Marshal reads
+"A." as the Abbess. In chapter 9, the party can match the hand of the
+letter to the hand of Ansel. Nobody in this chapter knows it.
 
 The party can see that it is false. Use the table.
 
@@ -868,7 +869,7 @@ The party can see that it is false. Use the table.
 |---|---|---|---|
 | Looks at the bodies | Wisdom (Perception) | 10 | A grey circle is tattooed inside the wrist of each killer. These are the Hush, as at Kell. |
 | Looks at the cords | Intelligence (Investigation) | 13 | The cords are new. Nobody wore them before tonight. A priest's cord is always worn soft. |
-| Reads the letter | Intelligence (Investigation) | 15 | The paper is from the Abbey, but the hand is not the hand of a priest. Priests of the Church write the old way, with a mark of the Five at the top. This letter has none. |
+| Reads the letter | Intelligence (Investigation) | 15 | The paper is from the Abbey, but a priest of the Church always writes the old way, with a mark of the Five at the top. This letter has none. The writer knew the paper, and chose to leave out the mark. A character who makes the check remembers the hand. |
 | Talks to a living killer | None | None | The killer says nothing at all. If the bearer of the black stone stands in front of it, it whispers: "Keep it warm for him." |
 
 > **GM tip:** Do not reveal Roe. He brought the letter in from somewhere,
@@ -886,10 +887,9 @@ What happens next depends on the party.
 
 - **The party shows that the clue is false.** The Marshal listens. She is
   not a fool. "The Hush," she says. "Who want me to hate the Church." She
-  burns the letter in the candle. "Then I will not hate the Church. Today."
-  +2 renown with the Church for each character (a mission for the faction,
-  done well), even though the Church never hears of it. The Abbess learns
-  of it in chapter 9.
+  folds the letter and puts it in her coat. "Then I will not hate the
+  Church. Today." +2 renown with the Church for each character (a mission
+  for the faction, done well), even though the Church never hears of it.
 - **The party says nothing, or believes the clue.** The Marshal believes
   the letter. She orders the army to march in the spring, as planned, and
   she sends a cold letter to the Abbess. The Church hears of it. -1 renown
