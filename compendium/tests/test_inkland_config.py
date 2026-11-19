@@ -62,3 +62,15 @@ def test_the_committed_config_matches_places_json(tmp_path):
     out = inkland_config.write(str(tmp_path / "config.json"))
     with open(out, encoding="utf-8") as f, open(inkland_config.CONFIG_JSON, encoding="utf-8") as g:
         assert json.load(f) == json.load(g)
+
+
+def test_an_organic_outline_is_not_a_box_and_stays_in_the_frame():
+    box = [70, 255, 190, 320]
+    pts = inkland_config.organic_outline("gaunt", box, (240, 320))
+    assert pts == inkland_config.organic_outline("gaunt", box, (240, 320))
+    assert len(pts) > 40
+    assert all(0 <= x <= 240 and 0 <= y <= 320 for x, y in pts)
+    # The outline keeps near the box, but goes in and out of it.
+    xs = [x for x, _ in pts]
+    assert 60 < min(xs) < 80 and 180 < max(xs) < 200
+    assert len({round(x) for x, y in pts if y < 270}) > 10

@@ -9,7 +9,9 @@ turns the places, areas, rivers, and roads of places.json into its config:
 Then copy <dir>/<id>.svg to compendium/maps/<id>.svg for each map id.
 """
 import json
+import math
 import os
+import random
 import re
 import sys
 
@@ -103,11 +105,60 @@ def _sea_polygon(coast, height):
     return [[0, 0], [pts[0][0], 0]] + pts + [[pts[-1][0], height], [0, height]]
 
 
-def _land_polygon(coast, width, y0, y1):
-    """The land east of the coast line, from y0 to y1."""
+def _land_polygon(coast, width, y0, y1, height, amp=4):
+    """The land east of the coast line, from y0 to y1. An edge inside the frame is wavy."""
     pts = [[x, y] for x, y in coast if y0 < y < y1]
     first, last = _coast_x(coast, y0), _coast_x(coast, y1)
-    return [[first, y0], [width, y0], [width, y1], [last, y1]] + pts[::-1]
+    top = [[first, y0], [width, y0]] if y0 <= 0 else _wavy_y(f"land-{y0}", first, width, y0, amp)
+    bottom = [[width, y1], [last, y1]] if y1 >= height else _wavy_y(f"land-{y1}", width, last, y1, amp)
+    return top + bottom + pts[::-1]
+
+
+def _noise(rng, terms=7):
+    """A smooth periodic noise of t in [0, 2 pi): a sum of sines with random phases."""
+    waves = [(k, rng.uniform(0, 2 * math.pi), rng.uniform(0.3, 1) / k ** 0.8) for k in range(2, 2 + terms)]
+    scale = sum(a for _, _, a in waves)
+    return lambda t: sum(a * math.sin(k * t + ph) for k, ph, a in waves) / scale
+
+
+def _rng(key):
+    """A random source for one shape. The same seed and key give the same shape."""
+    return random.Random(f"{SEED}:{key}")
+
+
+def organic_outline(key, box, frame, wobble=0.22, points=96):
+    """An irregular outline that fills the box: a rounded box with a wavy edge.
+
+    A shape on a map that is a box looks drawn by a machine. The outline keeps
+    the size and the place of the box. It goes out of the box and into it by up
+    to wobble of its half size, and it stops at the frame.
+    """
+    x0, y0, x1, y1 = box
+    cx, cy, ax, ay = (x0 + x1) / 2, (y0 + y1) / 2, (x1 - x0) / 2, (y1 - y0) / 2
+    width, height = frame
+    noise = _noise(_rng(key))
+    out = []
+    for i in range(points):
+        t = 2 * math.pi * i / points
+        c, s = math.cos(t), math.sin(t)
+        # A superellipse (exponent 4): nearly the box, with round corners.
+        r = 1 + wobble * noise(t)
+        x = cx + ax * r * math.copysign(abs(c) ** 0.5, c)
+        y = cy + ay * r * math.copysign(abs(s) ** 0.5, s)
+        out.append([round(min(max(x, 0), width), 2), round(min(max(y, 0), height), 2)])
+    return [p for i, p in enumerate(out) if p != out[i - 1]]
+
+
+def _wavy_y(key, x0, x1, y, amp, step=4):
+    """Points from x0 to x1 near the line y, with a wave of up to amp.
+
+    The wave is 0 at the two ends, so the line still meets the coast and the frame.
+    """
+    noise = _noise(_rng(key))
+    n = max(2, int(abs(x1 - x0) / step))
+    return [[round(x0 + (x1 - x0) * i / n, 2),
+             round(y + amp * math.sin(math.pi * i / n) * noise(math.pi * i / n), 2)]
+            for i in range(n + 1)]
 
 
 def _coast_x(coast, y):
@@ -136,32 +187,34 @@ def build(places):
     # stops at the Grey Teeth (y 40 to 60, with a soft edge), so that the
     # rivers can come down from the mountains.
     regions = [{"id": "lowland-north", "kind": "plains", "height": [24, 40],
-                "polygon": _land_polygon(places["coast"], width, 0, 32)},
+                "polygon": _land_polygon(places["coast"], width, 0, 32, height)},
                {"id": "lowland", "kind": "plains", "height": [22, 34],
-                "polygon": _land_polygon(places["coast"], width, 70, height)}]
+                "polygon": _land_polygon(places["coast"], width, 70, height, height)}]
     for a in places["areas"]:
         rid = ident(a["name"])
         if a["kind"] == "sea":
             regions.append({"id": rid, "kind": "sea", "name": a["name"],
                             "polygon": _sea_polygon(places["coast"], height)})
         elif a["kind"] == "mountains":
-            regions.append({"id": rid, "kind": "mountains", "name": a["name"], "box": a["box"], "edge": 8})
+            regions.append({"id": rid, "kind": "mountains", "name": a["name"], "edge": 8,
+                            "polygon": organic_outline(rid, a["box"], (width, height))})
         elif a["name"] == "The Wolds":
-            regions.append({"id": rid, "kind": "hills", "name": a["name"], "box": a["box"],
+            regions.append({"id": rid, "kind": "hills", "name": a["name"],
+                            "polygon": organic_outline(rid, a["box"], (width, height)),
                             "height": [30, 44], "edge": 6, "priority": 1})
         elif a["name"] == "The Low Fen":
             # The fen is terrain, so it is in both eras. Before the flood it was farmland,
             # so the old map hides its name.
-            regions.append({"id": rid, "kind": "marsh", "name": a["name"], "box": a["box"]})
+            regions.append({"id": rid, "kind": "marsh", "name": a["name"],
+                            "polygon": organic_outline(rid, a["box"], (width, height))})
             overlays["then"]["labels"]["region:" + rid] = {"hide": True}
         else:
             # A political area or a field: a named feature of its era only.
-            x0, y0, x1, y1 = a["box"]
             feature = {"id": rid, "name": a["name"]}
             if a["name"] == "Ashby Field":
                 feature.update(kind="battle-site", at=[a["x"], a["y"]])
             else:
-                feature.update(kind="border", polygon=[[x0, y0], [x1, y0], [x1, y1], [x0, y1]])
+                feature.update(kind="border", polygon=organic_outline(rid, a["box"], (width, height)))
             for era in _era_of(a):
                 overlays[era]["add"]["features"].append(dict(feature))
 
