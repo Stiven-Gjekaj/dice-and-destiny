@@ -705,7 +705,7 @@ South of the old road, it loses its banks and spreads into the Low Fen.
 Nobody keeps the dikes now. The river goes where it wants.
 
 **What the party finds.** The ford in chapter 2. A party that follows the
-Brann south finds the edge of the Low Fen in three days.
+Brann south finds the edge of the Low Fen in four days.
 
 ## The Middle
 
