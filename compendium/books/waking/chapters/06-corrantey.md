@@ -773,11 +773,13 @@ XP, a High fight.
 
 ### The Wardens and Wick
 
-The Brass Lamp Warden attacks every creature that does not carry an object
-with the maker's mark of Haskel Orme. Wick carries that mark. So the Warden
-does not attack the character who carries Wick (unless that character
-attacks it first), but it does attack the other characters, the agents of
-Gaunt, and anyone else in its way. It does not attack the visitors who run.
+The Brass Lamp Warden knows the work of its own maker, and Wick is the
+only other thing that Haskel Orme made with a voice. So the Warden does
+not attack the character who carries Wick (unless that character attacks
+it first), but it does attack the other characters, the agents of Gaunt,
+and anyone else in its way. The mark on the foot of the First Lamp does
+not protect its bearer: the Wardens guard the Lamp, and they attack a
+thief who carries it. It does not attack the visitors who run.
 It only attacks creatures near the plinth or the rail.
 
 This makes the fight a fight with three sides. The Warden is a danger to

@@ -61,8 +61,8 @@ M("Brass Lamp Warden", "L", "Construct", "Unaligned", 5, "18 10 18 3 10 1", ac=1
   senses="Darkvision 60 ft.", lang="understands Common but can't speak",
   res=R(Resistances="Fire", Immunities="Poison, Psychic; " + CONSTRUCT),
   traits=[("Lamp Heart", "A flame burns in the chest of the warden. It sheds Bright Light in a 20-foot radius and Dim Light for 20 feet more."),
-          ("Maker's Mark", "The warden doesn't attack a creature that carries an object with the maker's mark of Haskel Orme, such as Wick, "
-                           "unless that creature attacks it first."),
+          ("Maker's Mark", "The warden doesn't attack a creature that carries Wick, the talking lantern of Haskel Orme, "
+                           "unless that creature attacks it first. It knows Wick as the work of its own maker."),
           ("Constructed Nature", "The warden doesn't need air, food, drink, or sleep.")],
   attacks=[("Brass Fist", "m", "2d8", "Bludgeoning")], multi=2,
   actions=[("Flare (Recharge 5–6)", "The flame in the warden's chest roars out in a 15-foot Cone. Each creature in the Cone makes a {dc:con} Dexterity saving throw. "
