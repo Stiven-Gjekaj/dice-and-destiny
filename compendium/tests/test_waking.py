@@ -556,3 +556,14 @@ def test_the_unlit_king_and_malgrath_are_one_index_term_that_the_unlit_knight_do
     es = W.index_terms([], [("Malgrath, the Unlit King", ["Malgrath", "Unlit King"])])
     W.mark_mentions("<p>Malgrath, the Unlit King, sends the Unlit Knight.</p>", es)
     assert [n for n, _, _ in W.IDX] == ["Malgrath, the Unlit King", "Malgrath, the Unlit King"]
+
+
+def test_chapter_one_leaves_out_the_hooks_for_a_second_one_shot(tmp_path, tutorial):
+    write(tutorial / "sessions/01-the-last-watch/README.md",
+          "# Session 1\n\n## Scene 7\n\n> The end.\n\n## What next\n\nChapter 2 of the book starts there.\n\n"
+          "If you play this adventure alone, use a hook:\n\n- **The stone:** It points north.\n\n## Notes\n\nKeep this.\n")
+    text = W.tutorial_text(tutorial)
+    assert "Chapter 2 of the book starts there." in text and "Keep this." in text
+    assert "adventure alone" not in text and "points north" not in text
+    assert W.drop_one_shot("## What next\n\nGo on.\n\nIf you play this adventure alone, stop.\n\n- A hook.\n") == \
+        "## What next\n\nGo on.\n"

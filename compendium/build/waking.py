@@ -56,8 +56,18 @@ def tutorial_text(root=TUTORIAL, title="The Last Watch"):
     characters, and the cheat sheet. The list of files and the links to them go out."""
     readme, session, *rest = [read(os.path.join(root, p)) for p in TUTORIAL_PARTS]
     readme = wm.drop_section(wm.drop_title(readme), "Files")
-    session = MD_FILE_LINK.sub("", wm.drop_title(session))
+    session = drop_one_shot(MD_FILE_LINK.sub("", wm.drop_title(session)))
     return "\n\n".join([f"# {title}", readme, session] + [wm.demote(t) for t in rest])
+
+
+# The one-shot ends with hooks for a second session of a GM's own. They do not fit the campaign, so the book
+# leaves them out: from this paragraph to the next heading of the same level or higher, or to the end.
+ONE_SHOT = re.compile(r"^If you play this adventure alone\b.*?(?=^#{1,2} |\Z)", re.M | re.S)
+
+
+def drop_one_shot(text):
+    """The session text with no hooks for a second one-shot session."""
+    return ONE_SHOT.sub("", text).rstrip() + "\n"
 
 
 def chapters(book=BOOK, tutorial=TUTORIAL):
