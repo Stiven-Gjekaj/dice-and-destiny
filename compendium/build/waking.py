@@ -746,26 +746,49 @@ def hide_marks(s):
 INSIDE_START_MM = 16  # the first guess. The build changes it to the value of the Lulu table for the page count.
 
 
+def work_name(out, pid=None):
+    """The name of the work files of one build: books/<work>.html and <work>.pdf. Each process has its own
+    work files, so two builds at the same time do not write into the PDF of the other build."""
+    return f"{out}-work-{os.getpid() if pid is None else pid}"
+
+
+def publish(work, out):
+    """Move the finished work files to books/<out>.html and <out>.pdf. A move in one folder is atomic."""
+    os.replace(os.path.join("books", f"{work}.html"), os.path.join("books", f"{out}.html"))
+    os.replace(f"{work}.pdf", f"{out}.pdf")
+
+
+def remove_work(work):
+    for path in (os.path.join("books", f"{work}.html"), f"{work}.pdf"):
+        if os.path.exists(path):
+            os.remove(path)
+
+
 def build_book(screen=False):
     """Build the print interior (waking.pdf) or the screen interior (waking_screen.pdf)."""
     from pypdf import PdfReader
     out = f"{NAME}_screen" if screen else NAME
+    work = work_name(out)
     inside = None if screen else INSIDE_START_MM
-    for _ in range(4):
-        body, es = expand(screen, inside)
-        pages, toc_entries = passes(out, body, es, screen, count=lambda o: len(PdfReader(f"{o}.pdf").pages))
-        if screen:
-            B.add_outline(f"{out}.pdf", B.outline(toc_entries, pages))
-            break
-        n = len(PdfReader(f"{out}.pdf").pages)
-        need = B.lulu_inside_mm(n)
-        if need == inside:
-            print(f"  {n} pages, inside margin {inside} mm", flush=True)
-            break
-        print(f"  {n} pages need a {need} mm inside margin, not {inside} mm. Build again.", flush=True)
-        inside = need
-    else:
-        raise SystemExit("waking: the inside margin does not settle")
+    try:
+        for _ in range(4):
+            body, es = expand(screen, inside)
+            pages, toc_entries = passes(work, body, es, screen, count=lambda o: len(PdfReader(f"{o}.pdf").pages))
+            if screen:
+                B.add_outline(f"{work}.pdf", B.outline(toc_entries, pages))
+                break
+            n = len(PdfReader(f"{work}.pdf").pages)
+            need = B.lulu_inside_mm(n)
+            if need == inside:
+                print(f"  {n} pages, inside margin {inside} mm", flush=True)
+                break
+            print(f"  {n} pages need a {need} mm inside margin, not {inside} mm. Build again.", flush=True)
+            inside = need
+        else:
+            raise SystemExit("waking: the inside margin does not settle")
+        publish(work, out)
+    finally:
+        remove_work(work)
     for w in sorted(set(WARNINGS)):
         print("WARNING:", w)
 

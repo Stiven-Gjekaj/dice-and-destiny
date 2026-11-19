@@ -567,3 +567,39 @@ def test_chapter_one_leaves_out_the_hooks_for_a_second_one_shot(tmp_path, tutori
     assert "adventure alone" not in text and "points north" not in text
     assert W.drop_one_shot("## What next\n\nGo on.\n\nIf you play this adventure alone, stop.\n\n- A hook.\n") == \
         "## What next\n\nGo on.\n"
+
+
+def test_each_build_process_has_its_own_work_files_and_publishes_them_at_the_end(tmp_path, monkeypatch):
+    assert W.work_name("waking", 11) != W.work_name("waking", 12)
+    assert W.work_name("waking_screen", 11) == "waking_screen-work-11"
+    monkeypatch.chdir(tmp_path)
+    work = W.work_name("waking", 11)
+    write(tmp_path / "books" / f"{work}.html", "new html")
+    write(tmp_path / f"{work}.pdf", "new pdf")
+    write(tmp_path / "waking.pdf", "old pdf")
+    W.publish(work, "waking")
+    assert (tmp_path / "waking.pdf").read_text() == "new pdf"
+    assert (tmp_path / "books" / "waking.html").read_text() == "new html"
+    assert not (tmp_path / f"{work}.pdf").exists()
+    write(tmp_path / f"{work}.pdf", "left over")
+    W.remove_work(work)
+    W.remove_work(work)
+    assert not (tmp_path / f"{work}.pdf").exists()
+
+
+def test_build_book_renders_into_the_work_files_and_not_into_the_book(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    seen = []
+    monkeypatch.setattr(W, "expand", lambda screen, inside: ("<p>x</p>", []))
+
+    def passes(out, body, es, screen=False, count=None):
+        seen.append(out)
+        write(tmp_path / "books" / f"{out}.html", "html")
+        write(tmp_path / f"{out}.pdf", "pdf")
+        return {}, []
+    monkeypatch.setattr(W, "passes", passes)
+    monkeypatch.setattr(B, "add_outline", lambda path, outline: seen.append(path))
+    W.build_book(screen=True)
+    assert seen == [W.work_name("waking_screen"), W.work_name("waking_screen") + ".pdf"]
+    assert (tmp_path / "waking_screen.pdf").read_text() == "pdf"
+    assert sorted(p.name for p in tmp_path.rglob("*work*")) == []
