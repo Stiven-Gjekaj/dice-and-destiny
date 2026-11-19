@@ -572,6 +572,7 @@ night the crystal closed.*
 > will be different. Help them anyway."
 >
 > I did not understand it. I still do not. The world will be exactly the
-> same, I think. It has only been a little while.
+> same, I think. I counted every day, and it is only three hundred years.
+> Stone lasts longer than that.
 >
-> Hasn't it?
+> Doesn't it?
