@@ -808,6 +808,19 @@ def _text_has_stroke(el, inherited="none"):
     return any(_text_has_stroke(child, stroke) for child in el)
 
 
+def scope_ids(svg, prefix):
+    """Put prefix in front of each id of the SVG and of each reference to an id.
+
+    The book puts all maps in one HTML page. Two maps from the map tool have the
+    same ids, for example the clip path of the map and the paths of the river
+    names. In one page the first element with an id wins, so a map without this
+    change takes the river paths of an earlier map.
+    """
+    svg = re.sub(r'\bid="([^"]+)"', rf'id="{prefix}-\1"', svg)
+    svg = re.sub(r'\b((?:xlink:)?href)="#([^"]+)"', rf'\1="#{prefix}-\2"', svg)
+    return re.sub(r"url\(#([^)]+)\)", rf"url(#{prefix}-\1)", svg)
+
+
 def map_file(map_id):
     """The path of the final map of map_id. The file can be missing."""
     return os.path.join(MAP_DIR, f"{map_id}.svg")
@@ -838,7 +851,7 @@ def map_svg(map_id, size=None):
     path = map_file(map_id)
     if os.path.exists(path):
         with open(path, encoding="utf-8") as f:
-            return check_print(f.read(), path)
+            return scope_ids(check_print(f.read(), path), map_id)
     return check_print(_Map(map_id, size).render(), f"the preview of {map_id}")
 
 

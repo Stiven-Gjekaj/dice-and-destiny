@@ -198,6 +198,25 @@ def test_a_map_file_that_does_not_print_is_refused(tmp_path, monkeypatch, bad):
         maps.map_svg("act-1")
 
 
+def test_two_final_maps_with_the_same_ids_do_not_share_them(tmp_path, monkeypatch):
+    monkeypatch.setattr(maps, "MAP_DIR", str(tmp_path))
+    body = ('<defs><clipPath id="clip"><rect width="1" height="1"/></clipPath></defs>'
+            '<path id="river" d="M0 0L1 1" clip-path="url(#clip)"/>'
+            '<text><textPath href="#river">River</textPath></text>'
+            '<text><textPath xlink:href="#river">River</textPath></text>')
+    svg = FINAL.replace("</svg>", body + "</svg>").replace(
+        "<svg ", '<svg xmlns:xlink="http://www.w3.org/1999/xlink" ', 1)
+    (tmp_path / "act-1.svg").write_text(svg)
+    (tmp_path / "act-2.svg").write_text(svg)
+    one, two = maps.map_svg("act-1"), maps.map_svg("act-2")
+    ids_one = set(re.findall(r'\bid="([^"]+)"', one))
+    ids_two = set(re.findall(r'\bid="([^"]+)"', two))
+    assert not ids_one & ids_two
+    for svg_text, ids in ((one, ids_one), (two, ids_two)):
+        refs = re.findall(r'href="#([^"]+)"', svg_text) + re.findall(r"url\(#([^)]+)\)", svg_text)
+        assert len(refs) == 3 and set(refs) <= ids
+
+
 def test_a_text_can_turn_off_the_stroke_of_its_group(tmp_path, monkeypatch):
     monkeypatch.setattr(maps, "MAP_DIR", str(tmp_path))
     good = '<g stroke="#000"><path d="M0 0L1 1"/><text stroke="none">Plain</text></g>'
