@@ -491,8 +491,8 @@ def handouts_html(hs_list, hs):
     if not hs_list:
         return ""
     out = [chapter_head("Handouts", ic="scroll", anchor="handouts"),
-           '<p class="chapter-intro">Each handout is on its own page, with nothing on the back. '
-           "Copy the page or print it, and give it to the players when the chapter tells you.</p>"]
+           '<p class="chapter-intro">Each handout starts on a right-hand page, and the back of its last page '
+           "is empty. Copy the pages or print them, and give them to the players when the chapter tells you.</p>"]
     for hid, title, text in hs_list:
         mk = B.marker("sub", title)
         ANCHOR_MARK[f"handout-{hid}"] = B.TOC[-1][2]

@@ -269,6 +269,7 @@ def test_each_handout_starts_a_right_hand_chunk_with_its_marker():
     chunks = h.split("<!--PARTSTART-->")
     assert len(chunks) == 3 and 'id="handout-01-map"' in chunks[1] and 'id="handout-02-note"' in chunks[2]
     assert W.ANCHOR_MARK["handout-01-map"] in chunks[1] and W.ANCHOR_MARK["handout-02-note"] in chunks[2]
+    assert "right-hand page" in chunks[0] and "nothing on the back" not in chunks[0]
     assert W.handouts_html([], {}) == ""
 
 
