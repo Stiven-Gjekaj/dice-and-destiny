@@ -352,8 +352,9 @@ help Wick to stay on the point: a DC 12 Charisma (Persuasion) check. On a
 success, Wick tells her a detail that she can check in the archives: the
 number of steps in the old chapel of Saint Ivo (thirty-one), or the name of
 the guest master of the shrine in the year of the sleep (Brother Alys,
-who had one leg and kept bees). The Abbess sends for Brother Cade to
-check it. **1 Proof** when Cade finds it in the archives, in Scene 4.
+who had one leg and kept bees). Wick never saw the shrine. He says so:
+"The steward told me. The steward told me everything. He had a lot of
+long nights." The Abbess sends for Brother Cade to check it. **1 Proof** when Cade finds it in the archives, in Scene 4.
 
 **Corvin Lisle.** Corvin is at the feast to buy relics. If the party asks
 him, he comes to the Abbess with his book. He shows her the page of the
