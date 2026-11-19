@@ -239,9 +239,9 @@ In the screen edition, each name of an entry is a link to its entry.
   14 mm. The inside margin comes from the Lulu gutter table, by page count:
   25 mm for 151 to 400 pages and 29 mm for 401 to 600 pages. Each Compendium
   has its value in `INSIDE_MM` in `build/build.py`. The build stops if the
-  page count needs a different value. The Waking book changes while the
-  chapters are written, so `build/waking.py` takes the value from the table
-  for its page count and builds again if the value changes. The home-print
+  page count needs a different value. `build/waking.py` takes the value for
+  Waking from the table for its page count, and builds again if the value
+  changes. The home-print
   PDF and the Lulu interior use this interior.
 - Screen: the same text in color, with the same margin on each side and no
   blank pages before the parts.
