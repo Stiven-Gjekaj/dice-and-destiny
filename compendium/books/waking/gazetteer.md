@@ -1094,7 +1094,7 @@ Ostrey, on the day that a Gauntry takes the crown.
   a battle. She is not cruel and not a fool. She believes that the land
   needs one strong hand, and that hers is the strongest. She respects
   courage, plain speech, and results. She does not respect priests.
-- **Tobin Gauntry.** Her son and heir, about thirty. He is a good soldier
+- **Tobin Gauntry.** Her son and heir, twenty years old. He is a good soldier
   and a better thinker, and he does not want a war with the Church. He has
   seen what a war costs. He cannot say so to his mother in public.
 - **Magister Aud Brennet.** The first war mage of Gaunt, head of the
