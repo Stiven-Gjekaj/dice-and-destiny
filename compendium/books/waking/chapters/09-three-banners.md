@@ -1179,7 +1179,8 @@ fights on: they do not fear death. They believe that the sun dies anyway.
 
 **If the Marshal had proof** (see Scene 6), Ilse Varro has Roe in chains.
 Only Ansel is here. Use 1 Hush Dusk Priest and 3 Hush Night Wardens
-(2,900 + 3,300 = 6,200 XP, plus the choir 2,300, so 8,500 XP: Moderate).
+(2,900 + 3,300 = 6,200 XP, plus the choir 2,300, so 8,500 XP: between
+Moderate and High).
 
 **The Toll:** if the fight lasts more than 6 rounds, the armies blunder
 into each other again in the fog. The Toll goes up by 1. If the characters
@@ -1190,8 +1191,8 @@ whatever the length of the fight.
 > character.
 >
 > - **3 characters (7,800 XP):** 2 Hush Dusk Priests and 2 Hush Night
->   Wardens (5,800 + 2,200 = 8,000). No choir; the priests sing the song
->   themselves.
+>   Wardens (5,800 + 2,200 = 8,000, a little over the budget). No choir;
+>   the priests sing the song themselves.
 > - **4 characters (10,400 XP):** as written.
 > - **5 characters (13,000 XP):** 2 Hush Dusk Priests, 1 Hush Grey Choir,
 >   and 4 Hush Night Wardens (5,800 + 2,300 + 4,400 = 12,500).

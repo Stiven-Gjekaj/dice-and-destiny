@@ -516,7 +516,7 @@ stone, or when Osk breaks the last coffin.
 each).
 
 **XP:** 1,100 + 2,900 + 1,100 + 4 × 450 = 6,900 XP. A High fight for four
-characters of level 7 (the budget is 4 × 1,700 = 6,800 XP).
+characters of level 7, a little over the budget (4 × 1,700 = 6,800 XP).
 
 {{statblock: Osk}}
 
