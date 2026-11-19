@@ -1079,6 +1079,12 @@ the road is full. Pilgrims walk south in families and groups, with
 banners, songs, and carts. Some walk with bare feet for penance. They all
 go to the feast. The party is one group among many.
 
+Early on the third day, the road passes through **Wenlow**, a small
+village of the Church on the old road, twenty miles north of Saint Ivo's:
+twenty houses, a mill, and a small chapel of the Five with a white door.
+The pilgrims stop at the chapel to pray. The party can stop, or walk on.
+Show the village. Chapter 9 comes back to it.
+
 Choose two or three of these meetings.
 
 - **Dace** is on the road with his cart, if he got away. He waves. He has
