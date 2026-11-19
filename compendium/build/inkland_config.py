@@ -37,7 +37,7 @@ ROAD_TARGETS = {
 }
 ROAD_TOLERANCE = 0.1
 
-RIVER_LIMIT = 25  # the generated rivers with the most water that the maps keep
+RIVER_LIMIT = 12  # the generated rivers with the most water that the maps keep
 RELIEF_DENSITY = 0.35  # the part of the relief symbols that the print maps keep
 
 # A road that passes a place of the map passes it by id. The bible puts Wenlow on the old road.
@@ -188,7 +188,7 @@ def build(places):
     # rivers can come down from the mountains.
     regions = [{"id": "lowland-north", "kind": "plains", "height": [24, 40],
                 "polygon": _land_polygon(places["coast"], width, 0, 32, height)},
-               {"id": "lowland", "kind": "plains", "height": [22, 34],
+               {"id": "lowland", "kind": "plains", "height": [21, 42],
                 "polygon": _land_polygon(places["coast"], width, 70, height, height)}]
     for a in places["areas"]:
         rid = ident(a["name"])
@@ -201,7 +201,7 @@ def build(places):
         elif a["name"] == "The Wolds":
             regions.append({"id": rid, "kind": "hills", "name": a["name"],
                             "polygon": organic_outline(rid, a["box"], (width, height)),
-                            "height": [30, 44], "edge": 6, "priority": 1})
+                            "height": [38, 50], "edge": 6, "priority": 1})
         elif a["name"] == "The Low Fen":
             # The fen is terrain, so it is in both eras. Before the flood it was farmland,
             # so the old map hides its name.
@@ -271,7 +271,7 @@ def build(places):
         "frame": {"origin": "top-left", "x_axis": "east", "y_axis": "south", "width": width, "height": height},
         # Only the pins are places, and only the pinned seas are water.
         "world": {"cells": 20000, "template": "pangea", "states": 0, "towns": 0,
-                  "fill_land": True, "river_limit": RIVER_LIMIT,
+                  "fill_land": True, "river_limit": RIVER_LIMIT, "jitter": 0.9,
                   "climate": {"latitude_range": [48, 54]}},
         "pins": {"points": [_point_pin(p, "today") for p in base_places], "regions": regions,
                  "rivers": rivers, "roads": []},

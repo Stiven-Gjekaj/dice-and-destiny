@@ -17,7 +17,8 @@
     "states": 0,
     "towns": 0,
     "fill_land": true,
-    "river_limit": 25,
+    "river_limit": 12,
+    "jitter": 0.9,
     "climate": {
       "latitude_range": [
         48,
@@ -302,8 +303,8 @@
         "id": "lowland",
         "kind": "plains",
         "height": [
-          22,
-          34
+          21,
+          42
         ],
         "polygon": [
           [
@@ -1383,8 +1384,8 @@
           ]
         ],
         "height": [
-          30,
-          44
+          38,
+          50
         ],
         "edge": 6,
         "priority": 1
