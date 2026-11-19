@@ -52,7 +52,8 @@ I made sure of that. I am sorry.
 We did not defeat him. Nobody pushed him back into the dark. We put him to
 sleep in crystal, here, under the bells of the old palace. Then I put you
 to sleep with the same spell, in the same crystal, under the keep. Six
-sleepers, not five. I never told you about the sixth.
+sleepers, not five. I never told you about the sixth. And I did not put
+all of our hope in one hall.
 
 I wrote the history that you will have read. A demon from the dark, a
 kingdom that held the line, a victory. I wrote it because a kingdom can
