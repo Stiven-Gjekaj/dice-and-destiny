@@ -1365,30 +1365,6 @@
         },
         "place:brannocks-ford": {
           "hide": true
-        },
-        "river:river-dunn": {
-          "at": [
-            107,
-            151
-          ]
-        },
-        "river:river-brann": {
-          "at": [
-            183,
-            194
-          ]
-        },
-        "river:river-corrin": {
-          "at": [
-            57,
-            182
-          ]
-        },
-        "river:river-tey": {
-          "at": [
-            62,
-            223
-          ]
         }
       }
     },
@@ -1962,32 +1938,7 @@
           }
         ]
       },
-      "labels": {
-        "river:river-dunn": {
-          "at": [
-            107,
-            151
-          ]
-        },
-        "river:river-brann": {
-          "at": [
-            183,
-            194
-          ]
-        },
-        "river:river-corrin": {
-          "at": [
-            57,
-            182
-          ]
-        },
-        "river:river-tey": {
-          "at": [
-            62,
-            223
-          ]
-        }
-      }
+      "labels": {}
     },
     "act-1": {
       "add": {
@@ -2574,18 +2525,6 @@
         },
         "river:river-tey": {
           "hide": true
-        },
-        "river:river-dunn": {
-          "at": [
-            107,
-            151
-          ]
-        },
-        "river:river-brann": {
-          "at": [
-            183,
-            194
-          ]
         }
       }
     },
@@ -3159,32 +3098,7 @@
           }
         ]
       },
-      "labels": {
-        "river:river-dunn": {
-          "at": [
-            107,
-            151
-          ]
-        },
-        "river:river-brann": {
-          "at": [
-            183,
-            194
-          ]
-        },
-        "river:river-corrin": {
-          "at": [
-            57,
-            182
-          ]
-        },
-        "river:river-tey": {
-          "at": [
-            62,
-            223
-          ]
-        }
-      }
+      "labels": {}
     }
   },
   "variants": [

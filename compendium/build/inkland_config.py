@@ -59,16 +59,6 @@ CHARACTER_AREAS = [
 # in the Low Fen, not on the wet strips of the coast. The fields stand only in the
 # lowland, not in the mountains around Coldharrow.
 RELIEF = {"density": 0.6, "only_in": {"marsh": ["low-fen"], "field": ["lowland"]}}
-# The middle of the level label of each river, in miles. inkland 1.3.2 puts the
-# letters of a name along a river out of line, so each name stands level beside
-# its river at this point, on each map that shows the river.
-RIVER_LABEL_AT = {
-    "The River Dunn": [107, 151],
-    "The River Brann": [183, 194],
-    "The Corrin": [57, 182],
-    "The Tey": [62, 223],
-}
-
 # The regions that did not exist 300 years ago. The old map shows no symbols in them.
 THEN_HIDE_RELIEF = ["low-fen", "kingsholm-wood"]
 
@@ -274,10 +264,6 @@ def build(places):
         overlay = json.loads(json.dumps(overlays[era]))
         for key in _hidden_labels(places, mid, era, crop):
             overlay["labels"].setdefault(key, {})["hide"] = True
-        for name, at in RIVER_LABEL_AT.items():
-            options = overlay["labels"].setdefault("river:" + river_id(name), {})
-            if not options.get("hide"):
-                options["at"] = at
         map_overlays[mid] = overlay
         variant = {"name": mid, "overlay": mid,
                    "crop": crop, "page": {"w_mm": w_mm, "h_mm": h_mm},
