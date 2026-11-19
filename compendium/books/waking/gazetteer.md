@@ -57,7 +57,7 @@ way, and the dates do not agree.
 | Year | What happened | What people say today |
 |---|---|---|
 | About -45 | Sir Garrath, the first knight of the sun, founds the Dawnwatch and writes its oath. | "The Dawnwatch is as old as Ostrey." Nobody remembers the founder. |
-| About -40 | Sir Garrath, the first knight of the sun, sees that the sun is weaker each winter. | Nothing. Nobody remembers. |
+| About -40 | Garrath sees that the sun is weaker each winter. | Nothing. Nobody remembers. |
 | About -20 | Garrath tries to take the fire of the sun into himself. He becomes the Unlit King. | "Malgrath came out of the dark beyond the mountains." |
 | -20 to 0 | The war of the Unlit King. | "The Long War." Many songs, all of them wrong. |
 | 0 | Haskel Orme puts Garrath to sleep under Kingsholm, then the Dawnwatch under the keep. He writes the official history. | "Ostrey pushed the demon king back into the dark. The Five lay down to sleep." |
