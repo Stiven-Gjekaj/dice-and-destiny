@@ -173,9 +173,9 @@ Banners.
 
 | Ally | Who needs what | What comes |
 |---|---|---|
-| Gaunt | A character is a Member (renown 10) of Gaunt, or the party sided with Gaunt or stopped the war | A company of twenty soldiers of Gaunt (Line Pikemen and Crossbow Sergeants) under Captain Ilse Varro, if she lives. They hold the Kings' Bridge (Scene 3). |
-| The Church | A character is a Member of the Church, or the party sided with the Church or stopped the war | Brother Cade and six healers. After each fight in Kingsholm, each character regains Hit Points as if they spent two Hit Point Dice, at no cost. Cade can also tend injuries. |
-| The Lampwrights | The party has the First Lamp, or a character is a Friend (renown 3) of the guild | Perrin Hale sends a cart of lamps that burn without oil. In Kingsholm, the party never stands in darkness by accident. The Hush Grey Choir's song still dims them. |
+| Gaunt | A character has renown 10 or more with Gaunt, or the party sided with Gaunt or stopped the war | A company of twenty soldiers of Gaunt (Line Pikemen and Crossbow Sergeants) under Captain Ilse Varro, if she lives. They hold the Kings' Bridge (Scene 3). |
+| The Church | A character has renown 10 or more with the Church, or the party sided with the Church or stopped the war | Brother Cade and six healers. After each fight in Kingsholm, each character regains Hit Points as if they spent two Hit Point Dice, at no cost. Cade can also tend injuries. |
+| The Lampwrights | The party has the First Lamp, or a character has renown 3 or more with the guild | Perrin Hale sends a cart of lamps that burn without oil. In Kingsholm, the party never stands in darkness by accident. The Hush Grey Choir's song still dims them. |
 | The keep | The party owns the keep as a stronghold | Followers equal to the keep's Renown come as porters, guides, and guards. They keep the camp. The camp can't be surprised. |
 
 The allies make the road and the camp safer. They do not fight the big
@@ -915,7 +915,7 @@ three days south-east, to the chapel of the keep, to the Dawnwatch. The hum
 stops for a moment. Then it starts again, softer, like something far away
 that breathes.
 
-> **GM note:** The stone points at Garrath, not at a place. On the road, it
+> **GM tip:** The stone points at Garrath, not at a place. On the road, it
 > points at Kingsholm, because the dark that he left in the crystal still
 > fills the vault. After the vault, that dark is broken, and the stone
 > points to the far north, where Garrath is now. This is intended.
@@ -1174,7 +1174,7 @@ of Book One.
 > put away. Dim the lights, as you did on the first night of the tutorial,
 > when the Dawnwatch slept.
 
-> That night, at the keep, you stand on the wall and look north. The sky
+> On the first night back at the keep, you stand on the wall and look north. The sky
 > is clear. The stars are very bright and very cold. Far away, over the
 > Grey Teeth, there is a darkness where no stars are.
 >
