@@ -489,13 +489,17 @@ def handouts_html(hs_list, hs):
 
 # ------------------------------------------------------------------ index
 
-SKIP_TAGS = {"h1", "h2", "h3", "h4", "h5", "h6", "a", "title", "style", "script", "svg"}
+SKIP_TAGS = {"h1", "h2", "a", "title", "style", "script", "svg"}
+# A name in a small heading, such as the name of a statblock or a treasure in a chapter, gets a marker
+# but no link. The chapter and section heads (h1, h2) keep their text.
+HEAD_TAGS = {"h3", "h4", "h5", "h6"}
 OPEN_TAG = re.compile(r"<(/?)([a-zA-Z][a-zA-Z0-9]*)")
 
 
 def mark_mentions(h, es, screen=False):
     """Put an index marker after each name of an entry in the text. On the screen, the name links to its entry.
-    The text of headings, links, SVG, and markers does not change."""
+    The text of chapter and section heads, links, SVG, and markers does not change. A name in a small
+    heading gets a marker but no link."""
     names = {}
     for e in es:
         for form in forms_of(e):
@@ -503,11 +507,12 @@ def mark_mentions(h, es, screen=False):
     pat = mention_pattern(names)
     if not pat:
         return h
-    out, skip, spans = [], 0, []
+    out, skip, spans, head = [], 0, [], 0
 
     def rep(m):
         name, anchor = names[canonical(m.group(1))]
-        word = f'<a class="xref" href="#{anchor}">{m.group(1)}</a>' if screen and anchor else m.group(1)
+        link = screen and anchor and not head
+        word = f'<a class="xref" href="#{anchor}">{m.group(1)}</a>' if link else m.group(1)
         return word + idx_mark(name)
     for tok in re.split(r"(<[^>]*>)", h):
         if tok.startswith("<"):
@@ -516,6 +521,8 @@ def mark_mentions(h, es, screen=False):
                 close, tag = m.group(1) == "/", m.group(2).lower()
                 if tag in SKIP_TAGS:
                     skip += -1 if close else 1
+                elif tag in HEAD_TAGS:
+                    head += -1 if close else 1
                 elif tag == "span":
                     if not close:
                         spans.append('class="mark"' in tok)

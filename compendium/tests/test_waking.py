@@ -293,6 +293,13 @@ def test_headings_links_markers_and_svg_keep_their_text():
     assert h.startswith("<h2>Old Bren</h2>")
 
 
+def test_a_name_in_a_small_heading_gets_a_marker_but_no_link():
+    h = W.mark_mentions('<h4 class="sp-name">Old Bren</h4><p>Old Bren</p>', ES, screen=True)
+    assert [n for n, _, _ in W.IDX] == ["Old Bren", "Old Bren"]
+    assert h.startswith('<h4 class="sp-name">Old Bren<span class="mark">@@I0@@</span></h4>')
+    assert h.count('class="xref"') == 1
+
+
 def test_on_the_screen_a_mention_links_to_its_entry():
     h = W.mark_mentions("<p>Old Bren</p>", ES, screen=True)
     assert '<a class="xref" href="#p-old-bren">Old Bren</a><span class="mark">@@I0@@</span>' in h
