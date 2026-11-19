@@ -364,6 +364,13 @@ The table after it is the short form, to explain at the table.
 > ends, and you keep a small scar. Your character is always yours, unless
 > you choose otherwise."
 
+> **Secret (Book Two):** Wick's flame is a piece of the Dawnfire. For the
+> rules of the stone and of the Long Shadow, it does not count as one in
+> Book One. The stone does not point at Wick, touching Wick does not burn
+> the bearer, a night in Wick's light does not end the Mark, and the Long
+> Shadow does not fade in his light. The stone only goes very cold when
+> Wick is near. Do not explain why.
+
 ### The cost is the story
 
 The first line of the cost matters most: **the Hush can feel the stone.**
