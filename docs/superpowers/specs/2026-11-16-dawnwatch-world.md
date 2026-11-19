@@ -344,7 +344,7 @@ the person in more than one scene.
 | Brother Ansel | The secretary of Abbess Merrow. A secret agent of the Hush. If the Church keeps the Ember, he steals it from the high altar in chapter 9. | 5 (the false letter), 9, 10 | Yes (Hush Dusk Priest) |
 | Corporal Lenna | A young soldier of the levy of Saint Ivo's. Her family name is the family of the person of the Shield's promise. | 9 | Yes (Line Pikeman) |
 | Sergeant Maud Kettle | The ghost of a soldier of Ostrey in Fennick. She teaches the old fighting ways. | 8 | Yes |
-| Sir Garrath (Malgrath) | The first Dawnwatch. He founded the order a generation before the five sleepers, and they never met him. "Brothers. Sisters." is the kinship of the order. The Unlit King. Only his voice in Book One. | 1, 4, 10 | No (Book Two) |
+| Sir Garrath (Malgrath) | The first Dawnwatch. He founded the order a generation before the five sleepers, and they never met him. "Brothers. Sisters." is the kinship of the order. The Unlit King. Only his voice in Book One. | 1, 4, 6 (a dream), 7, 10 | No (Book Two) |
 
 ## The creatures of Book One
 
@@ -371,7 +371,7 @@ tells which lane owns the creature.
 | Thing | What it is | Chapters |
 |---|---|---|
 | The black stone | A piece of the crystal of Garrath. It points at Garrath: at Kingsholm on the road (the dark that he left in the vault), and to the far north after the vault (chapter 10). It hums near the Hush and when Malgrath speaks. Chapter 4 gives it rules with the Marks system: the open Taint of the Black Stone (a Taint, not a Curse: it grows when the bearer uses its power). Artifact. | 1, 4, 10 |
-| The Ember of Saint Ivo | A piece of the Dawnfire. A small coal that never goes cold, in a cage of old gold. Artifact. | 3, 4 |
+| The Ember of Saint Ivo | A piece of the Dawnfire. A small coal that never goes cold, in a cage of old gold. Artifact. | 3 to 10 |
 | Compass of the Old Road | A brass compass of Ostrey that points along the old roads. The unique item of chapter 2. Uncommon. | 2 |
 | Mask of the Fifth Sleeper | A painted mask from the play of the troupe of Garret Pell. The unique item of chapter 3. Uncommon. | 3 |
 | Kell Warden's Shield | A shield of oak and bronze from the shrine at Kell. The unique item of chapter 4. Uncommon. | 4 |
