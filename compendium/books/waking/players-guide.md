@@ -220,7 +220,7 @@ night the crystal closed.*
 >
 > In the war, the Dawnfire went in front of the army, in a great bronze
 > bowl on a wagon. Where it burned, the creatures of the Unlit King could
-> not stand. Now it burns in the chapel of Dawnwatch Keep, over your heads,
+> not stand. Now it burns in the chapel of Dawnwatch Keep, near you,
 > to keep watch while you sleep. While the Dawnfire burns, the Unlit King
 > stays in the dark. If it ever goes out, he is coming back.
 >
@@ -447,7 +447,7 @@ night the crystal closed.*
 >
 > So the king chose the last five of the Dawnwatch, the ones who knew him
 > best, to sleep. A spell of the Morning Flame put you in crystal under
-> this keep. The Dawnfire burns above you and keeps watch. When it goes
+> this keep. The Dawnfire burns in the chapel and keeps watch. When it goes
 > out, it means that he is coming back, and the crystal opens, and you
 > wake. Not old. Not slow. Exactly as you were on the last night, ready
 > to do it all again.
@@ -551,7 +551,7 @@ night the crystal closed.*
 | Corrin and Tey | The two port towns on the west coast. |
 | Fennick | The market town of the low farmland in the south-east. |
 | The Morning Flame | The god of the dawn. |
-| The Dawnfire | The holy flame of Ostrey. It burns over the sleepers. |
+| The Dawnfire | The holy flame of Ostrey. It burns in the chapel of the keep. |
 | The Longest Night | The winter vigil, when nobody sleeps until the dawn. |
 | A sun, a star, a bit | A gold coin, a silver coin, a copper coin. |
 | "Light to you." | Hello. The answer is "And dawn to you." |
