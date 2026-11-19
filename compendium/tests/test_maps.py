@@ -187,12 +187,22 @@ def test_with_no_file_the_build_draws_the_preview(tmp_path, monkeypatch):
     '<rect fill="rgba(0,0,0,.5)"/>',
     '<defs><linearGradient id="g"/></defs>',
     '<text stroke="#000">Outline</text>',
+    '<g stroke="#fff"><text>Halo</text></g>',
+    '<g stroke="#fff"><g><text><textPath href="#p">Halo</textPath></text></g></g>',
+    '<g style="stroke:#fff"><text>Halo</text></g>',
 ])
 def test_a_map_file_that_does_not_print_is_refused(tmp_path, monkeypatch, bad):
     monkeypatch.setattr(maps, "MAP_DIR", str(tmp_path))
     (tmp_path / "act-1.svg").write_text(FINAL.replace("</svg>", bad + "</svg>"))
     with pytest.raises(ValueError):
         maps.map_svg("act-1")
+
+
+def test_a_text_can_turn_off_the_stroke_of_its_group(tmp_path, monkeypatch):
+    monkeypatch.setattr(maps, "MAP_DIR", str(tmp_path))
+    good = '<g stroke="#000"><path d="M0 0L1 1"/><text stroke="none">Plain</text></g>'
+    (tmp_path / "act-1.svg").write_text(FINAL.replace("</svg>", good + "</svg>"))
+    assert "Plain" in maps.map_svg("act-1")
 
 
 @pytest.mark.parametrize("map_id", maps.MAP_IDS)

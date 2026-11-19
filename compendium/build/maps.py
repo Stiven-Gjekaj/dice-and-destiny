@@ -27,6 +27,7 @@ import random
 import re
 import subprocess
 import sys
+import xml.etree.ElementTree as ET
 from xml.sax.saxutils import escape
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
@@ -787,10 +788,24 @@ def check_print(svg, source):
         c = c.strip().lower()
         if c not in _BLACK_WHITE and not c.startswith("url("):
             raise ValueError(f"{source}: the colour {c!r} is not black or white")
-    for tag in re.findall(r"<text\b[^>]*>", svg):
-        if re.search(r'\bstroke\s*[=:]\s*"?\s*(?!none)[#\w]', tag):
-            raise ValueError(f"{source}: a text has an outline")
+    if _text_has_stroke(ET.fromstring(svg)):
+        raise ValueError(f"{source}: a text has an outline")
     return svg
+
+
+def _stroke_of(el, inherited):
+    """The stroke of an element: its own attribute or style, else the stroke of its parent."""
+    m = re.search(r"\bstroke\s*:\s*([^;]+)", el.get("style", ""))
+    value = m.group(1) if m else el.get("stroke")
+    return inherited if value is None else value.strip().lower()
+
+
+def _text_has_stroke(el, inherited="none"):
+    """True if a text in el has a stroke, from its own attribute or from a group around it."""
+    stroke = _stroke_of(el, inherited)
+    if el.tag.rsplit("}", 1)[-1] in ("text", "textPath", "tspan") and stroke != "none":
+        return True
+    return any(_text_has_stroke(child, stroke) for child in el)
 
 
 def map_file(map_id):
