@@ -42,7 +42,7 @@ This chapter has two jobs:
    gives the grey folk a name. The party finds the trail west.
 3. **The weight of the stone (Scene 3).** The black stone wakes. It marks
    its bearer. Teach Marks here.
-4. **The hills (Scene 4).** Two days off the road, with the Journeys rules.
+4. **The hills (Scene 4).** Three days off the road, with the Journeys rules.
    The Hush can feel the stone, so they set an ambush. Osk comes for it.
    This is the second fight.
 5. **The shrine at Kell (Scene 5).** A ring of standing stones on a hill,
@@ -529,7 +529,7 @@ Snuffers, every one of them. "They were somebody's children," he says.
 **Goal:** Show the end of the trail. Let the party scout, plan, and find a
 way in.
 
-> On the second evening, you see it from far away: a ring of standing
+> On the third evening, you see it from far away: a ring of standing
 > stones on the top of a bare hill, black against a red sky. Inside the
 > ring is a small chapel of grey stone with no roof. Around the foot of
 > the hill, a dozen grey tents. No fires. No lights at all.
@@ -877,7 +877,7 @@ II.
 
 ### Home to Saint Ivo's
 
-The party walks back to Saint Ivo's in two days. Do not use the Journeys
+The party walks back to Saint Ivo's in three days. Do not use the Journeys
 rules for the way home, unless the players want to. The road is quiet.
 The Hush is gone.
 
