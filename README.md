@@ -35,6 +35,11 @@ _The free rules of the SRD 5.2, and thousands of original options, in one Player
 > or [buy the two hardcovers](#buy-a-printed-hardcover) on the Lulu Bookstore.
 > [The Edition 2 design](docs/superpowers/specs/2026-11-15-edition-2-expansion-design.md)
 > holds each decision and the reason behind it.
+>
+> **The Dawnwatch, Book One: Waking** is the first campaign book. It takes a
+> group from level 1 to level 10, and it needs Edition 2 of the two
+> Compendiums. Download its PDFs from the
+> [`dawnwatch-waking-latest` release](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/tag/dawnwatch-waking-latest).
 
 ---
 
@@ -84,6 +89,23 @@ files for a hardcover or a paperback.
 - Original monsters, NPCs, magic items, traps, and strongholds.
 - World-building tables, two pantheons, and downtime activities.
 - The GM rules of the optional systems, cheat sheets, and templates.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### The Dawnwatch, Book One: Waking
+
+310 pages, A4. A campaign for levels 1 to 10. It needs Edition 2 of the two
+Compendiums.
+
+- Ten chapters. Chapter 1 is the tutorial adventure.
+- Read-aloud text, a box for each new rule, and a Scaling box for 3 to 6
+  characters in each fight.
+- A player's guide with no spoilers, and a gazetteer of the land of today.
+- New creatures, people, and treasures, each in an appendix from A to Z.
+- Maps, handouts, and an index of each name.
 
 </td>
 </tr>
