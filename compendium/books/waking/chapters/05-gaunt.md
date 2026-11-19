@@ -933,8 +933,8 @@ party does not have to answer now. A character who accepts the title of
 Knight of the March takes the promotion task of Gaunt for the third rank:
 to carry the banner of Gaunt at the spring muster. That character gains
 the third rank of Gaunt when the task is done and the character has 20
-renown with Gaunt. From that day, the Church treats that
-character as an enemy from that day.
+renown with Gaunt. From that day, the Church treats that character as an
+enemy.
 
 **The Church.** A rider comes from Saint Ivo's with a letter from the
 Abbess. She has heard about the boys of Wendle, the press gang, and the
