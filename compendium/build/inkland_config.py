@@ -50,9 +50,6 @@ LOWLAND_TOP = 76  # miles: the lowland starts south of the soft edge of the Grey
 # and the farmland of Gaunt. The other woods are free.
 CHARACTER_AREAS = [
     {"id": "foothills", "character": "rough", "box": [50, 28, 210, 78], "strength": 0.7},
-    # Coldharrow stands in high, wild land behind the mountains. This upland also
-    # keeps the low Wolds out of the highest land, where inkland draws peaks.
-    {"id": "north-upland", "character": "rough", "box": [0, 0, 240, 42]},
     {"id": "wolds-country", "character": "rolling", "box": [125, 115, 215, 185]},
     {"id": "dunn-wood", "character": "wooded", "circle": {"at": [70, 140], "r": 26}, "strength": 0.8},
     {"id": "east-wood", "character": "wooded", "circle": {"at": [215, 195], "r": 20}, "strength": 0.7},
@@ -181,8 +178,9 @@ def build(places):
     # The regions fix what the book names: the sea, the mountains, the hills, and
     # the fen. inkland gives their outlines a natural roughness.
     # The land south of the mountains is low. The named regions and the character
-    # areas rule over this lowland, because it has the lowest priority.
-    regions = [{"id": "lowland", "kind": "plains", "height": [21, 38], "priority": -1,
+    # areas rule over this lowland, because it has the lowest priority. It has no
+    # peaks: the only mountains of the land are the Grey Teeth.
+    regions = [{"id": "lowland", "kind": "plains", "height": [21, 38], "priority": -1, "peaks": False,
                 "edge": 12, "roughness": 0, "box": [0, LOWLAND_TOP, width, height]},
                # The world bible puts the shrine at Kell on a hill. The hill has no name.
                {"id": "kell-hill", "kind": "hills", "height": [HILL_LOW, HILL_LOW + 6], "edge": 4,
@@ -268,7 +266,6 @@ def build(places):
                    "crop": crop, "page": {"w_mm": w_mm, "h_mm": h_mm},
                    "extras": {"cartouche": {"title": m["title"]}}}
         if era == "then":
-            # The fen and the wood came after the Grey Winter.
             # No marsh at all: the wet land of today came with the flood.
             variant["relief"] = dict(RELIEF, hide=["marsh"], hide_in=THEN_HIDE_RELIEF)
         variants.append(variant)

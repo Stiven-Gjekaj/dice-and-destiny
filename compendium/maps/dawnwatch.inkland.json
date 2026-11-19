@@ -38,6 +38,7 @@
           38
         ],
         "priority": -1,
+        "peaks": false,
         "edge": 12,
         "roughness": 0,
         "box": [
@@ -231,16 +232,6 @@
           78
         ],
         "strength": 0.7
-      },
-      {
-        "id": "north-upland",
-        "character": "rough",
-        "box": [
-          0,
-          0,
-          240,
-          42
-        ]
       },
       {
         "id": "wolds-country",
