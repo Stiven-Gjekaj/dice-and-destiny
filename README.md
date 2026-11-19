@@ -2,9 +2,9 @@
 
 ![Dice & Destiny](assets/wordmark.svg)
 
-### Two A4 books for a tabletop roleplaying game that is compatible with fifth edition (2024)
+### A4 books for a tabletop roleplaying game that is compatible with fifth edition (2024)
 
-_The free rules of the SRD 5.2, and thousands of original options, in one Player's Compendium and one Game Master's Compendium_
+_The free rules of the SRD 5.2, and thousands of original options, in one Player's Compendium and one Game Master's Compendium, and The Dawnwatch, a campaign for these rules_
 
 ![Fifth edition 2024](https://img.shields.io/badge/fifth_edition-2024-8c1c13?style=for-the-badge&labelColor=5e110c)
 ![SRD 5.2](https://img.shields.io/badge/srd-5.2-a3362b?style=for-the-badge&labelColor=5e110c)
@@ -55,6 +55,9 @@ rules. Dice & Destiny puts that core into two books, explains it for new
 players, and adds a large set of original content: classes, species,
 monsters, magic items, and optional rules. The aim is a full game for a
 large world, with no extra books to buy.
+
+**The Dawnwatch** is a campaign for these rules, in two books. Book One,
+*Waking*, is out. Book Two, *The Last Dawn*, is not written yet.
 
 The books are built from source. Each push to `main` makes new PDFs in color
 for a screen, in black and white for a home printer, and as print-ready
