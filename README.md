@@ -168,8 +168,6 @@ change.
 | The Game Master's Compendium | [Screen](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-game-masters-compendium-screen.pdf) | [Home print](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-game-masters-compendium-home-print.pdf) | [Interior](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-game-masters-compendium-lulu-interior.pdf), [cover](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-game-masters-compendium-lulu-cover.pdf) | [Lulu](https://www.lulu.com/shop/stiven-gjekaj/dice-destiny-the-game-masters-compendium/hardcover/product-w46qm8v.html) | Nothing |
 | The Dawnwatch, Book One: Waking | [Screen](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/dawnwatch-waking-latest/dice-and-destiny-the-dawnwatch-waking-screen.pdf) | [Home print](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/dawnwatch-waking-latest/dice-and-destiny-the-dawnwatch-waking-home-print.pdf) | [Interior](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/dawnwatch-waking-latest/dice-and-destiny-the-dawnwatch-waking-lulu-interior.pdf), [cover](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/dawnwatch-waking-latest/dice-and-destiny-the-dawnwatch-waking-lulu-cover.pdf) | Not on Lulu yet | Requires Edition 2 |
 
-The Waking links work after the first `dawnwatch-waking-N` release.
-
 ### Buy a printed hardcover
 
 Each book is for sale as an A4 hardcover on the Lulu Bookstore. Lulu prints
