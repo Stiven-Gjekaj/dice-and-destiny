@@ -644,8 +644,8 @@ word. Play her as the most reasonable person on the hill.
   what she means by that.
 - **She cannot be talked out of it.** A character can make her doubt for a
   moment, with a very good argument and a DC 20 Charisma (Persuasion)
-  check. On a success, she hesitates: the party acts first in the fight,
-  with Advantage on its Initiative rolls. She does not stop.
+  check. On a success, she hesitates: the characters have Advantage on
+  their Initiative rolls. She does not stop.
 
 > **GM tip:** Mother Sallow is the face of the enemy for the rest of Book
 > One. Make her memorable. She is not cruel. She is kind to her people,
@@ -780,7 +780,7 @@ the altar, and the Long Shadow rises from her own shadow. It is tied to
 the stone in her hand. Run the fight the same way, with one change: the
 party must take the stone back from her, or force her to use Into the
 Dark. When she flees, she drops it: the stone burns her hand at the last
-moment, and she screams, the only sound she makes in the whole book. The
+moment, and she screams, the only scream in the whole book. The
 stone goes back to the party. It always comes back.
 
 ---

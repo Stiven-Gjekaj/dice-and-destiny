@@ -121,7 +121,8 @@ renown.
 
 Most characters start this chapter with about 8 to 10 renown with the
 Church, and 0 to 2 with Gaunt. A character with 3 or more is a Friend of
-the faction. With 10 or more, a Member. Scene 3 explains the ranks.
+the faction. With 10 or more, the character reaches the second rank (Sword
+of the March, or Keeper of the Vigil). Scene 3 explains the ranks.
 
 > **GM tip:** If you start Book One at chapter 5, give each character 5
 > renown with the Church and 1 with Gaunt.
@@ -769,7 +770,7 @@ takes damage. A hit is a touch.
 
 | Result | Renown with Gaunt |
 |---|---|
-| The character wins | +2 for the character, +1 for each other character. The army roars. The Marshal smiles for the second time in the chapter. |
+| The character wins | +2 for the character, +1 for each other character. The army roars. The Marshal smiles. |
 | The character loses well | +1 for the character. The Marshal says: "Good. Again, next year." |
 | The character cheats, or uses magic | -2 for the character. The army boos. The Marshal walks away. |
 
@@ -976,7 +977,7 @@ The characters can end this chapter with these things.
   magic item. The Treasures appendix has its full entry.
 - **Renown with Gaunt and with the Church.** Add up the changes of the
   chapter. Most characters end it at about 8 to 14 renown with Gaunt and 8
-  to 14 with the Church: a Friend or a Member of each, and a promotion task
+  to 14 with the Church: the first or the second rank of each, and a promotion task
   waiting if they want the next rank.
 - **Money:** the Marshal's gift of 500 GP for each character, if the party
   accepts it. A character who takes the gold gets +1 renown with Gaunt, and

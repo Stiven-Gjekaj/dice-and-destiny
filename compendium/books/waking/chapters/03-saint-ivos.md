@@ -676,7 +676,7 @@ bring it up.
 ### 4. The old chapel
 
 The door of the old chapel is a slab of stone with the sun of Ostrey on it.
-Two figures stand on each side of the door, in full plate of Ostrey, with
+Two figures stand at the door, one on each side, in full plate of Ostrey, with
 the sun on their breastplates and halberds in their hands. They have stood
 here for three hundred years. Nobody is inside the armor.
 

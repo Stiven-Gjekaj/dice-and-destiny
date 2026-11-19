@@ -525,7 +525,8 @@ Lights** float over them and give them their blue light.
   wardens. They want their things, and then they want to go back to work."
 - **The villagers.** A villager is a **Commoner**. A skeleton hits a
   villager that does not move. Give the players a reason to protect them:
-  little Bree from the inn runs out to see the Sleepers fight.
+  a pilgrim child (Bree, if the party met her at the inn) runs out to see
+  the Sleepers fight.
 - **The bell.** The priest of the village rings the church bell for the
   whole fight. A character who makes a DC 12 Intelligence (Religion) check
   knows that the bell does nothing to the dead. It makes the villagers
@@ -947,7 +948,7 @@ It can avoid it, or start a fight with the other side Surprised.
 |---|---|
 | 1 | Four **Wolves** (CR 1/4) follow the party at a distance all day. The early frosts drove them out of the hills. At night, they test the camp. If the lookout failed, they attack the mule. |
 | 2 | A family of pilgrims with a broken cart. A character who fixes the wheel (DC 12 Strength (Athletics) or Dexterity check with tools) is invited to share their food. Do not roll the supply die today. |
-| 3 | A **Barrow Light** (CR 1/2) floats over the road at night. It follows the party for a mile and then goes out. If the party fought Aske, it is his. If they made peace, it is a stranger, and it attacks the first creature that goes near it. |
+| 3 | A **Barrow Light** (CR 1/2) floats over the road at night. It follows the party for a mile and then goes out. If the party fought Aske, it is Aske's. If they made peace, it is a stranger, and it attacks the first creature that goes near it. |
 | 4 | At night, the lookout sees a line of figures in grey crossing the moor, far away, with no lamp. They do not come near. The black stone hums. In the morning, there are footprints in the frost, going south. |
 | 5 | A **Giant Boar** (CR 2) in the oak wood by the road. It does not like the mule. A character who makes a DC 12 Wisdom (Animal Handling) check calms it. |
 | 6 | A **Priest Acolyte** (CR 1/4) and two **Guards** (CR 1/8) from Saint Ivo's, sent to meet the pilgrims and keep the road. They ask for news, and they warn the party about "bandits who say they are tax men" on the moor. |
@@ -1062,9 +1063,9 @@ bridge. Two **Bandits** stand at the near end of the bridge.
   The gully below is 20 feet deep, with a fast stream at the bottom. A
   creature that falls off the bridge takes 2d6 Bludgeoning damage from
   the fall and lands in the water.
-- **The scouts** in the rocks have Half Cover. A character must climb the
-  side of the gully (DC 12 Strength (Athletics) check) to reach them, or
-  cross the bridge.
+- **The scout** (or scouts) in the rocks has Half Cover. A character must
+  climb the side of the gully (DC 12 Strength (Athletics) check) to reach
+  the rocks, or cross the bridge.
 - **The bandits want money, not death.** When Red Hollis drops to half
   his Hit Points, he offers to give back the tolls of the week and leave.
   When he falls, the others run.
