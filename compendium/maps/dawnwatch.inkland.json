@@ -112,8 +112,8 @@
         "id": "western-sea",
         "kind": "sea",
         "name": "The Western Sea",
-        "roughness": 3,
-        "coast_detail": 6,
+        "roughness": 14,
+        "coast_detail": 8,
         "polygon": [
           [
             0,

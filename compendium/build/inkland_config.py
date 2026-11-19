@@ -39,6 +39,7 @@ ROAD_TOLERANCE = 0.1
 
 RIVER_LIMIT = 8
 MAIN_RIVERS = ("The River Dunn",)  # drawn at least as wide as the largest other river
+COAST_ROUGHNESS = 14  # miles; inkland keeps the coast towns on the coast
 LOWLAND_TOP = 76  # miles: the lowland starts south of the soft edge of the Grey Teeth
 
 # The character of the land outside the named regions. An area steers the heights,
@@ -189,8 +190,8 @@ def build(places):
     for a in places["areas"]:
         rid = ident(a["name"])
         if a["kind"] == "sea":
-            regions.append({"id": rid, "kind": "sea", "name": a["name"], "roughness": 3,
-                            "coast_detail": 6, "polygon": _sea_polygon(places["coast"], height)})
+            regions.append({"id": rid, "kind": "sea", "name": a["name"], "roughness": COAST_ROUGHNESS,
+                            "coast_detail": 8, "polygon": _sea_polygon(places["coast"], height)})
         elif a["kind"] == "mountains":
             regions.append({"id": rid, "kind": "mountains", "name": a["name"], "box": a["box"],
                             "edge": 10, "roughness": 8})
