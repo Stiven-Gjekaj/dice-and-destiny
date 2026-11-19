@@ -161,7 +161,7 @@ a d6 or choose.
 
 | Check | DC | Result |
 |---|---|---|
-| Intelligence (History) | 12 | The character remembers the name of a lantern maker who worked for the keep: "Master Orme had apprentices. Three of them, I think. They came from the west coast." |
+| Intelligence (History) | 12 | The character remembers three young lantern makers from the west coast who worked at the keep in the last year of the war. Nobody asked who their master was. |
 | Charisma (Persuasion) | 13 | A dock clerk lets the party look at the harbor book. The Gaunt ships came eleven days ago and have unloaded nothing. |
 | Wisdom (Perception) | 14 | The character sees a woman in a good grey coat who follows the party for two streets, then is gone. (This is one of the agents of Captain Ilse Varro.) |
 | Wisdom (Insight) | 12 | The people of the city are nervous about Gaunt. They smile, and they keep their children inside after dark. |
