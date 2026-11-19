@@ -52,7 +52,6 @@ CHARACTER_AREAS = [
     {"id": "foothills", "character": "rough", "box": [50, 28, 210, 78], "strength": 0.7},
     {"id": "wolds-country", "character": "rolling", "box": [125, 115, 215, 185]},
     {"id": "dunn-wood", "character": "wooded", "circle": {"at": [70, 140], "r": 26}, "strength": 0.8},
-    {"id": "east-wood", "character": "wooded", "circle": {"at": [215, 195], "r": 20}, "strength": 0.7},
     {"id": "gaunt-farmland", "character": "flat", "box": [40, 235, 185, 320], "strength": 0.7},
 ]  # the generated rivers with the most water that the maps keep
 # The print maps keep this part of the relief symbols. The marsh symbols stand only
@@ -190,6 +189,10 @@ def build(places):
                 "circle": {"at": [110, 205], "r": 6}},
                # The forest grew around Kingsholm after it burned. It is a region, so
                # that the map of the old age can leave out its trees.
+               # An old wood east of the Brann. It is a forest region, because a
+               # wooded area does not turn grassland into forest.
+               {"id": "east-wood", "kind": "forest", "height": [24, 34],
+                "circle": {"at": [215, 183], "r": 24}, "roughness": 6},
                {"id": "kingsholm-wood", "kind": "forest", "height": [24, 34],
                 "circle": {"at": [120, 112], "r": 20},
                 "roughness": 6}]
