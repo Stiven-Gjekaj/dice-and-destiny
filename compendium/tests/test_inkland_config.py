@@ -92,3 +92,14 @@ def test_only_the_old_map_hides_the_relief_of_the_new_age():
     variants = {v["name"]: v for v in inkland_config.build(land)["variants"]}
     assert variants["ostrey-then"]["relief"] == {"hide_in": inkland_config.THEN_HIDE_RELIEF}
     assert "relief" not in variants["land-today"]
+
+
+def test_a_shown_river_label_stands_level_at_its_point(monkeypatch):
+    monkeypatch.setattr(inkland_config, "RIVER_LABEL_AT", {"The River Rill": [80, 20]})
+    land = small_land()
+    land["maps"]["river-map"] = dict(era="now", size_mm=[167, 120], bounds_miles=[50, 0, 100, 100],
+                                     title="The River")
+    cfg = inkland_config.build(land)
+    assert cfg["overlays"]["river-map"]["labels"]["river:river-rill"] == {"at": [80, 20]}
+    # The river is outside the view of the other map, so its label stays hidden there.
+    assert cfg["overlays"]["land-today"]["labels"]["river:river-rill"] == {"hide": True}
