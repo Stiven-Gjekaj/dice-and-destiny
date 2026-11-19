@@ -526,7 +526,7 @@ The statblock of the Hush Shroud is in Scene 3.
 
 > **GM tip:** Osk is CR 4, as in chapter 4. He is weaker than the party
 > now, and that is fine: he is the old enemy, and the Dusk Priest is the
-> real threat. Osk's reaction, Her Shield, works only while Mother Sallow
+> real threat. Osk's Reaction, Her Shield, works only while Mother Sallow
 > stands next to him, so he loses it when she leaves.
 
 **The room.** The Hall of Sleepers is round, 60 feet across. The trenches

@@ -175,7 +175,7 @@ Banners.
 |---|---|---|
 | Gaunt | A character has renown 10 or more with Gaunt, or the party sided with Gaunt or stopped the war | A company of twenty soldiers of Gaunt (Line Pikemen and Crossbow Sergeants) under Captain Ilse Varro, if she lives. They hold the Kings' Bridge (Scene 3). |
 | The Church | A character has renown 10 or more with the Church, or the party sided with the Church or stopped the war | Brother Cade and six healers. After each fight in Kingsholm, each character regains Hit Points as if they spent two Hit Point Dice, at no cost. Cade can also tend injuries. |
-| The Lampwrights | The party has the First Lamp, or a character has renown 3 or more with the guild | Perrin Hale sends a cart of lamps that burn without oil. In Kingsholm, the party never stands in darkness by accident. The Hush Grey Choir's song still dims them. |
+| The Lampwrights | The party has the First Lamp, or a character has renown 3 or more with the guild | Perrin Hale sends a cart of lamps that burn without oil. In Kingsholm, the party never stands in Darkness by accident. The Hush Grey Choir's song still dims them. |
 | The keep | The party owns the keep as a stronghold | Followers equal to the keep's Renown come as porters, guides, and guards. They keep the camp. The camp can't be surprised. |
 
 The allies make the road and the camp safer. They do not fight the big
@@ -297,7 +297,7 @@ The people of today say that the place is bad luck, and they are right.
 
 **Inside the dome.** It is always night inside the dome. The area is in
 Darkness, except where there is a light. Nonmagical lights work, but the
-Hush puts them out (see the Snuff bonus action of the Hush Night Warden).
+Hush puts them out (see the Snuff Bonus Action of the Hush Night Warden).
 Wick, the First Lamp, the Fennick Candle, and the lamps of the Lampwrights
 burn normally. Spells that make light work, but Hush Grey Choirs dim them.
 
@@ -1124,7 +1124,7 @@ this chapter, whatever XP the fights gave.
 
 ### Treasure
 
-- **The Badge of Sir Garrath** (Rare, requires attunement). On the crystal.
+- **The Badge of Sir Garrath** (Rare, Requires Attunement). On the crystal.
   It belongs to the Dawnwatch now.
 - **The hoard of the Hush.** The Hush took the gold of its members when they
   joined. In the throne hall, in iron boxes behind the throne, the party
