@@ -200,7 +200,7 @@ and twelve boys in a line. The youngest is thirteen.
 
 The leader of the press gang is a hard, honest veteran of Gaunt: a
 **Shield-Wall Captain** called Sergeant Hask. He has two **Crossbow
-Sergeants** and four **Line Pikemen**. He does not like this job. He does
+Sergeants** and two **Line Pikemen**. He does not like this job. He does
 it anyway.
 
 ### What the party can do
