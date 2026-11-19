@@ -61,3 +61,12 @@ def test_the_waking_cover_says_that_it_needs_edition_2_and_the_compendiums_do_no
     for book in ("player", "gm"):
         h = cover_html(book, 300, "paperback")[0]
         assert "Requires Edition" not in h and "A rules-compatible guide for fifth edition (2024)" in h
+
+
+def test_the_waking_spine_gives_the_full_title():
+    import re
+    from cover import cover_html
+    for kind in ("paperback", "hardcover"):
+        h = cover_html("waking", 310, kind)[0]
+        spine = re.search(r'<div class="panel spine">(.*?)</div></div>', h).group(1)
+        assert "The Dawnwatch, Book One: Waking" in spine

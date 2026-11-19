@@ -58,7 +58,7 @@ BOOKS = {
             "Expanded options: {PLAYER_COUNTS}, new species, backgrounds, feats and {SPELL_COUNTS}",
             "Equipment, the complete rules reference, conditions, a glossary and a blank character sheet"],
    icons=["swords", "spark", "fighter", "book"]),
- "waking": dict(title="The Dawnwatch: Waking", t1="The Dawnwatch", t2="Book One: Waking",
+ "waking": dict(title="The Dawnwatch, Book One: Waking", t1="The Dawnwatch", t2="Book One: Waking",
    sub="Five heroes wake after three hundred years. The world forgot them. Their enemy did not.",
    back="A campaign from level 1 to level 10. It starts in the crypt where the tutorial starts.",
    bullets=["Ten chapters, from the waking in Dawnwatch Keep to the empty crystal in the old capital",
