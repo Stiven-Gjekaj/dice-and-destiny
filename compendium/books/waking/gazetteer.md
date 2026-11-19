@@ -100,7 +100,7 @@ as a golden age, because it was the last time that the land had a king.
 In these years, Ostrey split the Dawnfire into pieces. The priests said
 that a single flame could go out with a single blow, and that many flames
 are safer. They carried the pieces to shrines and churches all over the
-kingdom. One piece stayed in the chapel of Dawnwatch Keep, over the
+kingdom. One piece stayed in the chapel of Dawnwatch Keep, near the
 sleepers.
 
 - A small coal went to the shrine of Saint Ivo. Today it is the **Ember
