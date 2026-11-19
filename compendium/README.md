@@ -142,22 +142,34 @@ A chapter puts a map in the book with the directive `{{map: id}}`.
 ### Make the final maps with inkland
 
 [inkland](https://github.com/Stiven-Gjekaj/inkland) 1.3.3 or later draws the
-final maps from `maps/places.json`. The config uses the character areas and
-the hand-drawn look of 1.2.0, the main river and the relief of each map of
-1.2.1, the climate preset and the coast bends of 1.3.0, and the peaks and
-`only_in` options of 1.3.2. Before 1.3.3, the river names along the rivers
-print with letters out of line. Build the
-binary from the package `inkland-cli`:
+final maps from `maps/places.json`. The config uses these options of
+inkland:
 
-    cargo build --release -p inkland-cli A version before 1.1.2 gives each label a white
-outline, and Chrome prints outlined text as a Type 3 font.
+- 1.2.0: the character areas and the hand-drawn look.
+- 1.2.1: the main river and the relief of each map.
+- 1.3.0: the climate preset and the coast bends.
+- 1.3.2: the peaks and the `only_in` option.
 
-`build/inkland_config.py` holds the choices that `places.json` does not give:
-the character areas (`CHARACTER_AREAS`), the height of the lowland, the
-number of generated rivers, the main river (`MAIN_RIVERS`), the roughness of
-the coast and its bends, the height of the hills (`HILL_LOW`, the lowest
-height with a hill symbol), the relief symbols (`RELIEF`), and the regions that the map of old
-Ostrey shows with no relief (`THEN_HIDE_RELIEF`).
+Before 1.3.3, the river names along the rivers print with letters out of
+line. Build the binary from the package `inkland-cli`:
+
+    cargo build --release -p inkland-cli
+
+A version before 1.1.2 gives each label a white outline, and Chrome prints
+outlined text as a Type 3 font.
+
+`build/inkland_config.py` holds the choices that `places.json` does not
+give:
+
+- the character areas (`CHARACTER_AREAS`)
+- the height of the lowland
+- the number of generated rivers
+- the main river (`MAIN_RIVERS`)
+- the roughness of the coast and its bends
+- the height of the hills (`HILL_LOW`, the lowest height with a hill symbol)
+- the relief symbols (`RELIEF`)
+- the regions that the map of old Ostrey shows with no relief
+  (`THEN_HIDE_RELIEF`)
 
 1. Write the inkland config again from `places.json`:
 
