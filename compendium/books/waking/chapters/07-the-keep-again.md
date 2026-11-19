@@ -299,8 +299,8 @@ the way in.
   third round of encounter 2. In that case, use only half of the force,
   rounded down (1 Hush Night Warden and 2 Hush Shrouds, 2,000 XP), and
   remove the Hush Night Warden and 2 Hush Shrouds from the start of
-  encounter 2. Then the two fights together are 6,900 XP, as the High
-  budget allows.
+  encounter 2. Then the two fights together are 6,900 XP, the same as
+  encounter 2 as written.
 
 ### The new teeth
 
