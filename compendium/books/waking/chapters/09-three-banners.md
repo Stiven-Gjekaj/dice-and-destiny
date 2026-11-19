@@ -135,7 +135,7 @@ there.
 > It is a grey morning on the walls of the keep. Hesper Wren comes up the
 > stair two steps at a time, out of breath.
 >
-> "Riders on the road. Two groups. One from the south, one from the west.
+> "Riders on the road. Two groups. One on the south road, one on the old road.
 > They are racing each other."
 >
 > From the wall you see them: four riders in red coats and steel, under a red
@@ -1140,7 +1140,7 @@ command tent. His horse went west."
 > In the middle of the bowl, around a ring of black candles that burn with
 > no light at all, stand the singers: rows of grey hoods, swaying. In front
 > of them stand two figures who do not sing. One wears the red coat of a
-> Gaunt officer. One wears the brown robe of a monk of the Church. Both
+> Gaunt officer. One wears the grey and blue robe of a monk of the Church. Both
 > have taken off their masks of politeness, and their faces are calm and
 > happy.
 >
@@ -1247,7 +1247,7 @@ Each path also changes the end:
 
 ### The truce at the stone
 
-If the leaders meet (a Toll of 4 or lower), run this scene.
+If the leaders meet (a Toll of 2 or lower), run this scene.
 
 > At sunset, the Marshal walks down the south slope with Tobin and Ilse
 > Varro. The Abbess walks down the north slope with Brother Cade, leaning
