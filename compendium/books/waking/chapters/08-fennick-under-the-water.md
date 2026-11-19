@@ -69,8 +69,8 @@ them the old fighting ways of Ostrey: the Techniques.
 
 ### If the party does not have the First Lamp
 
-If the party left the First Lamp in Corrantey, the Hush follows the black
-stone instead. A priest of the Hush can feel it, as chapter 4 tells. The
+If Gaunt has the First Lamp (chapter 6), the Hush follows the black stone
+instead. A priest of the Hush can feel it, as chapter 4 tells. The
 result is the same: the Hush arrives in Scene 5.
 
 ---
@@ -531,7 +531,9 @@ want it.
 The town sits on a small rise in the old farmland by the Brann, inside
 the dike. Before the flood, it was dry land. The flood covered it. The water over the streets
 is 15 to 25 feet deep. The roofs are 5 to 10 feet under the surface. The
-tower and the church are in the middle, on a small hill.
+tower and the church are in the middle, on a small hill. The floor of the
+church is sunk deep into the hill, down a long stair from the door, as in
+the old churches of Ostrey. So the church is deeper than the streets.
 
 | Area | Name | What is there |
 |------|------|---------------|
@@ -876,8 +878,8 @@ the church drops by 10 feet.
 > moment. One character turns, the others hold off the chuuls. Let the
 > players plan it. A Chuul that grabs the character at the wheel is a good
 > scare. If the party clears the room first, they can turn the wheel at
-> their own pace with no checks at all. Only the key matters then: without
-> it, three DC 18 checks still apply, but a failure only costs time.
+> their own pace. With the key, they need no checks at all. Without it,
+> three DC 18 checks still apply, but a failure only costs 10 minutes.
 
 > **Scaling:** The Moderate budgets are 5,100 (3 characters), 6,800 (4),
 > 8,500 (5), and 10,200 (6).
@@ -971,7 +973,7 @@ other warm thing near its candle.)
 
 ### The water in the church
 
-The church is 30 feet deep under the water at the doors, and the altar
+The church is 30 feet deep under the water inside the doors, and the altar
 stands on a step, 25 feet deep.
 
 - **If the party turned the wheel at the sluice gate (F7):** the water is
@@ -1041,7 +1043,7 @@ so the party never faces all of it at once. This fight is hard. It is the climax
   priest, each warden turns to protect her.
 - **The candle.** Track the candle. It starts at full flame. Each time the
   priest uses Snuff the Sun with the altar in the Sphere, the flame
-  drops one step: full, low, a spark. A fourth time puts it out. If the
+  drops one step: full, low, faint, a spark. A fourth time puts it out. If the
   priest holds the candle for 1 minute (10 rounds), it goes out too. A
   character who takes the candle from the altar ends all of this: the
   candle is safe in a hand that cares for it. To take it, a character must
