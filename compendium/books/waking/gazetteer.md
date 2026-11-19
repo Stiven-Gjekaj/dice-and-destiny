@@ -776,8 +776,9 @@ Saint Ivo's goes to war with Gaunt.
 > younger than the sleep. Use the words of the player of the Light. See
 > the thread in chapter 3.
 
-> **Secret (chapter 4):** The Hush has a spy in the town. At the end of
-> chapter 3, the Hush steals the Ember of Saint Ivo.
+> **Secret (chapter 4):** The Hush has a spy in the town. On the night
+> after the feast, in chapter 4 (Scene 1), the Hush steals the Ember of
+> Saint Ivo.
 
 ### The Shrine at Kell
 
