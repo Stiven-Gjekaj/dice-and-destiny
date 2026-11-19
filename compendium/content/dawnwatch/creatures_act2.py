@@ -127,7 +127,7 @@ M("The Unlit Knight", "M", "Undead", "Lawful Neutral", 12, "22 12 20 14 16 18", 
                                       "On a successful save, it takes half as much damage only.")],
   bonus=[("Dark Step", "The knight teleports up to 30 feet to an unoccupied space in Dim Light or Darkness that it can see.")],
   react=[("Parry", "The knight adds 4 to its AC against one melee attack that would hit it. To do so, it must see the attacker.")],
-  leg=[("Strike", "The knight makes one Black Greatsword attack."),
+  leg=[("Strike (Costs 2)", "The knight makes one Black Greatsword attack."),
        ("Advance", "The knight moves up to half its Speed. It doesn't provoke Opportunity Attacks."),
        ("Night Falls (Costs 2)", "Each creature of the knight's choice within 30 feet of it makes a {dc:cha} Wisdom saving throw. "
                                  "On a failed save, it has the Blinded condition until the end of its next turn.")],
