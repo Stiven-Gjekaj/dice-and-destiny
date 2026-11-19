@@ -141,9 +141,14 @@ A chapter puts a map in the book with the directive `{{map: id}}`.
 
 ### Make the final maps with inkland
 
-[inkland](https://github.com/Stiven-Gjekaj/inkland) 1.1.2 or later draws the
-final maps from `maps/places.json`. An earlier version gives each label a
-white outline, and Chrome prints outlined text as a Type 3 font.
+[inkland](https://github.com/Stiven-Gjekaj/inkland) 1.2.0 or later draws the
+final maps from `maps/places.json`. The config uses the character areas and
+the hand-drawn look of 1.2.0. A version before 1.1.2 gives each label a white
+outline, and Chrome prints outlined text as a Type 3 font.
+
+`build/inkland_config.py` holds the choices that `places.json` does not give:
+the character areas (`CHARACTER_AREAS`), the height of the lowland, the
+number of generated rivers, and the density of the relief symbols.
 
 1. Write the inkland config again from `places.json`:
 
