@@ -141,10 +141,11 @@ A chapter puts a map in the book with the directive `{{map: id}}`.
 
 ### Make the final maps with inkland
 
-[inkland](https://github.com/Stiven-Gjekaj/inkland) 1.3.0 or later draws the
+[inkland](https://github.com/Stiven-Gjekaj/inkland) 1.3.2 or later draws the
 final maps from `maps/places.json`. The config uses the character areas and
 the hand-drawn look of 1.2.0, the main river and the relief of each map of
-1.2.1, and the climate preset and the coast bends of 1.3.0. Build the
+1.2.1, the climate preset and the coast bends of 1.3.0, and the peaks and
+`only_in` options of 1.3.2. Build the
 binary from the package `inkland-cli`:
 
     cargo build --release -p inkland-cli A version before 1.1.2 gives each label a white
@@ -168,7 +169,8 @@ Ostrey shows with no relief (`THEN_HIDE_RELIEF`).
 
        inkland generate --config maps/dawnwatch.inkland.json --out-dir OUT --preview OUT/preview.png
 
-3. Read each `OUT/<id>.report.json`. Each check must pass. The check
+3. Read each `OUT/<id>.report.json`. Each check must pass. `relief.pins`
+   gives the symbols in each region, for example only hills in the Wolds. The check
    `no_generated_labels` fails if a map shows a name that `places.json`
    does not give.
 4. Look at each `OUT/preview-<id>.png`.
