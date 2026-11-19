@@ -273,8 +273,10 @@ night the crystal closed.*
 > Shadow can tell you more about this. The Shadow knows the law very well,
 > from the other side.
 >
-> The king's road goes from Kingsholm south through the Wolds, past Saint
-> Ivo's shrine, to the March. It is paved with stone. Other roads are mud.
+> The king's road goes from Kingsholm south-east through the Wolds, over
+> the Brann, and south to Saint Ivo's shrine. It is paved with stone. Past
+> the shrine, a track of mud goes on to the March. Other roads are mud
+> too.
 > In the war, soldiers guarded the roads. Before the war, everybody did,
 > because of wolves.
 
