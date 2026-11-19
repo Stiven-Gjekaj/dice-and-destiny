@@ -390,15 +390,13 @@ party herself. This is a sparring fight. Nobody dies.
 > drill. A drill is not a fight. Nobody dies in my drill. Nobody dies in my
 > drill AGAIN, Hobb." She lifts her halberd. "Begin!"
 
-**Creatures:** Sergeant Maud Kettle and four Fennick Drowned of her squad.
+**Creatures:** Sergeant Maud Kettle and three Fennick Drowned of her squad.
 
 {{statblock: Fennick Drowned}}
 
 **XP:** for 4 characters at level 8, the Low budget is 1,000 × 4 = 4,000
 XP. Maud (1,800) and three Fennick Drowned (3 × 450 = 1,350) make 3,150 XP.
-With Techniques on, add one monster of the lowest CR for each four
-characters: one more Fennick Drowned (450). Total: 3,600 XP. That is a Low
-fight, and that is the point. It is a lesson, not a threat.
+That is a Low fight, and that is the point. It is a lesson, not a threat.
 
 **The rules of the drill:**
 
@@ -431,17 +429,19 @@ drowned are slow and clumsy. Two of them hit each other by mistake.
 > them in every fight. You get them back when you catch your breath."
 
 > **Scaling:** The Low budgets are 3,000 (3 characters), 4,000 (4), 5,000
-> (5), and 6,000 (6). With Techniques on, the extra Fennick Drowned is
-> already in each line below for 4 or more characters.
+> (5), and 6,000 (6).
 >
 > - **3 characters:** Maud and two Fennick Drowned. 1,800 + 900 = 2,700 XP.
-> - **4 characters:** Maud and four Fennick Drowned. 1,800 + 1,800 = 3,600
+> - **4 characters:** Maud and three Fennick Drowned. 1,800 + 1,350 = 3,150
 >   XP.
-> - **5 characters:** Maud and six Fennick Drowned. 1,800 + 2,700 = 4,500
+> - **5 characters:** Maud and five Fennick Drowned. 1,800 + 2,250 = 4,050
 >   XP.
 > - **6 characters:** Maud and all six Fennick Drowned of her squad, and
 >   Maud has 10% more Hit Points (107). 1,800 + 2,700 = 4,500 XP. The drill
 >   is still a lesson. It does not have to fill the budget.
+>
+> **Optional systems:** with Techniques on, add one Fennick Drowned for each four
+> characters, or give Maud 10% more Hit Points.
 
 ### After the drill
 
@@ -611,7 +611,7 @@ starts.
 
 ### Encounter: The Market of the Drowned (Low)
 
-**Creatures:** Six Fennick Drowned, one Swarm of Bloodleeches, and one
+**Creatures:** Five Fennick Drowned, one Swarm of Bloodleeches, and one
 Spearjaw Gar. All of them are in the Original Bestiary of the Game Master's
 Compendium, except the drowned, which are in this chapter.
 
@@ -626,8 +626,7 @@ Compendium, except the drowned, which are in this chapter.
 
 **XP:** for 4 characters at level 8, the Low budget is 4,000 XP. Five
 drowned (2,250), one Swarm of Bloodleeches (450), and one Spearjaw Gar
-(450) make 3,150 XP. With Techniques on, add one more drowned (450). Total:
-six drowned, 3,600 XP. A Low fight, but a messy one in the water.
+(450) make 3,150 XP. A Low fight, but a messy one in the water.
 
 **Terrain:**
 
@@ -650,18 +649,20 @@ them down for good. Let the players find that out.
 > for the players to see what the Lamp is.
 
 > **Scaling:** The Low budgets are 3,000 (3 characters), 4,000 (4), 5,000
-> (5), and 6,000 (6). The extra monster for Techniques is in each line for
-> 4 or more characters.
+> (5), and 6,000 (6).
 >
 > - **3 characters:** four drowned, one Swarm of Bloodleeches, one
 >   Spearjaw Gar. 1,800 + 450 + 450 = 2,700 XP.
-> - **4 characters:** six drowned, one swarm, one gar. 2,700 + 450 + 450 =
->   3,600 XP.
+> - **4 characters:** five drowned, one swarm, one gar. 2,250 + 450 + 450 =
+>   3,150 XP.
 > - **5 characters:** six drowned, two swarms, two gars. 2,700 + 900 + 900
 >   = 4,500 XP.
 > - **6 characters:** eight drowned, two swarms, two gars. 3,600 + 900 +
 >   900 = 5,400 XP. Bring the drowned in waves of two each round, so that
 >   you can run them.
+>
+> **Optional systems:** with Techniques on, add one Fennick Drowned for each four
+> characters, or give each creature 10% more Hit Points.
 
 **Treasure:** At the money changer's stall, under a stone, is a lead box with
 120 GP in old coins and a silver scale that weighs true (worth 25 GP). On
@@ -838,8 +839,7 @@ the wheel to turn.
 
 ### Encounter: The Sluice Gate (Moderate)
 
-**Creatures:** Two Chuuls and two Giant Crocodiles. With Techniques on, add
-one more Chuul.
+**Creatures:** Two Chuuls and two Giant Crocodiles.
 
 - The crocodiles lie on the platform under the wheel, half out of the
   water. They look like logs. They are not.
@@ -849,8 +849,7 @@ one more Chuul.
 
 **XP:** for 4 characters at level 8, the Moderate budget is 1,700 × 4 =
 6,800 XP. Two Chuuls (2 × 1,100 = 2,200) and two Giant Crocodiles (2 ×
-1,800 = 3,600) make 5,800 XP. With Techniques on, add one Chuul (1,100).
-Total: 6,900 XP. A Moderate fight.
+1,800 = 3,600) make 5,800 XP. A Moderate fight.
 
 **Terrain and hazards:**
 
@@ -881,17 +880,19 @@ the church drops by 10 feet.
 > it, three DC 18 checks still apply, but a failure only costs time.
 
 > **Scaling:** The Moderate budgets are 5,100 (3 characters), 6,800 (4),
-> 8,500 (5), and 10,200 (6). The extra Chuul for Techniques is in each line
-> for 4 or more characters.
+> 8,500 (5), and 10,200 (6).
 >
 > - **3 characters:** one Chuul and two Giant Crocodiles. 1,100 + 3,600 =
 >   4,700 XP.
-> - **4 characters:** three Chuuls and two Giant Crocodiles. 3,300 + 3,600
->   = 6,900 XP.
+> - **4 characters:** two Chuuls and two Giant Crocodiles. 2,200 + 3,600
+>   = 5,800 XP.
 > - **5 characters:** four Chuuls and two Giant Crocodiles. 4,400 + 3,600
 >   = 8,000 XP.
 > - **6 characters:** four Chuuls and three Giant Crocodiles. 4,400 + 5,400
 >   = 9,800 XP.
+>
+> **Optional systems:** with Techniques on, add one Chuul for each four
+> characters, or give each Giant Crocodile 10% more Hit Points.
 
 **Treasure:** In the drain tunnel, among the bones of the chuuls' meals, is
 the body of a man in old fen leathers, with a rusty knife and a locket. In
@@ -1013,16 +1014,14 @@ times, or to hold the candle in her hand for 1 minute. Each time, the candle fli
 
 {{statblock: Hush Night Warden}}
 
-**Creatures:** the Grief of Fennick, one Hush Dusk Priest, and two Hush
-Night Wardens. The Grief fights everyone who comes near the candle,
+**Creatures:** the Grief of Fennick, one Hush Dusk Priest, and one Hush
+Night Warden. The Grief fights everyone who comes near the candle,
 including the Hush. The Hush fights the party, and the Grief when they must.
 
 **XP:** for 4 characters at level 8, the High budget is 2,100 × 4 = 8,400
 XP. The Grief (3,900), the priest (2,900), and one Night Warden (1,100)
-make 7,900 XP. With Techniques on, add one more Night Warden, the monster of
-the lowest CR (1,100). Total: 9,000 XP. That is over the High budget, but
-the Grief and the Hush also fight each other, so the party never faces all
-of it at once. This fight is hard. It is the climax of the chapter.
+make 7,900 XP, a High fight. The Grief and the Hush also fight each other,
+so the party never faces all of it at once. This fight is hard. It is the climax of the chapter.
 
 **The three sides:**
 
@@ -1035,11 +1034,11 @@ of it at once. This fight is hard. It is the climax of the chapter.
   the Grief uses its Call the Drowned bonus action on one of them. They are
   part of the Grief, not extra monsters, so they do not count for the XP.
   Use the statblock of the Fennick Drowned.
-- **The Hush** goes for the candle. The Night Wardens hold the party off
-  with Close the Ranks and their maces. The priest casts Darkness on the
+- **The Hush** goes for the candle. Each Night Warden holds the party off
+  with Close the Ranks and its mace. The priest casts Darkness on the
   party first, then Silence on the casters, then goes to the altar and uses
   Snuff the Sun as soon as it recharges. When the Grief attacks the
-  priest, the wardens turn to protect her.
+  priest, each warden turns to protect her.
 - **The candle.** Track the candle. It starts at full flame. Each time the
   priest uses Snuff the Sun with the altar in the Sphere, the flame
   drops one step: full, low, a spark. A fourth time puts it out. If the
@@ -1085,19 +1084,21 @@ faces turn calm, one by one, and it sinks into the floor of the church like
 mist. It is gone. If the all-clear has rung, each success counts as two.
 
 > **Scaling:** The High budgets are 6,300 (3 characters), 8,400 (4), 10,500
-> (5), and 12,600 (6). The extra monster for Techniques is in each line for
-> 4 or more characters. Because the Grief and the Hush fight each other too,
-> the lines for 3 and 4 characters are a little over the budget on paper.
-> That is on purpose.
+> (5), and 12,600 (6). Because the Grief and the Hush fight each other too,
+> the line for 3 characters is a little over the budget on paper. That is
+> on purpose.
 >
 > - **3 characters:** the Grief and the priest. 3,900 + 2,900 = 6,800 XP.
-> - **4 characters:** the Grief, the priest, and two Night Wardens. 3,900 +
->   2,900 + 2,200 = 9,000 XP.
+> - **4 characters:** the Grief, the priest, and one Night Warden. 3,900 +
+>   2,900 + 1,100 = 7,900 XP.
 > - **5 characters:** the Grief, the priest, and three Night Wardens. 3,900
 >   + 2,900 + 3,300 = 10,100 XP.
 > - **6 characters:** the Grief, the priest, and four Night Wardens, and
 >   the Grief has 10% more Hit Points (156). 3,900 + 2,900 + 4,400 =
 >   11,200 XP.
+>
+> **Optional systems:** with Techniques on, add one Hush Night Warden for each four
+> characters, or give the Grief 10% more Hit Points.
 >
 > **If the party is in trouble:** Maud comes down from the tower. She is
 > bound to the tower, but the church is under the tower, and she decides
