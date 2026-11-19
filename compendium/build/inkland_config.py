@@ -171,14 +171,11 @@ def _coast_x(coast, y):
 
 def build(places):
     width, height = places["land_miles"]
-    base_places = [p for p in places["places"] if p["era"] == "both" and "then_kind" not in p]
-    base_ids = {ident(p["name"]) for p in base_places}
-
+    # Each place is in the overlay of its era. inkland joins the places of the base
+    # world with roads of its own, and the book has no such roads.
     overlays = {"then": {"add": {"places": [], "roads": [], "features": []}, "labels": {}},
                 "today": {"add": {"places": [], "roads": [], "features": []}, "labels": {}}}
     for p in places["places"]:
-        if ident(p["name"]) in base_ids:
-            continue
         for era in _era_of(p):
             overlays[era]["add"]["places"].append(_point_pin(p, era))
 
@@ -273,7 +270,7 @@ def build(places):
         "world": {"cells": 20000, "template": "pangea", "states": 0, "towns": 0,
                   "fill_land": True, "river_limit": RIVER_LIMIT, "jitter": 0.9,
                   "climate": {"latitude_range": [48, 54]}},
-        "pins": {"points": [_point_pin(p, "today") for p in base_places], "regions": regions,
+        "pins": {"points": [], "regions": regions,
                  "rivers": rivers, "roads": []},
         "overlays": map_overlays,
         "variants": variants,

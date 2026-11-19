@@ -27,27 +27,7 @@
     }
   },
   "pins": {
-    "points": [
-      {
-        "id": "dawnwatch-keep",
-        "at": [
-          165,
-          150
-        ],
-        "name": "Dawnwatch Keep",
-        "kind": "fortress"
-      },
-      {
-        "id": "shrine-at-kell",
-        "at": [
-          110,
-          205
-        ],
-        "name": "The shrine at Kell",
-        "kind": "custom",
-        "custom_kind": "shrine"
-      }
-    ],
+    "points": [],
     "regions": [
       {
         "id": "lowland-north",
@@ -2040,12 +2020,31 @@
             "kind": "city"
           },
           {
+            "id": "dawnwatch-keep",
+            "at": [
+              165,
+              150
+            ],
+            "name": "Dawnwatch Keep",
+            "kind": "fortress"
+          },
+          {
             "id": "shrine-of-saint-ivo",
             "at": [
               150,
               220
             ],
             "name": "The shrine of Saint Ivo",
+            "kind": "custom",
+            "custom_kind": "shrine"
+          },
+          {
+            "id": "shrine-at-kell",
+            "at": [
+              110,
+              205
+            ],
+            "name": "The shrine at Kell",
             "kind": "custom",
             "custom_kind": "shrine"
           },
@@ -2968,6 +2967,15 @@
             "kind": "ruin"
           },
           {
+            "id": "dawnwatch-keep",
+            "at": [
+              165,
+              150
+            ],
+            "name": "Dawnwatch Keep",
+            "kind": "fortress"
+          },
+          {
             "id": "brannocks-ford",
             "at": [
               160,
@@ -3002,6 +3010,16 @@
             ],
             "name": "Saint Ivo's",
             "kind": "town"
+          },
+          {
+            "id": "shrine-at-kell",
+            "at": [
+              110,
+              205
+            ],
+            "name": "The shrine at Kell",
+            "kind": "custom",
+            "custom_kind": "shrine"
           },
           {
             "id": "stannard",
@@ -3521,6 +3539,15 @@
             "kind": "ruin"
           },
           {
+            "id": "dawnwatch-keep",
+            "at": [
+              165,
+              150
+            ],
+            "name": "Dawnwatch Keep",
+            "kind": "fortress"
+          },
+          {
             "id": "brannocks-ford",
             "at": [
               160,
@@ -3555,6 +3582,16 @@
             ],
             "name": "Saint Ivo's",
             "kind": "town"
+          },
+          {
+            "id": "shrine-at-kell",
+            "at": [
+              110,
+              205
+            ],
+            "name": "The shrine at Kell",
+            "kind": "custom",
+            "custom_kind": "shrine"
           },
           {
             "id": "stannard",
@@ -4090,6 +4127,15 @@
             "kind": "ruin"
           },
           {
+            "id": "dawnwatch-keep",
+            "at": [
+              165,
+              150
+            ],
+            "name": "Dawnwatch Keep",
+            "kind": "fortress"
+          },
+          {
             "id": "brannocks-ford",
             "at": [
               160,
@@ -4124,6 +4170,16 @@
             ],
             "name": "Saint Ivo's",
             "kind": "town"
+          },
+          {
+            "id": "shrine-at-kell",
+            "at": [
+              110,
+              205
+            ],
+            "name": "The shrine at Kell",
+            "kind": "custom",
+            "custom_kind": "shrine"
           },
           {
             "id": "stannard",

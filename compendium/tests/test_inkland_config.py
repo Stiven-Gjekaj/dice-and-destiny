@@ -50,11 +50,12 @@ def test_the_maps_show_no_generated_names_or_places():
     assert cfg["world"]["fill_land"] is True
 
 
-def test_the_place_of_both_eras_is_a_base_pin():
+def test_each_place_is_in_the_overlay_of_its_map():
+    # A place of the base world would get roads that inkland makes.
     cfg = inkland_config.build(small_land())
-    assert [p["id"] for p in cfg["pins"]["points"]] == ["hollin"]
+    assert cfg["pins"]["points"] == []
     added = [p["id"] for p in cfg["overlays"]["land-today"]["add"]["places"]]
-    assert added == ["mere"]
+    assert added == ["hollin", "mere"]
 
 
 def test_the_committed_config_matches_places_json(tmp_path):
