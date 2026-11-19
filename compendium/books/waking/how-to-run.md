@@ -106,11 +106,17 @@ gives no level unless it is as big as a chapter.
 
 This book uses milestone levels. Do not count experience points. At the
 end of each chapter, the text says: "The characters go to level N." The
-characters go up a level at the next Long Rest.
+characters go up a level at the next Long Rest. Chapter 1 is the
+exception: the tutorial teaches the level up at once, at the Dawn Door.
 
 - The encounters use the XP budgets of Building Encounters in the Game
   Master's Compendium, for the level at the start of the chapter.
 - Each encounter has a **Scaling** box for 3, 4, 5, and 6 characters.
+  Chapter 1 is the exception: the tutorial has its own Scaling table for
+  1 to 5 players. For 6 players, use six Giant Rats and six Brimstone Pups.
+- From chapter 8, a Scaling box can also give an extra monster for
+  Techniques. That monster is an option: add it only if your group uses
+  Techniques.
 - If the party is much stronger or weaker than the encounters expect, move
   one encounter up or down one step of difficulty. Do not change the
   levels.
