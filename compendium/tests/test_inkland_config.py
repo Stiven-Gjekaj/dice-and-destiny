@@ -75,3 +75,21 @@ def test_an_organic_outline_is_not_a_box_and_stays_in_the_frame():
     xs = [x for x, _ in pts]
     assert 60 < min(xs) < 80 and 180 < max(xs) < 200
     assert len({round(x) for x, y in pts if y < 270}) > 10
+
+
+def test_the_dunn_is_the_main_river():
+    land = small_land()
+    land["rivers"].append(dict(name="The River Dunn", era="both", points=[[30, 10], [30, 50], [12, 60]]))
+    rivers = {r["id"]: r for r in inkland_config.build(land)["pins"]["rivers"]}
+    assert rivers["river-dunn"]["main"] is True
+    assert "main" not in rivers["river-rill"]
+
+
+def test_only_the_old_map_hides_the_relief_of_the_new_age():
+    land = small_land()
+    land["maps"]["ostrey-then"] = dict(era="then", size_mm=[167, 250], bounds_miles=[0, 0, 100, 100],
+                                       title="Ostrey")
+    variants = {v["name"]: v for v in inkland_config.build(land)["variants"]}
+    assert variants["ostrey-then"]["relief"]["hide_in"] == inkland_config.THEN_HIDE_RELIEF
+    assert "marsh" in variants["ostrey-then"]["relief"]["hide"]
+    assert "relief" not in variants["land-today"]
