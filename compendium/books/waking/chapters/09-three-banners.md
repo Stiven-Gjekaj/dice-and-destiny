@@ -397,9 +397,18 @@ good questions and listens to the answers.
   armies. If the Dawnwatch ride with Gaunt, the Church levies will break
   and run home, and nobody needs to die. "That is not a threat. That is
   the kindest plan I have."
-- **What she believes:** the Church burned its own chapel, and killed her
-  envoy (after Scene 6). The priests want the Dawnwatch as statues, and the
-  land needs them as soldiers.
+- **What she believes:** this depends on the night of the knives in
+  chapter 5, Scene 7.
+  - If the party believed the false letter, or said nothing, she believes
+    that the Church tried to kill her son. Now she believes that the Church
+    burned its own chapel, and killed her envoy (after Scene 6).
+  - If the party showed her that the letter was false, she knows that the
+    Hush wants her to hate the Church. She does not know who in her camp
+    serves the Hush. But the Church blames Gaunt for Wenlow and calls for
+    spears, so she marches to keep the border. She is ready to listen, and
+    the Persuasion check below has a DC of 13, not 16.
+  - In both cases, she thinks that the priests want the Dawnwatch as
+    statues, and that the land needs them as soldiers.
 - **What she will not do:** attack first without a reason. She has given
   her army that order. She thinks that the Church will give her a reason
   soon.
@@ -425,10 +434,13 @@ Later, he finds the characters alone.
 > never quick. Half of those people on the other slope are farmers. My
 > mother has never met a farmer. She has met maps of them."
 
-Tobin is the key to the third path. He does not know about the Hush. He
-knows that his mother trusts Lieutenant Roe more each month, and he does
-not like it. "Roe is always there. Roe always agrees with her. Roe told
-her about the chapel before the riders even came."
+Tobin is the key to the third path. He knows about the Hush: its killers
+came for him in the night of the knives, in chapter 5, and the party saved
+his life. He does not know who in the camp serves it. He knows that his
+mother trusts Lieutenant Roe more each month, and he does not like it. "Roe
+is always there. Roe always agrees with her. Roe told her about the chapel
+before the riders even came. And Roe was the one who found the letter, the
+night they came for me."
 
 ### Captain Ilse Varro
 
@@ -572,6 +584,7 @@ suggested the call for spears. He is a member of the Hush.
 | Intelligence (Investigation) of Ansel's desk | 15 | A draft of the Church letter, in his hand, with the line "Bring a spear" added at the bottom in fresh ink, after the Abbess had signed. |
 | Wisdom (Survival) on Ansel's tracks | 14 | His morning walks go to the hollow west of the stone. Many other feet went there too, in soft shoes, at night. |
 | Charisma (Persuasion) with the Abbess | 16 | She agrees to keep her levies on the hill one more day, whatever Gaunt does, if the characters bring her proof. (Only with real evidence.) |
+| Intelligence (Investigation) of the paper on Ansel's desk | 13 | The paper of the Abbey, cut short at the top, in the same way as the false letter of chapter 5 ("The boy first, then the mother. The Church will thank you. A."). Ansel signs his drafts with a plain "A.", in the same shape. The "A." of that letter was never the Abbess. It was Ansel. |
 | Charisma (Persuasion) with Cade | 10 | He helps the characters in any way that he can. He can take them into the Abbess's tent at night, or speak for them to her. |
 
 ### The Ember in the camp
@@ -709,6 +722,7 @@ they have, and to point them at what they miss.
 | The report about Wenlow, dated before the fire | Marshal's tent (Scene 4) | Roe |
 | The black candle in Roe's boot | Roe's tent (Scene 4) | Roe |
 | "Bring a spear", added after the signature | Ansel's desk (Scene 5) | Ansel |
+| The paper and the "A." of the false letter of chapter 5 | Ansel's desk (Scene 5) | Ansel, and the night of the knives |
 | Tracks to the hollow | Ansel (Scene 5) | The hidden choir |
 | The false Ember in its cage (if the Church kept the Ember) | The Abbess's tent (Scene 5) | Ansel |
 | The note in the envoy's glove, in Roe's hand | The stone (Scene 6) | Roe |
