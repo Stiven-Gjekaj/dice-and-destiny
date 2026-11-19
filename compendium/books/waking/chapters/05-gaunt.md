@@ -861,8 +861,9 @@ The letter is short: "The boy first, then the mother. The Church will
 thank you. A." It is on the paper of the Abbey. It is false. Brother
 Ansel, the secretary of the Abbess and a member of the Hush, wrote it in
 his own hand and sent it to Roe. Roe put it on the body. The Marshal reads
-"A." as the Abbess. In chapter 9, the party can match the hand of the
-letter to the hand of Ansel. Nobody in this chapter knows it.
+"A." as the Abbess. In chapter 9, the party can match the paper and the
+"A." of the letter to the papers on Ansel's desk. Nobody in this chapter
+knows it.
 
 The party can see that it is false. Use the table.
 
