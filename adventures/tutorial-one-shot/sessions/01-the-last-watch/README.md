@@ -774,10 +774,13 @@ these hooks for a second session of your own:
 - **The village:** The people in the village speak a strange new form of the
   old language. They have a legend about "the Sleepers under the hill." Some
   think it is a children's story. One old woman knows that it is true.
-- **The black stone:** It hums louder at night. It points north, like a
-  compass.
-- **The other keeps:** Wick remembers that the kingdom built more than one
-  hall of sleepers. Are there other Dawnwatch groups? Are they awake?
+- **The black stone:** It hums louder at night. Hang it on a string, and it
+  turns toward the north-west, where the old capital of Ostrey was. Something
+  there calls to it.
+- **The other sleepers:** Wick knows of only one hall of sleepers: this one.
+  But the old kingdom was careful, and it did not put all its hope in one
+  place. If your group wants more, a second group of sleepers can lie hidden
+  somewhere that even Wick never heard of.
 - **The "Before" answers:** Use the answers from Scene 1. The promise, the
   stolen thing, and the sign from the god can each become a quest.
 - **A Legend path:** For a longer game, look at Legend Paths in the Player's
