@@ -737,12 +737,14 @@ all.
   the old chapel about 150 years ago. It is a small coal that
   never goes cold. The Church does not know what it is. It knows that it
   is holy, and that it is very old.
-- **The well of Saint Ivo.** Still there, in a courtyard of the church.
-  Pilgrims drink from it and feel better.
+- **The well of Saint Ivo.** Still there, under the great church, in the
+  old shrine. The Church closed most of the old shrine, so few pilgrims
+  see the well now.
 - **The pilgrim market.** Candles, figures of the Five, badges of the
   Dawnwatch in tin, books of prayers, and relics, most of them fake.
-- **The play.** Each feast day, a troupe of actors plays the story of the
-  Five in the market square. Garret Pell leads it. The crowd loves it.
+- **The play.** Each night of the feast, a troupe of actors plays the
+  story of the Five in the Players' Yard, the big yard of the inn called
+  the Lamb and Lantern. Garret Pell leads it. The crowd loves it.
 - **The border.** Saint Ivo's is three days north of Stannard. The land
   between belongs to the Church, but Gaunt says that it does not. Soldiers
   of Gaunt come to the feast, and they do not come to pray.
