@@ -122,7 +122,7 @@ Compendium.
 
 ## One System at a Time
 
-Dice & Destiny has eight optional systems. This book teaches seven of them,
+Dice & Destiny has nine optional systems. This book teaches eight of them,
 one at a time, when the story needs it. The tutorial teaches the
 core rules in the same way. Book Two adds the last one, Legend Paths.
 
@@ -147,6 +147,7 @@ each system.
 Each system is optional. If your group does not want it, skip the Teach
 box and run the scene with the core rules:
 
+- **Bonds:** keep the campfire talk of the tutorial, and form no Bond.
 - **Journeys:** say how many days the trip takes, and run one encounter on
   the road.
 - **Marks:** the black stone still hums and still draws the Hush. It gives
@@ -164,7 +165,7 @@ The story does not change. Only the extra rules go away.
 
 ### Too many systems at once
 
-A group that plays all seven systems has a lot to track by chapter 9. Give
+A group that plays all eight systems has a lot to track by chapter 9. Give
 each system one moment in each session, not more. If the players forget a
 system, it is fine. Remind them when it matters, or let it go.
 
