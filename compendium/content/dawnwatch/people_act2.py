@@ -43,7 +43,7 @@ NPCS = [
                                              "until the end of its next turn. On a successful save, it takes half as much damage only.")],
   leg=[("Knife", "Mother Sallow makes one Grey Knife attack."),
        ("Fade", "Mother Sallow teleports up to 30 feet to an unoccupied space in Dim Light or Darkness that she can see."),
-       ("Snuff (Costs 2)", "Each light within 60 feet of Mother Sallow goes out, except sunlight and the pieces of the Dawnfire. "
+       ("Snuff (Costs 2)", "Each light within 60 feet of Mother Sallow goes out, except sunlight and the pieces of the Dawnfire. Wick's flame shrinks to a spark but stays lit. "
                            "One creature that she can see within 60 feet makes a {dc:wis} Constitution saving throw or takes {3d10} Necrotic damage.")],
   desc="The leader of the Hush, at the end of her road. She drank the dark that seeps from the empty crystal, and now it drinks her. "
        "Use this statblock in place of Mother Sallow in the last chapter of Book One.")),
