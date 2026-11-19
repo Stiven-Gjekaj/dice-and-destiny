@@ -141,8 +141,9 @@ A chapter puts a map in the book with the directive `{{map: id}}`.
 
 ### Make the final maps with inkland
 
-[inkland](https://github.com/Stiven-Gjekaj/inkland) 1.1.1 or later draws the
-final maps from `maps/places.json`.
+[inkland](https://github.com/Stiven-Gjekaj/inkland) 1.1.2 or later draws the
+final maps from `maps/places.json`. An earlier version gives each label a
+white outline, and Chrome prints outlined text as a Type 3 font.
 
 1. Write the inkland config again from `places.json`:
 
