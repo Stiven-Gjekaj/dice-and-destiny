@@ -54,8 +54,8 @@ They are young enough to wait and old enough to understand. They do not
 know everything. I could not tell them everything. If they knew, I do not
 think that they would lie down in the crystal, and I need them to.
 
-You will hear that the five died bravely in the last battle. Let people say
-it. It is kinder than the truth, and it is almost true.
+You will hear that the five lie down to guard us from his return. Let
+people say it. It is kinder than the truth, and it is almost true.
 
 Haskel
 
