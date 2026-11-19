@@ -48,12 +48,13 @@ LOWLAND_TOP = 76  # miles: the lowland starts south of the soft edge of the Grey
 CHARACTER_AREAS = [
     {"id": "foothills", "character": "rough", "box": [50, 28, 210, 78], "strength": 0.7},
     {"id": "wolds-country", "character": "rolling", "box": [125, 115, 215, 185], "strength": 0.8},
-    {"id": "kingsholm-wood", "character": "wooded", "circle": {"at": [120, 112], "r": 22}},
     {"id": "dunn-wood", "character": "wooded", "circle": {"at": [70, 140], "r": 26}, "strength": 0.8},
     {"id": "east-wood", "character": "wooded", "circle": {"at": [215, 195], "r": 20}, "strength": 0.7},
     {"id": "gaunt-farmland", "character": "flat", "box": [40, 235, 185, 320], "strength": 0.7},
 ]  # the generated rivers with the most water that the maps keep
-RELIEF_DENSITY = 0.6  # the part of the relief symbols that the print maps keep
+RELIEF = {"density": 0.6}  # the part of the relief symbols that the print maps keep
+# The regions that did not exist 300 years ago. The old map shows no symbols in them.
+THEN_HIDE_RELIEF = ["low-fen", "kingsholm-wood"]
 
 # A road that passes a place of the map passes it by id. The bible puts Wenlow on the old road.
 ROAD_VIA_PLACES = {("Brannock's Ford", "Saint Ivo's"): ["Wenlow"]}
@@ -179,7 +180,12 @@ def build(places):
                 "edge": 12, "roughness": 0, "box": [0, LOWLAND_TOP, width, height]},
                # The world bible puts the shrine at Kell on a hill. The hill has no name.
                {"id": "kell-hill", "kind": "hills", "height": [34, 40], "edge": 4,
-                "circle": {"at": [110, 205], "r": 6}}]
+                "circle": {"at": [110, 205], "r": 6}},
+               # The forest grew around Kingsholm after it burned. It is a region, so
+               # that the map of the old age can leave out its trees.
+               {"id": "kingsholm-wood", "kind": "forest", "height": [24, 34],
+                "circle": {"at": [120, 112], "r": 20},
+                "roughness": 6}]
     for a in places["areas"]:
         rid = ident(a["name"])
         if a["kind"] == "sea":
@@ -252,9 +258,14 @@ def build(places):
         for key in _hidden_labels(places, mid, era, crop):
             overlay["labels"].setdefault(key, {})["hide"] = True
         map_overlays[mid] = overlay
-        variants.append({"name": mid, "overlay": mid,
-                         "crop": crop, "page": {"w_mm": w_mm, "h_mm": h_mm},
-                         "extras": {"cartouche": {"title": m["title"]}}})
+        variant = {"name": mid, "overlay": mid,
+                   "crop": crop, "page": {"w_mm": w_mm, "h_mm": h_mm},
+                   "extras": {"cartouche": {"title": m["title"]}}}
+        if era == "then":
+            # The fen and the wood came after the Grey Winter.
+            # No marsh at all: the wet land of today came with the flood.
+            variant["relief"] = dict(RELIEF, hide=["marsh"], hide_in=THEN_HIDE_RELIEF)
+        variants.append(variant)
 
     return {
         "version": 1,
@@ -276,9 +287,7 @@ def build(places):
                    "min_line_width_pt": 0.5,
                    # The map shows no name that the config does not give, and the report checks it.
                    "labels": {"generated": False, "check_generated": True},
-                   # No marsh: the Low Fen was farmland before the flood, and the
-                   # relief is the same on each map.
-                   "relief": {"density": RELIEF_DENSITY, "hide": ["marsh"]},
+                   "relief": RELIEF,
                    "hand_drawn": True,
                    "river_contrast": 0.8,
                    "extras": {"scale_bar": True, "compass": True},

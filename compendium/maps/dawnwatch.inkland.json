@@ -63,6 +63,22 @@
         }
       },
       {
+        "id": "kingsholm-wood",
+        "kind": "forest",
+        "height": [
+          24,
+          34
+        ],
+        "circle": {
+          "at": [
+            120,
+            112
+          ],
+          "r": 20
+        },
+        "roughness": 6
+      },
+      {
         "id": "grey-teeth",
         "kind": "mountains",
         "name": "The Grey Teeth",
@@ -224,17 +240,6 @@
           185
         ],
         "strength": 0.8
-      },
-      {
-        "id": "kingsholm-wood",
-        "character": "wooded",
-        "circle": {
-          "at": [
-            120,
-            112
-          ],
-          "r": 22
-        }
       },
       {
         "id": "dunn-wood",
@@ -3112,6 +3117,16 @@
         "cartouche": {
           "title": "Ostrey"
         }
+      },
+      "relief": {
+        "density": 0.6,
+        "hide": [
+          "marsh"
+        ],
+        "hide_in": [
+          "low-fen",
+          "kingsholm-wood"
+        ]
       }
     },
     {
@@ -3186,10 +3201,7 @@
       "check_generated": true
     },
     "relief": {
-      "density": 0.6,
-      "hide": [
-        "marsh"
-      ]
+      "density": 0.6
     },
     "hand_drawn": true,
     "river_contrast": 0.8,
