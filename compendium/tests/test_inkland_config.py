@@ -1,0 +1,64 @@
+"""Tests for the inkland config of the Dawnwatch maps."""
+import json
+import os
+
+import inkland_config
+
+
+def small_land():
+    """A small land: a coast, a sea, one river, two places, one road, and one map."""
+    return {
+        "land_miles": [100, 100],
+        "coast": [[10, 0], [12, 50], [10, 100]],
+        "places": [
+            dict(name="Hollin", kind="town", x=40, y=40, era="both", old_names=[], maps=["land-today"]),
+            dict(name="Mere", kind="village", x=60, y=70, era="now", old_names=[], maps=["land-today"]),
+        ],
+        "areas": [
+            dict(name="The Grey Sea", kind="sea", era="both", old_names=[], maps=["land-today"],
+                 x=5, y=50, box=[0, 0, 10, 100]),
+            dict(name="Far March", kind="region", era="now", old_names=[], maps=[],
+                 x=80, y=90, box=[70, 80, 90, 100]),
+        ],
+        "rivers": [dict(name="The River Rill", era="both",
+                        points=[[90, 10], [92, 20], [94, 30]])],
+        "roads": [dict(start="Hollin", end="Mere", kind="road", era="now",
+                       points=[[40, 40], [60, 70]])],
+        "maps": {"land-today": dict(era="now", size_mm=[167, 120], bounds_miles=[0, 0, 50, 100],
+                                    title="The Land")},
+    }
+
+
+def test_a_river_id_has_one_prefix():
+    cfg = inkland_config.build(small_land())
+    assert [r["id"] for r in cfg["pins"]["rivers"]] == ["river-rill"]
+
+
+def test_a_map_hides_the_labels_of_items_outside_it():
+    cfg = inkland_config.build(small_land())
+    labels = cfg["overlays"]["land-today"]["labels"]
+    # The river is outside the view, and the map does not list the march.
+    assert labels["river:river-rill"] == {"hide": True}
+    assert labels["feature:far-march"] == {"hide": True}
+    assert cfg["variants"][0]["overlay"] == "land-today"
+
+
+def test_the_maps_show_no_generated_names_or_places():
+    cfg = inkland_config.build(small_land())
+    assert cfg["render"]["labels"] == {"generated": False, "check_generated": True}
+    assert (cfg["world"]["states"], cfg["world"]["towns"]) == (0, 0)
+    assert cfg["world"]["fill_land"] is True
+
+
+def test_the_place_of_both_eras_is_a_base_pin():
+    cfg = inkland_config.build(small_land())
+    assert [p["id"] for p in cfg["pins"]["points"]] == ["hollin"]
+    added = [p["id"] for p in cfg["overlays"]["land-today"]["add"]["places"]]
+    assert added == ["mere"]
+
+
+def test_the_committed_config_matches_places_json(tmp_path):
+    # Run "python3 build/inkland_config.py" after a change to places.json.
+    out = inkland_config.write(str(tmp_path / "config.json"))
+    with open(out, encoding="utf-8") as f, open(inkland_config.CONFIG_JSON, encoding="utf-8") as g:
+        assert json.load(f) == json.load(g)

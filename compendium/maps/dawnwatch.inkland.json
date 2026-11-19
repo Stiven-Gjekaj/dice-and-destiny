@@ -1,0 +1,1322 @@
+{
+  "version": 1,
+  "seed": 300,
+  "units": {
+    "name": "mile"
+  },
+  "frame": {
+    "origin": "top-left",
+    "x_axis": "east",
+    "y_axis": "south",
+    "width": 240,
+    "height": 320
+  },
+  "world": {
+    "cells": 20000,
+    "template": "pangea",
+    "states": 0,
+    "towns": 0,
+    "fill_land": true,
+    "river_limit": 25,
+    "climate": {
+      "latitude_range": [
+        48,
+        54
+      ]
+    }
+  },
+  "pins": {
+    "points": [
+      {
+        "id": "dawnwatch-keep",
+        "at": [
+          165,
+          150
+        ],
+        "name": "Dawnwatch Keep",
+        "kind": "fortress"
+      },
+      {
+        "id": "shrine-at-kell",
+        "at": [
+          110,
+          205
+        ],
+        "name": "The shrine at Kell",
+        "kind": "custom",
+        "custom_kind": "shrine"
+      }
+    ],
+    "regions": [
+      {
+        "id": "lowland-north",
+        "kind": "plains",
+        "height": [
+          24,
+          40
+        ],
+        "polygon": [
+          [
+            14.4,
+            0
+          ],
+          [
+            240,
+            0
+          ],
+          [
+            240,
+            32
+          ],
+          [
+            14.56,
+            32
+          ],
+          [
+            16,
+            20
+          ]
+        ]
+      },
+      {
+        "id": "lowland",
+        "kind": "plains",
+        "height": [
+          22,
+          34
+        ],
+        "polygon": [
+          [
+            17.0,
+            70
+          ],
+          [
+            240,
+            70
+          ],
+          [
+            240,
+            320
+          ],
+          [
+            15.5,
+            320
+          ],
+          [
+            18,
+            295
+          ],
+          [
+            16,
+            270
+          ],
+          [
+            19,
+            245
+          ],
+          [
+            21,
+            224
+          ],
+          [
+            26,
+            214
+          ],
+          [
+            31,
+            209
+          ],
+          [
+            33,
+            203
+          ],
+          [
+            32,
+            198
+          ],
+          [
+            30,
+            192
+          ],
+          [
+            25,
+            188
+          ],
+          [
+            22,
+            180
+          ],
+          [
+            20,
+            163
+          ],
+          [
+            17,
+            145
+          ],
+          [
+            19,
+            120
+          ],
+          [
+            15,
+            95
+          ]
+        ]
+      },
+      {
+        "id": "grey-teeth",
+        "kind": "mountains",
+        "name": "The Grey Teeth",
+        "box": [
+          60,
+          40,
+          200,
+          60
+        ],
+        "edge": 8
+      },
+      {
+        "id": "wolds",
+        "kind": "hills",
+        "name": "The Wolds",
+        "box": [
+          145,
+          135,
+          190,
+          165
+        ],
+        "height": [
+          30,
+          44
+        ],
+        "edge": 6,
+        "priority": 1
+      },
+      {
+        "id": "western-sea",
+        "kind": "sea",
+        "name": "The Western Sea",
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            16,
+            20
+          ],
+          [
+            13,
+            45
+          ],
+          [
+            17,
+            70
+          ],
+          [
+            15,
+            95
+          ],
+          [
+            19,
+            120
+          ],
+          [
+            17,
+            145
+          ],
+          [
+            20,
+            163
+          ],
+          [
+            22,
+            180
+          ],
+          [
+            25,
+            188
+          ],
+          [
+            30,
+            192
+          ],
+          [
+            32,
+            198
+          ],
+          [
+            33,
+            203
+          ],
+          [
+            31,
+            209
+          ],
+          [
+            26,
+            214
+          ],
+          [
+            21,
+            224
+          ],
+          [
+            19,
+            245
+          ],
+          [
+            16,
+            270
+          ],
+          [
+            18,
+            295
+          ],
+          [
+            18,
+            320
+          ],
+          [
+            0,
+            320
+          ]
+        ]
+      },
+      {
+        "id": "low-fen",
+        "kind": "marsh",
+        "name": "The Low Fen",
+        "box": [
+          185,
+          225,
+          235,
+          275
+        ]
+      }
+    ],
+    "rivers": [
+      {
+        "id": "river-dunn",
+        "name": "The River Dunn",
+        "source": [
+          172,
+          60
+        ],
+        "through": [
+          [
+            178,
+            84
+          ],
+          [
+            172,
+            106
+          ],
+          [
+            160,
+            124
+          ],
+          [
+            142,
+            126
+          ],
+          [
+            125,
+            120
+          ],
+          [
+            110,
+            132
+          ],
+          [
+            90,
+            150
+          ],
+          [
+            66,
+            166
+          ],
+          [
+            42,
+            178
+          ]
+        ],
+        "mouth": {
+          "region": "western-sea"
+        }
+      },
+      {
+        "id": "river-brann",
+        "name": "The River Brann",
+        "source": [
+          188,
+          138
+        ],
+        "through": [
+          [
+            180,
+            150
+          ],
+          [
+            168,
+            162
+          ],
+          [
+            160,
+            172
+          ],
+          [
+            164,
+            190
+          ],
+          [
+            178,
+            208
+          ],
+          [
+            192,
+            226
+          ]
+        ],
+        "mouth": {
+          "region": "low-fen"
+        }
+      },
+      {
+        "id": "river-corrin",
+        "name": "The Corrin",
+        "source": [
+          76,
+          180
+        ],
+        "through": [
+          [
+            64,
+            184
+          ],
+          [
+            52,
+            189
+          ],
+          [
+            42,
+            192
+          ]
+        ],
+        "mouth": {
+          "region": "western-sea"
+        }
+      },
+      {
+        "id": "river-tey",
+        "name": "The Tey",
+        "source": [
+          82,
+          224
+        ],
+        "through": [
+          [
+            68,
+            218
+          ],
+          [
+            55,
+            212
+          ],
+          [
+            44,
+            208
+          ]
+        ],
+        "mouth": {
+          "region": "western-sea"
+        }
+      }
+    ],
+    "roads": []
+  },
+  "overlays": {
+    "ostrey-then": {
+      "add": {
+        "places": [
+          {
+            "id": "caer-dunholm",
+            "at": [
+              120,
+              20
+            ],
+            "name": "Caer Dunholm",
+            "kind": "fortress"
+          },
+          {
+            "id": "kingsholm",
+            "at": [
+              125,
+              120
+            ],
+            "name": "Kingsholm",
+            "kind": "city"
+          },
+          {
+            "id": "shrine-of-saint-ivo",
+            "at": [
+              150,
+              220
+            ],
+            "name": "The shrine of Saint Ivo",
+            "kind": "custom",
+            "custom_kind": "shrine"
+          },
+          {
+            "id": "corrin",
+            "at": [
+              33,
+              193
+            ],
+            "name": "Corrin",
+            "kind": "town"
+          },
+          {
+            "id": "tey",
+            "at": [
+              35,
+              207
+            ],
+            "name": "Tey",
+            "kind": "town"
+          },
+          {
+            "id": "fennick",
+            "at": [
+              205,
+              245
+            ],
+            "name": "Fennick",
+            "kind": "town"
+          },
+          {
+            "id": "brannocks-ford",
+            "kind": "custom",
+            "custom_kind": "crossing",
+            "at": [
+              160,
+              172
+            ]
+          }
+        ],
+        "roads": [
+          {
+            "id": "brannocks-ford-to-the-shrine-of-saint-ivo",
+            "from": "brannocks-ford",
+            "to": "shrine-of-saint-ivo",
+            "via": [
+              [
+                156,
+                196
+              ]
+            ],
+            "kind": "road"
+          },
+          {
+            "id": "kingsholm-to-brannocks-ford",
+            "from": "kingsholm",
+            "to": "brannocks-ford",
+            "via": [
+              [
+                140,
+                140
+              ],
+              [
+                152,
+                158
+              ]
+            ],
+            "kind": "road"
+          },
+          {
+            "id": "kingsholm-to-corrin",
+            "from": "kingsholm",
+            "to": "corrin",
+            "via": [
+              [
+                105,
+                142
+              ],
+              [
+                80,
+                162
+              ],
+              [
+                55,
+                182
+              ],
+              [
+                40,
+                190
+              ]
+            ],
+            "kind": "road"
+          },
+          {
+            "id": "kingsholm-to-the-shrine-at-kell",
+            "from": "kingsholm",
+            "to": "shrine-at-kell",
+            "via": [
+              [
+                118,
+                165
+              ]
+            ],
+            "kind": "road"
+          }
+        ],
+        "features": [
+          {
+            "id": "ostrey",
+            "name": "Ostrey",
+            "kind": "border",
+            "polygon": [
+              [
+                20,
+                60
+              ],
+              [
+                240,
+                60
+              ],
+              [
+                240,
+                320
+              ],
+              [
+                20,
+                320
+              ]
+            ]
+          },
+          {
+            "id": "march-of-gauntry",
+            "name": "The March of Gauntry",
+            "kind": "border",
+            "polygon": [
+              [
+                70,
+                255
+              ],
+              [
+                190,
+                255
+              ],
+              [
+                190,
+                320
+              ],
+              [
+                70,
+                320
+              ]
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "region:low-fen": {
+          "hide": true
+        },
+        "place:brannocks-ford": {
+          "hide": true
+        }
+      }
+    },
+    "land-today": {
+      "add": {
+        "places": [
+          {
+            "id": "coldharrow",
+            "at": [
+              120,
+              20
+            ],
+            "name": "Coldharrow",
+            "kind": "fortress"
+          },
+          {
+            "id": "kingsholm",
+            "at": [
+              125,
+              120
+            ],
+            "name": "Kingsholm",
+            "kind": "ruin"
+          },
+          {
+            "id": "brannocks-ford",
+            "at": [
+              160,
+              172
+            ],
+            "name": "Brannock's Ford",
+            "kind": "town"
+          },
+          {
+            "id": "wenlow",
+            "at": [
+              148,
+              200
+            ],
+            "name": "Wenlow",
+            "kind": "town"
+          },
+          {
+            "id": "wendle",
+            "at": [
+              144,
+              256
+            ],
+            "name": "Wendle",
+            "kind": "town"
+          },
+          {
+            "id": "saint-ivos",
+            "at": [
+              150,
+              220
+            ],
+            "name": "Saint Ivo's",
+            "kind": "town"
+          },
+          {
+            "id": "stannard",
+            "at": [
+              130,
+              285
+            ],
+            "name": "Stannard",
+            "kind": "town"
+          },
+          {
+            "id": "corrantey",
+            "at": [
+              35,
+              200
+            ],
+            "name": "Corrantey",
+            "kind": "city"
+          },
+          {
+            "id": "fennick",
+            "at": [
+              205,
+              245
+            ],
+            "name": "Fennick",
+            "kind": "ruin"
+          }
+        ],
+        "roads": [
+          {
+            "id": "dawnwatch-keep-to-brannocks-ford",
+            "from": "dawnwatch-keep",
+            "to": "brannocks-ford",
+            "via": [
+              [
+                160,
+                161
+              ]
+            ],
+            "kind": "trail",
+            "target_length": 22,
+            "tolerance": 0.1
+          },
+          {
+            "id": "brannocks-ford-to-saint-ivos",
+            "from": "brannocks-ford",
+            "to": "saint-ivos",
+            "via": [
+              "wenlow"
+            ],
+            "kind": "road",
+            "target_length": 72,
+            "tolerance": 0.1
+          },
+          {
+            "id": "saint-ivos-to-stannard",
+            "from": "saint-ivos",
+            "to": "stannard",
+            "via": [
+              [
+                138,
+                252
+              ]
+            ],
+            "kind": "road",
+            "target_length": 72,
+            "tolerance": 0.1
+          },
+          {
+            "id": "saint-ivos-to-corrantey",
+            "from": "saint-ivos",
+            "to": "corrantey",
+            "via": [
+              [
+                110,
+                222
+              ],
+              [
+                72,
+                202
+              ],
+              [
+                50,
+                200
+              ]
+            ],
+            "kind": "road",
+            "target_length": 120,
+            "tolerance": 0.1
+          }
+        ],
+        "features": [
+          {
+            "id": "gaunt",
+            "name": "Gaunt",
+            "kind": "border",
+            "polygon": [
+              [
+                70,
+                255
+              ],
+              [
+                190,
+                255
+              ],
+              [
+                190,
+                320
+              ],
+              [
+                70,
+                320
+              ]
+            ]
+          },
+          {
+            "id": "ashby-field",
+            "name": "Ashby Field",
+            "kind": "battle-site",
+            "at": [
+              140,
+              250
+            ]
+          }
+        ]
+      },
+      "labels": {}
+    },
+    "act-1": {
+      "add": {
+        "places": [
+          {
+            "id": "coldharrow",
+            "at": [
+              120,
+              20
+            ],
+            "name": "Coldharrow",
+            "kind": "fortress"
+          },
+          {
+            "id": "kingsholm",
+            "at": [
+              125,
+              120
+            ],
+            "name": "Kingsholm",
+            "kind": "ruin"
+          },
+          {
+            "id": "brannocks-ford",
+            "at": [
+              160,
+              172
+            ],
+            "name": "Brannock's Ford",
+            "kind": "town"
+          },
+          {
+            "id": "wenlow",
+            "at": [
+              148,
+              200
+            ],
+            "name": "Wenlow",
+            "kind": "town"
+          },
+          {
+            "id": "wendle",
+            "at": [
+              144,
+              256
+            ],
+            "name": "Wendle",
+            "kind": "town"
+          },
+          {
+            "id": "saint-ivos",
+            "at": [
+              150,
+              220
+            ],
+            "name": "Saint Ivo's",
+            "kind": "town"
+          },
+          {
+            "id": "stannard",
+            "at": [
+              130,
+              285
+            ],
+            "name": "Stannard",
+            "kind": "town"
+          },
+          {
+            "id": "corrantey",
+            "at": [
+              35,
+              200
+            ],
+            "name": "Corrantey",
+            "kind": "city"
+          },
+          {
+            "id": "fennick",
+            "at": [
+              205,
+              245
+            ],
+            "name": "Fennick",
+            "kind": "ruin"
+          }
+        ],
+        "roads": [
+          {
+            "id": "dawnwatch-keep-to-brannocks-ford",
+            "from": "dawnwatch-keep",
+            "to": "brannocks-ford",
+            "via": [
+              [
+                160,
+                161
+              ]
+            ],
+            "kind": "trail",
+            "target_length": 22,
+            "tolerance": 0.1
+          },
+          {
+            "id": "brannocks-ford-to-saint-ivos",
+            "from": "brannocks-ford",
+            "to": "saint-ivos",
+            "via": [
+              "wenlow"
+            ],
+            "kind": "road",
+            "target_length": 72,
+            "tolerance": 0.1
+          },
+          {
+            "id": "saint-ivos-to-stannard",
+            "from": "saint-ivos",
+            "to": "stannard",
+            "via": [
+              [
+                138,
+                252
+              ]
+            ],
+            "kind": "road",
+            "target_length": 72,
+            "tolerance": 0.1
+          },
+          {
+            "id": "saint-ivos-to-corrantey",
+            "from": "saint-ivos",
+            "to": "corrantey",
+            "via": [
+              [
+                110,
+                222
+              ],
+              [
+                72,
+                202
+              ],
+              [
+                50,
+                200
+              ]
+            ],
+            "kind": "road",
+            "target_length": 120,
+            "tolerance": 0.1
+          }
+        ],
+        "features": [
+          {
+            "id": "gaunt",
+            "name": "Gaunt",
+            "kind": "border",
+            "polygon": [
+              [
+                70,
+                255
+              ],
+              [
+                190,
+                255
+              ],
+              [
+                190,
+                320
+              ],
+              [
+                70,
+                320
+              ]
+            ]
+          },
+          {
+            "id": "ashby-field",
+            "name": "Ashby Field",
+            "kind": "battle-site",
+            "at": [
+              140,
+              250
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "region:grey-teeth": {
+          "hide": true
+        },
+        "feature:gaunt": {
+          "hide": true
+        },
+        "feature:ashby-field": {
+          "hide": true
+        },
+        "river:river-corrin": {
+          "hide": true
+        },
+        "river:river-tey": {
+          "hide": true
+        }
+      }
+    },
+    "act-2": {
+      "add": {
+        "places": [
+          {
+            "id": "coldharrow",
+            "at": [
+              120,
+              20
+            ],
+            "name": "Coldharrow",
+            "kind": "fortress"
+          },
+          {
+            "id": "kingsholm",
+            "at": [
+              125,
+              120
+            ],
+            "name": "Kingsholm",
+            "kind": "ruin"
+          },
+          {
+            "id": "brannocks-ford",
+            "at": [
+              160,
+              172
+            ],
+            "name": "Brannock's Ford",
+            "kind": "town"
+          },
+          {
+            "id": "wenlow",
+            "at": [
+              148,
+              200
+            ],
+            "name": "Wenlow",
+            "kind": "town"
+          },
+          {
+            "id": "wendle",
+            "at": [
+              144,
+              256
+            ],
+            "name": "Wendle",
+            "kind": "town"
+          },
+          {
+            "id": "saint-ivos",
+            "at": [
+              150,
+              220
+            ],
+            "name": "Saint Ivo's",
+            "kind": "town"
+          },
+          {
+            "id": "stannard",
+            "at": [
+              130,
+              285
+            ],
+            "name": "Stannard",
+            "kind": "town"
+          },
+          {
+            "id": "corrantey",
+            "at": [
+              35,
+              200
+            ],
+            "name": "Corrantey",
+            "kind": "city"
+          },
+          {
+            "id": "fennick",
+            "at": [
+              205,
+              245
+            ],
+            "name": "Fennick",
+            "kind": "ruin"
+          }
+        ],
+        "roads": [
+          {
+            "id": "dawnwatch-keep-to-brannocks-ford",
+            "from": "dawnwatch-keep",
+            "to": "brannocks-ford",
+            "via": [
+              [
+                160,
+                161
+              ]
+            ],
+            "kind": "trail",
+            "target_length": 22,
+            "tolerance": 0.1
+          },
+          {
+            "id": "brannocks-ford-to-saint-ivos",
+            "from": "brannocks-ford",
+            "to": "saint-ivos",
+            "via": [
+              "wenlow"
+            ],
+            "kind": "road",
+            "target_length": 72,
+            "tolerance": 0.1
+          },
+          {
+            "id": "saint-ivos-to-stannard",
+            "from": "saint-ivos",
+            "to": "stannard",
+            "via": [
+              [
+                138,
+                252
+              ]
+            ],
+            "kind": "road",
+            "target_length": 72,
+            "tolerance": 0.1
+          },
+          {
+            "id": "saint-ivos-to-corrantey",
+            "from": "saint-ivos",
+            "to": "corrantey",
+            "via": [
+              [
+                110,
+                222
+              ],
+              [
+                72,
+                202
+              ],
+              [
+                50,
+                200
+              ]
+            ],
+            "kind": "road",
+            "target_length": 120,
+            "tolerance": 0.1
+          }
+        ],
+        "features": [
+          {
+            "id": "gaunt",
+            "name": "Gaunt",
+            "kind": "border",
+            "polygon": [
+              [
+                70,
+                255
+              ],
+              [
+                190,
+                255
+              ],
+              [
+                190,
+                320
+              ],
+              [
+                70,
+                320
+              ]
+            ]
+          },
+          {
+            "id": "ashby-field",
+            "name": "Ashby Field",
+            "kind": "battle-site",
+            "at": [
+              140,
+              250
+            ]
+          }
+        ]
+      },
+      "labels": {}
+    }
+  },
+  "variants": [
+    {
+      "name": "ostrey-then",
+      "overlay": "ostrey-then",
+      "crop": [
+        0,
+        0,
+        240,
+        320
+      ],
+      "page": {
+        "w_mm": 167,
+        "h_mm": 250
+      },
+      "extras": {
+        "cartouche": {
+          "title": "Ostrey"
+        }
+      }
+    },
+    {
+      "name": "land-today",
+      "overlay": "land-today",
+      "crop": [
+        0,
+        0,
+        240,
+        320
+      ],
+      "page": {
+        "w_mm": 167,
+        "h_mm": 250
+      },
+      "extras": {
+        "cartouche": {
+          "title": "The Land"
+        }
+      }
+    },
+    {
+      "name": "act-1",
+      "overlay": "act-1",
+      "crop": [
+        60.0,
+        109.4,
+        234.0,
+        232.6
+      ],
+      "page": {
+        "w_mm": 167,
+        "h_mm": 120
+      },
+      "extras": {
+        "cartouche": {
+          "title": "The Wolds and Saint Ivo's"
+        }
+      }
+    },
+    {
+      "name": "act-2",
+      "overlay": "act-2",
+      "crop": [
+        10.0,
+        0,
+        230.0,
+        320
+      ],
+      "page": {
+        "w_mm": 167,
+        "h_mm": 250
+      },
+      "extras": {
+        "cartouche": {
+          "title": "The South"
+        }
+      }
+    }
+  ],
+  "render": {
+    "mode": "print-safe",
+    "fonts": {
+      "title": "IM Fell English",
+      "labels": "IM Fell English",
+      "labels_sc": "IM Fell English SC",
+      "other": "Caladea"
+    },
+    "min_line_width_pt": 0.5,
+    "labels": {
+      "generated": false,
+      "check_generated": true
+    },
+    "relief": {
+      "density": 0.35,
+      "hide": [
+        "tree",
+        "marsh"
+      ]
+    },
+    "extras": {
+      "scale_bar": true,
+      "compass": true
+    },
+    "layers": [
+      "ocean",
+      "coast",
+      "relief",
+      "rivers",
+      "regions",
+      "roads",
+      "features",
+      "places",
+      "labels"
+    ]
+  }
+}
