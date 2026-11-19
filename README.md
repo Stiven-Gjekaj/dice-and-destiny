@@ -73,7 +73,7 @@ files for a hardcover or a paperback.
 
 ### The Player's Compendium
 
-282 pages, A4.
+288 pages, A4.
 
 - A guide for a new player: dice, abilities, combat, magic, and level up.
 - All twelve SRD classes, with level tables and the full rules text.
@@ -86,7 +86,7 @@ files for a hardcover or a paperback.
 
 ### The Game Master's Compendium
 
-463 pages, A4.
+469 pages, A4.
 
 - A guide for a new GM: rolls, combat, encounters, travel, and prep.
 - The full SRD bestiary and all SRD magic items.
