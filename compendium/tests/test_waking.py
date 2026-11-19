@@ -543,3 +543,10 @@ def test_the_black_stone_in_lower_case_gets_a_marker():
     W.mark_mentions("<p>The black stone hums. She wants the Black Stone. Two black stones.</p>", es)
     assert [n for n, _, _ in W.IDX] == ["The Black Stone", "The Black Stone"]
     assert W.named_in("The Black Stone", [(4, "ch4", "the black stone hums"), (5, "ch5", "a stone")]) == [4]
+
+
+def test_a_half_of_the_city_is_the_old_town_and_not_the_river():
+    es = [dict(kind="place", name="The Corrin", anchor="l-the-corrin", obj=None),
+          dict(kind="place", name="Corrin", anchor="l-corrin", obj=None)]
+    W.mark_mentions("<p>The Corrin runs past the Corrin side and the Corrin half. The Corrin sides with nobody.</p>", es)
+    assert [n for n, _, _ in W.IDX] == ["The Corrin", "Corrin", "Corrin", "The Corrin"]

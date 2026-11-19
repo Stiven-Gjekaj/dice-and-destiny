@@ -374,12 +374,18 @@ def mention_pattern(names):
     return re.compile(r"(?<![\w])(" + "|".join(_name_regex(n) for n in names) + r")(?![\w])")
 
 
+# A name that does not match before these words. "The Corrin side" and "the Tey half" are the halves of
+# Corrantey, the old towns, not the rivers. The shorter name ("Corrin", "Tey") matches them.
+NOT_BEFORE = {"The Corrin": r"\s+(?:side|half)\b", "The Tey": r"\s+(?:side|half)\b"}
+
+
 def _name_regex(name):
     """A name that starts with "The" also matches with "the", as in "they carry the Fennick Candle".
     A space in a name matches any white space, so a name can wrap over a line break of the source."""
+    stop = f"(?!{NOT_BEFORE[name]})" if name in NOT_BEFORE else ""
     if name.startswith("The "):
-        return r"[Tt]he\s+" + _words(name[4:])
-    return _words(name)
+        return r"[Tt]he\s+" + _words(name[4:]) + stop
+    return _words(name) + stop
 
 
 def _words(name):
