@@ -392,24 +392,24 @@ players can see the costs and plan.
 > - **Tool:** Tinker's Tools
 > - **Materials:** 1 Storm Pearl (Rare, worth 500 GP) and 1 Wisp Spark
 >   (Common, worth 10 GP)
-> - **Gold:** 1,100 GP
-> - **Workdays:** 40
+> - **Gold:** 1,490 GP
+> - **Workdays:** 50
 > - **Check:** DC 15 with Tinker's Tools
 >
 > The guild has a Wisp Spark in its stores. Perrin sells it at its full value,
 > 10 GP. Four masters of the guild work on the lantern together. Each day of
-> four crafters counts as four workdays, so the lantern takes 10 days.
+> four crafters counts as four workdays, so the lantern takes 13 days.
 
 {{treasure: Storm Lantern of Corrantey}}
 
 > **GM tip: why the numbers work.** The Storm Lantern is a recipe that this
 > book makes with the rules in Making Your Own Recipes, in the Crafting and
-> Gathering chapter of the Game Master's Compendium. A Rare item costs about
-> 2,000 GP and 50 workdays to craft. The recipe costs 1,610 GP in all (1,100
-> GP in gold and 510 GP in materials) and takes 40 workdays. If the party
-> harvests the Storm Pearl itself, it pays only 1,110 GP. That is the small
-> saving that the system promises: about a quarter of the cost of a Rare
-> item, never more.
+> Gathering chapter of the Game Master's Compendium. A Rare item costs 2,000
+> GP and 50 workdays to craft. The recipe costs 2,000 GP in all (1,490 GP in
+> gold and 510 GP in materials) and takes 50 workdays. If the party
+> harvests the Storm Pearl itself, it pays only 1,500 GP. That is the small
+> saving that the system promises: the value of the materials that you
+> gather yourself, here a quarter of the cost of a Rare item, never more.
 
 ### Who Does the Work
 
@@ -425,7 +425,7 @@ the player wants to. Players like to roll for their own items. Let them.
 The party pays the gold. Perrin does not take a fee for the work: "A
 Lampwright never charges a Sleeper. I just decided that. It is a new rule."
 
-> **GM tip:** The party may not have 1,100 GP now. That is fine. Perrin
+> **GM tip:** The party may not have 1,490 GP now. That is fine. Perrin
 > starts the work when the Storm Pearl arrives, and the party can pay at the
 > end of the chapter. After Lamplight Night, the guild pays half of the gold
 > as thanks (see Rewards).
@@ -1045,9 +1045,9 @@ The guild finishes the work in the days after the festival:
   them at the same time. Roll one DC 13 check with Alchemist's Supplies (+7)
   for each potion. On a failure, the masters lose half of the gold for that
   potion and must start it again, but they keep the Kelp Heart.
-- **The Storm Lantern of Corrantey** takes 10 days, with four masters. Roll
+- **The Storm Lantern of Corrantey** takes 13 days, with four masters. Roll
   one DC 15 check with Tinker's Tools (+7). On a failure, the masters lose
-  550 GP and the 10 days, and they start again with the same materials.
+  745 GP and the 13 days, and they start again with the same materials.
 
 If a character works with the masters, that character can make the check in
 place of a master.
@@ -1070,7 +1070,7 @@ place of a master.
 
 ## Downtime in Corrantey
 
-The crafting takes 5 to 10 days. The party may want to stay in the city
+The crafting takes 5 to 13 days. The party may want to stay in the city
 while the masters work. Use this section for those days. Each day, a
 character can do one of the things below, or a downtime activity from the
 Game Master's Compendium.
@@ -1126,7 +1126,7 @@ Tools must make it alone.
 | The Skerrows | 640 GP in coins, a silver compass (50 GP), the logbook of the *Merry Tern* |
 | The Skerrows | Kelp Hearts (up to 8), Storm Pearls (up to 2), an Elemental Mote (if the party fought the elemental) |
 | Lamplight Night | Ilse's purse, if the party catches her: 150 GP and a ring of the Gaunt spy service (worth 100 GP, and it opens doors in Stannard) |
-| The guild | After the raid, the guild pays half of the gold for the Storm Lantern (550 GP back to the party), and 300 GP more for the defense of the hall |
+| The guild | After the raid, the guild pays half of the gold for the Storm Lantern (745 GP back to the party), and 300 GP more for the defense of the hall |
 | The guild | The First Lamp (Very Rare), from Perrin Hale |
 | Crafted | The Storm Lantern of Corrantey (Rare) |
 | Crafted | One Potion of Water Breathing for each Kelp Heart that the party brought |
