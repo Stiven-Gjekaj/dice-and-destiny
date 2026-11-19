@@ -789,7 +789,7 @@ on the Longest Night. An old priest lived there alone.
 
 **Now.** The hill is still lonely. The chapel has no roof and no priest.
 The standing stones are still there, and one of them has fallen. The
-Church calls Kell "the old shrine" and sends nobody, because it is two
+Church calls Kell "the old shrine" and sends nobody, because it is three
 days from Saint Ivo's with no road, and nothing of the Five is there.
 
 In the last few years, shepherds and hunters avoid the hill. They say that
