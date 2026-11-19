@@ -55,7 +55,9 @@ CHARACTER_AREAS = [
     {"id": "east-wood", "character": "wooded", "circle": {"at": [215, 195], "r": 20}, "strength": 0.7},
     {"id": "gaunt-farmland", "character": "flat", "box": [40, 235, 185, 320], "strength": 0.7},
 ]  # the generated rivers with the most water that the maps keep
-RELIEF = {"density": 0.6}  # the part of the relief symbols that the print maps keep
+# The print maps keep this part of the relief symbols. The marsh symbols stand only
+# in the Low Fen, not on the wet strips of the coast.
+RELIEF = {"density": 0.6, "only_in": {"marsh": ["low-fen"]}}
 # The regions that did not exist 300 years ago. The old map shows no symbols in them.
 THEN_HIDE_RELIEF = ["low-fen", "kingsholm-wood"]
 
@@ -266,8 +268,9 @@ def build(places):
                    "crop": crop, "page": {"w_mm": w_mm, "h_mm": h_mm},
                    "extras": {"cartouche": {"title": m["title"]}}}
         if era == "then":
-            # No marsh at all: the wet land of today came with the flood.
-            variant["relief"] = dict(RELIEF, hide=["marsh"], hide_in=THEN_HIDE_RELIEF)
+            # The fen and the wood came after the Grey Winter. The variant keeps the
+            # other relief options of the render.
+            variant["relief"] = {"hide_in": THEN_HIDE_RELIEF}
         variants.append(variant)
 
     return {

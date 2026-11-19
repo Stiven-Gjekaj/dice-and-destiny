@@ -90,6 +90,5 @@ def test_only_the_old_map_hides_the_relief_of_the_new_age():
     land["maps"]["ostrey-then"] = dict(era="then", size_mm=[167, 250], bounds_miles=[0, 0, 100, 100],
                                        title="Ostrey")
     variants = {v["name"]: v for v in inkland_config.build(land)["variants"]}
-    assert variants["ostrey-then"]["relief"]["hide_in"] == inkland_config.THEN_HIDE_RELIEF
-    assert "marsh" in variants["ostrey-then"]["relief"]["hide"]
+    assert variants["ostrey-then"]["relief"] == {"hide_in": inkland_config.THEN_HIDE_RELIEF}
     assert "relief" not in variants["land-today"]

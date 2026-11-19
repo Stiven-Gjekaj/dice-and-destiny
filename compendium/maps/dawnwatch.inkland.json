@@ -3121,10 +3121,6 @@
         }
       },
       "relief": {
-        "density": 0.6,
-        "hide": [
-          "marsh"
-        ],
         "hide_in": [
           "low-fen",
           "kingsholm-wood"
@@ -3203,7 +3199,12 @@
       "check_generated": true
     },
     "relief": {
-      "density": 0.6
+      "density": 0.6,
+      "only_in": {
+        "marsh": [
+          "low-fen"
+        ]
+      }
     },
     "hand_drawn": true,
     "river_contrast": 0.8,
