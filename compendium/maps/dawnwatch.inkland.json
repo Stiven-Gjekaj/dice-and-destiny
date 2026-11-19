@@ -320,7 +320,8 @@
         ],
         "mouth": {
           "region": "western-sea"
-        }
+        },
+        "main": true
       },
       {
         "id": "river-brann",

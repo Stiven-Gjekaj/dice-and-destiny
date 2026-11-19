@@ -38,6 +38,7 @@ ROAD_TARGETS = {
 ROAD_TOLERANCE = 0.1
 
 RIVER_LIMIT = 8
+MAIN_RIVERS = ("The River Dunn",)  # drawn at least as wide as the largest other river
 LOWLAND_TOP = 76  # miles: the lowland starts south of the soft edge of the Grey Teeth
 
 # The character of the land outside the named regions. An area steers the heights,
@@ -210,8 +211,11 @@ def build(places):
     for r in places["rivers"]:
         pts = r["points"]
         mouth = {"region": "low-fen"} if r["name"] == "The River Brann" else {"region": "western-sea"}
-        rivers.append({"id": river_id(r["name"]), "name": r["name"], "source": pts[0],
-                       "through": pts[1:-1], "mouth": mouth})
+        river = {"id": river_id(r["name"]), "name": r["name"], "source": pts[0],
+                 "through": pts[1:-1], "mouth": mouth}
+        if r["name"] in MAIN_RIVERS:
+            river["main"] = True
+        rivers.append(river)
 
     # On the old map, a road ends at the old name of a place. The ford was a crossing
     # with no village, so the old map gets an unnamed point there.
