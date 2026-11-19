@@ -108,8 +108,9 @@ Compendiums.
 - Read-aloud text, a box for each new rule, and a Scaling box for 3 to 6
   characters in each fight.
 - A player's guide with no spoilers, and a gazetteer of the land of today.
-- New creatures, people, and treasures, each in an appendix from A to Z.
-- Maps, handouts, and an index of each name.
+- 12 new creatures, 24 people, and 13 treasures, each in an appendix from A
+  to Z.
+- 4 maps, 11 handouts, and an index of each name.
 
 </td>
 </tr>
