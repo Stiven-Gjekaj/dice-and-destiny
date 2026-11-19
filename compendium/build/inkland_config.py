@@ -276,7 +276,7 @@ def build(places):
         # Only the pins are places, and only the pinned seas are water.
         "world": {"cells": 20000, "template": "pangea", "states": 0, "towns": 0,
                   "fill_land": True, "river_limit": RIVER_LIMIT, "jitter": 0.9,
-                  "climate": {"latitude_range": [42, 48]}},
+                  "climate": {"latitude_range": [48, 54], "preset": "temperate"}},
         "pins": {"points": [], "regions": regions,
                  "areas": CHARACTER_AREAS,
                  "rivers": rivers, "roads": []},
