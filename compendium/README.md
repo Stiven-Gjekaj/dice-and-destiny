@@ -139,6 +139,31 @@ A chapter puts a map in the book with the directive `{{map: id}}`.
 
   A test fails when the file does not match `places.py`.
 
+### Make the final maps with inkland
+
+[inkland](https://github.com/Stiven-Gjekaj/inkland) 1.1.1 or later draws the
+final maps from `maps/places.json`.
+
+1. Write the inkland config again from `places.json`:
+
+       python3 build/inkland_config.py
+
+   This writes `maps/dawnwatch.inkland.json`. A test fails when the file
+   does not match `places.json`.
+
+2. Make the maps into a folder outside the repository:
+
+       inkland generate --config maps/dawnwatch.inkland.json --out-dir OUT --preview OUT/preview.png
+
+3. Read each `OUT/<id>.report.json`. Each check must pass. The check
+   `no_generated_labels` fails if a map shows a name that `places.json`
+   does not give.
+4. Look at each `OUT/preview-<id>.png`.
+5. Copy each `OUT/<id>.svg` to `maps/<id>.svg`.
+
+The seed is in `SEED` in `build/inkland_config.py`. The same seed and the
+same `places.json` give the same maps.
+
 ### Look at the maps, and the release check
 
 - `python3 build/maps.py FOLDER --png` writes each map as an SVG, an HTML
