@@ -1008,8 +1008,10 @@ The First Lamp is a piece of the Dawnfire. Give it to the party.
 > their best answer to the dark. It also makes them a target: any creature
 > that carries a piece of the crystal of the Unlit King can feel the Lamp from
 > a mile away. That includes the Hush, and it includes the party's own black
-> stone, which now hums whenever the Lamp is near. Tell the bearer of the
-> black stone. Let them wonder what that means.
+> stone. When Perrin gives the party the Lamp, the stone hums once, long and
+> low, and then it is quiet again. It does not hum each time the Lamp is
+> near, so its hum near the Hush still means something. Tell the bearer of
+> the black stone. Let them wonder what that means.
 
 **If Gaunt took the Lamp:** Perrin does not have the Lamp to give. He gives
 the party the ledger page and a letter to the council, and he says that the
