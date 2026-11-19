@@ -892,8 +892,9 @@ fog near them: the Hush wants the Dawnwatch busy, or dead.
 - **Ending the grey:** the fog ends when both choirs are destroyed, or when
   a creature casts a spell of level 3 or higher that makes light or wind in
   the fog (such as Daylight or Gust of Wind cast with a slot of level 3 or
-  higher). A Dispel Magic from the Storm Lantern also ends it, in a
-  60-foot radius around the lantern.
+  higher). A Dispel Magic from the Storm Lantern, cast on the fog, does not
+  end all of it: as a rule of this field, it ends the fog within 60 feet of
+  the lantern, and the fog does not come back there.
 
 **Tactics:** The choirs move into the characters' spaces and attack with
 their knives and cudgels, and they use Hymn of Quiet as often as they can,

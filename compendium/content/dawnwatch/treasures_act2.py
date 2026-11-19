@@ -25,7 +25,7 @@ ITEMS = [
  "A hooded lantern of blue glass and brass, made by the Lampwrights of Corrantey. It sheds Bright Light in a 30-foot radius and Dim Light for 30 feet more. "
  "Its flame needs no oil, and only magic can put it out. A creature with the Invisible condition in its Bright Light shows as a faint outline of blue sparks, "
  "so it gains no benefit from being Invisible against you and your allies. Once per dawn, as a Magic action, you can open the hood and cast Dispel Magic. "
- "The spell can target only a spell that makes Darkness or the Invisible condition."),
+ "The spell can target only a spell or a magical effect that makes Darkness, magical fog, or the Invisible condition."),
 ("The Dawn Banner", W, "Rare", A,
  "The last war banner of the Dawnwatch: a gold sun on a field of dark blue, faded and patched. As a Bonus Action, you can plant it in the ground within 5 feet of you. "
  "While it stands, you and your allies within 30 feet of it have Advantage on saving throws against the Frightened condition. "
