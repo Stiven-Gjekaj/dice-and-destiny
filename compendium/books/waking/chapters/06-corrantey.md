@@ -774,7 +774,7 @@ XP, a High fight.
 ### The Wardens and Wick
 
 The Brass Lamp Warden knows the work of its own maker, and Wick is the
-only other thing that Haskel Orme made with a voice. So the Warden does
+only work of Haskel Orme that can speak to it. So the Warden does
 not attack the character who carries Wick (unless that character attacks
 it first), but it does attack the other characters, the agents of Gaunt,
 and anyone else in its way. The mark on the foot of the First Lamp does
