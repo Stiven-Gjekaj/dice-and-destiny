@@ -547,6 +547,10 @@ def mark_mentions(h, es, screen=False):
 # A term has no appendix entry, so it has no link.
 INDEX_TERMS = [
     ("Wick", ["Wick"]),
+    ("Malgrath, the Unlit King", ["Malgrath", "Unlit King"]),
+    ("The Morning Flame", ["Morning Flame"]),
+    ("The Grey Winter", ["Grey Winter"]),
+    ("The Dawn Door", ["Dawn Door"]),
     ("The Hush", ["Hush"]),
     ("Church of the Five Sleepers", ["Church of the Five Sleepers", "Church"]),
     ("Lampwrights", ["Lampwrights", "Lampwright"]),

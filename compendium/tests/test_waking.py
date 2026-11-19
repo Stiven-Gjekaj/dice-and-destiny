@@ -550,3 +550,9 @@ def test_a_half_of_the_city_is_the_old_town_and_not_the_river():
           dict(kind="place", name="Corrin", anchor="l-corrin", obj=None)]
     W.mark_mentions("<p>The Corrin runs past the Corrin side and the Corrin half. The Corrin sides with nobody.</p>", es)
     assert [n for n, _, _ in W.IDX] == ["The Corrin", "Corrin", "Corrin", "The Corrin"]
+
+
+def test_the_unlit_king_and_malgrath_are_one_index_term_that_the_unlit_knight_does_not_match():
+    es = W.index_terms([], [("Malgrath, the Unlit King", ["Malgrath", "Unlit King"])])
+    W.mark_mentions("<p>Malgrath, the Unlit King, sends the Unlit Knight.</p>", es)
+    assert [n for n, _, _ in W.IDX] == ["Malgrath, the Unlit King", "Malgrath, the Unlit King"]
