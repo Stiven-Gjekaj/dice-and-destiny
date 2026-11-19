@@ -13,6 +13,7 @@ HUSH_SIGN = ("Hush Sign", "The Hush speaks little. Its members talk to each othe
 
 MON = [
 M("Hush Snuffer", "M", "Humanoid", "Lawful Evil", 0.5, "10 14 12 10 12 11", ac=13, skills="Stealth", lang="Common, Hush Sign",
+  senses="Darkvision 60 ft.",
   traits=[HUSH_SIGN,
           ("Grey Step", "The snuffer has Advantage on Dexterity (Stealth) checks while it is in Dim Light or Darkness.")],
   attacks=[("Hooked Snuffer", "f", "1d6", "Bludgeoning", "plus {1d4} Cold damage if the target is in Dim Light or Darkness")],
