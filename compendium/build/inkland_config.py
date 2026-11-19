@@ -37,7 +37,7 @@ ROAD_TARGETS = {
 }
 ROAD_TOLERANCE = 0.1
 
-RIVER_LIMIT = 8
+RIVER_LIMIT = 6
 MAIN_RIVERS = ("The River Dunn",)  # drawn at least as wide as the largest other river
 COAST_ROUGHNESS = 14  # miles; inkland keeps the coast towns on the coast
 COAST_WANDER = 12  # miles of long, slow bends in the coast line

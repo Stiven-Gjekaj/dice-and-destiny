@@ -17,7 +17,7 @@
     "states": 0,
     "towns": 0,
     "fill_land": true,
-    "river_limit": 8,
+    "river_limit": 6,
     "jitter": 0.9,
     "climate": {
       "latitude_range": [
