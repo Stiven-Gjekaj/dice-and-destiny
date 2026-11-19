@@ -86,7 +86,9 @@ long, then he is not the only one who has to answer that question. You do
 too.
 
 I pinned his badge to the crystal. It was the only honest thing that I
-could leave him.
+could leave him. I left him a lamp too, the first time that I came down
+here, so that he would not sleep in the dark. It will go out long before
+he wakes. I hope that he does not mind.
 
 Keep the watch. Wake the dawn. Forgive me if you can.
 

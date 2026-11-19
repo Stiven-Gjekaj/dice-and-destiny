@@ -935,6 +935,14 @@ At the foot of the coffin is a small box of stone, sealed with wax. On the
 wax is the mark of Haskel Orme: a sun inside a square. Wick knows it at
 once. It is the mark that the Lampwrights showed him in Corrantey.
 
+Next to the box stands an old lamp of brass, cold and black with soot,
+with the same mark on its foot. This is the lamp that Orme carried north
+to Kingsholm and came back without (the ledger of the Lampwrights,
+chapter 6). He lit the vault with it on the night that Garrath slept, and
+he left it there, so that the sleeper did not lie in the dark. It went out
+long ago. If a character puts it next to Wick, Wick is quiet for a long
+time. Then he says: "He gave him a light too. He gave everybody a light."
+
 Give the players the handout. Let one player read it aloud to the table,
 or let each player read it alone, in silence. Do not hurry this.
 
