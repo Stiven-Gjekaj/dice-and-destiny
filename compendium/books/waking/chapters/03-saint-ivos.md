@@ -724,9 +724,10 @@ answer.
 - **The bowl on the altar** is where the Ember of Saint Ivo burned until
   about year 150. Then the Church moved it upstairs, into the cathedral,
   and sealed the chapel. A character who makes a DC 12 Intelligence (Religion) check
-  understands: the shrine kept a piece of a holy fire, given by the king.
-  The Dawnwatch remember a coal in this bowl. Nobody told them what it
-  was.
+  understands: the shrine kept a piece of a holy fire here, given by the
+  king after the war. The Dawnwatch remember this bowl with an ordinary
+  fire in it, the fire of the evening prayer. The coal came later, while
+  they slept.
 - **The book on the shelf** is the guest book of the shrine. Give the
   players the handout.
 

@@ -537,11 +537,12 @@ way in.
 
 Three hundred years ago, the shrine at Kell was a ring of standing stones
 with a small chapel inside it. The Dawnwatch know it: soldiers went there
-to pray before a long march. In the chapel was a bowl of stone with a
-small fire in it that never went out.
+to pray before a long march. In the chapel was an empty bowl of stone on a
+low altar.
 
-That fire was a piece of the Dawnfire. Ostrey gave it to Kell, as it gave
-the Ember to the shrine of Saint Ivo. In the Broken Years, after the Grey
+After the war, while the Dawnwatch slept, Ostrey put a piece of the
+Dawnfire in that bowl, as it gave the Ember to the shrine of Saint Ivo.
+The steward told Wick about it. In the Broken Years, after the Grey
 Winter, the shrine was empty, and the fire went out. Nobody knows how. The
 stones have been cold since then.
 
