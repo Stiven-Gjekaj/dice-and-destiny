@@ -37,7 +37,21 @@ ROAD_TARGETS = {
 }
 ROAD_TOLERANCE = 0.1
 
-RIVER_LIMIT = 12  # the generated rivers with the most water that the maps keep
+RIVER_LIMIT = 12
+LOWLAND_TOP = 76  # miles: the lowland starts south of the soft edge of the Grey Teeth
+
+# The character of the land outside the named regions. An area steers the heights,
+# the biomes, and the relief symbols, and its edge is loose. The world bible gives
+# the foothills, the rolling land around the Wolds, the forest around Kingsholm,
+# and the farmland of Gaunt. The other woods are free.
+CHARACTER_AREAS = [
+    {"id": "foothills", "character": "rough", "box": [50, 28, 210, 78], "strength": 0.7},
+    {"id": "wolds-country", "character": "rolling", "box": [125, 115, 215, 185], "strength": 0.8},
+    {"id": "kingsholm-wood", "character": "wooded", "circle": {"at": [120, 112], "r": 22}},
+    {"id": "dunn-wood", "character": "wooded", "circle": {"at": [70, 140], "r": 26}, "strength": 0.8},
+    {"id": "east-wood", "character": "wooded", "circle": {"at": [215, 195], "r": 20}, "strength": 0.7},
+    {"id": "gaunt-farmland", "character": "flat", "box": [40, 235, 185, 320], "strength": 0.7},
+]  # the generated rivers with the most water that the maps keep
 RELIEF_DENSITY = 0.35  # the part of the relief symbols that the print maps keep
 
 # A road that passes a place of the map passes it by id. The bible puts Wenlow on the old road.
@@ -105,13 +119,6 @@ def _sea_polygon(coast, height):
     return [[0, 0], [pts[0][0], 0]] + pts + [[pts[-1][0], height], [0, height]]
 
 
-def _land_polygon(coast, width, y0, y1, height, amp=4):
-    """The land east of the coast line, from y0 to y1. An edge inside the frame is wavy."""
-    pts = [[x, y] for x, y in coast if y0 < y < y1]
-    first, last = _coast_x(coast, y0), _coast_x(coast, y1)
-    top = [[first, y0], [width, y0]] if y0 <= 0 else _wavy_y(f"land-{y0}", first, width, y0, amp)
-    bottom = [[width, y1], [last, y1]] if y1 >= height else _wavy_y(f"land-{y1}", width, last, y1, amp)
-    return top + bottom + pts[::-1]
 
 
 def _noise(rng, terms=7):
@@ -149,24 +156,8 @@ def organic_outline(key, box, frame, wobble=0.22, points=96):
     return [p for i, p in enumerate(out) if p != out[i - 1]]
 
 
-def _wavy_y(key, x0, x1, y, amp, step=4):
-    """Points from x0 to x1 near the line y, with a wave of up to amp.
-
-    The wave is 0 at the two ends, so the line still meets the coast and the frame.
-    """
-    noise = _noise(_rng(key))
-    n = max(2, int(abs(x1 - x0) / step))
-    return [[round(x0 + (x1 - x0) * i / n, 2),
-             round(y + amp * math.sin(math.pi * i / n) * noise(math.pi * i / n), 2)]
-            for i in range(n + 1)]
 
 
-def _coast_x(coast, y):
-    """The x of the coast line at y, by straight lines between its points."""
-    for (xa, ya), (xb, yb) in zip(coast, coast[1:]):
-        if ya <= y <= yb:
-            return xa + (xb - xa) * (y - ya) / (yb - ya) if yb != ya else xa
-    raise ValueError(f"the coast line does not reach y = {y}")
 
 
 def build(places):
@@ -179,31 +170,31 @@ def build(places):
         for era in _era_of(p):
             overlays[era]["add"]["places"].append(_point_pin(p, era))
 
-    # The land is low east of the coast. The Wolds lie on it with a higher
-    # priority, so that they set the height where they overlap. The lowland
-    # stops at the Grey Teeth (y 40 to 60, with a soft edge), so that the
-    # rivers can come down from the mountains.
-    regions = [{"id": "lowland-north", "kind": "plains", "height": [24, 40],
-                "polygon": _land_polygon(places["coast"], width, 0, 32, height)},
-               {"id": "lowland", "kind": "plains", "height": [21, 42],
-                "polygon": _land_polygon(places["coast"], width, 70, height, height)}]
+    # The regions fix what the book names: the sea, the mountains, the hills, and
+    # the fen. inkland gives their outlines a natural roughness.
+    # The land south of the mountains is low. The named regions and the character
+    # areas rule over this lowland, because it has the lowest priority.
+    regions = [{"id": "lowland", "kind": "plains", "height": [21, 38], "priority": -1,
+                "edge": 12, "roughness": 0, "box": [0, LOWLAND_TOP, width, height]},
+               # The world bible puts the shrine at Kell on a hill. The hill has no name.
+               {"id": "kell-hill", "kind": "hills", "height": [34, 40], "edge": 4,
+                "circle": {"at": [110, 205], "r": 6}}]
     for a in places["areas"]:
         rid = ident(a["name"])
         if a["kind"] == "sea":
-            regions.append({"id": rid, "kind": "sea", "name": a["name"],
-                            "polygon": _sea_polygon(places["coast"], height)})
+            regions.append({"id": rid, "kind": "sea", "name": a["name"], "roughness": 3,
+                            "coast_detail": 6, "polygon": _sea_polygon(places["coast"], height)})
         elif a["kind"] == "mountains":
-            regions.append({"id": rid, "kind": "mountains", "name": a["name"], "edge": 8,
-                            "polygon": organic_outline(rid, a["box"], (width, height))})
+            regions.append({"id": rid, "kind": "mountains", "name": a["name"], "box": a["box"],
+                            "edge": 10, "roughness": 8})
         elif a["name"] == "The Wolds":
-            regions.append({"id": rid, "kind": "hills", "name": a["name"],
-                            "polygon": organic_outline(rid, a["box"], (width, height)),
-                            "height": [38, 50], "edge": 6, "priority": 1})
+            regions.append({"id": rid, "kind": "hills", "name": a["name"], "box": a["box"], "height": [33, 41],
+                            "edge": 10, "roughness": 6})
         elif a["name"] == "The Low Fen":
             # The fen is terrain, so it is in both eras. Before the flood it was farmland,
             # so the old map hides its name.
-            regions.append({"id": rid, "kind": "marsh", "name": a["name"],
-                            "polygon": organic_outline(rid, a["box"], (width, height))})
+            regions.append({"id": rid, "kind": "marsh", "name": a["name"], "box": a["box"],
+                            "roughness": 6})
             overlays["then"]["labels"]["region:" + rid] = {"hide": True}
         else:
             # A political area or a field: a named feature of its era only.
@@ -269,8 +260,9 @@ def build(places):
         # Only the pins are places, and only the pinned seas are water.
         "world": {"cells": 20000, "template": "pangea", "states": 0, "towns": 0,
                   "fill_land": True, "river_limit": RIVER_LIMIT, "jitter": 0.9,
-                  "climate": {"latitude_range": [48, 54]}},
+                  "climate": {"latitude_range": [42, 48]}},
         "pins": {"points": [], "regions": regions,
+                 "areas": CHARACTER_AREAS,
                  "rivers": rivers, "roads": []},
         "overlays": map_overlays,
         "variants": variants,
@@ -280,8 +272,8 @@ def build(places):
                    "min_line_width_pt": 0.5,
                    # The map shows no name that the config does not give, and the report checks it.
                    "labels": {"generated": False, "check_generated": True},
-                   # No trees: they fill the land. No marsh: the Low Fen was farmland
-                   # before the flood, and the relief is the same on each map.
+                   # No marsh: the Low Fen was farmland before the flood, and the
+                   # relief is the same on each map.
                    "relief": {"density": RELIEF_DENSITY, "hide": ["tree", "marsh"]},
                    "extras": {"scale_bar": True, "compass": True},
                    "layers": ["ocean", "coast", "relief", "rivers", "regions", "roads",
