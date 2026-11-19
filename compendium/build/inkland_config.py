@@ -37,7 +37,7 @@ ROAD_TARGETS = {
 }
 ROAD_TOLERANCE = 0.1
 
-RIVER_LIMIT = 12
+RIVER_LIMIT = 8
 LOWLAND_TOP = 76  # miles: the lowland starts south of the soft edge of the Grey Teeth
 
 # The character of the land outside the named regions. An area steers the heights,
@@ -52,7 +52,7 @@ CHARACTER_AREAS = [
     {"id": "east-wood", "character": "wooded", "circle": {"at": [215, 195], "r": 20}, "strength": 0.7},
     {"id": "gaunt-farmland", "character": "flat", "box": [40, 235, 185, 320], "strength": 0.7},
 ]  # the generated rivers with the most water that the maps keep
-RELIEF_DENSITY = 0.35  # the part of the relief symbols that the print maps keep
+RELIEF_DENSITY = 0.6  # the part of the relief symbols that the print maps keep
 
 # A road that passes a place of the map passes it by id. The bible puts Wenlow on the old road.
 ROAD_VIA_PLACES = {("Brannock's Ford", "Saint Ivo's"): ["Wenlow"]}
@@ -274,7 +274,9 @@ def build(places):
                    "labels": {"generated": False, "check_generated": True},
                    # No marsh: the Low Fen was farmland before the flood, and the
                    # relief is the same on each map.
-                   "relief": {"density": RELIEF_DENSITY, "hide": ["tree", "marsh"]},
+                   "relief": {"density": RELIEF_DENSITY, "hide": ["marsh"]},
+                   "hand_drawn": True,
+                   "river_contrast": 0.8,
                    "extras": {"scale_bar": True, "compass": True},
                    "layers": ["ocean", "coast", "relief", "rivers", "regions", "roads",
                               "features", "places", "labels"]},

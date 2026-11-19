@@ -17,7 +17,7 @@
     "states": 0,
     "towns": 0,
     "fill_land": true,
-    "river_limit": 12,
+    "river_limit": 8,
     "jitter": 0.9,
     "climate": {
       "latitude_range": [
@@ -3185,12 +3185,13 @@
       "check_generated": true
     },
     "relief": {
-      "density": 0.35,
+      "density": 0.6,
       "hide": [
-        "tree",
         "marsh"
       ]
     },
+    "hand_drawn": true,
+    "river_contrast": 0.8,
     "extras": {
       "scale_bar": true,
       "compass": true
