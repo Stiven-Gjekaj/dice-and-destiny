@@ -1293,7 +1293,7 @@ prisoner is calm. The Hush fears nothing that the characters can do.
 
 | Check | DC | Result |
 |---|---|---|
-| Charisma (Intimidation) | 17 | The prisoner says more than they meant to: "Mother Sallow went down to his bed and drank the dark that he left in the crystal. Now she will put out the coal there, and the long night comes early." |
+| Charisma (Intimidation) | 17 | The prisoner says more than they meant to: "Mother Sallow went down to his door and drank the dark that comes out under it. Now she will put out the coal there, and the long night comes early." |
 | Charisma (Persuasion) | 15 | The prisoner speaks almost kindly: "The sun is dying. You know it. You have seen the days. He tried to save it once. He will try again. We help him. What do you help?" |
 | Wisdom (Insight) | 14 | The prisoner believes every word. And the prisoner is not sure that the characters are wrong, either. |
 

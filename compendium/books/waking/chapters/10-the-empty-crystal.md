@@ -690,13 +690,17 @@ A total party defeat in the last chapter is a sad way to end a book. Do
 not let it happen by bad luck alone.
 
 - **Mother Sallow does not kill the Dawnwatch.** She wants them to see the
-  dark. If every character drops, she has them carried down to the vault and
-  left at the foot of the empty crystal, alive, with 1 Hit Point each. Then
-  she goes back up to finish the rite. Run Scene 5 and Scene 6 with the
-  party alone in the vault, with no gear but what they carry. The Unlit Knight
-  is there. When the party comes back up, the rite is half done: the dome is
-  darker, and Mother Sallow is waiting. Run the fight again, and give the
-  party Advantage on Initiative, because she does not expect them.
+  dark. If every character drops, she has them carried down the Stair of
+  Bells, alive, with 1 Hit Point each. She presses the hand of one
+  unconscious character to the door of the vault, and it opens for the
+  Dawnwatch. She does not go in: she looks at the empty crystal from the
+  door, and she leaves the party on the stair outside, with no gear but what
+  they carry. Then she goes back up to finish the rite. The party wakes on
+  the stair and can take a Short Rest there. The Unlit Knight does not leave
+  the vault, so the party chooses when to go in. Run Scene 5 and Scene 6.
+  When the party comes back up, the rite is half done: the dome is darker,
+  and Mother Sallow is waiting. Run the fight again, and give the party
+  Advantage on Initiative, because she does not expect them.
 - **The allies come.** If Brother Cade, Ilse Varro, or the soldiers of the
   keep came to Kingsholm, they arrive at the end of the third round of a bad
   fight. Each of them takes one Hush Night Warden out of the fight. Do this
