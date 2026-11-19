@@ -32,14 +32,15 @@ _The free rules of the SRD 5.2, and thousands of original options, in one Player
 > 8 optional systems, and more.
 > Download the PDFs from the
 > [`edition-2` release](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/tag/edition-2),
-> or [buy the two hardcovers](#buy-a-printed-hardcover) on the Lulu Bookstore.
+> or [buy the two Compendium hardcovers](#buy-a-printed-hardcover) on the Lulu Bookstore.
 > [The Edition 2 design](docs/superpowers/specs/2026-11-15-edition-2-expansion-design.md)
 > holds each decision and the reason behind it.
 >
 > **The Dawnwatch, Book One: Waking** is the first campaign book. It takes a
 > group from level 1 to level 10, and it needs Edition 2 of the two
 > Compendiums. Download its PDFs from the
-> [`dawnwatch-waking-latest` release](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/tag/dawnwatch-waking-latest).
+> [`dawnwatch-waking-latest` release](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/tag/dawnwatch-waking-latest),
+> or [buy the hardcover](#buy-a-printed-hardcover) on the Lulu Bookstore.
 
 ---
 
