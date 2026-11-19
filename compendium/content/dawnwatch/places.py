@@ -117,7 +117,7 @@ PLACES = [
 # the place at that end has another era.
 ROADS = [
     ("Dawnwatch Keep", "Brannock's Ford", "track", "now", [(160, 161)]),
-    ("Brannock's Ford", "Saint Ivo's", "old road", "both", [(156, 196)]),
+    ("Brannock's Ford", "Saint Ivo's", "old road", "both", [(148, 200)]),
     ("Saint Ivo's", "Stannard", "road", "now", [(138, 252)]),
     ("Saint Ivo's", "Corrantey", "road", "now", [(110, 222), (72, 202), (50, 200)]),
     ("Kingsholm", "Brannock's Ford", "old road", "then", [(140, 140), (152, 158)]),
