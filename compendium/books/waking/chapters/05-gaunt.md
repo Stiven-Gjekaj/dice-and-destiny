@@ -897,7 +897,7 @@ What happens next depends on the party.
 
 In both cases, the Marshal thanks the party for her son. She does it
 plainly, in front of her guards, and it costs her something to say it.
-+3 renown with Gaunt for each character (a great deed for the faction:
++5 renown with Gaunt for each character (a great deed for the faction:
 the life of the heir).
 
 ---
@@ -974,7 +974,7 @@ The characters can end this chapter with these things.
 - **The Gauntry War Banner**, from the Marshal (Scene 8). It is a Rare
   magic item. The Treasures appendix has its full entry.
 - **Renown with Gaunt and with the Church.** Add up the changes of the
-  chapter. Most characters end it at about 6 to 12 renown with Gaunt and 8
+  chapter. Most characters end it at about 8 to 14 renown with Gaunt and 8
   to 14 with the Church: a Friend or a Member of each, and a promotion task
   waiting if they want the next rank.
 - **Money:** the Marshal's gift of 500 GP for each character, if the party
