@@ -1418,7 +1418,7 @@ the players feel that something is there.
 | 5 | "Brother Cade sent the last false saint home with a black eye." | True. He is not proud of it. |
 | 6 | "The window of the Light's Sign in the great church weeps on the Vigil of the Five." | Partly. Water comes in at a crack in the lead. The window is real. Chapter 3. |
 | 7 | "There is a spy of Gaunt in the house of the Abbess." | True. There is also a spy of the Hush, and neither knows about the other. |
-| 8 | "Somebody stole candles from every shrine on the road to Kell. Not the candles. Only the flames." | True. The Hush. Chapter 4. |
+| 8 | "Somebody stole candles from every shrine on the way to Kell. Not the candles. Only the flames." | True. The Hush. Chapter 4. |
 | 9 | "The Five will come back at the feast this year. A child dreamed it." | True, and the town laughs at it until chapter 3. |
 | 10 | "The old shrine at Kell is haunted by an old priest who keeps a candle that will not light." | Partly. The candle is real. The priest is not there. The Hush is. |
 
