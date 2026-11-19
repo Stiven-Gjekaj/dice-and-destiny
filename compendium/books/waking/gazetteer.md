@@ -949,7 +949,7 @@ brings.
 
 The Corrin comes from the north-east, the Tey from the east. Both are
 short, fast, and full of mills in their last miles. The pilgrim road west
-from Saint Ivo's follows the Tey down to the city.
+from Saint Ivo's comes down to the city between the two rivers.
 
 ### The Western Sea
 
