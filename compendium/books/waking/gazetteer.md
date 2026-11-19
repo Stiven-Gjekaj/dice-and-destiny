@@ -2007,7 +2007,7 @@ appendix of people.
 | Osk | The enforcer of Mother Sallow. He does not speak. | With Mother Sallow | The Hush | 4, 7 |
 | Perrin Hale | The master of the Lampwrights. | Corrantey | Corrantey | 6, 7 |
 | Sergeant Maud Kettle | The ghost of a soldier of Ostrey. Teaches the old fighting ways. | Fennick | None | 8 |
-| Sir Garrath (Malgrath) | The first Dawnwatch. The Unlit King. Only his voice in Book One. | The black stone | None | 1, 4, 10 |
+| Sir Garrath (Malgrath) | The first Dawnwatch. The Unlit King. Only his voice in Book One. | The black stone | None | 1, 4, 6, 7, 10 |
 | Tamsin | The old ferry woman. Kind, and she asks too many questions. | Brannock's Ford | None | 2 |
 | Tilly Ashe | An actress of Pell's Players. She plays the Shadow. | Saint Ivo's | None | 3 |
 | Tobin Gauntry | The son of the Marshal. He does not want a war. | Stannard | Gaunt | 5, 9 |
