@@ -319,29 +319,29 @@ the person in more than one scene.
 
 | Name | Role | Chapters | Statblock |
 |---|---|---|---|
-| Haskel Orme | The steward of Dawnwatch Keep, 300 years ago. Dead. He made Wick and wrote the lie. | 1, 7, 10 (letters) | No |
+| Haskel Orme | The steward of Dawnwatch Keep, 300 years ago. Dead. He made Wick and wrote the lie. | 1, 6, 7, 10 (letters) | No |
 | Wenna Orme | The sister of Haskel Orme, in Kingsholm, 300 years ago. Dead. His letters in chapter 7 are to her. | 7 (letters) | No |
 | Wick | The talking lantern. He is "he" in every book. The tutorial has no statblock for him, only notes on his personality (`statblocks.md`). Book Two secret: his flame is the last true piece of the Dawnfire. In Book One, only hint at it: his flame reacts to the Dawnfire. | All | No |
 | Tamsin | The old ferry woman at Brannock's Ford. Kind, and she asks too many questions. | 2 | No |
 | Dace | A pedlar who sells "bones of the Five Sleepers" to pilgrims. | 2, 3 | No |
-| Abbess Merrow | The head of the Church in Saint Ivo's. She wants the party as living saints. | 3, 9 | No |
-| Brother Cade | A priest who thinks that the party are impostors. Later an ally. | 3, 4, 9 | Yes |
+| Abbess Merrow | The head of the Church in Saint Ivo's. She wants the party as living saints. | 3, 9, 10 | No |
+| Brother Cade | A priest who thinks that the party are impostors. Later an ally. | 3, 4, 9, 10 | Yes |
 | Corvin Lisle | An antiquary from Corrantey who buys old things of Ostrey. He offers a lot of money for the thing that the Shadow stole. | 2, 3 | No |
 | Garret Pell | The leader of a troupe of actors who play the Dawnwatch. | 3 | No |
 | Captain Joss Marrick | The captain of the honor guard of Gaunt at the feast of Saint Ivo's. He reports to the Marshal and makes the party her offer. | 3, 5 | No |
 | Tilly Ashe | An actress of Pell's Players. She plays the Shadow. | 3 | No |
 | Mother Sallow | The leader of the Hush. She watches the Waking Service at the end of chapter 3, with no candle. Chapter 10 uses a stronger statblock, "Mother Sallow, Unbound" (`people_act2.py`). | 3, 4, 7, 10 | Yes |
 | Osk | The enforcer of Mother Sallow. Big, and he does not speak. | 4, 7 | Yes |
-| Marshal Ide Gauntry | The ruler of Gaunt. She signs as "Marshal of Gaunt, Warden of the March". Her statblock is in `people_act1.py`: CR 8, about 52 damage each round (three longsword attacks). | 5, 9 | Yes |
-| Captain Ilse Varro | The spymaster of Gaunt in Corrantey. She works for Marshal Gauntry. | 6, 9 | Yes |
-| Tobin Gauntry | Her son. He does not want a war. | 5, 9 | No |
+| Marshal Ide Gauntry | The ruler of Gaunt. She signs as "Marshal of Gaunt, Warden of the March". Her statblock is in `people_act1.py`: CR 8, about 52 damage each round (three longsword attacks). | 5, 9, 10 | Yes |
+| Captain Ilse Varro | The spymaster of Gaunt in Corrantey. She works for Marshal Gauntry. | 6, 9, 10 | Yes |
+| Tobin Gauntry | Her son. He does not want a war. | 5, 9, 10 | No |
 | Magister Aud Brennet | The first war mage of Gaunt. She teaches a "Dawnwatch spell" that is wrong. | 5 | No |
-| Perrin Hale | The master of the Lampwrights in Corrantey. | 6, 7 | No |
+| Perrin Hale | The master of the Lampwrights in Corrantey. | 6, 7, 10 | No |
 | Edric Pole | An old shepherd of the Wolds. The Hush burned his farm. He can keep the gate of the keep. | 7 | No |
 | Hesper Wren | A young Lampwright, sent by Perrin Hale. If the party sided with Gaunt in chapter 6, she comes on her own. She becomes the steward of Dawnwatch Keep when the party takes it back. | 7, 10 | No |
 | Ada Ferrow | An old eel catcher of the Low Fen. She takes the party to Fennick by boat. Her brother Tam died there. | 8 | No |
 | Lieutenant Roe | The aide of Marshal Gauntry. A secret agent of the Hush. He is the helpful aide of the party in Stannard (chapter 5). | 5, 9 | Yes (Hush Dusk Priest) |
-| Brother Ansel | The secretary of Abbess Merrow. A secret agent of the Hush. | 9 | Yes (Hush Dusk Priest) |
+| Brother Ansel | The secretary of Abbess Merrow. A secret agent of the Hush. If the Church keeps the Ember, he steals it from the high altar in chapter 9. | 5 (the false letter), 9, 10 | Yes (Hush Dusk Priest) |
 | Corporal Lenna | A young soldier of the levy of Saint Ivo's. Her family name is the family of the person of the Shield's promise. | 9 | Yes (Line Pikeman) |
 | Sergeant Maud Kettle | The ghost of a soldier of Ostrey in Fennick. She teaches the old fighting ways. | 8 | Yes |
 | Sir Garrath (Malgrath) | The first Dawnwatch. He founded the order a generation before the five sleepers, and they never met him. "Brothers. Sisters." is the kinship of the order. The Unlit King. Only his voice in Book One. | 1, 4, 10 | No (Book Two) |
