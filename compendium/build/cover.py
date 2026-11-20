@@ -5,7 +5,7 @@ Two kinds:
   hardcover  Lulu A4 casewrap: boards, a wrap around the edges, and a safety margin.
 """
 import importlib, re, sys, subprocess, os
-from math import cos, sin, pi, radians
+from math import cos, sin, pi
 from pypdf import PdfReader
 
 BLEED, W, H = 3.0, 210.0, 297.0
@@ -171,58 +171,18 @@ def divider_svg(color):
 
 
 def emblem(name, ink, acc, ground):
-    """The emblem of a book, in a box of 150 x 150, inside two rings."""
+    """The emblem of each book, in a box of 150 x 150, inside two rings: the die of the game, drawn in lines.
+    Each book has the same die in its own colors."""
     rings = (f'<circle cx="75" cy="75" r="72" fill="none" stroke="{acc}" stroke-width="1.4"/>'
              f'<circle cx="75" cy="75" r="66" fill="none" stroke="{acc}" stroke-width=".5"/>')
-    if name == "player":  # a sword behind a shield: the hero
-        # The sword from the top: the pommel, the wrapped grip, the crossguard, then the blade under the guard.
-        art = ('<g transform="translate(0 6)">' f'<path d="M71 41 H79 V112 L75 124 L71 112 Z" fill="{ink}"/>'
-               f'<line x1="75" y1="44" x2="75" y2="108" stroke="{ground}" stroke-width=".8"/>'
-               f'<circle cx="75" cy="18" r="4" fill="{acc}"/>'
-               f'<path d="M72.3 22 H77.7 L78.3 35 H71.7 Z" fill="{acc}"/>'
-               + "".join(f'<line x1="71.9" y1="{y}" x2="78.1" y2="{y + 2}" stroke="{ground}" stroke-width=".7"/>' for y in (24.5, 28, 31.5))
-               + f'<path d="M51 39 C51 35 56 35 60 36 H90 C94 35 99 35 99 39 C99 41 95 41.5 90 41 H60 C55 41.5 51 41 51 39 Z" fill="{acc}"/>'
-               f'<path d="M52 50 H98 V78 C98 97 88 108 75 116 C62 108 52 97 52 78 Z" fill="{ground}" stroke="{acc}" stroke-width="1.6"/>'
-               f'<path d="M57 55 H93 V78 C93 94 85 103 75 110 C65 103 57 94 57 78 Z" fill="none" stroke="{acc}" stroke-width=".5"/>'
-               # Two chevrons with sharp ends. Each end stops on the inner line of the shield (x 57 and x 93).
-               f'<path d="M57 62 L75 78 L93 62 V67.5 L75 83.5 L57 67.5 Z" fill="{ink}"/>'
-               f'<path d="M57 76 L75 92 L93 76 V81.5 L75 97.5 L57 81.5 Z" fill="{ink}"/>'
-               '</g>')
-    elif name == "gm":  # the die of the game master, drawn in lines
-        T, UR, LR, B, LL, UL = (75, 20), (121, 46), (121, 104), (75, 130), (29, 104), (29, 46)
-        ct, cl, cr = (75, 50), (46, 99), (104, 99)
-        edges = [(T, UR), (UR, LR), (LR, B), (B, LL), (LL, UL), (UL, T), (ct, cl), (cl, cr), (cr, ct), (T, ct), (UL, ct),
-                 (UR, ct), (UL, cl), (LL, cl), (B, cl), (B, cr), (LR, cr), (UR, cr)]
-        art = (f'<path d="M{ct[0]} {ct[1]} L{cl[0]} {cl[1]} L{cr[0]} {cr[1]} Z" fill="{ink}"/>'
-               + "".join(f'<line x1="{a[0]}" y1="{a[1]}" x2="{b[0]}" y2="{b[1]}" stroke="{acc}" stroke-width="1.5" '
-                         f'stroke-linecap="round"/>' for a, b in edges)
-               + f'<text x="75" y="89" text-anchor="middle" font-family="Fell" font-size="26" fill="{ground}">20</text>')
-    elif name == "waking":  # the crystal of the long sleep, with the crack that wakes the Dawnwatch
-
-        def crystal(cx, top, bottom, half, turn=0):
-            """A crystal with a dark left face and a light right face."""
-            tip, shoulder, foot = top, top + half, bottom - half * .8
-            left = f"M{cx} {tip} L{cx - half} {shoulder} L{cx - half} {foot} L{cx} {bottom} Z"
-            right = f"M{cx} {tip} L{cx + half} {shoulder} L{cx + half} {foot} L{cx} {bottom} Z"
-            return (f'<g transform="rotate({turn} {cx} {bottom})"><path d="{left}" fill="{ink}"/>'
-                    f'<path d="{right}" fill="{acc}"/>'
-                    f'<path d="M{cx - half} {shoulder} L{cx} {shoulder + half * .6} L{cx + half} {shoulder}" fill="none" '
-                    f'stroke="{ground}" stroke-width=".8"/></g>')
-        art = ('<g transform="translate(0 4)">'
-               + crystal(52, 66, 114, 9, -16) + crystal(98, 66, 114, 9, 16) + crystal(75, 26, 118, 15)
-               + f'<path d="M75 46 L69 60 L78 72 L71 86 L77 100" fill="none" stroke="{ground}" stroke-width="2.2" '
-                 f'stroke-linejoin="miter"/></g>')
-    else:  # western-sea: a ship under full sail
-        sail = lambda x0, x1, y0, y1, bulge: (f'<path d="M{x0} {y0} H{x1} Q{x1 + bulge} {(y0 + y1) / 2} {x1} {y1} '
-                                              f'H{x0} Q{x0 + bulge} {(y0 + y1) / 2} {x0} {y0} Z" fill="{ink}"/>')
-        # The ship (x 34 to 112, y 24 to 101) moves so that its middle is at the center of the ring.
-        art = ('<g transform="translate(75 75) scale(1.05) translate(-73 -62.5)">'
-               f'<line x1="64" y1="30" x2="64" y2="96" stroke="{acc}" stroke-width="1.6"/>'
-               f'<line x1="88" y1="38" x2="88" y2="96" stroke="{acc}" stroke-width="1.6"/>'
-               + sail(53, 74, 36, 50, 4) + sail(51, 76, 53, 70, 5) + sail(52, 75, 73, 88, 5)
-               + sail(79, 96, 44, 56, 3) + sail(78, 98, 59, 74, 4) + sail(79, 97, 77, 89, 3)
-               + f'<path d="M64 30 L56 27 L64 24 Z" fill="{acc}"/><path d="M88 38 L80 35 L88 32 Z" fill="{acc}"/>'
-               f'<path d="M34 92 H112 L104 101 Q75 104 44 101 Z" fill="{acc}"/></g>')
+    T, UR, LR, B, LL, UL = (75, 20), (121, 46), (121, 104), (75, 130), (29, 104), (29, 46)
+    ct, cl, cr = (75, 50), (46, 99), (104, 99)
+    edges = [(T, UR), (UR, LR), (LR, B), (B, LL), (LL, UL), (UL, T), (ct, cl), (cl, cr), (cr, ct), (T, ct), (UL, ct),
+             (UR, ct), (UL, cl), (LL, cl), (B, cl), (B, cr), (LR, cr), (UR, cr)]
+    art = (f'<path d="M{ct[0]} {ct[1]} L{cl[0]} {cl[1]} L{cr[0]} {cr[1]} Z" fill="{ink}"/>'
+           + "".join(f'<line x1="{a[0]}" y1="{a[1]}" x2="{b[0]}" y2="{b[1]}" stroke="{acc}" stroke-width="1.5" '
+                     f'stroke-linecap="round"/>' for a, b in edges)
+           + f'<text x="75" y="89" text-anchor="middle" font-family="Fell" font-size="26" fill="{ground}">20</text>')
     return rings + art
 
 
