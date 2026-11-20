@@ -49,9 +49,26 @@ def test_cover_bullets_have_no_counts_written_by_hand():
 
 def test_the_dawnwatch_counts_come_from_the_content():
     import types
-    from cover import dawnwatch_counts
+    from cover import campaign_counts
     dw = types.SimpleNamespace(MON=[1, 2], NPCS=[1], ITEMS=[])
-    assert dawnwatch_counts(dw) == {"{DW_COUNTS}": "2 new creatures, 1 person, and 0 treasures"}
+    assert campaign_counts(dw, "{DW_COUNTS}") == {"{DW_COUNTS}": "2 new creatures, 1 person, and 0 treasures"}
+
+
+def test_campaign_counts():
+    import types
+    from cover import campaign_counts
+    stub = types.SimpleNamespace(MON=[1, 2], NPCS=[1], ITEMS=[1, 2, 3])
+    assert campaign_counts(stub, "{WS_COUNTS}") == {"{WS_COUNTS}": "2 new creatures, 1 person, and 3 treasures"}
+
+
+def test_the_western_sea_cover_fills_its_counts_and_needs_edition_2():
+    import re
+    from cover import cover_html
+    for kind in ("paperback", "hardcover"):
+        h = cover_html("western-sea", 130, kind)[0]
+        assert "{WS_COUNTS}" not in h and "Requires Edition 2" in h
+        spine = re.search(r'<div class="panel spine">(.*?)</div></div>', h).group(1)
+        assert "Beyond the Western Sea" in spine
 
 
 def test_the_waking_cover_says_that_it_needs_edition_2_and_the_compendiums_do_not():
@@ -70,3 +87,11 @@ def test_the_waking_spine_gives_the_full_title():
         h = cover_html("waking", 310, kind)[0]
         spine = re.search(r'<div class="panel spine">(.*?)</div></div>', h).group(1)
         assert "The Dawnwatch, Book One: Waking" in spine
+
+
+def test_a_short_book_gets_the_minimum_hardcover_and_a_warning():
+    from cover import cover_pages, HC_MIN_PAGES
+    size, warning = cover_pages(17, "hardcover")
+    assert size == HC_MIN_PAGES and "WARNING" in warning
+    assert cover_pages(17, "paperback") == (17, None)
+    assert cover_pages(HC_MIN_PAGES, "hardcover") == (HC_MIN_PAGES, None)

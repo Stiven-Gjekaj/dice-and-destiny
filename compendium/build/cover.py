@@ -4,7 +4,7 @@ Two kinds:
   paperback  A4 trim with 3 mm bleed.
   hardcover  Lulu A4 casewrap: boards, a wrap around the edges, and a safety margin.
 """
-import sys, subprocess, os
+import importlib, sys, subprocess, os
 from pypdf import PdfReader
 from icons import big_d20, icon
 
@@ -15,6 +15,7 @@ MM_PER_PAGE = 0.0572  # typical 50–60 lb white paper; confirm with your printe
 HC_TRIM_W, HC_TRIM_H = 216.41, 309.63   # the board, larger than A4
 HC_WRAP = 15.87                         # wrap around each edge
 HC_SAFE = 15.87                         # safety margin inside the board edge
+HC_MIN_PAGES = 24                       # Lulu prints no casewrap hardcover with fewer pages
 HC_BARCODE = (92, 32)                   # mm, at the bottom of the back cover, HC_SAFE from the spine
 # Lulu casewrap spine width in inches, by the highest page count of each step.
 # The template confirms 0.75 in at 196 pages. Confirm other steps with a Lulu template.
@@ -33,8 +34,8 @@ def cover_size(pages, kind):
                     edge_mm=BLEED, panel_w_mm=W, panel_h_mm=H, safe_mm=0.0,
                     barcode_w_mm=50, barcode_h_mm=30)
     if kind == "hardcover":
-        if not 24 <= pages <= 800:
-            raise ValueError(f"Lulu prints a casewrap hardcover with 24 to 800 pages, not {pages}")
+        if not HC_MIN_PAGES <= pages <= 800:
+            raise ValueError(f"Lulu prints a casewrap hardcover with {HC_MIN_PAGES} to 800 pages, not {pages}")
         spine = round(next(inch for top, inch in HC_SPINE_IN if pages <= top) * 25.4, 2)
         return dict(width_mm=2 * HC_WRAP + 2 * HC_TRIM_W + spine, height_mm=2 * HC_WRAP + HC_TRIM_H,
                     spine_mm=spine, edge_mm=HC_WRAP, panel_w_mm=HC_TRIM_W, panel_h_mm=HC_TRIM_H,
@@ -69,6 +70,17 @@ BOOKS = {
    icons=["compass", "dragon", "people", "scroll"],
    compat="A campaign for levels 1 to 10 &middot; Requires Edition 2",
    note="Uses the rules of Dice &amp; Destiny: The Player's Compendium and The Game Master's Compendium, Edition 2."),
+ "western-sea": dict(title="Beyond the Western Sea", t1="Beyond the", t2="Western Sea",
+   sub="A storm wrecks your ship on an island that is on no map. Find the way home before the storm season comes back.",
+   back="A short campaign from level 1 to level 5. A lost colony, one island, and a storm that everyone can see coming.",
+   bullets=["A wreck and a shore to start, an island of sites to explore in any order, and a last chapter in the storm season",
+            "Play with the dice of a backgammon set, or with normal dice: each roll is printed in both forms",
+            "The Storm Cube: a clock on the table that each player can see, and a risk that each player can take",
+            "{WS_COUNTS}, each in an appendix from A to Z",
+            "A player's guide with no spoilers, a gazetteer of the island, maps, and handouts on their own pages"],
+   icons=["compass", "dice", "people", "chest"],
+   compat="A campaign for levels 1 to 5 &middot; Requires Edition 2",
+   note="Uses the rules of Dice &amp; Destiny: The Player's Compendium and The Game Master's Compendium, Edition 2."),
 }
 COMPAT = "A rules-compatible guide for fifth edition (2024)"
 NOTE = "Compatible with the fifth edition (2024) rules. For players and Game Masters."
@@ -88,13 +100,25 @@ def content_counts():
             "{SPELL_COUNTS}": rc.all_spell_counts()}
 
 
-def dawnwatch_counts(dw=None):
-    """The counts of the Dawnwatch content, for the back cover of a Dawnwatch book."""
-    if dw is None:
-        import content.dawnwatch as dw
+# Each campaign token and the content package that gives its counts.
+CAMPAIGN_TOKENS = {"{DW_COUNTS}": "content.dawnwatch", "{WS_COUNTS}": "content.western_sea"}
+
+
+def campaign_counts(module, token):
+    """The counts of the content of a campaign, for the back cover of the book. token is for example "{DW_COUNTS}"."""
     n = lambda k, one, many: f"{k} {one if k == 1 else many}"
-    return {"{DW_COUNTS}": f"{n(len(dw.MON), 'new creature', 'new creatures')}, "
-                           f"{n(len(dw.NPCS), 'person', 'people')}, and {n(len(dw.ITEMS), 'treasure', 'treasures')}"}
+    return {token: f"{n(len(module.MON), 'new creature', 'new creatures')}, "
+                   f"{n(len(module.NPCS), 'person', 'people')}, and {n(len(module.ITEMS), 'treasure', 'treasures')}"}
+
+
+def cover_pages(pages, kind):
+    """The page count for the geometry of a cover, and a warning or None.
+    A book that is not complete can have fewer pages than Lulu prints as a hardcover.
+    Then the hardcover uses the minimum count, so that the build can continue."""
+    if kind == "hardcover" and pages < HC_MIN_PAGES:
+        return HC_MIN_PAGES, (f"WARNING: the book has {pages} pages. The hardcover cover uses "
+                              f"{HC_MIN_PAGES} pages, the minimum that Lulu prints.")
+    return pages, None
 
 
 def cover_html(name, pages, kind="paperback"):
@@ -112,8 +136,9 @@ def cover_html(name, pages, kind="paperback"):
                    f'height:{g["barcode_h_mm"]}mm"></div>') if hard else ""
     ic = "".join(f'<span class="cb">{icon(i, 22, "#d6aa55", 1.4)}</span>' for i in b["icons"])
     counts = content_counts()
-    if any("{DW_COUNTS}" in x for x in b["bullets"]):
-        counts.update(dawnwatch_counts())
+    for token, package in CAMPAIGN_TOKENS.items():
+        if any(token in x for x in b["bullets"]):
+            counts.update(campaign_counts(importlib.import_module(package), token))
     bl = "".join(f"<li>{fill_counts(x, counts)}</li>" for x in b["bullets"])
     return f'''<!DOCTYPE html><html><head><meta charset="utf-8"><style>
 @page {{ size: {tw}mm {th}mm; margin: 0; }}
@@ -175,9 +200,12 @@ if __name__ == "__main__":
     for n in sys.argv[1:]:
         pages = len(PdfReader(f"{n}.pdf").pages)
         for kind, out in (("paperback", f"{n}_cover"), ("hardcover", f"{n}_cover_hardcover")):
-            h, spine, tw, th = cover_html(n, pages, kind)
+            size, warning = cover_pages(pages, kind)
+            if warning:
+                print(n, warning)
+            h, spine, tw, th = cover_html(n, size, kind)
             open(f"{out}.html", "w").write(h)
             subprocess.run(["google-chrome", "--headless=new", "--no-sandbox", "--disable-gpu", "--no-pdf-header-footer",
                             f"--print-to-pdf={os.getcwd()}/{out}.pdf", f"file://{os.getcwd()}/{out}.html"],
                            stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL)
-            print(n, kind, f"{pages} pages, spine {spine} mm, cover {tw:.1f} × {th:.1f} mm")
+            print(n, kind, f"{size} pages, spine {spine} mm, cover {tw:.1f} × {th:.1f} mm")
