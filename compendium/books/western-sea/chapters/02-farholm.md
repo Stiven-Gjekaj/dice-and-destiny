@@ -707,6 +707,8 @@ spectacles and says:
 This is the first half of the truth about the Light. It is a clue, not a
 part.
 
+{{handout: 02-the-landing-book}}
+
 ### Inga Halcrow
 
 Inga spends her days near the Net Loft and her evenings walking alone on
@@ -891,6 +893,8 @@ in the year 211, in a shaking hand:
 > wall. I write this so that it is written. God bring them home.*
 
 The next line is in a different hand: *The Tey came. The lamp is out.*
+
+{{handout: 02-the-log-of-the-watch}}
 
 This is a clue. The ground rose as the lane opened. Nobody in Hythe
 remembers this line. Digory did not know it was there.
@@ -1161,6 +1165,8 @@ them aloud:
 
 > *It is not land. It sleeps. I made no light upon it after, and I went
 > down to it in the dark, and I was still, and it was still.*
+
+{{handout: 02-the-psalter-of-saint-mawes}}
 
 {{treasure: Saint Mawes's Psalter}}
 
@@ -2177,6 +2183,8 @@ chest: charts, a notebook, and a brass spyglass wrapped in oiled cloth.
 >
 > *I do not know what land rises out of the sea in the night. I pray God
 > it does not go back down.*
+
+{{handout: 02-the-log-of-the-morning-star}}
 
 - **The notebook.** Captain Gale's own notebook of the fleet. It has the
   pattern of the great lens, drawn more carefully than in the Landing Book,
