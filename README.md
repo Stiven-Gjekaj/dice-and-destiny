@@ -41,6 +41,12 @@ _The free rules of the SRD 5.2, and thousands of original options, in one Player
 > Compendiums. Download its PDFs from the
 > [`dawnwatch-waking-latest` release](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/tag/dawnwatch-waking-latest),
 > or [buy the hardcover](#buy-a-printed-hardcover) on the Lulu Bookstore.
+>
+> **Beyond the Western Sea** is a short campaign for levels 1 to 5, in about
+> 8 to 10 sessions. A group can play it with normal dice, or with only the
+> dice of a backgammon set. It needs Edition 2 of the two Compendiums.
+> Download its PDFs from the
+> [`western-sea-latest` release](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/tag/western-sea-latest).
 
 ---
 
@@ -58,6 +64,8 @@ large world, with no extra books to buy.
 
 **The Dawnwatch** is a campaign for these rules, in two books. Book One,
 *Waking*, is out. Book Two, *The Last Dawn*, is not written yet.
+**Beyond the Western Sea** is a short campaign of one book, for groups that
+want a full story in a few months.
 
 The books are built from source. Each push to `main` makes new PDFs in color
 for a screen, in black and white for a home printer, and as print-ready
@@ -111,6 +119,25 @@ Compendiums.
 - 12 new creatures, 24 people, and 13 treasures, each in an appendix from A
   to Z.
 - 4 maps, 11 handouts, and an index of each name.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### Beyond the Western Sea
+
+137 pages, A4. A short campaign for levels 1 to 5, in about 8 to 10
+sessions. It needs Edition 2 of the two Compendiums.
+
+- A ship from Corrantey wrecks on an island that is on no map.
+- Play with normal dice, or with only four six-sided dice and a
+  doubling cube. Each roll shows both forms.
+- The Storm Cube: a clock that the whole table can see.
+- Chapter 1, an open island of sites in any order, and a last chapter.
+- 11 new creatures, 24 people, and 9 treasures, each in an appendix from A
+  to Z.
+- A map of the island, 6 handouts, and an index of each name.
 
 </td>
 </tr>
@@ -172,6 +199,7 @@ change.
 | The Player's Compendium | [Screen](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-players-compendium-screen.pdf) | [Home print](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-players-compendium-home-print.pdf) | [Interior](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-players-compendium-lulu-interior.pdf), [cover](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-players-compendium-lulu-cover.pdf) | [Lulu](https://www.lulu.com/shop/stiven-gjekaj/dice-destiny-the-players-compendium/hardcover/product-yv69eey.html) | Nothing |
 | The Game Master's Compendium | [Screen](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-game-masters-compendium-screen.pdf) | [Home print](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-game-masters-compendium-home-print.pdf) | [Interior](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-game-masters-compendium-lulu-interior.pdf), [cover](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-game-masters-compendium-lulu-cover.pdf) | [Lulu](https://www.lulu.com/shop/stiven-gjekaj/dice-destiny-the-game-masters-compendium/hardcover/product-w46qm8v.html) | Nothing |
 | The Dawnwatch, Book One: Waking | [Screen](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/dawnwatch-waking-latest/dice-and-destiny-the-dawnwatch-waking-screen.pdf) | [Home print](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/dawnwatch-waking-latest/dice-and-destiny-the-dawnwatch-waking-home-print.pdf) | [Interior](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/dawnwatch-waking-latest/dice-and-destiny-the-dawnwatch-waking-lulu-interior.pdf), [cover](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/dawnwatch-waking-latest/dice-and-destiny-the-dawnwatch-waking-lulu-cover.pdf) | [Lulu](https://www.lulu.com/shop/stiven-gjekaj/dice-destiny-the-dawnwatch-book-one-waking/hardcover/product-45gd4m4.html) | Requires Edition 2 |
+| Beyond the Western Sea | [Screen](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/western-sea-latest/dice-and-destiny-beyond-the-western-sea-screen.pdf) | [Home print](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/western-sea-latest/dice-and-destiny-beyond-the-western-sea-home-print.pdf) | [Interior](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/western-sea-latest/dice-and-destiny-beyond-the-western-sea-lulu-interior.pdf), [cover](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/western-sea-latest/dice-and-destiny-beyond-the-western-sea-lulu-cover.pdf) | Not on Lulu yet | Requires Edition 2 |
 
 ### Buy a printed hardcover
 
@@ -204,6 +232,9 @@ want to do:
 - A **Waking** release (tag `dawnwatch-waking-N`) is a finished version of
   The Dawnwatch, Book One: Waking. The rolling release
   `dawnwatch-waking-latest` has its files.
+- A **Western Sea** release (tag `western-sea-N`) is a finished version of
+  Beyond the Western Sea. The rolling release `western-sea-latest` has its
+  files.
 
 To build the books yourself, read [`compendium/README.md`](compendium/README.md).
 
@@ -213,7 +244,7 @@ To build the books yourself, read [`compendium/README.md`](compendium/README.md)
 
 | Folder | Contents |
 |---|---|
-| [`compendium/`](compendium/) | The source of the two Compendiums and of The Dawnwatch, the original content, and the build system |
+| [`compendium/`](compendium/) | The source of the two Compendiums, The Dawnwatch, and Beyond the Western Sea, the original content, and the build system |
 | [`adventures/`](adventures/) | One-shots and short adventures |
 | [`docs/`](docs/) | The style and balance guide, the design documents, and the review notes |
 | [`assets/`](assets/) | The wordmark of this page |
