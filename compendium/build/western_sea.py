@@ -81,16 +81,21 @@ def missing_maps():
     return campaign.missing_maps(WESTERN_SEA)
 
 
-def build_book(screen=False):
+def pdf_pages(path):
+    """The page count of the PDF at path."""
+    from pypdf import PdfReader
+    return len(PdfReader(path).pages)
+
+
+def build_book(screen=False, build=campaign.build_book, count=pdf_pages):
     """Build the print interior (western-sea.pdf) or the screen interior (western-sea_screen.pdf).
 
-    While the book is not complete, a page count outside PAGES gives a WARNING, not an error."""
-    campaign.build_book(WESTERN_SEA, screen)
+    The build stops if the print interior has a page count outside PAGES."""
+    build(WESTERN_SEA, screen)
     if not screen:
-        from pypdf import PdfReader
-        msg = check_pages(len(PdfReader(f"{WESTERN_SEA.name}.pdf").pages))
+        msg = check_pages(count(f"{WESTERN_SEA.name}.pdf"))
         if msg:
-            print("WARNING:", msg)
+            raise SystemExit(msg)
 
 
 def main(args):

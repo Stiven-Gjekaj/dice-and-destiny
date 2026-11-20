@@ -97,3 +97,11 @@ def test_a_map_with_no_final_file_is_a_placeholder(tmp_path, monkeypatch):
     assert 'id="farholm-a"' in FM.map_svg("farholm")
     h = campaign.map_html("colony-town", maps="farholm_maps")
     assert 'class="map-placeholder"' in h
+
+
+def test_page_count_stops_the_build():
+    with pytest.raises(SystemExit) as e:
+        WS.build_book(build=lambda c, screen: None, count=lambda path: 100)
+    assert "120 to 140" in str(e.value)
+    WS.build_book(build=lambda c, screen: None, count=lambda path: 137)
+    WS.build_book(screen=True, build=lambda c, screen: None, count=lambda path: 100)
