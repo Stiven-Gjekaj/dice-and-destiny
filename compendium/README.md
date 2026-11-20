@@ -7,6 +7,8 @@ that builds them:
 - *Dice & Destiny: The Game Master's Compendium*
 - *The Dawnwatch, Book One: Waking*, a campaign for levels 1 to 10. It
   needs Edition 2 of the two Compendiums.
+- *Beyond the Western Sea*, a short campaign for levels 1 to 5. It needs
+  Edition 2 of the two Compendiums.
 
 The build makes five PDFs for each book:
 
@@ -58,11 +60,14 @@ right-hand page. The full build takes some minutes.
 |---|---|
 | `books/` | The chapters that a human writes (`player.src.html`, `gm.src.html`) and the styles (`style.css` for the design, `book.css` for the page layout, `bw.css` for print, `screen.css` for the screen). A `{{PLACEHOLDER}}` marks a section that the build makes. |
 | `content/` | The original content. Each category is a folder: `classes/`, `subclasses/`, `species/`, `backgrounds/`, `feats/`, `spells/`, `monsters/`, `npcs/`, `items/`, `traps/`, `tables/`, `pantheons/`, `downtime/` (with the strongholds), `systems/`, `injuries/`, and `crafting/`. The `__init__.py` of each folder collects the entries of all its files. |
-| `build/` | The build code. `build.py` fills the placeholders, adds the chapter headings, makes the table of contents, and makes the PDFs. `cover.py` makes the hardcover and paperback covers. `editions.py` makes the front pages and joins the screen and home-print PDFs. `classes.py` and `compendium.py` make the SRD sections. `orig_render.py` and the `render_*.py` files make the original content sections (one renderer for each new category). `check_content.py` checks the content, and `check_fonts.py` checks the fonts of the PDFs. `monster_engine.py` calculates the monster statistics. `icons.py` holds the icons. `waking.py` builds The Dawnwatch, Book One: Waking, and `waking_md.py` changes its Markdown into HTML. |
+| `build/` | The build code. `build.py` fills the placeholders, adds the chapter headings, makes the table of contents, and makes the PDFs. `cover.py` makes the hardcover and paperback covers. `editions.py` makes the front pages and joins the screen and home-print PDFs. `classes.py` and `compendium.py` make the SRD sections. `orig_render.py` and the `render_*.py` files make the original content sections (one renderer for each new category). `check_content.py` checks the content, and `check_fonts.py` checks the fonts of the PDFs. `monster_engine.py` calculates the monster statistics. `icons.py` holds the icons. `campaign.py` is the engine of the campaign books. `waking.py` builds The Dawnwatch, Book One: Waking, and `waking_md.py` changes its Markdown into HTML. `western_sea.py` builds Beyond the Western Sea, `six_sided.py` adds the six-sided form of each roll to that book, `farholm_maps.py` finds its maps, and `farholm_inkland.py` makes the inkland config of its island. |
 | `maps/` | The final maps of The Dawnwatch (`<id>.svg`) and `places.json`, the places for the map tool. See [The maps of The Dawnwatch](#the-maps-of-the-dawnwatch). |
 | `data/` | The SRD 5.2 data in JSON, and `fetch.py`, which downloads the data again. |
 | `books/waking/` | The Markdown text of The Dawnwatch, Book One: Waking: `how-to-run.md`, `players-guide.md`, `gazetteer.md`, `chapters/NN-name.md` (chapters 2 to 10), and `handouts/NN-name.md`. `books/waking.css` holds the styles of the book. |
 | `content/dawnwatch/` | The creatures (`creatures_*.py`, list `MON`), people (`people_*.py`, list `NPCS`), treasures (`treasures_*.py`, list `ITEMS`), and places (`places.py`, list `PLACES`) of The Dawnwatch. The Compendiums do not read this package. |
+| `books/western-sea/` | The Markdown text of Beyond the Western Sea: `how-to-run.md`, `players-guide.md`, `gazetteer.md`, `chapters/NN-name.md`, and `handouts/NN-name.md`. `books/western-sea.css` holds the styles of the book. |
+| `content/western_sea/` | The creatures, people, treasures, and places of Beyond the Western Sea, in the format of `content/dawnwatch/`. The content check stops on an armor class above 16 or a save DC above 15. |
+| `maps/western-sea/` | The final map of Farholm (`farholm.svg`) and its inkland config. |
 | `build.sh` | Builds the print and screen interiors, the hardcover covers, and the editions of the three books, and copies the 15 PDFs into `dist/`. |
 
 ## Add your own content
