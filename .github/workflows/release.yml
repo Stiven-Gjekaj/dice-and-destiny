@@ -2,8 +2,9 @@
 # A push to main makes a preview pre-release with all books.
 # A tag edition-N makes a release of the two Compendiums.
 # A tag dawnwatch-waking-N makes a release of The Dawnwatch, Book One: Waking.
+# A tag western-sea-N makes a release of Beyond the Western Sea.
 # Each product release also replaces the files of the rolling release of its product:
-# compendium-latest or dawnwatch-waking-latest. The README links to these files.
+# compendium-latest, dawnwatch-waking-latest, or western-sea-latest. The README links to these files.
 # The workflow does not write commits.
 name: Release
 
@@ -18,6 +19,7 @@ on:
     tags:
       - "edition-*"
       - "dawnwatch-waking-*"
+      - "western-sea-*"
   workflow_dispatch:
 
 permissions:
@@ -58,6 +60,16 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/dawnwatch-waking-')
         run: cd compendium && PYTHONPATH=.:build python3 build/waking.py --check-maps
 
+      # The same rule applies to Beyond the Western Sea.
+      - name: Check that the maps of Beyond the Western Sea are final
+        if: startsWith(github.ref, 'refs/tags/western-sea-')
+        run: cd compendium && PYTHONPATH=.:build python3 build/western_sea.py --check-maps
+
+      # The book uses only six-sided dice tables. Stop if the book source has a d20 or a d100.
+      - name: Check the dice of Beyond the Western Sea
+        if: startsWith(github.ref, 'refs/tags/western-sea-')
+        run: cd compendium && PYTHONPATH=.:build python3 build/western_sea.py --check
+
       - name: Build the books
         run: compendium/build.sh
 
@@ -84,15 +96,26 @@ jobs:
 
       # GitHub changes special characters in the names of release files.
       # Give each file a plain name, and keep the full title as its label.
-      # assets-compendium.txt and assets-waking.txt hold the files of each product.
+      # assets-compendium.txt, assets-waking.txt, and assets-western-sea.txt hold the files of each product.
+      # The build makes Beyond the Western Sea only after build.sh has the book.
+      # Until then, the step adds the book only when its screen PDF is in compendium/dist/.
+      # A western-sea tag always needs all 5 files of the book.
       - name: Name the release files
         run: |
           mkdir -p release
           : > assets-compendium.txt
           : > assets-waking.txt
-          for book in "Player's Compendium:players-compendium:compendium:The Player's Compendium" \
-                      "Game Master's Compendium:game-masters-compendium:compendium:The Game Master's Compendium" \
-                      "The Dawnwatch, Book One - Waking:the-dawnwatch-waking:waking:The Dawnwatch, Book One: Waking"; do
+          : > assets-western-sea.txt
+          books=("Player's Compendium:players-compendium:compendium:The Player's Compendium"
+                 "Game Master's Compendium:game-masters-compendium:compendium:The Game Master's Compendium"
+                 "The Dawnwatch, Book One - Waking:the-dawnwatch-waking:waking:The Dawnwatch, Book One: Waking")
+          western_sea=false
+          if [[ "$GITHUB_REF" == refs/tags/western-sea-* ]] || \
+             [ -f "compendium/dist/Dice & Destiny - Beyond the Western Sea - Screen (color).pdf" ]; then
+            western_sea=true
+            books+=("Beyond the Western Sea:beyond-the-western-sea:western-sea:Beyond the Western Sea")
+          fi
+          for book in "${books[@]}"; do
             IFS=':' read -r title slug product label_title <<< "$book"
             src="compendium/dist/Dice & Destiny - ${title}"
             while IFS='|' read -r kind file label; do
@@ -106,16 +129,19 @@ jobs:
           paperback-cover|Paperback Cover (color, 3 mm bleed)|paperback cover (A4, color, with 3 mm bleed)
           LIST
           done
-          cat assets-compendium.txt assets-waking.txt
+          cat assets-compendium.txt assets-waking.txt assets-western-sea.txt
           test "$(wc -l < assets-compendium.txt)" -eq 10
           test "$(wc -l < assets-waking.txt)" -eq 5
+          if [ "$western_sea" = true ]; then
+            test "$(wc -l < assets-western-sea.txt)" -eq 5
+          fi
 
       - name: Publish a preview release
         if: github.ref == 'refs/heads/main'
         run: |
           day=$(date -u +%Y.%m.%d)
           tag="preview-${day}-${GITHUB_SHA::7}"
-          mapfile -t assets < <(cat assets-compendium.txt assets-waking.txt)
+          mapfile -t assets < <(cat assets-compendium.txt assets-waking.txt assets-western-sea.txt)
           gh release create "$tag" "${assets[@]}" \
             --target "$GITHUB_SHA" --prerelease --latest=false \
             --title "Dice & Destiny preview ${day} (${GITHUB_SHA::7})" \
@@ -160,6 +186,23 @@ jobs:
           echo "PRODUCT=waking" >> "$GITHUB_ENV"
           echo "ROLLING_TITLE=The Dawnwatch, Book One: Waking: the newest version" >> "$GITHUB_ENV"
           echo "ROLLING_NOTES=The files of version ${n} (tag ${GITHUB_REF_NAME}). Requires ${REQUIRES} of the Dice & Destiny Compendiums. Each Waking release replaces them." >> "$GITHUB_ENV"
+
+      # REQUIRES is the Compendium edition that the book needs. Change it when the book needs a new edition.
+      - name: Publish a Beyond the Western Sea release
+        if: startsWith(github.ref, 'refs/tags/western-sea-')
+        env:
+          REQUIRES: "Edition 2"
+        run: |
+          n="${GITHUB_REF_NAME#western-sea-}"
+          mapfile -t assets < assets-western-sea.txt
+          gh release create "$GITHUB_REF_NAME" "${assets[@]}" \
+            --verify-tag --latest=false \
+            --title "Beyond the Western Sea, version ${n}" \
+            --notes "Version ${n} of Dice & Destiny: Beyond the Western Sea. Requires ${REQUIRES} of the Dice & Destiny Compendiums."
+          echo "ROLLING=western-sea-latest" >> "$GITHUB_ENV"
+          echo "PRODUCT=western-sea" >> "$GITHUB_ENV"
+          echo "ROLLING_TITLE=Beyond the Western Sea: the newest version" >> "$GITHUB_ENV"
+          echo "ROLLING_NOTES=The files of version ${n} (tag ${GITHUB_REF_NAME}). Requires ${REQUIRES} of the Dice & Destiny Compendiums. Each Beyond the Western Sea release replaces them." >> "$GITHUB_ENV"
 
       # The rolling release of a product keeps the same file names, so a link to a file always gives the newest version.
       # The step makes the release if it does not exist, and replaces its files. It does not move a tag or write a commit.
