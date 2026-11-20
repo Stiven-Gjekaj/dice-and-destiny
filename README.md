@@ -46,7 +46,8 @@ _The free rules of the SRD 5.2, and thousands of original options, in one Player
 > 8 to 10 sessions. A group can play it with normal dice, or with only the
 > dice of a backgammon set. It needs Edition 2 of the two Compendiums.
 > Download its PDFs from the
-> [`western-sea-latest` release](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/tag/western-sea-latest).
+> [`western-sea-latest` release](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/tag/western-sea-latest),
+> or [buy the hardcover](#buy-a-printed-hardcover) on the Lulu Bookstore.
 
 ---
 
@@ -199,7 +200,7 @@ change.
 | The Player's Compendium | [Screen](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-players-compendium-screen.pdf) | [Home print](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-players-compendium-home-print.pdf) | [Interior](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-players-compendium-lulu-interior.pdf), [cover](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-players-compendium-lulu-cover.pdf) | [Lulu](https://www.lulu.com/shop/stiven-gjekaj/dice-destiny-the-players-compendium/hardcover/product-yv69eey.html) | Nothing |
 | The Game Master's Compendium | [Screen](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-game-masters-compendium-screen.pdf) | [Home print](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-game-masters-compendium-home-print.pdf) | [Interior](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-game-masters-compendium-lulu-interior.pdf), [cover](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/compendium-latest/dice-and-destiny-game-masters-compendium-lulu-cover.pdf) | [Lulu](https://www.lulu.com/shop/stiven-gjekaj/dice-destiny-the-game-masters-compendium/hardcover/product-w46qm8v.html) | Nothing |
 | The Dawnwatch, Book One: Waking | [Screen](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/dawnwatch-waking-latest/dice-and-destiny-the-dawnwatch-waking-screen.pdf) | [Home print](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/dawnwatch-waking-latest/dice-and-destiny-the-dawnwatch-waking-home-print.pdf) | [Interior](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/dawnwatch-waking-latest/dice-and-destiny-the-dawnwatch-waking-lulu-interior.pdf), [cover](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/dawnwatch-waking-latest/dice-and-destiny-the-dawnwatch-waking-lulu-cover.pdf) | [Lulu](https://www.lulu.com/shop/stiven-gjekaj/dice-destiny-the-dawnwatch-book-one-waking/hardcover/product-45gd4m4.html) | Requires Edition 2 |
-| Beyond the Western Sea | [Screen](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/western-sea-latest/dice-and-destiny-beyond-the-western-sea-screen.pdf) | [Home print](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/western-sea-latest/dice-and-destiny-beyond-the-western-sea-home-print.pdf) | [Interior](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/western-sea-latest/dice-and-destiny-beyond-the-western-sea-lulu-interior.pdf), [cover](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/western-sea-latest/dice-and-destiny-beyond-the-western-sea-lulu-cover.pdf) | Not on Lulu yet | Requires Edition 2 |
+| Beyond the Western Sea | [Screen](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/western-sea-latest/dice-and-destiny-beyond-the-western-sea-screen.pdf) | [Home print](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/western-sea-latest/dice-and-destiny-beyond-the-western-sea-home-print.pdf) | [Interior](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/western-sea-latest/dice-and-destiny-beyond-the-western-sea-lulu-interior.pdf), [cover](https://github.com/Stiven-Gjekaj/dice-and-destiny/releases/download/western-sea-latest/dice-and-destiny-beyond-the-western-sea-lulu-cover.pdf) | [Lulu](https://www.lulu.com/shop/stiven-gjekaj/dice-destiny-beyond-the-western-sea/hardcover/product-p684ypw.html) | Requires Edition 2 |
 
 ### Buy a printed hardcover
 
@@ -211,6 +212,7 @@ each copy when you order it.
 | [The Player's Compendium](https://www.lulu.com/shop/stiven-gjekaj/dice-destiny-the-players-compendium/hardcover/product-yv69eey.html) | 288 | 29.99 EUR |
 | [The Game Master's Compendium](https://www.lulu.com/shop/stiven-gjekaj/dice-destiny-the-game-masters-compendium/hardcover/product-w46qm8v.html) | 469 | 34.99 EUR |
 | [The Dawnwatch, Book One: Waking](https://www.lulu.com/shop/stiven-gjekaj/dice-destiny-the-dawnwatch-book-one-waking/hardcover/product-45gd4m4.html) | 312 | 29.99 EUR |
+| [Beyond the Western Sea](https://www.lulu.com/shop/stiven-gjekaj/dice-destiny-beyond-the-western-sea/hardcover/product-p684ypw.html) | 137 | 22.99 EUR |
 
 ### Download the PDFs
 
