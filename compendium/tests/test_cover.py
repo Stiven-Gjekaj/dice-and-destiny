@@ -2,6 +2,7 @@
 for an A4 casewrap hardcover with 196 pages (uploaded by the human, 2026-11-15)."""
 import pytest
 
+import cover
 from cover import cover_size
 
 
@@ -67,7 +68,7 @@ def test_the_western_sea_cover_fills_its_counts_and_needs_edition_2():
     for kind in ("paperback", "hardcover"):
         h = cover_html("western-sea", 130, kind)[0]
         assert "{WS_COUNTS}" not in h and "Requires Edition 2" in h
-        spine = re.search(r'<div class="panel spine">(.*?)</div></div>', h).group(1)
+        spine = re.search(r'<div class="panel spine">.*?<div class="st">(.*?)</div>', h, re.S).group(1)
         assert "Beyond the Western Sea" in spine
 
 
@@ -85,7 +86,7 @@ def test_the_waking_spine_gives_the_full_title():
     from cover import cover_html
     for kind in ("paperback", "hardcover"):
         h = cover_html("waking", 310, kind)[0]
-        spine = re.search(r'<div class="panel spine">(.*?)</div></div>', h).group(1)
+        spine = re.search(r'<div class="panel spine">.*?<div class="st">(.*?)</div>', h, re.S).group(1)
         assert "The Dawnwatch, Book One: Waking" in spine
 
 
@@ -95,3 +96,26 @@ def test_a_short_book_gets_the_minimum_hardcover_and_a_warning():
     assert size == HC_MIN_PAGES and "WARNING" in warning
     assert cover_pages(17, "paperback") == (17, None)
     assert cover_pages(HC_MIN_PAGES, "hardcover") == (HC_MIN_PAGES, None)
+
+
+def test_each_book_has_its_own_colors():
+    assert set(cover.PALETTES) == set(cover.BOOKS)
+    assert len({p["bg"][0] for p in cover.PALETTES.values()}) == len(cover.PALETTES)
+    assert len({p["hue"] for p in cover.PALETTES.values()}) == len(cover.PALETTES)
+
+
+@pytest.mark.parametrize("kind", ["paperback", "hardcover"])
+def test_text_keeps_clear_of_the_frame(kind):
+    import re
+    h, *_ = cover.cover_html("gm", 300, kind)
+    frame = float(re.search(r"\.frame \{ position: absolute; left: ([\d.]+)mm", h).group(1))
+    top, bottom, left, right = map(float, re.search(
+        r"\.stack \{ top: ([\d.]+)mm; bottom: ([\d.]+)mm; left: ([\d.]+)mm; right: ([\d.]+)mm", h).groups())
+    assert min(left, right) >= frame + cover.FRAME_GAP_MM + cover.CLEAR_MM
+    assert min(top, bottom) >= frame + cover.CUT_MM + cover.CLEAR_MM
+
+
+def test_level_and_its_number_stay_on_one_line():
+    assert cover.keep_together("from level 1 to level 10.") == "from level&nbsp;1 to level&nbsp;10."
+    h, *_ = cover.cover_html("western-sea", 137, "hardcover")
+    assert "level&nbsp;5" in h

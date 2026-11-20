@@ -4,9 +4,9 @@ Two kinds:
   paperback  A4 trim with 3 mm bleed.
   hardcover  Lulu A4 casewrap: boards, a wrap around the edges, and a safety margin.
 """
-import importlib, sys, subprocess, os
+import importlib, re, sys, subprocess, os
+from math import cos, sin, pi, radians
 from pypdf import PdfReader
-from icons import big_d20, icon
 
 BLEED, W, H = 3.0, 210.0, 297.0
 MM_PER_PAGE = 0.0572  # typical 50–60 lb white paper; confirm with your printer's spine calculator
@@ -77,11 +77,26 @@ BOOKS = {
             "Play with the dice of a backgammon set, or with normal dice: each roll is printed in both forms",
             "The Storm Cube: a clock on the table that each player can see, and a risk that each player can take",
             "{WS_COUNTS}, each in an appendix from A to Z",
-            "A player's guide with no spoilers, a gazetteer of the island, maps, and handouts on their own pages"],
+            "A player's guide with no spoilers, a gazetteer of the island, a map, and handouts on their own pages"],
    icons=["compass", "dice", "people", "chest"],
    compat="A campaign for levels 1 to 5 &middot; Requires Edition 2",
    note="Uses the rules of Dice &amp; Destiny: The Player's Compendium and The Game Master's Compendium, Edition 2."),
 }
+# The colors of each book: the background (center, middle, edge), the accent of the lines and the small text,
+# and the hue of the die in degrees (None: the red die). Each book has its own color.
+PALETTES = {
+    "player": dict(bg=("#1f3560", "#101b33", "#080d1a"), accent="#cfa954", hue=218),
+    "gm": dict(bg=("#4a1913", "#22100c", "#140806"), accent="#c99a3e", hue=None),
+    "waking": dict(bg=("#3d2352", "#1b1028", "#0d0714"), accent="#d6a64e", hue=280),
+    "western-sea": dict(bg=("#0f474a", "#0a2527", "#051011"), accent="#c9b27c", hue=186),
+}
+
+# The space in mm between the inner line of a frame and the nearest text. A line of text that comes nearer
+# to a line of the frame goes onto a new line.
+CLEAR_MM = 8
+# The distance in mm from the outer line of a frame to its inner line.
+FRAME_GAP_MM = 1.8
+
 COMPAT = "A rules-compatible guide for fifth edition (2024)"
 NOTE = "Compatible with the fifth edition (2024) rules. For players and Game Masters."
 
@@ -121,79 +136,200 @@ def cover_pages(pages, kind):
     return pages, None
 
 
+# The cut at each corner of a frame, in mm. A small diamond sits in each cut.
+CUT_MM = 8
+
+FONTS = """
+@font-face { font-family: "Fell"; src: url("books/fonts/IMFellEnglish-Regular.ttf") format("truetype"); font-style: normal; }
+@font-face { font-family: "Fell"; src: url("books/fonts/IMFellEnglish-Italic.ttf") format("truetype"); font-style: italic; }
+@font-face { font-family: "Fell SC"; src: url("books/fonts/IMFellEnglishSC-Regular.ttf") format("truetype"); }
+@font-face { font-family: "Inter"; src: url("books/fonts/Inter-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; }
+"""
+
+
+def frame_svg(w, h, color):
+    """A frame of two lines with cut corners and a diamond in each corner, w x h mm."""
+    c, g = CUT_MM, FRAME_GAP_MM
+
+    def cut(i):
+        return (f"M{c + i:g} {i:g} H{w - c - i:g} V{c:g} H{w - i:g} V{h - c:g} H{w - c - i:g} V{h - i:g} "
+                f"H{c + i:g} V{h - c:g} H{i:g} V{c:g} H{c + i:g} Z")
+    inner = (f"M{c + g:g} {g:g} H{w - c - g:g} V{c + g:g} H{w - g:g} V{h - c - g:g} H{w - c - g:g} V{h - g:g} "
+             f"H{c + g:g} V{h - c - g:g} H{g:g} V{c + g:g} H{c + g:g} Z")
+    dia = "".join(f'<path d="M{x:g} {y - 1.4:g} L{x + 1.4:g} {y:g} L{x:g} {y + 1.4:g} L{x - 1.4:g} {y:g} Z" fill="{color}"/>'
+                  for x, y in ((c / 2, c / 2), (w - c / 2, c / 2), (c / 2, h - c / 2), (w - c / 2, h - c / 2)))
+    return (f'<svg class="frame" viewBox="0 0 {w:g} {h:g}" style="width:{w:g}mm;height:{h:g}mm" fill="none" stroke="{color}">'
+            f'<path d="{cut(0)}" stroke-width=".42"/><path d="{inner}" stroke-width=".2"/>{dia}</svg>')
+
+
+def divider_svg(color):
+    """A rule with a diamond in the middle, 46 mm wide."""
+    return (f'<svg class="divider" viewBox="0 0 132 9" fill="{color}" stroke="{color}">'
+            '<line x1="0" y1="4.5" x2="56" y2="4.5" stroke-width=".8"/><line x1="76" y1="4.5" x2="132" y2="4.5" stroke-width=".8"/>'
+            '<path d="M66 0 L70.5 4.5 L66 9 L61.5 4.5 Z" stroke="none"/>'
+            '<circle cx="58.5" cy="4.5" r=".9" stroke="none"/><circle cx="73.5" cy="4.5" r=".9" stroke="none"/></svg>')
+
+
+def emblem(name, ink, acc, ground):
+    """The emblem of a book, in a box of 150 x 150, inside two rings."""
+    rings = (f'<circle cx="75" cy="75" r="72" fill="none" stroke="{acc}" stroke-width="1.4"/>'
+             f'<circle cx="75" cy="75" r="66" fill="none" stroke="{acc}" stroke-width=".5"/>')
+    if name == "player":  # a sword behind a shield: the hero
+        # The sword from the top: the pommel, the wrapped grip, the crossguard, then the blade under the guard.
+        art = (f'<path d="M71 41 H79 V112 L75 124 L71 112 Z" fill="{ink}"/>'
+               f'<line x1="75" y1="44" x2="75" y2="108" stroke="{ground}" stroke-width=".8"/>'
+               f'<circle cx="75" cy="18" r="4" fill="{acc}"/>'
+               f'<path d="M72.3 22 H77.7 L78.3 35 H71.7 Z" fill="{acc}"/>'
+               + "".join(f'<line x1="71.9" y1="{y}" x2="78.1" y2="{y + 2}" stroke="{ground}" stroke-width=".7"/>' for y in (24.5, 28, 31.5))
+               + f'<path d="M51 39 C51 35 56 35 60 36 H90 C94 35 99 35 99 39 C99 41 95 41.5 90 41 H60 C55 41.5 51 41 51 39 Z" fill="{acc}"/>'
+               f'<path d="M52 50 H98 V78 C98 97 88 108 75 116 C62 108 52 97 52 78 Z" fill="{ground}" stroke="{acc}" stroke-width="1.6"/>'
+               f'<path d="M57 55 H93 V78 C93 94 85 103 75 110 C65 103 57 94 57 78 Z" fill="none" stroke="{acc}" stroke-width=".5"/>'
+               f'<path d="M60 70 L75 86 L90 70" fill="none" stroke="{ink}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'
+               f'<path d="M60 84 L75 100 L90 84" fill="none" stroke="{ink}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>')
+    elif name == "gm":  # the die of the game master, drawn in lines
+        T, UR, LR, B, LL, UL = (75, 20), (121, 46), (121, 104), (75, 130), (29, 104), (29, 46)
+        ct, cl, cr = (75, 50), (46, 99), (104, 99)
+        edges = [(T, UR), (UR, LR), (LR, B), (B, LL), (LL, UL), (UL, T), (ct, cl), (cl, cr), (cr, ct), (T, ct), (UL, ct),
+                 (UR, ct), (UL, cl), (LL, cl), (B, cl), (B, cr), (LR, cr), (UR, cr)]
+        art = (f'<path d="M{ct[0]} {ct[1]} L{cl[0]} {cl[1]} L{cr[0]} {cr[1]} Z" fill="{ink}"/>'
+               + "".join(f'<line x1="{a[0]}" y1="{a[1]}" x2="{b[0]}" y2="{b[1]}" stroke="{acc}" stroke-width="1.5" '
+                         f'stroke-linecap="round"/>' for a, b in edges)
+               + f'<text x="75" y="89" text-anchor="middle" font-family="Fell" font-size="26" fill="{ground}">20</text>')
+    elif name == "waking":  # Wick, the lantern of the Dawnwatch, with the rays of the dawn
+        rays = "".join(f'<line x1="{75 + 36 * cos(a):.2f}" y1="{70 + 36 * sin(a):.2f}" x2="{75 + (36 + l) * cos(a):.2f}" '
+                       f'y2="{70 + (36 + l) * sin(a):.2f}" stroke="{acc}" stroke-width="1.3" stroke-linecap="round"/>'
+                       for a, l in ((radians(d), 12 if i % 2 == 0 else 7) for i, d in enumerate(range(195, 346, 25))))
+        art = (rays + f'<circle cx="75" cy="27" r="4.5" fill="none" stroke="{acc}" stroke-width="1.6"/>'
+               f'<path d="M62 42 H88 L82 32 H68 Z" fill="{acc}"/>'
+               f'<rect x="61" y="42" width="28" height="56" rx="2" fill="{ground}" stroke="{ink}" stroke-width="2.4"/>'
+               f'<path d="M75 52 C83 62 83 75 75 86 C67 75 67 62 75 52 Z" fill="{ink}"/>'
+               f'<path d="M75 64 C78 69 78 75 75 80 C72 75 72 69 75 64 Z" fill="{acc}"/>'
+               f'<line x1="68" y1="44" x2="68" y2="96" stroke="{acc}" stroke-width=".6"/>'
+               f'<line x1="82" y1="44" x2="82" y2="96" stroke="{acc}" stroke-width=".6"/>'
+               f'<path d="M57 98 H93 L88 108 H62 Z" fill="{acc}"/>'
+               f'<line x1="40" y1="116" x2="110" y2="116" stroke="{acc}" stroke-width="1.2"/>')
+    else:  # western-sea: a lighthouse on a rock over the waves, with one star
+        # Each wave is shorter than the one above it, so that it stays inside the inner ring.
+        waves = "".join(f'<path d="M{75 - 6 * n} {y} q6 -4 12 0' + " t12 0" * (n - 1) + f'" fill="none" stroke="{ink}" '
+                        f'stroke-width="1.4" stroke-linecap="round"/>' for n, y in ((6, 110), (5, 118), (4, 126)))
+        art = (f'<path d="M75 44 L36 34 L36 42 Z" fill="{acc}"/><path d="M75 44 L114 34 L114 42 Z" fill="{acc}"/>'
+               f'<path d="M64 100 L69 50 H81 L86 100 Z" fill="{ink}"/>'
+               f'<path d="M66.6 74 H83.4 L84.2 82 H65.8 Z" fill="{acc}"/><path d="M68.2 58 H81.8 L82.4 64 H67.6 Z" fill="{acc}"/>'
+               f'<rect x="68" y="39" width="14" height="11" fill="{ground}" stroke="{acc}" stroke-width="1.4"/>'
+               f'<circle cx="75" cy="44.5" r="2.6" fill="{acc}"/><path d="M65 39 L85 39 L75 30 Z" fill="{acc}"/>'
+               f'<path d="M48 104 C56 96 94 96 102 104 Z" fill="{acc}"/>' + waves
+               + f'<path d="M108 22 L110 27 L115 29 L110 31 L108 36 L106 31 L101 29 L106 27 Z" fill="{ink}"/>')
+    return rings + art
+
+
+def medal_svg(name, ink, acc, ground, disc, size_mm):
+    """The emblem in a dark disc with a fine sunburst, as on the Soultale covers."""
+    rays = "".join(f'<line x1="{118 + 84 * cos(a):.2f}" y1="{118 + 84 * sin(a):.2f}" x2="{118 + r2 * cos(a):.2f}" '
+                   f'y2="{118 + r2 * sin(a):.2f}" stroke="{acc}" stroke-width="{w}"/>'
+                   for a, r2, w in ((i / 96 * 2 * pi, 116 if i % 2 == 0 else 104, .7 if i % 2 == 0 else .5) for i in range(96)))
+    return (f'<svg class="medal" viewBox="0 0 236 236" style="width:{size_mm}mm;height:{size_mm}mm">{rays}'
+            f'<circle cx="118" cy="118" r="80" fill="{disc}"/><g transform="translate(43 43)">{emblem(name, ink, acc, disc)}</g></svg>')
+
+
+def mini_svg(name, ink, acc, disc, size_mm):
+    return (f'<svg class="mini" viewBox="0 0 150 150" style="width:{size_mm}mm;height:{size_mm}mm">'
+            f'<circle cx="75" cy="75" r="72" fill="{disc}"/>{emblem(name, ink, acc, disc)}</svg>')
+
+
+def keep_together(text):
+    """The text with a no-break space between "level" and its number, so that a line never ends between them."""
+    return re.sub(r"\blevel (\d+)", r"level&nbsp;\1", text)
+
+
+def front_html(b, name, colors, pages=None):
+    """The front of a cover: a centered stack of the kicker, the title, the tagline, the medal, and the compat line."""
+    ink, acc, disc = colors["ink"], colors["accent"], colors["disc"]
+    foot = f'<div class="foot">Dice &amp; Destiny · {pages} pages</div>' if pages else ""
+    return (f'<div class="stack"><div class="kicker">Dice &amp; Destiny</div>{divider_svg(acc)}'
+            f'<h1>{b["t1"]}<br>{b["t2"]}</h1><div class="subt">{b["sub"]}</div>'
+            f'{medal_svg(name, ink, acc, colors["ground"], disc, 100)}{divider_svg(acc)}'
+            f'<div class="compat">{b.get("compat", COMPAT)}</div>{foot}</div>')
+
+
+STACK_CSS = """
+.stack { position: absolute; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.kicker { font-family: "Fell SC", serif; font-size: 11pt; letter-spacing: .5em; padding-left: .5em; color: var(--acc); }
+.divider { width: 46mm; height: 3.2mm; margin-top: 4mm; flex: none; }
+h1 { font-family: "Fell", serif; font-weight: normal; font-size: 46pt; line-height: 1.05; margin: 7mm 0 0; color: var(--ink); text-wrap: balance; }
+.subt { font-family: "Fell", serif; font-style: italic; font-size: 14pt; line-height: 1.4; margin-top: 5mm; max-width: 130mm; color: var(--soft); text-wrap: balance; }
+.medal { margin: auto 0; flex: none; }
+.compat { font-family: "Fell SC", serif; font-size: 10pt; letter-spacing: .22em; padding-left: .22em; line-height: 1.7; margin-top: 4mm;
+  color: var(--ink); text-wrap: balance; }
+.foot { font-family: Inter, sans-serif; font-size: 6.5pt; letter-spacing: .14em; color: var(--acc); text-transform: uppercase; margin-top: 3mm; }
+"""
+
+
 def cover_html(name, pages, kind="paperback"):
     b = BOOKS[name]
     g = cover_size(pages, kind)
     spine, tw, th = g["spine_mm"], g["width_mm"], g["height_mm"]
-    E, PW, PH, safe = g["edge_mm"], g["panel_w_mm"], g["panel_h_mm"], g["safe_mm"]
+    E, PW, PH = g["edge_mm"], g["panel_w_mm"], g["panel_h_mm"]
     hard = kind == "hardcover"
+    pal = PALETTES[name]
+    acc = pal["accent"]
+    colors = dict(ink="#f3e6cc", soft="#e2cfa8", accent=acc, ground=pal["bg"][1], disc=pal["bg"][2])
     frame = 19 if hard else 12          # the frame stays inside the safety margin
-    small_w = PW - 24 - g["barcode_w_mm"] - safe - 4 if hard else 110
-    # Paperback: the barcode box is in the corner of the text area.
-    # Hardcover: Lulu puts it HC_SAFE from the bottom and from the spine.
-    barcode_in = "" if hard else '<div class="barcode"></div>'
-    barcode_out = (f'<div class="barcode" style="right:{safe}mm;bottom:{safe}mm;width:{g["barcode_w_mm"]}mm;'
-                   f'height:{g["barcode_h_mm"]}mm"></div>') if hard else ""
-    ic = "".join(f'<span class="cb">{icon(i, 22, "#d6aa55", 1.4)}</span>' for i in b["icons"])
+    pad = frame + FRAME_GAP_MM + CLEAR_MM  # the nearest place for text, at the sides
+    top = frame + CUT_MM + CLEAR_MM        # the nearest place for text, at the top and the bottom
     counts = content_counts()
     for token, package in CAMPAIGN_TOKENS.items():
         if any(token in x for x in b["bullets"]):
             counts.update(campaign_counts(importlib.import_module(package), token))
-    bl = "".join(f"<li>{fill_counts(x, counts)}</li>" for x in b["bullets"])
+    bl = "".join(f"<p>{keep_together(fill_counts(x, counts))}</p>" for x in b["bullets"])
+    bg0, bg1, bg2 = pal["bg"]
+    fw, fh = PW - 2 * frame, PH - 2 * frame
     return f'''<!DOCTYPE html><html><head><meta charset="utf-8"><style>
 @page {{ size: {tw}mm {th}mm; margin: 0; }}
-@font-face {{ font-family: "Inter"; src: url("books/fonts/Inter-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; }}
-@font-face {{ font-family: "Inter"; src: url("books/fonts/Inter-Italic.ttf") format("truetype"); font-weight: 400; font-style: italic; }}
-@font-face {{ font-family: "Inter"; src: url("books/fonts/Inter-SemiBold.ttf") format("truetype"); font-weight: 600; font-style: normal; }}
-@font-face {{ font-family: "Inter"; src: url("books/fonts/Inter-Bold.ttf") format("truetype"); font-weight: 700; font-style: normal; }}
-
+{FONTS}
+:root {{ --ink: {colors["ink"]}; --soft: {colors["soft"]}; --acc: {acc}; }}
 html {{ -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
-body {{ margin: 0; width: {tw}mm; height: {th}mm; position: relative; overflow: hidden; font-family: "Bitstream Charter", serif;
-  background: radial-gradient(ellipse at 78% 38%, #4a1913 0%, #22100c 55%, #140806 100%); color: #f3e6cc; }}
+body {{ margin: 0; width: {tw}mm; height: {th}mm; position: relative; overflow: hidden; font-family: Caladea, serif;
+  background: radial-gradient(ellipse at 78% 38%, {bg0} 0%, {bg1} 55%, {bg2} 100%); color: var(--ink); }}
 .panel {{ position: absolute; top: {E}mm; height: {PH}mm; }}
 .back {{ left: {E}mm; width: {PW}mm; }}
 .spine {{ left: {E + PW}mm; width: {spine}mm; }}
 .front {{ left: {E + PW + spine}mm; width: {PW}mm; }}
-.frame {{ position: absolute; inset: {frame}mm; border: 1.2pt solid #c99a3e; outline: .5pt solid #c99a3e; outline-offset: -3.5mm; }}
-.front .inner {{ position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 0 26mm; }}
-.kicker {{ font-family: Inter, sans-serif; letter-spacing: .32em; font-size: 9pt; color: #c99a3e; text-transform: uppercase; margin-bottom: 10mm; }}
-h1 {{ font-family: "GFS Baskerville", Caladea, serif; font-weight: normal; font-size: 44pt; line-height: 1.02; margin: 0; color: #f6e7c8; }}
-.compat {{ font-family: Inter, sans-serif; letter-spacing: .12em; font-size: 8pt; color: #c99a3e; text-transform: uppercase; margin-top: 8mm; }}
-.subt {{ font-style: italic; font-size: 13pt; color: #e2cfa8; margin-top: 10mm; }}
-.icons {{ display: flex; gap: 5mm; justify-content: center; margin-top: 12mm; }}
-.cb {{ width: 11mm; height: 11mm; border-radius: 50%; border: 1pt solid #c99a3e; display: inline-flex; align-items: center; justify-content: center; }}
-.foot {{ position: absolute; bottom: 22mm; left: 0; right: 0; text-align: center; font-family: Inter, sans-serif; font-size: 7.5pt; letter-spacing: .12em; color: #b9a27a; text-transform: uppercase; }}
-.back .inner {{ position: absolute; inset: 26mm 24mm; }}
-.back h2 {{ font-family: Caladea, serif; color: #f6e2b8; font-size: 23pt; margin: 0 0 6mm; line-height: 1.2; }}
-.back ul {{ padding-left: 5mm; font-size: 12.5pt; line-height: 1.5; color: #ead9b6; }}
-.back li {{ margin-bottom: 4mm; }}
-.back .rule {{ border-top: .8pt solid #c99a3e; width: 40mm; margin: 8mm 0; }}
-.back .small {{ font-size: 7.5pt; color: #b9a27a; line-height: 1.45; position: absolute; bottom: 0; left: 0; width: {small_w:g}mm; }}
-.barcode {{ position: absolute; right: 0; bottom: 0; width: 50mm; height: 30mm; background: #fff; }}
+.frame {{ position: absolute; left: {frame}mm; top: {frame}mm; }}
+{STACK_CSS}
+.stack {{ top: {top:g}mm; bottom: {top:g}mm; left: {pad:g}mm; right: {pad:g}mm; }}
+.back h2 {{ font-family: "Fell", serif; font-weight: normal; font-size: 19pt; line-height: 1.3; margin: 0; max-width: 140mm; color: var(--ink); text-wrap: balance; }}
+.blurb {{ margin-top: 3mm; max-width: 135mm; font-size: 11.5pt; line-height: 1.5; color: #ead9b6; }}
+.blurb p {{ margin: 0; padding: 3.2mm 0; text-wrap: balance; }}
+.blurb p + p {{ border-top: .2mm solid color-mix(in srgb, var(--acc) 45%, transparent); }}
+.middle {{ flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; }}
+.mini {{ margin-top: 8mm; flex: none; }}
+.note {{ font-style: italic; font-size: 10pt; line-height: 1.45; color: var(--soft); margin: 5mm 0 0; text-wrap: balance; }}
+.small {{ font-style: italic; font-size: 7.5pt; line-height: 1.5; color: #b9a27a; margin-top: 3mm; text-wrap: balance; }}
 .spine .st {{ position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%) rotate(90deg); white-space: nowrap;
-  font-family: Caladea, serif; font-size: {min(11, spine * 1.6):.1f}pt; color: #f6e2b8; letter-spacing: .06em; }}
-.spine .st span {{ color: #c99a3e; margin: 0 3mm; }}
+  font-family: "Fell SC", serif; font-size: {min(13, spine * 1.5):.1f}pt; color: var(--ink); letter-spacing: .14em; }}
 /* A drawn diamond, not the character: Chrome prints a rotated symbol glyph as a Type 3 font. */
-.spine .st .dia {{ display: inline-block; width: 1.5mm; height: 1.5mm; background: #c99a3e; transform: rotate(45deg); vertical-align: middle; }}
-.spine::before, .spine::after {{ content: ""; position: absolute; left: 0; right: 0; border-top: .8pt solid #c99a3e; }}
-.spine::before {{ top: 18mm; }} .spine::after {{ bottom: 18mm; }}
+.spine .st .dia {{ display: inline-block; width: 1.4mm; height: 1.4mm; background: var(--acc); transform: rotate(45deg); vertical-align: middle; margin: 0 3mm; }}
+.band {{ position: absolute; left: 0; width: 100%; height: 12mm; }}
+.band.t {{ top: 16mm; }} .band.b {{ bottom: 16mm; }}
 </style></head><body>
-<div class="panel back"><div class="frame"></div><div class="inner">
-  <h2>{b["back"]}</h2><ul>{bl}</ul><div class="rule"></div>
-  <p style="font-style:italic;color:#e2cfa8;font-size:10pt">{b.get("note", NOTE)}</p>
+<div class="panel back">{frame_svg(fw, fh, acc)}<div class="stack">
+  <div class="kicker">Dice &amp; Destiny</div>{divider_svg(acc)}
+  <div class="middle"><h2>{keep_together(b["back"])}</h2><div class="blurb">{bl}</div>
+  {mini_svg(name, colors["ink"], acc, colors["disc"], 22)}</div>
+  <p class="note">{b.get("note", NOTE)}</p>
   <div class="small">Includes material from the System Reference Document 5.2 by Wizards of the Coast LLC, licensed under CC-BY-4.0. Not affiliated with or endorsed by Wizards of the Coast. Original content © 2026 Stiven Gjekaj, licensed under CC BY-NC-SA 4.0.</div>
-  {barcode_in}
-</div>{barcode_out}</div>
-<div class="panel spine"><div class="st">Dice &amp; Destiny<span class="dia"></span>{b["title"]}</div></div>
-<div class="panel front"><div class="frame"></div><div class="inner">
-  <div class="kicker">Dice &amp; Destiny</div>
-  <h1>{b["t1"]}<br>{b["t2"]}</h1>
-  <div style="margin-top:12mm">{big_d20(230)}</div>
-  <div class="subt">{b["sub"]}</div>
-  <div class="compat">{b.get("compat", COMPAT)}</div>
-  <div class="icons">{ic}</div>
-</div><div class="foot">Dice &amp; Destiny · {pages} pages</div></div>
+</div></div>
+<div class="panel spine">{band_svg(acc, "t")}<div class="st">Dice &amp; Destiny<span class="dia"></span>{b["title"]}</div>{band_svg(acc, "b")}</div>
+<div class="panel front">{frame_svg(fw, fh, acc)}{front_html(b, name, colors, pages)}</div>
 </body></html>''', spine, tw, th
+
+
+def band_svg(color, where):
+    """A band of two cords and a diamond across the spine."""
+    return (f'<svg class="band {where}" viewBox="0 0 68 40" preserveAspectRatio="xMidYMid meet" stroke="{color}" fill="{color}">'
+            '<line x1="14" y1="6" x2="54" y2="6" stroke-width="1.2"/><line x1="14" y1="10" x2="54" y2="10" stroke-width=".5"/>'
+            '<path d="M34 15 L39 20 L34 25 L29 20 Z" stroke="none"/>'
+            '<line x1="14" y1="30" x2="54" y2="30" stroke-width=".5"/><line x1="14" y1="34" x2="54" y2="34" stroke-width="1.2"/></svg>')
 
 
 if __name__ == "__main__":
