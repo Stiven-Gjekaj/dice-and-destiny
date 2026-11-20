@@ -189,7 +189,14 @@ REGISTRY = {
     "pantheons": lambda m: [p["name"] for p in m.PANTHEONS] + [g["name"] for p in m.PANTHEONS for g in p["gods"]],
     "npcs": lambda m: [e[1].name for e in m.NPCS],
     "dawnwatch": lambda m: [e.name for e in m.MON] + [person_name(e) for e in m.NPCS] + [e[0] for e in m.ITEMS],
+    "western_sea": lambda m: [e.name for e in m.MON] + [person_name(e) for e in m.NPCS] + [e[0] for e in m.ITEMS],
 }
+
+# Beyond the Western Sea can use 3d6 in place of a d20. 3d6 makes a high number much harder to roll.
+# Thus the creatures of that book keep these limits (spec, "What 3d6 changes").
+WESTERN_SEA_AC = 16
+WESTERN_SEA_DC = 15
+DC_VALUE = re.compile(r"\bDC (\d+)")
 
 
 def person_name(entry):
@@ -197,10 +204,23 @@ def person_name(entry):
     return entry[1] if isinstance(entry[1], str) else entry[1].name
 
 
-def campaign_clashes(campaign, compendium):
+def campaign_clashes(campaign, compendium, label="dawnwatch", other="Compendium"):
     """A campaign name that is also a Compendium name makes a statblock directive point at two entries."""
     known = {n.strip().lower() for n in compendium}
-    return [f"dawnwatch: '{n}' is also the name of a Compendium entry" for n in campaign if n.strip().lower() in known]
+    return [f"{label}: '{n}' is also the name of a {other} entry" for n in campaign if n.strip().lower() in known]
+
+
+def limit_errors(mons):
+    """Give one message for each creature with an armor class or a save DC above the limits of Beyond the Western Sea."""
+    errors = []
+    for m in mons:
+        ac = m.stats()[0]
+        if ac > WESTERN_SEA_AC:
+            errors.append(f"western_sea: {m.name} has AC {ac}, above {WESTERN_SEA_AC}")
+        dcs = [int(d) for text in _strings(m) for d in DC_VALUE.findall(m.fmt(text))]
+        if dcs and max(dcs) > WESTERN_SEA_DC:
+            errors.append(f"western_sea: {m.name} has a save DC of {max(dcs)}, above {WESTERN_SEA_DC}")
+    return errors
 
 
 def background_feat_errors(backgrounds, origin_feats):
@@ -271,6 +291,17 @@ def check_all_content():
         errors += monster_out_of_band(m)
     errors += campaign_clashes(REGISTRY["dawnwatch"](dw), [m.name for m in mods["monsters"].MON]
                                + [e[1].name for e in mods["npcs"].NPCS] + [e[0] for e in mods["items"].ITEMS])
+    ws = mods["western_sea"]
+    errors += unknown_values("western_sea", [e[2] for e in ws.ITEMS], RARITIES)
+    ws_mons = list(ws.MON) + [e[1] for e in ws.NPCS if not isinstance(e[1], str)]
+    for m in ws_mons:
+        errors += monster_out_of_band(m)
+    errors += limit_errors(ws_mons)
+    ws_names = REGISTRY["western_sea"](ws)
+    errors += campaign_clashes(ws_names, [m.name for m in mods["monsters"].MON]
+                               + [e[1].name for e in mods["npcs"].NPCS] + [e[0] for e in mods["items"].ITEMS],
+                               label="western_sea")
+    errors += campaign_clashes(ws_names, REGISTRY["dawnwatch"](dw), label="western_sea", other="Dawnwatch")
     errors += spell_class_level_errors(mods["spells"].SPELLS)
     for sp in mods["spells"].SPELLS:
         name, level, desc = sp[0], sp[1], sp[10]

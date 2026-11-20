@@ -184,3 +184,23 @@ def test_half_caster_spell_at_level_5_passes():
 
 def test_full_caster_spell_above_level_5_passes():
     assert spell_class_level_errors([_spell("Big Wall", 9, ["Wizard"])]) == []
+
+
+from check_content import campaign_clashes, limit_errors
+
+
+def test_western_sea_name_clash():
+    errors = campaign_clashes(["Goblin"], ["Goblin"], label="western_sea")
+    assert len(errors) == 1 and errors[0].startswith("western_sea: 'Goblin'")
+
+
+def test_limit_errors():
+    high_ac = M("Iron Crab", "M", "Beast", "Unaligned", 1, "10 10 10 10 10 10", ac=17)
+    assert len(limit_errors([high_ac])) == 1
+    low_ac = M("Shore Crab", "M", "Beast", "Unaligned", 1, "10 10 10 10 10 10", ac=13)
+    assert limit_errors([low_ac]) == []
+    # CR 5 gives a proficiency bonus of 3. Wisdom 20 gives DC 8 + 3 + 5 = 16.
+    caster = M("Sea Witch", "M", "Humanoid", "Neutral", 5, "10 10 10 10 20 10", ac=13,
+               actions=[("Drown", "One creature makes a {dc:wis} Constitution saving throw.")])
+    errors = limit_errors([caster])
+    assert len(errors) == 1 and "Sea Witch" in errors[0] and "16" in errors[0]
