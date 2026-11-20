@@ -200,11 +200,7 @@ def emblem(name, ink, acc, ground):
     elif name == "waking":  # Wick, the lantern of the Dawnwatch, in a ring of the rays of the dawn
         rays = "".join(f'<line x1="{75 + 40 * cos(a):.2f}" y1="{70 + 40 * sin(a):.2f}" x2="{75 + (40 + l) * cos(a):.2f}" '
                        f'y2="{70 + (40 + l) * sin(a):.2f}" stroke="{acc}" stroke-width="{w}" stroke-linecap="round"/>'
-                       for a, l, w in ((radians(i * 22.5 - 90), 11 if i % 2 == 0 else 6, 1.4 if i % 2 == 0 else .8)
-                                       for i in range(16)))
-        glow = "".join(f'<line x1="{75 + 11 * cos(a):.2f}" y1="{71 + 11 * sin(a):.2f}" x2="{75 + 14 * cos(a):.2f}" '
-                       f'y2="{71 + 14 * sin(a):.2f}" stroke="{acc}" stroke-width=".7" stroke-linecap="round"/>'
-                       for a in (radians(d) for d in (-150, -120, -60, -30, 30, 150)))
+                       for a, l, w in ((radians(i * 45 - 90), 10, 1.4) for i in range(8)))
         art = ('<g transform="translate(0 4)">' + rays
                + f'<path d="M66 33 C66 21 84 21 84 33" fill="none" stroke="{acc}" stroke-width="1.8"/>'
                f'<circle cx="75" cy="22.5" r="2.2" fill="{acc}"/>'
@@ -214,7 +210,7 @@ def emblem(name, ink, acc, ground):
                f'<path d="M64.5 49 H85.5 V92 H64.5 Z" fill="none" stroke="{acc}" stroke-width=".5"/>'
                f'<line x1="68" y1="45" x2="68" y2="96" stroke="{acc}" stroke-width=".7"/>'
                f'<line x1="82" y1="45" x2="82" y2="96" stroke="{acc}" stroke-width=".7"/>'
-               + glow +
+               +
                f'<path d="M75 55 C84 64 84 78 75 88 C66 78 66 64 75 55 Z" fill="{ink}"/>'
                f'<path d="M75 66 C79 71 79 78 75 83 C71 78 71 71 75 66 Z" fill="{acc}"/>'
                f'<rect x="57" y="96" width="36" height="4" rx="1" fill="{acc}"/>'
@@ -230,9 +226,9 @@ def emblem(name, ink, acc, ground):
                f'<line x1="88" y1="38" x2="88" y2="96" stroke="{acc}" stroke-width="1.6"/>'
                + sail(53, 74, 36, 50, 4) + sail(51, 76, 53, 70, 5) + sail(52, 75, 73, 88, 5)
                + sail(79, 96, 44, 56, 3) + sail(78, 98, 59, 74, 4) + sail(79, 97, 77, 89, 3)
-               + f'<path d="M103 48 L124 90 L103 90 Z" fill="{ink}"/>'
+               + f'<line x1="104" y1="93" x2="128" y2="88" stroke="{acc}" stroke-width="1.4"/>'
+               f'<path d="M103 48 L124 89 L103 90 Z" fill="{ink}"/>'
                f'<path d="M64 30 L56 27 L64 24 Z" fill="{acc}"/><path d="M88 38 L80 35 L88 32 Z" fill="{acc}"/>'
-               f'<line x1="104" y1="92" x2="128" y2="86" stroke="{acc}" stroke-width="1.4"/>'
                f'<path d="M34 92 H112 L104 101 Q75 104 44 101 Z" fill="{acc}"/>'
                + waves
                + f'<path d="M36 34 L37.8 39.2 L43 41 L37.8 42.8 L36 48 L34.2 42.8 L29 41 L34.2 39.2 Z" fill="{ink}"/></g>')
