@@ -1,7 +1,8 @@
 # Design: Beyond the Western Sea
 
 Date: 2026-11-20.
-Status: approved design. Work has not started.
+Status: the book is written and builds. The tag `western-sea-1` releases
+it.
 
 Related designs: [The Dawnwatch](2026-11-16-the-dawnwatch-design.md),
 [the Dawnwatch world bible](2026-11-16-dawnwatch-world.md),
