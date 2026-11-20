@@ -584,6 +584,11 @@ statblock are in `compendium/content/western_sea/people.py`.
 | Hester Spence | Both | The daughter of Absalom Pascoe. She married Thomas Spence and lives on the Tey bank. Neither side fully trusts her. | No |
 | Father Gilbert Rundle | The church | The priest of the Morning Flame on Founders' Hill. Born on the Corrin bank. He keeps the peace at the Moot. | No |
 | Amos Tulloch | Neither | An old salt boiler at the Saltpans. He lives apart from both sides. The first colonist that the party meets. | No |
+| Elias Trewin | The *Good Intent* | The master of the *Good Intent*, of Corrantey. About 50. He stays at the helm when she strikes the reef, and the sea takes him. Chapter 1. | No |
+| Hannah Rowse | The *Good Intent* | The mate. About 35. She breaks a leg in the wreck and leads the survivors after it. Chapter 1. | No |
+| Jory Kitto | The *Good Intent* | The bosun. About 45. He saves the ship's boat in the wreck. Chapter 1. | No |
+| Simeon Tregear | The *Good Intent* | The cook, and the surgeon in an emergency. About 60. Chapter 1. | No |
+| Nell Jago | The *Good Intent* | The ship's girl. 12 years old. The sea puts her ashore alone at the west end of Wreckers' Bay. Chapter 1. | No |
 
 People of the past (no statblock):
 
