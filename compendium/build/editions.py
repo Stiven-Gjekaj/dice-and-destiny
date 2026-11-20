@@ -15,55 +15,34 @@ import sys
 
 from pypdf import PdfReader, PdfWriter
 
-from cover import BOOKS, COMPAT
-from icons import big_d20, icon
-
-FONTS = "\n".join(
-    f'@font-face {{ font-family: "Inter"; src: url("books/fonts/Inter-{f}.ttf") format("truetype"); '
-    f'font-weight: {w}; font-style: {s}; }}'
-    for f, w, s in (("Regular", 400, "normal"), ("Italic", 400, "italic"), ("SemiBold", 600, "normal"), ("Bold", 700, "normal")))
-
-# Color: the design of the front of the printed cover. Black and white: black ink on white paper only.
-THEMES = {
-    "color": dict(bg="radial-gradient(ellipse at 50% 38%, #4a1913 0%, #22100c 55%, #140806 100%)", ink="#f6e7c8",
-                  accent="#c99a3e", soft="#e2cfa8"),
-    "bw": dict(bg="#fff", ink="#000", accent="#000", soft="#000"),
-}
-
+import cover
+from cover import BOOKS, PALETTES
 
 def front_page_html(name, theme):
-    """An A4 front cover page. theme is "color" or "bw"."""
-    b, t = BOOKS[name], THEMES[theme]
-    d20 = big_d20(200) if theme == "color" else big_d20(200, "#000", flat=True)
-    if theme == "bw":
-        # Flat black outline and white faces: no grey that a home printer can fade.
-        import re
-        d20 = re.sub(r"<defs>.*?</defs>", "", d20, flags=re.S)
-        d20 = re.sub(r'fill="#[0-9a-fA-F]{6}"', 'fill="#fff"', d20)
-        d20 = d20.replace('fill="url(#face)"', 'fill="#fff"')
-        d20 = re.sub(r'(<text[^>]*?)fill="#fff"', r'\1fill="#000"', d20)
-    ic = "".join(f'<span class="cb">{icon(i, 22, t["accent"], 1.4)}</span>' for i in b["icons"])
+    """An A4 front cover page, with the design of the front of the printed cover. theme is "color" or "bw"."""
+    b = BOOKS[name]
+    if theme == "color":
+        pal = PALETTES[name]
+        bg = "radial-gradient(ellipse at 50% 38%, {} 0%, {} 55%, {} 100%)".format(*pal["bg"])
+        colors = dict(ink="#f3e6cc", soft="#e2cfa8", accent=pal["accent"], ground=pal["bg"][1], disc=pal["bg"][2])
+    else:
+        # Black ink on white paper only: no grey that a home printer can fade.
+        bg = "#fff"
+        colors = dict(ink="#000", soft="#000", accent="#000", ground="#fff", disc="#fff")
+    frame = 12
+    pad = frame + cover.FRAME_GAP_MM + cover.CLEAR_MM
+    top = frame + cover.CUT_MM + cover.CLEAR_MM
     return f'''<!DOCTYPE html><html><head><meta charset="utf-8"><style>
 @page {{ size: A4; margin: 0; }}
-{FONTS}
+{cover.FONTS}
+:root {{ --ink: {colors["ink"]}; --soft: {colors["soft"]}; --acc: {colors["accent"]}; }}
 html {{ -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
-body {{ margin: 0; width: 210mm; height: 297mm; position: relative; overflow: hidden; background: {t["bg"]}; color: {t["ink"]}; }}
-.frame {{ position: absolute; inset: 12mm; border: 1.2pt solid {t["accent"]}; outline: .5pt solid {t["accent"]}; outline-offset: -3.5mm; }}
-.inner {{ position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 0 26mm; }}
-.kicker {{ font-family: Inter, sans-serif; letter-spacing: .32em; font-size: 9pt; color: {t["accent"]}; text-transform: uppercase; margin-bottom: 10mm; }}
-h1 {{ font-family: "GFS Baskerville", Caladea, serif; font-weight: normal; font-size: 44pt; line-height: 1.02; margin: 0; color: {t["ink"]}; }}
-.subt {{ font-family: Caladea, serif; font-style: italic; font-size: 13pt; color: {t["soft"]}; margin-top: 10mm; }}
-.compat {{ font-family: Inter, sans-serif; letter-spacing: .12em; font-size: 8pt; color: {t["accent"]}; text-transform: uppercase; margin-top: 8mm; }}
-.icons {{ display: flex; gap: 5mm; justify-content: center; margin-top: 12mm; }}
-.cb {{ width: 11mm; height: 11mm; border-radius: 50%; border: 1pt solid {t["accent"]}; display: inline-flex; align-items: center; justify-content: center; }}
-</style></head><body><div class="frame"></div><div class="inner">
-  <div class="kicker">Dice &amp; Destiny</div>
-  <h1>{b["t1"]}<br>{b["t2"]}</h1>
-  <div style="margin-top:12mm">{d20}</div>
-  <div class="subt">{b["sub"]}</div>
-  <div class="compat">{b.get("compat", COMPAT)}</div>
-  <div class="icons">{ic}</div>
-</div></body></html>'''
+body {{ margin: 0; width: 210mm; height: 297mm; position: relative; overflow: hidden; background: {bg}; color: {colors["ink"]};
+  font-family: Caladea, serif; }}
+.frame {{ position: absolute; left: {frame}mm; top: {frame}mm; }}
+{cover.STACK_CSS}
+.stack {{ top: {top:g}mm; bottom: {top:g}mm; left: {pad:g}mm; right: {pad:g}mm; }}
+</style></head><body>{cover.frame_svg(210 - 2 * frame, 297 - 2 * frame, colors["accent"])}{cover.front_html(b, name, colors)}</body></html>'''
 
 
 def render_front(name, theme):

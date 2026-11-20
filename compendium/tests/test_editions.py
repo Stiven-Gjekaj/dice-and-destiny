@@ -53,3 +53,11 @@ def test_the_waking_front_page_has_its_own_compat_line():
     from editions import front_page_html
     h = front_page_html("waking", "color")
     assert "Book One: Waking" in h and "Requires Edition 2" in h
+
+
+def test_the_color_front_page_has_the_colors_of_its_cover():
+    import cover
+    for name in cover.BOOKS:
+        html = editions.front_page_html(name, "color")
+        assert cover.PALETTES[name]["bg"][0] in html
+        assert cover.PALETTES[name]["accent"] in html
