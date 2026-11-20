@@ -253,13 +253,18 @@ def part(num, title, desc):
     return f"{{{{PART:{num}|{title}|{desc}}}}}"
 
 
+def full_title(f, sep=", "):
+    """The title and the sub title, with sep between them. A book with no sub title has only the title."""
+    return f["title"] + sep + f["sub_title"] if f["sub_title"] else f["title"]
+
+
 def front(c, screen=False):
     f = c.front
     d20 = big_d20(150, flat=True) if screen else B._dark_text(B.gray(big_d20(150, "#000", flat=True)))
-    full = f'{f["title"]}, {f["sub_title"]}'
+    full = full_title(f)
     return f'''<section class="titlepage">
 <div class="kicker">Dice &amp; Destiny</div>
-<h1>{f["title"]}<br>{f["sub_title"]}</h1><div class="rule"></div>
+<h1>{full_title(f, "<br>")}</h1><div class="rule"></div>
 <div>{d20}</div>
 <div class="sub" style="margin-top:8mm">{f["sub"]}</div>
 <div class="compat">{f["compat"]}</div></section>
@@ -741,6 +746,6 @@ def build_book(c, screen=False, expand_fn=None, passes_fn=None):
 
 def page_html(c, body, screen=False, inside_mm=None):
     style = styles(c, screen) + (B.margin_css(inside_mm) if inside_mm else "")
-    title = f'{c.front["title"]}, {c.front["sub_title"]}'
+    title = full_title(c.front)
     return (f'<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>{title}</title>\n'
             f'{style}\n</head>\n<body class="{"screen" if screen else "print"}">\n{body}\n</body>\n</html>\n')
