@@ -24,6 +24,7 @@ Years count from the long sleep. "Today" is year 300.
 | About 100 | The Grey Winter: three years with almost no summer. The last king of Ostrey dies with no heir. Civil war. A flood covers Fennick. Ostrey falls. |
 | About 140 | Pilgrims tell stories of the five sleepers. The Church of the Five Sleepers starts at the shrine of Saint Ivo. |
 | About 150 | The Gauntry family holds the south with an army. The March of Gauntry becomes the state of Gaunt. The grandmother of the grandmother of Marshal Ide Gauntry carries the red banner of the house (chapter 5). |
+| About 151 | The *Hopewell* year on Farholm. The Corrin men light the Corrin Light in the storm season, and the *Hopewell* sails into the path through the storms. The Tey folk put out the light. The path closes, and the storms throw the ship back onto the island. The sea drowns the low part of Hythe. Beyond the Western Sea. |
 | About 210 | The towns of Corrin and Tey grow into one city, Corrantey. |
 | About 270 | The days start to become shorter. Few people see it. The Hush starts, in secret. |
 | 300 | The Hush puts out the Dawnfire in the chapel of the keep. The crystal cracks. The tutorial starts. |
@@ -172,6 +173,142 @@ Farholm. It is off the west edge of the map.
   on Farholm. It is the first ship from the land in 360 years.
 - Farholm has no link to the story of Book One. The Hush, Malgrath, the
   black stones, and the Dawnfire are not on the island.
+
+### Farholm: the history of the colony
+
+The gazetteer of Beyond the Western Sea tells these facts. Each writer of
+the book uses them.
+
+- **The count of years:** the colonists count the years from the Landing.
+  The Landing is their year 0, our year -60. Year 300 is "the year 360 of
+  the Landing".
+- **The ships of the fleet:** six ships of Corrin and five of Tey. The
+  ships of Corrin are the *Morning Star*, the *Speedwell*, the *Hopewell*,
+  the *Swallow*, the *Increase*, and the *Desire*. The ships of Tey are the
+  *Patience*, the *Dove*, the *Blessing*, the *Content*, and the *Unity*.
+- **The leaders of the fleet:** Captain Humphrey Gale of Corrin, master of
+  the *Morning Star*, leads the fleet. Magnus Isbister of Tey is master of
+  the *Patience* and leads the ships of Tey.
+- **The Landing:** in the summer of year -60, a wind takes the fleet
+  through the wall of storms. The sea "stands up". The ships wreck on the
+  south and north coasts. The sea puts the *Morning Star* high on the
+  Ribs. About 700 people come ashore. About 500 live through the first
+  winter.
+- **The saint:** Father Mawes is a priest of the Morning Flame on the
+  *Patience*. In the first winter, he lights the dawn fire on bare ground
+  in the west of the island. The ground shakes and the island moves. He
+  puts out the fire and prays until the ground is still. He dies in the
+  year 3 of the Landing. The colony calls him Saint Mawes. The place of
+  his fire is the Saint's Hearth.
+- **The Corrin Light:** in the first ten years, Captain Gale builds a
+  tower of stone on the east point, toward home. It holds the great lamp
+  of the *Morning Star*: a lamp of brass, with a mirror behind it and a
+  lens of glass in front of it. Gale dies in the year 19 of the Landing.
+- **The Grandam:** after the saint, the Tey folk believe that the island
+  is alive. They call it the Grandam and pray to it at the Grandam's
+  Well. The first Well Keeper is Agnes Flett, in about the year 60 of the
+  Landing.
+- **The *Hopewell* year:** in the year 211 of the Landing (year 151), the
+  Corrin men build a new ship from the wrecks. They give it the name of an
+  old ship, the *Hopewell*. John Pascoe is its master. They light the
+  Corrin Light in the storm season, and a path opens through the wall to
+  the east. The *Hopewell* sails. Sander Linklater leads the Tey folk into
+  the tower, and they put out the lamp and break its lens. The path
+  closes, and the storms throw the *Hopewell* back onto the north coast.
+  Nobody on it lives. In the same season, the sea comes up the Fleet and
+  drowns the low part of Hythe, on the Tey bank. Forty people die. The
+  colonists call this the Drowning.
+- **After the Drowning:** the Moot of Hythe forbids anyone to light the
+  Corrin Light. The Corrin men keep a watch at the ruin. The Tey folk
+  carry the pieces of the lamp away. Some pieces go down the Grandam's
+  Well as gifts. Some families keep a piece. The Corrin men keep the brass
+  frame of the lamp.
+- **What each side believes about the *Hopewell*:** the Corrin men believe
+  that it reached home, and that Corrin will send ships one day. The Tey
+  folk believe that the Grandam threw it back. The truth: the path closed
+  when the light went out. The name board of the *Hopewell* lies in the
+  Boneyard.
+
+### Farholm: Hythe and the customs
+
+- **Hythe:** the only town. About 400 people. About 180 live on the east
+  bank of the Fleet (the Corrin bank) and about 220 on the west bank (the
+  Tey bank). One bridge of ballast stone crosses the Fleet. The colonists
+  call it the Bridge. The market is on the Bridge.
+- **The houses:** timber from the wrecks, walls of turf, and roofs of turf.
+  Some houses are old hulls, upside down.
+- **The halls:** the Moot House is the great cabin of the *Patience*, on
+  the Tey bank near the Bridge. The Corrin men meet in the Lamp Room, on
+  the Corrin bank. A lamp burns in its east window each night. The Tey
+  folk meet in the Net Loft.
+- **The Moot:** six headmen of each bank meet at the Moot House. The
+  priest of the church keeps the peace at the Moot. The Captain of the
+  Light leads the Corrin men. The Well Keeper leads the Tey folk.
+- **The church:** the church of the Morning Flame on Founders' Hill. Both
+  sides pray there, on two sides of the aisle. The priest wears red and
+  gold, as in old Ostrey.
+- **The speech:** the speech of old Ostrey, slow and formal, with many sea
+  words. "Light to you." "And dawn to you." "Dark take it." The colonists
+  think that the speech of today is fast and rough.
+- **Their words:** the Wall is the wall of storms. The Turning is the
+  storm season. The Landing is the arrival of the fleet. "Over the Wall"
+  means the land of Ostrey, and also means "never".
+- **The coins:** a few suns, stars, and bits of the fleet, with the head
+  of King Edwy, the king of Ostrey in year -60. The colonists also cut
+  bits from the copper nails of the wrecks. Most trade is in salt, fish,
+  and work.
+- **The colors:** Corrin is a white ship on blue. Tey is a silver fish on
+  green. Each side wears a ribbon of its color on a holy day.
+- **The hearth stones:** no fire burns on the bare ground of Farholm. Each
+  hearth in Hythe stands on ballast stones from the ships. The Tey folk
+  keep this custom strictly. The Corrin men keep it too, from habit.
+- **The Morning Flame on Farholm:** a priest lights the dawn fire on a
+  ballast stone in the church, never on the ground. The holy days are
+  Landing Day at midsummer, Saint Mawes's Day in midwinter, and the
+  Longest Night.
+- **The food:** fish, seal, sea birds and their eggs from Gull Rock,
+  limpets, laver bread from seaweed, barley, small sheep, and ale. No
+  wine, no spice, and little iron.
+- **The names:** the Corrin men have the old surnames of Corrin, for
+  example Pascoe, Hocking, Nance, Gale, and Rundle. The Tey folk have the
+  old surnames of Tey, for example Flett, Linklater, Halcrow, Isbister,
+  Spence, and Tulloch.
+- **Marriage across the Bridge** is rare. It is not forbidden, but each
+  side treats the couple coldly.
+
+### Farholm: the truth of the Grandam
+
+- **What she is:** a creature of the deep sea, older than Ostrey, as big
+  as the island. The island is the crust of her back: stone, sand, turf,
+  and shell. The Ribs are the ridges of her back. The Kettles are near the
+  place where she breathes. The Grandam's Well goes down to her heart.
+- **What she is not:** she is not a god. She does not know the colonists.
+  She does not punish anyone. Fire on her bare back hurts her and makes
+  her stir, as the saint found.
+- **The breath:** her breath goes out under the sea and makes the wall of
+  storms. When she stirs, she breathes harder and the storms come in.
+- **The light:** she rises toward a great light, as a fish rises to a
+  lantern. While she rises, she holds her breath, and the wall on the side
+  of the light goes quiet. This is the path. A light on a still night does
+  nothing, because she does not see it in her sleep.
+- **The long sleep:** each storm season she stirs. Once in about 360 years
+  she almost wakes. The last time was the Landing. Year 300 is the next
+  time. The Tey folk call this the Long Count.
+- **If she wakes:** within days she dives. The island goes under the sea,
+  and the wall of storms breaks up. A person on the island drowns.
+- **If she sleeps again:** the wall stays for another long sleep. The path
+  closes. The Light can open it again only in a later storm season.
+- **How to make her sleep:** do what the saint did. Put out each fire on
+  her back and go down to her heart in the dark, quietly. The Tey folk
+  keep the old dawn hymn of the saint. They sing it at the Well, and they
+  do not know why it matters. The last chapter gives the rules.
+- **Who is right:** neither side. The Corrin men are right that the Light
+  opens a path. They are wrong that it works at any time, and wrong about
+  the *Hopewell* and about home: Corrin and Tey are one city now, and
+  nobody there remembers the fleet as more than a story. The Tey folk are
+  right that the Grandam is alive and that fire wakes her. They are wrong
+  that she loves them, wrong that leaving wakes her, and wrong that the
+  Light caused the Drowning. The storm season caused the Drowning.
 
 ## The powers of today
 
@@ -428,3 +565,34 @@ tells which lane owns the creature.
 | The Badge of Sir Garrath | The unique item of chapter 10. The badge of the first Dawnwatch, on the empty crystal. Rare. | 10 |
 | The grey ledger | The book of prayers of Mother Sallow. Its last page lists the pieces of the Dawnfire that the Hush hunts: the keep, Kell, the Ember, the lamp in Corrantey, and the church in Fennick. A handout. | 4 |
 | The letters of Haskel Orme | Handouts. They show the lie, step by step. | 7, 10 |
+
+## The people of Beyond the Western Sea
+
+Each writer of Beyond the Western Sea uses these names. The people with a
+statblock are in `compendium/content/western_sea/people.py`.
+
+| Name | Side | Role | Statblock |
+|---|---|---|---|
+| Absalom Pascoe | Corrin men | The Captain of the Light, the leader of the Corrin men. About 60. Stubborn and honest. A descendant of John Pascoe of the *Hopewell*. | Yes |
+| Kit Hocking | Corrin men | A young Corrin man, the leader of the young men who want to light the Light now. | Yes |
+| Nathaniel Gale | Corrin men | The schoolmaster and the keeper of the Landing Book, the records of the colony. The last of the family of Captain Humphrey Gale. He knows how the lamp works. | No |
+| Margery Nance | Corrin men | The shipwright of the Corrin bank. She builds a boat in secret, in a shed on the Corrin bank. | No |
+| Elspeth Flett | Tey folk | The Well Keeper, the leader of the Tey folk. About 70. She keeps the dawn hymn of the saint. | No |
+| Erlend Linklater | Tey folk | The leader of the Well Watch, the Tey men who keep people away from the Light. A descendant of Sander Linklater. | Yes |
+| Inga Halcrow | Tey folk | A girl of 14 who dreams the dreams of the Grandam. The Tey folk think that she is holy. | No |
+| Thomas Spence | Tey folk | A fisherman of the Tey bank, the best guide on the island. The husband of Hester Spence. | Yes |
+| Hester Spence | Both | The daughter of Absalom Pascoe. She married Thomas Spence and lives on the Tey bank. Neither side fully trusts her. | No |
+| Father Gilbert Rundle | The church | The priest of the Morning Flame on Founders' Hill. Born on the Corrin bank. He keeps the peace at the Moot. | No |
+| Amos Tulloch | Neither | An old salt boiler at the Saltpans. He lives apart from both sides. The first colonist that the party meets. | No |
+
+People of the past (no statblock):
+
+| Name | What the people know of the person |
+|---|---|
+| Captain Humphrey Gale | The leader of the fleet and the master of the *Morning Star*, of Corrin. He built the Corrin Light. Died in the year 19 of the Landing. |
+| Magnus Isbister | The master of the *Patience*, of Tey, and the leader of the ships of Tey. |
+| Saint Mawes | Father Mawes, a priest of the Morning Flame on the *Patience*. He lit the dawn fire on the bare ground, and the island moved. |
+| Agnes Flett | The first Well Keeper of the Tey folk, in about the year 60 of the Landing. |
+| John Pascoe | The master of the *Hopewell* in the year 211 of the Landing. Lost with the ship. |
+| Sander Linklater | The Tey man who led the Tey folk into the Corrin Light in the *Hopewell* year and put out the lamp. |
+| King Edwy | The king of Ostrey in year -60. His head is on the old coins of the colony. |
