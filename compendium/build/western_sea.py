@@ -42,7 +42,7 @@ def content():
 
 FRONT = dict(
     title="Beyond the Western Sea", sub_title="",
-    sub="A short campaign for levels 1 to 5.",
+    sub="A ship sails west, past the edge of every chart. Nobody has ever come back to say what is out there.",
     compat="A campaign for levels 1 to 5. Requires the Dice &amp; Destiny Compendiums, Edition 2.",
 )
 
