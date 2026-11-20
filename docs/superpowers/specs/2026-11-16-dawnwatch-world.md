@@ -14,6 +14,7 @@ Years count from the long sleep. "Today" is year 300.
 
 | Year | Event |
 |---|---|
+| About -60 | The rival ports Corrin and Tey send one fleet west together, to find land beyond the Western Sea. A wall of storms traps the fleet at Farholm. No ship comes back. Beyond the Western Sea. |
 | About -45 | Sir Garrath, the first knight of the sun, founds the Dawnwatch and writes its oath. |
 | About -40 | Sir Garrath, the first knight of the sun, sees that the sun is weaker each winter. |
 | About -20 | Garrath goes north and tries to take the fire of the sun into himself, to save it. He becomes the Unlit King. The five sleepers swear the oath after he goes. They never meet him. |
@@ -132,6 +133,45 @@ is on it, about 20 miles north of Saint Ivo's. The shrine at Kell is about
 43 miles from Saint Ivo's, all off the road. Ashby Field is on the road of
 Gaunt, about 32 miles south of Saint Ivo's, on day 2 of the road to
 Stannard, as the border and Wendle are.
+
+### Farholm, beyond the map
+
+Beyond the Western Sea uses these facts. The land map does not show
+Farholm. It is off the west edge of the map.
+
+- **Where:** Farholm is an island in the Western Sea, about 300 miles west
+  of Corrantey. It is on no chart of the land.
+- **The size:** about 20 miles from west to east and 12 miles from north
+  to south. Its map has its own coordinates, in miles from the north-west
+  corner of the island map: x goes east, y goes south. The list in
+  `compendium/content/western_sea/places.py` holds these places.
+- **The truth:** the island is the back of a giant sea creature that
+  sleeps. Its heart is deep under the island. The colonists call it the
+  Grandam. The island moves very slowly. This is why no chart shows it.
+- **The wall of storms:** a ring of storms around the island, about 20
+  miles out. It is the breath of the Grandam. A ship that comes near the
+  wall goes in with the wind and wrecks on the island. No ship has gone out
+  through it.
+- **The storm season:** each storm season, the Grandam stirs, and the
+  storms come in over the island. The Corrin Light can open a path through
+  the wall, but only while she stirs.
+- **The fleet:** in about year -60, eleven ships of Corrin and Tey sailed
+  west with about 700 people, to find land and to settle it. The flagship
+  was the *Morning Star*, of Corrin. The wall of storms trapped the fleet.
+  The ships wrecked on Farholm, and the people lived.
+- **The colony today:** about 400 people, in the town of Hythe. They keep
+  the customs of old Ostrey (see "Old Ostrey"): the greeting "Light to
+  you", the Morning Flame, and the count in suns, stars, and bits. They
+  left before the war of the Unlit King, so they do not know of it.
+- **The two sides:** the Corrin men want to go home, and they guard the
+  ruins of the Corrin Light. The Tey folk worship the Grandam. They believe
+  that to leave, or to light the lighthouse, wakes her and sinks everyone.
+- **The saint:** the church of the colony tells of a saint who lit a fire
+  on the back of the Grandam, and the island moved.
+- **In year 300:** the *Good Intent*, a merchant ship of Corrantey, wrecks
+  on Farholm. It is the first ship from the land in 360 years.
+- Farholm has no link to the story of Book One. The Hush, Malgrath, the
+  black stones, and the Dawnfire are not on the island.
 
 ## The powers of today
 
@@ -304,6 +344,9 @@ the Dawnwatch know it. Each writer uses them.
 - **Fennick:** a market town on a small rise in the farmland by the
   Brann, with dikes and a church with a square tower.
 - **Corrin and Tey:** two rival port towns, about a mile apart.
+- **The lost fleet:** in about year -60, Corrin and Tey sent one fleet west
+  together. It did not come back. Each town said that the other town lost
+  it. In year 0, old sailors still tell the story.
 - **The March of Gauntry:** the south border. The Gauntry family held it
   for the king from a fortress on a rock above the south road. Stannard
   grew around that fortress later.
