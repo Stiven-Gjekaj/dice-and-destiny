@@ -280,7 +280,10 @@ The builder can move pages between parts, inside the target.
 
 ### Maps
 
-- Two maps: Farholm, and the colony town.
+- One map: Farholm. The design had a second map, of the colony town. inkland
+  1.3.3 cannot draw a town plan (no streets and no buildings), so the agent
+  removed the town map while the human did not give input. The gazetteer
+  describes Hythe in words. A later version can add a town map.
 - The maps come from inkland, as the maps of Waking do. They must look
   hand drawn, not like a machine made them.
 - The builder decides how inkland makes the town map. If inkland cannot
