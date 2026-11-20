@@ -86,6 +86,7 @@ def test_the_title_has_no_empty_sub_title(tmp_path):
 def test_a_map_with_no_final_file_is_a_placeholder(tmp_path, monkeypatch):
     import farholm_maps as FM
     monkeypatch.setattr(FM, "MAP_DIR", str(tmp_path))
+    monkeypatch.setattr(FM, "MAP_IDS", ["farholm", "colony-town"])
     assert FM.missing_maps() == FM.MAP_IDS
     with pytest.raises(KeyError):
         FM.map_svg("farholm")

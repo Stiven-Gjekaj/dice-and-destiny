@@ -8,7 +8,8 @@ import os
 import maps
 
 MAP_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "maps", "western-sea")
-MAP_IDS = ["farholm", "colony-town"]
+# inkland 1.3.3 cannot draw a town plan, so the book has no map of Hythe. The gazetteer describes the town.
+MAP_IDS = ["farholm"]
 
 
 def map_file(map_id):
