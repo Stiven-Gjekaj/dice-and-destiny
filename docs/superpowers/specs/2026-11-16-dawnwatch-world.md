@@ -625,3 +625,12 @@ Pascoe in `creatures_island.py`):
 | Mary Pascoe | The wife of John Pascoe. Their son is the ancestor of Absalom Pascoe. |
 | Barbara Rendall | A colonist of the *Dove*. She died in the year 2 of the Landing. Her grave is on Founders' Hill. |
 | William Nance | A colonist of the *Swallow*. He died in the year 0 of the Landing. His grave is on Founders' Hill. |
+
+People of the last chapter (chapter 3). They meet the party in Corrantey,
+in the epilogue. They are in `compendium/content/western_sea/people_finale.py`.
+None has a statblock.
+
+| Name | Side | Role |
+|---|---|---|
+| Ruth Polglase | Corrantey | The harbor master of Corrantey. She has watched the western sea for thirty years. |
+| Walter Isbister | Corrantey | A merchant of the Tey half and the chief owner of the *Good Intent*. A relative of Magnus Isbister. Three families of the Tey bank of Hythe have the same name. |
