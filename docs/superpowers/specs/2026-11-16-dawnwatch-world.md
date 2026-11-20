@@ -601,3 +601,27 @@ People of the past (no statblock):
 | John Pascoe | The master of the *Hopewell* in the year 211 of the Landing. Lost with the ship. |
 | Sander Linklater | The Tey man who led the Tey folk into the Corrin Light in the *Hopewell* year and put out the lamp. |
 | King Edwy | The king of Ostrey in year -60. His head is on the old coins of the colony. |
+
+Minor people of the island (chapter 2). The people with a role line are in
+`compendium/content/western_sea/people_island.py`. None has a statblock.
+
+| Name | Side | Role |
+|---|---|---|
+| Loveday Penrose | Neither | A salt boiler at the Saltpans. A widow of the Corrin bank. |
+| Ola Drever | Neither | A boy of 12 of the Tey bank. He boils salt at the Saltpans and wants to be a sailor. |
+| Digory Rowe | Corrin men | An old man of the watch at the Corrin Light. He keeps the log of the watch. |
+| Thorfinn Harcus | Tey folk | The oldest egg climber of Gull Rock. |
+| Jory Treloar | Corrin men | A man who takes wood and iron from the Boneyard. |
+| Wenna Kitto | The church | The sexton of the church on Founders' Hill. |
+| Sam Hocking | Corrin men | The brother of Kit Hocking. 17. |
+| Jacky Hocking | Corrin men | A cousin of Kit Hocking. 8. |
+
+People of the past in chapter 2 (no statblock, except the ghost of John
+Pascoe in `creatures_island.py`):
+
+| Name | What the people know of the person |
+|---|---|
+| Jenefer Tulloch | The wife of Amos Tulloch, of the Corrin bank. She died about 10 years ago. She cut the marks of the dry tides on the door post of the hut. |
+| Mary Pascoe | The wife of John Pascoe. Their son is the ancestor of Absalom Pascoe. |
+| Barbara Rendall | A colonist of the *Dove*. She died in the year 2 of the Landing. Her grave is on Founders' Hill. |
+| William Nance | A colonist of the *Swallow*. He died in the year 0 of the Landing. His grave is on Founders' Hill. |
