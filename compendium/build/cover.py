@@ -184,8 +184,9 @@ def emblem(name, ink, acc, ground):
                + f'<path d="M51 39 C51 35 56 35 60 36 H90 C94 35 99 35 99 39 C99 41 95 41.5 90 41 H60 C55 41.5 51 41 51 39 Z" fill="{acc}"/>'
                f'<path d="M52 50 H98 V78 C98 97 88 108 75 116 C62 108 52 97 52 78 Z" fill="{ground}" stroke="{acc}" stroke-width="1.6"/>'
                f'<path d="M57 55 H93 V78 C93 94 85 103 75 110 C65 103 57 94 57 78 Z" fill="none" stroke="{acc}" stroke-width=".5"/>'
-               f'<path d="M60 70 L75 86 L90 70" fill="none" stroke="{ink}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'
-               f'<path d="M60 84 L75 100 L90 84" fill="none" stroke="{ink}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'
+               # Two chevrons with sharp ends. Each end stops on the inner line of the shield (x 57 and x 93).
+               f'<path d="M57 62 L75 78 L93 62 V67.5 L75 83.5 L57 67.5 Z" fill="{ink}"/>'
+               f'<path d="M57 76 L75 92 L93 76 V81.5 L75 97.5 L57 81.5 Z" fill="{ink}"/>'
                '</g>')
     elif name == "gm":  # the die of the game master, drawn in lines
         T, UR, LR, B, LL, UL = (75, 20), (121, 46), (121, 104), (75, 130), (29, 104), (29, 46)
@@ -196,32 +197,45 @@ def emblem(name, ink, acc, ground):
                + "".join(f'<line x1="{a[0]}" y1="{a[1]}" x2="{b[0]}" y2="{b[1]}" stroke="{acc}" stroke-width="1.5" '
                          f'stroke-linecap="round"/>' for a, b in edges)
                + f'<text x="75" y="89" text-anchor="middle" font-family="Fell" font-size="26" fill="{ground}">20</text>')
-    elif name == "waking":  # Wick, the lantern of the Dawnwatch, with the rays of the dawn
-        rays = "".join(f'<line x1="{75 + 36 * cos(a):.2f}" y1="{70 + 36 * sin(a):.2f}" x2="{75 + (36 + l) * cos(a):.2f}" '
-                       f'y2="{70 + (36 + l) * sin(a):.2f}" stroke="{acc}" stroke-width="1.3" stroke-linecap="round"/>'
-                       for a, l in ((radians(d), 12 if i % 2 == 0 else 7) for i, d in enumerate(range(195, 346, 25))))
-        art = ('<g transform="translate(0 10)">' + rays + f'<circle cx="75" cy="27" r="4.5" fill="none" stroke="{acc}" stroke-width="1.6"/>'
-               f'<path d="M62 42 H88 L82 32 H68 Z" fill="{acc}"/>'
-               f'<rect x="61" y="42" width="28" height="56" rx="2" fill="{ground}" stroke="{ink}" stroke-width="2.4"/>'
-               f'<path d="M75 52 C83 62 83 75 75 86 C67 75 67 62 75 52 Z" fill="{ink}"/>'
-               f'<path d="M75 64 C78 69 78 75 75 80 C72 75 72 69 75 64 Z" fill="{acc}"/>'
-               f'<line x1="68" y1="44" x2="68" y2="96" stroke="{acc}" stroke-width=".6"/>'
-               f'<line x1="82" y1="44" x2="82" y2="96" stroke="{acc}" stroke-width=".6"/>'
-               f'<path d="M57 98 H93 L88 108 H62 Z" fill="{acc}"/></g>')
-    else:  # western-sea: a lighthouse on a rock over the waves, with one star
-        # Each wave is shorter than the one above it, so that it stays inside the inner ring.
-        waves = "".join(f'<path d="M{75 - 6 * n} {y} q6 -4 12 0' + " t12 0" * (n - 1) + f'" fill="none" stroke="{ink}" '
-                        f'stroke-width="1.4" stroke-linecap="round"/>' for n, y in ((6, 110), (5, 118), (4, 126)))
-        shine = "".join(f'<line x1="{75 + side * 10}" y1="{44.5 + dy * .25:.2f}" x2="{75 + side * 32}" y2="{44.5 + dy:.2f}" '
-                        f'stroke="{acc}" stroke-width="{w}" stroke-linecap="round"/>'
-                        for side in (-1, 1) for dy, w in ((-7, .8), (0, 1.3), (7, .8)))
-        art = ('<g transform="translate(75 75) scale(.84) translate(-75 -76)">' + shine +
-               f'<path d="M64 100 L69 50 H81 L86 100 Z" fill="{ink}"/>'
-               f'<path d="M66.6 74 H83.4 L84.2 82 H65.8 Z" fill="{acc}"/><path d="M68.2 58 H81.8 L82.4 64 H67.6 Z" fill="{acc}"/>'
-               f'<rect x="68" y="39" width="14" height="11" fill="{ground}" stroke="{acc}" stroke-width="1.4"/>'
-               f'<circle cx="75" cy="44.5" r="2.6" fill="{acc}"/><path d="M65 39 L85 39 L75 30 Z" fill="{acc}"/>'
-               f'<path d="M48 104 C56 96 94 96 102 104 Z" fill="{acc}"/>' + waves
-               + f'<path d="M104 18 L105.6 22.4 L110 24 L105.6 25.6 L104 30 L102.4 25.6 L98 24 L102.4 22.4 Z" fill="{ink}"/></g>')
+    elif name == "waking":  # Wick, the lantern of the Dawnwatch, in a ring of the rays of the dawn
+        rays = "".join(f'<line x1="{75 + 40 * cos(a):.2f}" y1="{70 + 40 * sin(a):.2f}" x2="{75 + (40 + l) * cos(a):.2f}" '
+                       f'y2="{70 + (40 + l) * sin(a):.2f}" stroke="{acc}" stroke-width="{w}" stroke-linecap="round"/>'
+                       for a, l, w in ((radians(i * 22.5 - 90), 11 if i % 2 == 0 else 6, 1.4 if i % 2 == 0 else .8)
+                                       for i in range(16)))
+        glow = "".join(f'<line x1="{75 + 11 * cos(a):.2f}" y1="{71 + 11 * sin(a):.2f}" x2="{75 + 14 * cos(a):.2f}" '
+                       f'y2="{71 + 14 * sin(a):.2f}" stroke="{acc}" stroke-width=".7" stroke-linecap="round"/>'
+                       for a in (radians(d) for d in (-150, -120, -60, -30, 30, 150)))
+        art = ('<g transform="translate(0 4)">' + rays
+               + f'<path d="M66 33 C66 21 84 21 84 33" fill="none" stroke="{acc}" stroke-width="1.8"/>'
+               f'<circle cx="75" cy="22.5" r="2.2" fill="{acc}"/>'
+               f'<path d="M59 41 C62 33 69 30 75 30 C81 30 88 33 91 41 Z" fill="{acc}"/>'
+               f'<rect x="57" y="41" width="36" height="4" rx="1" fill="{acc}"/>'
+               f'<rect x="61" y="45" width="28" height="51" fill="{ground}" stroke="{ink}" stroke-width="2"/>'
+               f'<path d="M64.5 49 H85.5 V92 H64.5 Z" fill="none" stroke="{acc}" stroke-width=".5"/>'
+               f'<line x1="68" y1="45" x2="68" y2="96" stroke="{acc}" stroke-width=".7"/>'
+               f'<line x1="82" y1="45" x2="82" y2="96" stroke="{acc}" stroke-width=".7"/>'
+               + glow +
+               f'<path d="M75 55 C84 64 84 78 75 88 C66 78 66 64 75 55 Z" fill="{ink}"/>'
+               f'<path d="M75 66 C79 71 79 78 75 83 C71 78 71 71 75 66 Z" fill="{acc}"/>'
+               f'<rect x="57" y="96" width="36" height="4" rx="1" fill="{acc}"/>'
+               f'<path d="M61 100 H89 L85 106 H65 Z" fill="{acc}"/>'
+               f'<path d="M64 106 h5 v3 h-5 Z M81 106 h5 v3 h-5 Z" fill="{acc}"/></g>')
+    else:  # western-sea: a ship under full sail on the waves, with the north star
+        waves = "".join(f'<path d="M{75 - 6 * n} {y} q6 -4 12 0' + " t12 0" * (n - 1) + f'" fill="none" stroke="{acc}" '
+                        f'stroke-width="1.3" stroke-linecap="round"/>' for n, y in ((7, 106), (5, 114)))
+        sail = lambda x0, x1, y0, y1, bulge: (f'<path d="M{x0} {y0} H{x1} Q{x1 + bulge} {(y0 + y1) / 2} {x1} {y1} '
+                                              f'H{x0} Q{x0 + bulge} {(y0 + y1) / 2} {x0} {y0} Z" fill="{ink}"/>')
+        art = ('<g transform="translate(75 75) scale(.9) translate(-81 -72)">'
+               f'<line x1="64" y1="30" x2="64" y2="96" stroke="{acc}" stroke-width="1.6"/>'
+               f'<line x1="88" y1="38" x2="88" y2="96" stroke="{acc}" stroke-width="1.6"/>'
+               + sail(53, 74, 36, 50, 4) + sail(51, 76, 53, 70, 5) + sail(52, 75, 73, 88, 5)
+               + sail(79, 96, 44, 56, 3) + sail(78, 98, 59, 74, 4) + sail(79, 97, 77, 89, 3)
+               + f'<path d="M103 48 L124 90 L103 90 Z" fill="{ink}"/>'
+               f'<path d="M64 30 L56 27 L64 24 Z" fill="{acc}"/><path d="M88 38 L80 35 L88 32 Z" fill="{acc}"/>'
+               f'<line x1="104" y1="92" x2="128" y2="86" stroke="{acc}" stroke-width="1.4"/>'
+               f'<path d="M34 92 H112 L104 101 Q75 104 44 101 Z" fill="{acc}"/>'
+               + waves
+               + f'<path d="M36 34 L37.8 39.2 L43 41 L37.8 42.8 L36 48 L34.2 42.8 L29 41 L34.2 39.2 Z" fill="{ink}"/></g>')
     return rings + art
 
 
