@@ -743,6 +743,62 @@ The party can stop it, join it, or watch it.
 
 {{statblock: Kit Hocking}}
 
+### Coming back to Hythe
+
+Each time the party comes back to Hythe from a site, roll 2d6, or choose.
+Something has changed while it was away.
+
+| 2d6 | What has changed |
+|---|---|
+| 2 | **A death.** An old woman of the Tey bank died in the night. Both banks come to the burial on Founders' Hill, on their own sides of the grave. Elspeth Flett asks the party to stand on the Tey side. Absalom asks it to stand on the Corrin side. |
+| 3 | **A wedding.** A Corrin boy and a Tey girl want to marry across the Bridge. Both families are furious. The couple asks the party to stand witness on the middle arch. It costs nothing, and both sides notice. |
+| 4 | **A theft.** Somebody stole a barrow of peat from the Lamp Room. The Corrin men blame the Tey folk. It was a Corrin boy. |
+| 5 | **The east lamp.** The lamp in the east window of the Lamp Room went out in the night, for the first time in years. Kit Hocking says the Well Watch did it. It was the wind. |
+| 6 | **Questions.** A crowd of children follows the party all day, asking about the world over the Wall. One of them asks if there are still dragons. |
+| 7 | **The market.** It is the market day on the Bridge. The party can trade, and both banks want to trade with it. |
+| 8 | **A gift.** An old Corrin man leaves a basket of eggs and a jug of heather ale at the party's door, with a note: "From a Corrin man who remembers." |
+| 9 | **A warning.** A Tey woman stops the party in the street and says, very quietly: "The Well Keeper did not sleep last night. Nobody on the Tey bank did." |
+| 10 | **Inga.** Inga Halcrow waits for the party at the Bridge. She has had a new dream, and she wants to tell somebody who will not give her eggs for it. |
+| 11 | **Margery.** Margery Nance asks the party to come to her shed at night. She wants to know how today's ships take a heavy sea. She also wants to know if the party will tell anybody what is in the shed. |
+| 12 | **The Moot.** The Moot meets again, because of something that the party did. Choose the deed. Both sides want the party to speak. |
+
+### Hester and her father
+
+Hester Spence, Absalom Pascoe's daughter, married Thomas Spence across the
+Bridge six years ago. Absalom has not spoken to her since. She has two
+small children who have never met their grandfather.
+
+This is a small scene, and it can be the warmest of the chapter. It is
+also the gazetteer's "middle arch": a chance to bring the two sides
+together, one family at a time.
+
+- **What Hester wants.** For her father to meet his grandchildren. She
+  will not ask him. She is as stubborn as he is.
+- **What Absalom wants.** His daughter back. He will not ask her. He is the
+  Captain of the Light.
+- **What the party can do.** Carry a message. Arrange for both to be on the
+  Bridge at the same time. Bring the children to the Lamp Room. Any honest
+  plan works, if the party has 3 or more renown with both sides. Without
+  it, a DC 13 Charisma (Persuasion) check with each of them.
+
+> Absalom Pascoe stands on the middle arch of the Bridge, in his
+> grandfather's blue coat, with his hands behind his back. He has not set
+> foot on the middle arch for six years.
+>
+> Hester comes from the west end, slowly, with a small boy by the hand and
+> a smaller girl on her hip. Nobody on the Bridge says a word. The boy
+> looks up at the big grey man in the blue coat.
+>
+> "Light to you," says the boy.
+>
+> Absalom kneels down on the stones of the middle arch. "And dawn to you,"
+> he says, and his voice breaks.
+
+If the scene happens, the party gains 2 renown with both sides. Thomas
+Spence will now take the party to the Corrin Light, "for Hester's father".
+Absalom listens to the party, from now on, even when it tells him things
+that he does not want to hear. This makes the end of the book easier.
+
 ### Where the island points
 
 The colonists send the party all over the island. Use this list when the
@@ -1707,3 +1763,909 @@ The salt boilers are grateful, whatever happened.
 > - **Turn the cube:** none.
 > - **No sign:** a Long Rest in Amos's hut.
 
+---
+
+## The Inner Ring
+
+The inner ring is the middle of the island: the hot springs, the bare
+ridges, the wreck on the hills, and the holy places of the Tey folk. Few
+colonists go there. The ones who do come back quiet.
+
+The sites of the inner ring are written for level 3. They are a long way
+from Hythe, so the party sleeps in the open more often, and each Long Rest
+in the open gives a storm sign. This is where the cube climbs fastest.
+
+Tell the players the difference. The coast is the colony. The interior is
+the island. Here, the island starts to show what it is.
+
+> **GM tip:** As the party goes inland, make the ground feel alive. Warm
+> patches in the turf. A pool that ripples with no wind. A hum, too low to
+> hear, that the characters feel in their teeth at night. Never say what it
+> is. The players will start to say it for you.
+
+---
+
+## The Kettles
+
+*Inner ring. Levels 3 to 4. Three hours from Hythe by the track up the
+Fleet. The main scene is "The Boil".*
+
+The Kettles are the warm heart of the colony's year: the place where both
+banks wash, bathe, cook eggs, and gossip without a quarrel. They are also
+the place where the island breathes most plainly, and the only place hot
+enough to cast the lens of the Light.
+
+> The valley of the Fleet narrows and climbs, and the stream at your side
+> runs warmer with each mile, until it steams. Then the valley ends in a
+> wide bowl of bare yellow ground, cracked and stained red and white, full
+> of pools. Some pools are clear and blue, and steam drifts off them. Some
+> are grey and bubble like porridge. One, in the middle, boils hard, with a
+> roar.
+>
+> The air smells of eggs and iron. The ground under your boots is warm.
+> At the near pools, a dozen women and men of both banks are washing
+> clothes, laughing, and hanging the wash on the rocks to dry.
+
+### The washing pools
+
+On most days, a few colonists are here: washing, bathing, or cooking eggs
+in a basket on a string in the hot pools. Both banks come, and both banks
+talk. This is the one place where the Corrin men and the Tey folk share
+anything without a fight.
+
+Use the washing pools for news. The party hears what both banks are
+saying about it (roll on "What Hythe says about the party" in the
+gazetteer), and it hears one thing that nobody says in town: the pools are
+hotter than anybody remembers. Two new pools have opened this summer, at
+the north end of the bowl, and they boil. "Never boiled in my
+grandmother's time," says an old Tey woman. "Never in mine," says a Corrin
+man, and they look at each other, and stop talking.
+
+### The breathing ground
+
+On a still night, the ground of the Kettles seems to rise and fall, slowly,
+like the chest of a sleeper. The colonists say it is the steam.
+
+A character who lies flat on the warm ground at night, in silence, for ten
+minutes, feels it: the ground lifts, a hand's width, over about a minute,
+holds, and sinks again. The pools ripple at the top of each lift. A
+character who watches the boiling pool sees that it boils hardest at the
+top of each lift. A character with a **Kettle Stone** feels it in the stone
+too.
+
+A DC 12 Intelligence (Nature) check knows that steam does not do this.
+
+This is a clue, and it is the plainest one on the island. Elspeth Flett
+sent the party here for it. If the party goes back to her and tells her,
+she says only: "Now you know why we sing to her."
+
+### The Oven
+
+At the north edge of the bowl, beyond the new pools, a mound of yellow rock
+has a crack in its side as long as a man. The air above it shimmers and
+the rock round it glows a dull red at night. The colonists call it the
+Oven. They bake bread on flat stones at its mouth, and they never stand in
+front of it for long.
+
+The Oven is the only fire on Farholm hot enough to melt glass. The party
+can cast the lens of the Light here.
+
+- **What it needs:** 20 pounds of glass, the pattern of the lens (from the
+  Landing Book in Hythe, or from Captain Gale's notebook in the *Morning
+  Star*), a crucible and a mold (Margery Nance makes them of Kettle clay,
+  or a character with Potter's Tools or Smith's Tools makes them in an
+  hour).
+- **The work:** 1 workday at the Oven, with Glassblower's Tools or Smith's
+  Tools, DC 13. A character with no proficiency can try with an
+  Intelligence check at Disadvantage. On a failure, the glass cracks as it
+  cools. Half the glass is lost; the party can gather more and try again.
+- **The heat:** each character who works a day at the mouth of the Oven
+  makes a DC 12 Constitution saving throw, or gains 1 Exhaustion level.
+- **The grinding:** the rough lens must be ground smooth with sand: 2
+  workdays, Tinker's Tools or a Dexterity check, DC 10. This can be done in
+  Hythe.
+
+A character who searches the bed of an old, dry pool near the Oven finds a
+smooth yellow stone that stays warm in the hand: a **Kettle Stone**.
+
+{{treasure: Kettle Stone}}
+
+### The Boil
+
+**This is the main scene of the Kettles.** It happens on the first day that
+the party spends here, in the afternoon, while the colonists are at the
+washing pools.
+
+> The ground heaves.
+>
+> It is not a tremor. It is one long, slow rise, as if the whole bowl took
+> a breath, and every pool in the Kettles jumps at once. The boiling pool
+> in the middle roars up in a column of steam as tall as a church, and the
+> two new pools at the north end burst their banks. Boiling water pours
+> down across the bowl toward the washing pools.
+>
+> The washers scream and run. And in the hot flood, something long and
+> yellow writhes toward them.
+
+**Turn the cube.** The Boil happens once, to most parties. The colonists
+will talk of nothing else for a week. That night, the Fleet runs warm all
+the way to the sea at Hythe.
+
+The flood brings **Scalding Eels** down from the new pools into the washing
+pools, and the steam vents spit out **Steam Mephits**. Six colonists are
+caught at the washing pools: three of each bank. Two of them are children.
+
+{{statblock: Scalding Eel}}
+
+{{statblock: Steam Mephit}}
+
+| Party size | Monsters | XP |
+|---|---|---|
+| 4 characters | 4 Scalding Eels, 2 Steam Mephits | 900 |
+
+> **Scaling:** This is a Moderate fight for level 3 (225 XP for each
+> character). Each eel stays in its own pool, so the party can fight them
+> one or two at a time while it gets the colonists out.
+>
+> - **3 characters (675 XP):** 3 Scalding Eels, 1 Steam Mephit (650 XP).
+> - **4 characters (900 XP):** as in the table.
+> - **5 characters (1,125 XP):** 5 Scalding Eels, 2 Steam Mephits (1,100
+>   XP).
+> - **6 characters (1,350 XP):** 6 Scalding Eels, 3 Steam Mephits (1,350
+>   XP).
+
+### Running the Boil
+
+- **The flood.** For 3 rounds, hot water runs across the bowl between the
+  pools. A creature that starts its turn in the flood takes 3 (1d6) Fire
+  damage. After 3 rounds, the flood soaks away into the cracks.
+- **The colonists.** Each colonist is stuck in or next to a washing pool.
+  On each of the party's turns, a character within 5 feet of a colonist can
+  pull them out as a Utilize action. A colonist who is still in a pool at
+  the end of a round with an eel in it takes 7 (2d6) damage from the eel.
+  A colonist has 4 Hit Points. A child has 2.
+- **The eels.** An eel in a pool attacks the nearest colonist or character.
+  An eel can leave its pool for 1 minute and wriggle across the warm ground
+  at a Speed of 5 feet. It does this only to reach a pool with a person in
+  it.
+- **The ground.** At the end of round 2, the ground heaves again, smaller.
+  Each creature that is standing makes a DC 10 Dexterity saving throw, or
+  has the Prone condition.
+
+### After the Boil
+
+| What happened | Renown |
+|---|---|
+| Each colonist saved | +1 with that colonist's side (at most +2 with each side) |
+| The two children saved | Both sides hear of it. The children's families never forget it. |
+| A colonist died | Both sides blame the strangers a little, and the Tey folk blame the Light. −1 with the Tey folk. |
+
+When the party tells Hythe about the Boil, the Tey folk go to the Well that
+same night to sing, and Elspeth Flett asks to see the party. "She's waking,"
+she says. "You did this. Or your ship did. Or the Corrin men did. It doesn't
+matter who. She's waking." She is not angry. She is frightened.
+
+> **The cube at the Kettles**
+>
+> - **A storm sign:** a Long Rest in the open at the Kettles (the colonists
+>   have no shelter here). A fire on the bare ground of the bowl.
+> - **Turn the cube:** the Boil, the first day that the party spends here.
+> - **No sign:** the casting of the lens. The Oven is the island's own
+>   fire.
+
+---
+
+## The Ribs
+
+*Inner ring. Levels 3 to 4. Three hours from the Kettles by a path, six from
+Hythe. The main scene is "The Fog in the Valleys".*
+
+West of the Kettles, the turf gives way to long bare ridges of grey stone,
+one after another, like waves frozen in place. Between them lie narrow
+valleys of bog and black water, and every evening the fog comes up out of
+the bogs and fills them to the brim. The colonists named the ridges the
+Ribs because they look like the ribs of a great beast.
+
+The Ribs are a journey and a place at once. The party must cross them to
+reach the wreck of the *Morning Star*. Run them as the journey of the
+inner ring: hard walking, fog, the lice, and the stone.
+
+> The turf thins and stops, and the stone begins. It is grey and ridged and
+> pitted, like the skin of an old hand, and strangely smooth between the
+> pits. It is warm in the sun and cold in the shade. Nothing grows on it
+> but a grey crust of lichen, and in places even the lichen has been
+> scraped away in long pale tracks.
+>
+> Ahead, ridge after ridge runs north to south across your way, each one a
+> little higher than the last. And on the highest one, miles away, small
+> and dark against the sky, there is a ship.
+
+### Crossing the Ribs
+
+The party must cross four ridges and three bog valleys to reach the wreck.
+It takes about 3 hours from the Kettles in good weather.
+
+- **The ridges** are bare stone, 50 to 100 feet high, with slopes as steep
+  as a roof. Climbing a ridge needs no check in dry weather. In rain or
+  fog, each character makes a DC 10 Strength (Athletics) check for each
+  ridge, or slides back down and takes 3 (1d6) Bludgeoning damage.
+- **The valleys** are bog and black water: Difficult Terrain. The water is
+  warm. A character who wades through a valley comes out with **Mire
+  Leeches** on their legs (no attack: they come off with salt or a flame on
+  a stone, and they cost 1 Hit Point each).
+- **The fog** fills the valleys each evening, from dusk until an hour after
+  dawn. In the fog, the guide's Navigation DC is 15, and the party cannot
+  see the ship.
+- **Shelter.** Under the third ridge, on its east side, there is a dry
+  hollow where the stone overhangs: the Pocket. Old ashes on a hearth stone
+  show that the men of the *Speedwell* camped here in the year 1 of the
+  Landing. It counts as a shelter: a Long Rest here gives no storm sign.
+  Thomas Spence knows it. Without him, the guide finds it with a DC 13
+  Wisdom (Survival) check.
+
+### The stone
+
+The stone of the Ribs is not like the stone of the coast. A character who
+examines it closely sees things that nobody in Hythe has thought about:
+
+- **The pits** are in rows, like the pores of skin, or the plates of a
+  shell.
+- **The barnacles.** High on the ridges, under the lichen, there are
+  barnacles: dead, white, and very old. A DC 10 Intelligence (Nature) check
+  knows that barnacles grow only in the sea. These are three hundred feet
+  above it.
+- **The pale tracks** where the lichen is scraped away are the feeding
+  tracks of the Rib Lice. Something here eats the dead crust of the stone.
+- **The cut.** A character who cuts into the stone with an axe or a pick
+  (a DC 12 Strength check; the stone is tough, like old horn) finds that a
+  hand's depth under the crust, it is not stone at all. It is grey and
+  dense and fibrous, and from the cut, very slowly, comes a warm, dark
+  water that smells of the sea. The cut does not close. In the morning, it
+  has a crust over it.
+
+This is a clue, and it is the hardest one to see past. The stone is hide.
+
+> **GM tip:** If a player cuts the stone, describe it plainly and let the
+> table go quiet. Do not add anything. If somebody says "it's bleeding",
+> say "It's warm." That is enough.
+
+The cut gives a storm sign. The island does not like it.
+
+### The Fog in the Valleys
+
+**This is the main scene of the Ribs.** It happens in the second or third
+valley, in the fog: at dusk on the way in, or at dawn on the way out.
+
+> The fog comes up out of the bog like milk filling a bowl. In a minute,
+> you cannot see the ridge you came down. In two, you cannot see each
+> other's faces at arm's length. The black water at your knees is warm.
+>
+> Somewhere to your left, something clicks. Then something to your right
+> answers it.
+
+The lice hunt in the fog. Several **Rib Lice** come at the party from all
+sides, and in the deepest part of the bog, a **Quagmire Ooze** waits,
+slow and warm, for anything that falls.
+
+{{statblock: Rib Louse}}
+
+{{statblock: Quagmire Ooze}}
+
+| Party size | Monsters | XP |
+|---|---|---|
+| 4 characters | 1 Quagmire Ooze, 4 Rib Lice | 850 |
+
+> **Scaling:** This is a Moderate fight for level 3 (225 XP for each
+> character).
+>
+> - **3 characters (675 XP):** 1 Quagmire Ooze, 2 Rib Lice (650 XP).
+> - **4 characters (900 XP):** as in the table.
+> - **5 characters (1,125 XP):** 1 Quagmire Ooze, 6 Rib Lice (1,050 XP).
+> - **6 characters (1,350 XP):** 2 Quagmire Oozes, 4 Rib Lice (1,300 XP).
+
+### Running the Fog
+
+- **The fog** is Heavily Obscured beyond 10 feet. The lice have Blindsight
+  and Advantage on Stealth in fog. A light does not help: the fog throws it
+  back. A loud noise does: a character who shouts, rings a bell, or blows a
+  horn lets each ally know where everybody is.
+- **The bog** is Difficult Terrain and the water is 2 feet deep. A Small
+  character wades in it up to the waist and has Disadvantage on attack
+  rolls with heavy weapons.
+- **The lice grapple.** A louse that grapples a character tries to drag it
+  away into the fog, 15 feet each round. Its allies lose sight of it.
+- **The ooze** lies in the deepest water, in the middle of the valley. It
+  moves toward the warmest creature that it can sense: a character with a
+  fire, or a character with a **Kettle Stone**.
+- **They flee** when half of them are dead. The lice are animals. They want
+  to eat, not to die.
+
+A character who harvests a dead louse gets **louse shell** (see "The
+materials of the island"). Its shell has no barnacle, no weed, and no salt
+on it. Whatever it is, it is not a creature of the sea.
+
+> **The cube on the Ribs**
+>
+> - **A storm sign:** a Long Rest in the open on the Ribs, outside the
+>   Pocket. A cut in the stone. A fire on the bare stone.
+> - **Turn the cube:** none.
+> - **No sign:** a Long Rest in the Pocket.
+
+---
+
+## The Wreck of the *Morning Star*
+
+*Inner ring. Levels 3 to 4. On the highest ridge of the Ribs, about 3 hours
+from the Kettles. The main scene is "The Hold".*
+
+High on the last ridge of the Ribs, three miles from the nearest shore and
+three hundred feet above the sea, lies the flagship of the old fleet. She
+has lain here for three hundred and sixty years. Nobody has been inside her
+since the year of the Landing. She holds Captain Gale's own records, the
+spare mirror of the great lamp, and the plainest words anybody ever wrote
+about the night that the island rose.
+
+> You come over the crest of the last ridge, and there she is, a stone's
+> throw away. A great ship, a hundred and twenty feet long, sitting almost
+> upright on the bare grey stone, as if somebody set her down here with
+> care. Her masts are gone. Her deck sags in the middle. Grey lichen covers
+> her from keel to rail, and the carving of her stern, a gilded star, still
+> shows through it in places.
+>
+> She has not rotted. She should have. She sits in a long groove in the
+> stone that fits her keel exactly, like a ship in a cradle. Or a saddle.
+>
+> The wind blows across the ridge, and the old ship creaks, all along her
+> length, like a sleeper turning over.
+
+### The wreck
+
+- **The groove.** The ship's keel sits in a groove of the stone that fits
+  it exactly, three feet deep, as long as the ship. The stone round the
+  groove is smooth and raised, like an old scar. A DC 12 Intelligence
+  (Nature) check knows that the sea could not have cut it. A character who
+  thinks about it sees that the ship was not dropped here. The stone grew
+  round her.
+- **The deck.** The main deck sags in the middle and has fallen into the
+  hold in two places. The rest holds a careful character. A character who
+  walks on the sagging middle makes a DC 10 Dexterity saving throw, or
+  falls 15 feet into the hold.
+- **The great cabin.** The captain's cabin, at the stern, under the gilded
+  star. Its door is shut and swollen, and needs a DC 12 Strength check to
+  open.
+- **The hold.** Dark, dry, and deep. The Louse Mother nests here.
+- **The forecastle.** The crew's quarters, at the bow. Six skeletons lie in
+  their hammocks, as if asleep. They were the crew who stayed aboard on the
+  night of the Landing. They died of the cold in the first winter, rather
+  than leave the ship.
+
+### Kit Hocking
+
+If Kit Hocking knows that Captain Gale's notebook is here (from the grave
+robbers on Founders' Hill, or because the party told him), he gets here
+first, with two young Corrin men. The party finds them on the deck, trying
+to force the door of the great cabin. Kit is delighted to see the party,
+and very nervous. "Have you heard it creak? It creaks like it's alive."
+
+Kit wants the notebook, to prove that the Light works and that the Tey folk
+are wrong. Let him come along. If the party lets him read the log (below),
+he is very quiet afterward. He says: "So the Tey are right?" Then: "No.
+The Captain lit the Light every night for nineteen years and nothing
+happened. So the Light doesn't wake her. Does it?"
+
+### The great cabin
+
+The great cabin is dry and dim, lit by the stern windows, which are thick
+with lichen. A table, a chair, a bunk, a chest. On the table, open, as if
+the captain stood up a moment ago: the log of the *Morning Star*. In the
+chest: charts, a notebook, and a brass spyglass wrapped in oiled cloth.
+
+- **The log.** The last entries are in Captain Humphrey Gale's hand, from
+  the voyage and the night of the Landing. Read the party this entry:
+
+> *The fortieth day. The Wall came at us at noon, standing on the sea like
+> a cliff, and the wind blew toward it from all sides, and I could not turn
+> the fleet. We went in at dusk.*
+>
+> *I write what I saw, and the men who saw it with me will swear it. In
+> the middle of the night the sea stood up under us. But it was not the
+> sea. It was the ground, coming up out of the sea, under our keel, and it
+> lifted us. I felt her take the ground, and the ground rose under her,
+> higher and higher, and the sea ran off it on every side like water off a
+> whale's back. When the morning came, we were here, and the sea was three
+> miles off.*
+>
+> *I do not know what land rises out of the sea in the night. I pray God
+> it does not go back down.*
+
+- **The notebook.** Captain Gale's own notebook of the fleet. It has the
+  pattern of the great lens, drawn more carefully than in the Landing Book,
+  with the glass maker's notes from Corrin. It also has a list of the
+  stores of the *Morning Star*, which says: "In the hold, aft, one great
+  mirror, spare, in its case, wrapped in wool."
+- **The charts.** Gale's chart of the voyage, with the fleet's course
+  marked day by day to the Wall. The island is drawn at the end of it, in
+  pencil, with a note: "Sounded at noon, day 41. No bottom at 100 fathoms,
+  a cable's length from the shore." A DC 12 Intelligence (Nature) check
+  knows that an island cannot rise from water that deep.
+- **The spyglass** is **Gale's Glass**.
+
+{{treasure: Gale's Glass}}
+
+This is a clue, and the clearest one in the inner ring. Captain Gale saw
+the island rise. He wrote it down, and nobody alive has read it.
+
+### The ship shifts
+
+The first time anybody goes into the hold, or the first time that a fight
+happens aboard, the ship moves.
+
+> Under your feet, the whole ship groans, long and deep, and tilts. Not a
+> lot. A hand's width. Then she settles back into her groove with a soft,
+> heavy sound, like a sigh. Grey dust drifts down from the deck beams.
+>
+> Then the ridge under her does it again, and this time you feel it in
+> your stomach: the whole of the Ribs lifting, very slowly, and setting
+> down.
+
+**Turn the cube.** The Grandam shifts in her sleep under the ship that she
+carries. Each character who is standing makes a DC 10 Dexterity saving
+throw, or has the Prone condition. Each loose thing in the ship slides a
+foot aft.
+
+This turn happens once, here, to most parties.
+
+### The Hold
+
+**This is the main scene of the wreck of the *Morning Star*.** The spare
+mirror is in the hold, aft. So is the nest.
+
+> The hold is dark and dry and very deep, and it smells of old wool and
+> something sour. Pale shapes lie on the floor between the barrels: old
+> shells, as big as shields. Shed skins.
+>
+> Then, in the dark at the back of the hold, something enormous and white
+> unfolds its legs, one after another, with a sound like dry sticks, and
+> turns toward the light.
+
+A **Louse Mother** has made her nest in the dark of the hold, among the
+stores of the fleet, with her young. She has lived here for longer than
+anybody in Hythe has been alive.
+
+{{statblock: Louse Mother}}
+
+| Party size | Monsters | XP |
+|---|---|---|
+| 4 characters | Louse Mother, 2 Rib Lice | 900 |
+
+> **Scaling:** This is a Moderate fight for level 3 (225 XP for each
+> character). The Brood Call of the Louse Mother brings two more lice, so
+> the fight feels harder than its budget.
+>
+> - **3 characters (675 XP):** Louse Mother alone (700 XP). She uses Brood
+>   Call only when she is Bloodied.
+> - **4 characters (900 XP):** as in the table.
+> - **5 characters (1,125 XP):** Louse Mother, 4 Rib Lice (1,100 XP).
+> - **6 characters (1,350 XP):** Louse Mother, 6 Rib Lice (1,300 XP).
+
+### Running the Hold
+
+- **The hold** is 30 feet wide, 60 feet long, and 15 feet high, full of old
+  barrels, crates, and the broken deck that fell in. Each barrel and crate
+  gives Half Cover. The two holes in the deck let in a little light: Dim
+  Light under each hole, and Darkness everywhere else.
+- **The lice climb.** The lice and the Louse Mother climb on the walls and
+  the beams, and come down on characters from above.
+- **The mirror.** The case of the spare mirror stands against the aft wall,
+  behind the Louse Mother. It is a wooden case 4 feet across, wrapped in
+  rotten wool. It weighs 80 pounds. Inside, the mirror is a dish of
+  polished speculum metal, perfect, as bright as the day it left Corrin.
+  If a creature in the fight is knocked Prone onto the case, the case
+  cracks but the mirror does not.
+- **The way out.** The ladder to the deck is at the bow end. A character
+  can also climb out through one of the holes in the deck (a DC 12
+  Strength (Athletics) check).
+
+### After the Hold
+
+The hold holds the stores of the *Morning Star*, three hundred and sixty
+years old and untouched:
+
+- **The spare mirror** of the great lamp, in its case. This is the mirror
+  of the Light.
+- Barrels of tar, still good. Coils of rope, still good. A crate of iron
+  nails, worth a fortune in Hythe.
+- A small chest with 40 gold suns of King Edwy, the pay of the crew, never
+  paid.
+- A crate of glass bottles, wrapped in straw, for the wine of the captain's
+  table. They are empty. They are 10 pounds of glass for the lens.
+
+The party can carry what it can. The Corrin men want everything, and the
+Tey folk want the ship left alone. Taking the mirror is the important
+part. Both sides hear of it.
+
+| What the party does | Renown |
+|---|---|
+| Brings the mirror to the Lamp Room | Corrin men +2 |
+| Brings Absalom the log of the *Morning Star* | Corrin men +1. Absalom reads it all night. In the morning, he is not sure of anything. |
+| Tells Elspeth Flett what the log says | Tey folk +1. "He saw her," says Elspeth. "The Captain saw her rise." |
+| Robs the dead in the forecastle | Tey folk −1, Corrin men −1 |
+
+> **The cube at the wreck of the *Morning Star***
+>
+> - **A storm sign:** a Long Rest in the open on the ridge. A fire on the
+>   bare stone.
+> - **Turn the cube:** the ship shifts, the first time anybody goes into
+>   the hold or fights aboard.
+> - **No sign:** a Long Rest inside the great cabin. The ship is a shelter.
+
+---
+
+## The Saint's Hearth
+
+*Inner ring. Levels 3 to 4. Five hours from Hythe by the path to the west.
+The main scene is "Fire on the Hearth", or "The Vigil".*
+
+The Saint's Hearth is where Saint Mawes lit his fire and the island moved.
+It is the holiest place of the Tey folk, a place that most Corrin men avoid
+and none admits to fearing. It is also the one place on the island where a
+person can feel the Grandam's heart.
+
+> The path climbs into the west of the island, over empty moor, and the
+> wind drops. Then, on a low rise, the turf ends in a round hollow, thirty
+> feet across, where nothing grows. The ground of the hollow is black and
+> soft as old ash. A thin rain is falling, and where it touches the black
+> ground, it steams.
+>
+> In the middle of the hollow stands a sun cross of driftwood, taller than
+> a man, hung with ribbons, shells, small carved boats, and locks of hair.
+> The ribbons do not move. There is no wind here at all.
+>
+> Round the rim of the hollow, the turf is worn bare in a ring, as if many
+> people have stood here, many times, and never stepped inside.
+
+### The hollow and the custom
+
+No Tey person ever steps into the hollow. They stand round the rim, in the
+worn ring. A character who steps into the hollow where a Tey person can see
+loses 3 renown with the Tey folk. A character who steps in alone and is not
+seen loses nothing, but the island notices: give a storm sign the first
+time.
+
+The gifts on the cross are the gifts of the Tey folk to the Grandam:
+ribbons for the living, locks of hair for the dead, and small carved boats
+for the drowned. To take one is a theft from the dead. The Tey folk would
+never forgive it.
+
+### The heartbeat
+
+A character who kneels at the rim and lays a hand flat on the black ground
+(this is allowed: the Tey folk do it), and stays silent and still for a
+minute, feels something. At first, nothing. Then, very deep, very slow, a
+single soft beat, like a great drum far underground. A minute later,
+another.
+
+One beat in a minute. A DC 10 Wisdom (Perception) check feels the first
+beat. After two minutes, no check is needed.
+
+This is a clue, and it is the most moving one. Something under the island
+has a heart. A character who has **Saint Mawes's Psalter** with them,
+or who has read its last lines, understands what the saint meant by "it
+sleeps".
+
+### The Vigil
+
+**If nothing else has happened here, this is the main scene of the Saint's
+Hearth.**
+
+On the evening of the party's visit, a group of Tey pilgrims arrives:
+eight or ten people, with Elspeth Flett if the party has 10 or more Tey
+renown, or with Thorfinn Harcus otherwise. They have come to stand round
+the Hearth in the dark and sing the dawn hymn, as they do on Saint Mawes's
+Day, because the Kettles boiled and the Well Keeper is afraid.
+
+They put out every light. They make a ring round the rim of the hollow.
+They do not mind if the party joins them, as long as the party carries no
+fire and does not step inside.
+
+> The last light goes out of the sky. Nobody lights a lantern. In the dark,
+> ten people take each other's hands round the rim of the black hollow,
+> and an old voice starts to sing, very softly, the way you sing to a child
+> who will not sleep.
+>
+> The others join in. It is a slow, plain hymn of the Morning Flame, the
+> kind that every chapel in old Ostrey once sang at dawn. Here, they sing
+> it in the dark.
+>
+> Under your feet, the ground is warm. And then, slowly, it is still.
+
+A party that stands the vigil with the Tey folk gains 1 renown with them.
+A character who keeps a hand on the ground during the hymn notices that
+the heartbeat, which was one beat in a minute, slows a little while they
+sing. It does not stop. It slows.
+
+The vigil finishes the site.
+
+> **Secret (chapter 3):** The hymn has no magic. What slows the heart is
+> the dark and the stillness. The Tey folk have kept the saint's way
+> without knowing what it is. Chapter 3 uses this.
+
+### Fire on the Hearth
+
+**If Kit Hocking comes here with fire, this is the main scene of the
+Saint's Hearth, in place of the Vigil.**
+
+Kit Hocking comes to the Hearth with fire if one of these things has
+happened:
+
+- His brother Sam died in the Night Watch at the Corrin Light.
+- He read the log of the *Morning Star* and decided that the Tey folk
+  are right, and that the only way to beat the Grandam is to make her move
+  on purpose, as the saint did, "and push the island toward home".
+- The party told him the Corrin telling of the legend in a way that he
+  took as a challenge.
+- The cube is on 16 or more, and the party has not visited this site. Kit
+  has run out of patience with old men.
+
+Kit comes with four young Corrin men, a barrow of dry peat, and a keg of
+seal oil. He means to build a great fire in the middle of the hollow, to
+prove that the Grandam is a tale or to wake her and get it over with. He
+does not know which. He is twenty, and he is grieving or frightened, and he
+has stopped thinking.
+
+The Well Watch has followed him. Erlend Linklater and three Well Watchmen
+arrive at the Hearth a few minutes after Kit, out of the dusk, with no
+light.
+
+> The young men have dragged the barrow to the rim of the hollow. Kit
+> Hocking stands in front of it with a lit torch in his fist, and his face
+> is white. "She's a story," he says. "She's a story the Tey tell their
+> children. I'll show you."
+>
+> Behind you, out of the dusk, four dark shapes come up the path. No
+> lanterns. Erlend Linklater's voice is very quiet. "Put it down, Kit.
+> Put it down, or I'll put you down."
+>
+> Kit laughs, and it is not a good laugh. He looks at you. "Well? Whose
+> side are you on?"
+
+### Running the standoff
+
+The party is between them. What it does decides the night.
+
+- **Talk Kit down.** A DC 13 Charisma (Persuasion) check, with Advantage if
+  the party saved his brother, or lays the name board of the *Hopewell*
+  in front of him, or shows him the saint's words. On a success, Kit drops
+  the torch on a stone, and sits down on the turf, and cries.
+- **Talk Erlend down.** He will wait, if the party asks him to and has 3 or
+  more Tey renown. He will not let the fire be lit.
+- **Take the torch.** A character within reach can grab it: a contest of
+  Strength (Athletics) against Kit's Athletics. Kit's lads then go for the
+  barrow.
+- **Do nothing.** Erlend's people attack Kit's people, and Kit throws the
+  torch into the peat.
+
+If the fire is lit, it takes 2 rounds to catch. On the third round, it
+burns.
+
+{{statblock: Bandit}}
+
+The young Corrin men use the **Bandit** statblock. They fight with boat
+hooks and fists. Kit's statblock is in "Hythe". Erlend's is in "The Corrin
+Light". The Well Watch fights the Corrin men, not the party, unless the
+party fights it.
+
+### If the fire burns
+
+> The peat catches with a roar, and the oil flares up, and for one moment
+> the hollow is bright as day, and the young men cheer.
+>
+> Then the ground screams.
+>
+> It is not a sound. It is a feeling, in your bones, in your teeth. The
+> whole hollow heaves up under the fire, three feet, four, and the black
+> ash cracks open in long lines that glow red from below. Steam roars out
+> of the cracks. The sun cross tilts and falls. And out of the cracks, all
+> round the rim, pale flat shapes with too many legs come pouring, as lice
+> pour off a dog that is scratching.
+
+**Turn the cube.** The Grandam feels the fire on her thin, burned skin, as
+she felt the saint's. The ground of the hollow heaves for 3 rounds. **Rib
+Lice** pour out of the cracks and attack everything in reach: Corrin men,
+Tey folk, and the party.
+
+| Party size | Monsters | XP |
+|---|---|---|
+| 4 characters | 6 Rib Lice, and Kit's lads fight on as Bandits | 600 and more |
+
+> **Scaling:** This is a Moderate fight for level 3 (225 XP for each
+> character), with Kit and his lads and the Well Watch in it too. The lice
+> attack the nearest creatures, whoever they are.
+>
+> - **3 characters (675 XP):** 4 Rib Lice (400 XP), and Kit with 2 Bandits.
+> - **4 characters (900 XP):** as in the table, and Kit with 4 Bandits.
+> - **5 characters (1,125 XP):** 7 Rib Lice (700 XP), and Kit with 4
+>   Bandits.
+> - **6 characters (1,350 XP):** 9 Rib Lice (900 XP), and Kit with 4
+>   Bandits.
+
+- **The heave.** While the ground heaves, each creature in the hollow at the
+  start of its turn makes a DC 12 Dexterity saving throw, or has the Prone
+  condition and takes 3 (1d6) Fire damage from the steam.
+- **Putting out the fire.** The fire fills a 10-foot square. A character
+  can smother 5 feet of it as an action: a DC 10 Strength check with a
+  cloak, earth, or turf. Erlend uses his Smother on it each turn. When the
+  whole fire is out, the heaving stops at the end of that round, and the
+  lice flee back into the cracks.
+- **The young men.** When the ground heaves, Kit's lads stop fighting and
+  run, unless somebody holds them. Kit does not run. He stands and stares
+  at what he did.
+
+### After the fire
+
+| What happened | Renown |
+|---|---|
+| The party stopped the fire before it burned | Tey folk +2. This completes the promotion task of the Tey folk. Corrin men −1, unless the party talked Kit down kindly. |
+| The fire burned, and the party put it out | Tey folk +2. Corrin men +1, for saving Kit's lads. |
+| The fire burned, and somebody died | −2 with the side of the dead. The Moot meets in a fury. Give a storm sign. |
+| The party helped Kit light it | Tey folk −5, and they are an enemy. Corrin men +1 from the young men, −2 from the old. |
+
+Whatever happened, Kit Hocking is changed. If he lives, he never doubts the
+Grandam again. He becomes quiet, and much more careful, and he asks the
+party, in private, what it thinks the Light will do to her.
+
+> **The cube at the Saint's Hearth**
+>
+> - **A storm sign:** a character steps into the hollow for the first time.
+>   A Long Rest in the open here. A death at the Hearth.
+> - **Turn the cube:** the fire burns on the Hearth.
+> - **No sign:** the Vigil.
+
+---
+
+## The Grandam's Well
+
+*Inner ring. Three hours from Hythe by the well path. The party can find
+it and scout it in this chapter. It is not a site for the level points.
+Chapter 3 tells what lies below.*
+
+In a fold of the hills between the Ribs and the south coast, a round shaft
+goes down into the ground: the Grandam's Well, the holy place of the Tey
+folk. Warm air comes up out of it, and goes back down, every few minutes.
+
+The party can come here, look, and learn. It cannot go far down. Chapter 3
+owns what happens at the bottom.
+
+> The well path ends in a fold of green hills, at a low round wall of white
+> stones under a roof of turf on driftwood posts. Inside the wall, a shaft
+> twelve feet across goes down into the dark, with walls of wet black
+> stone.
+>
+> As you stand at the wall, warm air rises out of the shaft and passes over
+> your face, slow and damp, smelling of the sea. It goes on for a long
+> time. Then it stops. Then, slowly, the air goes back down into the dark.
+
+### The Well Watch
+
+The Well Watch keeps outsiders away from the Well. By day, two Well
+Watchmen sit by the wall. At dusk on the day of the weekly hymn, the Tey
+folk come here with the Well Keeper, and Erlend Linklater comes too.
+
+- **With 10 Tey renown,** the party can come to the Well at dusk with the
+  Tey folk, sing the hymn, and drop a gift. The Well Watch lets it look as
+  long as it likes.
+- **With less,** the watchmen ask the party to go. They do not fight unless
+  the party tries to pass. A party that waits for night can try to sneak
+  past: a DC 13 Dexterity (Stealth) check against the watchmen.
+- **By force,** the party fights two **Well Watchmen**, and then has the
+  whole Tey bank as an enemy. Do not let this be easy.
+
+### What the party learns
+
+- **The breath.** The air rises out of the shaft for about a minute, and
+  goes back down for about a minute. A character who has felt the breathing
+  ground of the Kettles, or watched the Wall from Gull Rock, knows that this
+  is the same rhythm. This is a clue.
+- **The gift ledge.** Sixty feet down, on a ledge round the shaft, a heap of
+  things catches the light of a lantern: eggs, ribbons, green copper bits,
+  pieces of brass, and curved pieces of thick glass. They are the gifts of
+  three hundred years, and among them lie the last pieces of the lens of the
+  Corrin Light, which the Tey folk dropped here after the Drowning. They are
+  10 pounds of glass.
+- **Below the ledge.** The shaft goes down farther than any rope in Hythe.
+  A dropped stone falls for a long time and makes no sound at the end, or
+  a soft one, as a stone makes when it lands on something that gives.
+
+To climb down to the ledge needs a rope and a DC 12 Strength (Athletics)
+check. To take the glass from the ledge is a theft from the Grandam: the
+party loses 5 renown with the Tey folk, and it is a storm sign. To go
+farther down now, the party must climb against the warm breath, which comes
+up hard enough at the bottom of each breath to tear a climber off the
+wall: a DC 15 Strength (Athletics) check each minute, or fall back to the
+ledge and take 10 (3d6) Bludgeoning damage. Each time somebody tries, the
+Well Watch hears. Let the players know that this is a place for later.
+
+> **The cube at the Grandam's Well**
+>
+> - **A storm sign:** the glass taken from the ledge. A fight at the Well.
+>   A fire inside the white wall.
+> - **Turn the cube:** none.
+
+---
+
+## The End of the Island
+
+The island ends when the cube reaches 64. It may come at the best moment or
+the worst. Finish the scene that the party is in, then read the start of
+chapter 3.
+
+If the party has done all that it wants, or has seen each site of the inner
+ring, and the cube is still below 64, the storm comes on its own. Turn the
+cube once at each Long Rest until it reaches 64 (see "The Pace" in How to
+Run This Book). Show the players why: the colonists bring in their boats
+and tie down their roofs, the Tey folk sing at the Well all night, and the
+Corrin men count their oil.
+
+### What chapter 3 needs to know
+
+Before you start chapter 3, write down where the party stands. Chapter 3
+uses each of these.
+
+| Question | Where it came from |
+|---|---|
+| Is the Light ready? Which parts does it have: lamp, mirror, lens, oil, roof? | "Mending the Corrin Light" and the sites |
+| The party's renown with the Corrin men and with the Tey folk, and whether either side is an enemy | "The Moot" and each site |
+| Does the party have Saint Mawes's Psalter? | Founders' Hill |
+| Did the ghost of John Pascoe rest? Who saw the name board of the *Hopewell*? | The Boneyard |
+| Does Absalom Pascoe know that the Light works only in the storm season? | Hythe (Nathaniel's line), the *Morning Star* (the log) |
+| Has the party seen Margery Nance's boat? | Hythe |
+| Has the party found and scouted the Grandam's Well? | The Grandam's Well |
+| Is Kit Hocking alive, and what does he believe now? | The Corrin Light, Founders' Hill, the Saint's Hearth |
+| Which clues has the party found, and what does it believe the island is? | "Where the Parts and the Clues Are" |
+
+A party that reaches chapter 3 with no lens, or no friends, or no idea what
+the island is, still has a full last chapter. It has fewer choices, and the
+choices are harder. That is the price of the storm.
+
+---
+
+## Rewards
+
+The characters can end this chapter with these things.
+
+- **Saint Mawes's Psalter**, from the saint's tomb on Founders' Hill. It is
+  an Uncommon magic item. It matters in chapter 3.
+- **Gale's Glass**, from the great cabin of the *Morning Star*. It is an
+  Uncommon magic item.
+- **Pascoe's Compass**, from the wreck of the *Hopewell* in the Boneyard. It
+  is an Uncommon magic item.
+- **The Egg-Climber's Rope**, from Thorfinn Harcus at Gull Rock, for 10
+  renown with the Tey folk. It is a Common magic item.
+- **The Kettle Stone**, from a dry pool by the Oven at the Kettles. It is a
+  Common magic item.
+- **The parts of the Corrin Light:** the lamp, the mirror, the lens, the
+  oil, and the roof. They are not treasure. They are the way home, maybe.
+- **Money and goods:** 40 gold suns of King Edwy from the hold of the
+  *Morning Star*, and Amos Tulloch's last gold sun, if Ola is safe. A gold
+  sun is worth 10 GP over the Wall, and a fortune in Hythe. The iron, tar,
+  and rope of the *Morning Star* buy anything that the colony has.
+- **Friends:** whatever the party earned. Inga Halcrow, if a character
+  believed her. Nathaniel Gale, if the party told him what it found. Ola
+  Drever, who wants to come with the party, wherever it goes. Thorfinn
+  Harcus, if the party climbed his rock. John Pascoe, at rest, if the party
+  laid his board on Founders' Hill.
+
+### Level up
+
+The characters go up two levels in this chapter, at the next rest after
+each level point.
+
+- **Level 3:** after the party finishes 2 sites of the outer ring. Hythe
+  counts as one site, once, when the Moot ends.
+- **Level 4:** after the party finishes the first 2 sites of the inner ring.
+- **Level 5:** when chapter 3 starts, whatever level the characters are.
+  A character at level 3 goes up two levels.
+
+Tell the players at level 4: "You know this island now. You know what you
+want to take from it, and what you want to leave. The storm is coming. Get
+ready."
