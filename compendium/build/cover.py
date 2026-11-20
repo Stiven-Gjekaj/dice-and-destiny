@@ -176,7 +176,7 @@ def emblem(name, ink, acc, ground):
              f'<circle cx="75" cy="75" r="66" fill="none" stroke="{acc}" stroke-width=".5"/>')
     if name == "player":  # a sword behind a shield: the hero
         # The sword from the top: the pommel, the wrapped grip, the crossguard, then the blade under the guard.
-        art = (f'<path d="M71 41 H79 V112 L75 124 L71 112 Z" fill="{ink}"/>'
+        art = ('<g transform="translate(0 6)">' f'<path d="M71 41 H79 V112 L75 124 L71 112 Z" fill="{ink}"/>'
                f'<line x1="75" y1="44" x2="75" y2="108" stroke="{ground}" stroke-width=".8"/>'
                f'<circle cx="75" cy="18" r="4" fill="{acc}"/>'
                f'<path d="M72.3 22 H77.7 L78.3 35 H71.7 Z" fill="{acc}"/>'
@@ -185,7 +185,8 @@ def emblem(name, ink, acc, ground):
                f'<path d="M52 50 H98 V78 C98 97 88 108 75 116 C62 108 52 97 52 78 Z" fill="{ground}" stroke="{acc}" stroke-width="1.6"/>'
                f'<path d="M57 55 H93 V78 C93 94 85 103 75 110 C65 103 57 94 57 78 Z" fill="none" stroke="{acc}" stroke-width=".5"/>'
                f'<path d="M60 70 L75 86 L90 70" fill="none" stroke="{ink}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'
-               f'<path d="M60 84 L75 100 L90 84" fill="none" stroke="{ink}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>')
+               f'<path d="M60 84 L75 100 L90 84" fill="none" stroke="{ink}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'
+               '</g>')
     elif name == "gm":  # the die of the game master, drawn in lines
         T, UR, LR, B, LL, UL = (75, 20), (121, 46), (121, 104), (75, 130), (29, 104), (29, 46)
         ct, cl, cr = (75, 50), (46, 99), (104, 99)
@@ -199,26 +200,28 @@ def emblem(name, ink, acc, ground):
         rays = "".join(f'<line x1="{75 + 36 * cos(a):.2f}" y1="{70 + 36 * sin(a):.2f}" x2="{75 + (36 + l) * cos(a):.2f}" '
                        f'y2="{70 + (36 + l) * sin(a):.2f}" stroke="{acc}" stroke-width="1.3" stroke-linecap="round"/>'
                        for a, l in ((radians(d), 12 if i % 2 == 0 else 7) for i, d in enumerate(range(195, 346, 25))))
-        art = (rays + f'<circle cx="75" cy="27" r="4.5" fill="none" stroke="{acc}" stroke-width="1.6"/>'
+        art = ('<g transform="translate(0 10)">' + rays + f'<circle cx="75" cy="27" r="4.5" fill="none" stroke="{acc}" stroke-width="1.6"/>'
                f'<path d="M62 42 H88 L82 32 H68 Z" fill="{acc}"/>'
                f'<rect x="61" y="42" width="28" height="56" rx="2" fill="{ground}" stroke="{ink}" stroke-width="2.4"/>'
                f'<path d="M75 52 C83 62 83 75 75 86 C67 75 67 62 75 52 Z" fill="{ink}"/>'
                f'<path d="M75 64 C78 69 78 75 75 80 C72 75 72 69 75 64 Z" fill="{acc}"/>'
                f'<line x1="68" y1="44" x2="68" y2="96" stroke="{acc}" stroke-width=".6"/>'
                f'<line x1="82" y1="44" x2="82" y2="96" stroke="{acc}" stroke-width=".6"/>'
-               f'<path d="M57 98 H93 L88 108 H62 Z" fill="{acc}"/>'
-               f'<line x1="40" y1="116" x2="110" y2="116" stroke="{acc}" stroke-width="1.2"/>')
+               f'<path d="M57 98 H93 L88 108 H62 Z" fill="{acc}"/></g>')
     else:  # western-sea: a lighthouse on a rock over the waves, with one star
         # Each wave is shorter than the one above it, so that it stays inside the inner ring.
         waves = "".join(f'<path d="M{75 - 6 * n} {y} q6 -4 12 0' + " t12 0" * (n - 1) + f'" fill="none" stroke="{ink}" '
                         f'stroke-width="1.4" stroke-linecap="round"/>' for n, y in ((6, 110), (5, 118), (4, 126)))
-        art = (f'<path d="M75 44 L36 34 L36 42 Z" fill="{acc}"/><path d="M75 44 L114 34 L114 42 Z" fill="{acc}"/>'
+        shine = "".join(f'<line x1="{75 + side * 10}" y1="{44.5 + dy * .25:.2f}" x2="{75 + side * 32}" y2="{44.5 + dy:.2f}" '
+                        f'stroke="{acc}" stroke-width="{w}" stroke-linecap="round"/>'
+                        for side in (-1, 1) for dy, w in ((-7, .8), (0, 1.3), (7, .8)))
+        art = ('<g transform="translate(75 75) scale(.84) translate(-75 -76)">' + shine +
                f'<path d="M64 100 L69 50 H81 L86 100 Z" fill="{ink}"/>'
                f'<path d="M66.6 74 H83.4 L84.2 82 H65.8 Z" fill="{acc}"/><path d="M68.2 58 H81.8 L82.4 64 H67.6 Z" fill="{acc}"/>'
                f'<rect x="68" y="39" width="14" height="11" fill="{ground}" stroke="{acc}" stroke-width="1.4"/>'
                f'<circle cx="75" cy="44.5" r="2.6" fill="{acc}"/><path d="M65 39 L85 39 L75 30 Z" fill="{acc}"/>'
                f'<path d="M48 104 C56 96 94 96 102 104 Z" fill="{acc}"/>' + waves
-               + f'<path d="M108 22 L110 27 L115 29 L110 31 L108 36 L106 31 L101 29 L106 27 Z" fill="{ink}"/>')
+               + f'<path d="M104 18 L105.6 22.4 L110 24 L105.6 25.6 L104 30 L102.4 25.6 L98 24 L102.4 22.4 Z" fill="{ink}"/></g>')
     return rings + art
 
 
